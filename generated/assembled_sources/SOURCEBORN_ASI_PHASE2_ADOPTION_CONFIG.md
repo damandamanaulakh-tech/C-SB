@@ -997,6 +997,7 @@ Connected edges show Path Truth.
 Both are needed.
 
 ---
+
 # 16. UNIVERSAL NODE RECORD
 
 No important node may remain an unexplained noun.
@@ -1996,6 +1997,7 @@ reference_sequence_ids
 # 35. COMPRESSION ↔ EXPANSION
 
 Compression:
+
 ```text
 LARGE CLOSED PATH
 ↓

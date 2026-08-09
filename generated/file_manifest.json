@@ -46,8 +46,8 @@
   },
   {
     "path": "tools/assemble_sources.py",
-    "sha256": "af9e74bde0d067ac4793f21fda5d6e542c1243234c1af0b18ea6f0a24de8bd16",
-    "size_bytes": 1973
+    "sha256": "a576db22b82c3f77869e54eafcd1f649d24fbb8170384f861d4ad931fed45f4a",
+    "size_bytes": 2249
   },
   {
     "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",

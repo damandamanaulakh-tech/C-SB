@@ -4,9 +4,13 @@
     "source_file": "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
     "assembled_path": "generated/assembled_sources/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
     "missing_parts": [],
-    "sha256": "817b46b8df4ddcd0e53c9d7341901f83bf5d8720d2a5f50861a570335f65d63f",
+    "sha256": "c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26",
     "expected_sha256": "c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26",
-    "hash_match": false,
+    "hash_match": true,
+    "insert_after_parts": {
+      "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md": "\n",
+      "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md": "\n"
+    },
     "note": null
   },
   {
@@ -17,6 +21,7 @@
     "sha256": "df6a2dd82e62a642641105fd6eaeb47715ece5503201d4be109dfaee5603be54",
     "expected_sha256": null,
     "hash_match": null,
+    "insert_after_parts": {},
     "note": "GitHub text writes normalize line endings; source hash is retained for custody. Concatenate parts in order to reconstruct text content."
   },
   {
@@ -27,6 +32,7 @@
     "sha256": "06bce321225f75636a88c4a24f76efaf1d3ad20076afb4bd83fcae532249b515",
     "expected_sha256": "06bce321225f75636a88c4a24f76efaf1d3ad20076afb4bd83fcae532249b515",
     "hash_match": true,
+    "insert_after_parts": {},
     "note": null
   },
   {
@@ -37,6 +43,7 @@
     "sha256": "92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be",
     "expected_sha256": "92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be",
     "hash_match": true,
+    "insert_after_parts": {},
     "note": null
   }
 ]

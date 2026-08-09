@@ -4,10 +4,11 @@
 
 - Manifest: `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json`
 - Assembled: `generated/assembled_sources/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md`
-- SHA-256: `817b46b8df4ddcd0e53c9d7341901f83bf5d8720d2a5f50861a570335f65d63f`
+- SHA-256: `c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26`
 - Expected: `c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26`
-- Hash match: `False`
+- Hash match: `True`
 - Missing parts: `[]`
+- Boundary insertions: `{'SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md': '\n', 'SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md': '\n'}`
 
 ## Pasted text.txt
 
@@ -17,6 +18,7 @@
 - Expected: `None`
 - Hash match: `None`
 - Missing parts: `[]`
+- Boundary insertions: `{}`
 
 ## Universal_Sequence_Machine_Architecture_v1.md
 
@@ -26,6 +28,7 @@
 - Expected: `06bce321225f75636a88c4a24f76efaf1d3ad20076afb4bd83fcae532249b515`
 - Hash match: `True`
 - Missing parts: `[]`
+- Boundary insertions: `{}`
 
 ## SEQUENCE_TESTS_OVERLAY.svg
 
@@ -35,3 +38,4 @@
 - Expected: `92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be`
 - Hash match: `True`
 - Missing parts: `[]`
+- Boundary insertions: `{}`
