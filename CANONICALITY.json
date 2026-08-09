@@ -21,18 +21,30 @@
     "status": "ACTIVE",
     "opened_after_phase1_baseline_push": true,
     "goal": "Construct/adopt Human, AI, Wisdom/Holy-Book and ASI registries into the Universal Sequence grammar, bind them to ASI Nodes/Node Brains, and close each batch through R-F-R without rewriting native source truth.",
+    "primary_brain_engine_source": {
+      "adoption_record": "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "artifact": "ASI_Brain_Engine_Combined_Corpus_v1.xlsx",
+      "status": "PRIMARY_OPERATIONAL_SOURCE_APPROVED_USER_EVIDENT_CONTROLLED_TESTING",
+      "architecture": "10 segments -> 240 master containers -> 3,072 operational parameters + 75 bounded engines",
+      "source_rule": "User approval/evident status controls Sourceborn testing authority but remains separate from independent external verification."
+    },
     "workstreams": {
       "P2_HUMAN": {
         "mode": "ADOPTION_AND_MAPPING",
-        "native_shape": "10 Segments -> 80 Containers -> 2,560 approved parameters",
-        "full_native_registry_status": "REQUIRED_NOT_PRESENT_IN_CURRENT_LOCAL_PAYLOAD"
+        "native_shape": "10 Segments -> 80 canonical Human Containers -> 2,560 canonical Human parameters",
+        "source_status": "AVAILABLE_IN_UPLOADED_APPROVED_MERGED_AND_COMBINED_CORPUS",
+        "repo_materialization_status": "FULL_2560_ROW_NATIVE_REGISTRY_NOT_YET_TEXT_MATERIALIZED_IN_REPO",
+        "rule": "Do not invent or rename Human IDs; source workbook is now available for exact extraction."
       },
       "P2_AI": {
-        "mode": "NATIVE_CONSTRUCTION",
-        "registry": "registries/ai/AI_RUBRIC_V0.json",
-        "status": "DRAFT_FOR_REVIEW",
-        "runtime_rule": "No LLM API, Transformer or next-token dependency is assumed. Existing AI systems are reverse-engineering evidence only.",
-        "legacy_ai_capability_map_status": "REVIEW_ONLY"
+        "mode": "SOURCE_ADOPTION_PLUS_NATIVE_CONSTRUCTION",
+        "semantic_rubric": "registries/ai/AI_RUBRIC_V0.json",
+        "approved_ai_only_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+        "ai_capability_family_source_status": "AI-CAP-001..074 APPROVED USER/EVIDENT FOR CONTROLLED TESTING IN MERGED SOURCE",
+        "legacy_human_crosswalk_status": "REVIEW_ONLY_MAPPING_NOT_NATIVE_AUTHORITY",
+        "provisional_container_crosswalk": "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+        "provisional_container_crosswalk_status": "SOURCE_SUPPORTED_REVIEW_CROSSWALK_NOT_NATIVE_AUTHORITY",
+        "runtime_rule": "No LLM API, Transformer or next-token dependency is assumed. Existing AI systems are evidence/reverse-engineering sources, not Sourceborn runtime requirements."
       },
       "P2_WISDOM": {
         "mode": "SOURCE_PRESERVATION_PLUS_DERIVED_WISDOM",
@@ -42,12 +54,25 @@
         "hard_separation": "SOURCE_TEXT != SOURCE_CLAIM != INTERPRETATION != WISDOM_OBJECT != LAW_OR_GUIDANCE"
       },
       "P2_ASI": {
-        "mode": "META_GOVERNANCE_CONSTRUCTION",
-        "registry": "registries/asi/ASI_RUBRIC_V0.json",
+        "mode": "META_GOVERNANCE_PLUS_ENGINE_ORCHESTRATION",
+        "semantic_rubric": "registries/asi/ASI_RUBRIC_V0.json",
+        "engine_library": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
+        "operational_container_registry": "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
+        "operational_spine": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+        "generated_operational_subparameters": "generated/registry_views/operational_subparameters_2593_3072_v1.json",
         "asi_node_registry": "registries/asi/asi_node_registry.json",
         "node_brains_18_21": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
-        "status": "DRAFT_FOR_REVIEW"
+        "provisional_container_crosswalk": "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+        "provisional_container_crosswalk_status": "GOVERNANCE_CROSSWALK_NOT_NATIVE_AUTHORITY",
+        "status": "ACTIVE_SOURCE_ADOPTION_AND_MAPPING"
       }
+    },
+    "brain_engine_operational_layer": {
+      "source_containers": "CON-161..CON-240",
+      "source_parameters": "SB-ASI-P2593..SB-ASI-P3072",
+      "pattern": "8 operational elements repeated across 10 segments, 6 sub-parameters per container",
+      "mapping": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "status": "SOURCE_APPROVED_MAPPING_ACTIVE"
     },
     "multi_rubric_wiring": {
       "file": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
