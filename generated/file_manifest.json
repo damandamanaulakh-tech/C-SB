@@ -75,6 +75,11 @@
     "size_bytes": 1584
   },
   {
+    "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
+    "sha256": "3698787c4cbbdef76cf702e2669a1b6bf021f22850d6892ef1d2d62795376274",
+    "size_bytes": 3343
+  },
+  {
     "path": "machine/schemas/sourceborn.bundle.schema.json",
     "sha256": "d2653984d4ac568baf3e0d84501f4e0e4a0e3984e697ed28378fd4bc567f1f98",
     "size_bytes": 7385
