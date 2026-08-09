@@ -1,0 +1,38 @@
+{
+  "node_brain_id": "NB-TEMPLATE",
+  "asi_node_id": "ASI-NODE-XX",
+  "status": "TEMPLATE",
+  "local_scope": null,
+  "source_reader": {
+    "allowed_source_types": [],
+    "precedence_policy": "CANONICALITY.json + source precedence"
+  },
+  "state_interpreter": {},
+  "rubric_router": {
+    "allowed_registries": ["HUMAN", "AI", "ASI", "HOLY_BOOK", "SCIENCE", "PHYSICAL_SYSTEM", "OTHER"]
+  },
+  "activation_combiner": {},
+  "relation_reader": {},
+  "trigger_detector": {},
+  "threshold_evaluator": {},
+  "dependency_checker": {},
+  "barrier_checker": {},
+  "evidence_ledger": {},
+  "local_view_map": {},
+  "local_memory": {},
+  "error_detector": {},
+  "contradiction_register": {},
+  "sub_sequence_requester": {
+    "must_emit_contract": true,
+    "must_register_open_sequence": true
+  },
+  "closure_checker": {
+    "no_reopen": true,
+    "sequence_status_separate_from_entity_outcome": true
+  },
+  "return_packet_builder": {},
+  "read_permissions": [],
+  "write_permissions": [],
+  "allowed_tools": [],
+  "closure_responsibilities": []
+}
