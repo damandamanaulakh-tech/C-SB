@@ -90,17 +90,20 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-103": [
       "phase2/TASK_QUEUE.md",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-121": [
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-162": [
@@ -690,22 +693,27 @@
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-107": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-108": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-113": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-115": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-116": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
@@ -764,39 +772,51 @@
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-104": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-105": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-106": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-109": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-110": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-111": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-112": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-114": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-117": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-118": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-119": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-120": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-122": [
@@ -1885,6 +1905,7 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "tools/validate_repo.py"
     ],
     "AI-02": [
@@ -1899,21 +1920,24 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-04": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-05": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-06": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -1926,7 +1950,8 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-08": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -1940,14 +1965,16 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-10": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-11": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -1960,88 +1987,101 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-13": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-14": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-15": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-16": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-17": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-18": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-19": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-20": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-21": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-23": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-24": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_RUBRIC_V0.json"
+      "registries/ai/AI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "AI-22": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_RUBRIC_V0.json"
+      "registries/ai/AI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ]
   },
   "ai_container_candidates": {
@@ -2245,7 +2285,8 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-03": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2253,13 +2294,15 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-05": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-06": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2282,19 +2325,22 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-      "registries/asi/ASI_RUBRIC_V0.json"
+      "registries/asi/ASI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-09": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-      "registries/asi/ASI_RUBRIC_V0.json"
+      "registries/asi/ASI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-10": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-      "registries/asi/ASI_RUBRIC_V0.json"
+      "registries/asi/ASI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-11": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2302,7 +2348,8 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-12": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2310,7 +2357,8 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-13": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2318,21 +2366,24 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-14": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-      "registries/asi/ASI_RUBRIC_V0.json"
+      "registries/asi/ASI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-15": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-16": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2340,7 +2391,8 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-18": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2348,7 +2400,8 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-19": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2356,13 +2409,15 @@
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-04": [
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json"
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-17": [
       "registries/asi/ASI_RUBRIC_V0.json",
@@ -2471,7 +2526,8 @@
       "phase2/README.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-21": [
       "README.md",
@@ -2480,7 +2536,8 @@
       "phase2/README.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-06": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -2490,7 +2547,8 @@
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-01": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2498,7 +2556,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-02": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2506,7 +2565,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-03": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2522,7 +2582,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-05": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2530,7 +2591,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-07": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2539,7 +2601,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-08": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2548,7 +2611,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-09": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2556,7 +2620,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-10": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2564,7 +2629,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-11": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2573,7 +2639,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-12": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2581,7 +2648,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-13": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2589,7 +2657,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-14": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2597,7 +2666,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-15": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2613,7 +2683,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ],
     "ASI-NODE-17": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -2622,7 +2693,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
+      "registries/asi/node_brains_v0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
     ]
   },
   "node_brains": {
