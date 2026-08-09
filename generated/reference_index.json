@@ -292,6 +292,7 @@
     ],
     "CON-203": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-204": [
@@ -1717,12 +1718,13 @@
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
-    "AI-NEW-005": [
+    "AI-NEW-011": [
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
-    "AI-NEW-011": [
+    "AI-NEW-005": [
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
@@ -2933,6 +2935,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-ARD-001": [
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3256,6 +3259,15 @@
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
+    ],
+    "ENG-PARENT-001": [
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json"
+    ],
+    "ENG-REPAIR-001": [
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json"
+    ],
+    "ENG-RETEST-001": [
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json"
     ]
   },
   "activation_rule_ids": {},
@@ -3276,6 +3288,7 @@
     "E03": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/TASK_QUEUE.md",
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E04": [

@@ -210,7 +210,7 @@
 - **CON-200** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-201** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-202** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **CON-203** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **CON-203** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-204** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-205** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-206** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
@@ -384,7 +384,7 @@
 - **AI-NEW-008** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-009** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-010** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-011** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-011** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-012** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-013** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-014** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -626,7 +626,7 @@
 
 ## Engine Ids
 
-- **ENG-ARD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-ARD-001** → `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-ARD-002** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **ENG-ARD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-ARD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
@@ -657,10 +657,13 @@
 - **ENG-ORC-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-OUT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-PAI-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-PARENT-001** → `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`
 - **ENG-PAT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-REPAIR-001** → `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`
+- **ENG-RETEST-001** → `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`
 - **ENG-REV-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RGL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RGL-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
@@ -710,7 +713,7 @@ _No IDs currently present._
 
 - **E01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_engine_asi_node_bindings_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **E02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **E03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`

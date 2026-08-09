@@ -195,6 +195,11 @@
     "size_bytes": 6164
   },
   {
+    "path": "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
+    "sha256": "56bb4e1d22e205c2737e4f5bff90500ea8688a440849d6015139defce30cac9f",
+    "size_bytes": 5422
+  },
+  {
     "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
     "sha256": "8b6b118421693a51eed42d9ef92fc05525877c159d4e475ba26c5f98ee1a7e15",
     "size_bytes": 4648
