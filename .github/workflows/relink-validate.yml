@@ -31,6 +31,8 @@ jobs:
         run: python tools/assemble_sources.py
       - name: Build machine-readable registry views
         run: python tools/generate_registry_views.py
+      - name: Build AI native candidate review registry
+        run: python tools/build_ai_candidate_registry.py
       - name: Relink all known IDs and generate indexes
         run: python tools/relink_and_index.py
       - name: Validate locked invariants
