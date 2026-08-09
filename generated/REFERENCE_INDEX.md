@@ -90,7 +90,7 @@
 - **CON-080** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
 - **CON-081** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **CON-160** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **CON-161** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **CON-161** → `CANONICALITY.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **CON-162** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-163** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-164** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
@@ -169,7 +169,7 @@
 - **CON-237** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-238** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-239** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **CON-240** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **CON-240** → `CANONICALITY.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Sourceborn Parameters
 
@@ -177,8 +177,8 @@
 - **SB-ASI-P2560** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **SB-ASI-P2561** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **SB-ASI-P2592** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **SB-ASI-P2593** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **SB-ASI-P3072** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **SB-ASI-P2593** → `CANONICALITY.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **SB-ASI-P3072** → `CANONICALITY.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Human Combinations
 
@@ -189,7 +189,7 @@
 
 ## Legacy Ai Capabilities
 
-- **AI-CAP-001** → `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
+- **AI-CAP-001** → `CANONICALITY.json`, `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CAP-002** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-003** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-004** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`

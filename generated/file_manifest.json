@@ -1,8 +1,8 @@
 [
   {
     "path": "CANONICALITY.json",
-    "sha256": "77b9cbd606bef3b4e44ae2ad654a0d1761349f9004b7fb68426dc9dd9d4ba5f2",
-    "size_bytes": 4075
+    "sha256": "56cd39de1275504d5e255873067648c5a07a8cc75cf685497d04a806583a89ae",
+    "size_bytes": 6395
   },
   {
     "path": "README.md",
@@ -96,8 +96,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "57f8cfd9ca7d2245ad9e182b7ac94bdd4f9be84b55e124f06d94d0c5cb1760cc",
-    "size_bytes": 1948
+    "sha256": "75e37f3261dce8627baef7274e9de154254bb5d56d047b549f5d26046b50fe32",
+    "size_bytes": 2199
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
