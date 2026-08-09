@@ -46,8 +46,8 @@
   },
   {
     "path": "tools/generate_registry_views.py",
-    "sha256": "55278faba999b7581cd16bce46c2b91775c4bd93bc40ac59b87b978d5d2c8a20",
-    "size_bytes": 3486
+    "sha256": "fe05973a73858a6ddae79f2a6b0ea03e867c6018fff4610003dd2c4c0546e00f",
+    "size_bytes": 4603
   },
   {
     "path": "tools/assemble_sources.py",

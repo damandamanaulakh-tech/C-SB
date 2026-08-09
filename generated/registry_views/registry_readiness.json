@@ -1,8 +1,11 @@
 {
   "ai": {
-    "status": "REVIEW_ONLY",
+    "source_status": "REVIEW_ONLY",
     "capability_family_count": 74,
-    "machine_view": "generated/registry_views/ai_capability_review_map.json"
+    "source_machine_view": "generated/registry_views/ai_capability_review_map.json",
+    "candidate_registry_expected": "generated/registry_views/ai_native_candidate_registry_v0.json",
+    "candidate_registry_present_at_this_step": true,
+    "adoption_status": "OPEN"
   },
   "human": {
     "locked_shape": {
@@ -34,6 +37,8 @@
       "ASI-NODE-15",
       "ASI-NODE-16",
       "ASI-NODE-17"
-    ]
+    ],
+    "node_brain_v0_count": 18,
+    "node_brain_status": "P2_NODE_BRAINS_V0_ACTIVE_REVIEW"
   }
 }
