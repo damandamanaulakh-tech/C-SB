@@ -268,7 +268,6 @@
   "ai_capabilities": {
     "AI-CAP-001": [
       "phase1/PHASE1_CLOSURE_PACKET.json",
-      "phase2/PHASE_STATUS.json",
       "phase2/README.md",
       "phase2/TASK_QUEUE.md",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",

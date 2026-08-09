@@ -86,7 +86,7 @@ _No IDs currently present._
 
 ## Ai Capabilities
 
-- **AI-CAP-001** → `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/PHASE_STATUS.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/STATUS.json`
+- **AI-CAP-001** → `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/STATUS.json`
 - **AI-CAP-002** → `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
 - **AI-CAP-003** → `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
 - **AI-CAP-004** → `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`

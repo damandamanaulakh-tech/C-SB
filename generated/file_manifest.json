@@ -26,8 +26,8 @@
   },
   {
     "path": "phase2/PHASE_STATUS.json",
-    "sha256": "627da8915c5e3866659b49067e2bf696bcaac8e79242957f14dfc7ad0ee3de5a",
-    "size_bytes": 1647
+    "sha256": "c72210761662e58c1176232d62b365c552d8f18cc196ba0a101947d862e34c47",
+    "size_bytes": 2380
   },
   {
     "path": "phase1/PHASE1_CLOSURE_PACKET.json",
