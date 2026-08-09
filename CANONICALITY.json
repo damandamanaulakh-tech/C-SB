@@ -2,13 +2,14 @@
   "repository": "damandamanaulakh-tech/C-SB",
   "phase1": {
     "status": "CLOSED_BASELINE",
-    "canonical_sequence_execution": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.md",
-    "canonical_phase2_adoption": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+    "canonical_sequence_execution_manifest": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
+    "canonical_phase2_adoption_manifest": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
     "historical_sequence_documents": [
       "raw/sequence/UNIVERSAL_SEQUENCE_FINAL.md",
-      "raw/sequence/Pasted_text_original.txt"
+      "raw/sequence/Pasted_text_original.parts/"
     ],
     "notes": [
+      "The canonical machine architecture and Phase-2 contract are stored as exact ordered text parts; use their manifests to reconstruct them.",
       "The 57-stage Arrow Chart is a discovery ledger/registry of stage types, not a universal chronological timeline.",
       "Where historical text says a closed Sequence reopens, canonical rule is: create a new Sequence referencing the closed one.",
       "Where historical text conflates entity termination with Sequence closure, canonical rule keeps two statuses separate.",
