@@ -1,0 +1,93 @@
+[
+  {
+    "filename": "ChatGPT Image Aug 9, 2026, 06_22_18 AM.png",
+    "size_bytes": 2450011,
+    "sha256": "aba0ed8667f311f633a8064edf8d0bcbb8e8c72c99fd4783647a5b08bc0630cb",
+    "source_session_path": "/mnt/data/ChatGPT Image Aug 9, 2026, 06_22_18 AM.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "SEQUENCE_ARROW_CHART.png",
+    "size_bytes": 681293,
+    "sha256": "ead3ee6096ed4d8abb92d6c08913b5381cc3cbe3abfcac6f5a85f1d8e1cc3406",
+    "source_session_path": "/mnt/data/SEQUENCE_ARROW_CHART.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "SEQUENCE_CHANGES_OVERLAY.png",
+    "size_bytes": 553900,
+    "sha256": "3cf8be6daee0231b8bc5f2aa66b337c2f0a13364d11657785473d836cc68cefb",
+    "source_session_path": "/mnt/data/SEQUENCE_CHANGES_OVERLAY.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "SEQUENCE_TESTS_OVERLAY.png",
+    "size_bytes": 693940,
+    "sha256": "0c09eb3eaf144e8eb20d6a19b1d87883678cb7ce91c1aa6b02ccd678b1e91789",
+    "source_session_path": "/mnt/data/SEQUENCE_TESTS_OVERLAY.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "Screenshot 2026-08-09 081955.png",
+    "size_bytes": 270119,
+    "sha256": "66023064d4b396ef2391e9c97289a56d6c56d8159e18bbf51c7ae552ead86260",
+    "source_session_path": "/mnt/data/Screenshot 2026-08-09 081955.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "Screenshot 2026-08-09 082006.png",
+    "size_bytes": 116100,
+    "sha256": "9b219cf7ec76516220fbb63c554808952c019f519b7480ba8ff2fc88a4775b4e",
+    "source_session_path": "/mnt/data/Screenshot 2026-08-09 082006.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "Screenshot 2026-08-09 082019.png",
+    "size_bytes": 158407,
+    "sha256": "6d96e54ff302c8cee6793a9dcf223abd692e86bd872ad093b49f837a8c24ce00",
+    "source_session_path": "/mnt/data/Screenshot 2026-08-09 082019.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "Screenshot 2026-08-09 082030.png",
+    "size_bytes": 154339,
+    "sha256": "b1168cd2c5efc61d307ced7a790614fd2009c52fa00f6859ea02380764620554",
+    "source_session_path": "/mnt/data/Screenshot 2026-08-09 082030.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "Screenshot 2026-08-09 082050.png",
+    "size_bytes": 186651,
+    "sha256": "df5c857ee9c6571280d48ca2e57ce548be410c631d73e2eeb5e58aec96283058",
+    "source_session_path": "/mnt/data/Screenshot 2026-08-09 082050.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "image-1786243867115.jpg",
+    "size_bytes": 478022,
+    "sha256": "9d0e6192b951d77e14894e3ca4129c00faea29f6236fb931a49bbc095b490156",
+    "source_session_path": "/mnt/data/image-1786243867115.jpg",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "image-1786243879473.jpg",
+    "size_bytes": 397628,
+    "sha256": "d7b400567593fb48a4c84f0e5b8d7cacb171ffc84e7476584c9a056acab24ef2",
+    "source_session_path": "/mnt/data/image-1786243879473.jpg",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "image-1786243887529.jpg",
+    "size_bytes": 463743,
+    "sha256": "2511cda11b44a316801a972dce0bbfa49d19457986db9652955f2d0cf4771d72",
+    "source_session_path": "/mnt/data/image-1786243887529.jpg",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  },
+  {
+    "filename": "universal_sequence_systems_map.png",
+    "size_bytes": 1687367,
+    "sha256": "32ccb13ec5b35ef028ef6829db203175736c68882bfc612aa09d1eed64c3bf7a",
+    "source_session_path": "/mnt/data/universal_sequence_systems_map.png",
+    "status": "SOURCE_BINARY_PRESENT_IN_SESSION; GitHub text connector cannot transfer binary bytes directly"
+  }
+]
