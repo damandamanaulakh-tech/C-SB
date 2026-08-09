@@ -1,0 +1,23 @@
+{
+  "note": "Service registry, not chronological spine. Actual case graph determines invocation order.",
+  "nodes": [
+    {"asi_node_id":"ASI-NODE-00","service_role":"END / SCOPE LOCK","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-01","service_role":"REVERSE MINER / PROVENANCE","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-02","service_role":"STATE / IDENTITY / RELATION","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-03","service_role":"DRIVER / RULE / PRIORITY","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-04","service_role":"TRIGGER / THRESHOLD","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-05","service_role":"DEPENDENCY / AVAILABILITY / BARRIER","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-06","service_role":"RUBRIC ACTIVATION / COMBINATION","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-07","service_role":"EVIDENCE / TEST / QUALIFICATION","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-08","service_role":"ALTERNATIVE / ARBITRATION / COUNTER-SEQUENCE","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-09","service_role":"ENCOUNTER / COUPLING / DYNAMICS","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-10","service_role":"RESULT / ENTITY OUTCOME / EVENT WEIGHT","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-11","service_role":"VERIFICATION / ACCEPTANCE","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-12","service_role":"TRACE / MEMORY / LEARNING","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-13","service_role":"COMPRESSION / EXPANSION / INHERITANCE","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-14","service_role":"CLOSURE / RETURN / SEED","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-15","service_role":"PATTERN / LAW / OBSERVER-WRITER","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-16","service_role":"R-F-R FALSIFIER","status":"DEFINED_SERVICE_CLASS"},
+    {"asi_node_id":"ASI-NODE-17","service_role":"META-CONTROLLER / CROSS-SEQUENCE COORDINATION","status":"DEFINED_SERVICE_CLASS"}
+  ]
+}
