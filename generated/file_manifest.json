@@ -256,8 +256,8 @@
   },
   {
     "path": "registries/ai/STATUS.json",
-    "sha256": "b0f7b5da6411a11d3eb0a856dac830fe12bf2ca7b7621c6c049bca2dadeb065c",
-    "size_bytes": 476
+    "sha256": "38aa4182eb09989ec3d276fa040eb5f1167a1758c99fe22497a4bbd3b9a3b638",
+    "size_bytes": 850
   },
   {
     "path": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
