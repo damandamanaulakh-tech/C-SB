@@ -1,0 +1,67 @@
+{
+  "checkpoint_id": "P2-MULTI-RUBRIC-WIRING-V0",
+  "checkpoint_type": "ARCHITECTURE_WIRING_CHECKPOINT",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_PARTIAL",
+  "closed_scope": "Human + AI + Wisdom/Holy-Book + ASI registry-level wiring and ASI-NODE-18..21 service/Node-Brain introduction",
+  "completed": [
+    "Created first-class Wisdom registry W-01..W-15",
+    "Created Holy-Book Source -> Claim -> Interpretation -> Wisdom contract",
+    "Created native AI functional rubric AI-01..AI-25 with no LLM runtime dependency",
+    "Created ASI meta-governance rubric ASI-01..ASI-20",
+    "Expanded ASI service registry from ASI-NODE-00..17 to ASI-NODE-00..21",
+    "Changed ASI-NODE-06 role to Multi-Rubric Activation / Combination",
+    "Added ASI-NODE-18 Holy-Book / Wisdom Source Interpreter",
+    "Added ASI-NODE-19 Wisdom / Principle Synthesis",
+    "Added ASI-NODE-20 AI Rubric / Cognitive Mechanism Router",
+    "Added ASI-NODE-21 ASI Rubric / Meta-Governor",
+    "Added Node Brain contracts NB-18..NB-21",
+    "Added machine-readable multi-rubric wiring map",
+    "Updated canonicality, root README, Phase-2 README and Task Queue",
+    "Updated validator for 22 ASI Nodes and four-rubric wiring",
+    "Updated self-relinker for AI, Wisdom, ASI and Node-Brain IDs",
+    "Verified generated reference index recognizes new AI, Wisdom, ASI and ASI-NODE IDs"
+  ],
+  "primary_files": [
+    "registries/wisdom/WISDOM_REGISTRY_V0.json",
+    "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
+    "registries/ai/AI_RUBRIC_V0.json",
+    "registries/asi/ASI_RUBRIC_V0.json",
+    "registries/asi/asi_node_registry.json",
+    "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+    "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+    "tools/validate_repo.py",
+    "tools/relink_and_index.py",
+    "phase2/README.md",
+    "phase2/TASK_QUEUE.md",
+    "CANONICALITY.json"
+  ],
+  "unresolved_conditions": [
+    "Complete approved Human 2,560-row native registry is not yet available in current repo payload.",
+    "AI-01..AI-25 still require container/mechanism/parameter decomposition and comparison against legacy AI-CAP-001..074.",
+    "Wisdom registry has architecture but no bounded Holy-Book/source ingestion batch has yet been adopted through R-F-R.",
+    "ASI-01..ASI-20 still require meta-container/parameter decomposition and full bindings across ASI-NODE-00..21.",
+    "NB-00..17 remain in the base Node-Brain file while NB-18..21 are currently supplemental; future migration may unify storage after validation.",
+    "Four-rubric integration tests and R-F-R falsification are still required before adoption closure.",
+    "Phase-2 itself is not closed."
+  ],
+  "next_sequences": [
+    "P2-AI-MECHANISM-DECOMPOSITION-01",
+    "P2-WISDOM-SOURCE-INGESTION-01",
+    "P2-ASI-META-PARAMETER-DECOMPOSITION-01",
+    "P2-MULTI-RUBRIC-INTEGRATION-TEST-01",
+    "P2-HUMAN-NATIVE-INGESTION when authoritative source is available"
+  ],
+  "invariants_preserved": [
+    "Universal Sequence remains the core grammar.",
+    "Human, AI, Wisdom and ASI are separate registries/domains.",
+    "Source Text != Source Claim != Interpretation != Wisdom != Law/Guidance.",
+    "AI cognition != ASI governance.",
+    "No LLM API or Transformer runtime dependency is introduced.",
+    "No closed Sequence reopens.",
+    "Barrier Law remains local and mandatory.",
+    "Unknown provenance remains unknown.",
+    "Native source IDs are not silently rewritten."
+  ]
+}
