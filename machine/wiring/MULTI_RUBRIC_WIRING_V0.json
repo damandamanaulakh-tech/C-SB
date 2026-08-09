@@ -1,0 +1,93 @@
+{
+  "wiring_id": "MULTI-RUBRIC-WIRING-V0",
+  "phase": "PHASE_2",
+  "status": "WIRED_DRAFT_FOR_RFR",
+  "core_rule": "Universal Sequence is the execution grammar. Human, AI, Wisdom and ASI are registries that provide state, capability, principle and governance inputs through ASI Nodes. None of the rubrics replaces the Sequence graph.",
+  "domains": {
+    "HUMAN": {
+      "role": "Represent Human state, capability, experience, motivation, learning and write-back.",
+      "native_source": "registries/human/",
+      "cannot_do": ["Replace AI mechanism definitions","Rewrite Wisdom source text","Act as ASI meta-governance"]
+    },
+    "AI": {
+      "role": "Provide native artificial-cognition mechanisms for representation, reasoning, planning, execution, verification and adaptation.",
+      "native_source": "registries/ai/AI_RUBRIC_V0.json",
+      "cannot_do": ["Assume an LLM runtime","Rewrite Human native IDs","Promote interpretation to truth","Override ASI governance"]
+    },
+    "WISDOM": {
+      "role": "Provide source-linked contextual principles, narrative patterns, long-horizon consequences, counter-cases and applicability conditions.",
+      "native_source": "registries/wisdom/WISDOM_REGISTRY_V0.json",
+      "cannot_do": ["Directly execute action","Erase source/interpretation boundary","Become law without a formation Sequence","Override current reality"]
+    },
+    "ASI": {
+      "role": "Provide meta-governance across domains, Sequences, memories, priorities, rules, contradictions, resources and closure scopes.",
+      "native_source": "registries/asi/ASI_RUBRIC_V0.json",
+      "cannot_do": ["Manufacture provenance","Bypass barriers","Reopen closed Sequences","Give actors hidden knowledge","Rewrite native domain definitions"]
+    }
+  },
+  "primary_flow": [
+    "SEQUENCE_NODE_OR_EDGE",
+    "ASI-NODE-06_MULTI_RUBRIC_ACTIVATION",
+    "DOMAIN_ACTIVATION_SETS",
+    "ASI-NODE-20_AI_MECHANISM_ROUTER_IF_AI_FUNCTION_REQUIRED",
+    "ASI-NODE-18_SOURCE_INTERPRETER_IF_SOURCE_WISDOM_REQUIRED",
+    "ASI-NODE-19_WISDOM_SYNTHESIS_IF_PRINCIPLE_REQUIRED",
+    "ASI-NODE-21_META_GOVERNOR_IF_CROSS_DOMAIN_OR_POLICY_CONFLICT",
+    "ASI-NODE-08_ARBITRATION_IF_MULTIPLE_LEGAL_PATHS",
+    "SEQUENCE_EDGE_THRESHOLD_AND_BARRIER_CHECK",
+    "EXECUTION",
+    "RESULT_TRACE_MEMORY",
+    "RFR_AND_CLOSURE"
+  ],
+  "node_connections": [
+    {"from":"ASI-NODE-01","to":"ASI-NODE-18","when":"reverse mining requires narrative, scripture, commentary, law or source-derived prior events","return":"source claims + provenance + interpretation boundaries"},
+    {"from":"ASI-NODE-03","to":"ASI-NODE-19","when":"driver/rule/priority conflict requires contextual principle or civilizational pattern","return":"wisdom candidates + applicability + counter-cases"},
+    {"from":"ASI-NODE-03","to":"ASI-NODE-21","when":"priority, rule, promise, permission or goal conflict crosses domains","return":"meta-governance decision or unresolved conflict"},
+    {"from":"ASI-NODE-06","to":"HUMAN","when":"a Human actor/state/capability is involved","return":"Human activation set + state/write-back contract"},
+    {"from":"ASI-NODE-06","to":"AI-RUBRIC-V0","when":"artificial cognition is required","return":"AI capability demand"},
+    {"from":"ASI-NODE-06","to":"WISDOM-REGISTRY-V0","when":"source-linked guidance, precedent, narrative pattern or value context is relevant","return":"Wisdom retrieval demand"},
+    {"from":"ASI-NODE-06","to":"ASI-RUBRIC-V0","when":"cross-domain governance, global policy, closure scope or meta-control is implicated","return":"ASI governance demand"},
+    {"from":"ASI-NODE-07","to":"ASI-NODE-18","when":"a source-derived claim requires provenance/qualification","return":"qualified source claim or unresolved source gap"},
+    {"from":"ASI-NODE-08","to":"ASI-NODE-21","when":"candidate paths conflict on priority, authority, wisdom, safety or long-horizon consequence","return":"arbitration constraints + permission state"},
+    {"from":"ASI-NODE-11","to":"ASI-NODE-21","when":"verification has cross-domain truth, authority or closure implications","return":"governed acceptance state"},
+    {"from":"ASI-NODE-15","to":"ASI-NODE-19","when":"a repeated pattern may become a wisdom/principle candidate","return":"context-bounded wisdom object or rejected generalization"},
+    {"from":"ASI-NODE-17","to":"ASI-NODE-21","when":"cross-sequence coordination requires global policy or goal arbitration","return":"meta-governance constraints"},
+    {"from":"ASI-NODE-20","to":"AI-RUBRIC-V0","when":"any native AI mechanism must be selected","return":"mechanism activation set + resource/performer requirements"},
+    {"from":"ASI-NODE-21","to":"ASI-NODE-17","when":"approved meta-governance must be enforced across active Sequences","return":"coordination policy"}
+  ],
+  "conflict_convergence": {
+    "inputs": ["Human priorities/state","AI alternatives/predictions","Wisdom principles/counter-cases","ASI rules/permissions","current reality/evidence"],
+    "route": ["ASI-NODE-06","ASI-NODE-08","ASI-NODE-21"],
+    "output": "legal path, blocked path, unresolved contradiction, new investigation Sequence, or explicit no-action"
+  },
+  "wisdom_guard_flow": [
+    "SOURCE_TEXT",
+    "SOURCE_CLAIM",
+    "INTERPRETATION",
+    "WISDOM_CANDIDATE",
+    "CONTEXT_APPLICABILITY_CHECK",
+    "COUNTER_CASE_CHECK",
+    "ASI_GOVERNANCE_CHECK",
+    "SEQUENCE_APPLICATION_OR_REJECTION"
+  ],
+  "ai_native_flow": [
+    "AI_FUNCTION_REQUIRED",
+    "ASI-NODE-20",
+    "AI_SEGMENT_SELECTION",
+    "MECHANISM_DECOMPOSITION",
+    "INPUT_CONTRACT",
+    "STATE_AND_MEMORY_READ",
+    "MECHANISM_EXECUTION",
+    "STRUCTURED_RESULT",
+    "VERIFICATION",
+    "PERMITTED_WRITEBACK",
+    "CLOSURE"
+  ],
+  "hard_guards": [
+    "No domain may silently write into another domain's native registry.",
+    "Every cross-domain value carries owner/source metadata.",
+    "Wisdom is advisory/contextual until the active Sequence and ASI governance accept its applicability.",
+    "AI mechanisms generate/transform candidates but cannot bypass evidence, threshold, barrier or closure law.",
+    "ASI meta-governance can block or route but cannot invent missing source truth."
+  ]
+}
