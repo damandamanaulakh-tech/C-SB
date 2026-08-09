@@ -1,8 +1,12 @@
 {
-  "status": "REVIEW_ONLY",
+  "source_status": "REVIEW_ONLY",
   "source": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
   "capability_family_count": 74,
-  "approval_rule": "No AI-CAP item becomes an approved AI native parameter/capability until explicit user review/adoption.",
-  "generated_machine_view": "generated/registry_views/ai_capability_review_map.json",
-  "next_action": "Review AI-CAP-001..074 for accept/rename/split/merge/move/omit, then issue an AI adoption closure packet."
+  "phase2_review_status": "FULL_STRUCTURAL_REVIEW_V0_COMPLETE",
+  "candidate_registry_status": "GENERATED_REVIEW_ONLY_NOT_ADOPTED",
+  "decision_rules": "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+  "layer_bindings": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+  "generated_candidate_registry": "generated/registry_views/ai_native_candidate_registry_v0.json",
+  "approval_rule": "No AI-CAP item or generated AI candidate becomes an adopted AI-native parameter/capability until an explicit AI Adoption Closure Packet changes authority.",
+  "next_action": "Resolve HOLD/SPLIT cases, establish final AI-native IDs/names, run R-F-R sample tests, then issue an AI Adoption Closure Packet."
 }
