@@ -55,6 +55,11 @@
     "size_bytes": 2249
   },
   {
+    "path": "tools/build_ai_candidate_registry.py",
+    "sha256": "f0b1ed57f868c1b310e85c013074ed8dea170c124738088cbcb8aa63e244dfee",
+    "size_bytes": 4308
+  },
+  {
     "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
     "sha256": "4d1f350de30fb0260f9e24bf51ad6bf329092d1b5dc04da6d81989e954bcfc5c",
     "size_bytes": 3865

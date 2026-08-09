@@ -164,23 +164,23 @@ _No IDs currently present._
 ## Asi Nodes
 
 - **ASI-NODE-00** → `phase2/README.md`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-01** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-02** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-03** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-04** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-05** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
+- **ASI-NODE-01** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-02** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-03** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-04** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-05** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
 - **ASI-NODE-06** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-07** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-08** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-09** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-10** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-11** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-12** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-13** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-14** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-15** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-16** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
-- **ASI-NODE-17** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`
+- **ASI-NODE-07** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-08** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-09** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-10** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-11** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-12** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-13** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-14** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-15** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-16** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
+- **ASI-NODE-17** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `tools/build_ai_candidate_registry.py`
 
 ## Human Combinations
 
