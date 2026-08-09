@@ -1,0 +1,23 @@
+name: Relink and validate Sourceborn registries
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'registries/**'
+      - 'machine/**'
+      - 'raw/**'
+      - 'tools/**'
+      - 'phase2/**'
+      - 'CANONICALITY.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/relink_and_index.py
+      - run: python tools/validate_repo.py
