@@ -14,8 +14,8 @@ def load(path):
     return json.loads(p.read_text(encoding="utf-8"))
 
 canonical = load("CANONICALITY.json")
-if canonical.get("phase2", {}).get("ai_capability_map_status") != "REVIEW_ONLY":
-    errors.append("AI capability map must remain REVIEW_ONLY until explicit AI adoption closure.")
+if canonical.get("phase2", {}).get("workstreams", {}).get("P2_AI", {}).get("legacy_ai_capability_map_status") != "REVIEW_ONLY":
+    errors.append("Legacy AI capability map must remain REVIEW_ONLY until explicit AI adoption closure.")
 if canonical.get("phase2", {}).get("status") != "ACTIVE":
     errors.append("Phase 2 is expected to be ACTIVE.")
 
@@ -48,20 +48,67 @@ if "WANT" not in vocab.get("driver_types", []):
 if "ALWAYS" not in vocab.get("threshold_types", []):
     errors.append("Threshold vocabulary must include ALWAYS for edges with no special gate.")
 
+# Phase-2 Human / AI / Wisdom / ASI registries
+ai_native = load("registries/ai/AI_RUBRIC_V0.json")
+ai_segment_ids = [s.get("ai_segment_id") for s in ai_native.get("segments", [])]
+if ai_segment_ids != [f"AI-{i:02d}" for i in range(1, 26)]:
+    errors.append("AI_RUBRIC_V0 must currently contain AI-01..AI-25 in order.")
+if any("LLM" in x and not x.startswith("No LLM") for x in ai_native.get("forbidden_assumptions", [])):
+    warnings.append("Review AI forbidden assumptions for accidental LLM runtime dependency wording.")
+
+wisdom = load("registries/wisdom/WISDOM_REGISTRY_V0.json")
+wisdom_ids = [s.get("wisdom_lane_id") for s in wisdom.get("lanes", [])]
+if wisdom_ids != [f"W-{i:02d}" for i in range(1, 16)]:
+    errors.append("Wisdom registry must currently contain W-01..W-15 in order.")
+
+holy_contract = load("registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json")
+if holy_contract.get("flow", [])[:4] != ["RAW_SOURCE_LOCK","SOURCE_TEXT","SOURCE_CLAIM_EXTRACTION","EVENT_RULE_PROMISE_SYMBOL_RECORD"]:
+    errors.append("Holy Book source contract lost the source-lock/source-claim separation.")
+
+asi_rubric = load("registries/asi/ASI_RUBRIC_V0.json")
+asi_segment_ids = [s.get("asi_segment_id") for s in asi_rubric.get("segments", [])]
+if asi_segment_ids != [f"ASI-{i:02d}" for i in range(1, 21)]:
+    errors.append("ASI_RUBRIC_V0 must currently contain ASI-01..ASI-20 in order.")
+
+wiring = load("machine/wiring/MULTI_RUBRIC_WIRING_V0.json")
+if wiring.get("status") != "WIRED_DRAFT_FOR_RFR":
+    errors.append("Multi-rubric wiring must remain WIRED_DRAFT_FOR_RFR until R-F-R closure.")
+if set(wiring.get("domains", {})) != {"HUMAN","AI","WISDOM","ASI"}:
+    errors.append("Multi-rubric wiring must include exactly HUMAN, AI, WISDOM and ASI domains at this stage.")
+
+# ASI service node and Node-Brain coverage
 asi = load("registries/asi/asi_node_registry.json")
 asi_ids = [n.get("asi_node_id") for n in asi.get("nodes", [])]
-if len(asi_ids) != 18 or len(set(asi_ids)) != 18:
-    errors.append(f"ASI service registry must contain 18 unique nodes; found {len(asi_ids)} / {len(set(asi_ids))} unique.")
+expected_asi_ids = [f"ASI-NODE-{i:02d}" for i in range(0, 22)]
+if asi_ids != expected_asi_ids or len(set(asi_ids)) != 22:
+    errors.append(f"ASI service registry must contain ASI-NODE-00..21 exactly once; found {len(asi_ids)} / {len(set(asi_ids))} unique.")
 
 brains = load("registries/asi/node_brains_v0.json")
 brain_rows = brains.get("node_brains", [])
 brain_ids = [n.get("node_brain_id") for n in brain_rows]
 brain_asi_ids = [n.get("asi_node_id") for n in brain_rows]
 if len(brain_ids) != 18 or len(set(brain_ids)) != 18:
-    errors.append(f"Node Brain v0 must contain 18 unique brains; found {len(brain_ids)} / {len(set(brain_ids))} unique.")
-if set(brain_asi_ids) != set(asi_ids):
-    errors.append("Node Brain v0 must bind exactly once to every ASI service node.")
-for row in brain_rows:
+    errors.append(f"Base Node Brain v0 must preserve 18 unique brains NB-00..17; found {len(brain_ids)} / {len(set(brain_ids))} unique.")
+if set(brain_asi_ids) != set(expected_asi_ids[:18]):
+    errors.append("Base Node Brain v0 must bind exactly once to ASI-NODE-00..17.")
+
+extra_brains = load("registries/asi/node_brains/NODE_BRAINS_18_21.json")
+extra_rows = extra_brains.get("contracts", [])
+extra_brain_ids = [n.get("node_brain_id") for n in extra_rows]
+extra_asi_ids = [n.get("asi_node_id") for n in extra_rows]
+if extra_brain_ids != [f"NB-{i:02d}" for i in range(18, 22)]:
+    errors.append("Phase-2 supplemental Node Brains must be NB-18..NB-21 in order.")
+if extra_asi_ids != expected_asi_ids[18:]:
+    errors.append("Phase-2 supplemental Node Brains must bind ASI-NODE-18..21 in order.")
+
+all_brain_rows = brain_rows + extra_rows
+all_brain_ids = [n.get("node_brain_id") for n in all_brain_rows]
+all_brain_asi_ids = [n.get("asi_node_id") for n in all_brain_rows]
+if len(all_brain_ids) != 22 or len(set(all_brain_ids)) != 22:
+    errors.append("Combined Node Brain registry must contain 22 unique brains.")
+if set(all_brain_asi_ids) != set(asi_ids):
+    errors.append("Combined Node Brain contracts must bind exactly once to every ASI service node.")
+for row in all_brain_rows:
     for required_key in ["inputs","outputs","reads","writes","threshold_evaluators","closure_responsibilities"]:
         if not row.get(required_key):
             errors.append(f"{row.get('node_brain_id')} missing required contract field {required_key}.")
