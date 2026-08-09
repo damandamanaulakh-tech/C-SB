@@ -30,6 +30,11 @@
     "size_bytes": 1647
   },
   {
+    "path": "phase1/PHASE1_CLOSURE_PACKET.json",
+    "sha256": "331dd8eaffd5a09a4545c2a2e9051a19f5fc3174e616ffa7f7a70528b0f829a7",
+    "size_bytes": 2688
+  },
+  {
     "path": "tools/validate_repo.py",
     "sha256": "f85de750c348184716e7e46c86a8f2384e2f04cbe6732ff8cf2e9bc72fc798ba",
     "size_bytes": 3396
@@ -78,6 +83,11 @@
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
     "sha256": "0e76e239c40d083b11c896890a66aa07a0a3056651de85f02cac22296822e5b6",
     "size_bytes": 2142
+  },
+  {
+    "path": "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+    "sha256": "0aeac6a6650807b20e76fe4123093a97432ee83354df8d019b358d2d217ef003",
+    "size_bytes": 6618
   },
   {
     "path": "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
