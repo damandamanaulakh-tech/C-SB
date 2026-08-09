@@ -89,6 +89,7 @@
     "CON-081": [
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -97,6 +98,7 @@
     ],
     "CON-103": [
       "phase2/TASK_QUEUE.md",
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
@@ -105,16 +107,19 @@
     "CON-121": [
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
     "CON-120": [
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
     "CON-160": [
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "tools/validate_expansion_081_160_v1.py"
@@ -961,11 +966,13 @@
     ],
     "SB-ASI-P2561": [
       "phase2/TASK_QUEUE.md",
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
     "SB-ASI-P2592": [
+      "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "tools/validate_expansion_081_160_v1.py"

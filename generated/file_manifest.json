@@ -116,8 +116,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "38f7f179bee0a84c942da99f6e4042db82ecbbd9882af5b1afa9f49d17291b34",
-    "size_bytes": 2592
+    "sha256": "a19cee9b61f657d33bca5947625d94b1a628a70b27dc09b1f1de77a5d507ab99",
+    "size_bytes": 2704
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -208,6 +208,11 @@
     "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
     "sha256": "c5c9e2f609ea454461fefabea0dcacde9d790a3756b5fb2c3475c1d43ba9e0bb",
     "size_bytes": 3629
+  },
+  {
+    "path": "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
+    "sha256": "389fc70f85d94a7715b3649c9fac3ff20a74c11f0df2f3b78dbcc6631d8e2b49",
+    "size_bytes": 1766
   },
   {
     "path": "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
