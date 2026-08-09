@@ -1,0 +1,26 @@
+{
+  "source_title": "SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.md",
+  "source_created_at": "2026-08-09T04:23:15Z",
+  "custody_status": "ATTACHMENT_REFERENCE_AVAILABLE_RAW_BYTES_NOT_MOUNTED_TO_GITHUB_CONNECTOR",
+  "source_derivation_claim": [
+    "UNIVERSAL_SEQUENCE_FINAL.md",
+    "Universal_Sequence_Machine_Architecture_v1.md"
+  ],
+  "repo_materializations": [
+    "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
+    "machine/v2/TYPED_NULL_SEMANTICS.json",
+    "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
+    "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+    "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
+    "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+    "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json"
+  ],
+  "integrity_rule": "The repo materializations are source-derived machine representations. They must not be presented as a byte-identical copy of the uploaded review source. If the raw source file becomes available to the GitHub connector or local repo, preserve it separately and add a SHA-256 manifest.",
+  "known_source_counts": {
+    "rubric_families": 52,
+    "rubric_dimensions": 987,
+    "cross_cutting_services": 18,
+    "mode_router_modes": 4,
+    "critical_repairs": 28
+  }
+}
