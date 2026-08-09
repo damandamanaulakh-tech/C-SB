@@ -1,0 +1,28 @@
+{
+  "status": "REVIEW_ONLY",
+  "source": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+  "flags": [
+    {"capability_id":"AI-CAP-001","flags":["COMPOSITE_NOT_PRIMITIVE"]},
+    {"capability_id":"AI-CAP-007","flags":["MIXED_PRIMARY_MAPPING_CELL","NORMALIZE_WITHOUT_MUTATING_SOURCE"]},
+    {"capability_id":"AI-CAP-009","flags":["OVERLAP_CLUSTER_FAILURE_RECOVERY"]},
+    {"capability_id":"AI-CAP-012","flags":["MIXED_PRIMARY_MAPPING_CELL","NORMALIZE_WITHOUT_MUTATING_SOURCE"]},
+    {"capability_id":"AI-CAP-023","flags":["OVERLAP_CLUSTER_SAFETY_CONTROL"]},
+    {"capability_id":"AI-CAP-026","flags":["OVERLAP_CLUSTER_FAILURE_RECOVERY"]},
+    {"capability_id":"AI-CAP-045","flags":["RUNTIME_VS_TRAINING_BOUNDARY"]},
+    {"capability_id":"AI-CAP-046","flags":["RUNTIME_VS_TRAINING_BOUNDARY"]},
+    {"capability_id":"AI-CAP-052","flags":["OVERLAP_CLUSTER_FAILURE_RECOVERY"]},
+    {"capability_id":"AI-CAP-053","flags":["OVERLAP_CLUSTER_SAFETY_CONTROL"]},
+    {"capability_id":"AI-CAP-055","flags":["OVERLAP_CLUSTER_SAFETY_CONTROL","GOVERNANCE_OR_RUNTIME_LAYER_REVIEW"]},
+    {"capability_id":"AI-CAP-057","flags":["GOVERNANCE_EVALUATION_LAYER_REVIEW"]},
+    {"capability_id":"AI-CAP-060","flags":["OVERLAP_CLUSTER_SAFETY_CONTROL","POLICY_OUTPUT_CONTROL_LAYER_REVIEW"]},
+    {"capability_id":"AI-CAP-062","flags":["MIXED_PRIMARY_MAPPING_CELL","BIOLOGICAL_ANALOGY_REVIEW","OVERLAP_CLUSTER_SAFETY_CONTROL"]},
+    {"capability_id":"AI-CAP-063","flags":["GOVERNANCE_EVALUATION_LAYER_REVIEW"]},
+    {"capability_id":"AI-CAP-065","flags":["POLICY_OUTPUT_CONTROL_LAYER_REVIEW"]},
+    {"capability_id":"AI-CAP-066","flags":["POLICY_OUTPUT_CONTROL_LAYER_REVIEW"]},
+    {"capability_id":"AI-CAP-067","flags":["OVER_BUNDLED_SPLIT_REVIEW","NO_SUBJECTIVE_EXPERIENCE_INFERENCE"]},
+    {"capability_id":"AI-CAP-068","flags":["OVERLAP_CLUSTER_FAILURE_RECOVERY"]},
+    {"capability_id":"AI-CAP-072","flags":["COMPOSITE_OUTCOME_REVIEW","MIXED_PRIMARY_MAPPING_CELL","BIOLOGICAL_ANALOGY_REVIEW"]},
+    {"capability_id":"AI-CAP-073","flags":["RUNTIME_VS_TRAINING_BOUNDARY"]}
+  ],
+  "default_for_unflagged": "HOLD_REVIEW_ONLY_UNTIL_EXPLICIT_ADOPTION"
+}
