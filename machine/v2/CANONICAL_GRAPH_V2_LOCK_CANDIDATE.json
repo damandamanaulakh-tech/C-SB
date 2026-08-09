@@ -1,0 +1,81 @@
+{
+  "status": "V2_LOCK_CANDIDATE_NOT_CANONICAL_YET",
+  "source": "SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.md (uploaded Phase-2 review source; exact raw bytes not currently repo-mounted)",
+  "ordered_structure_definition": "Distinguishable items/states + relationship + declared order relation.",
+  "sequence_instance_definition": "An ordered structure bound to a declared scope and identity, with at least one traceable transition, derivation, observation, dependency progression, or state/history relation.",
+  "causality_rule": "Causality must never be inferred from order alone.",
+  "mode_router": {
+    "RECONSTRUCTION": ["observed_or_declared_end","scope_lock","reverse_mine","forward_legality_test","reverse_integrity_audit","closure"],
+    "EXECUTION": ["target_or_contract_or_current_state","forward_execution","result_candidate","verification","reverse_integrity_audit_if_closure_requested","closure"],
+    "DISCOVERY": ["event_or_state_stream","candidate_segmentation","candidate_end_scope_generation","uncertainty_declaration","human_or_authorized_selector_or_declared_rule","instantiate_reconstruction_or_execution_sequence"],
+    "AUDIT": ["closed_sequence_reference","create_new_audit_or_reference_sequence","reconstruct_claims_edges_evidence","support_challenge_or_supersede_interpretation","old_sequence_remains_closed"]
+  },
+  "layers": {
+    "A_LOCK": [
+      "A1 Analysis/Execution Mode","A2 Declared End / Target / Observation Window","A3 Sequence Scope + Closure Scope","A4 Resolution + Causal Horizon + Epistemic Floor","A5 Followed Object","A6 Identity Continuity Criteria","A7 Boundary Contract","A8 Sequence Template Version"
+    ],
+    "B_PRIOR_REALITY": [
+      "B1 Prior Reality Snapshot","B2 Claim-Level Provenance","B3 Origin/Source","B4 Environment / Host / Substrate","B5 Sequence Seeds / Latent Preconditions","B6 Formation / Emergence / Instantiation","B7 Existence Status","B8 Role","B9 Current State","B10 Coherence","B11 Viability","B12 Relation Map","B13 Knowledge/View Map [conditional]"
+    ],
+    "C_TRANSITION_AUTHORITY_CRITERIA": [
+      "C1 Driver Presence","C2 Driver Type [conditional]","C3 Transition Mechanism","C4 Controller Presence/Type","C5 Carrier/Bearer","C6 Represented Future State [conditional]","C7 Represented Future Sequence [conditional]","C8 Rule/Constraint Map","C9 Promise/Stored Commitment [conditional]","C10 Priority/Arbitration Contract","C11 Requirement [conditional]","C12 Acceptance/Analysis Contract [universal]"
+    ],
+    "D_EDGE_FIRING_KERNEL": [
+      "SOURCE STATE","TRIGGER","EVALUATION POLICY","THRESHOLD PREDICATE","EVIDENCE/STATE INPUT","EVALUATOR","UNCERTAINTY HANDLING","DEPENDENCY EXPRESSION","LOCAL BARRIER","EDGE FIRE / WAIT / TERMINAL ROUTE"
+    ],
+    "E_DEPENDENCY_PREPARATION": [
+      "E1 Dependency Graph","E2 Dependency Logic Group","E3 Availability","E4 Accessibility","E5 Sufficiency","E6 Admissibility / Qualification","E7 Test / Evidence [conditional]","E8 Repair / Obtain / Build / Substitute / Adapt attached Sequences [conditional]","E9 Contract Amendment Sequence [if criterion must change]"
+    ],
+    "F_ALTERNATIVES_RESOLUTION": [
+      "F1 Alternative Path Generation [conditional]","F2 Risk/Cost/Reversibility Records [if in contract]","F3 Counter-Sequence Link [cross-cutting]","F4 Priority Conflict","F5 Arbitration","F6 Selection / Structural Resolution","F7 Decision Record [when a decision-maker exists]"
+    ],
+    "G_INTERACTION_DYNAMICS": [
+      "G1 Encounter / Access [conditional]","G2 Boundary Approach [domain specialization]","G3 Coupling / Interaction","G4 Intake / Reception / Binding [domain specialization]","G5 Transformation / Conditioning [conditional]","G6 Dynamics / Processing / Propagation","G7 Incorporation / Integration [conditional]","G8 Effect","G9 Action [agentic subtype]","G10 Output / Emission / Transfer [subtype]"
+    ],
+    "H_CONSEQUENCE": [
+      "H1 State Change","H2 Entity Outcome","H3 Result Set","H4 Impact","H5 Event Weight","H6 Downstream Criticality","H7 Counterfactual Contribution","H8 Latent Consequence","H9 New Seed Candidates","H10 Environment/Relation/Rule Changes"
+    ],
+    "I_VERIFICATION_LEARNING": [
+      "I1 Verification / Acceptance","I2 Deviation From Contract","I3 Feedback Signal","I4 Repair Candidate [opens new attached Sequence if required]","I5 Trace","I6 Memory Write [conditional/contractual]","I7 Memory Validation [conditional]","I8 Compression [conditional]","I9 Expansion/Reconstruction [on demand]"
+    ],
+    "J_PRE_CLOSURE_INTEGRITY": [
+      "J1 Closure Candidate","J2 Pass-3 Reverse Integrity Audit","J3 Gap Scan","J4 Contradiction Scan","J5 Open Required Return Scan","J6 Provenance Scan","J7 Threshold/Evaluator Scan","J8 Identity Continuity Scan","J9 Proof Debt Scan","J10 Closure Readiness Gate"
+    ],
+    "K_IMMUTABLE_CLOSURE": [
+      "K1 Sequence Closure Status","K2 Closure Packet","K3 Return to Requesting Sequence [if any]","K4 Archive","K5 Open-Sequence Ledger Removal/Terminalization","K6 Immutable Instance Seal"
+    ],
+    "L_POST_CLOSURE_DERIVATIVE_ROUTER": [
+      "L1 Next-Sequence Seed","L2 New Sequence Instance","L3 Reference/Audit Sequence","L4 Observer/Writer/Recorder Sequence","L5 Comparison/Pattern Extraction Sequence","L6 Generalization/Rule Candidate Sequence","L7 Law/Guidance/Procedure Formation Sequence","L8 Inheritance/Transmission Sequence","L9 Compression/Re-indexing Sequence","L10 Cross-Sequence Convergence Sequence/Window","L11 Counter-Sequence activation","L12 Era/Higher-Scope Sequence transition"
+    ]
+  },
+  "critical_repairs": {
+    "F01":"Stage count is not an invariant; count semantic classes instead.",
+    "F02":"Ordered Structure is broader than Sequence Instance.",
+    "F03":"End-first is Reconstruction mode, not universal live operation.",
+    "F04":"Acceptance/Analysis Contract is universal; Requirement is conditional.",
+    "F05":"driver_presence is separate from transition_mechanism; natural dynamics may have no driver.",
+    "F06":"controller presence/type/control regime are separated from natural mechanism.",
+    "F07":"Unaccepted required return blocks successful progression, not necessarily terminal failure closure.",
+    "F08":"Pass-3 occurs before immutable closure; later audit is a new Sequence.",
+    "F09":"Every threshold requires evaluation/recheck/timeout/evidence/uncertainty policy.",
+    "F10":"Threshold types are registered/versioned, not ad hoc prose.",
+    "F11":"Named loops become predicates that open new Sequence instances.",
+    "F12":"Counter-Sequence is cross-cutting, not a late fixed stage.",
+    "F13":"Convergence/synchronization is cross-cutting edge/global control.",
+    "F14":"Pattern, writer and law formation are normally post-closure derivative Sequences.",
+    "F15":"Trace is persistent path consequence; Memory is addressable/encoded for later reuse.",
+    "F16":"Independent corroboration is policy/rubric, not a universal two-witness law.",
+    "F17":"Requirement reduction requires Contract Amendment / Renegotiation Sequence.",
+    "F18":"Dependency logic supports AND/OR/XOR/N_OF_M/UNLESS/IF_THEN/SEQUENCE_ORDER/custom registered logic.",
+    "F19":"Event Weight stores necessity, sufficiency, contribution and substitute paths.",
+    "F20":"Machine-relevant assertions use first-class CLAIM records.",
+    "F21":"Executable transitions use first-class EDGE records.",
+    "F22":"Gap, Contradiction, Evidence, Proof-Debt and Open-Sequence ledgers are explicit services.",
+    "F23":"Missing/error states use typed null semantics.",
+    "F24":"Templates/versions are separated from immutable execution instances.",
+    "F25":"Concurrency requires lock/wait/deadlock/race/timeout/transaction/merge/sync semantics.",
+    "F26":"Multiple clocks are explicit.",
+    "F27":"Identity continuity changes require evidence-bearing decision packet.",
+    "F28":"Compression uses the superset contract and declares information loss."
+  }
+}
