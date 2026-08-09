@@ -35,6 +35,11 @@
     "size_bytes": 2688
   },
   {
+    "path": "tools/generate_rubric_views.py",
+    "sha256": "35f96771e81c3ab052909f674a17a4129f4b311467570ed4b9eb4f056093b7a6",
+    "size_bytes": 2585
+  },
+  {
     "path": "tools/validate_repo.py",
     "sha256": "0d75757e7fea873b52c93e12354ff8f6b8f1489c0e9a2e939705e3046d1f96e6",
     "size_bytes": 8862
