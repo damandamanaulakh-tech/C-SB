@@ -85,6 +85,11 @@
     "size_bytes": 3343
   },
   {
+    "path": "machine/parameters/SPLIT_OBSERVATION_SCHEMA.json",
+    "sha256": "7a604321a302b042356bbed347c04332a3b8fa86225f252b741ddf914fd28c62",
+    "size_bytes": 2245
+  },
+  {
     "path": "machine/schemas/sourceborn.bundle.schema.json",
     "sha256": "d2653984d4ac568baf3e0d84501f4e0e4a0e3984e697ed28378fd4bc567f1f98",
     "size_bytes": 7385
