@@ -1,0 +1,30 @@
+{
+  "status": "V2_LOCK_CANDIDATE",
+  "invariants": [
+    {"id":"V2-INV-01","name":"No Source Manufacture","rule":"Missing provenance remains missing."},
+    {"id":"V2-INV-02","name":"No Historical Reopen","rule":"Closed execution instances are immutable. New evidence creates a new Reference/Audit Sequence."},
+    {"id":"V2-INV-03","name":"Local Barrier","rule":"Only dependent edges are blocked by unresolved required returns."},
+    {"id":"V2-INV-04","name":"Progression Not Closure","rule":"An unaccepted required return blocks successful progression but may permit terminal FAILURE/PARTIAL/UNKNOWN/UNAVAILABLE/ABORTED closure if the contract defines it."},
+    {"id":"V2-INV-05","name":"No In-Place Sequence Restart","rule":"A new attempt is a new Sequence instance."},
+    {"id":"V2-INV-06","name":"Open-Parent Re-evaluation Allowed","rule":"Re-evaluating an open node after an attached return is not reopening the Sequence."},
+    {"id":"V2-INV-07","name":"Entity Outcome Not Sequence Closure","rule":"Entity lifecycle/outcome and Sequence terminal status are orthogonal records."},
+    {"id":"V2-INV-08","name":"Role Separation","rule":"Driver, Controller, Carrier, Performer and Transition Mechanism are separate machine fields."},
+    {"id":"V2-INV-09","name":"Requirement Conditional","rule":"Requirement is conditional; Acceptance/Analysis Contract is universal."},
+    {"id":"V2-INV-10","name":"Edge Evaluation Separation","rule":"Trigger, Threshold, Evaluator, Evaluation Policy and Recheck Policy are distinct."},
+    {"id":"V2-INV-11","name":"Order Not Causality","rule":"Declared order does not imply causal relation."},
+    {"id":"V2-INV-12","name":"Encounter Conditional","rule":"Encounter/Access may be absent when the relation/coupling already exists."},
+    {"id":"V2-INV-13","name":"Seed Not Intent Not Open Sequence","rule":"A Seed may be latent, carrier-less and closed-result-derived without itself being an open Sequence or intentional."},
+    {"id":"V2-INV-14","name":"Global Reality Not Actor View","rule":"Actor/observer knowledge state never silently becomes global truth."},
+    {"id":"V2-INV-15","name":"Trace Not Memory","rule":"Trace is persistent path evidence; Memory is encoded/addressable for later retrieval or reuse."},
+    {"id":"V2-INV-16","name":"Close Condition Not Acceptance Condition","rule":"Execution can close while its returned result is not accepted by a requester."},
+    {"id":"V2-INV-17","name":"Template Not Instance","rule":"Template/schema versioning never rewrites immutable historical execution instances."},
+    {"id":"V2-INV-18","name":"Typed Nulls","rule":"UNKNOWN, UNAVAILABLE, CONTRADICTORY, NOT_APPLICABLE, ABSENT, UNDECLARED, REDACTED and ERROR remain distinct."},
+    {"id":"V2-INV-19","name":"Contradiction Preserved","rule":"Supported contradiction is stored, never averaged away."},
+    {"id":"V2-INV-20","name":"Pass-3 Before Immutable Closure","rule":"Pass-3 integrity audit occurs before immutable closure; later audits are new Sequences."},
+    {"id":"V2-INV-21","name":"Cross-Sequence Relations First-Class","rule":"Main, Local/Rider, Attached, Next, Reference, Counter, Observer/Audit, Parallel and Convergent relations are not collapsed into one parent-child relation."},
+    {"id":"V2-INV-22","name":"Optional Modules Not Forced","rule":"Universality means representability without false semantics; conditional modules may close NOT_APPLICABLE or be omitted according to schema."},
+    {"id":"V2-INV-23","name":"Registered Edge Firing Contract","rule":"Every executable edge has a registered firing contract rather than prose-only control flow."},
+    {"id":"V2-INV-24","name":"Claim Epistemic/Provenance Required","rule":"Every machine-relevant claim has provenance/epistemic state or an explicit gap."},
+    {"id":"V2-INV-25","name":"Versioned Structural Change","rule":"Every canonical structural change is versioned and migration-aware."}
+  ]
+}
