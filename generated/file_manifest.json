@@ -56,8 +56,8 @@
   },
   {
     "path": "tools/build_ai_candidate_registry.py",
-    "sha256": "f0b1ed57f868c1b310e85c013074ed8dea170c124738088cbcb8aa63e244dfee",
-    "size_bytes": 4308
+    "sha256": "1939a75e270ae683bb8fc8606fcf22e121a669ce7339a29cf3f3cb23139df913",
+    "size_bytes": 3667
   },
   {
     "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",

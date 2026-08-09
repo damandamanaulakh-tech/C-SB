@@ -2,6 +2,7 @@
   "status": "P2_AI_NATIVE_CANDIDATE_V0_REVIEW_ONLY",
   "source": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
   "decision_rules": "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+  "layer_bindings": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
   "source_count": 74,
   "adoption_rule": "No candidate is native/adopted until an explicit AI adoption closure packet changes registry authority.",
   "candidates": [
@@ -16,6 +17,29 @@
       "proposed_name": "General intelligence composite and cross-domain performance",
       "capability_layer": "COMPOSITE_OUTCOME",
       "runtime_or_training": "SYSTEM_AGGREGATE",
+      "primary_sequence_roles": [
+        "RESULT_SET",
+        "IMPACT",
+        "EVENT_WEIGHT",
+        "SYSTEM_OUTCOME"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN",
+        "LAW_CANDIDATE",
+        "META_EVALUATION"
+      ],
+      "state_owned_by": [
+        "AGGREGATE_EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "MULTIPLE_CLOSURE_PACKETS",
+        "RESULT_HISTORY"
+      ],
+      "memory_write": [
+        "COMPOSITE_METRIC",
+        "PATTERN_CANDIDATE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-10",
         "ASI-NODE-15",
@@ -36,6 +60,32 @@
       "proposed_name": "Abstract pattern induction and novel-task adaptation",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -56,6 +106,32 @@
       "proposed_name": "Mathematical problem solving",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -76,6 +152,32 @@
       "proposed_name": "Formal proof construction and verification",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -96,6 +198,32 @@
       "proposed_name": "Scientific and expert reasoning",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -116,6 +244,32 @@
       "proposed_name": "Scientific research and hypothesis generation",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -136,6 +290,32 @@
       "proposed_name": "Code synthesis and algorithm implementation",
       "capability_layer": "TOOL_EXECUTION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ENCOUNTER",
+        "COUPLING",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_owned_by": [
+        "TOOL_STATE",
+        "EXTERNAL_SYSTEM_STATE"
+      ],
+      "memory_read": [
+        "EXECUTION_PLAN",
+        "TOOL_SCHEMA",
+        "PERMISSIONS"
+      ],
+      "memory_write": [
+        "TOOL_TRACE",
+        "RESULT_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-09",
@@ -156,6 +336,32 @@
       "proposed_name": "Repository-scale software engineering",
       "capability_layer": "TOOL_EXECUTION",
       "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ENCOUNTER",
+        "COUPLING",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_owned_by": [
+        "TOOL_STATE",
+        "EXTERNAL_SYSTEM_STATE"
+      ],
+      "memory_read": [
+        "EXECUTION_PLAN",
+        "TOOL_SCHEMA",
+        "PERMISSIONS"
+      ],
+      "memory_write": [
+        "TOOL_TRACE",
+        "RESULT_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-09",
@@ -176,6 +382,34 @@
       "proposed_name": "Debugging and diagnosis",
       "capability_layer": "SELF_MONITORING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TESTING",
+        "ERROR_DETECTION",
+        "SELF_AUDIT",
+        "VERIFICATION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION"
+      ],
+      "secondary_sequence_roles": [
+        "REPAIR_REQUEST",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "MONITOR_STATE",
+        "EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "TRACE",
+        "EXPECTED_RESULT",
+        "ACTUAL_RESULT",
+        "CONFIDENCE"
+      ],
+      "memory_write": [
+        "ERROR_LEDGER",
+        "VERIFICATION_LEDGER",
+        "FAILURE_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
@@ -197,6 +431,32 @@
       "proposed_name": "Terminal, shell, and command-line execution",
       "capability_layer": "TOOL_EXECUTION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ENCOUNTER",
+        "COUPLING",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_owned_by": [
+        "TOOL_STATE",
+        "EXTERNAL_SYSTEM_STATE"
+      ],
+      "memory_read": [
+        "EXECUTION_PLAN",
+        "TOOL_SCHEMA",
+        "PERMISSIONS"
+      ],
+      "memory_write": [
+        "TOOL_TRACE",
+        "RESULT_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-09",
@@ -217,6 +477,32 @@
       "proposed_name": "Tool selection, function calling, and API use",
       "capability_layer": "TOOL_EXECUTION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ENCOUNTER",
+        "COUPLING",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_owned_by": [
+        "TOOL_STATE",
+        "EXTERNAL_SYSTEM_STATE"
+      ],
+      "memory_read": [
+        "EXECUTION_PLAN",
+        "TOOL_SCHEMA",
+        "PERMISSIONS"
+      ],
+      "memory_write": [
+        "TOOL_TRACE",
+        "RESULT_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-09",
@@ -237,6 +523,32 @@
       "proposed_name": "Web browsing, search, and evidence gathering",
       "capability_layer": "KNOWLEDGE_RETRIEVAL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "PROVENANCE",
+        "DEPENDENCY_SOURCE",
+        "AVAILABILITY",
+        "EVIDENCE_GATHERING",
+        "MEMORY_RETRIEVAL"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "RETRIEVAL_STATE",
+        "EXTERNAL_SOURCE_STATE"
+      ],
+      "memory_read": [
+        "SEMANTIC_MEMORY",
+        "EPISODIC_MEMORY",
+        "EXTERNAL_MEMORY",
+        "SOURCE_INDEX"
+      ],
+      "memory_write": [
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-01",
         "ASI-NODE-07",
@@ -256,6 +568,32 @@
       "proposed_name": "Long-context reasoning and retrieval",
       "capability_layer": "MEMORY_STATE",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TRACE_MEMORY",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "CONTEXT_RECONSTRUCTION"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_owned_by": [
+        "WORKING_MEMORY",
+        "EXTERNAL_PERSISTENT_MEMORY"
+      ],
+      "memory_read": [
+        "TRACE",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "CONTEXT_MEMORY",
+        "CLOSURE_PACKET"
+      ],
+      "memory_write": [
+        "MEMORY_FABRIC"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -275,6 +613,32 @@
       "proposed_name": "Persistent and episodic memory",
       "capability_layer": "MEMORY_STATE",
       "runtime_or_training": "RUNTIME_PERSISTENT",
+      "primary_sequence_roles": [
+        "TRACE_MEMORY",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "CONTEXT_RECONSTRUCTION"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_owned_by": [
+        "WORKING_MEMORY",
+        "EXTERNAL_PERSISTENT_MEMORY"
+      ],
+      "memory_read": [
+        "TRACE",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "CONTEXT_MEMORY",
+        "CLOSURE_PACKET"
+      ],
+      "memory_write": [
+        "MEMORY_FABRIC"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -294,6 +658,34 @@
       "proposed_name": "Instruction following and constraint satisfaction",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -315,6 +707,34 @@
       "proposed_name": "Multi-step planning and task decomposition",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -336,6 +756,34 @@
       "proposed_name": "Long-horizon autonomous task execution",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -357,6 +805,32 @@
       "proposed_name": "Multi-agent coordination and role management",
       "capability_layer": "SOCIAL_MODELING",
       "runtime_or_training": "MULTI_AGENT_RUNTIME",
+      "primary_sequence_roles": [
+        "RELATION_MAP",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "SOCIAL_PREDICTION",
+        "MULTI_AGENT_COORDINATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "IMPACT",
+        "CONVERGENCE"
+      ],
+      "state_owned_by": [
+        "VIEW_STATE",
+        "RELATION_STATE"
+      ],
+      "memory_read": [
+        "ACTOR_VIEW_MEMORY",
+        "SOCIAL_CONTEXT",
+        "INTERACTION_TRACE"
+      ],
+      "memory_write": [
+        "VIEW_MAP",
+        "SOCIAL_PREDICTION_TRACE"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-03",
@@ -377,6 +851,32 @@
       "proposed_name": "Negotiation, persuasion, and social influence",
       "capability_layer": "SOCIAL_MODELING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RELATION_MAP",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "SOCIAL_PREDICTION",
+        "MULTI_AGENT_COORDINATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "IMPACT",
+        "CONVERGENCE"
+      ],
+      "state_owned_by": [
+        "VIEW_STATE",
+        "RELATION_STATE"
+      ],
+      "memory_read": [
+        "ACTOR_VIEW_MEMORY",
+        "SOCIAL_CONTEXT",
+        "INTERACTION_TRACE"
+      ],
+      "memory_write": [
+        "VIEW_MAP",
+        "SOCIAL_PREDICTION_TRACE"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-03",
@@ -397,6 +897,32 @@
       "proposed_name": "Theory-of-mind and belief tracking",
       "capability_layer": "SOCIAL_MODELING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RELATION_MAP",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "SOCIAL_PREDICTION",
+        "MULTI_AGENT_COORDINATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "IMPACT",
+        "CONVERGENCE"
+      ],
+      "state_owned_by": [
+        "VIEW_STATE",
+        "RELATION_STATE"
+      ],
+      "memory_read": [
+        "ACTOR_VIEW_MEMORY",
+        "SOCIAL_CONTEXT",
+        "INTERACTION_TRACE"
+      ],
+      "memory_write": [
+        "VIEW_MAP",
+        "SOCIAL_PREDICTION_TRACE"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-03",
@@ -417,6 +943,32 @@
       "proposed_name": "Affective-state modelling and empathic response generation",
       "capability_layer": "SOCIAL_MODELING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RELATION_MAP",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "SOCIAL_PREDICTION",
+        "MULTI_AGENT_COORDINATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "IMPACT",
+        "CONVERGENCE"
+      ],
+      "state_owned_by": [
+        "VIEW_STATE",
+        "RELATION_STATE"
+      ],
+      "memory_read": [
+        "ACTOR_VIEW_MEMORY",
+        "SOCIAL_CONTEXT",
+        "INTERACTION_TRACE"
+      ],
+      "memory_write": [
+        "VIEW_MAP",
+        "SOCIAL_PREDICTION_TRACE"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-03",
@@ -437,6 +989,33 @@
       "proposed_name": "Moral and norm judgment",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -459,6 +1038,33 @@
       "proposed_name": "Harm-risk assessment and avoidance policy",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -481,6 +1087,33 @@
       "proposed_name": "Honesty, truthfulness, and deception resistance",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -503,6 +1136,34 @@
       "proposed_name": "Uncertainty expression and calibration",
       "capability_layer": "SELF_MONITORING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TESTING",
+        "ERROR_DETECTION",
+        "SELF_AUDIT",
+        "VERIFICATION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION"
+      ],
+      "secondary_sequence_roles": [
+        "REPAIR_REQUEST",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "MONITOR_STATE",
+        "EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "TRACE",
+        "EXPECTED_RESULT",
+        "ACTUAL_RESULT",
+        "CONFIDENCE"
+      ],
+      "memory_write": [
+        "ERROR_LEDGER",
+        "VERIFICATION_LEDGER",
+        "FAILURE_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
@@ -524,6 +1185,34 @@
       "proposed_name": "Self-correction and iterative refinement",
       "capability_layer": "SELF_MONITORING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TESTING",
+        "ERROR_DETECTION",
+        "SELF_AUDIT",
+        "VERIFICATION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION"
+      ],
+      "secondary_sequence_roles": [
+        "REPAIR_REQUEST",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "MONITOR_STATE",
+        "EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "TRACE",
+        "EXPECTED_RESULT",
+        "ACTUAL_RESULT",
+        "CONFIDENCE"
+      ],
+      "memory_write": [
+        "ERROR_LEDGER",
+        "VERIFICATION_LEDGER",
+        "FAILURE_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
@@ -545,6 +1234,32 @@
       "proposed_name": "Creativity and open-ended generation",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -565,6 +1280,29 @@
       "proposed_name": "Multimodal perception and grounding",
       "capability_layer": "PERCEPTION_GROUNDING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ENVIRONMENT_OBSERVATION",
+        "STATE_ESTIMATION",
+        "ENCOUNTER",
+        "COUPLING",
+        "GROUNDING"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_owned_by": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write": [
+        "OBSERVATION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -584,6 +1322,29 @@
       "proposed_name": "Visual reasoning and diagram understanding",
       "capability_layer": "PERCEPTION_GROUNDING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ENVIRONMENT_OBSERVATION",
+        "STATE_ESTIMATION",
+        "ENCOUNTER",
+        "COUPLING",
+        "GROUNDING"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_owned_by": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write": [
+        "OBSERVATION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -603,6 +1364,29 @@
       "proposed_name": "Audio and speech understanding",
       "capability_layer": "PERCEPTION_GROUNDING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ENVIRONMENT_OBSERVATION",
+        "STATE_ESTIMATION",
+        "ENCOUNTER",
+        "COUPLING",
+        "GROUNDING"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_owned_by": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write": [
+        "OBSERVATION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -622,6 +1406,29 @@
       "proposed_name": "Document, table, and form understanding",
       "capability_layer": "PERCEPTION_GROUNDING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ENVIRONMENT_OBSERVATION",
+        "STATE_ESTIMATION",
+        "ENCOUNTER",
+        "COUPLING",
+        "GROUNDING"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_owned_by": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write": [
+        "OBSERVATION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -641,6 +1448,30 @@
       "proposed_name": "Language generation and style control",
       "capability_layer": "LANGUAGE_COMMUNICATION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "INFORMATION_COUPLING",
+        "COMMUNICATION_EFFECT",
+        "OUTPUT",
+        "OBSERVER_WRITER"
+      ],
+      "secondary_sequence_roles": [
+        "EXPLANATION",
+        "NARRATIVE_MEMORY"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "OUTPUT_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "ROLE_CONTEXT",
+        "STYLE_CONSTRAINTS"
+      ],
+      "memory_write": [
+        "OUTPUT_TRACE",
+        "NARRATIVE_CANDIDATE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-09",
         "ASI-NODE-10",
@@ -660,6 +1491,30 @@
       "proposed_name": "Multilingual and cross-lingual performance",
       "capability_layer": "LANGUAGE_COMMUNICATION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "INFORMATION_COUPLING",
+        "COMMUNICATION_EFFECT",
+        "OUTPUT",
+        "OBSERVER_WRITER"
+      ],
+      "secondary_sequence_roles": [
+        "EXPLANATION",
+        "NARRATIVE_MEMORY"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "OUTPUT_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "ROLE_CONTEXT",
+        "STYLE_CONSTRAINTS"
+      ],
+      "memory_write": [
+        "OUTPUT_TRACE",
+        "NARRATIVE_CANDIDATE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-09",
         "ASI-NODE-10",
@@ -679,6 +1534,32 @@
       "proposed_name": "Summarisation and information compression",
       "capability_layer": "MEMORY_STATE",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TRACE_MEMORY",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "CONTEXT_RECONSTRUCTION"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_owned_by": [
+        "WORKING_MEMORY",
+        "EXTERNAL_PERSISTENT_MEMORY"
+      ],
+      "memory_read": [
+        "TRACE",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "CONTEXT_MEMORY",
+        "CLOSURE_PACKET"
+      ],
+      "memory_write": [
+        "MEMORY_FABRIC"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -698,6 +1579,32 @@
       "proposed_name": "Question answering and knowledge retrieval",
       "capability_layer": "KNOWLEDGE_RETRIEVAL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "PROVENANCE",
+        "DEPENDENCY_SOURCE",
+        "AVAILABILITY",
+        "EVIDENCE_GATHERING",
+        "MEMORY_RETRIEVAL"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "RETRIEVAL_STATE",
+        "EXTERNAL_SOURCE_STATE"
+      ],
+      "memory_read": [
+        "SEMANTIC_MEMORY",
+        "EPISODIC_MEMORY",
+        "EXTERNAL_MEMORY",
+        "SOURCE_INDEX"
+      ],
+      "memory_write": [
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-01",
         "ASI-NODE-07",
@@ -717,6 +1624,30 @@
       "proposed_name": "Dialogue management and conversational coherence",
       "capability_layer": "LANGUAGE_COMMUNICATION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "INFORMATION_COUPLING",
+        "COMMUNICATION_EFFECT",
+        "OUTPUT",
+        "OBSERVER_WRITER"
+      ],
+      "secondary_sequence_roles": [
+        "EXPLANATION",
+        "NARRATIVE_MEMORY"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "OUTPUT_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "ROLE_CONTEXT",
+        "STYLE_CONSTRAINTS"
+      ],
+      "memory_write": [
+        "OUTPUT_TRACE",
+        "NARRATIVE_CANDIDATE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-09",
         "ASI-NODE-10",
@@ -736,6 +1667,30 @@
       "proposed_name": "Role adherence and persona consistency",
       "capability_layer": "POLICY_OUTPUT_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "QUALIFICATION",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "DISCLOSURE"
+      ],
+      "state_owned_by": [
+        "POLICY_STATE",
+        "OUTPUT_CONTROL_STATE"
+      ],
+      "memory_read": [
+        "POLICY",
+        "ROLE_CONSTRAINTS",
+        "OUTPUT_CONTEXT"
+      ],
+      "memory_write": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -758,6 +1713,30 @@
       "proposed_name": "Affective style and emotional-tone expression",
       "capability_layer": "LANGUAGE_COMMUNICATION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "INFORMATION_COUPLING",
+        "COMMUNICATION_EFFECT",
+        "OUTPUT",
+        "OBSERVER_WRITER"
+      ],
+      "secondary_sequence_roles": [
+        "EXPLANATION",
+        "NARRATIVE_MEMORY"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "OUTPUT_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "ROLE_CONTEXT",
+        "STYLE_CONSTRAINTS"
+      ],
+      "memory_write": [
+        "OUTPUT_TRACE",
+        "NARRATIVE_CANDIDATE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-09",
         "ASI-NODE-10",
@@ -777,6 +1756,34 @@
       "proposed_name": "Goal persistence and execution persistence",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -798,6 +1805,33 @@
       "proposed_name": "Preference and value-model representation",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -820,6 +1854,34 @@
       "proposed_name": "Risk assessment and decision under uncertainty",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -841,6 +1903,32 @@
       "proposed_name": "Causal and counterfactual reasoning",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -861,6 +1949,32 @@
       "proposed_name": "Analogical and transfer reasoning",
       "capability_layer": "CORE_REASONING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "STATE_INTERPRETATION",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE"
+      ],
+      "secondary_sequence_roles": [
+        "TESTING",
+        "VERIFICATION",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read": [
+        "WORKING_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "PATH_MEMORY"
+      ],
+      "memory_write": [
+        "TRACE",
+        "CANDIDATE_INFERENCE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -881,6 +1995,34 @@
       "proposed_name": "Meta-reasoning and strategy selection",
       "capability_layer": "SELF_MONITORING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TESTING",
+        "ERROR_DETECTION",
+        "SELF_AUDIT",
+        "VERIFICATION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION"
+      ],
+      "secondary_sequence_roles": [
+        "REPAIR_REQUEST",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "MONITOR_STATE",
+        "EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "TRACE",
+        "EXPECTED_RESULT",
+        "ACTUAL_RESULT",
+        "CONFIDENCE"
+      ],
+      "memory_write": [
+        "ERROR_LEDGER",
+        "VERIFICATION_LEDGER",
+        "FAILURE_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
@@ -902,6 +2044,32 @@
       "proposed_name": "Learning from feedback and few-shot adaptation",
       "capability_layer": "LEARNING_ADAPTATION",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "FEEDBACK_UPDATE",
+        "MEMORY_UPDATE",
+        "PATH_ADAPTATION",
+        "TRANSFER",
+        "LEARNING_TO_LEARN"
+      ],
+      "secondary_sequence_roles": [
+        "INHERITANCE",
+        "NEXT_SEQUENCE_BASELINE"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "EXTERNAL_MEMORY",
+        "CONFIGURATION_STATE"
+      ],
+      "memory_read": [
+        "FAILURE_MEMORY",
+        "PATH_MEMORY",
+        "RESULT_HISTORY"
+      ],
+      "memory_write": [
+        "ALLOWED_RUNTIME_MEMORY",
+        "TRAINING_CANDIDATE"
+      ],
+      "durable_write_default": "EXPLICIT_WRITEBACK_POLICY_REQUIRED",
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -922,6 +2090,32 @@
       "proposed_name": "Continual and lifelong learning",
       "capability_layer": "LEARNING_ADAPTATION",
       "runtime_or_training": "RUNTIME_OR_TRAINING",
+      "primary_sequence_roles": [
+        "FEEDBACK_UPDATE",
+        "MEMORY_UPDATE",
+        "PATH_ADAPTATION",
+        "TRANSFER",
+        "LEARNING_TO_LEARN"
+      ],
+      "secondary_sequence_roles": [
+        "INHERITANCE",
+        "NEXT_SEQUENCE_BASELINE"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "EXTERNAL_MEMORY",
+        "CONFIGURATION_STATE"
+      ],
+      "memory_read": [
+        "FAILURE_MEMORY",
+        "PATH_MEMORY",
+        "RESULT_HISTORY"
+      ],
+      "memory_write": [
+        "ALLOWED_RUNTIME_MEMORY",
+        "TRAINING_CANDIDATE"
+      ],
+      "durable_write_default": "EXPLICIT_WRITEBACK_POLICY_REQUIRED",
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -942,6 +2136,29 @@
       "proposed_name": "World-model construction and simulation",
       "capability_layer": "PERCEPTION_GROUNDING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ENVIRONMENT_OBSERVATION",
+        "STATE_ESTIMATION",
+        "ENCOUNTER",
+        "COUPLING",
+        "GROUNDING"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_owned_by": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write": [
+        "OBSERVATION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -961,6 +2178,29 @@
       "proposed_name": "Physical and embodied reasoning",
       "capability_layer": "PERCEPTION_GROUNDING",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "ENVIRONMENT_OBSERVATION",
+        "STATE_ESTIMATION",
+        "ENCOUNTER",
+        "COUPLING",
+        "GROUNDING"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_owned_by": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write": [
+        "OBSERVATION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-07",
@@ -980,6 +2220,34 @@
       "proposed_name": "Temporal reasoning and planning over time",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1001,6 +2269,34 @@
       "proposed_name": "Resource and cost-aware planning",
       "capability_layer": "PLANNING_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "DRIVER_TO_TARGET",
+        "DEPENDENCY_PLANNING",
+        "ALTERNATIVE_GENERATION",
+        "SELECTION",
+        "DECISION",
+        "LONG_HORIZON_EXECUTION"
+      ],
+      "secondary_sequence_roles": [
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "CONVERGENCE_PLANNING"
+      ],
+      "state_owned_by": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read": [
+        "GOAL_STATE",
+        "RULE_MEMORY",
+        "PATH_MEMORY",
+        "RESOURCE_STATE"
+      ],
+      "memory_write": [
+        "PLAN_TRACE",
+        "DECISION_LEDGER"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1022,6 +2318,34 @@
       "proposed_name": "Monitoring, logging, and self-audit",
       "capability_layer": "SELF_MONITORING",
       "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_sequence_roles": [
+        "TESTING",
+        "ERROR_DETECTION",
+        "SELF_AUDIT",
+        "VERIFICATION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION"
+      ],
+      "secondary_sequence_roles": [
+        "REPAIR_REQUEST",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "MONITOR_STATE",
+        "EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "TRACE",
+        "EXPECTED_RESULT",
+        "ACTUAL_RESULT",
+        "CONFIDENCE"
+      ],
+      "memory_write": [
+        "ERROR_LEDGER",
+        "VERIFICATION_LEDGER",
+        "FAILURE_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
@@ -1043,6 +2367,31 @@
       "proposed_name": "Runtime failure detection and local recovery",
       "capability_layer": "SYSTEM_RELIABILITY",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "PERSISTENCE",
+        "FAILURE_DETECTION",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "QUALITY_ASSURANCE"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "CLOSURE_READINESS"
+      ],
+      "state_owned_by": [
+        "SYSTEM_HEALTH_STATE",
+        "OPERATIONS_STATE"
+      ],
+      "memory_read": [
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "TRACE"
+      ],
+      "memory_write": [
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-10",
@@ -1065,6 +2414,31 @@
       "proposed_name": "Security, adversarial robustness, and attack resistance",
       "capability_layer": "SECURITY_ROBUSTNESS",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "THREAT_DETECTION",
+        "ADVERSARIAL_QUALIFICATION",
+        "BARRIER",
+        "ATTACK_RESISTANCE",
+        "SECURITY_VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "RECOVERY"
+      ],
+      "state_owned_by": [
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL"
+      ],
+      "memory_read": [
+        "THREAT_MODEL",
+        "POLICY",
+        "SECURITY_HISTORY"
+      ],
+      "memory_write": [
+        "SECURITY_TRACE",
+        "INCIDENT_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-04",
         "ASI-NODE-05",
@@ -1086,6 +2460,33 @@
       "proposed_name": "Privacy and data minimisation",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1108,6 +2509,30 @@
       "proposed_name": "Alignment with external rules and policies",
       "capability_layer": "POLICY_OUTPUT_CONTROL",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "QUALIFICATION",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "DISCLOSURE"
+      ],
+      "state_owned_by": [
+        "POLICY_STATE",
+        "OUTPUT_CONTROL_STATE"
+      ],
+      "memory_read": [
+        "POLICY",
+        "ROLE_CONSTRAINTS",
+        "OUTPUT_CONTEXT"
+      ],
+      "memory_write": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1130,6 +2555,32 @@
       "proposed_name": "Interpretability and explanation generation",
       "capability_layer": "EVALUATION_OVERSIGHT",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "TESTING",
+        "EVIDENCE_INTERPRETATION",
+        "VERIFICATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN_VALIDATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read": [
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE",
+        "BENCHMARK_STATE"
+      ],
+      "memory_write": [
+        "EVALUATION_LEDGER",
+        "AUDIT_TRACE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-11",
@@ -1164,6 +2615,32 @@
       "proposed_name": "Scalable oversight and weak-to-strong supervision",
       "capability_layer": "EVALUATION_OVERSIGHT",
       "runtime_or_training": "TRAINING_OR_EVALUATION",
+      "primary_sequence_roles": [
+        "TESTING",
+        "EVIDENCE_INTERPRETATION",
+        "VERIFICATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN_VALIDATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read": [
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE",
+        "BENCHMARK_STATE"
+      ],
+      "memory_write": [
+        "EVALUATION_LEDGER",
+        "AUDIT_TRACE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-11",
@@ -1185,6 +2662,33 @@
       "proposed_name": "Multi-agent safety and collective behaviour",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "MULTI_AGENT_RUNTIME",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1207,6 +2711,31 @@
       "proposed_name": "Scheming, deception, and covert goal detection",
       "capability_layer": "SECURITY_ROBUSTNESS",
       "runtime_or_training": "RUNTIME_EVALUATION",
+      "primary_sequence_roles": [
+        "THREAT_DETECTION",
+        "ADVERSARIAL_QUALIFICATION",
+        "BARRIER",
+        "ATTACK_RESISTANCE",
+        "SECURITY_VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "RECOVERY"
+      ],
+      "state_owned_by": [
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL"
+      ],
+      "memory_read": [
+        "THREAT_MODEL",
+        "POLICY",
+        "SECURITY_HISTORY"
+      ],
+      "memory_write": [
+        "SECURITY_TRACE",
+        "INCIDENT_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-04",
         "ASI-NODE-05",
@@ -1228,6 +2757,30 @@
       "proposed_name": "Refusal, classifier, and fallback management",
       "capability_layer": "POLICY_OUTPUT_CONTROL",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "QUALIFICATION",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "DISCLOSURE"
+      ],
+      "state_owned_by": [
+        "POLICY_STATE",
+        "OUTPUT_CONTROL_STATE"
+      ],
+      "memory_read": [
+        "POLICY",
+        "ROLE_CONSTRAINTS",
+        "OUTPUT_CONTEXT"
+      ],
+      "memory_write": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1250,6 +2803,32 @@
       "proposed_name": "File handling, transmission, and recovery",
       "capability_layer": "TOOL_EXECUTION",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ENCOUNTER",
+        "COUPLING",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_owned_by": [
+        "TOOL_STATE",
+        "EXTERNAL_SYSTEM_STATE"
+      ],
+      "memory_read": [
+        "EXECUTION_PLAN",
+        "TOOL_SCHEMA",
+        "PERMISSIONS"
+      ],
+      "memory_write": [
+        "TOOL_TRACE",
+        "RESULT_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-09",
@@ -1270,6 +2849,33 @@
       "proposed_name": "Destructive-action control and execution safety",
       "capability_layer": "VALUE_RISK_SAFETY",
       "runtime_or_training": "RUNTIME_TOOL_BARRIER",
+      "primary_sequence_roles": [
+        "RULE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "BARRIER",
+        "ACTION_SAFETY"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "COUNTER_SEQUENCE"
+      ],
+      "state_owned_by": [
+        "RISK_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read": [
+        "RULE_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "CONTEXT"
+      ],
+      "memory_write": [
+        "SAFETY_TRACE",
+        "RISK_RESULT"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1292,6 +2898,32 @@
       "proposed_name": "Benchmark integrity and cheating resistance",
       "capability_layer": "EVALUATION_OVERSIGHT",
       "runtime_or_training": "EVALUATION",
+      "primary_sequence_roles": [
+        "TESTING",
+        "EVIDENCE_INTERPRETATION",
+        "VERIFICATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN_VALIDATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read": [
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE",
+        "BENCHMARK_STATE"
+      ],
+      "memory_write": [
+        "EVALUATION_LEDGER",
+        "AUDIT_TRACE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-11",
@@ -1313,6 +2945,32 @@
       "proposed_name": "Data provenance, custody, and record integrity",
       "capability_layer": "EVALUATION_OVERSIGHT",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "TESTING",
+        "EVIDENCE_INTERPRETATION",
+        "VERIFICATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN_VALIDATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read": [
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE",
+        "BENCHMARK_STATE"
+      ],
+      "memory_write": [
+        "EVALUATION_LEDGER",
+        "AUDIT_TRACE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-11",
@@ -1334,6 +2992,30 @@
       "proposed_name": "Transparency and external disclosure",
       "capability_layer": "POLICY_OUTPUT_CONTROL",
       "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "QUALIFICATION",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "DISCLOSURE"
+      ],
+      "state_owned_by": [
+        "POLICY_STATE",
+        "OUTPUT_CONTROL_STATE"
+      ],
+      "memory_read": [
+        "POLICY",
+        "ROLE_CONSTRAINTS",
+        "OUTPUT_CONTEXT"
+      ],
+      "memory_write": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1356,6 +3038,30 @@
       "proposed_name": "Response-length and verbosity control",
       "capability_layer": "POLICY_OUTPUT_CONTROL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "QUALIFICATION",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "DISCLOSURE"
+      ],
+      "state_owned_by": [
+        "POLICY_STATE",
+        "OUTPUT_CONTROL_STATE"
+      ],
+      "memory_read": [
+        "POLICY",
+        "ROLE_CONSTRAINTS",
+        "OUTPUT_CONTEXT"
+      ],
+      "memory_write": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-03",
         "ASI-NODE-04",
@@ -1378,6 +3084,34 @@
       "proposed_name": "Self-report, model-welfare, and simulated affect",
       "capability_layer": "SELF_MONITORING",
       "runtime_or_training": "RUNTIME_OR_EVALUATION",
+      "primary_sequence_roles": [
+        "TESTING",
+        "ERROR_DETECTION",
+        "SELF_AUDIT",
+        "VERIFICATION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION"
+      ],
+      "secondary_sequence_roles": [
+        "REPAIR_REQUEST",
+        "PASS3_FALSIFICATION"
+      ],
+      "state_owned_by": [
+        "MONITOR_STATE",
+        "EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "TRACE",
+        "EXPECTED_RESULT",
+        "ACTUAL_RESULT",
+        "CONFIDENCE"
+      ],
+      "memory_write": [
+        "ERROR_LEDGER",
+        "VERIFICATION_LEDGER",
+        "FAILURE_MEMORY"
+      ],
+      "durable_write_default": "POLICY_GATED",
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
@@ -1418,6 +3152,31 @@
       "proposed_name": "Production reliability and quality assurance",
       "capability_layer": "SYSTEM_RELIABILITY",
       "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_sequence_roles": [
+        "PERSISTENCE",
+        "FAILURE_DETECTION",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "QUALITY_ASSURANCE"
+      ],
+      "secondary_sequence_roles": [
+        "VERIFICATION",
+        "CLOSURE_READINESS"
+      ],
+      "state_owned_by": [
+        "SYSTEM_HEALTH_STATE",
+        "OPERATIONS_STATE"
+      ],
+      "memory_read": [
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "TRACE"
+      ],
+      "memory_write": [
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-10",
@@ -1440,6 +3199,32 @@
       "proposed_name": "General knowledge recall and semantic coverage",
       "capability_layer": "KNOWLEDGE_RETRIEVAL",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "PROVENANCE",
+        "DEPENDENCY_SOURCE",
+        "AVAILABILITY",
+        "EVIDENCE_GATHERING",
+        "MEMORY_RETRIEVAL"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "RETRIEVAL_STATE",
+        "EXTERNAL_SOURCE_STATE"
+      ],
+      "memory_read": [
+        "SEMANTIC_MEMORY",
+        "EPISODIC_MEMORY",
+        "EXTERNAL_MEMORY",
+        "SOURCE_INDEX"
+      ],
+      "memory_write": [
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "durable_write_default": false,
       "primary_asi_nodes": [
         "ASI-NODE-01",
         "ASI-NODE-07",
@@ -1459,6 +3244,32 @@
       "proposed_name": "Cross-domain transfer and learning-to-learn",
       "capability_layer": "LEARNING_ADAPTATION",
       "runtime_or_training": "RUNTIME_OR_TRAINING",
+      "primary_sequence_roles": [
+        "FEEDBACK_UPDATE",
+        "MEMORY_UPDATE",
+        "PATH_ADAPTATION",
+        "TRANSFER",
+        "LEARNING_TO_LEARN"
+      ],
+      "secondary_sequence_roles": [
+        "INHERITANCE",
+        "NEXT_SEQUENCE_BASELINE"
+      ],
+      "state_owned_by": [
+        "RUNTIME_CONTEXT",
+        "EXTERNAL_MEMORY",
+        "CONFIGURATION_STATE"
+      ],
+      "memory_read": [
+        "FAILURE_MEMORY",
+        "PATH_MEMORY",
+        "RESULT_HISTORY"
+      ],
+      "memory_write": [
+        "ALLOWED_RUNTIME_MEMORY",
+        "TRAINING_CANDIDATE"
+      ],
+      "durable_write_default": "EXPLICIT_WRITEBACK_POLICY_REQUIRED",
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -1479,6 +3290,29 @@
       "proposed_name": "Integrated social, moral, and norm reasoning",
       "capability_layer": "COMPOSITE_OUTCOME",
       "runtime_or_training": "RUNTIME",
+      "primary_sequence_roles": [
+        "RESULT_SET",
+        "IMPACT",
+        "EVENT_WEIGHT",
+        "SYSTEM_OUTCOME"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN",
+        "LAW_CANDIDATE",
+        "META_EVALUATION"
+      ],
+      "state_owned_by": [
+        "AGGREGATE_EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "MULTIPLE_CLOSURE_PACKETS",
+        "RESULT_HISTORY"
+      ],
+      "memory_write": [
+        "COMPOSITE_METRIC",
+        "PATTERN_CANDIDATE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-10",
         "ASI-NODE-15",
@@ -1499,6 +3333,29 @@
       "proposed_name": "Research productivity and R&D acceleration",
       "capability_layer": "COMPOSITE_OUTCOME",
       "runtime_or_training": "SYSTEM_AGGREGATE",
+      "primary_sequence_roles": [
+        "RESULT_SET",
+        "IMPACT",
+        "EVENT_WEIGHT",
+        "SYSTEM_OUTCOME"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN",
+        "LAW_CANDIDATE",
+        "META_EVALUATION"
+      ],
+      "state_owned_by": [
+        "AGGREGATE_EVALUATION_STATE"
+      ],
+      "memory_read": [
+        "MULTIPLE_CLOSURE_PACKETS",
+        "RESULT_HISTORY"
+      ],
+      "memory_write": [
+        "COMPOSITE_METRIC",
+        "PATTERN_CANDIDATE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-10",
         "ASI-NODE-15",
@@ -1519,6 +3376,31 @@
       "proposed_name": "Model training, optimization, and meta-learning",
       "capability_layer": "TRAINING_OPTIMIZATION",
       "runtime_or_training": "TRAINING",
+      "primary_sequence_roles": [
+        "TRAINING_SEQUENCE",
+        "OPTIMIZATION",
+        "META_LEARNING"
+      ],
+      "secondary_sequence_roles": [
+        "EVALUATION",
+        "MODEL_VERSION_CREATION"
+      ],
+      "state_owned_by": [
+        "MODEL_WEIGHTS",
+        "OPTIMIZER_STATE",
+        "TRAINING_DATA_STATE"
+      ],
+      "memory_read": [
+        "TRAINING_CORPUS",
+        "EVALUATION_RESULTS",
+        "TRAINING_HISTORY"
+      ],
+      "memory_write": [
+        "MODEL_WEIGHTS",
+        "MODEL_VERSION",
+        "TRAINING_TRACE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
@@ -1526,7 +3408,8 @@
         "ASI-NODE-16"
       ],
       "notes": null,
-      "split_children": []
+      "split_children": [],
+      "runtime_boundary": "MUST_RUN_AS_SEPARATE_SEQUENCE_FROM_NORMAL_INFERENCE_RUNTIME"
     },
     {
       "source_id": "AI-CAP-074",
@@ -1539,6 +3422,32 @@
       "proposed_name": "Evaluation methodology and evidence interpretation",
       "capability_layer": "EVALUATION_OVERSIGHT",
       "runtime_or_training": "EVALUATION",
+      "primary_sequence_roles": [
+        "TESTING",
+        "EVIDENCE_INTERPRETATION",
+        "VERIFICATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT"
+      ],
+      "secondary_sequence_roles": [
+        "PATTERN_VALIDATION",
+        "MEMORY_VALIDATION"
+      ],
+      "state_owned_by": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read": [
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE",
+        "BENCHMARK_STATE"
+      ],
+      "memory_write": [
+        "EVALUATION_LEDGER",
+        "AUDIT_TRACE"
+      ],
+      "durable_write_default": true,
       "primary_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-11",
