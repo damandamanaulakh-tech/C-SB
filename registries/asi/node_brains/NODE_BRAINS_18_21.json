@@ -1,0 +1,82 @@
+{
+  "phase": "PHASE_2",
+  "status": "DRAFT_NODE_BRAIN_CONTRACTS_FOR_REVIEW",
+  "contracts": [
+    {
+      "asi_node_id": "ASI-NODE-18",
+      "name": "HOLY-BOOK / WISDOM SOURCE INTERPRETER",
+      "inputs": ["SourcePacket","SequenceContext","ActorView","ProvenanceRecord"],
+      "reads": ["Holy Book Corpus","Narrative Memory","Provenance Memory","View Map","Sequence Graph"],
+      "method": [
+        "lock exact source text and source location",
+        "extract explicit source claims without interpretation",
+        "separate actors/events/rules/promises/consequences",
+        "reconstruct source-local Sequence only where supported",
+        "create interpretation records separately",
+        "label unknowns, contradictions and translation differences",
+        "return WisdomCandidate only with source links and applicability questions"
+      ],
+      "outputs": ["SourceClaimPacket","InterpretationRecord","WisdomCandidate","SourceGap","ContradictionRecord"],
+      "closure_condition": "All extracted claims are source-linked and interpretation boundaries are explicit for the requested scope.",
+      "acceptance_condition": "Requested source evidence or a terminal unknown/contradiction state is returned without manufactured provenance.",
+      "forbidden": ["interpretation promoted to source fact","translation differences silently merged","unsupported historical claim invented"]
+    },
+    {
+      "asi_node_id": "ASI-NODE-19",
+      "name": "WISDOM / PRINCIPLE SYNTHESIS",
+      "inputs": ["ClosedSequenceRefs","SourceClaimPackets","InterpretationRecords","CounterCases","HumanStateContext"],
+      "reads": ["Wisdom Registry","Closure Packet Archive","Pattern Memory","Narrative Memory","Contradiction Register"],
+      "method": [
+        "compare multiple closed cases",
+        "separate causal patterns from simple temporal repetition",
+        "extract repeated relations and long-horizon consequences",
+        "find counter-cases and failed generalizations",
+        "state applicability and non-applicability conditions",
+        "preserve source and interpretation references",
+        "create compressed principle only after falsifier pass"
+      ],
+      "outputs": ["WisdomObject","PrincipleCandidate","ApplicabilityContract","ExceptionSet","RejectedGeneralization"],
+      "closure_condition": "Candidate principle has explicit support, counter-cases, scope and epistemic status.",
+      "acceptance_condition": "WisdomObject is context-bounded and source-linked, or synthesis closes as insufficient/contradictory.",
+      "forbidden": ["one case treated as universal law","counter-case deleted","wisdom directly converted into action"]
+    },
+    {
+      "asi_node_id": "ASI-NODE-20",
+      "name": "AI RUBRIC / COGNITIVE MECHANISM ROUTER",
+      "inputs": ["SequenceNodeOrEdge","DeclaredEnd","CurrentState","DependencySet","ResourceState"],
+      "reads": ["AI Rubric","Sequence Graph","Memory Fabric","Open-Sequence Ledger","Tool/Performer Registry"],
+      "method": [
+        "identify the artificial cognition function required",
+        "select one or more AI rubric segments",
+        "decompose broad capability into implementable mechanisms",
+        "declare inputs, memory reads, resources and performer",
+        "open Attached Sequence if required mechanism/dependency is missing",
+        "execute native mechanism or return unavailable",
+        "send structured result to verification before durable write-back"
+      ],
+      "outputs": ["AIMechanismActivationSet","MechanismPlan","ResourceRequirement","PerformerAssignment","StructuredCognitionResult","AIGap"],
+      "closure_condition": "Required cognition request has a structured result or explicit terminal unavailable/unknown status.",
+      "acceptance_condition": "Result satisfies the requesting Sequence contract and has passed required verification.",
+      "forbidden": ["implicit LLM call as method","next-token generation treated as universal cognition","hidden untracked state used as source truth"]
+    },
+    {
+      "asi_node_id": "ASI-NODE-21",
+      "name": "ASI RUBRIC / META-GOVERNOR",
+      "inputs": ["ActiveSequenceSet","RubricActivations","Rules","Permissions","WisdomObjects","Contradictions","ActorViews","ClosureScopes","ResourceState"],
+      "reads": ["ASI Rubric","Open-Sequence Ledger","Seed Registry","View Map","Contradiction Register","Closure Archive","Rule Memory","Wisdom Registry"],
+      "method": [
+        "identify cross-domain conflict or governance need",
+        "preserve ownership/source boundaries for each input",
+        "evaluate rule, authority, permission, priority and long-horizon effects",
+        "check Actor View restrictions",
+        "check Barrier Law and closure scope",
+        "issue governance constraints, block state, unresolved state or new Sequence request",
+        "record decision provenance and accountability"
+      ],
+      "outputs": ["MetaGovernanceDecision","PermissionState","PriorityResolution","CoordinationPolicy","BlockedState","InvestigationSequenceRequest"],
+      "closure_condition": "Governance question has a terminal explicit state for the declared scope.",
+      "acceptance_condition": "Decision obeys provenance, barrier, actor-view and closure-scope invariants.",
+      "forbidden": ["invented provenance","barrier bypass","closed Sequence reopen","hidden knowledge injected into actor","local closure promoted to global closure without evidence"]
+    }
+  ]
+}
