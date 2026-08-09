@@ -18,9 +18,33 @@
     "objective": "Define/adopt Human, AI, Holy Book, ASI and other domain parameters/containers/elements against Sequence without mutating native registries.",
     "workstreams": [
       {
+        "id": "P2-V2-SEQUENCE-RUBRICS",
+        "status": "V2_LOCK_CANDIDATE_MATERIALIZED",
+        "outputs": [
+          "raw/sequence/SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.custody.json",
+          "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
+          "machine/v2/TYPED_NULL_SEMANTICS.json",
+          "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
+          "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+          "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
+          "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+          "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
+          "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
+          "tools/generate_rubric_views.py"
+        ],
+        "metrics": {
+          "v2_critical_repairs": 28,
+          "sequence_modes": 4,
+          "cross_cutting_services": 18,
+          "rubric_families": 52,
+          "rubric_dimensions": 987
+        },
+        "next": "Run bounded R-F-R tests against the V2 lock candidate; preserve raw V2 bytes with SHA-256 if/when the attachment becomes mountable to the repo; adopt V2 only through an explicit V2 closure packet."
+      },
+      {
         "id": "P2-HUMAN",
         "status": "WAITING_NATIVE_2560_REGISTRY",
-        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node bindings. Current project artifacts expose examples and container mappings but not a complete authoritative 2,560-row source."
+        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node/rubric bindings. Current project artifacts expose examples and container mappings but not a complete authoritative 2,560-row source."
       },
       {
         "id": "P2-AI",
@@ -32,16 +56,17 @@
           "tools/build_ai_candidate_registry.py",
           "generated/registry_views/ai_native_candidate_registry_v0.json"
         ],
-        "next": "Resolve HOLD/SPLIT cases, establish final native AI IDs and run R-F-R sample tests, then issue AI Adoption Closure Packet."
+        "next": "Resolve HOLD/SPLIT cases using V2 rubric packs, establish final native AI IDs and run R-F-R sample tests, then issue AI Adoption Closure Packet."
       },
       {
         "id": "P2-ASI",
-        "status": "NODE_BRAINS_V0_INSTANTIATED",
+        "status": "NODE_BRAINS_V0_INSTANTIATED_RUBRIC_PACK_BINDINGS_ADDED",
         "outputs": [
           "registries/asi/node_brains_v0.json",
-          "phase2/asi/ASI_NODE_BRAINS_V0.md"
+          "phase2/asi/ASI_NODE_BRAINS_V0.md",
+          "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json"
         ],
-        "next": "Bind approved Human/AI registries to Node Brains and revise contracts only when sample Sequences falsify them."
+        "next": "Bind approved Human/AI registries to Node Brains and rubric packs; revise contracts only when sample Sequences falsify them."
       },
       {
         "id": "P2-HOLYBOOKS",
@@ -54,8 +79,8 @@
       },
       {
         "id": "P2-GENERATOR",
-        "status": "ACTIVE_AUTOGENERATION",
-        "next": "Workflow assembles canonical sources, builds registry views, builds the AI candidate view, relinks IDs, validates invariants and commits generated outputs."
+        "status": "ACTIVE_AUTOGENERATION_V2_EXTENDED",
+        "next": "Workflow assembles canonical sources, builds registry views, builds AI candidate view, generates V2 rubric cross-references, relinks IDs, validates invariants and commits generated outputs."
       }
     ]
   }
