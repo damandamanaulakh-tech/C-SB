@@ -85,6 +85,11 @@
     "size_bytes": 2391
   },
   {
+    "path": "tools/run_phase2_ai_asi_rfr_v1.py",
+    "sha256": "f08b903631993b11758e0e73ade0912ebfdf1dd2fba3e5f48921a17413e7929d",
+    "size_bytes": 8714
+  },
+  {
     "path": "tools/validate_ai_asi_container_candidates.py",
     "sha256": "86baffe61e478e6e540149c75686c1d90094b268fab61c6b7b063f5ad4a61444",
     "size_bytes": 4498
