@@ -165,6 +165,11 @@
     "size_bytes": 3488
   },
   {
+    "path": "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+    "sha256": "20fdd2222db108069146479b881e5a08f6150da35f2146c72e3f486bf9484b02",
+    "size_bytes": 9638
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
     "sha256": "84c9735ee274d5f5105d298353646b3c05365ed172be7bc3189c3df74651fade",
     "size_bytes": 5794
