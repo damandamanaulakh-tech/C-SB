@@ -1,0 +1,40 @@
+{
+  "checkpoint_id":"P2-BEHAVIORAL-RFR-CHECKPOINT-V1",
+  "checkpoint_type":"BEHAVIORAL_CONTROL_LAW_TEST_CLOSURE",
+  "phase":"PHASE_2",
+  "phase_status":"ACTIVE",
+  "checkpoint_status":"CLOSED_SUCCESS",
+  "source_report":"generated/tests/P2_BEHAVIORAL_RFR_V1.json",
+  "result":{"total_cases":2,"pass":2,"findings":0,"fail":0},
+  "closed_cases":[
+    {
+      "case_id":"P2-BEH-AUTH-001",
+      "result":"PASS",
+      "proved_within_fixture_scope":[
+        "AI tool selection is not authorization",
+        "unknown permission blocks the action edge and opens a required Attached permission Sequence",
+        "denied permission can be a successful/accepted decision return while the action threshold remains false",
+        "granted permission causes threshold re-evaluation rather than bypass",
+        "no action occurs before GRANTED"
+      ]
+    },
+    {
+      "case_id":"P2-BEH-ENG-REPAIR-001",
+      "result":"PASS",
+      "proved_within_fixture_scope":[
+        "source-bound Engine failure blocks the parent",
+        "repair and retest use separate Sequence IDs",
+        "repair success does not equal retest success",
+        "parent waits for required returns",
+        "dependent edge is re-evaluated only after accepted PASS retest return",
+        "no in-place retry and no closed Sequence reopen"
+      ]
+    }
+  ],
+  "non_claim":"These deterministic synthetic-fixture tests prove encoded Sourceborn control-law behavior only. They do not prove real-world tool safety, Engine implementation correctness, external truth, or Phase-2 closure.",
+  "next_sequences":[
+    "P2-WISDOM-SOURCE-INGESTION-01",
+    "P2-MULTI-RUBRIC-INTEGRATION-TEST-01"
+  ],
+  "next_barrier":"A true Human + AI + Wisdom + ASI integration test must not fabricate Wisdom. It requires a bounded source batch through Source Text -> Source Claim -> Interpretation -> Wisdom Candidate before the four-domain test can legally run."
+}
