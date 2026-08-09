@@ -90,6 +90,11 @@
     "size_bytes": 8714
   },
   {
+    "path": "tools/run_phase2_behavioral_rfr_v1.py",
+    "sha256": "d58ec7c88bcadfcbaf00f3ccdf6f00ce1d45a55c53e1b6b15b9a1ab736b85999",
+    "size_bytes": 10909
+  },
+  {
     "path": "tools/summarize_phase2_ai_asi_rfr_v1.py",
     "sha256": "7b2edda090fabf5cd0fc9d4a6d634dfbddcc0887f7dc4e075c284b3ef48bc3da",
     "size_bytes": 1728

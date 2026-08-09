@@ -2313,6 +2313,28 @@
       "registries/asi/asi_node_registry.json",
       "tools/validate_repo.py"
     ],
+    "ASI-08": [
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+      "registries/asi/ASI_RUBRIC_V0.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "tools/run_phase2_behavioral_rfr_v1.py"
+    ],
+    "ASI-13": [
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+      "registries/asi/ASI_RUBRIC_V0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "tools/run_phase2_behavioral_rfr_v1.py"
+    ],
     "ASI-02": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
@@ -2358,16 +2380,6 @@
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
-    "ASI-08": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-      "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
-    ],
     "ASI-09": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -2399,16 +2411,6 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-      "registries/asi/ASI_RUBRIC_V0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
-    ],
-    "ASI-13": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
@@ -2584,7 +2586,8 @@
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "tools/run_phase2_behavioral_rfr_v1.py"
     ],
     "ASI-NODE-06": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -3260,10 +3263,11 @@
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
-    "ENG-PARENT-001": [
-      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json"
-    ],
     "ENG-REPAIR-001": [
+      "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
+      "tools/run_phase2_behavioral_rfr_v1.py"
+    ],
+    "ENG-PARENT-001": [
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json"
     ],
     "ENG-RETEST-001": [
