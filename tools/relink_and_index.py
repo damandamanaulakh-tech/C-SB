@@ -9,9 +9,10 @@ OUT.mkdir(exist_ok=True)
 PATTERNS = {
     "segments": re.compile(r"\bSEG-\d{2}\b"),
     "containers": re.compile(r"\bCON-\d{3}\b"),
-    "human_parameters": re.compile(r"\bSB-ASI-P\d{4}\b"),
+    "sourceborn_parameters": re.compile(r"\bSB-ASI-P\d{4}\b"),
     "human_combinations": re.compile(r"\bH-COMB-\d{2}\b"),
     "legacy_ai_capabilities": re.compile(r"\bAI-CAP-\d{3}\b"),
+    "approved_ai_only_records": re.compile(r"\bAI-NEW-\d{3}\b"),
     "ai_rubric_segments": re.compile(r"\bAI-\d{2}\b"),
     "ai_container_candidates": re.compile(r"\bAI-CON-CAND-\d{3}\b"),
     "wisdom_lanes": re.compile(r"\bW-\d{2}\b"),
@@ -19,6 +20,10 @@ PATTERNS = {
     "asi_container_candidates": re.compile(r"\bASI-CON-CAND-\d{3}\b"),
     "asi_nodes": re.compile(r"\bASI-NODE-\d{2}\b"),
     "node_brains": re.compile(r"\bNB-\d{2}\b"),
+    "engine_ids": re.compile(r"\bENG-[A-Z0-9]+-\d{3}\b"),
+    "activation_rule_ids": re.compile(r"\bACT-\d{3}\b"),
+    "operational_element_codes": re.compile(r"\bE0[1-8]\b"),
+    "governance_control_ids": re.compile(r"\bGOV-\d{3}\b"),
     "rubric_registry_ids": re.compile(r"\b(?:AI-RUBRIC-V\d+|ASI-RUBRIC-V\d+|WISDOM-REGISTRY-V\d+)\b"),
 }
 
