@@ -37,10 +37,14 @@ jobs:
         run: python tools/generate_rubric_views.py
       - name: Build source-supported sub-parameter split candidates
         run: python tools/build_subparameter_candidates.py
+      - name: Build approved Brain Engine operational sub-parameters
+        run: python tools/generate_operational_subparameters_v1.py
       - name: Relink all known IDs and generate indexes
         run: python tools/relink_and_index.py
       - name: Validate AI and ASI container extraction
         run: python tools/validate_ai_asi_container_candidates.py
+      - name: Validate Brain Engine source adoption
+        run: python tools/validate_brain_engine_adoption_v1.py
       - name: Validate locked invariants
         run: python tools/validate_repo.py
       - name: Commit regenerated indexes and assembled docs
