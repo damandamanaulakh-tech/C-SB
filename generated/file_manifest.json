@@ -110,6 +110,11 @@
     "size_bytes": 2349
   },
   {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.txt.alias.json",
+    "sha256": "bd8f3d629d7cee36822b19572236f30524c0ba91f42a028c508d6ba065c4491a",
+    "size_bytes": 550
+  },
+  {
     "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
     "sha256": "58d1ad3b708032a0835aa87b4dd76efdf4f368d4723c79e3a71740f88538d406",
     "size_bytes": 1003
