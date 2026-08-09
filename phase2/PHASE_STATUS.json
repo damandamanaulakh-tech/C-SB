@@ -28,10 +28,11 @@
         "outputs": [
           "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
           "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+          "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
           "tools/build_ai_candidate_registry.py",
           "generated/registry_views/ai_native_candidate_registry_v0.json"
         ],
-        "next": "Resolve HOLD/SPLIT cases, establish final native AI IDs and Sequence/write-back bindings, run R-F-R tests, then issue AI Adoption Closure Packet."
+        "next": "Resolve HOLD/SPLIT cases, establish final native AI IDs and run R-F-R sample tests, then issue AI Adoption Closure Packet."
       },
       {
         "id": "P2-ASI",
@@ -44,8 +45,12 @@
       },
       {
         "id": "P2-HOLYBOOKS",
-        "status": "SCHEMA_READY",
-        "next": "Ingest sources with source-text vs extracted-event vs interpretation separation."
+        "status": "ADAPTER_SCHEMA_INSTANTIATED_TEST_CONTRACTS_READY",
+        "outputs": [
+          "registries/holy_books/NARRATIVE_SOURCE_ADAPTER_SCHEMA.json",
+          "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md"
+        ],
+        "next": "Ingest an authoritative/selected Mahabharata source set into Source Record → Extracted Record → Actor View → Interpretation records, then run MHB-T01 first."
       },
       {
         "id": "P2-GENERATOR",
