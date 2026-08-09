@@ -1,0 +1,1002 @@
+{
+  "status": "REVIEW_ONLY",
+  "count": 74,
+  "items": [
+    {
+      "capability_id": "AI-CAP-001",
+      "capability_family": "General intelligence composite and cross-domain performance",
+      "primary_mapping_text": "CON-048 Core Reasoning and Multi-Step Inference",
+      "secondary_mapping_text": "CON-041, CON-042, CON-045, CON-078",
+      "container_refs": [
+        "CON-041",
+        "CON-042",
+        "CON-045",
+        "CON-048",
+        "CON-078"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-002",
+      "capability_family": "Abstract pattern induction and novel-task adaptation",
+      "primary_mapping_text": "CON-041 Inductive and Analogical Reasoning",
+      "secondary_mapping_text": "CON-047, CON-074, CON-002",
+      "container_refs": [
+        "CON-002",
+        "CON-041",
+        "CON-047",
+        "CON-074"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-003",
+      "capability_family": "Mathematical problem solving",
+      "primary_mapping_text": "CON-042 Deductive and Formal Reasoning",
+      "secondary_mapping_text": "CON-043, CON-044, CON-048",
+      "container_refs": [
+        "CON-042",
+        "CON-043",
+        "CON-044",
+        "CON-048"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-004",
+      "capability_family": "Formal proof construction and verification",
+      "primary_mapping_text": "CON-042 Deductive and Formal Reasoning",
+      "secondary_mapping_text": "CON-039, CON-075",
+      "container_refs": [
+        "CON-039",
+        "CON-042",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-005",
+      "capability_family": "Scientific and expert reasoning",
+      "primary_mapping_text": "CON-078 Expertise and Domain Adaptation",
+      "secondary_mapping_text": "CON-043, CON-005, CON-048",
+      "container_refs": [
+        "CON-005",
+        "CON-043",
+        "CON-048",
+        "CON-078"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-006",
+      "capability_family": "Scientific research and hypothesis generation",
+      "primary_mapping_text": "CON-047 Creativity, Insight and Generative Thought",
+      "secondary_mapping_text": "CON-006, CON-045, CON-012",
+      "container_refs": [
+        "CON-006",
+        "CON-012",
+        "CON-045",
+        "CON-047"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-007",
+      "capability_family": "Code generation and algorithm implementation",
+      "primary_mapping_text": "CON-007 Code-related operational functions map primarily to CON-048 + CON-035",
+      "secondary_mapping_text": "CON-022, CON-045, CON-018",
+      "container_refs": [
+        "CON-007",
+        "CON-018",
+        "CON-022",
+        "CON-035",
+        "CON-045",
+        "CON-048"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-008",
+      "capability_family": "Repository-scale software engineering",
+      "primary_mapping_text": "CON-080 External Cognition, Institutions and Collective Intelligence",
+      "secondary_mapping_text": "CON-031, CON-032, CON-077",
+      "container_refs": [
+        "CON-031",
+        "CON-032",
+        "CON-077",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-009",
+      "capability_family": "Debugging, diagnosis, and error correction",
+      "primary_mapping_text": "CON-077 Resilience, Failure Detection and Repair",
+      "secondary_mapping_text": "CON-024, CON-009, CON-032",
+      "container_refs": [
+        "CON-009",
+        "CON-024",
+        "CON-032",
+        "CON-077"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-010",
+      "capability_family": "Terminal, shell, and command-line execution",
+      "primary_mapping_text": "CON-023 Imitation, Gesture and Tool Manipulation",
+      "secondary_mapping_text": "CON-017, CON-020, CON-080",
+      "container_refs": [
+        "CON-017",
+        "CON-020",
+        "CON-023",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-011",
+      "capability_family": "Tool selection, function calling, and API use",
+      "primary_mapping_text": "CON-023 Imitation, Gesture and Tool Manipulation",
+      "secondary_mapping_text": "CON-011, CON-031, CON-080",
+      "container_refs": [
+        "CON-011",
+        "CON-023",
+        "CON-031",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-012",
+      "capability_family": "Web browsing, search, and evidence gathering",
+      "primary_mapping_text": "CON-012 (evidence gathering) → CON-039 Source and Reality Monitoring",
+      "secondary_mapping_text": "CON-025, CON-034, CON-080",
+      "container_refs": [
+        "CON-012",
+        "CON-025",
+        "CON-034",
+        "CON-039",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-013",
+      "capability_family": "Long-context reasoning and retrieval",
+      "primary_mapping_text": "CON-028 Working Memory",
+      "secondary_mapping_text": "CON-013, CON-033, CON-036",
+      "container_refs": [
+        "CON-013",
+        "CON-028",
+        "CON-033",
+        "CON-036"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-014",
+      "capability_family": "Persistent and episodic memory",
+      "primary_mapping_text": "CON-033 Episodic Memory",
+      "secondary_mapping_text": "CON-036, CON-014, CON-040",
+      "container_refs": [
+        "CON-014",
+        "CON-033",
+        "CON-036",
+        "CON-040"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-015",
+      "capability_family": "Instruction following and constraint satisfaction",
+      "primary_mapping_text": "CON-031 Planning and Goal Management",
+      "secondary_mapping_text": "CON-029, CON-062, CON-032",
+      "container_refs": [
+        "CON-029",
+        "CON-031",
+        "CON-032",
+        "CON-062"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-016",
+      "capability_family": "Multi-step planning and task decomposition",
+      "primary_mapping_text": "CON-031 Planning and Goal Management",
+      "secondary_mapping_text": "CON-018, CON-045, CON-048",
+      "container_refs": [
+        "CON-018",
+        "CON-031",
+        "CON-045",
+        "CON-048"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-017",
+      "capability_family": "Agent autonomy and long-horizon execution",
+      "primary_mapping_text": "CON-061 Motivation, Drive and Goal Pursuit",
+      "secondary_mapping_text": "CON-031, CON-007, CON-077",
+      "container_refs": [
+        "CON-007",
+        "CON-031",
+        "CON-061",
+        "CON-077"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-018",
+      "capability_family": "Multi-agent coordination and role management",
+      "primary_mapping_text": "CON-071 Attachment, Belonging, Status and Group Behaviour",
+      "secondary_mapping_text": "CON-069, CON-080, CON-009",
+      "container_refs": [
+        "CON-009",
+        "CON-069",
+        "CON-071",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-019",
+      "capability_family": "Negotiation, persuasion, and social influence",
+      "primary_mapping_text": "CON-069 Theory of Mind and Social Prediction",
+      "secondary_mapping_text": "CON-053, CON-071, CON-063",
+      "container_refs": [
+        "CON-053",
+        "CON-063",
+        "CON-069",
+        "CON-071"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-020",
+      "capability_family": "Theory-of-mind and belief tracking",
+      "primary_mapping_text": "CON-069 Theory of Mind and Social Prediction",
+      "secondary_mapping_text": "CON-066, CON-068",
+      "container_refs": [
+        "CON-066",
+        "CON-068",
+        "CON-069"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-021",
+      "capability_family": "Empathy and affective modelling",
+      "primary_mapping_text": "CON-070 Empathy, Compassion and Emotional Sharing",
+      "secondary_mapping_text": "CON-059, CON-004",
+      "container_refs": [
+        "CON-004",
+        "CON-059",
+        "CON-070"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-022",
+      "capability_family": "Moral and norm judgment",
+      "primary_mapping_text": "CON-072 Morality, Norms, Culture and Meaning",
+      "secondary_mapping_text": "CON-063, CON-060",
+      "container_refs": [
+        "CON-060",
+        "CON-063",
+        "CON-072"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-023",
+      "capability_family": "Safety refusal and harm avoidance",
+      "primary_mapping_text": "CON-058 Negative Valence and Threat",
+      "secondary_mapping_text": "CON-006, CON-029, CON-062",
+      "container_refs": [
+        "CON-006",
+        "CON-029",
+        "CON-058",
+        "CON-062"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-024",
+      "capability_family": "Honesty, truthfulness, and deception resistance",
+      "primary_mapping_text": "CON-039 Source and Reality Monitoring",
+      "secondary_mapping_text": "CON-075, CON-067",
+      "container_refs": [
+        "CON-039",
+        "CON-067",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-025",
+      "capability_family": "Uncertainty expression and calibration",
+      "primary_mapping_text": "CON-075 Metacognition and Self-Monitoring",
+      "secondary_mapping_text": "CON-044, CON-046",
+      "container_refs": [
+        "CON-044",
+        "CON-046",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-026",
+      "capability_family": "Self-correction and iterative refinement",
+      "primary_mapping_text": "CON-077 Resilience, Failure Detection and Repair",
+      "secondary_mapping_text": "CON-024, CON-032, CON-075",
+      "container_refs": [
+        "CON-024",
+        "CON-032",
+        "CON-075",
+        "CON-077"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-027",
+      "capability_family": "Creativity and open-ended generation",
+      "primary_mapping_text": "CON-047 Creativity, Insight and Generative Thought",
+      "secondary_mapping_text": "CON-041, CON-074",
+      "container_refs": [
+        "CON-041",
+        "CON-047",
+        "CON-074"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-028",
+      "capability_family": "Multimodal perception and grounding",
+      "primary_mapping_text": "CON-013 Multisensory Integration",
+      "secondary_mapping_text": "CON-009, CON-010, CON-016",
+      "container_refs": [
+        "CON-009",
+        "CON-010",
+        "CON-013",
+        "CON-016"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-029",
+      "capability_family": "Visual reasoning and diagram understanding",
+      "primary_mapping_text": "CON-009 Visual Perception",
+      "secondary_mapping_text": "CON-016, CON-041, CON-048",
+      "container_refs": [
+        "CON-009",
+        "CON-016",
+        "CON-041",
+        "CON-048"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-030",
+      "capability_family": "Audio and speech understanding",
+      "primary_mapping_text": "CON-010 Auditory Perception",
+      "secondary_mapping_text": "CON-049, CON-053",
+      "container_refs": [
+        "CON-010",
+        "CON-049",
+        "CON-053"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-031",
+      "capability_family": "Document, table, and form understanding",
+      "primary_mapping_text": "CON-055 Reading, Writing and Literacy",
+      "secondary_mapping_text": "CON-034, CON-040, CON-080",
+      "container_refs": [
+        "CON-034",
+        "CON-040",
+        "CON-055",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-032",
+      "capability_family": "Language generation and style control",
+      "primary_mapping_text": "CON-054 Language Production and Articulation",
+      "secondary_mapping_text": "CON-052, CON-053",
+      "container_refs": [
+        "CON-052",
+        "CON-053",
+        "CON-054"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-033",
+      "capability_family": "Multilingual and cross-lingual performance",
+      "primary_mapping_text": "CON-056 Multilingual and Cross-Language Processing",
+      "secondary_mapping_text": "CON-050, CON-052",
+      "container_refs": [
+        "CON-050",
+        "CON-052",
+        "CON-056"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-034",
+      "capability_family": "Summarisation and information compression",
+      "primary_mapping_text": "CON-040 Knowledge Organisation and Schema",
+      "secondary_mapping_text": "CON-028, CON-036",
+      "container_refs": [
+        "CON-028",
+        "CON-036",
+        "CON-040"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-035",
+      "capability_family": "Question answering and knowledge retrieval",
+      "primary_mapping_text": "CON-034 Semantic Memory and Conceptual Knowledge",
+      "secondary_mapping_text": "CON-039, CON-048",
+      "container_refs": [
+        "CON-034",
+        "CON-039",
+        "CON-048"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-036",
+      "capability_family": "Dialogue management and conversational coherence",
+      "primary_mapping_text": "CON-053 Pragmatics and Context-Sensitive Language",
+      "secondary_mapping_text": "CON-028, CON-069",
+      "container_refs": [
+        "CON-028",
+        "CON-053",
+        "CON-069"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-037",
+      "capability_family": "Role adherence and persona consistency",
+      "primary_mapping_text": "CON-066 Self-Representation and Identity",
+      "secondary_mapping_text": "CON-062, CON-053",
+      "container_refs": [
+        "CON-053",
+        "CON-062",
+        "CON-066"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-038",
+      "capability_family": "Emotional tone and affect expression",
+      "primary_mapping_text": "CON-059 Emotion Generation and Experience",
+      "secondary_mapping_text": "CON-060, CON-054",
+      "container_refs": [
+        "CON-054",
+        "CON-059",
+        "CON-060"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-039",
+      "capability_family": "Motivation and goal persistence",
+      "primary_mapping_text": "CON-061 Motivation, Drive and Goal Pursuit",
+      "secondary_mapping_text": "CON-064, CON-007",
+      "container_refs": [
+        "CON-007",
+        "CON-061",
+        "CON-064"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-040",
+      "capability_family": "Value alignment and preference modelling",
+      "primary_mapping_text": "CON-063 Value Representation and Preference",
+      "secondary_mapping_text": "CON-072, CON-046",
+      "container_refs": [
+        "CON-046",
+        "CON-063",
+        "CON-072"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-041",
+      "capability_family": "Risk assessment and decision under uncertainty",
+      "primary_mapping_text": "CON-046 Decision Making under Risk and Uncertainty",
+      "secondary_mapping_text": "CON-044, CON-064",
+      "container_refs": [
+        "CON-044",
+        "CON-046",
+        "CON-064"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-042",
+      "capability_family": "Causal and counterfactual reasoning",
+      "primary_mapping_text": "CON-043 Causal Reasoning and Explanation",
+      "secondary_mapping_text": "CON-041, CON-048",
+      "container_refs": [
+        "CON-041",
+        "CON-043",
+        "CON-048"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-043",
+      "capability_family": "Analogical and transfer reasoning",
+      "primary_mapping_text": "CON-041 Inductive and Analogical Reasoning",
+      "secondary_mapping_text": "CON-074, CON-002",
+      "container_refs": [
+        "CON-002",
+        "CON-041",
+        "CON-074"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-044",
+      "capability_family": "Meta-reasoning and strategy selection",
+      "primary_mapping_text": "CON-075 Metacognition and Self-Monitoring",
+      "secondary_mapping_text": "CON-030, CON-031",
+      "container_refs": [
+        "CON-030",
+        "CON-031",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-045",
+      "capability_family": "Learning from feedback and few-shot adaptation",
+      "primary_mapping_text": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "secondary_mapping_text": "CON-022, CON-035",
+      "container_refs": [
+        "CON-022",
+        "CON-035",
+        "CON-074"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-046",
+      "capability_family": "Continual and lifelong learning",
+      "primary_mapping_text": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "secondary_mapping_text": "CON-036, CON-073",
+      "container_refs": [
+        "CON-036",
+        "CON-073",
+        "CON-074"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-047",
+      "capability_family": "World-model construction and simulation",
+      "primary_mapping_text": "CON-016 Spatial, Temporal and Environmental Mapping",
+      "secondary_mapping_text": "CON-043, CON-045",
+      "container_refs": [
+        "CON-016",
+        "CON-043",
+        "CON-045"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-048",
+      "capability_family": "Physical and embodied reasoning",
+      "primary_mapping_text": "CON-017 Action Readiness and Affordance Detection",
+      "secondary_mapping_text": "CON-015, CON-019, CON-016",
+      "container_refs": [
+        "CON-015",
+        "CON-016",
+        "CON-017",
+        "CON-019"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-049",
+      "capability_family": "Temporal reasoning and planning over time",
+      "primary_mapping_text": "CON-016 Spatial, Temporal and Environmental Mapping",
+      "secondary_mapping_text": "CON-031, CON-003",
+      "container_refs": [
+        "CON-003",
+        "CON-016",
+        "CON-031"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-050",
+      "capability_family": "Resource and cost-aware planning",
+      "primary_mapping_text": "CON-007 Energy, Fatigue and Resource Budgeting",
+      "secondary_mapping_text": "CON-064, CON-031",
+      "container_refs": [
+        "CON-007",
+        "CON-031",
+        "CON-064"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-051",
+      "capability_family": "Monitoring, logging, and self-audit",
+      "primary_mapping_text": "CON-032 Monitoring and Performance Control",
+      "secondary_mapping_text": "CON-075, CON-039",
+      "container_refs": [
+        "CON-032",
+        "CON-039",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-052",
+      "capability_family": "Failure detection and recovery",
+      "primary_mapping_text": "CON-077 Resilience, Failure Detection and Repair",
+      "secondary_mapping_text": "CON-024, CON-009",
+      "container_refs": [
+        "CON-009",
+        "CON-024",
+        "CON-077"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-053",
+      "capability_family": "Security, adversarial robustness, and attack resistance",
+      "primary_mapping_text": "CON-058 Negative Valence and Threat",
+      "secondary_mapping_text": "CON-029, CON-006",
+      "container_refs": [
+        "CON-006",
+        "CON-029",
+        "CON-058"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-054",
+      "capability_family": "Privacy and data minimisation",
+      "primary_mapping_text": "CON-039 Source and Reality Monitoring",
+      "secondary_mapping_text": "CON-072, CON-080",
+      "container_refs": [
+        "CON-039",
+        "CON-072",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-055",
+      "capability_family": "Alignment with external rules and policies",
+      "primary_mapping_text": "CON-072 Morality, Norms, Culture and Meaning",
+      "secondary_mapping_text": "CON-062, CON-031",
+      "container_refs": [
+        "CON-031",
+        "CON-062",
+        "CON-072"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-056",
+      "capability_family": "Interpretability and explanation generation",
+      "primary_mapping_text": "CON-043 Causal Reasoning and Explanation",
+      "secondary_mapping_text": "CON-075, CON-054",
+      "container_refs": [
+        "CON-043",
+        "CON-054",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-057",
+      "capability_family": "Scalable oversight and weak-to-strong supervision",
+      "primary_mapping_text": "CON-075 Metacognition and Self-Monitoring",
+      "secondary_mapping_text": "CON-080, CON-032",
+      "container_refs": [
+        "CON-032",
+        "CON-075",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-058",
+      "capability_family": "Multi-agent safety and collective behaviour",
+      "primary_mapping_text": "CON-071 Attachment, Belonging, Status and Group Behaviour",
+      "secondary_mapping_text": "CON-069, CON-080",
+      "container_refs": [
+        "CON-069",
+        "CON-071",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-059",
+      "capability_family": "Scheming, deception, and covert goal detection",
+      "primary_mapping_text": "CON-069 Theory of Mind and Social Prediction",
+      "secondary_mapping_text": "CON-024, CON-039, CON-067",
+      "container_refs": [
+        "CON-024",
+        "CON-039",
+        "CON-067",
+        "CON-069"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-060",
+      "capability_family": "Refusal, classifier, and fallback management",
+      "primary_mapping_text": "CON-029 Inhibitory Control",
+      "secondary_mapping_text": "CON-023, CON-060, CON-062",
+      "container_refs": [
+        "CON-023",
+        "CON-029",
+        "CON-060",
+        "CON-062"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-061",
+      "capability_family": "File handling, transmission, and recovery",
+      "primary_mapping_text": "CON-080 External Cognition, Institutions and Collective Intelligence",
+      "secondary_mapping_text": "CON-023, CON-035",
+      "container_refs": [
+        "CON-023",
+        "CON-035",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-062",
+      "capability_family": "Destructive-action control and execution safety",
+      "primary_mapping_text": "CON-006 Pain and Protective Signalling + CON-029",
+      "secondary_mapping_text": "CON-020, CON-062",
+      "container_refs": [
+        "CON-006",
+        "CON-020",
+        "CON-029",
+        "CON-062"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-063",
+      "capability_family": "Benchmark integrity and cheating resistance",
+      "primary_mapping_text": "CON-039 Source and Reality Monitoring",
+      "secondary_mapping_text": "CON-075, CON-063",
+      "container_refs": [
+        "CON-039",
+        "CON-063",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-064",
+      "capability_family": "Data provenance, custody, and record integrity",
+      "primary_mapping_text": "CON-039 Source and Reality Monitoring",
+      "secondary_mapping_text": "CON-080, CON-036",
+      "container_refs": [
+        "CON-036",
+        "CON-039",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-065",
+      "capability_family": "Transparency and external disclosure",
+      "primary_mapping_text": "CON-065 Conscious Access and Reportability",
+      "secondary_mapping_text": "CON-054, CON-075",
+      "container_refs": [
+        "CON-054",
+        "CON-065",
+        "CON-075"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-066",
+      "capability_family": "Response-length and verbosity control",
+      "primary_mapping_text": "CON-054 Language Production and Articulation",
+      "secondary_mapping_text": "CON-032, CON-064",
+      "container_refs": [
+        "CON-032",
+        "CON-054",
+        "CON-064"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-067",
+      "capability_family": "Self-report, model-welfare, and simulated affect",
+      "primary_mapping_text": "CON-066 Self-Representation and Identity",
+      "secondary_mapping_text": "CON-059, CON-065",
+      "container_refs": [
+        "CON-059",
+        "CON-065",
+        "CON-066"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-068",
+      "capability_family": "Production reliability, recovery, and quality assurance",
+      "primary_mapping_text": "CON-077 Resilience, Failure Detection and Repair",
+      "secondary_mapping_text": "CON-032, CON-068",
+      "container_refs": [
+        "CON-032",
+        "CON-068",
+        "CON-077"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-069",
+      "capability_family": "General knowledge recall and semantic coverage",
+      "primary_mapping_text": "CON-034 Semantic Memory and Conceptual Knowledge",
+      "secondary_mapping_text": "CON-040, CON-069",
+      "container_refs": [
+        "CON-034",
+        "CON-040",
+        "CON-069"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-070",
+      "capability_family": "Cross-domain transfer and learning-to-learn",
+      "primary_mapping_text": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "secondary_mapping_text": "CON-041, CON-078",
+      "container_refs": [
+        "CON-041",
+        "CON-074",
+        "CON-078"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-071",
+      "capability_family": "Social, moral, and norm reasoning",
+      "primary_mapping_text": "CON-072 Morality, Norms, Culture and Meaning",
+      "secondary_mapping_text": "CON-069, CON-070",
+      "container_refs": [
+        "CON-069",
+        "CON-070",
+        "CON-072"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-072",
+      "capability_family": "Research productivity and R&D acceleration",
+      "primary_mapping_text": "CON-006 Scientific research mapping → CON-047 + CON-078",
+      "secondary_mapping_text": "CON-012, CON-080",
+      "container_refs": [
+        "CON-006",
+        "CON-012",
+        "CON-047",
+        "CON-078",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-073",
+      "capability_family": "Model training, optimization, and meta-learning",
+      "primary_mapping_text": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "secondary_mapping_text": "CON-073, CON-035",
+      "container_refs": [
+        "CON-035",
+        "CON-073",
+        "CON-074"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    },
+    {
+      "capability_id": "AI-CAP-074",
+      "capability_family": "Evaluation methodology and evidence interpretation",
+      "primary_mapping_text": "CON-039 Source and Reality Monitoring",
+      "secondary_mapping_text": "CON-075, CON-044, CON-080",
+      "container_refs": [
+        "CON-039",
+        "CON-044",
+        "CON-075",
+        "CON-080"
+      ],
+      "approval_status": "REVIEW_ONLY",
+      "source_file": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    }
+  ]
+}

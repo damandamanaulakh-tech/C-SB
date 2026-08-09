@@ -1,0 +1,202 @@
+[
+  {
+    "path": "CANONICALITY.json",
+    "sha256": "7f4bb82d0bc3fadceca1a25b13dea784e6e712052464883505518baabb48556f",
+    "size_bytes": 1654
+  },
+  {
+    "path": "README.md",
+    "sha256": "23615419ac7a8498180f548b240385ab039a89aa53ccceeb9d458a598fa2b9b8",
+    "size_bytes": 2607
+  },
+  {
+    "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
+    "sha256": "a56591e55dc905998d26d5eb4168cd83f9cbf3800e72da1a0f7f09e97904a775",
+    "size_bytes": 1308
+  },
+  {
+    "path": "phase2/README.md",
+    "sha256": "a3c035bf144ee550015048da886839df7c8fff1ae61479191f894220540d2279",
+    "size_bytes": 1467
+  },
+  {
+    "path": "phase2/PHASE_STATUS.json",
+    "sha256": "627da8915c5e3866659b49067e2bf696bcaac8e79242957f14dfc7ad0ee3de5a",
+    "size_bytes": 1647
+  },
+  {
+    "path": "tools/validate_repo.py",
+    "sha256": "dfee19be270a229bdcad844c4c3fb59a8ccd15c6f0a2a185ee1a4c91b2c919ea",
+    "size_bytes": 1242
+  },
+  {
+    "path": "tools/relink_and_index.py",
+    "sha256": "db112e23e21b852a6b92dfb34f9876da90955169ef7fd9dbf84336a7377ba744",
+    "size_bytes": 2156
+  },
+  {
+    "path": "tools/generate_registry_views.py",
+    "sha256": "55278faba999b7581cd16bce46c2b91775c4bd93bc40ac59b87b978d5d2c8a20",
+    "size_bytes": 3486
+  },
+  {
+    "path": "tools/assemble_sources.py",
+    "sha256": "af9e74bde0d067ac4793f21fda5d6e542c1243234c1af0b18ea6f0a24de8bd16",
+    "size_bytes": 1973
+  },
+  {
+    "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
+    "sha256": "4d1f350de30fb0260f9e24bf51ad6bf329092d1b5dc04da6d81989e954bcfc5c",
+    "size_bytes": 3865
+  },
+  {
+    "path": "docs/LOCKED_DECISIONS.md",
+    "sha256": "27e993b383db5c286c7666febbbc96a9c65f2c48528d908c2aa78f3433eb921f",
+    "size_bytes": 2459
+  },
+  {
+    "path": ".github/workflows/relink-validate.yml",
+    "sha256": "3934a3aaf0b74e192a76768f240ab2b056aadeb1f100e87391aa85b50f632abe",
+    "size_bytes": 1471
+  },
+  {
+    "path": "machine/schemas/sourceborn.bundle.schema.json",
+    "sha256": "d2653984d4ac568baf3e0d84501f4e0e4a0e3984e697ed28378fd4bc567f1f98",
+    "size_bytes": 7385
+  },
+  {
+    "path": "machine/vocab/core_vocab.json",
+    "sha256": "662c92faa776ceda55f86f43414fc9280b5141bbf9dfdd86047f4a9b7c0f241a",
+    "size_bytes": 1321
+  },
+  {
+    "path": "raw/sequence/UNIVERSAL_SEQUENCE_FINAL.md",
+    "sha256": "dd9c175f6aada74bc374877a94febfbef3fe9a8598d2b16f63f6a9bf99682053",
+    "size_bytes": 18623
+  },
+  {
+    "path": "raw/sequence/Pasted_text_original.manifest.json",
+    "sha256": "1d8808326ec42a733aede377323d88fd29a98201c961cb16d51360532f13fd8c",
+    "size_bytes": 599
+  },
+  {
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
+    "sha256": "b769f22713a64327ace66e11d702661a3b3fd1104ba44b97921f0752dd90e43f",
+    "size_bytes": 618
+  },
+  {
+    "path": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+    "sha256": "1937113f5258c76b479a530baa0600e45f58da15770257f2515add7facf574d9",
+    "size_bytes": 11384
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
+    "sha256": "1923417e282b5863bb18cab22aed4bd0d234b676a891f67fa402d4fc8e958d53",
+    "size_bytes": 767
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json",
+    "sha256": "4fbe08106b2b75397872f8c801470a53e38e2577efaa5813f383575978545bed",
+    "size_bytes": 449
+  },
+  {
+    "path": "raw/visuals/BINARY_ARTIFACT_MANIFEST.json",
+    "sha256": "9d50090b0d0830dddef5f3679d5b37fc0f320c859f1c9efc1ba050f4b1e09991",
+    "size_bytes": 4515
+  },
+  {
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
+    "sha256": "78f201e5c00eeef6c1a486920db58e4a8169b31fee6ea97a40b91ed8a749cdba",
+    "size_bytes": 16287
+  },
+  {
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-03.md",
+    "sha256": "312f22146c7b5331166cd80bad15bb1c93eec3f1a64c5d431487ccabf197b2d1",
+    "size_bytes": 17457
+  },
+  {
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-01.md",
+    "sha256": "6fb693072aca8097fd7f8dff6b09da0808b14e1e01a19d57b8b93361f2537f05",
+    "size_bytes": 17551
+  },
+  {
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-04.md",
+    "sha256": "360bbf22f11484496f5d01157c5f5df4df7e3b81a0a6b8c6b12a5fe10f1ec96f",
+    "size_bytes": 12918
+  },
+  {
+    "path": "raw/sequence/Pasted_text_original.parts/part-03.txt",
+    "sha256": "f8b396fd5cc9b711c5bcb5f034c060a95910481cebd049c288d873041d071c9c",
+    "size_bytes": 152
+  },
+  {
+    "path": "raw/sequence/Pasted_text_original.parts/part-02.txt",
+    "sha256": "4e1175a33a57c5cddbd830b9d4fb54c28f31b1f640fddd2b73663cf183b6266e",
+    "size_bytes": 18276
+  },
+  {
+    "path": "raw/sequence/Pasted_text_original.parts/part-01.txt",
+    "sha256": "3a2e2dde464a5db2fc9cbde5b9e59311ebcf07668b66ade21733c71f836411fc",
+    "size_bytes": 16703
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-05.md",
+    "sha256": "49ec1fb83be76830b7edcfb104c9c98111a34426b73265dc53b67fb61736a262",
+    "size_bytes": 8620
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-06.md",
+    "sha256": "934af44862f932c5745c791a2b98caa83712daa09cdc7543e8d1d0148b7d96e9",
+    "size_bytes": 8876
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md",
+    "sha256": "26eb2a948ad02e72554c75838b9df4e15f5c62fb3bea1cd659b33927407f04c4",
+    "size_bytes": 6642
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+    "sha256": "18dd2b2f13d00cc1365feda67a1848568920549e8910c140114d18d309ad6ee0",
+    "size_bytes": 9850
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-07.md",
+    "sha256": "6720ef98ed1f7c4531d49f0f9d90ff3c6886cbf437031c8280ebfb09f7719d3e",
+    "size_bytes": 1922
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-01.md",
+    "sha256": "6b073af6ee5e89f80205fb3fe1ce177019367edf7e7fa763080db2c8661527a6",
+    "size_bytes": 7665
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+    "sha256": "641e06949741df0648fadadb30c4e4a6daee713463ce52b7ecaf48e62246daa4",
+    "size_bytes": 7859
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-01.svg",
+    "sha256": "08ede7e257b3fd01439480ef47a2017ba67f4bc118cff11180309fd97f89edc1",
+    "size_bytes": 12043
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-03.svg",
+    "sha256": "7454acb380d58cb9681b9363ce8a550ad61d6eca56ced0ca4abf7e5a3d4cfb1e",
+    "size_bytes": 12050
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-02.svg",
+    "sha256": "3e25eb606ed3e27423a9751919a3b28b584485b0a892464201890bf2cf5165e0",
+    "size_bytes": 11704
+  },
+  {
+    "path": "registries/asi/asi_node_registry.json",
+    "sha256": "08508213f4c8fdd8e8cbe804843699324bfeea4123532a5bd2020b295a6f49c3",
+    "size_bytes": 2194
+  },
+  {
+    "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
+    "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
+    "size_bytes": 1711
+  }
+]

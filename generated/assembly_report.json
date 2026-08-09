@@ -1,0 +1,42 @@
+[
+  {
+    "manifest": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
+    "source_file": "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+    "assembled_path": "generated/assembled_sources/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+    "missing_parts": [],
+    "sha256": "817b46b8df4ddcd0e53c9d7341901f83bf5d8720d2a5f50861a570335f65d63f",
+    "expected_sha256": "c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26",
+    "hash_match": false,
+    "note": null
+  },
+  {
+    "manifest": "raw/sequence/Pasted_text_original.manifest.json",
+    "source_file": "Pasted text.txt",
+    "assembled_path": "generated/assembled_sources/Pasted text.txt",
+    "missing_parts": [],
+    "sha256": "df6a2dd82e62a642641105fd6eaeb47715ece5503201d4be109dfaee5603be54",
+    "expected_sha256": null,
+    "hash_match": null,
+    "note": "GitHub text writes normalize line endings; source hash is retained for custody. Concatenate parts in order to reconstruct text content."
+  },
+  {
+    "manifest": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
+    "source_file": "Universal_Sequence_Machine_Architecture_v1.md",
+    "assembled_path": "generated/assembled_sources/Universal_Sequence_Machine_Architecture_v1.md",
+    "missing_parts": [],
+    "sha256": "06bce321225f75636a88c4a24f76efaf1d3ad20076afb4bd83fcae532249b515",
+    "expected_sha256": "06bce321225f75636a88c4a24f76efaf1d3ad20076afb4bd83fcae532249b515",
+    "hash_match": true,
+    "note": null
+  },
+  {
+    "manifest": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json",
+    "source_file": "SEQUENCE_TESTS_OVERLAY.svg",
+    "assembled_path": "generated/assembled_sources/SEQUENCE_TESTS_OVERLAY.svg",
+    "missing_parts": [],
+    "sha256": "0bbc38e741b8190c5eb4ae04be7ab509e90883ce45d94407c3a34d42a10b5030",
+    "expected_sha256": "92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be",
+    "hash_match": false,
+    "note": null
+  }
+]

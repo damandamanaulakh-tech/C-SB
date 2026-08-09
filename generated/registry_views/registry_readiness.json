@@ -1,0 +1,39 @@
+{
+  "ai": {
+    "status": "REVIEW_ONLY",
+    "capability_family_count": 74,
+    "machine_view": "generated/registry_views/ai_capability_review_map.json"
+  },
+  "human": {
+    "locked_shape": {
+      "segments": 10,
+      "containers": 80,
+      "active_parameters": 2560
+    },
+    "native_files_present": [],
+    "ready_for_full_parameter_relink": false
+  },
+  "asi": {
+    "service_node_count": 18,
+    "node_ids": [
+      "ASI-NODE-00",
+      "ASI-NODE-01",
+      "ASI-NODE-02",
+      "ASI-NODE-03",
+      "ASI-NODE-04",
+      "ASI-NODE-05",
+      "ASI-NODE-06",
+      "ASI-NODE-07",
+      "ASI-NODE-08",
+      "ASI-NODE-09",
+      "ASI-NODE-10",
+      "ASI-NODE-11",
+      "ASI-NODE-12",
+      "ASI-NODE-13",
+      "ASI-NODE-14",
+      "ASI-NODE-15",
+      "ASI-NODE-16",
+      "ASI-NODE-17"
+    ]
+  }
+}

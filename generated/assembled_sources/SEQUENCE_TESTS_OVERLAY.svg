@@ -1,0 +1,414 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2318" height="1540" viewBox="0 0 2318 1540" font-family="Helvetica, Arial, sans-serif">
+<rect width="2318" height="1540" fill="#FFFFFF"/>
+<text x="62" y="72" font-size="46" font-weight="700" fill="#000000" letter-spacing="-1">UNIVERSAL SEQUENCE GRAPH — TWO TESTS SUPERIMPOSED</text>
+<text x="62" y="112" font-size="21" fill="#8A8A8A">The graph in black. Where each test fills a node, and where it breaks.</text>
+<rect x="62" y="140" width="16" height="16" fill="#D01818"/>
+<text x="88" y="154" font-size="21" font-weight="700" fill="#D01818">T-1  GRAVITY</text>
+<text x="277" y="154" font-size="19" fill="#D01818">11 of 37 fill</text>
+<rect x="462" y="140" width="16" height="16" fill="#4B0082"/>
+<text x="488" y="154" font-size="21" font-weight="700" fill="#4B0082">T-2  THE PYRAMIDS</text>
+<text x="727" y="154" font-size="19" fill="#4B0082">33 of 37 fill</text>
+<text x="62" y="201" font-size="17" font-weight="700" fill="#000000">KEY</text>
+<circle cx="114" cy="196" r="7.0" fill="#000000"/>
+<text x="128" y="201" font-size="16" fill="#8A8A8A">fills</text>
+<circle cx="205.0" cy="196" r="7.0" fill="none" stroke="#000000" stroke-width="1.8"/><path d="M 205.0 189.0 A 7.0 7.0 0 0 0 205.0 203.0 Z" fill="#000000"/>
+<text x="219.0" y="201" font-size="16" fill="#8A8A8A">partial</text>
+<circle cx="313.2" cy="196" r="7.0" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<text x="327.2" y="201" font-size="16" fill="#8A8A8A">empty</text>
+<circle cx="404.2" cy="196" r="7.0" fill="none" stroke="#000000" stroke-width="1.8"/><line x1="395.7" y1="204.5" x2="412.7" y2="187.5" stroke="#000000" stroke-width="2"/>
+<text x="418.2" y="201" font-size="16" fill="#8A8A8A">unreachable</text>
+<circle cx="546.8" cy="196" r="7.0" fill="none" stroke="#000000" stroke-width="1.8"/><circle cx="546.8" cy="196" r="2.6" fill="#000000"/>
+<text x="560.8" y="201" font-size="16" fill="#8A8A8A">borrowed</text>
+<circle cx="663.5999999999999" cy="196" r="7.0" fill="none" stroke="#000000" stroke-width="1.8"/><line x1="657.5999999999999" y1="196" x2="669.5999999999999" y2="196" stroke="#000000" stroke-width="2.4"/>
+<text x="677.5999999999999" y="201" font-size="16" fill="#8A8A8A">merged</text>
+<circle cx="763.1999999999999" cy="196" r="7.0" fill="#000000"/><circle cx="763.1999999999999" cy="196" r="10.5" fill="none" stroke="#000000" stroke-width="1.2" stroke-dasharray="1.8 1.8"/>
+<text x="777.1999999999999" y="201" font-size="16" fill="#8A8A8A">new lane</text>
+<text x="889.9999999999999" y="201" font-size="16" fill="#000000" font-weight="700">tinted band = a structural break</text>
+<line x1="62" y1="224" x2="2256" y2="224" stroke="#000000" stroke-width="2"/>
+<text x="456" y="244" font-size="14" font-weight="700" fill="#D01818">G</text>
+<text x="483" y="244" font-size="14" font-weight="700" fill="#4B0082">P</text>
+<line x1="76" y1="250" x2="76" y2="1230" stroke="#D8D8D8" stroke-width="2"/>
+<rect x="76" y="261.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="276.0" font-size="17" font-weight="700" fill="#000000">PRIOR REALITY</text>
+<circle cx="464" cy="270.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="270.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="275.0" font-size="14" fill="#D01818">gravity SEPARATES OUT, not formed</text>
+<text x="824" y="275.0" font-size="14" fill="#4B0082">Nile surplus · mastaba · Djoser</text>
+<line x1="76" y1="290" x2="1112" y2="290" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="301.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="316.0" font-size="17" font-weight="700" fill="#000000">ORIGIN / SOURCE</text>
+<circle cx="464" cy="310.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 464 303.0 A 7.0 7.0 0 0 0 464 317.0 Z" fill="#D01818"/>
+<circle cx="490" cy="310.0" r="7.0" fill="#4B0082"/>
+<line x1="76" y1="330" x2="1112" y2="330" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="331" width="310" height="28" fill="#FFF4F4"/>
+<line x1="76" y1="345.0" x2="100" y2="345.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="350.0" font-size="15" fill="#8A8A8A">MATERIAL</text>
+<circle cx="464" cy="345.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><line x1="458.0" y1="345.0" x2="470.0" y2="345.0" stroke="#D01818" stroke-width="2.4"/>
+<circle cx="490" cy="345.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="350.0" font-size="14" fill="#D01818">one slot with ENERGY — E=mc²</text>
+<text x="824" y="350.0" font-size="14" fill="#4B0082">Giza + Tura limestone, Aswan granite</text>
+<line x1="76" y1="360" x2="1112" y2="360" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="361" width="310" height="28" fill="#FFF4F4"/>
+<line x1="76" y1="375.0" x2="100" y2="375.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="380.0" font-size="15" fill="#8A8A8A">ENERGY</text>
+<circle cx="464" cy="375.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><line x1="458.0" y1="375.0" x2="470.0" y2="375.0" stroke="#D01818" stroke-width="2.4"/>
+<circle cx="490" cy="375.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="380.0" font-size="14" fill="#D01818">collapsed into MATERIAL</text>
+<text x="824" y="380.0" font-size="14" fill="#4B0082">muscle, paid in grain</text>
+<line x1="76" y1="390" x2="1112" y2="390" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="391" width="310" height="28" fill="#FFF4F4"/>
+<line x1="76" y1="405.0" x2="100" y2="405.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="410.0" font-size="15" fill="#8A8A8A">INFORMATION</text>
+<circle cx="464" cy="405.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="405.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="410.0" font-size="14" fill="#D01818">no information channel</text>
+<text x="824" y="410.0" font-size="14" fill="#4B0082">seked · stellar alignment · Merer's diary</text>
+<line x1="76" y1="420" x2="1112" y2="420" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="431.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="446.0" font-size="17" font-weight="700" fill="#000000">ENVIRONMENT / HOST</text>
+<circle cx="464" cy="440.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="440.0" r="7.0" fill="#4B0082"/>
+<line x1="76" y1="460" x2="1112" y2="460" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="461" width="310" height="28" fill="#FFF4F4"/>
+<line x1="76" y1="475.0" x2="100" y2="475.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="480.0" font-size="15" fill="#8A8A8A">SUBSTRATE</text>
+<circle cx="464" cy="475.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 464 468.0 A 7.0 7.0 0 0 0 464 482.0 Z" fill="#D01818"/>
+<circle cx="490" cy="475.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="480.0" font-size="14" fill="#D01818">spacetime — substrate IS the entity</text>
+<text x="824" y="480.0" font-size="14" fill="#4B0082">Giza bedrock — and the quarry too</text>
+<line x1="76" y1="490" x2="1112" y2="490" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="505.0" x2="100" y2="505.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="510.0" font-size="15" fill="#8A8A8A">CONDITIONS</text>
+<circle cx="464" cy="505.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="505.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="510.0" font-size="14" fill="#D01818">mass-energy and its distribution</text>
+<text x="824" y="510.0" font-size="14" fill="#4B0082">flood window · aridity · Memphis</text>
+<line x1="76" y1="520" x2="1112" y2="520" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="535.0" x2="100" y2="535.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="540.0" font-size="15" fill="#8A8A8A">CONSTRAINTS</text>
+<circle cx="464" cy="535.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="535.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="540.0" font-size="14" fill="#D01818">c · equivalence · conservation</text>
+<text x="824" y="540.0" font-size="14" fill="#4B0082">no iron · KING'S LIFESPAN = deadline</text>
+<line x1="76" y1="550" x2="1112" y2="550" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="561.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="576.0" font-size="17" font-weight="700" fill="#000000">FORMATION SEQUENCE</text>
+<circle cx="464" cy="570.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 464 563.0 A 7.0 7.0 0 0 0 464 577.0 Z" fill="#D01818"/>
+<circle cx="490" cy="570.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8"/><path d="M 490 563.0 A 7.0 7.0 0 0 0 490 577.0 Z" fill="#4B0082"/>
+<line x1="76" y1="590" x2="1112" y2="590" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="605.0" x2="100" y2="605.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="610.0" font-size="15" fill="#8A8A8A">assembly</text>
+<circle cx="464" cy="605.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="605.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="610.0" font-size="14" fill="#D01818">nothing is put together</text>
+<text x="824" y="610.0" font-size="14" fill="#4B0082">~2.3 million blocks placed</text>
+<line x1="76" y1="620" x2="1112" y2="620" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="635.0" x2="100" y2="635.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="640.0" font-size="15" fill="#8A8A8A">growth</text>
+<circle cx="464" cy="635.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="635.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<text x="514" y="640.0" font-size="14" fill="#D01818">does not increase</text>
+<text x="824" y="640.0" font-size="14" fill="#4B0082">assembled, not grown</text>
+<line x1="76" y1="650" x2="1112" y2="650" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="651" width="310" height="28" fill="#FFF4F4"/>
+<rect x="810" y="651" width="298" height="28" fill="#F4F0FB"/>
+<line x1="76" y1="665.0" x2="100" y2="665.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="670.0" font-size="15" fill="#8A8A8A">emergence</text>
+<circle cx="464" cy="665.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="665.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<text x="514" y="670.0" font-size="14" fill="#D01818">the only one that fills</text>
+<text x="824" y="670.0" font-size="14" fill="#4B0082">— exact mirror of gravity</text>
+<line x1="76" y1="680" x2="1112" y2="680" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="691.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="706.0" font-size="17" font-weight="700" fill="#000000">EXISTENCE</text>
+<circle cx="464" cy="700.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 464 693.0 A 7.0 7.0 0 0 0 464 707.0 Z" fill="#D01818"/>
+<circle cx="490" cy="700.0" r="7.0" fill="#4B0082"/>
+<line x1="76" y1="720" x2="1112" y2="720" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="721" width="310" height="28" fill="#FFF4F4"/>
+<line x1="76" y1="735.0" x2="100" y2="735.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="740.0" font-size="15" fill="#8A8A8A">BOUNDARY</text>
+<circle cx="464" cy="735.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="735.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="740.0" font-size="14" fill="#D01818">infinite range, 1/r² — NO boundary</text>
+<text x="824" y="740.0" font-size="14" fill="#4B0082">sharp; it IS the thing</text>
+<line x1="76" y1="750" x2="1112" y2="750" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="765.0" x2="100" y2="765.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="770.0" font-size="15" fill="#8A8A8A">IDENTITY</text>
+<circle cx="464" cy="765.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="765.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="770.0" font-size="14" fill="#D01818">the metric</text>
+<text x="824" y="770.0" font-size="14" fill="#4B0082">Khufu — cartouche in relieving chambers</text>
+<line x1="76" y1="780" x2="1112" y2="780" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="795.0" x2="100" y2="795.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="800.0" font-size="15" fill="#8A8A8A">STATE</text>
+<circle cx="464" cy="795.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="795.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="800.0" font-size="14" fill="#D01818">curvature at every point</text>
+<text x="824" y="800.0" font-size="14" fill="#4B0082">~138 m now, ~146.6 m originally</text>
+<line x1="76" y1="810" x2="1112" y2="810" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="821.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="836.0" font-size="17" font-weight="700" fill="#000000">STABILITY / VIABILITY</text>
+<circle cx="464" cy="830.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 464 823.0 A 7.0 7.0 0 0 0 464 837.0 Z" fill="#D01818"/>
+<circle cx="490" cy="830.0" r="7.0" fill="#4B0082"/>
+<line x1="76" y1="850" x2="1112" y2="850" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="76" y1="865.0" x2="100" y2="865.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="870.0" font-size="15" fill="#8A8A8A">YES → continuation</text>
+<circle cx="464" cy="865.0" r="7.0" fill="#D01818"/>
+<circle cx="490" cy="865.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="870.0" font-size="14" fill="#D01818">cannot fail to persist</text>
+<text x="824" y="870.0" font-size="14" fill="#4B0082">4,500 years</text>
+<line x1="76" y1="880" x2="1112" y2="880" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="881" width="310" height="28" fill="#FFF4F4"/>
+<line x1="76" y1="895.0" x2="100" y2="895.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="108" y="900.0" font-size="15" fill="#8A8A8A">NO → collapse/repair/term</text>
+<circle cx="464" cy="895.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><line x1="455.5" y1="903.5" x2="472.5" y2="886.5" stroke="#D01818" stroke-width="2"/>
+<circle cx="490" cy="895.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="900.0" font-size="14" fill="#D01818">UNREACHABLE — no maintenance cost</text>
+<text x="824" y="900.0" font-size="14" fill="#4B0082">Meidum collapsed · casing stripped</text>
+<line x1="76" y1="910" x2="1112" y2="910" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="500" y="911" width="310" height="38" fill="#FFF4F4"/>
+<rect x="810" y="911" width="298" height="38" fill="#F4F0FB"/>
+<rect x="76" y="921.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="936.0" font-size="17" font-weight="700" fill="#000000">REQUIREMENT EMERGES</text>
+<circle cx="464" cy="930.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="930.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8"/><circle cx="490" cy="930.0" r="2.6" fill="#4B0082"/>
+<text x="514" y="935.0" font-size="14" fill="#D01818">NO STAKE — 21 nodes go dark here</text>
+<text x="824" y="935.0" font-size="14" fill="#4B0082">BORROWED from Khufu / the state</text>
+<line x1="76" y1="950" x2="1112" y2="950" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="961.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="976.0" font-size="17" font-weight="700" fill="#000000">REQUIREMENT</text>
+<circle cx="464" cy="970.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="970.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="975.0" font-size="14" fill="#D01818">gravity needs nothing</text>
+<text x="824" y="975.0" font-size="14" fill="#4B0082">blocks · flood window · ~20 yrs of state</text>
+<line x1="76" y1="990" x2="1112" y2="990" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="1001.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="1016.0" font-size="17" font-weight="700" fill="#000000">DEPENDENCY GRAPH</text>
+<circle cx="464" cy="1010.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 464 1003.0 A 7.0 7.0 0 0 0 464 1017.0 Z" fill="#D01818"/>
+<circle cx="490" cy="1010.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="1015.0" font-size="14" fill="#D01818">mass-energy only</text>
+<text x="824" y="1015.0" font-size="14" fill="#4B0082">quarries · Nile · harvest · named gangs</text>
+<line x1="76" y1="1030" x2="1112" y2="1030" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="1041.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="1056.0" font-size="17" font-weight="700" fill="#000000">AVAILABILITY</text>
+<circle cx="464" cy="1050.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="1050.0" r="7.0" fill="#4B0082"/>
+<text x="824" y="1055.0" font-size="14" fill="#4B0082">IMPORT granite · BUILD harbour · WAIT flood</text>
+<line x1="76" y1="1070" x2="1112" y2="1070" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="1081.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="1096.0" font-size="17" font-weight="700" fill="#000000">QUALIFICATION</text>
+<circle cx="464" cy="1090.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="1090.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="1095.0" font-size="14" fill="#D01818">nothing qualifies anything</text>
+<text x="824" y="1095.0" font-size="14" fill="#4B0082">sound stone? does it fit? is it level?</text>
+<line x1="76" y1="1110" x2="1112" y2="1110" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="1121.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="1136.0" font-size="17" font-weight="700" fill="#000000">TESTING</text>
+<circle cx="464" cy="1130.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="1130.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="1135.0" font-size="14" fill="#D01818">no test, no tester</text>
+<text x="824" y="1135.0" font-size="14" fill="#4B0082">BENT PYRAMID: 54°→43° MID-BUILD</text>
+<line x1="76" y1="1150" x2="1112" y2="1150" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="1161.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="1176.0" font-size="17" font-weight="700" fill="#000000">SELECTION</text>
+<circle cx="464" cy="1170.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="1170.0" r="7.0" fill="#4B0082"/>
+<text x="514" y="1175.0" font-size="14" fill="#D01818">no chooser</text>
+<text x="824" y="1175.0" font-size="14" fill="#4B0082">site · ~51.8° · chamber plan</text>
+<line x1="76" y1="1190" x2="1112" y2="1190" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="76" y="1201.0" width="7" height="18" fill="#000000"/>
+<text x="94" y="1216.0" font-size="17" font-weight="700" fill="#000000">DECISION / CHOICE</text>
+<circle cx="464" cy="1210.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="490" cy="1210.0" r="7.0" fill="#4B0082"/>
+<text x="824" y="1215.0" font-size="14" fill="#4B0082">rejected plans still visible in the fabric</text>
+<line x1="76" y1="1230" x2="1112" y2="1230" stroke="#D8D8D8" stroke-width="0.8"/>
+<text x="1590" y="244" font-size="14" font-weight="700" fill="#D01818">G</text>
+<text x="1617" y="244" font-size="14" font-weight="700" fill="#4B0082">P</text>
+<line x1="1210" y1="250" x2="1210" y2="1290" stroke="#D8D8D8" stroke-width="2"/>
+<rect x="1634" y="251" width="310" height="38" fill="#FFF4F4"/>
+<rect x="1210" y="261.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="276.0" font-size="17" font-weight="700" fill="#000000">ACQUISITION → ENCOUNTER</text>
+<circle cx="1598" cy="270.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="270.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="275.0" font-size="14" fill="#D01818">masses encounter, they do not acquire</text>
+<text x="1958" y="275.0" font-size="14" fill="#4B0082">quarry / haul / levy</text>
+<line x1="1210" y1="290" x2="2246" y2="290" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="301.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="316.0" font-size="17" font-weight="700" fill="#000000">BOUNDARY APPROACH</text>
+<circle cx="1598" cy="310.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="310.0" r="7.0" fill="#4B0082"/>
+<text x="1958" y="315.0" font-size="14" fill="#4B0082">block arrives at the course</text>
+<line x1="1210" y1="330" x2="2246" y2="330" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1634" y="331" width="310" height="38" fill="#FFF4F4"/>
+<rect x="1210" y="341.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="356.0" font-size="17" font-weight="700" fill="#000000">INTAKE → COUPLING</text>
+<circle cx="1598" cy="350.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="350.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="355.0" font-size="14" fill="#D01818">nothing is taken in</text>
+<text x="1958" y="355.0" font-size="14" fill="#4B0082">the block COUPLES to the structure</text>
+<line x1="1210" y1="370" x2="2246" y2="370" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="381.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="396.0" font-size="17" font-weight="700" fill="#000000">TRANSFORMATION → CONDITIONING</text>
+<circle cx="1598" cy="390.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="390.0" r="7.0" fill="#4B0082"/>
+<text x="1958" y="395.0" font-size="14" fill="#4B0082">dressing · squaring · polishing</text>
+<line x1="1210" y1="410" x2="2246" y2="410" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="421.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="436.0" font-size="17" font-weight="700" fill="#000000">PROCESSING (+propagation)</text>
+<circle cx="1598" cy="430.0" r="7.0" fill="#D01818"/>
+<circle cx="1624" cy="430.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="435.0" font-size="14" fill="#D01818">field updates at c — propagation</text>
+<text x="1958" y="435.0" font-size="14" fill="#4B0082">coursing · levelling · load path</text>
+<line x1="1210" y1="450" x2="2246" y2="450" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="461.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="476.0" font-size="17" font-weight="700" fill="#000000">ASSIMILATION → INCORPORATION</text>
+<circle cx="1598" cy="470.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="470.0" r="7.0" fill="#4B0082"/>
+<text x="1958" y="475.0" font-size="14" fill="#4B0082">the block becomes structure</text>
+<line x1="1210" y1="490" x2="2246" y2="490" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1634" y="491" width="310" height="38" fill="#FFF4F4"/>
+<rect x="1944" y="491" width="298" height="38" fill="#F4F0FB"/>
+<rect x="1210" y="501.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="516.0" font-size="17" font-weight="700" fill="#000000">INTEGRATION</text>
+<circle cx="1598" cy="510.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="510.0" r="7.0" fill="#4B0082"/>
+<text x="1958" y="515.0" font-size="14" fill="#4B0082">SAME EVENT AS ASSIMILATION — duplicate</text>
+<line x1="1210" y1="530" x2="2246" y2="530" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1944" y="531" width="298" height="38" fill="#F4F0FB"/>
+<rect x="1210" y="541.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="556.0" font-size="17" font-weight="700" fill="#000000">ACTION</text>
+<circle cx="1598" cy="550.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="550.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8"/><path d="M 1624 543.0 A 7.0 7.0 0 0 0 1624 557.0 Z" fill="#4B0082"/>
+<text x="1958" y="555.0" font-size="14" fill="#4B0082">7 of 8 empty — only COMMUNICATE</text>
+<line x1="1210" y1="570" x2="2246" y2="570" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="581.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="596.0" font-size="17" font-weight="700" fill="#000000">OUTPUT</text>
+<circle cx="1598" cy="590.0" r="7.0" fill="#D01818"/>
+<circle cx="1624" cy="590.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="595.0" font-size="14" fill="#D01818">gravitational radiation — real energy loss</text>
+<text x="1958" y="595.0" font-size="14" fill="#4B0082">debris · workforce · bureaucracy</text>
+<line x1="1210" y1="610" x2="2246" y2="610" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="621.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="636.0" font-size="17" font-weight="700" fill="#000000">RETURN</text>
+<circle cx="1598" cy="630.0" r="7.0" fill="#D01818"/>
+<circle cx="1624" cy="630.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="635.0" font-size="14" fill="#D01818">radiation into the wider universe</text>
+<text x="1958" y="635.0" font-size="14" fill="#4B0082">casing stripped for MEDIEVAL CAIRO</text>
+<line x1="1210" y1="650" x2="2246" y2="650" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="661.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="676.0" font-size="17" font-weight="700" fill="#000000">RESULT</text>
+<circle cx="1598" cy="670.0" r="7.0" fill="#D01818"/>
+<circle cx="1624" cy="670.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="675.0" font-size="14" fill="#D01818">orbit decayed, geometry changed</text>
+<text x="1958" y="675.0" font-size="14" fill="#4B0082">tomb · king buried · plateau altered</text>
+<line x1="1210" y1="690" x2="2246" y2="690" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="701.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="716.0" font-size="17" font-weight="700" fill="#000000">IMPACT</text>
+<circle cx="1598" cy="710.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 1598 703.0 A 7.0 7.0 0 0 0 1598 717.0 Z" fill="#D01818"/>
+<circle cx="1624" cy="710.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="715.0" font-size="14" fill="#D01818">effects yes — 'intended' EMPTY</text>
+<text x="1958" y="715.0" font-size="14" fill="#4B0082">ADVERTISED WHERE THE TREASURE WAS</text>
+<line x1="1210" y1="730" x2="2246" y2="730" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="741.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="756.0" font-size="17" font-weight="700" fill="#000000">VERIFICATION</text>
+<circle cx="1598" cy="750.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="750.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="755.0" font-size="14" fill="#D01818">no requirement to check against</text>
+<text x="1958" y="755.0" font-size="14" fill="#4B0082">FAILED — every pyramid was robbed</text>
+<line x1="1210" y1="770" x2="2246" y2="770" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="781.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="796.0" font-size="17" font-weight="700" fill="#000000">FEEDBACK</text>
+<circle cx="1598" cy="790.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="790.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="795.0" font-size="14" fill="#D01818">reality teaches nobody</text>
+<text x="1958" y="795.0" font-size="14" fill="#4B0082">→ hidden rock-cut tombs. PYRAMIDS END.</text>
+<line x1="1210" y1="810" x2="2246" y2="810" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="821.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="836.0" font-size="17" font-weight="700" fill="#000000">MEMORY</text>
+<circle cx="1598" cy="830.0" r="7.0" fill="#D01818"/>
+<circle cx="1624" cy="830.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="835.0" font-size="14" fill="#D01818">physical record: CMB · waves · decay</text>
+<text x="1958" y="835.0" font-size="14" fill="#4B0082">all six memory types fill</text>
+<line x1="1210" y1="850" x2="2246" y2="850" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="1210" y1="865.0" x2="1234" y2="865.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="1242" y="870.0" font-size="15" fill="#8A8A8A">FAILURE MEMORY</text>
+<circle cx="1598" cy="865.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="865.0" r="7.0" fill="#4B0082"/>
+<text x="1958" y="870.0" font-size="14" fill="#4B0082">Meidum collapsed; 54° too steep</text>
+<line x1="1210" y1="880" x2="2246" y2="880" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="891.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="906.0" font-size="17" font-weight="700" fill="#000000">MEMORY VALIDATION</text>
+<circle cx="1598" cy="900.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="900.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8"/><path d="M 1624 893.0 A 7.0 7.0 0 0 0 1624 907.0 Z" fill="#4B0082"/>
+<text x="1958" y="905.0" font-size="14" fill="#4B0082">PARTLY NO — the HOW was lost</text>
+<line x1="1210" y1="920" x2="2246" y2="920" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="931.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="946.0" font-size="17" font-weight="700" fill="#000000">COMPRESSION</text>
+<circle cx="1598" cy="940.0" r="7.0" fill="#D01818"/>
+<circle cx="1624" cy="940.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8"/><path d="M 1624 933.0 A 7.0 7.0 0 0 0 1624 947.0 Z" fill="#4B0082"/>
+<text x="1648" y="945.0" font-size="14" fill="#D01818">no-hair theorem — mass, spin, charge only</text>
+<text x="1958" y="945.0" font-size="14" fill="#4B0082">'tombs' — method not recoverable</text>
+<line x1="1210" y1="960" x2="2246" y2="960" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="971.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="986.0" font-size="17" font-weight="700" fill="#000000">INHERITANCE</text>
+<circle cx="1598" cy="980.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 1598 973.0 A 7.0 7.0 0 0 0 1598 987.0 Z" fill="#D01818"/>
+<circle cx="1624" cy="980.0" r="7.0" fill="#4B0082"/>
+<line x1="1210" y1="1000" x2="2246" y2="1000" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="1210" y1="1015.0" x2="1234" y2="1015.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="1242" y="1020.0" font-size="15" fill="#8A8A8A">biological</text>
+<circle cx="1598" cy="1015.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="1015.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<line x1="1210" y1="1030" x2="2246" y2="1030" stroke="#D8D8D8" stroke-width="0.8"/>
+<line x1="1210" y1="1045.0" x2="1234" y2="1045.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="1242" y="1050.0" font-size="15" fill="#8A8A8A">individual / social / technical</text>
+<circle cx="1598" cy="1045.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="1045.0" r="7.0" fill="#4B0082"/>
+<text x="1648" y="1050.0" font-size="14" fill="#D01818">none of the four lanes fits</text>
+<text x="1958" y="1050.0" font-size="14" fill="#4B0082">guild skill · scribal record · tools</text>
+<line x1="1210" y1="1060" x2="2246" y2="1060" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1634" y="1061" width="310" height="28" fill="#FFF4F4"/>
+<line x1="1210" y1="1075.0" x2="1234" y2="1075.0" stroke="#8A8A8A" stroke-width="1.4"/>
+<text x="1242" y="1080.0" font-size="15" fill="#8A8A8A">PHYSICAL  ← new lane needed</text>
+<circle cx="1598" cy="1075.0" r="7.0" fill="#D01818"/><circle cx="1598" cy="1075.0" r="10.5" fill="none" stroke="#D01818" stroke-width="1.2" stroke-dasharray="1.8 1.8"/>
+<circle cx="1624" cy="1075.0" r="7.0" fill="none" stroke="#4B0082" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<text x="1648" y="1080.0" font-size="14" fill="#D01818">initial conditions: angular momentum, mass</text>
+<line x1="1210" y1="1090" x2="2246" y2="1090" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="1101.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="1116.0" font-size="17" font-weight="700" fill="#000000">NEXT-SEQUENCE SEED</text>
+<circle cx="1598" cy="1110.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8"/><path d="M 1598 1103.0 A 7.0 7.0 0 0 0 1598 1117.0 Z" fill="#D01818"/>
+<circle cx="1624" cy="1110.0" r="7.0" fill="#4B0082"/>
+<line x1="1210" y1="1130" x2="2246" y2="1130" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="1141.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="1156.0" font-size="17" font-weight="700" fill="#000000">RE-ENTRY POINT</text>
+<circle cx="1598" cy="1150.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="1150.0" r="7.0" fill="#4B0082"/>
+<text x="1958" y="1155.0" font-size="14" fill="#4B0082">Sneferu → Khufu at the corrected angle</text>
+<line x1="1210" y1="1170" x2="2246" y2="1170" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="1181.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="1196.0" font-size="17" font-weight="700" fill="#000000">EXECUTION</text>
+<circle cx="1598" cy="1190.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="1190.0" r="7.0" fill="#4B0082"/>
+<line x1="1210" y1="1210" x2="2246" y2="1210" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="1221.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="1236.0" font-size="17" font-weight="700" fill="#000000">RE-VERIFY</text>
+<circle cx="1598" cy="1230.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="1230.0" r="7.0" fill="#4B0082"/>
+<line x1="1210" y1="1250" x2="2246" y2="1250" stroke="#D8D8D8" stroke-width="0.8"/>
+<rect x="1210" y="1261.0" width="7" height="18" fill="#000000"/>
+<text x="1228" y="1276.0" font-size="17" font-weight="700" fill="#000000">MEMORY UPDATE</text>
+<circle cx="1598" cy="1270.0" r="7.0" fill="none" stroke="#D01818" stroke-width="1.8" stroke-dasharray="2.2 2.2"/>
+<circle cx="1624" cy="1270.0" r="7.0" fill="#4B0082"/>
+<line x1="1210" y1="1290" x2="2246" y2="1290" stroke="#D8D8D8" stroke-width="0.8"/>
+<path d="M 42 910 L 29 910 L 29 1230 L 42 1230" fill="none" stroke="#D01818" stroke-width="3"/>
+<text x="20" y="1070.0" font-size="14.5" font-weight="700" fill="#D01818" text-anchor="middle" transform="rotate(-90 20 1070.0)">GRAVITY DARK — 21 NODES</text>
+<path d="M 1176 250 L 1163 250 L 1163 570 L 1176 570" fill="none" stroke="#D01818" stroke-width="3"/>
+<text x="1154" y="410.0" font-size="14.5" font-weight="700" fill="#D01818" text-anchor="middle" transform="rotate(-90 1154 410.0)">… STILL DARK</text>
+<line x1="62" y1="1308" x2="2256" y2="1308" stroke="#000000" stroke-width="2"/>
+<text x="62" y="1334" font-size="18" font-weight="700" fill="#000000">WHAT BREAKS</text>
+<rect x="62" y="1352" width="11" height="11" fill="#D01818"/>
+<text x="82" y="1362" font-size="15.5" fill="#D01818">GRAVITY  ·  no BOUNDARY · MATERIAL and ENERGY are one slot · the NO branch is unreachable · no stake, so 21 nodes go dark at once</text>
+<rect x="62" y="1378" width="11" height="11" fill="#4B0082"/>
+<text x="82" y="1388" font-size="15.5" fill="#4B0082">PYRAMIDS  ·  the REQUIREMENT is not its own, it is BORROWED from its maker · ACTION collapses to signalling, 7 of 8 empty</text>
+<rect x="62" y="1404" width="11" height="11" fill="#000000"/>
+<text x="82" y="1414" font-size="15.5" fill="#000000">BOTH  ·  ASSIMILATION and INTEGRATION are the same event · hunger-minted words fail: intake→COUPLING, cooking→CONDITIONING, harvest→ENCOUNTER, +PHYSICAL inheritance lane</text>
+</svg>
