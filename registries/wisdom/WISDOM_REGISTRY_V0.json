@@ -1,0 +1,61 @@
+{
+  "registry_id": "WISDOM-REGISTRY-V0",
+  "phase": "PHASE_2",
+  "status": "DRAFT_NATIVE_REGISTRY_FOR_REVIEW",
+  "principle": "Holy Books and other civilizational sources are sources; Wisdom is a derived, source-linked, context-bounded object. Source text, source claim, interpretation, wisdom, law and application must never be collapsed.",
+  "source_layers": [
+    "SOURCE_TEXT",
+    "SOURCE_CLAIM",
+    "INTERPRETATION",
+    "WISDOM_OBJECT",
+    "LAW_OR_GUIDANCE_IF_FORMALIZED",
+    "SEQUENCE_APPLICATION"
+  ],
+  "lanes": [
+    {"wisdom_lane_id":"W-01","name":"Source / Provenance","purpose":"Preserve exact source, location, version, tradition, translation and custody."},
+    {"wisdom_lane_id":"W-02","name":"Event / Narrative Pattern","purpose":"Represent the source event or narrative as a Sequence-reconstructable pattern."},
+    {"wisdom_lane_id":"W-03","name":"Cause → Consequence","purpose":"Record supported relations between prior conditions, actions and consequences without collapsing temporal order into causality."},
+    {"wisdom_lane_id":"W-04","name":"Duty / Role / Responsibility","purpose":"Represent role-bound obligations, responsibilities and conflicts."},
+    {"wisdom_lane_id":"W-05","name":"Value / Priority","purpose":"Represent what is prioritized when multiple valid goals, duties or values conflict."},
+    {"wisdom_lane_id":"W-06","name":"Rule / Restriction / Permission","purpose":"Represent explicit or derived constraints, permissions and prohibitions with scope."},
+    {"wisdom_lane_id":"W-07","name":"Promise / Commitment","purpose":"Represent future-action commitments, activation conditions, persistence and closure."},
+    {"wisdom_lane_id":"W-08","name":"Exception / Rule Conflict","purpose":"Represent conflicts among rules, priority resolution, overrides, costs and consequences."},
+    {"wisdom_lane_id":"W-09","name":"Human Condition","purpose":"Connect narrative patterns to Human states such as desire, fear, attachment, loyalty, revenge, sacrifice, identity and social pressure without replacing the Human rubric."},
+    {"wisdom_lane_id":"W-10","name":"Social Order","purpose":"Represent family, society, governance, justice, power, institutions and collective consequences."},
+    {"wisdom_lane_id":"W-11","name":"Inner Development","purpose":"Represent awareness, discipline, restraint, learning, transformation and self-regulation patterns."},
+    {"wisdom_lane_id":"W-12","name":"Long-Horizon Consequence","purpose":"Track delayed, latent, multigenerational, systemic and era-level consequences."},
+    {"wisdom_lane_id":"W-13","name":"Context / Applicability","purpose":"State when a principle applies, when it does not, and which conditions must match."},
+    {"wisdom_lane_id":"W-14","name":"Contradiction / Counter-Case","purpose":"Preserve opposing cases, failed generalizations and incompatible interpretations."},
+    {"wisdom_lane_id":"W-15","name":"Compressed Principle","purpose":"Store a source-linked, context-qualified principle only after case comparison and falsification."}
+  ],
+  "wisdom_object_contract": {
+    "required_fields": [
+      "wisdom_id",
+      "source_claim_ids",
+      "supporting_sequence_ids",
+      "principle",
+      "applies_when",
+      "does_not_apply_when",
+      "known_counterexamples",
+      "epistemic_status",
+      "source_refs"
+    ],
+    "optional_fields": [
+      "interpretation_ids",
+      "value_priorities",
+      "rule_refs",
+      "exception_refs",
+      "human_parameter_refs",
+      "compression_handle_id",
+      "confidence"
+    ]
+  },
+  "hard_guards": [
+    "HOLY_BOOK_SOURCE != WISDOM_OBJECT",
+    "SOURCE_CLAIM != INTERPRETATION",
+    "INTERPRETATION != SOURCE_FACT",
+    "WISDOM_OBJECT != LAW",
+    "WISDOM_OBJECT cannot directly execute an action without context, conflict, rule and ASI-governance checks",
+    "Every derived wisdom object must retain source references and applicability boundaries"
+  ]
+}
