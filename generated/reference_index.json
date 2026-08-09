@@ -1,6 +1,50 @@
 {
   "segments": {},
   "containers": {
+    "CON-006": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-007": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-012": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-015": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-029": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-035": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-039": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-047": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-048": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-078": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
     "CON-001": [
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -20,14 +64,6 @@
     "CON-005": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "CON-006": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-007": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
     "CON-008": [
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -44,16 +80,10 @@
     "CON-011": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "CON-012": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "CON-013": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-014": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-015": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-016": [
@@ -95,9 +125,6 @@
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
     ],
-    "CON-029": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "CON-030": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
@@ -119,13 +146,7 @@
     "CON-034": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "CON-035": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "CON-036": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-039": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-040": [
@@ -149,12 +170,6 @@
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-046": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-047": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-048": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-049": [
@@ -239,11 +254,6 @@
     "CON-077": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "CON-078": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
     "CON-080": [
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -260,8 +270,89 @@
       "phase2/PHASE_STATUS.json",
       "phase2/README.md",
       "phase2/TASK_QUEUE.md",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/STATUS.json"
+    ],
+    "AI-CAP-007": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-009": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-012": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-023": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-026": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-045": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-046": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-052": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-053": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-055": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-057": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-060": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-062": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-063": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-065": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-066": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-067": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-068": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-072": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-073": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-002": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
@@ -278,22 +369,13 @@
     "AI-CAP-006": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-007": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-008": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-009": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-010": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-011": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-012": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-013": [
@@ -326,16 +408,10 @@
     "AI-CAP-022": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-023": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-024": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-025": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-026": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-027": [
@@ -392,12 +468,6 @@
     "AI-CAP-044": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-045": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-046": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-047": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
@@ -413,22 +483,10 @@
     "AI-CAP-051": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-052": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-053": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-054": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-055": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-056": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-057": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-058": [
@@ -437,31 +495,10 @@
     "AI-CAP-059": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-060": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-061": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "AI-CAP-062": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-063": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-064": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-065": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-066": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-067": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-068": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-069": [
@@ -471,12 +508,6 @@
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-071": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-072": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-073": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-074": [

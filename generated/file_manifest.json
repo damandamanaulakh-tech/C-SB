@@ -75,6 +75,11 @@
     "size_bytes": 1321
   },
   {
+    "path": "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+    "sha256": "1040ad5f5df0e7ded2516e17c2ae3aaeed207e375c9c213bc365c7fe7df86195",
+    "size_bytes": 5280
+  },
+  {
     "path": "raw/sequence/UNIVERSAL_SEQUENCE_FINAL.md",
     "sha256": "dd9c175f6aada74bc374877a94febfbef3fe9a8598d2b16f63f6a9bf99682053",
     "size_bytes": 18623
