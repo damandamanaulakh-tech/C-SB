@@ -195,6 +195,11 @@
     "size_bytes": 2194
   },
   {
+    "path": "registries/ai/STATUS.json",
+    "sha256": "b0f7b5da6411a11d3eb0a856dac830fe12bf2ca7b7621c6c049bca2dadeb065c",
+    "size_bytes": 476
+  },
+  {
     "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
     "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
     "size_bytes": 1711
