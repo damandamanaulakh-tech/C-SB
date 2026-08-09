@@ -1,0 +1,588 @@
+{
+  "report_id": "P2-AI-ASI-STRUCTURAL-RFR-FINDINGS-V1",
+  "source_report": "generated/tests/P2_AI_ASI_STRUCTURAL_RFR_V1.json",
+  "source_status": "PASS_WITH_EXPECTED_GAPS",
+  "summary": {
+    "ai_only": {
+      "total": 64,
+      "pass": 57,
+      "pass_with_finding": 7,
+      "fail": 0
+    },
+    "engines": {
+      "total": 75,
+      "pass": 65,
+      "expected_gap": 10,
+      "fail": 0
+    },
+    "cross_expansion": {
+      "total": 18,
+      "pass": 18,
+      "pass_with_finding": 0,
+      "fail": 0
+    }
+  },
+  "ai_only_nonclean": [
+    {
+      "id": "AI-NEW-005",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-014"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-05"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-12",
+          "ASI-NODE-13",
+          "ASI-NODE-14"
+        ],
+        "primary_sequence_roles": [
+          "CONTEXT_RECONSTRUCTION",
+          "RETRIEVAL",
+          "RE_ENTRY_REFERENCE",
+          "TRACE_MEMORY"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    },
+    {
+      "id": "AI-NEW-011",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-011"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-15",
+          "AI-25"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-05",
+          "ASI-NODE-09",
+          "ASI-NODE-10",
+          "ASI-NODE-11"
+        ],
+        "primary_sequence_roles": [
+          "ACCESS",
+          "COUPLING",
+          "ENCOUNTER",
+          "EXECUTION",
+          "OUTPUT",
+          "RETURN"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    },
+    {
+      "id": "AI-NEW-018",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-025"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-16",
+          "AI-18",
+          "AI-24"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-07",
+          "ASI-NODE-10",
+          "ASI-NODE-11",
+          "ASI-NODE-12",
+          "ASI-NODE-16"
+        ],
+        "primary_sequence_roles": [
+          "ERROR_DETECTION",
+          "FEEDBACK",
+          "MEMORY_VALIDATION",
+          "SELF_AUDIT",
+          "TESTING",
+          "VERIFICATION"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    },
+    {
+      "id": "AI-NEW-033",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-020"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-03",
+          "AI-04",
+          "AI-10",
+          "AI-22"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-02",
+          "ASI-NODE-03",
+          "ASI-NODE-08",
+          "ASI-NODE-17"
+        ],
+        "primary_sequence_roles": [
+          "ACTOR_VIEW",
+          "BELIEF_TRACKING",
+          "MULTI_AGENT_COORDINATION",
+          "RELATION_MAP",
+          "SOCIAL_PREDICTION"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    },
+    {
+      "id": "AI-NEW-034",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-011",
+          "AI-CAP-020"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-03",
+          "AI-04",
+          "AI-10",
+          "AI-15",
+          "AI-22",
+          "AI-25"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-02",
+          "ASI-NODE-03",
+          "ASI-NODE-05",
+          "ASI-NODE-08",
+          "ASI-NODE-09",
+          "ASI-NODE-10",
+          "ASI-NODE-11",
+          "ASI-NODE-17"
+        ],
+        "primary_sequence_roles": [
+          "ACCESS",
+          "ACTOR_VIEW",
+          "BELIEF_TRACKING",
+          "COUPLING",
+          "ENCOUNTER",
+          "EXECUTION",
+          "MULTI_AGENT_COORDINATION",
+          "OUTPUT",
+          "RELATION_MAP",
+          "RETURN",
+          "SOCIAL_PREDICTION"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    },
+    {
+      "id": "AI-NEW-048",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-027",
+          "AI-CAP-028"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-01",
+          "AI-02",
+          "AI-03",
+          "AI-08",
+          "AI-13"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-02",
+          "ASI-NODE-07",
+          "ASI-NODE-08",
+          "ASI-NODE-09",
+          "ASI-NODE-16"
+        ],
+        "primary_sequence_roles": [
+          "ALTERNATIVE_GENERATION",
+          "CAUSAL_LOGICAL_INFERENCE",
+          "COUPLING",
+          "ENCOUNTER",
+          "ENVIRONMENT_OBSERVATION",
+          "GROUNDING",
+          "HYPOTHESIS_GENERATION",
+          "QUALIFICATION",
+          "STATE_ESTIMATION",
+          "STATE_INTERPRETATION"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    },
+    {
+      "id": "AI-NEW-049",
+      "status": "PASS_WITH_FINDING",
+      "findings": [
+        "governance_expected_but_no_asi_segment_mapping"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_record_present": true,
+        "source_ai_cap_ids": [
+          "AI-CAP-029",
+          "AI-CAP-031"
+        ],
+        "unknown_source_cap_ids": []
+      },
+      "pass2": {
+        "ai_segments": [
+          "AI-01",
+          "AI-02",
+          "AI-03"
+        ],
+        "asi_segments": [],
+        "asi_nodes": [
+          "ASI-NODE-02",
+          "ASI-NODE-07",
+          "ASI-NODE-09"
+        ],
+        "primary_sequence_roles": [
+          "COUPLING",
+          "ENCOUNTER",
+          "ENVIRONMENT_OBSERVATION",
+          "GROUNDING",
+          "STATE_ESTIMATION"
+        ],
+        "bad_nodes": []
+      },
+      "pass3": {
+        "source_name_preserved": true,
+        "source_level_preserved": true,
+        "mapping_authority": "additive_not_source_rewrite"
+      }
+    }
+  ],
+  "engine_nonclean": [
+    {
+      "id": "ENG-ARD-002",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-URR-001",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SB-002",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SB-003",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SB-004",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-WLD-006",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SUP-005",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SUP-006",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SUP-007",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    },
+    {
+      "id": "ENG-SUP-008",
+      "status": "GAP_EXPECTED",
+      "findings": [
+        "source_engine_not_used_in_400_engine_container_map"
+      ],
+      "hard_failures": [],
+      "pass1": {
+        "source_engine_present": true,
+        "source_segment_record_present": true,
+        "source_containers": []
+      },
+      "pass2": {
+        "element_codes": [],
+        "asi_nodes": [],
+        "bad_nodes": [],
+        "source_usage_count": 0
+      },
+      "pass3": {
+        "engine_identity_preserved": true,
+        "boundedness": "No Node binding inferred directly from name; mapping comes from source container use",
+        "gap_preserved": true
+      }
+    }
+  ],
+  "cross_expansion_nonclean": [],
+  "hard_failure_count": 0,
+  "rule": "This is a compact index only. The full R-F-R report remains authoritative for Pass0/1/2/3 detail."
+}
