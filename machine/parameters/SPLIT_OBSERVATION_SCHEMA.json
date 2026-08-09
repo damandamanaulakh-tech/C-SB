@@ -1,0 +1,39 @@
+{
+  "status": "V2_LOCK_CANDIDATE",
+  "purpose": "Input contract for generating candidate sub-parameters without Cartesian explosion or fabricated scoring weights.",
+  "fields": {
+    "observation_id": "required unique id",
+    "parent_parameter_id": "required native or candidate parameter id",
+    "candidate_label": "required proposed distinction name",
+    "differentiating_rubric_ids": "required list of R01..R52 ids",
+    "differentiating_value_set": "required explicit rubric values/states",
+    "source_claim_ids": "required non-empty list unless source gap is explicitly being recorded",
+    "evidence_ids": "list; may be empty only with epistemic status UNKNOWN/UNAVAILABLE and candidate remains non-validatable",
+    "sequence_example_ids": "list of Sequence instances where distinction was observed",
+    "behavior_differences": {
+      "different_trigger": "true/false/UNKNOWN",
+      "different_threshold": "true/false/UNKNOWN",
+      "different_dependency": "true/false/UNKNOWN",
+      "different_evidence_requirement": "true/false/UNKNOWN",
+      "different_controller_or_authority": "true/false/UNKNOWN",
+      "different_identity_rule": "true/false/UNKNOWN",
+      "different_transition_mechanism": "true/false/UNKNOWN",
+      "different_result_interpretation": "true/false/UNKNOWN",
+      "different_closure_rule": "true/false/UNKNOWN",
+      "different_memory_rule": "true/false/UNKNOWN",
+      "different_verification_rule": "true/false/UNKNOWN",
+      "different_risk_or_priority_treatment": "true/false/UNKNOWN",
+      "different_provenance_requirement": "true/false/UNKNOWN",
+      "different_contradiction_handling": "true/false/UNKNOWN",
+      "different_downstream_behavior": "true/false/UNKNOWN"
+    },
+    "recurrence_count": "observed count or UNKNOWN",
+    "redundancy_with_ids": "list",
+    "unsupported_complexity_notes": "list",
+    "scope": "required",
+    "conditions": "list",
+    "exceptions": "list",
+    "epistemic_status": "required typed epistemic state"
+  },
+  "generation_rule": "At least one source-supported behavior difference must be TRUE before CANDIDATE_SPLIT can be emitted. UNKNOWN values do not count as positive evidence. No numeric total is computed until weights are explicitly defined."
+}
