@@ -370,6 +370,11 @@
     "size_bytes": 4673
   },
   {
+    "path": "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+    "sha256": "7227d8282c5f6bea4b97ec49b278ac454adc043d2e03c350fd8cf4db988178f6",
+    "size_bytes": 7642
+  },
+  {
     "path": "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
     "sha256": "98755caac1cb8d83538662fc5ad9f72fd9f8712b7a32ce2caa6b35223e840ae0",
     "size_bytes": 13675
