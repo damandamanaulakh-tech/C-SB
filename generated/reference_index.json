@@ -274,7 +274,8 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_RUBRIC_V0.json"
     ],
     "AI-CAP-013": [
       "phase2/TASK_QUEUE.md",

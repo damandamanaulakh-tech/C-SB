@@ -360,6 +360,11 @@
     "size_bytes": 9643
   },
   {
+    "path": "registries/ai/AI_RUBRIC_V0.json",
+    "sha256": "2da4542794dc4357de0cdbe4980b8bc20d1ca70e872adec6e4c849ded920ab2d",
+    "size_bytes": 5924
+  },
+  {
     "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
     "sha256": "9a3cb16ff648233ecff6d203d79f0a0ffbacceda222975490246e5542ed7561f",
     "size_bytes": 1886
