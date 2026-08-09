@@ -3,10 +3,14 @@
   "status": "DRAFT_NODE_BRAIN_CONTRACTS_FOR_REVIEW",
   "contracts": [
     {
+      "node_brain_id":"NB-18",
       "asi_node_id": "ASI-NODE-18",
       "name": "HOLY-BOOK / WISDOM SOURCE INTERPRETER",
       "inputs": ["SourcePacket","SequenceContext","ActorView","ProvenanceRecord"],
       "reads": ["Holy Book Corpus","Narrative Memory","Provenance Memory","View Map","Sequence Graph"],
+      "writes": ["Source Claim Store","Interpretation Store","Wisdom Candidate Store","Contradiction Register","Gap Ledger"],
+      "threshold_evaluators": ["SOURCE_LOCKED","CLAIM_SUPPORTED","INTERPRETATION_BOUNDARY_EXPLICIT","PROVENANCE_PRESENT_OR_EXPLICIT_UNKNOWN"],
+      "allowed_tools": ["source_reader","provenance_query","sequence_reconstructor"],
       "method": [
         "lock exact source text and source location",
         "extract explicit source claims without interpretation",
@@ -19,13 +23,18 @@
       "outputs": ["SourceClaimPacket","InterpretationRecord","WisdomCandidate","SourceGap","ContradictionRecord"],
       "closure_condition": "All extracted claims are source-linked and interpretation boundaries are explicit for the requested scope.",
       "acceptance_condition": "Requested source evidence or a terminal unknown/contradiction state is returned without manufactured provenance.",
+      "closure_responsibilities": ["Never promote interpretation to source fact; preserve source, translation and provenance boundaries."],
       "forbidden": ["interpretation promoted to source fact","translation differences silently merged","unsupported historical claim invented"]
     },
     {
+      "node_brain_id":"NB-19",
       "asi_node_id": "ASI-NODE-19",
       "name": "WISDOM / PRINCIPLE SYNTHESIS",
       "inputs": ["ClosedSequenceRefs","SourceClaimPackets","InterpretationRecords","CounterCases","HumanStateContext"],
       "reads": ["Wisdom Registry","Closure Packet Archive","Pattern Memory","Narrative Memory","Contradiction Register"],
+      "writes": ["Wisdom Registry","Principle Candidate Registry","Applicability Contract Store","Exception Register"],
+      "threshold_evaluators": ["MULTI_CASE_SUPPORT","COUNTER_CASE_CHECKED","APPLICABILITY_BOUNDED","GENERALIZATION_SURVIVES_FALSIFIER"],
+      "allowed_tools": ["case_comparison","pattern_miner","counterexample_search","falsifier"],
       "method": [
         "compare multiple closed cases",
         "separate causal patterns from simple temporal repetition",
@@ -38,13 +47,18 @@
       "outputs": ["WisdomObject","PrincipleCandidate","ApplicabilityContract","ExceptionSet","RejectedGeneralization"],
       "closure_condition": "Candidate principle has explicit support, counter-cases, scope and epistemic status.",
       "acceptance_condition": "WisdomObject is context-bounded and source-linked, or synthesis closes as insufficient/contradictory.",
+      "closure_responsibilities": ["Never call one case universal; preserve counter-cases and applicability boundaries."],
       "forbidden": ["one case treated as universal law","counter-case deleted","wisdom directly converted into action"]
     },
     {
+      "node_brain_id":"NB-20",
       "asi_node_id": "ASI-NODE-20",
       "name": "AI RUBRIC / COGNITIVE MECHANISM ROUTER",
       "inputs": ["SequenceNodeOrEdge","DeclaredEnd","CurrentState","DependencySet","ResourceState"],
       "reads": ["AI Rubric","Sequence Graph","Memory Fabric","Open-Sequence Ledger","Tool/Performer Registry"],
+      "writes": ["AI Activation Ledger","Mechanism Plan Store","Resource Requirement Store","AI Gap Ledger"],
+      "threshold_evaluators": ["AI_FUNCTION_REQUIRED","MECHANISM_AVAILABLE","INPUT_CONTRACT_SATISFIED","RESOURCE_AVAILABLE","VERIFICATION_REQUIRED"],
+      "allowed_tools": ["registry_query","mechanism_router","resource_query","sub_sequence_requester"],
       "method": [
         "identify the artificial cognition function required",
         "select one or more AI rubric segments",
@@ -57,13 +71,18 @@
       "outputs": ["AIMechanismActivationSet","MechanismPlan","ResourceRequirement","PerformerAssignment","StructuredCognitionResult","AIGap"],
       "closure_condition": "Required cognition request has a structured result or explicit terminal unavailable/unknown status.",
       "acceptance_condition": "Result satisfies the requesting Sequence contract and has passed required verification.",
+      "closure_responsibilities": ["Route to Sourceborn-native AI mechanisms only; do not hide an LLM/runtime dependency inside the method."],
       "forbidden": ["implicit LLM call as method","next-token generation treated as universal cognition","hidden untracked state used as source truth"]
     },
     {
+      "node_brain_id":"NB-21",
       "asi_node_id": "ASI-NODE-21",
       "name": "ASI RUBRIC / META-GOVERNOR",
       "inputs": ["ActiveSequenceSet","RubricActivations","Rules","Permissions","WisdomObjects","Contradictions","ActorViews","ClosureScopes","ResourceState"],
       "reads": ["ASI Rubric","Open-Sequence Ledger","Seed Registry","View Map","Contradiction Register","Closure Archive","Rule Memory","Wisdom Registry"],
+      "writes": ["Meta Governance Ledger","Permission Ledger","Priority Ledger","Coordination Policy Store","Investigation Sequence Queue"],
+      "threshold_evaluators": ["CROSS_DOMAIN_CONFLICT","AUTHORITY_VALID","PERMISSION_VALID","BARRIER_CLEAR","ACTOR_VIEW_VALID","CLOSURE_SCOPE_VALID"],
+      "allowed_tools": ["governance_evaluator","ledger_query","rule_evaluator","view_query","sequence_requester"],
       "method": [
         "identify cross-domain conflict or governance need",
         "preserve ownership/source boundaries for each input",
@@ -76,6 +95,7 @@
       "outputs": ["MetaGovernanceDecision","PermissionState","PriorityResolution","CoordinationPolicy","BlockedState","InvestigationSequenceRequest"],
       "closure_condition": "Governance question has a terminal explicit state for the declared scope.",
       "acceptance_condition": "Decision obeys provenance, barrier, actor-view and closure-scope invariants.",
+      "closure_responsibilities": ["Govern without inventing source truth, bypassing barriers, reopening closed Sequences, or collapsing local and global closure."],
       "forbidden": ["invented provenance","barrier bypass","closed Sequence reopen","hidden knowledge injected into actor","local closure promoted to global closure without evidence"]
     }
   ]
