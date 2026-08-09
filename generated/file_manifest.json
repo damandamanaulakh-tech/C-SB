@@ -260,6 +260,11 @@
     "size_bytes": 476
   },
   {
+    "path": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+    "sha256": "ae21ca9eb79cf07543491673eaca07648f5d8ace5ec86e37dc3243db9b2317b2",
+    "size_bytes": 9643
+  },
+  {
     "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
     "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
     "size_bytes": 1711
