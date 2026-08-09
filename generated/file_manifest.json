@@ -480,6 +480,11 @@
     "size_bytes": 5924
   },
   {
+    "path": "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
+    "sha256": "365d3db8b510d81a9c3d818cb1617648e2517b9fa42596c74a2a271db329aae5",
+    "size_bytes": 3751
+  },
+  {
     "path": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
     "sha256": "36a6aa359cdd15bd07ef01d22759f501c698afe427a0d2d025706a128fe8520b",
     "size_bytes": 6955
