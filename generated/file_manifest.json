@@ -75,6 +75,11 @@
     "size_bytes": 3281
   },
   {
+    "path": "tools/generate_ai_only_bindings_v1.py",
+    "sha256": "87f43515c1479e360e74a86bd8a8e943ef9f2541490a723db9b713396390e2cd",
+    "size_bytes": 5352
+  },
+  {
     "path": "tools/validate_ai_asi_container_candidates.py",
     "sha256": "86baffe61e478e6e540149c75686c1d90094b268fab61c6b7b063f5ad4a61444",
     "size_bytes": 4498
