@@ -111,8 +111,8 @@
   },
   {
     "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
-    "sha256": "1923417e282b5863bb18cab22aed4bd0d234b676a891f67fa402d4fc8e958d53",
-    "size_bytes": 767
+    "sha256": "58d1ad3b708032a0835aa87b4dd76efdf4f368d4723c79e3a71740f88538d406",
+    "size_bytes": 1003
   },
   {
     "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json",
