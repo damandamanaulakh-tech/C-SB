@@ -1,0 +1,7 @@
+{
+  "source_filename": "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.txt",
+  "sha256": "c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26",
+  "identical_content_to": "generated/assembled_sources/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+  "canonical_manifest": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
+  "note": "The session contained both .md and .txt copies with identical bytes. One canonical reconstructed body is stored; this alias preserves the second filename and custody hash without duplicating content."
+}
