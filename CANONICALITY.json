@@ -41,6 +41,7 @@
         "semantic_rubric": "registries/ai/AI_RUBRIC_V0.json",
         "approved_ai_only_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
         "ai_capability_family_source_status": "AI-CAP-001..074 APPROVED USER/EVIDENT FOR CONTROLLED TESTING IN MERGED SOURCE",
+        "legacy_ai_capability_map_status": "REVIEW_ONLY",
         "legacy_human_crosswalk_status": "REVIEW_ONLY_MAPPING_NOT_NATIVE_AUTHORITY",
         "provisional_container_crosswalk": "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
         "provisional_container_crosswalk_status": "SOURCE_SUPPORTED_REVIEW_CROSSWALK_NOT_NATIVE_AUTHORITY",
