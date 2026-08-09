@@ -145,6 +145,11 @@
     "size_bytes": 1321
   },
   {
+    "path": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+    "sha256": "ff20d10f0b05f8decb0a47267e02a68779abf49f81ff9afff8a0c8ec6da6cacf",
+    "size_bytes": 7741
+  },
+  {
     "path": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
     "sha256": "a4857a5c0cc4750536112bea7c95cf366529bac20a62cf275dba8a8a21896a04",
     "size_bytes": 6164

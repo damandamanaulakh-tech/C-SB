@@ -2,8 +2,16 @@
 
 ## Segments
 
-- **SEG-01** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **SEG-10** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
+- **SEG-01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
+- **SEG-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **SEG-10** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 
 ## Containers
 
@@ -82,8 +90,86 @@
 - **CON-080** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
 - **CON-081** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **CON-160** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **CON-161** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **CON-240** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
+- **CON-161** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
+- **CON-162** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-163** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-164** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-165** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-166** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-167** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-168** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-169** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-170** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-171** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-172** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-173** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-174** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-175** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-176** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-177** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-178** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-179** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-180** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-181** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-182** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-183** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-184** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-185** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-186** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-187** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-188** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-189** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-190** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-191** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-192** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-193** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-194** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-195** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-196** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-197** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-198** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-199** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-200** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-201** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-202** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-203** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-204** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-205** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-206** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-207** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-208** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-209** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-210** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-211** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-212** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-213** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-214** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-215** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-216** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-217** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-218** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-219** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-220** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-221** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-222** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-223** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-224** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-225** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-226** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-227** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-228** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-229** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-230** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-231** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-232** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-233** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-234** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-235** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-236** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-237** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-238** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-239** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+- **CON-240** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 
 ## Human Parameters
 
@@ -180,31 +266,31 @@
 
 ## Ai Rubric Segments
 
-- **AI-01** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `tools/validate_repo.py`
-- **AI-02** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-03** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-04** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-05** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-06** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
-- **AI-07** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-08** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-09** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-10** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-11** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
-- **AI-12** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-13** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-14** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-15** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-16** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-17** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-18** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-19** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-20** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-21** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `tools/validate_repo.py`
+- **AI-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
+- **AI-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-10** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-11** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
+- **AI-12** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-13** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-14** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-15** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-16** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-17** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-18** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-19** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-20** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-21** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **AI-22** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
-- **AI-23** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **AI-24** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
-- **AI-25** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
+- **AI-23** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-24** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
+- **AI-25** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
 
 ## Ai Container Candidates
 
@@ -270,25 +356,25 @@
 ## Asi Rubric Segments
 
 - **ASI-01** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
-- **ASI-02** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-03** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **ASI-04** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-05** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-06** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-07** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-08** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
-- **ASI-09** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
-- **ASI-10** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
-- **ASI-11** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-12** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-13** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-14** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
-- **ASI-15** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-16** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-10** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-11** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-12** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-13** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-14** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-15** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-16** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **ASI-17** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-18** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-19** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-20** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
+- **ASI-18** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-19** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-20** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
 
 ## Asi Container Candidates
 
@@ -317,26 +403,26 @@
 
 - **ASI-NODE-00** → `README.md`, `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`, `tools/validate_repo.py`
 - **ASI-NODE-01** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-02** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-03** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-02** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-03** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
 - **ASI-NODE-04** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-05** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-06** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-07** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-08** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-09** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-10** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-11** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-12** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-13** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-14** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-05** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-07** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-08** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-09** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-10** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-11** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-12** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-13** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-14** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
 - **ASI-NODE-15** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-16** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
-- **ASI-NODE-17** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-16** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
+- **ASI-NODE-17** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
 - **ASI-NODE-18** → `README.md`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`, `tools/validate_repo.py`
 - **ASI-NODE-19** → `README.md`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
-- **ASI-NODE-20** → `README.md`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
-- **ASI-NODE-21** → `README.md`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
+- **ASI-NODE-20** → `README.md`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
+- **ASI-NODE-21** → `README.md`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
 
 ## Node Brains
 
