@@ -1,0 +1,16 @@
+{
+  "source_file": "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+  "line_count": 3031,
+  "sha256": "c7c57fa02afe94493c4de114f6390290e5486ff4ce7e1ec683527ef7f722bf26",
+  "parts_in_order": [
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-01.md",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-05.md",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-06.md",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-07.md"
+  ],
+  "canonical_role": "PHASE2_ROOT_ADOPTION_CONTRACT",
+  "assembly": "Concatenate parts byte-for-byte in listed order with no inserted text."
+}
