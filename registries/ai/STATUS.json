@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_ONLY",
+  "source": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+  "capability_family_count": 74,
+  "approval_rule": "No AI-CAP item becomes an approved AI native parameter/capability until explicit user review/adoption.",
+  "generated_machine_view": "generated/registry_views/ai_capability_review_map.json",
+  "next_action": "Review AI-CAP-001..074 for accept/rename/split/merge/move/omit, then issue an AI adoption closure packet."
+}
