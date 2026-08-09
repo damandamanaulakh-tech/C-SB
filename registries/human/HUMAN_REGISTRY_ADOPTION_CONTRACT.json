@@ -1,0 +1,49 @@
+{
+  "status": "NATIVE_REGISTRY_REQUIRED",
+  "locked_shape": {
+    "segments": 10,
+    "containers": 80,
+    "active_parameters": 2560
+  },
+  "id_policy": {
+    "segment": "SEG-xx",
+    "container": "CON-xxx",
+    "parameter": "SB-ASI-Pxxxx"
+  },
+  "rules": [
+    "Preserve every approved native ID, name, definition and parent link.",
+    "Sequence mapping is additive; never replace native hierarchy.",
+    "One Sequence node may activate many Human parameters.",
+    "One Human parameter may participate in multiple Sequence roles.",
+    "Do not invent missing approved parameters.",
+    "The complete native 2,560-row registry is not present in the current local payload; import it into registries/human/native/ unchanged when available."
+  ],
+  "connection_types": [
+    "STRUCTURAL: SEGMENT -> CONTAINER -> PARAMETER",
+    "SEQUENTIAL: CASE GRAPH NODE/EDGE -> NEXT LEGAL NODE/EDGE",
+    "ACTIVATION_COMBINATION: multiple parameters -> temporary functional state",
+    "LEARNING_WRITEBACK: result/feedback -> changed carrier baseline"
+  ],
+  "bundles": [
+    {
+      "id": "H-COMB-01",
+      "name": "Survival / Internal Correction",
+      "containers": ["CON-001", "CON-004", "CON-007", "CON-008"]
+    },
+    {
+      "id": "H-COMB-02",
+      "name": "Perceive / Interpret / Decide",
+      "container_ranges": ["CON-009–016", "CON-025", "CON-028", "CON-041–047"]
+    },
+    {
+      "id": "H-COMB-03",
+      "name": "Execute / Observe / Correct",
+      "container_ranges": ["CON-017–024", "CON-031", "CON-032"]
+    },
+    {
+      "id": "H-COMB-04",
+      "name": "Learn / Compress / Reuse",
+      "container_ranges": ["CON-033–040", "CON-074", "CON-075", "CON-078", "CON-079", "CON-080"]
+    }
+  ]
+}
