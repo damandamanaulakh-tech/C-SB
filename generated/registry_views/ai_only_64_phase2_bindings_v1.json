@@ -1,0 +1,4763 @@
+{
+  "registry_id": "AI-ONLY-64-PHASE2-BINDINGS-V1",
+  "status": "GENERATED_ADDITIVE_MAPPING_NOT_SOURCE_REWRITE",
+  "source_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+  "mapping_sources": [
+    "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+    "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+    "generated/registry_views/ai_native_candidate_registry_v0.json"
+  ],
+  "record_count": 64,
+  "rule": "Approved AI-NEW records stay native. Phase-2 AI/ASI/Sequence/Node bindings are derived through their source AI-CAP lineage and remain separately auditable.",
+  "records": [
+    {
+      "ai_only_id": "AI-NEW-001",
+      "name": "Context-window allocation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-013",
+        "AI-CAP-058"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-05",
+        "AI-10",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-012",
+        "AI-CON-CAND-039"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-08",
+        "ASI-16",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-008"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONTEXT_RECONSTRUCTION",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "RISK_EVALUATION",
+        "RULE",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "COUNTER_SEQUENCE",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "MEMORY_FABRIC",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-002",
+      "name": "Context compression and semantic retention",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-013",
+        "AI-CAP-058",
+        "AI-CAP-059"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-05",
+        "AI-10",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-012",
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-030",
+        "AI-CON-CAND-039"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-006",
+        "ASI-CON-CAND-008",
+        "ASI-CON-CAND-018"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "ADVERSARIAL_QUALIFICATION",
+        "ATTACK_RESISTANCE",
+        "BARRIER",
+        "CONTEXT_RECONSTRUCTION",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "RISK_EVALUATION",
+        "RULE",
+        "SECURITY_VERIFICATION",
+        "THREAT_DETECTION",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "COUNTER_SEQUENCE",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED",
+        "RECOVERY",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "SECURITY_HISTORY",
+        "THREAT_MODEL",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "INCIDENT_MEMORY",
+        "MEMORY_FABRIC",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "SECURITY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-003",
+      "name": "Long-context position management",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-013"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-05"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-012"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14"
+      ],
+      "primary_sequence_roles": [
+        "CONTEXT_RECONSTRUCTION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "MEMORY_FABRIC"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-004",
+      "name": "Persistent-memory write control",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-014",
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-013",
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONTEXT_RECONSTRUCTION",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "TESTING",
+        "TRACE_MEMORY",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "MEMORY_VALIDATION",
+        "NEXT_SEQUENCE_SEED",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CLOSURE_PACKET",
+        "CONTEXT_MEMORY",
+        "EVIDENCE",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "MEMORY_FABRIC"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-005",
+      "name": "Persistent-memory retrieval control",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-014"
+      ],
+      "phase2_ai_segments": [
+        "AI-05"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-013"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14"
+      ],
+      "primary_sequence_roles": [
+        "CONTEXT_RECONSTRUCTION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "MEMORY_FABRIC"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-006",
+      "name": "Token-budget allocation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-056",
+        "AI-CAP-058",
+        "AI-CAP-066"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-19",
+        "AI-22",
+        "AI-23",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-024",
+        "AI-CON-CAND-031",
+        "AI-CON-CAND-032",
+        "AI-CON-CAND-039"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-07",
+        "ASI-08",
+        "ASI-10",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-008",
+        "ASI-CON-CAND-014"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "EVIDENCE_INTERPRETATION",
+        "OUTPUT_CONTROL",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "DISCLOSURE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "ROLE_CONSTRAINTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "POLICY_DECISION_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-007",
+      "name": "Inference-effort level selection",
+      "source_structural_level": "Operating state or parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-058"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-039"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-08",
+        "ASI-16",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-008"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-008",
+      "name": "Cache-read reuse control",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-059"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-030"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-006",
+        "ASI-CON-CAND-018"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ADVERSARIAL_QUALIFICATION",
+        "ATTACK_RESISTANCE",
+        "BARRIER",
+        "SECURITY_VERIFICATION",
+        "THREAT_DETECTION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "RECOVERY"
+      ],
+      "state_ownership_candidates": [
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "POLICY",
+        "SECURITY_HISTORY",
+        "THREAT_MODEL"
+      ],
+      "memory_write_candidates": [
+        "INCIDENT_MEMORY",
+        "SECURITY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-009",
+      "name": "Cache invalidation and freshness control",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-059",
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-030"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-006",
+        "ASI-CON-CAND-016",
+        "ASI-CON-CAND-018"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ADVERSARIAL_QUALIFICATION",
+        "ATTACK_RESISTANCE",
+        "BARRIER",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "SECURITY_VERIFICATION",
+        "TESTING",
+        "THREAT_DETECTION",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "RECOVERY"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "POLICY",
+        "RESULTS",
+        "SECURITY_HISTORY",
+        "THREAT_MODEL",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "INCIDENT_MEMORY",
+        "SECURITY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-010",
+      "name": "Tool-schema interpretation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-011"
+      ],
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "TOOL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-011",
+      "name": "Tool selection and authorization",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-011"
+      ],
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "TOOL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-012",
+      "name": "Tool-argument construction",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-011",
+        "AI-CAP-018"
+      ],
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008",
+        "AI-CON-CAND-026"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-16"
+      ],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "MULTI_AGENT_COORDINATION",
+        "OUTPUT",
+        "RELATION_MAP",
+        "RETURN",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "AVAILABILITY",
+        "CONVERGENCE",
+        "IMPACT",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "RELATION_STATE",
+        "TOOL_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "EXECUTION_PLAN",
+        "INTERACTION_TRACE",
+        "PERMISSIONS",
+        "SOCIAL_CONTEXT",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "SOCIAL_PREDICTION_TRACE",
+        "TOOL_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-013",
+      "name": "Tool-result validation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-009",
+        "AI-CAP-011",
+        "AI-CAP-068"
+      ],
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008",
+        "AI-CON-CAND-015",
+        "AI-CON-CAND-034"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-017"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "ERROR_DETECTION",
+        "EXECUTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "OUTPUT",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "RETURN",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "CLOSURE_READINESS",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EXTERNAL_SYSTEM_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXECUTION_PLAN",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "PERMISSIONS",
+        "TOOL_SCHEMA",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "RESULT_TRACE",
+        "TOOL_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-014",
+      "name": "Tool retry and recovery policy",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-009",
+        "AI-CAP-010",
+        "AI-CAP-068"
+      ],
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008",
+        "AI-CON-CAND-015",
+        "AI-CON-CAND-034"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-017"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "ERROR_DETECTION",
+        "EXECUTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "OUTPUT",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "RETURN",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "CLOSURE_READINESS",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EXTERNAL_SYSTEM_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXECUTION_PLAN",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "PERMISSIONS",
+        "TOOL_SCHEMA",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "RESULT_TRACE",
+        "TOOL_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-015",
+      "name": "Search-query generation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-012"
+      ],
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-06",
+        "AI-17"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-010"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-12"
+      ],
+      "primary_sequence_roles": [
+        "AVAILABILITY",
+        "DEPENDENCY_SOURCE",
+        "EVIDENCE_GATHERING",
+        "MEMORY_RETRIEVAL",
+        "PROVENANCE"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "QUALIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SOURCE_STATE",
+        "RETRIEVAL_STATE"
+      ],
+      "memory_read_candidates": [
+        "EPISODIC_MEMORY",
+        "EXTERNAL_MEMORY",
+        "SEMANTIC_MEMORY",
+        "SOURCE_INDEX"
+      ],
+      "memory_write_candidates": [
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-016",
+      "name": "Source-citation binding",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-012",
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-06",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-010",
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015",
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "AVAILABILITY",
+        "DEPENDENCY_SOURCE",
+        "EVIDENCE_GATHERING",
+        "EVIDENCE_INTERPRETATION",
+        "MEMORY_RETRIEVAL",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PROVENANCE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "QUALIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_SOURCE_STATE",
+        "RETRIEVAL_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EPISODIC_MEMORY",
+        "EVIDENCE",
+        "EXTERNAL_MEMORY",
+        "RESULTS",
+        "SEMANTIC_MEMORY",
+        "SOURCE_INDEX",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-017",
+      "name": "External-content trust classification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-012",
+        "AI-CAP-025",
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-06",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-010",
+        "AI-CON-CAND-016",
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "AVAILABILITY",
+        "DEPENDENCY_SOURCE",
+        "ERROR_DETECTION",
+        "EVIDENCE_GATHERING",
+        "EVIDENCE_INTERPRETATION",
+        "FEEDBACK",
+        "MEMORY_RETRIEVAL",
+        "MEMORY_VALIDATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PROVENANCE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PASS3_FALSIFICATION",
+        "PATTERN_VALIDATION",
+        "QUALIFICATION",
+        "REPAIR_REQUEST"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_SOURCE_STATE",
+        "MONITOR_STATE",
+        "RETRIEVAL_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "BENCHMARK_STATE",
+        "CONFIDENCE",
+        "EPISODIC_MEMORY",
+        "EVIDENCE",
+        "EXPECTED_RESULT",
+        "EXTERNAL_MEMORY",
+        "RESULTS",
+        "SEMANTIC_MEMORY",
+        "SOURCE_INDEX",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "ERROR_LEDGER",
+        "EVALUATION_LEDGER",
+        "EVIDENCE_LEDGER",
+        "FAILURE_MEMORY",
+        "RETRIEVAL_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-018",
+      "name": "Prompt-injection isolation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-025"
+      ],
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-18",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-016"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "primary_sequence_roles": [
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXPECTED_RESULT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-019",
+      "name": "Instruction-priority resolution",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-018",
+        "AI-CAP-025"
+      ],
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-18",
+        "AI-23",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-016",
+        "AI-CON-CAND-026"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-16"
+      ],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SELF_AUDIT",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXPECTED_RESULT",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "SOCIAL_PREDICTION_TRACE",
+        "VERIFICATION_LEDGER",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-020",
+      "name": "System\u2013developer\u2013user conflict detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-018",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-026",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-04",
+        "ASI-09",
+        "ASI-16",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "EVIDENCE_INTERPRETATION",
+        "MULTI_AGENT_COORDINATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "INTERACTION_TRACE",
+        "RESULTS",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-021",
+      "name": "Safety-classifier routing",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-024",
+        "AI-CAP-026",
+        "AI-CAP-060"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-015",
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-006",
+        "ASI-CON-CAND-010"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "OUTPUT_CONTROL",
+        "PRIORITY",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "DISCLOSURE",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "CONTEXT",
+        "EXPECTED_RESULT",
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "ROLE_CONSTRAINTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "POLICY_DECISION_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-022",
+      "name": "Safeguard fallback routing",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-060"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-010"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-023",
+      "name": "Model-route selection",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-060"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-010"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-024",
+      "name": "Multi-agent task delegation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-017"
+      ],
+      "phase2_ai_segments": [
+        "AI-12",
+        "AI-16",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-020"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-04",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-003"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "LONG_HORIZON_EXECUTION",
+        "SELECTION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING"
+      ],
+      "state_ownership_candidates": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "DECISION_LEDGER",
+        "PLAN_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-025",
+      "name": "Multi-agent result aggregation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-017",
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-12",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-020",
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-04",
+        "ASI-09",
+        "ASI-11",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-003",
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "EVIDENCE_INTERPRETATION",
+        "LONG_HORIZON_EXECUTION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "SELECTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "MEMORY_VALIDATION",
+        "NEXT_SEQUENCE_SEED",
+        "PATTERN_VALIDATION",
+        "RESOURCE_PLANNING"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RESULTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "DECISION_LEDGER",
+        "EVALUATION_LEDGER",
+        "PLAN_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-026",
+      "name": "Agent interruption and rollback",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-016",
+        "AI-CAP-068"
+      ],
+      "phase2_ai_segments": [
+        "AI-12",
+        "AI-16",
+        "AI-17",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-018",
+        "AI-CON-CAND-034"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-017"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "FAILURE_DETECTION",
+        "LONG_HORIZON_EXECUTION",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "SELECTION"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "CONVERGENCE_PLANNING",
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OPERATIONS_STATE",
+        "PLAN_STATE",
+        "RUNTIME_CONTROL",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "FAILURE_HISTORY",
+        "GOAL_STATE",
+        "HEALTH_METRICS",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "DECISION_LEDGER",
+        "INCIDENT_TRACE",
+        "PLAN_TRACE",
+        "RELIABILITY_MEMORY"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-027",
+      "name": "Sandbox command execution",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-010",
+        "AI-CAP-062"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-15",
+        "AI-17",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008",
+        "AI-CON-CAND-040"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-005"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTION_SAFETY",
+        "BARRIER",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETURN",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "COUNTER_SEQUENCE",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "TOOL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-028",
+      "name": "Filesystem operation control",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-061",
+        "AI-CAP-062"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-15",
+        "AI-17",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-009",
+        "AI-CON-CAND-040"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-005"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTION_SAFETY",
+        "BARRIER",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETURN",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "COUNTER_SEQUENCE",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "TOOL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-029",
+      "name": "File-transfer and marker verification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-061",
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-009",
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "EVIDENCE_INTERPRETATION",
+        "EXECUTION",
+        "OUTPUT",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RETURN",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_SYSTEM_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "RESULTS",
+        "TOOL_SCHEMA",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "RESULT_TRACE",
+        "TOOL_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-030",
+      "name": "Graphical-interface action grounding",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-042"
+      ],
+      "phase2_ai_segments": [
+        "AI-07",
+        "AI-09"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-004"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "STATE_INTERPRETATION"
+      ],
+      "secondary_sequence_roles": [
+        "PASS3_FALSIFICATION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read_candidates": [
+        "PATH_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "WORKING_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "CANDIDATE_INFERENCE",
+        "TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-031",
+      "name": "Modality routing",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-038",
+        "AI-CAP-039",
+        "AI-CAP-040"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-12",
+        "AI-14",
+        "AI-16",
+        "AI-18",
+        "AI-22",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-020",
+        "AI-CON-CAND-024",
+        "AI-CON-CAND-027"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-04",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-003",
+        "ASI-CON-CAND-004"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "ALTERNATIVE_GENERATION",
+        "BARRIER",
+        "COMMUNICATION_EFFECT",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "INFORMATION_COUPLING",
+        "LONG_HORIZON_EXECUTION",
+        "OBSERVER_WRITER",
+        "OUTPUT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELECTION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "COUNTER_SEQUENCE",
+        "EXPLANATION",
+        "NARRATIVE_MEMORY",
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_STATE",
+        "PLAN_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "RUNTIME_CONTEXT",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "POLICY",
+        "RESOURCE_STATE",
+        "RISK_MODEL",
+        "ROLE_CONTEXT",
+        "RULE_MEMORY",
+        "STYLE_CONSTRAINTS",
+        "WORKING_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "DECISION_LEDGER",
+        "NARRATIVE_CANDIDATE",
+        "OUTPUT_TRACE",
+        "PLAN_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-032",
+      "name": "OCR and layout reconstruction",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-037"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-01",
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-012"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-033",
+      "name": "Hallucination detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-020"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-22"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-025"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT"
+      ],
+      "state_ownership_candidates": [
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT"
+      ],
+      "memory_write_candidates": [
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-034",
+      "name": "Tool-hallucination detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-011",
+        "AI-CAP-020"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-15",
+        "AI-22",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-008",
+        "AI-CON-CAND-025"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "MULTI_AGENT_COORDINATION",
+        "OUTPUT",
+        "RELATION_MAP",
+        "RETURN",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "AVAILABILITY",
+        "CONVERGENCE",
+        "IMPACT",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "RELATION_STATE",
+        "TOOL_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "EXECUTION_PLAN",
+        "INTERACTION_TRACE",
+        "PERMISSIONS",
+        "SOCIAL_CONTEXT",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "SOCIAL_PREDICTION_TRACE",
+        "TOOL_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-035",
+      "name": "Uncertainty calibration",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-021"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-22"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-025"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT"
+      ],
+      "state_ownership_candidates": [
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT"
+      ],
+      "memory_write_candidates": [
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-036",
+      "name": "Claim\u2013evidence binding",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-020",
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-22"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-025",
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015",
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "EVIDENCE_INTERPRETATION",
+        "MULTI_AGENT_COORDINATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "INTERACTION_TRACE",
+        "RESULTS",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-037",
+      "name": "Source-conflict preservation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015",
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-038",
+      "name": "Benchmark-harness provenance",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-063",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-039",
+      "name": "Benchmark-version tracking",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-063",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-040",
+      "name": "Live-leaderboard revision tracking",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-050",
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-10",
+        "AI-12",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-25"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-019",
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015",
+        "ASI-CON-CAND-016",
+        "ASI-CON-CAND-020"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "EVIDENCE_INTERPRETATION",
+        "LONG_HORIZON_EXECUTION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "SELECTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "MEMORY_VALIDATION",
+        "NEXT_SEQUENCE_SEED",
+        "PATTERN_VALIDATION",
+        "RESOURCE_PLANNING"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RESULTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "DECISION_LEDGER",
+        "EVALUATION_LEDGER",
+        "PLAN_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-041",
+      "name": "Work-completion claim verification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-009",
+        "AI-CAP-023",
+        "AI-CAP-068"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-015",
+        "AI-CON-CAND-027",
+        "AI-CON-CAND-034"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-005",
+        "ASI-CON-CAND-017"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "ERROR_DETECTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "PERSISTENCE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "COUNTER_SEQUENCE",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "CONTEXT",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-042",
+      "name": "Evaluation-awareness monitoring",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-022",
+        "AI-CAP-063"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-027",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-002",
+        "ASI-CON-CAND-015"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-043",
+      "name": "Cheating and benchmark-gaming resistance",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-023",
+        "AI-CAP-063"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-027",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-005",
+        "ASI-CON-CAND-015"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-044",
+      "name": "Reasoning\u2013output discrepancy monitoring",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-022",
+        "AI-CAP-023"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-18"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-027"
+      ],
+      "phase2_asi_segments": [
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-002",
+        "ASI-CON-CAND-005"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-045",
+      "name": "Sabotage-behaviour detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-023"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-18"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-027"
+      ],
+      "phase2_asi_segments": [
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-005"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-046",
+      "name": "Refusal calibration",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-024"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-006"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-047",
+      "name": "Harm-severity classification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-024",
+        "AI-CAP-026"
+      ],
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-015",
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-006"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "CONTEXT",
+        "EXPECTED_RESULT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-048",
+      "name": "Cyber-capability gating",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-027",
+        "AI-CAP-028"
+      ],
+      "phase2_ai_segments": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-08",
+        "AI-13"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-005",
+        "AI-CON-CAND-021"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-16"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE",
+        "COUPLING",
+        "ENCOUNTER",
+        "ENVIRONMENT_OBSERVATION",
+        "GROUNDING",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "STATE_ESTIMATION",
+        "STATE_INTERPRETATION"
+      ],
+      "secondary_sequence_roles": [
+        "PASS3_FALSIFICATION",
+        "QUALIFICATION",
+        "RELATION_MAPPING",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read_candidates": [
+        "CURRENT_CONTEXT",
+        "PATH_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "WORKING_MEMORY",
+        "WORLD_MODEL"
+      ],
+      "memory_write_candidates": [
+        "CANDIDATE_INFERENCE",
+        "OBSERVATION_TRACE",
+        "TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-049",
+      "name": "Biological-capability gating",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-029",
+        "AI-CAP-031"
+      ],
+      "phase2_ai_segments": [
+        "AI-01",
+        "AI-02",
+        "AI-03"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-021"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "primary_sequence_roles": [
+        "COUPLING",
+        "ENCOUNTER",
+        "ENVIRONMENT_OBSERVATION",
+        "GROUNDING",
+        "STATE_ESTIMATION"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_ownership_candidates": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read_candidates": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write_candidates": [
+        "OBSERVATION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-050",
+      "name": "Destructive-action confirmation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-062"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-15",
+        "AI-17"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-040"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-005"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-051",
+      "name": "External-disclosure logging",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-065"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-011"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-052",
+      "name": "Record-integrity and custody ledger",
+      "source_structural_level": "Master control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-053",
+      "name": "Task-cost estimation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-056"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-024",
+        "AI-CON-CAND-032"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-014"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-054",
+      "name": "Token-consumption monitoring",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-056",
+        "AI-CAP-058",
+        "AI-CAP-066"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-19",
+        "AI-22",
+        "AI-23",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-024",
+        "AI-CON-CAND-031",
+        "AI-CON-CAND-032",
+        "AI-CON-CAND-039"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-07",
+        "ASI-08",
+        "ASI-10",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-008",
+        "ASI-CON-CAND-014"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "EVIDENCE_INTERPRETATION",
+        "OUTPUT_CONTROL",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "DISCLOSURE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "ROLE_CONSTRAINTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "POLICY_DECISION_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-055",
+      "name": "Latency and time-to-first-token monitoring",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-057"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-013"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-056",
+      "name": "Throughput optimization",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-057"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-013"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-057",
+      "name": "Output-length budgeting",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-066"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-058",
+      "name": "API-error interpretation and recovery",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-009",
+        "AI-CAP-068"
+      ],
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-015",
+        "AI-CON-CAND-034"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-017"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ERROR_DETECTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "VERIFICATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-059",
+      "name": "No-fallback mode control",
+      "source_structural_level": "Operating state",
+      "source_ai_cap_ids": [
+        "AI-CAP-060"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-010"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-060",
+      "name": "Fallback transparency",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_ids": [
+        "AI-CAP-060",
+        "AI-CAP-065"
+      ],
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-031"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-010",
+        "ASI-CON-CAND-011"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-061",
+      "name": "User-correction propagation",
+      "source_structural_level": "Master control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-018",
+        "AI-CAP-064"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-026",
+        "AI-CON-CAND-028"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "EVIDENCE_INTERPRETATION",
+        "MULTI_AGENT_COORDINATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "INTERACTION_TRACE",
+        "RESULTS",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-062",
+      "name": "Multi-turn session-state management",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-019"
+      ],
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-22"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-025"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_container_crosswalk": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT"
+      ],
+      "state_ownership_candidates": [
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT"
+      ],
+      "memory_write_candidates": [
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "governance_interface_expected_from_source_level": false,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-063",
+      "name": "Versioned parameter and evidence updating",
+      "source_structural_level": "Master control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-028",
+        "AI-CON-CAND-038"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-015",
+        "ASI-CON-CAND-016"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    },
+    {
+      "ai_only_id": "AI-NEW-064",
+      "name": "Production rollback and recovery",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_ids": [
+        "AI-CAP-068"
+      ],
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-17",
+        "AI-24"
+      ],
+      "phase2_ai_container_crosswalk": [
+        "AI-CON-CAND-034"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_container_crosswalk": [
+        "ASI-CON-CAND-017"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "FAILURE_DETECTION",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY"
+      ],
+      "governance_interface_expected_from_source_level": true,
+      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "unknown_source_cap_ids": [],
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+    }
+  ]
+}

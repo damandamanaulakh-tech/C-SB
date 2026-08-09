@@ -1,0 +1,2170 @@
+{
+  "registry_id": "BRAIN-ENGINE-RELATIONSHIPS-COMPACT-V1",
+  "status": "EXACT_SOURCE_DERIVED_APPROVED_USER_EVIDENT",
+  "source": "ASI_Brain_Engine_Combined_Corpus_v1.xlsx#09 Engine-Container Map + #10 Parameter-Source Map",
+  "compression_rule": "Lossless: 5 engine relations per operational container; six parameters per container share the same 3 engine/source bundle.",
+  "engine_container_relationship_count": 400,
+  "parameter_engine_source_relationship_count": 1440,
+  "containers": [
+    {
+      "container_id": "CON-161",
+      "engine_ids": [
+        "ENG-ARD-003",
+        "ENG-ARD-004",
+        "ENG-CORE-001",
+        "ENG-CORE-002",
+        "ENG-CORE-009"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-004",
+          "COG-ENG-ARD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-162",
+      "engine_ids": [
+        "ENG-ARD-003",
+        "ENG-ARD-004",
+        "ENG-CORE-010",
+        "ENG-ORC-001",
+        "ENG-EXP-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-004",
+          "COG-ENG-ARD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-163",
+      "engine_ids": [
+        "ENG-ARD-003",
+        "ENG-ARD-004",
+        "ENG-EXP-002",
+        "ENG-ARD-001",
+        "ENG-CORE-007"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-004",
+          "COG-ENG-ARD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EXP-002",
+          "COG-ENG-EXP-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-164",
+      "engine_ids": [
+        "ENG-ARD-003",
+        "ENG-ARD-004",
+        "ENG-WLD-002",
+        "ENG-SB-008",
+        "ENG-WLD-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-004",
+          "COG-ENG-ARD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-165",
+      "engine_ids": [
+        "ENG-ARD-003",
+        "ENG-ARD-004",
+        "ENG-OUT-001",
+        "ENG-RD-001",
+        "ENG-RGL-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-004",
+          "COG-ENG-ARD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-166",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-URR-005",
+        "ENG-ARD-001",
+        "ENG-CORE-006"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-URR-005",
+          "SRC-066; COG-ENG-URR-005",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-167",
+      "engine_ids": [
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-ARD-003",
+        "ENG-ARD-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-MEM-001",
+          "COG-ENG-MEM-001; COG-CMP-CMP-031; COG-CMP-CMP-033",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-168",
+      "engine_ids": [
+        "ENG-PAI-001",
+        "ENG-RD-003",
+        "ENG-ARD-003",
+        "ENG-ARD-004",
+        "ENG-URR-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-169",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-CORE-001",
+        "ENG-CORE-002",
+        "ENG-CORE-009",
+        "ENG-GRD-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-002",
+          "SRC-010; SRC-023; SRC-025",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-170",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-CORE-010",
+        "ENG-ORC-001",
+        "ENG-CORE-008",
+        "ENG-CORE-009"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-ORC-001",
+          "SRC-062; COG-ENG-ORC-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-171",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-EXP-002",
+        "ENG-ARD-001",
+        "ENG-CORE-007",
+        "ENG-CORE-008"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-EXP-002",
+          "COG-ENG-EXP-002",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-172",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-WLD-002",
+        "ENG-SB-008",
+        "ENG-ARD-001",
+        "ENG-CORE-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SB-008",
+          "COG-ENG-SB-008",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-173",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-OUT-001",
+        "ENG-RD-001",
+        "ENG-RGL-005",
+        "ENG-SB-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RD-001",
+          "SRC-027; SRC-044; SRC-045",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-174",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-URR-005",
+        "ENG-EXP-001",
+        "ENG-ARD-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-URR-005",
+          "SRC-066; COG-ENG-URR-005",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-175",
+      "engine_ids": [
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-EXP-001",
+        "ENG-ORC-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-MEM-001",
+          "COG-ENG-MEM-001; COG-CMP-CMP-031; COG-CMP-CMP-033",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-176",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-PAI-001",
+        "ENG-RD-003",
+        "ENG-URR-003",
+        "ENG-URR-006"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-177",
+      "engine_ids": [
+        "ENG-CORE-001",
+        "ENG-CORE-002",
+        "ENG-CORE-003",
+        "ENG-CORE-005",
+        "ENG-CORE-009"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-002",
+          "SRC-010; SRC-023; SRC-025",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-003",
+          "COG-ENG-CORE-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-178",
+      "engine_ids": [
+        "ENG-CORE-010",
+        "ENG-ORC-001",
+        "ENG-EXP-001",
+        "ENG-ARD-001",
+        "ENG-CORE-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Primary execution"
+        ],
+        [
+          "ENG-ORC-001",
+          "SRC-062; COG-ENG-ORC-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-179",
+      "engine_ids": [
+        "ENG-ARD-001",
+        "ENG-CORE-011",
+        "ENG-EXP-002",
+        "ENG-CORE-003",
+        "ENG-CORE-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-011",
+          "COG-ENG-CORE-011",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EXP-002",
+          "COG-ENG-EXP-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-180",
+      "engine_ids": [
+        "ENG-SB-008",
+        "ENG-ARD-001",
+        "ENG-CORE-003",
+        "ENG-CORE-005",
+        "ENG-RGL-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-SB-008",
+          "COG-ENG-SB-008",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-003",
+          "COG-ENG-CORE-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-181",
+      "engine_ids": [
+        "ENG-OUT-001",
+        "ENG-RGL-005",
+        "ENG-SB-005",
+        "ENG-ARD-001",
+        "ENG-CORE-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Primary execution"
+        ],
+        [
+          "ENG-RGL-005",
+          "COG-ENG-RGL-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SB-005",
+          "COG-ENG-SB-005",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-182",
+      "engine_ids": [
+        "ENG-ARD-001",
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-URR-005",
+        "ENG-CORE-006"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-183",
+      "engine_ids": [
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-ORC-001",
+        "ENG-OUT-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-MEM-001",
+          "COG-ENG-MEM-001; COG-CMP-CMP-031; COG-CMP-CMP-033",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-184",
+      "engine_ids": [
+        "ENG-PAI-001",
+        "ENG-RD-003",
+        "ENG-OUT-001",
+        "ENG-URR-003",
+        "ENG-URR-006"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-185",
+      "engine_ids": [
+        "ENG-CORE-002",
+        "ENG-CORE-003",
+        "ENG-CORE-010",
+        "ENG-PAI-001",
+        "ENG-SB-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-002",
+          "SRC-010; SRC-023; SRC-025",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-003",
+          "COG-ENG-CORE-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-186",
+      "engine_ids": [
+        "ENG-CORE-010",
+        "ENG-CORE-008",
+        "ENG-LOOP-001",
+        "ENG-SB-006",
+        "ENG-SB-007"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-008",
+          "COG-ENG-CORE-008; COG-CMP-CMP-021; COG-CMP-CMP-022",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-LOOP-001",
+          "COG-ENG-LOOP-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-187",
+      "engine_ids": [
+        "ENG-CORE-008",
+        "ENG-LOOP-001",
+        "ENG-EXP-002",
+        "ENG-CORE-002",
+        "ENG-CORE-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-008",
+          "COG-ENG-CORE-008; COG-CMP-CMP-021; COG-CMP-CMP-022",
+          "Primary execution"
+        ],
+        [
+          "ENG-LOOP-001",
+          "COG-ENG-LOOP-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EXP-002",
+          "COG-ENG-EXP-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-188",
+      "engine_ids": [
+        "ENG-SB-008",
+        "ENG-CORE-003",
+        "ENG-CORE-002",
+        "ENG-CORE-008",
+        "ENG-CORE-010"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-SB-008",
+          "COG-ENG-SB-008",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-003",
+          "COG-ENG-CORE-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-002",
+          "SRC-010; SRC-023; SRC-025",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-189",
+      "engine_ids": [
+        "ENG-SB-005",
+        "ENG-CORE-003",
+        "ENG-CORE-010",
+        "ENG-SB-001",
+        "ENG-SB-009"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-SB-005",
+          "COG-ENG-SB-005",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-003",
+          "COG-ENG-CORE-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-190",
+      "engine_ids": [
+        "ENG-CORE-002",
+        "ENG-INF-001",
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-URR-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-002",
+          "SRC-010; SRC-023; SRC-025",
+          "Primary execution"
+        ],
+        [
+          "ENG-INF-001",
+          "SRC-034; COG-ENG-INF-001; COG-CMP-CMP-034",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-191",
+      "engine_ids": [
+        "ENG-CORE-010",
+        "ENG-OPS-001",
+        "ENG-WLD-003",
+        "ENG-CORE-009",
+        "ENG-CORE-012"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Primary execution"
+        ],
+        [
+          "ENG-OPS-001",
+          "SRC-058; COG-ENG-OPS-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-003",
+          "COG-ENG-WLD-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-192",
+      "engine_ids": [
+        "ENG-PAI-001",
+        "ENG-INF-001",
+        "ENG-RD-003",
+        "ENG-CORE-008",
+        "ENG-LOOP-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-INF-001",
+          "SRC-034; COG-ENG-INF-001; COG-CMP-CMP-034",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-193",
+      "engine_ids": [
+        "ENG-CORE-001",
+        "ENG-CORE-009",
+        "ENG-GRD-002",
+        "ENG-MEM-001",
+        "ENG-RD-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-GRD-002",
+          "COG-ENG-GRD-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-194",
+      "engine_ids": [
+        "ENG-ORC-001",
+        "ENG-CORE-009",
+        "ENG-GRD-001",
+        "ENG-PAT-001",
+        "ENG-CORE-010"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ORC-001",
+          "SRC-062; COG-ENG-ORC-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-GRD-001",
+          "COG-ENG-GRD-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-195",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-GRD-002",
+        "ENG-CORE-001",
+        "ENG-CORE-009",
+        "ENG-CORE-012"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-GRD-002",
+          "COG-ENG-GRD-002",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-196",
+      "engine_ids": [
+        "ENG-CORE-012",
+        "ENG-ORC-001",
+        "ENG-CORE-001",
+        "ENG-CORE-007",
+        "ENG-CORE-009"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Primary execution"
+        ],
+        [
+          "ENG-ORC-001",
+          "SRC-062; COG-ENG-ORC-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-197",
+      "engine_ids": [
+        "ENG-GRD-002",
+        "ENG-ORC-001",
+        "ENG-RD-003",
+        "ENG-VER-001",
+        "ENG-EVAL-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-GRD-002",
+          "COG-ENG-GRD-002",
+          "Primary execution"
+        ],
+        [
+          "ENG-ORC-001",
+          "SRC-062; COG-ENG-ORC-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-198",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-GRD-002",
+        "ENG-ORC-001",
+        "ENG-RD-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-GRD-002",
+          "COG-ENG-GRD-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-199",
+      "engine_ids": [
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-ORC-001",
+        "ENG-RD-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-MEM-001",
+          "COG-ENG-MEM-001; COG-CMP-CMP-031; COG-CMP-CMP-033",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-200",
+      "engine_ids": [
+        "ENG-RD-003",
+        "ENG-PAI-001",
+        "ENG-CORE-012",
+        "ENG-RD-002",
+        "ENG-VER-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-201",
+      "engine_ids": [
+        "ENG-CORE-005",
+        "ENG-CORE-006",
+        "ENG-RD-001",
+        "ENG-RGL-001",
+        "ENG-URR-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-005",
+          "COG-ENG-CORE-005",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-006",
+          "COG-ENG-CORE-006; COG-CMP-CMP-013; COG-CMP-CMP-014",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RD-001",
+          "SRC-027; SRC-044; SRC-045",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-202",
+      "engine_ids": [
+        "ENG-RD-001",
+        "ENG-URR-004",
+        "ENG-CORE-004",
+        "ENG-RGL-006",
+        "ENG-ARD-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-RD-001",
+          "SRC-027; SRC-044; SRC-045",
+          "Primary execution"
+        ],
+        [
+          "ENG-URR-004",
+          "SRC-012; COG-ENG-URR-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-004",
+          "COG-ENG-CORE-004; COG-CMP-CMP-041; COG-CMP-CMP-076",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-203",
+      "engine_ids": [
+        "ENG-EXP-002",
+        "ENG-ARD-001",
+        "ENG-RGL-001",
+        "ENG-RGL-002",
+        "ENG-SUP-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-002",
+          "COG-ENG-EXP-002",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RGL-001",
+          "SRC-002; SRC-003; SRC-004",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-204",
+      "engine_ids": [
+        "ENG-ARD-001",
+        "ENG-CORE-005",
+        "ENG-CORE-006",
+        "ENG-RGL-004",
+        "ENG-RGL-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-005",
+          "COG-ENG-CORE-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-006",
+          "COG-ENG-CORE-006; COG-CMP-CMP-013; COG-CMP-CMP-014",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-205",
+      "engine_ids": [
+        "ENG-RD-001",
+        "ENG-RGL-005",
+        "ENG-URR-003",
+        "ENG-ARD-001",
+        "ENG-CORE-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-RD-001",
+          "SRC-027; SRC-044; SRC-045",
+          "Primary execution"
+        ],
+        [
+          "ENG-RGL-005",
+          "COG-ENG-RGL-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-URR-003",
+          "SRC-071; SRC-072; COG-ENG-URR-003",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-206",
+      "engine_ids": [
+        "ENG-URR-005",
+        "ENG-ARD-001",
+        "ENG-CORE-006",
+        "ENG-URR-002",
+        "ENG-URR-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-URR-005",
+          "SRC-066; COG-ENG-URR-005",
+          "Primary execution"
+        ],
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-006",
+          "COG-ENG-CORE-006; COG-CMP-CMP-013; COG-CMP-CMP-014",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-207",
+      "engine_ids": [
+        "ENG-CORE-004",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-RGL-003",
+        "ENG-SUP-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-004",
+          "COG-ENG-CORE-004; COG-CMP-CMP-041; COG-CMP-CMP-076",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-MEM-001",
+          "COG-ENG-MEM-001; COG-CMP-CMP-031; COG-CMP-CMP-033",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-208",
+      "engine_ids": [
+        "ENG-URR-003",
+        "ENG-CORE-006",
+        "ENG-RGL-002",
+        "ENG-RGL-003",
+        "ENG-SUP-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-URR-003",
+          "SRC-071; SRC-072; COG-ENG-URR-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-006",
+          "COG-ENG-CORE-006; COG-CMP-CMP-013; COG-CMP-CMP-014",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RGL-002",
+          "COG-ENG-RGL-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-209",
+      "engine_ids": [
+        "ENG-OUT-001",
+        "ENG-URR-006",
+        "ENG-SEQ-001",
+        "ENG-CORE-001",
+        "ENG-CORE-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Primary execution"
+        ],
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-210",
+      "engine_ids": [
+        "ENG-URR-006",
+        "ENG-SEQ-001",
+        "ENG-CORE-010",
+        "ENG-ORC-001",
+        "ENG-OUT-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Primary execution"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-211",
+      "engine_ids": [
+        "ENG-OUT-001",
+        "ENG-URR-006",
+        "ENG-SEQ-001",
+        "ENG-URR-004",
+        "ENG-EXP-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Primary execution"
+        ],
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-212",
+      "engine_ids": [
+        "ENG-OUT-001",
+        "ENG-URR-006",
+        "ENG-SEQ-001",
+        "ENG-ORC-001",
+        "ENG-WLD-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Primary execution"
+        ],
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-213",
+      "engine_ids": [
+        "ENG-OUT-001",
+        "ENG-SEQ-001",
+        "ENG-URR-006",
+        "ENG-CORE-010",
+        "ENG-ORC-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Primary execution"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-214",
+      "engine_ids": [
+        "ENG-EVAL-001",
+        "ENG-URR-005",
+        "ENG-CORE-007",
+        "ENG-URR-004",
+        "ENG-OUT-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Primary execution"
+        ],
+        [
+          "ENG-URR-005",
+          "SRC-066; COG-ENG-URR-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-215",
+      "engine_ids": [
+        "ENG-OUT-001",
+        "ENG-SEQ-001",
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Primary execution"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-216",
+      "engine_ids": [
+        "ENG-URR-006",
+        "ENG-OUT-001",
+        "ENG-SEQ-001",
+        "ENG-PAI-001",
+        "ENG-RD-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Primary execution"
+        ],
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SEQ-001",
+          "COG-ENG-SEQ-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-217",
+      "engine_ids": [
+        "ENG-ARD-003",
+        "ENG-WLD-002",
+        "ENG-WLD-004",
+        "ENG-WLD-001",
+        "ENG-WLD-007"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-ARD-003",
+          "COG-ENG-ARD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-004",
+          "COG-ENG-WLD-004",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-218",
+      "engine_ids": [
+        "ENG-WLD-002",
+        "ENG-WLD-004",
+        "ENG-WLD-001",
+        "ENG-WLD-007",
+        "ENG-CORE-010"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-004",
+          "COG-ENG-WLD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-001",
+          "COG-ENG-WLD-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-219",
+      "engine_ids": [
+        "ENG-WLD-002",
+        "ENG-WLD-004",
+        "ENG-WLD-001",
+        "ENG-WLD-007",
+        "ENG-ARD-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-004",
+          "COG-ENG-WLD-004",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-001",
+          "COG-ENG-WLD-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-220",
+      "engine_ids": [
+        "ENG-WLD-002",
+        "ENG-WLD-001",
+        "ENG-WLD-004",
+        "ENG-WLD-007",
+        "ENG-RGL-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-001",
+          "COG-ENG-WLD-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-004",
+          "COG-ENG-WLD-004",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-221",
+      "engine_ids": [
+        "ENG-RD-001",
+        "ENG-WLD-002",
+        "ENG-WLD-004",
+        "ENG-WLD-001",
+        "ENG-WLD-007"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-RD-001",
+          "SRC-027; SRC-044; SRC-045",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-004",
+          "COG-ENG-WLD-004",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-222",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-URR-005",
+        "ENG-ARD-001",
+        "ENG-CORE-006"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-URR-005",
+          "SRC-066; COG-ENG-URR-005",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-223",
+      "engine_ids": [
+        "ENG-WLD-001",
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-WLD-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-001",
+          "COG-ENG-WLD-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-224",
+      "engine_ids": [
+        "ENG-PAI-001",
+        "ENG-RD-003",
+        "ENG-URR-006",
+        "ENG-WLD-002",
+        "ENG-WLD-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-URR-006",
+          "COG-ENG-URR-006",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-225",
+      "engine_ids": [
+        "ENG-RD-002",
+        "ENG-RD-003",
+        "ENG-WLD-005",
+        "ENG-CORE-001",
+        "ENG-CORE-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-RD-002",
+          "SRC-009; SRC-060; SRC-065",
+          "Primary execution"
+        ],
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-005",
+          "COG-ENG-WLD-005",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-226",
+      "engine_ids": [
+        "ENG-EXP-001",
+        "ENG-WLD-005",
+        "ENG-CORE-010",
+        "ENG-ORC-001",
+        "ENG-SB-006"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EXP-001",
+          "COG-ENG-EXP-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-005",
+          "COG-ENG-WLD-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-010",
+          "COG-ENG-CORE-010",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-227",
+      "engine_ids": [
+        "ENG-WLD-005",
+        "ENG-EXP-002",
+        "ENG-ARD-001",
+        "ENG-CORE-007",
+        "ENG-CORE-008"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-005",
+          "COG-ENG-WLD-005",
+          "Primary execution"
+        ],
+        [
+          "ENG-EXP-002",
+          "COG-ENG-EXP-002",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-228",
+      "engine_ids": [
+        "ENG-WLD-002",
+        "ENG-WLD-005",
+        "ENG-SB-008",
+        "ENG-ARD-001",
+        "ENG-CORE-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-002",
+          "COG-ENG-WLD-002",
+          "Primary execution"
+        ],
+        [
+          "ENG-WLD-005",
+          "COG-ENG-WLD-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-SB-008",
+          "COG-ENG-SB-008",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-229",
+      "engine_ids": [
+        "ENG-WLD-005",
+        "ENG-OUT-001",
+        "ENG-RD-001",
+        "ENG-RD-003",
+        "ENG-RGL-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-WLD-005",
+          "COG-ENG-WLD-005",
+          "Primary execution"
+        ],
+        [
+          "ENG-OUT-001",
+          "SRC-028; SRC-073; SRC-074",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RD-001",
+          "SRC-027; SRC-044; SRC-045",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-230",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-EVAL-001",
+        "ENG-RGL-006",
+        "ENG-URR-005",
+        "ENG-ARD-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-EVAL-001",
+          "SRC-040; COG-ENG-EVAL-001; COG-CMP-CMP-059",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-RGL-006",
+          "COG-ENG-RGL-006",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-231",
+      "engine_ids": [
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-MEM-001",
+        "ENG-RD-003",
+        "ENG-WLD-005"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-MEM-001",
+          "COG-ENG-MEM-001; COG-CMP-CMP-031; COG-CMP-CMP-033",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-232",
+      "engine_ids": [
+        "ENG-RD-003",
+        "ENG-PAI-001",
+        "ENG-WLD-005",
+        "ENG-RD-002",
+        "ENG-RGL-003"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-RD-003",
+          "SRC-053; SRC-055; COG-ENG-RD-003",
+          "Primary execution"
+        ],
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-WLD-005",
+          "COG-ENG-WLD-005",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-233",
+      "engine_ids": [
+        "ENG-REV-001",
+        "ENG-CORE-001",
+        "ENG-CORE-002",
+        "ENG-CORE-009",
+        "ENG-GRD-001"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-REV-001",
+          "COG-ENG-REV-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-001",
+          "SRC-001; SRC-006; SRC-007",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-CORE-002",
+          "SRC-010; SRC-023; SRC-025",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-234",
+      "engine_ids": [
+        "ENG-EVO-001",
+        "ENG-META-001",
+        "ENG-META-002",
+        "ENG-SUP-002",
+        "ENG-SUP-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EVO-001",
+          "COG-ENG-EVO-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-META-001",
+          "COG-ENG-META-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-META-002",
+          "COG-ENG-META-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-235",
+      "engine_ids": [
+        "ENG-EVO-001",
+        "ENG-META-001",
+        "ENG-META-002",
+        "ENG-SUP-002",
+        "ENG-SUP-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-EVO-001",
+          "COG-ENG-EVO-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-META-001",
+          "COG-ENG-META-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-META-002",
+          "COG-ENG-META-002",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-236",
+      "engine_ids": [
+        "ENG-META-001",
+        "ENG-SB-008",
+        "ENG-EVO-001",
+        "ENG-META-002",
+        "ENG-SUP-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-META-001",
+          "COG-ENG-META-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-SB-008",
+          "COG-ENG-SB-008",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EVO-001",
+          "COG-ENG-EVO-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-237",
+      "engine_ids": [
+        "ENG-REV-001",
+        "ENG-SB-005",
+        "ENG-EVO-001",
+        "ENG-META-001",
+        "ENG-META-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-REV-001",
+          "COG-ENG-REV-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-SB-005",
+          "COG-ENG-SB-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EVO-001",
+          "COG-ENG-EVO-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-238",
+      "engine_ids": [
+        "ENG-CORE-007",
+        "ENG-URR-005",
+        "ENG-ARD-001",
+        "ENG-CORE-006",
+        "ENG-URR-002"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-007",
+          "SRC-011; COG-ENG-CORE-007",
+          "Primary execution"
+        ],
+        [
+          "ENG-URR-005",
+          "SRC-066; COG-ENG-URR-005",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-ARD-001",
+          "COG-ENG-ARD-001; COG-CMP-CMP-006; COG-CMP-CMP-007",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-239",
+      "engine_ids": [
+        "ENG-CORE-009",
+        "ENG-CORE-012",
+        "ENG-EVO-001",
+        "ENG-META-002",
+        "ENG-SUP-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-CORE-009",
+          "SRC-061; COG-ENG-CORE-009",
+          "Primary execution"
+        ],
+        [
+          "ENG-CORE-012",
+          "COG-ENG-CORE-012; COG-CMP-CMP-097",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-EVO-001",
+          "COG-ENG-EVO-001",
+          "Cross-check / support"
+        ]
+      ]
+    },
+    {
+      "container_id": "CON-240",
+      "engine_ids": [
+        "ENG-PAI-001",
+        "ENG-EVO-001",
+        "ENG-META-002",
+        "ENG-SUP-002",
+        "ENG-SUP-004"
+      ],
+      "parameter_source_bundle": [
+        [
+          "ENG-PAI-001",
+          "SRC-041; SRC-042; COG-ENG-PAI-001",
+          "Primary execution"
+        ],
+        [
+          "ENG-EVO-001",
+          "COG-ENG-EVO-001",
+          "Cross-check / support"
+        ],
+        [
+          "ENG-META-002",
+          "COG-ENG-META-002",
+          "Cross-check / support"
+        ]
+      ]
+    }
+  ]
+}

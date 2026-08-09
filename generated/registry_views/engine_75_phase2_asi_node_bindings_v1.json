@@ -1,0 +1,4509 @@
+{
+  "registry_id": "ENGINE-75-PHASE2-ASI-NODE-BINDINGS-V1",
+  "status": "GENERATED_ADDITIVE_MAPPING_NOT_SOURCE_REWRITE",
+  "source_engine_registry": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
+  "source_segment_bindings": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+  "source_relationships": "generated/registry_views/brain_engine_relationships_compact_v1.json",
+  "phase2_operational_spine": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+  "record_count": 75,
+  "rule": "Engine -> ASI Node is not guessed from engine name. It is derived from exact source Engine->Container relationships and the explicit Phase-2 mapping of each operational element E01..E08 to AI/ASI segments and ASI Nodes.",
+  "records": [
+    {
+      "engine_id": "ENG-ARD-001",
+      "engine_name": "ARD Core",
+      "family": "ARD",
+      "engine_class": "Reasoning Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-03"
+      ],
+      "source_operational_container_ids": [
+        "CON-163",
+        "CON-166",
+        "CON-171",
+        "CON-172",
+        "CON-174",
+        "CON-178",
+        "CON-179",
+        "CON-180",
+        "CON-181",
+        "CON-182",
+        "CON-202",
+        "CON-203",
+        "CON-204",
+        "CON-205",
+        "CON-206",
+        "CON-222",
+        "CON-227",
+        "CON-228",
+        "CON-230",
+        "CON-238"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "source_usage_count": 20,
+      "source_primary_operator_count": 6,
+      "source_supporting_operator_count": 14,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-ARD-002",
+      "engine_name": "ARD-Pulse",
+      "family": "ARD",
+      "engine_class": "Reasoning Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-ARD-003",
+      "engine_name": "ARD-Interocept",
+      "family": "ARD",
+      "engine_class": "Reasoning Engine",
+      "source_primary_segment_id": "SEG-01",
+      "source_secondary_segment_ids": [
+        "SEG-08"
+      ],
+      "source_operational_container_ids": [
+        "CON-161",
+        "CON-162",
+        "CON-163",
+        "CON-164",
+        "CON-165",
+        "CON-167",
+        "CON-168",
+        "CON-217",
+        "CON-219"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 9,
+      "source_primary_operator_count": 6,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-ARD-004",
+      "engine_name": "ARD-Interocept+",
+      "family": "ARD",
+      "engine_class": "Reasoning Engine",
+      "source_primary_segment_id": "SEG-01",
+      "source_secondary_segment_ids": [
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-161",
+        "CON-162",
+        "CON-163",
+        "CON-164",
+        "CON-165",
+        "CON-167",
+        "CON-168"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 5,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-URR-001",
+      "engine_name": "URR-Pulse",
+      "family": "URR",
+      "engine_class": "Verification Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-META-001",
+      "engine_name": "META-RGL",
+      "family": "META",
+      "engine_class": "Meta-Governor",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-234",
+        "CON-235",
+        "CON-236",
+        "CON-237"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "source_usage_count": 4,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-META-002",
+      "engine_name": "META-RGL+",
+      "family": "META",
+      "engine_class": "Meta-Governor",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-234",
+        "CON-235",
+        "CON-236",
+        "CON-237",
+        "CON-239",
+        "CON-240"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 6,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 6,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-001",
+      "engine_name": "Sourceborn Core",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-185",
+        "CON-189"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E05"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-08",
+        "ASI-10",
+        "ASI-13",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-002",
+      "engine_name": "SB Hierarchy Controller",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-003",
+      "engine_name": "SB Segment Router",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-004",
+      "engine_name": "SB Container Executor",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-005",
+      "engine_name": "SB Parameter Evaluator",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-03"
+      ],
+      "source_operational_container_ids": [
+        "CON-173",
+        "CON-181",
+        "CON-189",
+        "CON-237"
+      ],
+      "source_operational_element_codes": [
+        "E05"
+      ],
+      "source_usage_count": 4,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-08",
+        "ASI-13",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-006",
+      "engine_name": "SB Human-AI Matrix Engine",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-09",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-186",
+        "CON-226"
+      ],
+      "source_operational_element_codes": [
+        "E02"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-05",
+        "ASI-09"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-007",
+      "engine_name": "SB Evidence & Negative Space Engine",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-186"
+      ],
+      "source_operational_element_codes": [
+        "E02"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-05",
+        "ASI-09"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-008",
+      "engine_name": "SB Weight & Priority Governor",
+      "family": "SB / Sourceborn",
+      "engine_class": "Native Brain Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-03"
+      ],
+      "source_operational_container_ids": [
+        "CON-164",
+        "CON-172",
+        "CON-180",
+        "CON-188",
+        "CON-228",
+        "CON-236"
+      ],
+      "source_operational_element_codes": [
+        "E04"
+      ],
+      "source_usage_count": 6,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-001",
+      "engine_name": "Blood Arousal Override",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-08",
+      "source_secondary_segment_ids": [
+        "SEG-01",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-164",
+        "CON-217",
+        "CON-218",
+        "CON-219",
+        "CON-220",
+        "CON-221",
+        "CON-223"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-002",
+      "engine_name": "Motive Override",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-08",
+      "source_secondary_segment_ids": [
+        "SEG-09",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-164",
+        "CON-172",
+        "CON-212",
+        "CON-217",
+        "CON-218",
+        "CON-219",
+        "CON-220",
+        "CON-221",
+        "CON-223",
+        "CON-224",
+        "CON-228"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 11,
+      "source_primary_operator_count": 7,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-003",
+      "engine_name": "Executive Fracture",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-08",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-191"
+      ],
+      "source_operational_element_codes": [
+        "E07"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-05",
+        "AI-20",
+        "AI-21"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-11",
+        "ASI-12",
+        "ASI-14"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-004",
+      "engine_name": "Zero Point Chaos",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-08",
+      "source_secondary_segment_ids": [
+        "SEG-09"
+      ],
+      "source_operational_container_ids": [
+        "CON-217",
+        "CON-218",
+        "CON-219",
+        "CON-220",
+        "CON-221",
+        "CON-224"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E08"
+      ],
+      "source_usage_count": 6,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-005",
+      "engine_name": "Social Mirror",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-09",
+      "source_secondary_segment_ids": [
+        "SEG-08"
+      ],
+      "source_operational_container_ids": [
+        "CON-225",
+        "CON-226",
+        "CON-227",
+        "CON-228",
+        "CON-229",
+        "CON-231",
+        "CON-232"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 4,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-006",
+      "engine_name": "Metacognitive Drift",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-08",
+        "SEG-09"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-WLD-007",
+      "engine_name": "Allostatic Load Engine",
+      "family": "Wild",
+      "engine_class": "Human-State Engine",
+      "source_primary_segment_id": "SEG-08",
+      "source_secondary_segment_ids": [
+        "SEG-01",
+        "SEG-03"
+      ],
+      "source_operational_container_ids": [
+        "CON-217",
+        "CON-218",
+        "CON-219",
+        "CON-220",
+        "CON-221"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "source_usage_count": 5,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-001",
+      "engine_name": "Synthetic Fuel Injector",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-04"
+      ],
+      "source_operational_container_ids": [
+        "CON-203",
+        "CON-208"
+      ],
+      "source_operational_element_codes": [
+        "E03",
+        "E08"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-002",
+      "engine_name": "Reality Anchor",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-234",
+        "CON-235",
+        "CON-236",
+        "CON-240"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E04",
+        "E08"
+      ],
+      "source_usage_count": 4,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-003",
+      "engine_name": "Critical Logic Wall",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-08"
+      ],
+      "source_operational_container_ids": [
+        "CON-207"
+      ],
+      "source_operational_element_codes": [
+        "E07"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-05",
+        "AI-20",
+        "AI-21"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-11",
+        "ASI-12",
+        "ASI-14"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-004",
+      "engine_name": "Self-Healing Regime",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-09",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-234",
+        "CON-235",
+        "CON-239",
+        "CON-240"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 4,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-005",
+      "engine_name": "Tier Selector",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-006",
+      "engine_name": "External Checkpoint",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-007",
+      "engine_name": "Evidence Ledger",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-06",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SUP-008",
+      "engine_name": "Negative Space Mapper",
+      "family": "Support",
+      "engine_class": "Support / Governor",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [],
+      "source_operational_element_codes": [],
+      "source_usage_count": 0,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [],
+      "phase2_asi_segments_from_elements": [],
+      "phase2_asi_nodes_from_elements": [],
+      "binding_status": "UNBOUND_IN_SOURCE_400_RELATION_MAP",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-001",
+      "engine_name": "Point Zero Source Lock",
+      "family": "SB Core",
+      "engine_class": "Source Lock",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-161",
+        "CON-169",
+        "CON-177",
+        "CON-193",
+        "CON-195",
+        "CON-196",
+        "CON-209",
+        "CON-225",
+        "CON-233"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E03",
+        "E04"
+      ],
+      "source_usage_count": 9,
+      "source_primary_operator_count": 4,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-10",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-002",
+      "engine_name": "Signal and Noise Splitter",
+      "family": "SB Core",
+      "engine_class": "Preprocessing Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-161",
+        "CON-169",
+        "CON-177",
+        "CON-185",
+        "CON-187",
+        "CON-188",
+        "CON-190",
+        "CON-209",
+        "CON-225",
+        "CON-233"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E03",
+        "E04",
+        "E06"
+      ],
+      "source_usage_count": 10,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 7,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-003",
+      "engine_name": "Real Question Extractor",
+      "family": "SB Core",
+      "engine_class": "Intent Extraction Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-03",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-172",
+        "CON-177",
+        "CON-178",
+        "CON-179",
+        "CON-180",
+        "CON-181",
+        "CON-185",
+        "CON-187",
+        "CON-188",
+        "CON-189",
+        "CON-228"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "source_usage_count": 11,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 8,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-004",
+      "engine_name": "Pattern and Example Matcher",
+      "family": "SB Core",
+      "engine_class": "Pattern Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-202",
+        "CON-207"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E07"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-20",
+        "AI-21"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-05",
+        "ASI-09",
+        "ASI-11",
+        "ASI-12",
+        "ASI-14"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-005",
+      "engine_name": "SB Working Brain",
+      "family": "SB Core",
+      "engine_class": "Working Brain",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-03",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-177",
+        "CON-179",
+        "CON-180",
+        "CON-201",
+        "CON-204",
+        "CON-205"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "source_usage_count": 6,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-10",
+        "ASI-13",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-006",
+      "engine_name": "URR Integrity Brain",
+      "family": "URR",
+      "engine_class": "Integrity Brain",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-166",
+        "CON-182",
+        "CON-201",
+        "CON-204",
+        "CON-206",
+        "CON-208",
+        "CON-222",
+        "CON-238"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E04",
+        "E06",
+        "E08"
+      ],
+      "source_usage_count": 8,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 6,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-007",
+      "engine_name": "Proof Ledger and Gap Table",
+      "family": "Verification",
+      "engine_class": "Ledger Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-163",
+        "CON-166",
+        "CON-171",
+        "CON-174",
+        "CON-182",
+        "CON-190",
+        "CON-195",
+        "CON-196",
+        "CON-198",
+        "CON-214",
+        "CON-222",
+        "CON-227",
+        "CON-230",
+        "CON-238"
+      ],
+      "source_operational_element_codes": [
+        "E03",
+        "E04",
+        "E06"
+      ],
+      "source_usage_count": 14,
+      "source_primary_operator_count": 8,
+      "source_supporting_operator_count": 6,
+      "phase2_ai_segments_from_elements": [
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-008",
+      "engine_name": "Loop Engine",
+      "family": "Loop Control",
+      "engine_class": "Loop Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-170",
+        "CON-171",
+        "CON-186",
+        "CON-187",
+        "CON-188",
+        "CON-192",
+        "CON-227"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E04",
+        "E08"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-009",
+      "engine_name": "Pyramid Memory",
+      "family": "Memory",
+      "engine_class": "Memory Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-161",
+        "CON-167",
+        "CON-169",
+        "CON-170",
+        "CON-175",
+        "CON-177",
+        "CON-183",
+        "CON-191",
+        "CON-193",
+        "CON-194",
+        "CON-195",
+        "CON-196",
+        "CON-199",
+        "CON-215",
+        "CON-223",
+        "CON-231",
+        "CON-233",
+        "CON-239"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E07"
+      ],
+      "source_usage_count": 18,
+      "source_primary_operator_count": 9,
+      "source_supporting_operator_count": 9,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-20",
+        "AI-21"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-010",
+      "engine_name": "Merge Engine",
+      "family": "Orchestration",
+      "engine_class": "Merge Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-07"
+      ],
+      "source_operational_container_ids": [
+        "CON-162",
+        "CON-170",
+        "CON-178",
+        "CON-185",
+        "CON-186",
+        "CON-188",
+        "CON-189",
+        "CON-191",
+        "CON-194",
+        "CON-210",
+        "CON-213",
+        "CON-218",
+        "CON-226"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E04",
+        "E05",
+        "E07"
+      ],
+      "source_usage_count": 13,
+      "source_primary_operator_count": 4,
+      "source_supporting_operator_count": 9,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-16",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-011",
+      "engine_name": "Product Candidate Engine",
+      "family": "Product",
+      "engine_class": "Product Formation Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-03"
+      ],
+      "source_operational_container_ids": [
+        "CON-179"
+      ],
+      "source_operational_element_codes": [
+        "E03"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-10",
+        "ASI-15",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-CORE-012",
+      "engine_name": "Master Log and Evolution Engine",
+      "family": "Governance",
+      "engine_class": "Evolution Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-167",
+        "CON-175",
+        "CON-183",
+        "CON-191",
+        "CON-195",
+        "CON-196",
+        "CON-199",
+        "CON-200",
+        "CON-207",
+        "CON-215",
+        "CON-223",
+        "CON-231",
+        "CON-239"
+      ],
+      "source_operational_element_codes": [
+        "E03",
+        "E04",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 13,
+      "source_primary_operator_count": 8,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-05",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RGL-001",
+      "engine_name": "Recursive Genesis Loop (RGL)",
+      "family": "RGL",
+      "engine_class": "Recursive Reasoning Loop",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-201",
+        "CON-203"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E03"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-10",
+        "ASI-15",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RGL-002",
+      "engine_name": "ARD-RGL Research Engine",
+      "family": "ARD",
+      "engine_class": "Research Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-203",
+        "CON-208"
+      ],
+      "source_operational_element_codes": [
+        "E03",
+        "E08"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RGL-003",
+      "engine_name": "ARD 3.0 Autonomous Perpetual Engine",
+      "family": "ARD",
+      "engine_class": "Recursive Analysis Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-09",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-207",
+        "CON-208",
+        "CON-232"
+      ],
+      "source_operational_element_codes": [
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 3,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-05",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-11",
+        "ASI-12",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RGL-004",
+      "engine_name": "ARD 3.1 Penetration Engine",
+      "family": "ARD",
+      "engine_class": "Penetration Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-08",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-204",
+        "CON-220"
+      ],
+      "source_operational_element_codes": [
+        "E04"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RGL-005",
+      "engine_name": "ARD 3.1 Decision Engine",
+      "family": "ARD",
+      "engine_class": "Decision Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-03",
+        "SEG-04"
+      ],
+      "source_operational_container_ids": [
+        "CON-165",
+        "CON-173",
+        "CON-180",
+        "CON-181",
+        "CON-204",
+        "CON-205",
+        "CON-229"
+      ],
+      "source_operational_element_codes": [
+        "E04",
+        "E05"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-16",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RGL-006",
+      "engine_name": "ARD 3.2 Cosmic System Recognition Engine",
+      "family": "ARD",
+      "engine_class": "System Recognition Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-09"
+      ],
+      "source_operational_container_ids": [
+        "CON-202",
+        "CON-230"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E06"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-URR-002",
+      "engine_name": "URR Verified Pass Core",
+      "family": "URR",
+      "engine_class": "Verification Protocol Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-10",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-201",
+        "CON-206",
+        "CON-238"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E06"
+      ],
+      "source_usage_count": 3,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-URR-003",
+      "engine_name": "URR-07 Extended Private Core",
+      "family": "URR",
+      "engine_class": "Private Verification Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-05"
+      ],
+      "source_operational_container_ids": [
+        "CON-168",
+        "CON-176",
+        "CON-184",
+        "CON-205",
+        "CON-208"
+      ],
+      "source_operational_element_codes": [
+        "E05",
+        "E08"
+      ],
+      "source_usage_count": 5,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-URR-004",
+      "engine_name": "URR Purity Engine",
+      "family": "URR",
+      "engine_class": "Purity / Integrity Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-07"
+      ],
+      "source_operational_container_ids": [
+        "CON-202",
+        "CON-206",
+        "CON-211",
+        "CON-214"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E06"
+      ],
+      "source_usage_count": 4,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-09",
+        "ASI-10",
+        "ASI-15",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-URR-005",
+      "engine_name": "AI Verified Response System",
+      "family": "Product / URR",
+      "engine_class": "Response Verification Product",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-07",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-166",
+        "CON-174",
+        "CON-182",
+        "CON-190",
+        "CON-206",
+        "CON-214",
+        "CON-222",
+        "CON-230",
+        "CON-238"
+      ],
+      "source_operational_element_codes": [
+        "E06"
+      ],
+      "source_usage_count": 9,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 6,
+      "phase2_ai_segments_from_elements": [
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-URR-006",
+      "engine_name": "Appropriate Output Engine",
+      "family": "Output",
+      "engine_class": "Appropriateness Engine",
+      "source_primary_segment_id": "SEG-07",
+      "source_secondary_segment_ids": [
+        "SEG-08"
+      ],
+      "source_operational_container_ids": [
+        "CON-176",
+        "CON-184",
+        "CON-209",
+        "CON-210",
+        "CON-211",
+        "CON-212",
+        "CON-213",
+        "CON-216",
+        "CON-224"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E08"
+      ],
+      "source_usage_count": 9,
+      "source_primary_operator_count": 5,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RD-001",
+      "engine_name": "Raw Definition Engine (RD World)",
+      "family": "RD / Definition",
+      "engine_class": "Definition Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-08"
+      ],
+      "source_operational_container_ids": [
+        "CON-165",
+        "CON-173",
+        "CON-201",
+        "CON-202",
+        "CON-205",
+        "CON-221",
+        "CON-229"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E05"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RD-002",
+      "engine_name": "Unreal to Real Engine",
+      "family": "RD / Definition",
+      "engine_class": "Reality Conversion Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-09"
+      ],
+      "source_operational_container_ids": [
+        "CON-193",
+        "CON-198",
+        "CON-200",
+        "CON-225",
+        "CON-232"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E06",
+        "E08"
+      ],
+      "source_usage_count": 5,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-RD-003",
+      "engine_name": "Secureborn Private Core",
+      "family": "Private Core",
+      "engine_class": "Private Source Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-09",
+        "SEG-04"
+      ],
+      "source_operational_container_ids": [
+        "CON-168",
+        "CON-176",
+        "CON-184",
+        "CON-192",
+        "CON-197",
+        "CON-199",
+        "CON-200",
+        "CON-216",
+        "CON-224",
+        "CON-225",
+        "CON-229",
+        "CON-231",
+        "CON-232"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 13,
+      "source_primary_operator_count": 6,
+      "source_supporting_operator_count": 7,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-05",
+        "AI-06",
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SB-009",
+      "engine_name": "Sourceborn Sequence Engine",
+      "family": "SB / Sourceborn",
+      "engine_class": "Sequence Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-189"
+      ],
+      "source_operational_element_codes": [
+        "E05"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-08",
+        "ASI-13",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-GRD-001",
+      "engine_name": "Grounded Sequence Engine",
+      "family": "Grounding",
+      "engine_class": "Grounded Reasoning Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-06",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-194",
+        "CON-233"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-05",
+        "ASI-09",
+        "ASI-10"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-ORC-001",
+      "engine_name": "Sourceborn / URR Orchestrator",
+      "family": "Orchestration",
+      "engine_class": "Orchestrator",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-07"
+      ],
+      "source_operational_container_ids": [
+        "CON-162",
+        "CON-170",
+        "CON-175",
+        "CON-178",
+        "CON-183",
+        "CON-194",
+        "CON-196",
+        "CON-197",
+        "CON-198",
+        "CON-199",
+        "CON-210",
+        "CON-212",
+        "CON-213",
+        "CON-226"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ],
+      "source_usage_count": 14,
+      "source_primary_operator_count": 4,
+      "source_supporting_operator_count": 10,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-VER-001",
+      "engine_name": "Truth Assessment Engine",
+      "family": "Verification",
+      "engine_class": "Truth Assessment Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-07",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-197"
+      ],
+      "source_operational_element_codes": [
+        "E05"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-08",
+        "ASI-13",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-PAT-001",
+      "engine_name": "Example-First Matching Engine",
+      "family": "Pattern",
+      "engine_class": "Example Matching Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-06",
+        "SEG-07"
+      ],
+      "source_operational_container_ids": [
+        "CON-194"
+      ],
+      "source_operational_element_codes": [
+        "E02"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-05",
+        "ASI-09"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-GRD-002",
+      "engine_name": "External Grounding Engine",
+      "family": "Grounding",
+      "engine_class": "Grounding Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-04"
+      ],
+      "source_operational_container_ids": [
+        "CON-169",
+        "CON-193",
+        "CON-195",
+        "CON-197",
+        "CON-198"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E03",
+        "E05",
+        "E06"
+      ],
+      "source_usage_count": 5,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-MEM-001",
+      "engine_name": "Corpus RAG Engine",
+      "family": "Memory",
+      "engine_class": "Retrieval Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-167",
+        "CON-175",
+        "CON-183",
+        "CON-193",
+        "CON-199",
+        "CON-207",
+        "CON-215",
+        "CON-223",
+        "CON-231"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E07"
+      ],
+      "source_usage_count": 9,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 9,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-05",
+        "AI-06",
+        "AI-20",
+        "AI-21"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-14"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-06",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-EVAL-001",
+      "engine_name": "AI Answer Tester",
+      "family": "Evaluation",
+      "engine_class": "Evaluation Engine",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-07"
+      ],
+      "source_operational_container_ids": [
+        "CON-166",
+        "CON-174",
+        "CON-182",
+        "CON-190",
+        "CON-197",
+        "CON-198",
+        "CON-214",
+        "CON-222",
+        "CON-230"
+      ],
+      "source_operational_element_codes": [
+        "E05",
+        "E06"
+      ],
+      "source_usage_count": 9,
+      "source_primary_operator_count": 6,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-16",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-OUT-001",
+      "engine_name": "Public-Safe Output Mapper",
+      "family": "Output",
+      "engine_class": "Output Mapper",
+      "source_primary_segment_id": "SEG-07",
+      "source_secondary_segment_ids": [
+        "SEG-06",
+        "SEG-03"
+      ],
+      "source_operational_container_ids": [
+        "CON-165",
+        "CON-173",
+        "CON-181",
+        "CON-183",
+        "CON-184",
+        "CON-209",
+        "CON-210",
+        "CON-211",
+        "CON-212",
+        "CON-213",
+        "CON-214",
+        "CON-215",
+        "CON-216",
+        "CON-229"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 14,
+      "source_primary_operator_count": 9,
+      "source_supporting_operator_count": 5,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-LOOP-001",
+      "engine_name": "Controlled Recursive Loop Engine",
+      "family": "Loop Control",
+      "engine_class": "Loop Governor",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-186",
+        "CON-187",
+        "CON-192"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E08"
+      ],
+      "source_usage_count": 3,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-INF-001",
+      "engine_name": "Model Independence Layer",
+      "family": "Infrastructure",
+      "engine_class": "Provider Routing Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-190",
+        "CON-192"
+      ],
+      "source_operational_element_codes": [
+        "E06",
+        "E08"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-EXP-001",
+      "engine_name": "Holo Concept Engine",
+      "family": "Experimental",
+      "engine_class": "Concept Architecture Engine",
+      "source_primary_segment_id": "SEG-02",
+      "source_secondary_segment_ids": [
+        "SEG-09"
+      ],
+      "source_operational_container_ids": [
+        "CON-162",
+        "CON-169",
+        "CON-170",
+        "CON-171",
+        "CON-172",
+        "CON-173",
+        "CON-174",
+        "CON-175",
+        "CON-176",
+        "CON-178",
+        "CON-226"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 11,
+      "source_primary_operator_count": 7,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-EXP-002",
+      "engine_name": "Simulation Engine",
+      "family": "Experimental",
+      "engine_class": "Simulation Engine",
+      "source_primary_segment_id": "SEG-06",
+      "source_secondary_segment_ids": [
+        "SEG-04"
+      ],
+      "source_operational_container_ids": [
+        "CON-163",
+        "CON-171",
+        "CON-179",
+        "CON-187",
+        "CON-203",
+        "CON-211",
+        "CON-227"
+      ],
+      "source_operational_element_codes": [
+        "E03"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-09",
+        "AI-10",
+        "AI-12",
+        "AI-13"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-10",
+        "ASI-15",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-16",
+        "ASI-NODE-20"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-OPS-001",
+      "engine_name": "Site Control Workflow Engine",
+      "family": "Operational",
+      "engine_class": "Workflow Engine",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-191"
+      ],
+      "source_operational_element_codes": [
+        "E07"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 1,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [
+        "AI-05",
+        "AI-20",
+        "AI-21"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-11",
+        "ASI-12",
+        "ASI-14"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-PAI-001",
+      "engine_name": "Private AI Developer Framework",
+      "family": "Private AI",
+      "engine_class": "Developer Framework",
+      "source_primary_segment_id": "SEG-04",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-168",
+        "CON-176",
+        "CON-184",
+        "CON-185",
+        "CON-192",
+        "CON-200",
+        "CON-216",
+        "CON-224",
+        "CON-232",
+        "CON-240"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E08"
+      ],
+      "source_usage_count": 10,
+      "source_primary_operator_count": 8,
+      "source_supporting_operator_count": 2,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-12",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-REV-001",
+      "engine_name": "Personal Reverse Check Engine",
+      "family": "Verification",
+      "engine_class": "Reverse Check Engine",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-05",
+        "SEG-07"
+      ],
+      "source_operational_container_ids": [
+        "CON-233",
+        "CON-237"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E05"
+      ],
+      "source_usage_count": 2,
+      "source_primary_operator_count": 2,
+      "source_supporting_operator_count": 0,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-06",
+        "AI-12",
+        "AI-15",
+        "AI-16",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-08",
+        "ASI-10",
+        "ASI-13",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-09",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-VER-002",
+      "engine_name": "Appropriate V Gate",
+      "family": "Verification",
+      "engine_class": "Suitability Gate",
+      "source_primary_segment_id": "SEG-05",
+      "source_secondary_segment_ids": [
+        "SEG-07",
+        "SEG-10"
+      ],
+      "source_operational_container_ids": [
+        "CON-200"
+      ],
+      "source_operational_element_codes": [
+        "E08"
+      ],
+      "source_usage_count": 1,
+      "source_primary_operator_count": 0,
+      "source_supporting_operator_count": 1,
+      "phase2_ai_segments_from_elements": [
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-03",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-12",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-05",
+        "ASI-NODE-11",
+        "ASI-NODE-14",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-SEQ-001",
+      "engine_name": "Sequence-to-Sequence Engine",
+      "family": "Sequence",
+      "engine_class": "Sequence Mapping Engine",
+      "source_primary_segment_id": "SEG-07",
+      "source_secondary_segment_ids": [
+        "SEG-04",
+        "SEG-06"
+      ],
+      "source_operational_container_ids": [
+        "CON-209",
+        "CON-210",
+        "CON-211",
+        "CON-212",
+        "CON-213",
+        "CON-215",
+        "CON-216"
+      ],
+      "source_operational_element_codes": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 7,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 4,
+      "phase2_ai_segments_from_elements": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-04",
+        "AI-05",
+        "AI-06",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    },
+    {
+      "engine_id": "ENG-EVO-001",
+      "engine_name": "Evolution Trace Engine",
+      "family": "Governance",
+      "engine_class": "Evolution Engine",
+      "source_primary_segment_id": "SEG-10",
+      "source_secondary_segment_ids": [
+        "SEG-04"
+      ],
+      "source_operational_container_ids": [
+        "CON-234",
+        "CON-235",
+        "CON-236",
+        "CON-237",
+        "CON-239",
+        "CON-240"
+      ],
+      "source_operational_element_codes": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_usage_count": 6,
+      "source_primary_operator_count": 3,
+      "source_supporting_operator_count": 3,
+      "phase2_ai_segments_from_elements": [
+        "AI-02",
+        "AI-04",
+        "AI-05",
+        "AI-07",
+        "AI-08",
+        "AI-09",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13",
+        "AI-14",
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-20",
+        "AI-21",
+        "AI-23",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments_from_elements": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-12",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19",
+        "ASI-20"
+      ],
+      "phase2_asi_nodes_from_elements": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-06",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-20",
+        "ASI-NODE-21"
+      ],
+      "binding_status": "DERIVED_FROM_SOURCE_CONTAINER_RELATIONS",
+      "authority_note": "Engine identity and segment/container use are source records. AI/ASI segment and ASI-Node bindings are additive Phase-2 derivations through the approved E01..E08 operational spine; engines remain bounded operators, not autonomous authorities."
+    }
+  ]
+}

@@ -1,0 +1,3605 @@
+{
+  "record_count": 400,
+  "records": [
+    {
+      "mapping_id": "ECM-161-01",
+      "container_id": "CON-161",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-161-02",
+      "container_id": "CON-161",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-161-03",
+      "container_id": "CON-161",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-161-04",
+      "container_id": "CON-161",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-161-05",
+      "container_id": "CON-161",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-162-01",
+      "container_id": "CON-162",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-162-02",
+      "container_id": "CON-162",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-162-03",
+      "container_id": "CON-162",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-162-04",
+      "container_id": "CON-162",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-162-05",
+      "container_id": "CON-162",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-163-01",
+      "container_id": "CON-163",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-163-02",
+      "container_id": "CON-163",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-163-03",
+      "container_id": "CON-163",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-163-04",
+      "container_id": "CON-163",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-163-05",
+      "container_id": "CON-163",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-164-01",
+      "container_id": "CON-164",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-164-02",
+      "container_id": "CON-164",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-164-03",
+      "container_id": "CON-164",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-164-04",
+      "container_id": "CON-164",
+      "engine_id": "ENG-SB-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-164-05",
+      "container_id": "CON-164",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-165-01",
+      "container_id": "CON-165",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-165-02",
+      "container_id": "CON-165",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-165-03",
+      "container_id": "CON-165",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-165-04",
+      "container_id": "CON-165",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-165-05",
+      "container_id": "CON-165",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-166-01",
+      "container_id": "CON-166",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-166-02",
+      "container_id": "CON-166",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-166-03",
+      "container_id": "CON-166",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-166-04",
+      "container_id": "CON-166",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-166-05",
+      "container_id": "CON-166",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-167-01",
+      "container_id": "CON-167",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-167-02",
+      "container_id": "CON-167",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-167-03",
+      "container_id": "CON-167",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-167-04",
+      "container_id": "CON-167",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-167-05",
+      "container_id": "CON-167",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-168-01",
+      "container_id": "CON-168",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-168-02",
+      "container_id": "CON-168",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-168-03",
+      "container_id": "CON-168",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-168-04",
+      "container_id": "CON-168",
+      "engine_id": "ENG-ARD-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-168-05",
+      "container_id": "CON-168",
+      "engine_id": "ENG-URR-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-169-01",
+      "container_id": "CON-169",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-169-02",
+      "container_id": "CON-169",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-169-03",
+      "container_id": "CON-169",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-169-04",
+      "container_id": "CON-169",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-169-05",
+      "container_id": "CON-169",
+      "engine_id": "ENG-GRD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-170-01",
+      "container_id": "CON-170",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-170-02",
+      "container_id": "CON-170",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-170-03",
+      "container_id": "CON-170",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-170-04",
+      "container_id": "CON-170",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-170-05",
+      "container_id": "CON-170",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-171-01",
+      "container_id": "CON-171",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-171-02",
+      "container_id": "CON-171",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-171-03",
+      "container_id": "CON-171",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-171-04",
+      "container_id": "CON-171",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-171-05",
+      "container_id": "CON-171",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-172-01",
+      "container_id": "CON-172",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-172-02",
+      "container_id": "CON-172",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-172-03",
+      "container_id": "CON-172",
+      "engine_id": "ENG-SB-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-172-04",
+      "container_id": "CON-172",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-172-05",
+      "container_id": "CON-172",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-173-01",
+      "container_id": "CON-173",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-173-02",
+      "container_id": "CON-173",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-173-03",
+      "container_id": "CON-173",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-173-04",
+      "container_id": "CON-173",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-173-05",
+      "container_id": "CON-173",
+      "engine_id": "ENG-SB-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-174-01",
+      "container_id": "CON-174",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-174-02",
+      "container_id": "CON-174",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-174-03",
+      "container_id": "CON-174",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-174-04",
+      "container_id": "CON-174",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-174-05",
+      "container_id": "CON-174",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-175-01",
+      "container_id": "CON-175",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-175-02",
+      "container_id": "CON-175",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-175-03",
+      "container_id": "CON-175",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-175-04",
+      "container_id": "CON-175",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-175-05",
+      "container_id": "CON-175",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-176-01",
+      "container_id": "CON-176",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-176-02",
+      "container_id": "CON-176",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-176-03",
+      "container_id": "CON-176",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-176-04",
+      "container_id": "CON-176",
+      "engine_id": "ENG-URR-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-176-05",
+      "container_id": "CON-176",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-177-01",
+      "container_id": "CON-177",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-177-02",
+      "container_id": "CON-177",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-177-03",
+      "container_id": "CON-177",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-177-04",
+      "container_id": "CON-177",
+      "engine_id": "ENG-CORE-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-177-05",
+      "container_id": "CON-177",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-178-01",
+      "container_id": "CON-178",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-178-02",
+      "container_id": "CON-178",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-178-03",
+      "container_id": "CON-178",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-178-04",
+      "container_id": "CON-178",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-178-05",
+      "container_id": "CON-178",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-179-01",
+      "container_id": "CON-179",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-179-02",
+      "container_id": "CON-179",
+      "engine_id": "ENG-CORE-011",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-179-03",
+      "container_id": "CON-179",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-179-04",
+      "container_id": "CON-179",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-179-05",
+      "container_id": "CON-179",
+      "engine_id": "ENG-CORE-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-180-01",
+      "container_id": "CON-180",
+      "engine_id": "ENG-SB-008",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-180-02",
+      "container_id": "CON-180",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-180-03",
+      "container_id": "CON-180",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-180-04",
+      "container_id": "CON-180",
+      "engine_id": "ENG-CORE-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-180-05",
+      "container_id": "CON-180",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-181-01",
+      "container_id": "CON-181",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-181-02",
+      "container_id": "CON-181",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-181-03",
+      "container_id": "CON-181",
+      "engine_id": "ENG-SB-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-181-04",
+      "container_id": "CON-181",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-181-05",
+      "container_id": "CON-181",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-182-01",
+      "container_id": "CON-182",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-182-02",
+      "container_id": "CON-182",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-182-03",
+      "container_id": "CON-182",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-182-04",
+      "container_id": "CON-182",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-182-05",
+      "container_id": "CON-182",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-183-01",
+      "container_id": "CON-183",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-183-02",
+      "container_id": "CON-183",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-183-03",
+      "container_id": "CON-183",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-183-04",
+      "container_id": "CON-183",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-183-05",
+      "container_id": "CON-183",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-184-01",
+      "container_id": "CON-184",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-184-02",
+      "container_id": "CON-184",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-184-03",
+      "container_id": "CON-184",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-184-04",
+      "container_id": "CON-184",
+      "engine_id": "ENG-URR-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-184-05",
+      "container_id": "CON-184",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-185-01",
+      "container_id": "CON-185",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-185-02",
+      "container_id": "CON-185",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-185-03",
+      "container_id": "CON-185",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-185-04",
+      "container_id": "CON-185",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-185-05",
+      "container_id": "CON-185",
+      "engine_id": "ENG-SB-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-186-01",
+      "container_id": "CON-186",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-186-02",
+      "container_id": "CON-186",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-186-03",
+      "container_id": "CON-186",
+      "engine_id": "ENG-LOOP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-186-04",
+      "container_id": "CON-186",
+      "engine_id": "ENG-SB-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-186-05",
+      "container_id": "CON-186",
+      "engine_id": "ENG-SB-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-187-01",
+      "container_id": "CON-187",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-187-02",
+      "container_id": "CON-187",
+      "engine_id": "ENG-LOOP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-187-03",
+      "container_id": "CON-187",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-187-04",
+      "container_id": "CON-187",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-187-05",
+      "container_id": "CON-187",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-188-01",
+      "container_id": "CON-188",
+      "engine_id": "ENG-SB-008",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-188-02",
+      "container_id": "CON-188",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-188-03",
+      "container_id": "CON-188",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-188-04",
+      "container_id": "CON-188",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-188-05",
+      "container_id": "CON-188",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-189-01",
+      "container_id": "CON-189",
+      "engine_id": "ENG-SB-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-189-02",
+      "container_id": "CON-189",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-189-03",
+      "container_id": "CON-189",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-189-04",
+      "container_id": "CON-189",
+      "engine_id": "ENG-SB-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-189-05",
+      "container_id": "CON-189",
+      "engine_id": "ENG-SB-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-190-01",
+      "container_id": "CON-190",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-190-02",
+      "container_id": "CON-190",
+      "engine_id": "ENG-INF-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-190-03",
+      "container_id": "CON-190",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-190-04",
+      "container_id": "CON-190",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-190-05",
+      "container_id": "CON-190",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-191-01",
+      "container_id": "CON-191",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-191-02",
+      "container_id": "CON-191",
+      "engine_id": "ENG-OPS-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-191-03",
+      "container_id": "CON-191",
+      "engine_id": "ENG-WLD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-191-04",
+      "container_id": "CON-191",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-191-05",
+      "container_id": "CON-191",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-192-01",
+      "container_id": "CON-192",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-192-02",
+      "container_id": "CON-192",
+      "engine_id": "ENG-INF-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-192-03",
+      "container_id": "CON-192",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-192-04",
+      "container_id": "CON-192",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-192-05",
+      "container_id": "CON-192",
+      "engine_id": "ENG-LOOP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-193-01",
+      "container_id": "CON-193",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-193-02",
+      "container_id": "CON-193",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-193-03",
+      "container_id": "CON-193",
+      "engine_id": "ENG-GRD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-193-04",
+      "container_id": "CON-193",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-193-05",
+      "container_id": "CON-193",
+      "engine_id": "ENG-RD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-194-01",
+      "container_id": "CON-194",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-194-02",
+      "container_id": "CON-194",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-194-03",
+      "container_id": "CON-194",
+      "engine_id": "ENG-GRD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-194-04",
+      "container_id": "CON-194",
+      "engine_id": "ENG-PAT-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-194-05",
+      "container_id": "CON-194",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-195-01",
+      "container_id": "CON-195",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-195-02",
+      "container_id": "CON-195",
+      "engine_id": "ENG-GRD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-195-03",
+      "container_id": "CON-195",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-195-04",
+      "container_id": "CON-195",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-195-05",
+      "container_id": "CON-195",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-196-01",
+      "container_id": "CON-196",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-196-02",
+      "container_id": "CON-196",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-196-03",
+      "container_id": "CON-196",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-196-04",
+      "container_id": "CON-196",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-196-05",
+      "container_id": "CON-196",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-197-01",
+      "container_id": "CON-197",
+      "engine_id": "ENG-GRD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-197-02",
+      "container_id": "CON-197",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-197-03",
+      "container_id": "CON-197",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-197-04",
+      "container_id": "CON-197",
+      "engine_id": "ENG-VER-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-197-05",
+      "container_id": "CON-197",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-198-01",
+      "container_id": "CON-198",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-198-02",
+      "container_id": "CON-198",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-198-03",
+      "container_id": "CON-198",
+      "engine_id": "ENG-GRD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-198-04",
+      "container_id": "CON-198",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-198-05",
+      "container_id": "CON-198",
+      "engine_id": "ENG-RD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-199-01",
+      "container_id": "CON-199",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-199-02",
+      "container_id": "CON-199",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-199-03",
+      "container_id": "CON-199",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-199-04",
+      "container_id": "CON-199",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-199-05",
+      "container_id": "CON-199",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-200-01",
+      "container_id": "CON-200",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-200-02",
+      "container_id": "CON-200",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-200-03",
+      "container_id": "CON-200",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-200-04",
+      "container_id": "CON-200",
+      "engine_id": "ENG-RD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-200-05",
+      "container_id": "CON-200",
+      "engine_id": "ENG-VER-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-201-01",
+      "container_id": "CON-201",
+      "engine_id": "ENG-CORE-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-201-02",
+      "container_id": "CON-201",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-201-03",
+      "container_id": "CON-201",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-201-04",
+      "container_id": "CON-201",
+      "engine_id": "ENG-RGL-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-201-05",
+      "container_id": "CON-201",
+      "engine_id": "ENG-URR-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-202-01",
+      "container_id": "CON-202",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-202-02",
+      "container_id": "CON-202",
+      "engine_id": "ENG-URR-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-202-03",
+      "container_id": "CON-202",
+      "engine_id": "ENG-CORE-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-202-04",
+      "container_id": "CON-202",
+      "engine_id": "ENG-RGL-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-202-05",
+      "container_id": "CON-202",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-203-01",
+      "container_id": "CON-203",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-203-02",
+      "container_id": "CON-203",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-203-03",
+      "container_id": "CON-203",
+      "engine_id": "ENG-RGL-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-203-04",
+      "container_id": "CON-203",
+      "engine_id": "ENG-RGL-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-203-05",
+      "container_id": "CON-203",
+      "engine_id": "ENG-SUP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-204-01",
+      "container_id": "CON-204",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-204-02",
+      "container_id": "CON-204",
+      "engine_id": "ENG-CORE-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-204-03",
+      "container_id": "CON-204",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-204-04",
+      "container_id": "CON-204",
+      "engine_id": "ENG-RGL-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-204-05",
+      "container_id": "CON-204",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-205-01",
+      "container_id": "CON-205",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-205-02",
+      "container_id": "CON-205",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-205-03",
+      "container_id": "CON-205",
+      "engine_id": "ENG-URR-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-205-04",
+      "container_id": "CON-205",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-205-05",
+      "container_id": "CON-205",
+      "engine_id": "ENG-CORE-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-206-01",
+      "container_id": "CON-206",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-206-02",
+      "container_id": "CON-206",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-206-03",
+      "container_id": "CON-206",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-206-04",
+      "container_id": "CON-206",
+      "engine_id": "ENG-URR-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-206-05",
+      "container_id": "CON-206",
+      "engine_id": "ENG-URR-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-207-01",
+      "container_id": "CON-207",
+      "engine_id": "ENG-CORE-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-207-02",
+      "container_id": "CON-207",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-207-03",
+      "container_id": "CON-207",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-207-04",
+      "container_id": "CON-207",
+      "engine_id": "ENG-RGL-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-207-05",
+      "container_id": "CON-207",
+      "engine_id": "ENG-SUP-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-208-01",
+      "container_id": "CON-208",
+      "engine_id": "ENG-URR-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-208-02",
+      "container_id": "CON-208",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-208-03",
+      "container_id": "CON-208",
+      "engine_id": "ENG-RGL-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-208-04",
+      "container_id": "CON-208",
+      "engine_id": "ENG-RGL-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-208-05",
+      "container_id": "CON-208",
+      "engine_id": "ENG-SUP-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-209-01",
+      "container_id": "CON-209",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-209-02",
+      "container_id": "CON-209",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-209-03",
+      "container_id": "CON-209",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-209-04",
+      "container_id": "CON-209",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-209-05",
+      "container_id": "CON-209",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-210-01",
+      "container_id": "CON-210",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-210-02",
+      "container_id": "CON-210",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-210-03",
+      "container_id": "CON-210",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-210-04",
+      "container_id": "CON-210",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-210-05",
+      "container_id": "CON-210",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-211-01",
+      "container_id": "CON-211",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-211-02",
+      "container_id": "CON-211",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-211-03",
+      "container_id": "CON-211",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-211-04",
+      "container_id": "CON-211",
+      "engine_id": "ENG-URR-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-211-05",
+      "container_id": "CON-211",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-212-01",
+      "container_id": "CON-212",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-212-02",
+      "container_id": "CON-212",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-212-03",
+      "container_id": "CON-212",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-212-04",
+      "container_id": "CON-212",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-212-05",
+      "container_id": "CON-212",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-213-01",
+      "container_id": "CON-213",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-213-02",
+      "container_id": "CON-213",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-213-03",
+      "container_id": "CON-213",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-213-04",
+      "container_id": "CON-213",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-213-05",
+      "container_id": "CON-213",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-214-01",
+      "container_id": "CON-214",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-214-02",
+      "container_id": "CON-214",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-214-03",
+      "container_id": "CON-214",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-214-04",
+      "container_id": "CON-214",
+      "engine_id": "ENG-URR-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-214-05",
+      "container_id": "CON-214",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-215-01",
+      "container_id": "CON-215",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-215-02",
+      "container_id": "CON-215",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-215-03",
+      "container_id": "CON-215",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-215-04",
+      "container_id": "CON-215",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-215-05",
+      "container_id": "CON-215",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-216-01",
+      "container_id": "CON-216",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-216-02",
+      "container_id": "CON-216",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-216-03",
+      "container_id": "CON-216",
+      "engine_id": "ENG-SEQ-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-216-04",
+      "container_id": "CON-216",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-216-05",
+      "container_id": "CON-216",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-217-01",
+      "container_id": "CON-217",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-217-02",
+      "container_id": "CON-217",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-217-03",
+      "container_id": "CON-217",
+      "engine_id": "ENG-WLD-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-217-04",
+      "container_id": "CON-217",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-217-05",
+      "container_id": "CON-217",
+      "engine_id": "ENG-WLD-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-218-01",
+      "container_id": "CON-218",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-218-02",
+      "container_id": "CON-218",
+      "engine_id": "ENG-WLD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-218-03",
+      "container_id": "CON-218",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-218-04",
+      "container_id": "CON-218",
+      "engine_id": "ENG-WLD-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-218-05",
+      "container_id": "CON-218",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-219-01",
+      "container_id": "CON-219",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-219-02",
+      "container_id": "CON-219",
+      "engine_id": "ENG-WLD-004",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-219-03",
+      "container_id": "CON-219",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-219-04",
+      "container_id": "CON-219",
+      "engine_id": "ENG-WLD-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-219-05",
+      "container_id": "CON-219",
+      "engine_id": "ENG-ARD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-220-01",
+      "container_id": "CON-220",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-220-02",
+      "container_id": "CON-220",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-220-03",
+      "container_id": "CON-220",
+      "engine_id": "ENG-WLD-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-220-04",
+      "container_id": "CON-220",
+      "engine_id": "ENG-WLD-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-220-05",
+      "container_id": "CON-220",
+      "engine_id": "ENG-RGL-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-221-01",
+      "container_id": "CON-221",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-221-02",
+      "container_id": "CON-221",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-221-03",
+      "container_id": "CON-221",
+      "engine_id": "ENG-WLD-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-221-04",
+      "container_id": "CON-221",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-221-05",
+      "container_id": "CON-221",
+      "engine_id": "ENG-WLD-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-222-01",
+      "container_id": "CON-222",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-222-02",
+      "container_id": "CON-222",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-222-03",
+      "container_id": "CON-222",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-222-04",
+      "container_id": "CON-222",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-222-05",
+      "container_id": "CON-222",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-223-01",
+      "container_id": "CON-223",
+      "engine_id": "ENG-WLD-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-223-02",
+      "container_id": "CON-223",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-223-03",
+      "container_id": "CON-223",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-223-04",
+      "container_id": "CON-223",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-223-05",
+      "container_id": "CON-223",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-224-01",
+      "container_id": "CON-224",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-224-02",
+      "container_id": "CON-224",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-224-03",
+      "container_id": "CON-224",
+      "engine_id": "ENG-URR-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-224-04",
+      "container_id": "CON-224",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-224-05",
+      "container_id": "CON-224",
+      "engine_id": "ENG-WLD-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-225-01",
+      "container_id": "CON-225",
+      "engine_id": "ENG-RD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-225-02",
+      "container_id": "CON-225",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-225-03",
+      "container_id": "CON-225",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-225-04",
+      "container_id": "CON-225",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-225-05",
+      "container_id": "CON-225",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-226-01",
+      "container_id": "CON-226",
+      "engine_id": "ENG-EXP-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-226-02",
+      "container_id": "CON-226",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-226-03",
+      "container_id": "CON-226",
+      "engine_id": "ENG-CORE-010",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-226-04",
+      "container_id": "CON-226",
+      "engine_id": "ENG-ORC-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-226-05",
+      "container_id": "CON-226",
+      "engine_id": "ENG-SB-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-227-01",
+      "container_id": "CON-227",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-227-02",
+      "container_id": "CON-227",
+      "engine_id": "ENG-EXP-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-227-03",
+      "container_id": "CON-227",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-227-04",
+      "container_id": "CON-227",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-227-05",
+      "container_id": "CON-227",
+      "engine_id": "ENG-CORE-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-228-01",
+      "container_id": "CON-228",
+      "engine_id": "ENG-WLD-002",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-228-02",
+      "container_id": "CON-228",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-228-03",
+      "container_id": "CON-228",
+      "engine_id": "ENG-SB-008",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-228-04",
+      "container_id": "CON-228",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-228-05",
+      "container_id": "CON-228",
+      "engine_id": "ENG-CORE-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-229-01",
+      "container_id": "CON-229",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-229-02",
+      "container_id": "CON-229",
+      "engine_id": "ENG-OUT-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-229-03",
+      "container_id": "CON-229",
+      "engine_id": "ENG-RD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-229-04",
+      "container_id": "CON-229",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-229-05",
+      "container_id": "CON-229",
+      "engine_id": "ENG-RGL-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-230-01",
+      "container_id": "CON-230",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-230-02",
+      "container_id": "CON-230",
+      "engine_id": "ENG-EVAL-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-230-03",
+      "container_id": "CON-230",
+      "engine_id": "ENG-RGL-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-230-04",
+      "container_id": "CON-230",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-230-05",
+      "container_id": "CON-230",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-231-01",
+      "container_id": "CON-231",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-231-02",
+      "container_id": "CON-231",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-231-03",
+      "container_id": "CON-231",
+      "engine_id": "ENG-MEM-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-231-04",
+      "container_id": "CON-231",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-231-05",
+      "container_id": "CON-231",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-232-01",
+      "container_id": "CON-232",
+      "engine_id": "ENG-RD-003",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-232-02",
+      "container_id": "CON-232",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-232-03",
+      "container_id": "CON-232",
+      "engine_id": "ENG-WLD-005",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-232-04",
+      "container_id": "CON-232",
+      "engine_id": "ENG-RD-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-232-05",
+      "container_id": "CON-232",
+      "engine_id": "ENG-RGL-003",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-233-01",
+      "container_id": "CON-233",
+      "engine_id": "ENG-REV-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-233-02",
+      "container_id": "CON-233",
+      "engine_id": "ENG-CORE-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-233-03",
+      "container_id": "CON-233",
+      "engine_id": "ENG-CORE-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-233-04",
+      "container_id": "CON-233",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-233-05",
+      "container_id": "CON-233",
+      "engine_id": "ENG-GRD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-234-01",
+      "container_id": "CON-234",
+      "engine_id": "ENG-EVO-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-234-02",
+      "container_id": "CON-234",
+      "engine_id": "ENG-META-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-234-03",
+      "container_id": "CON-234",
+      "engine_id": "ENG-META-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-234-04",
+      "container_id": "CON-234",
+      "engine_id": "ENG-SUP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-234-05",
+      "container_id": "CON-234",
+      "engine_id": "ENG-SUP-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-235-01",
+      "container_id": "CON-235",
+      "engine_id": "ENG-EVO-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-235-02",
+      "container_id": "CON-235",
+      "engine_id": "ENG-META-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-235-03",
+      "container_id": "CON-235",
+      "engine_id": "ENG-META-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-235-04",
+      "container_id": "CON-235",
+      "engine_id": "ENG-SUP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-235-05",
+      "container_id": "CON-235",
+      "engine_id": "ENG-SUP-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-236-01",
+      "container_id": "CON-236",
+      "engine_id": "ENG-META-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-236-02",
+      "container_id": "CON-236",
+      "engine_id": "ENG-SB-008",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-236-03",
+      "container_id": "CON-236",
+      "engine_id": "ENG-EVO-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-236-04",
+      "container_id": "CON-236",
+      "engine_id": "ENG-META-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-236-05",
+      "container_id": "CON-236",
+      "engine_id": "ENG-SUP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-237-01",
+      "container_id": "CON-237",
+      "engine_id": "ENG-REV-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-237-02",
+      "container_id": "CON-237",
+      "engine_id": "ENG-SB-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-237-03",
+      "container_id": "CON-237",
+      "engine_id": "ENG-EVO-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-237-04",
+      "container_id": "CON-237",
+      "engine_id": "ENG-META-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-237-05",
+      "container_id": "CON-237",
+      "engine_id": "ENG-META-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-238-01",
+      "container_id": "CON-238",
+      "engine_id": "ENG-CORE-007",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-238-02",
+      "container_id": "CON-238",
+      "engine_id": "ENG-URR-005",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-238-03",
+      "container_id": "CON-238",
+      "engine_id": "ENG-ARD-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-238-04",
+      "container_id": "CON-238",
+      "engine_id": "ENG-CORE-006",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-238-05",
+      "container_id": "CON-238",
+      "engine_id": "ENG-URR-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-239-01",
+      "container_id": "CON-239",
+      "engine_id": "ENG-CORE-009",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-239-02",
+      "container_id": "CON-239",
+      "engine_id": "ENG-CORE-012",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-239-03",
+      "container_id": "CON-239",
+      "engine_id": "ENG-EVO-001",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-239-04",
+      "container_id": "CON-239",
+      "engine_id": "ENG-META-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-239-05",
+      "container_id": "CON-239",
+      "engine_id": "ENG-SUP-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-240-01",
+      "container_id": "CON-240",
+      "engine_id": "ENG-PAI-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 1,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-240-02",
+      "container_id": "CON-240",
+      "engine_id": "ENG-EVO-001",
+      "relationship_role": "Primary operator",
+      "execution_rank": 2,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-240-03",
+      "container_id": "CON-240",
+      "engine_id": "ENG-META-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 3,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-240-04",
+      "container_id": "CON-240",
+      "engine_id": "ENG-SUP-002",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 4,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    },
+    {
+      "mapping_id": "ECM-240-05",
+      "container_id": "CON-240",
+      "engine_id": "ENG-SUP-004",
+      "relationship_role": "Supporting operator",
+      "execution_rank": 5,
+      "approval_status": "APPROVED BY USER",
+      "evidence_status": "USER EVIDENT"
+    }
+  ]
+}

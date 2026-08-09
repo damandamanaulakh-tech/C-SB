@@ -2681,43 +2681,53 @@
     ],
     "ENG-ARD-002": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-002": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-003": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-004": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SUP-005": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SUP-006": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SUP-007": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SUP-008": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-URR-001": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-WLD-006": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json"
+      "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
     ]
   },
   "activation_rule_ids": {},

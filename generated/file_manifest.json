@@ -71,8 +71,8 @@
   },
   {
     "path": "tools/validate_brain_engine_adoption_v1.py",
-    "sha256": "337dd9696429f06c988859f53b5bd8602d1f59e69b50383d75e4f4b6b148060b",
-    "size_bytes": 3281
+    "sha256": "adfdbb11ff5dddb604bfcad935bb3141bdf0a659056dbcf63e644d660246d133",
+    "size_bytes": 6356
   },
   {
     "path": "tools/generate_ai_only_bindings_v1.py",
@@ -111,8 +111,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "75e37f3261dce8627baef7274e9de154254bb5d56d047b549f5d26046b50fe32",
-    "size_bytes": 2199
+    "sha256": "38f7f179bee0a84c942da99f6e4042db82ecbbd9882af5b1afa9f49d17291b34",
+    "size_bytes": 2592
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
