@@ -90,6 +90,11 @@
     "size_bytes": 1398
   },
   {
+    "path": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
+    "sha256": "e5031d00a3fd642b442f0c6653a08bcb3ff29355e3fea281db483eed49a92cbf",
+    "size_bytes": 3307
+  },
+  {
     "path": "machine/vocab/core_vocab.json",
     "sha256": "662c92faa776ceda55f86f43414fc9280b5141bbf9dfdd86047f4a9b7c0f241a",
     "size_bytes": 1321
