@@ -475,6 +475,11 @@
     "size_bytes": 1711
   },
   {
+    "path": "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+    "sha256": "b6bdb9157e3ba5ab0b5e6052bf4b1e921718070524bb891e4bd487e4b71bf872",
+    "size_bytes": 9216
+  },
+  {
     "path": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
     "sha256": "b12a29c8dfd31e25da39565b50c465e6113323cc58bb6928c292caeff9c3e078",
     "size_bytes": 7637
