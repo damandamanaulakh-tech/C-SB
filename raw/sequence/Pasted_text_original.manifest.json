@@ -1,0 +1,13 @@
+{
+  "source_file": "Pasted text.txt",
+  "source_line_count_newline_terminated": 409,
+  "source_sha256": "8c28bf2b48c2ca364969557d014a02267a65869ae4b2cb044fbdf1056423a8e1",
+  "source_line_endings": "CRLF with final non-newline line",
+  "parts_in_order": [
+    "Pasted_text_original.parts/part-01.txt",
+    "Pasted_text_original.parts/part-02.txt",
+    "Pasted_text_original.parts/part-03.txt"
+  ],
+  "role": "HISTORICAL_EARLY_SEQUENCE_GRAPH_SOURCE",
+  "note": "GitHub text writes normalize line endings; source hash is retained for custody. Concatenate parts in order to reconstruct text content."
+}
