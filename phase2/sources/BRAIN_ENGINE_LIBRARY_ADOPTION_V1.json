@@ -1,0 +1,79 @@
+{
+  "adoption_id": "P2-BRAIN-ENGINE-LIBRARY-V1",
+  "phase": "PHASE_2",
+  "status": "SOURCE_AUTHORITY_ADOPTED_FOR_CONTROLLED_TESTING",
+  "authority": "USER / SOURCEBORN",
+  "source_rule": "User approval/evident status is authoritative inside the Sourceborn controlled-test environment but remains separate from independent external verification.",
+  "primary_operational_artifact": {
+    "file": "ASI_Brain_Engine_Combined_Corpus_v1.xlsx",
+    "sha256": "6d6bd608844b07728aaefb0d16e6c36bfcf7ba4ac3ec70af2610ea2bd7622a1b",
+    "role": "Primary working Brain + Engine corpus until superseded by a user-approved later version",
+    "declared_architecture": {
+      "functional_segments": 10,
+      "master_containers": 240,
+      "operational_parameters": 3072,
+      "canonical_engines": 75,
+      "external_cognitive_source_records": 299,
+      "engine_container_relationships": 400,
+      "parameter_engine_source_relationships": 1440,
+      "activation_rule_sets": 80,
+      "corpus_test_cases": 80
+    }
+  },
+  "sources": [
+    {"file":"Brain_+_Engine_Library_Record.md","sha256":"ab1156cf4cc29a82ef22ecbe9f8dcfc5e6962bfc70525c99aa8f80e8a75e39a6","role":"Library identity, authority and decisions"},
+    {"file":"ASI-Brain_Merged_APPROVED_EVIDENT_v0_3.xlsx","sha256":"69bcf2e7507ffc52ecfc58be6890948099038485f16bf7f5b4e302ed401948a8","role":"Approved/evident merged Task-3 Brain, AI capabilities, AI-only candidates and expansion"},
+    {"file":"ASI-Brain_Task3_Review_v0_2.xlsx","sha256":"e749e961cbab379a1440da83878579a8ff508e7cfc93539d165a08e73283cf7e","role":"Task-3 canonical structural base before approval merge"},
+    {"file":"ASI_Engines_Catalog_ARD_SB_Sourceborn_v1 (1).xlsx","sha256":"f795beab28a56cd421cc713bc4f57a810521dc709866b81648cc38c1a30e5e1c","role":"Engine catalog source"},
+    {"file":"Brain + Engine — Library Index.xlsx","sha256":"8b1662d14a48788f6c62eb625e41fa6eac418f9a6018d41f4697b98f76cd8f95","role":"Library artifact index"},
+    {"file":"Forensic_Benchmark_Autopsies_Compiled_Master_4_Models.xlsx","sha256":"66761720a3e7892775800f507538fb92589b9ba1f5a8c9479b535267ac5e7b84","role":"Benchmark evidence/conflict/negative-space source"},
+    {"file":"SB_ASI_Worldwide_Research_Discovery_Registry_v0_1.xlsx","sha256":"604d9f2a353391f55e357a1551a91b399a348a5f1aec1534864c68b315e714be","role":"Research/discovery/gap source"}
+  ],
+  "approved_source_facts": {
+    "human_canonical": "SEG-01..SEG-10 + CON-001..CON-080 + SB-ASI-P0001..SB-ASI-P2560",
+    "approved_expansion_containers": "CON-081..CON-160",
+    "approved_expansion_parameters_present": "SB-ASI-P2561..SB-ASI-P2592",
+    "engine_integrated_containers": "CON-161..CON-240",
+    "engine_integrated_subparameters": "SB-ASI-P2593..SB-ASI-P3072",
+    "ai_capability_families": "AI-CAP-001..AI-CAP-074",
+    "ai_only_candidate_records": "AI-NEW-001..AI-NEW-064",
+    "engines": 75
+  },
+  "operational_pattern": [
+    "State and Signal Intake",
+    "Pattern and Context Integration",
+    "Prediction and Counterfactual Simulation",
+    "Decision and Priority Arbitration",
+    "Action and Execution Control",
+    "Verification and Uncertainty Control",
+    "Memory and Learning Integration",
+    "Governance, Safety and Recovery"
+  ],
+  "six_subparameter_pattern": [
+    "Activation Trigger",
+    "Input Normalisation",
+    "Cross-Engine Synthesis",
+    "State and Confidence Update",
+    "Failure and Contradiction Response",
+    "Validated Commit and Feed-Forward"
+  ],
+  "governance_controls": [
+    "Point Zero Source Lock",
+    "Approval and Evidence Separation",
+    "Engine Boundedness",
+    "Contradiction Preservation",
+    "Synthetic Fuel Label",
+    "Memory Write Gate",
+    "External Checkpoint",
+    "Rollback and Lineage"
+  ],
+  "precedence": [
+    "Primary operational corpus",
+    "Approved/evident merged workbook",
+    "Task-3 base workbook",
+    "Engine catalog and source/evidence registries",
+    "Phase-2 generated mappings/candidates"
+  ],
+  "supersession_rule": "Previous Phase-2 AI/ASI generated candidate taxonomies remain useful crosswalks but cannot override the approved/evident uploaded Brain + Engine source structures.",
+  "sequence_invariant": "Universal Sequence remains the execution grammar. This adoption changes domain/source authority, not Phase-1 Sequence closure law."
+}
