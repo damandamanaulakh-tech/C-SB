@@ -375,6 +375,11 @@
     "size_bytes": 15272
   },
   {
+    "path": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
+    "sha256": "d30fcc9b95833f9a59a1588a40f6be479a533e72cdcf789de82b4edb12bdf3cb",
+    "size_bytes": 5998
+  },
+  {
     "path": "registries/asi/node_brain_template.json",
     "sha256": "0d99a7e3b1e84b218525bd56ce20c3d5e603681e243c33575cc95bce8dc12992",
     "size_bytes": 1038
