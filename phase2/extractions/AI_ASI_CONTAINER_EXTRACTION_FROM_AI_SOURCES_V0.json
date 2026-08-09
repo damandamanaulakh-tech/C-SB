@@ -1,0 +1,214 @@
+{
+  "extraction_id": "P2-AI-ASI-CONTAINER-EXTRACTION-V0",
+  "status": "SOURCE_SUPPORTED_EXTRACTION_NOT_ADOPTED",
+  "phase": "PHASE_2",
+  "purpose": "Extract container-level structure already present in the AI source/review files and separate AI-native cognition from ASI meta-governance before finer container/parameter decomposition.",
+  "source_files": [
+    "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+    "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+    "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+    "generated/registry_views/ai_native_candidate_registry_v0.json",
+    "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+    "registries/ai/AI_RUBRIC_V0.json",
+    "registries/asi/ASI_RUBRIC_V0.json",
+    "machine/wiring/MULTI_RUBRIC_WIRING_V0.json"
+  ],
+  "source_family_count": 74,
+  "source_layer_count": 17,
+  "rules": [
+    "Do not mutate AI-CAP source rows.",
+    "Human CON-xxx links remain FUNCTIONAL_ANALOGY only.",
+    "A layer may split into AI mechanism and ASI governance containers.",
+    "Composite outcomes are not cognitive primitives.",
+    "Runtime adaptation and training remain separate Sequences.",
+    "No LLM, Transformer or API dependency is introduced."
+  ],
+  "extracted_source_layers": [
+    {
+      "layer_id": "SRC-AI-L01",
+      "source_layer": "COMPOSITE_OUTCOME",
+      "source_ids": ["AI-CAP-001","AI-CAP-071","AI-CAP-072"],
+      "routing": "ASI_AGGREGATE_EVALUATION_NOT_AI_PRIMITIVE",
+      "reason": "The source review explicitly classifies these as composite/system outcomes rather than primitives."
+    },
+    {
+      "layer_id": "SRC-AI-L02",
+      "source_layer": "CORE_REASONING",
+      "source_ids": ["AI-CAP-002","AI-CAP-003","AI-CAP-004","AI-CAP-005","AI-CAP-006","AI-CAP-027","AI-CAP-042","AI-CAP-043"],
+      "routing": "AI_NATIVE",
+      "ai_segments": ["AI-07","AI-08","AI-09"]
+    },
+    {
+      "layer_id": "SRC-AI-L03",
+      "source_layer": "TOOL_EXECUTION",
+      "source_ids": ["AI-CAP-007","AI-CAP-008","AI-CAP-010","AI-CAP-011","AI-CAP-061"],
+      "routing": "AI_NATIVE_WITH_ASI_PERMISSION_INTERFACE",
+      "ai_segments": ["AI-15","AI-25"],
+      "asi_interfaces": ["ASI-08","ASI-13"]
+    },
+    {
+      "layer_id": "SRC-AI-L04",
+      "source_layer": "SELF_MONITORING",
+      "source_ids": ["AI-CAP-009","AI-CAP-025","AI-CAP-026","AI-CAP-044","AI-CAP-051","AI-CAP-067"],
+      "routing": "AI_NATIVE_WITH_ASI_SELF_AUDIT_INTERFACE",
+      "ai_segments": ["AI-16","AI-17","AI-18","AI-19","AI-24"],
+      "asi_interfaces": ["ASI-18"]
+    },
+    {
+      "layer_id": "SRC-AI-L05",
+      "source_layer": "KNOWLEDGE_RETRIEVAL",
+      "source_ids": ["AI-CAP-012","AI-CAP-035","AI-CAP-069"],
+      "routing": "AI_NATIVE",
+      "ai_segments": ["AI-05","AI-06","AI-17"]
+    },
+    {
+      "layer_id": "SRC-AI-L06",
+      "source_layer": "MEMORY_STATE",
+      "source_ids": ["AI-CAP-013","AI-CAP-014","AI-CAP-034"],
+      "routing": "AI_NATIVE_WITH_ASI_MEMORY_GOVERNANCE",
+      "ai_segments": ["AI-05","AI-21"],
+      "asi_interfaces": ["ASI-11"]
+    },
+    {
+      "layer_id": "SRC-AI-L07",
+      "source_layer": "PLANNING_CONTROL",
+      "source_ids": ["AI-CAP-015","AI-CAP-016","AI-CAP-017","AI-CAP-039","AI-CAP-041","AI-CAP-049","AI-CAP-050"],
+      "routing": "SPLIT_AI_PLANNING_AND_ASI_GOVERNANCE",
+      "ai_segments": ["AI-11","AI-12","AI-13","AI-14","AI-16","AI-25"],
+      "asi_interfaces": ["ASI-03","ASI-07","ASI-13","ASI-15","ASI-19"],
+      "note": "AI-CAP-017 is already marked as system-runtime rather than a cognitive primitive."
+    },
+    {
+      "layer_id": "SRC-AI-L08",
+      "source_layer": "SOCIAL_MODELING",
+      "source_ids": ["AI-CAP-018","AI-CAP-019","AI-CAP-020","AI-CAP-021"],
+      "routing": "AI_NATIVE_WITH_ASI_MULTI_AGENT_GOVERNANCE",
+      "ai_segments": ["AI-03","AI-04","AI-10","AI-22","AI-23"],
+      "asi_interfaces": ["ASI-16"]
+    },
+    {
+      "layer_id": "SRC-AI-L09",
+      "source_layer": "VALUE_RISK_SAFETY",
+      "source_ids": ["AI-CAP-022","AI-CAP-023","AI-CAP-024","AI-CAP-040","AI-CAP-054","AI-CAP-058","AI-CAP-062"],
+      "routing": "MANDATORY_AI_ASI_SPLIT",
+      "ai_side": "Represent/detect values, risk, threats, honesty/deception indicators, privacy-sensitive data and action risk.",
+      "asi_side": "Govern values, norms, permissions, prohibitions, privacy, collective safety and destructive-action authority.",
+      "ai_segments": ["AI-03","AI-10","AI-14","AI-17","AI-18","AI-19"],
+      "asi_interfaces": ["ASI-02","ASI-06","ASI-07","ASI-08","ASI-09","ASI-16","ASI-19"]
+    },
+    {
+      "layer_id": "SRC-AI-L10",
+      "source_layer": "PERCEPTION_GROUNDING",
+      "source_ids": ["AI-CAP-028","AI-CAP-029","AI-CAP-030","AI-CAP-031","AI-CAP-047","AI-CAP-048"],
+      "routing": "AI_NATIVE",
+      "ai_segments": ["AI-01","AI-02","AI-03","AI-04","AI-09"]
+    },
+    {
+      "layer_id": "SRC-AI-L11",
+      "source_layer": "LANGUAGE_COMMUNICATION",
+      "source_ids": ["AI-CAP-032","AI-CAP-033","AI-CAP-036","AI-CAP-038"],
+      "routing": "AI_NATIVE_WITH_OUTPUT_GOVERNANCE_INTERFACE",
+      "ai_segments": ["AI-22"],
+      "asi_interfaces": ["ASI-08"]
+    },
+    {
+      "layer_id": "SRC-AI-L12",
+      "source_layer": "LEARNING_ADAPTATION",
+      "source_ids": ["AI-CAP-045","AI-CAP-046","AI-CAP-070"],
+      "routing": "AI_NATIVE_WITH_ASI_WRITEBACK_GOVERNANCE",
+      "ai_segments": ["AI-20"],
+      "asi_interfaces": ["ASI-11","ASI-12","ASI-14"],
+      "note": "AI-CAP-046 remains HOLD until durable stores and update mechanisms are explicit."
+    },
+    {
+      "layer_id": "SRC-AI-L13",
+      "source_layer": "SYSTEM_RELIABILITY",
+      "source_ids": ["AI-CAP-052","AI-CAP-068"],
+      "routing": "SHARED_AI_RUNTIME_AND_ASI_SYSTEM_GOVERNANCE",
+      "ai_segments": ["AI-16","AI-17","AI-24"],
+      "asi_interfaces": ["ASI-03","ASI-13","ASI-14","ASI-18"]
+    },
+    {
+      "layer_id": "SRC-AI-L14",
+      "source_layer": "SECURITY_ROBUSTNESS",
+      "source_ids": ["AI-CAP-053","AI-CAP-059"],
+      "routing": "MANDATORY_AI_ASI_SPLIT",
+      "ai_side": "Detect adversarial conditions, attacks, covert-goal/deception indicators and robustness failures.",
+      "asi_side": "Apply security policy, barriers, permissions, counter-Sequences and incident governance.",
+      "ai_segments": ["AI-03","AI-16","AI-17","AI-19"],
+      "asi_interfaces": ["ASI-08","ASI-09","ASI-13","ASI-18"]
+    },
+    {
+      "layer_id": "SRC-AI-L15",
+      "source_layer": "POLICY_OUTPUT_CONTROL",
+      "source_ids": ["AI-CAP-037","AI-CAP-055","AI-CAP-060","AI-CAP-065","AI-CAP-066"],
+      "routing": "ASI_GOVERNANCE_WITH_AI_COMMUNICATION_EXECUTION",
+      "ai_segments": ["AI-22","AI-24"],
+      "asi_interfaces": ["ASI-07","ASI-08","ASI-14","ASI-19"],
+      "reason": "The source bindings treat this layer as constraint, decision inhibition, refusal/fallback, output control and disclosure."
+    },
+    {
+      "layer_id": "SRC-AI-L16",
+      "source_layer": "EVALUATION_OVERSIGHT",
+      "source_ids": ["AI-CAP-056","AI-CAP-057","AI-CAP-063","AI-CAP-064","AI-CAP-074"],
+      "routing": "ASI_OVERSIGHT_WITH_AI_VERIFICATION_MECHANISMS",
+      "ai_segments": ["AI-17","AI-18","AI-19","AI-24"],
+      "asi_interfaces": ["ASI-02","ASI-03","ASI-09","ASI-18"],
+      "note": "AI-CAP-056 is split between interpretability evidence/internal inspection and explanation generation."
+    },
+    {
+      "layer_id": "SRC-AI-L17",
+      "source_layer": "TRAINING_OPTIMIZATION",
+      "source_ids": ["AI-CAP-073"],
+      "routing": "AI_TRAINING_SEQUENCE_UNDER_ASI_EVOLUTION_GOVERNANCE",
+      "ai_segments": ["AI-20","AI-25"],
+      "asi_interfaces": ["ASI-12","ASI-14"],
+      "runtime_boundary": "SEPARATE_FROM_NORMAL_RUNTIME"
+    }
+  ],
+  "split_records_required": [
+    {
+      "source_id": "AI-CAP-056",
+      "children": [
+        "AI-CAND-056A Interpretability evidence and internal-state inspection",
+        "AI-CAND-056B Explanation and rationale generation"
+      ]
+    },
+    {
+      "source_id": "AI-CAP-067",
+      "children": [
+        "AI-CAND-067A Self-report and internal-state reportability",
+        "AI-CAND-067B Model-welfare evaluation construct",
+        "AI-CAND-067C Simulated affect and affective representation"
+      ]
+    },
+    {
+      "source_id": "AI-CAP-045",
+      "children": [
+        "runtime/in-context adaptation",
+        "durable write-back/training candidate"
+      ]
+    }
+  ],
+  "hold_records": [
+    {
+      "source_id": "AI-CAP-013",
+      "reason": "May conflate active-context state management with retrieval; requires native state ownership split."
+    },
+    {
+      "source_id": "AI-CAP-046",
+      "reason": "Continual learning cannot be adopted until permitted durable stores and update mechanism are explicit."
+    }
+  ],
+  "composites_not_to_become_atomic_parameters": [
+    "AI-CAP-001 General intelligence composite and cross-domain performance",
+    "AI-CAP-071 Integrated social, moral and norm reasoning",
+    "AI-CAP-072 Research productivity and R&D acceleration"
+  ],
+  "extraction_result": {
+    "ai_dominant_source_layers": ["CORE_REASONING","TOOL_EXECUTION","SELF_MONITORING","KNOWLEDGE_RETRIEVAL","MEMORY_STATE","PERCEPTION_GROUNDING","LANGUAGE_COMMUNICATION","SOCIAL_MODELING","LEARNING_ADAPTATION"],
+    "mandatory_split_layers": ["PLANNING_CONTROL","VALUE_RISK_SAFETY","SYSTEM_RELIABILITY","SECURITY_ROBUSTNESS","POLICY_OUTPUT_CONTROL","EVALUATION_OVERSIGHT","TRAINING_OPTIMIZATION"],
+    "aggregate_not_primitive": ["COMPOSITE_OUTCOME"],
+    "next_step": "Within each extracted layer, group source families into finer AI-CON-CAND and ASI-CON-CAND containers, preserving source IDs and then derive mechanism/parameter candidates."
+  }
+}
