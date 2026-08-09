@@ -1,0 +1,22 @@
+{
+  "status": "V2_LOCK_CANDIDATE",
+  "rule": "Never collapse semantically different missing/invalid states into one null value.",
+  "values": {
+    "UNKNOWN": "Truth or value has not been established.",
+    "UNAVAILABLE": "Required data, source, resource, or evidence cannot currently be accessed.",
+    "CONTRADICTORY": "Two or more supported claims are mutually incompatible under the same declared scope/context.",
+    "NOT_APPLICABLE": "The field or criterion does not semantically apply to this object or Sequence instance.",
+    "ABSENT": "Evidence supports that the object/value/condition is not present.",
+    "UNDECLARED": "The field is required by schema or workflow but has not yet been specified.",
+    "REDACTED": "The value exists or is believed to exist but is intentionally withheld.",
+    "ERROR": "Evaluation or retrieval failed, so no semantic value can be asserted from that operation."
+  },
+  "machine_rules": [
+    "UNKNOWN is not ABSENT.",
+    "UNAVAILABLE is not UNKNOWN if the source/resource is known but inaccessible.",
+    "CONTRADICTORY preserves all supported conflicting claims; do not average them.",
+    "NOT_APPLICABLE is a valid explicit terminal evaluation for a field/criterion.",
+    "UNDECLARED must block any transition whose contract requires the declaration.",
+    "ERROR describes an operation failure, not the truth value of the underlying claim."
+  ]
+}
