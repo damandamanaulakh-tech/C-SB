@@ -39,6 +39,12 @@ jobs:
         run: python tools/build_subparameter_candidates.py
       - name: Build approved Brain Engine operational sub-parameters
         run: python tools/generate_operational_subparameters_v1.py
+      - name: Build exact Brain Engine source relationships
+        run: python tools/generate_brain_engine_relationships_v1.py
+      - name: Bind approved AI-only records through AI-CAP lineage
+        run: python tools/generate_ai_only_bindings_v1.py
+      - name: Bind bounded Engines to ASI Nodes from source container use
+        run: python tools/generate_engine_asi_node_bindings_v1.py
       - name: Relink all known IDs and generate indexes
         run: python tools/relink_and_index.py
       - name: Validate AI and ASI container extraction
