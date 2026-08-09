@@ -33,6 +33,8 @@ jobs:
         run: python tools/generate_registry_views.py
       - name: Build AI native candidate review registry
         run: python tools/build_ai_candidate_registry.py
+      - name: Build V2 rubric and ASI-node cross-reference views
+        run: python tools/generate_rubric_views.py
       - name: Relink all known IDs and generate indexes
         run: python tools/relink_and_index.py
       - name: Validate locked invariants
