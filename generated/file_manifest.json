@@ -380,6 +380,11 @@
     "size_bytes": 2792
   },
   {
+    "path": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+    "sha256": "c94a0731e5ab4e64338a1364f49ef015ea79957d5fef551bd7de3fd142833cc4",
+    "size_bytes": 3261
+  },
+  {
     "path": "registries/asi/asi_node_registry.json",
     "sha256": "e692d235fe61323a59871854b31369b15f4227724b57f293ec829fdd29961313",
     "size_bytes": 4589

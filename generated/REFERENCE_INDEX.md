@@ -2,16 +2,16 @@
 
 ## Segments
 
-- **SEG-01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-10** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **SEG-10** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 
 ## Containers
 
@@ -518,81 +518,81 @@
 
 ## Engine Ids
 
-- **ENG-ARD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-ARD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-ARD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-ARD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-009** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-010** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-011** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-CORE-012** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-EVAL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-EVO-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-EXP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-EXP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-GRD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-GRD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-INF-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-LOOP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-MEM-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-META-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-META-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-OPS-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-ORC-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-OUT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-PAI-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-PAT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-REV-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RGL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RGL-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RGL-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RGL-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RGL-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-RGL-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-SB-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-SB-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-SB-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-009** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SEQ-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SUP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SUP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SUP-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SUP-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SUP-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-SUP-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-SUP-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-SUP-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-URR-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-URR-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-URR-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-URR-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-URR-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-URR-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-VER-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-VER-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
-- **ENG-WLD-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-ARD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-ARD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-ARD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-ARD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-009** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-010** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-011** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-CORE-012** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-EVAL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-EVO-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-EXP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-EXP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-GRD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-GRD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-INF-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-LOOP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-MEM-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-META-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-META-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-OPS-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-ORC-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-OUT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-PAI-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-PAT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-REV-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RGL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RGL-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RGL-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RGL-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RGL-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-RGL-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SB-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SB-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-SB-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-SB-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-SB-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SB-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SB-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SB-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SB-009** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SEQ-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SUP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SUP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SUP-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SUP-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-SUP-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-SUP-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-SUP-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-SUP-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-URR-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-URR-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-URR-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-URR-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-URR-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-URR-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-VER-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-VER-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-WLD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-WLD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-WLD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-WLD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-WLD-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
+- **ENG-WLD-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+- **ENG-WLD-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 
 ## Activation Rule Ids
 
