@@ -5,8 +5,8 @@
   "summary": {
     "ai_only": {
       "total": 64,
-      "pass": 57,
-      "pass_with_finding": 7,
+      "pass": 64,
+      "pass_with_finding": 0,
       "fail": 0
     },
     "engines": {
@@ -267,11 +267,9 @@
     },
     {
       "id": "AI-NEW-005",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -288,11 +286,14 @@
         "ai_segments": [
           "AI-05"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-11"
+        ],
         "asi_nodes": [
           "ASI-NODE-12",
           "ASI-NODE-13",
-          "ASI-NODE-14"
+          "ASI-NODE-14",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "CONTEXT_RECONSTRUCTION",
@@ -607,11 +608,9 @@
     },
     {
       "id": "AI-NEW-011",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -629,12 +628,16 @@
           "AI-15",
           "AI-25"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-08",
+          "ASI-13"
+        ],
         "asi_nodes": [
           "ASI-NODE-05",
           "ASI-NODE-09",
           "ASI-NODE-10",
-          "ASI-NODE-11"
+          "ASI-NODE-11",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "ACCESS",
@@ -1035,11 +1038,9 @@
     },
     {
       "id": "AI-NEW-018",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -1058,13 +1059,19 @@
           "AI-18",
           "AI-24"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-02",
+          "ASI-07",
+          "ASI-08",
+          "ASI-18"
+        ],
         "asi_nodes": [
           "ASI-NODE-07",
           "ASI-NODE-10",
           "ASI-NODE-11",
           "ASI-NODE-12",
-          "ASI-NODE-16"
+          "ASI-NODE-16",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "ERROR_DETECTION",
@@ -1944,11 +1951,9 @@
     },
     {
       "id": "AI-NEW-033",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -1968,12 +1973,21 @@
           "AI-10",
           "AI-22"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-02",
+          "ASI-09",
+          "ASI-10",
+          "ASI-18"
+        ],
         "asi_nodes": [
           "ASI-NODE-02",
           "ASI-NODE-03",
+          "ASI-NODE-07",
           "ASI-NODE-08",
-          "ASI-NODE-17"
+          "ASI-NODE-11",
+          "ASI-NODE-16",
+          "ASI-NODE-17",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "ACTOR_VIEW",
@@ -1992,11 +2006,9 @@
     },
     {
       "id": "AI-NEW-034",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -2019,16 +2031,25 @@
           "AI-22",
           "AI-25"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-02",
+          "ASI-08",
+          "ASI-09",
+          "ASI-10",
+          "ASI-18"
+        ],
         "asi_nodes": [
           "ASI-NODE-02",
           "ASI-NODE-03",
           "ASI-NODE-05",
+          "ASI-NODE-07",
           "ASI-NODE-08",
           "ASI-NODE-09",
           "ASI-NODE-10",
           "ASI-NODE-11",
-          "ASI-NODE-17"
+          "ASI-NODE-16",
+          "ASI-NODE-17",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "ACCESS",
@@ -2843,11 +2864,9 @@
     },
     {
       "id": "AI-NEW-048",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -2869,13 +2888,19 @@
           "AI-08",
           "AI-13"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-07",
+          "ASI-08",
+          "ASI-13"
+        ],
         "asi_nodes": [
           "ASI-NODE-02",
+          "ASI-NODE-05",
           "ASI-NODE-07",
           "ASI-NODE-08",
           "ASI-NODE-09",
-          "ASI-NODE-16"
+          "ASI-NODE-16",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "ALTERNATIVE_GENERATION",
@@ -2899,11 +2924,9 @@
     },
     {
       "id": "AI-NEW-049",
-      "status": "PASS_WITH_FINDING",
+      "status": "PASS",
       "hard_failures": [],
-      "findings": [
-        "governance_expected_but_no_asi_segment_mapping"
-      ],
+      "findings": [],
       "pass0": {
         "declared_end": "Source AI-only record has an auditable additive AI/ASI/Sequence/Node binding without source rewrite.",
         "scope": "one AI-NEW record and its declared AI-CAP lineage",
@@ -2923,11 +2946,18 @@
           "AI-02",
           "AI-03"
         ],
-        "asi_segments": [],
+        "asi_segments": [
+          "ASI-07",
+          "ASI-08",
+          "ASI-13"
+        ],
         "asi_nodes": [
           "ASI-NODE-02",
+          "ASI-NODE-05",
           "ASI-NODE-07",
-          "ASI-NODE-09"
+          "ASI-NODE-08",
+          "ASI-NODE-09",
+          "ASI-NODE-21"
         ],
         "primary_sequence_roles": [
           "COUPLING",

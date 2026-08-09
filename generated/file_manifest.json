@@ -76,8 +76,8 @@
   },
   {
     "path": "tools/generate_ai_only_bindings_v1.py",
-    "sha256": "87f43515c1479e360e74a86bd8a8e943ef9f2541490a723db9b713396390e2cd",
-    "size_bytes": 5352
+    "sha256": "04fa57c6ca4fb8e9dcb42a55e03bbdb1c0e1a59040cda549c0d811ae3860cc06",
+    "size_bytes": 6793
   },
   {
     "path": "tools/validate_expansion_081_160_v1.py",

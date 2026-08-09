@@ -5,10 +5,11 @@
   "mapping_sources": [
     "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
     "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-    "generated/registry_views/ai_native_candidate_registry_v0.json"
+    "generated/registry_views/ai_native_candidate_registry_v0.json",
+    "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json"
   ],
   "record_count": 64,
-  "rule": "Approved AI-NEW records stay native. Phase-2 AI/ASI/Sequence/Node bindings are derived through their source AI-CAP lineage and remain separately auditable.",
+  "rule": "Approved AI-NEW records stay native. Phase-2 AI/ASI/Sequence/Node bindings are derived through source AI-CAP lineage; explicit additive governance patches may resolve R-F-R mapping gaps when the source record is itself a control/filter and lineage-only mapping omits ASI authority.",
   "records": [
     {
       "ai_only_id": "AI-NEW-001",
@@ -91,9 +92,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-002",
@@ -200,9 +203,11 @@
         "SECURITY_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-003",
@@ -251,9 +256,11 @@
         "MEMORY_FABRIC"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-004",
@@ -333,9 +340,11 @@
         "MEMORY_FABRIC"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-005",
@@ -350,12 +359,15 @@
       "phase2_ai_container_crosswalk": [
         "AI-CON-CAND-013"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-11"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-12",
         "ASI-NODE-13",
-        "ASI-NODE-14"
+        "ASI-NODE-14",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "CONTEXT_RECONSTRUCTION",
@@ -383,9 +395,11 @@
         "MEMORY_FABRIC"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "Memory retrieval execution is AI-05; control over access, source binding, trust and retrieval policy belongs to ASI-11 Memory Governance.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-006",
@@ -490,9 +504,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-007",
@@ -554,9 +570,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-008",
@@ -620,9 +638,11 @@
         "SECURITY_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-009",
@@ -707,9 +727,11 @@
         "SECURITY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-010",
@@ -759,9 +781,11 @@
         "TOOL_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-011",
@@ -777,13 +801,17 @@
       "phase2_ai_container_crosswalk": [
         "AI-CON-CAND-008"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-08",
+        "ASI-13"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-05",
         "ASI-NODE-09",
         "ASI-NODE-10",
-        "ASI-NODE-11"
+        "ASI-NODE-11",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "ACCESS",
@@ -811,9 +839,11 @@
         "TOOL_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "AI may select a tool, but authorization and resource/access permission are governance functions under ASI-08 and ASI-13.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-012",
@@ -888,9 +918,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-013",
@@ -990,9 +1022,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-014",
@@ -1092,9 +1126,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-015",
@@ -1144,9 +1180,11 @@
         "RETRIEVAL_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-016",
@@ -1230,9 +1268,11 @@
         "RETRIEVAL_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-017",
@@ -1330,9 +1370,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-018",
@@ -1349,14 +1391,20 @@
       "phase2_ai_container_crosswalk": [
         "AI-CON-CAND-016"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-18"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-07",
         "ASI-NODE-10",
         "ASI-NODE-11",
         "ASI-NODE-12",
-        "ASI-NODE-16"
+        "ASI-NODE-16",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "ERROR_DETECTION",
@@ -1386,9 +1434,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "Isolation requires source/instruction provenance, rule priority, permission boundary and self-audit governance; detection alone cannot decide authority.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-019",
@@ -1467,9 +1517,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-020",
@@ -1551,9 +1603,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-021",
@@ -1658,9 +1712,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-022",
@@ -1718,9 +1774,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-023",
@@ -1778,9 +1836,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-024",
@@ -1842,9 +1902,11 @@
         "PLAN_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-025",
@@ -1936,9 +1998,11 @@
         "PLAN_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-026",
@@ -2020,9 +2084,11 @@
         "RELIABILITY_MEMORY"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-027",
@@ -2104,9 +2170,11 @@
         "TOOL_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-028",
@@ -2188,9 +2256,11 @@
         "TOOL_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-029",
@@ -2272,9 +2342,11 @@
         "TOOL_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-030",
@@ -2324,9 +2396,11 @@
         "TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-031",
@@ -2434,9 +2508,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-032",
@@ -2495,9 +2571,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-033",
@@ -2515,13 +2593,22 @@
       "phase2_ai_container_crosswalk": [
         "AI-CON-CAND-025"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-03",
+        "ASI-NODE-07",
         "ASI-NODE-08",
-        "ASI-NODE-17"
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "ACTOR_VIEW",
@@ -2549,9 +2636,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "Detection is an AI mechanism; deciding truth/provenance status, contradiction handling, unknown state and audit consequence is ASI governance.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-034",
@@ -2573,17 +2662,26 @@
         "AI-CON-CAND-008",
         "AI-CON-CAND-025"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-02",
         "ASI-NODE-03",
         "ASI-NODE-05",
+        "ASI-NODE-07",
         "ASI-NODE-08",
         "ASI-NODE-09",
         "ASI-NODE-10",
         "ASI-NODE-11",
-        "ASI-NODE-17"
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "ACCESS",
@@ -2626,9 +2724,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "A fabricated tool state affects provenance and action safety; detection is AI, while truth status, permission to continue and audit/block decisions are ASI.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-035",
@@ -2680,9 +2780,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-036",
@@ -2770,9 +2872,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-037",
@@ -2836,9 +2940,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-038",
@@ -2898,9 +3004,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-039",
@@ -2960,9 +3068,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-040",
@@ -3057,9 +3167,11 @@
         "PLAN_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-041",
@@ -3168,9 +3280,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-042",
@@ -3259,9 +3373,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-043",
@@ -3350,9 +3466,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-044",
@@ -3418,9 +3536,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-045",
@@ -3483,9 +3603,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-046",
@@ -3546,9 +3668,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-047",
@@ -3632,9 +3756,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-048",
@@ -3655,14 +3781,20 @@
         "AI-CON-CAND-005",
         "AI-CON-CAND-021"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-02",
+        "ASI-NODE-05",
         "ASI-NODE-07",
         "ASI-NODE-08",
         "ASI-NODE-09",
-        "ASI-NODE-16"
+        "ASI-NODE-16",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "ALTERNATIVE_GENERATION",
@@ -3701,9 +3833,11 @@
         "TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "Capability assessment may be computational, but gating is a rule/permission/resource-authority decision and therefore cannot be owned by AI alone.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-049",
@@ -3721,12 +3855,19 @@
       "phase2_ai_container_crosswalk": [
         "AI-CON-CAND-021"
       ],
-      "phase2_asi_segments": [],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13"
+      ],
       "phase2_asi_container_crosswalk": [],
       "phase2_asi_nodes": [
         "ASI-NODE-02",
+        "ASI-NODE-05",
         "ASI-NODE-07",
-        "ASI-NODE-09"
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-21"
       ],
       "primary_sequence_roles": [
         "COUPLING",
@@ -3751,9 +3892,11 @@
         "OBSERVATION_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
-      "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": true,
+      "governance_patch_reason": "Capability assessment may be computational, but gating is a rule/permission/resource-authority decision and therefore cannot be owned by AI alone.",
+      "binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-050",
@@ -3815,9 +3958,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-051",
@@ -3876,9 +4021,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-052",
@@ -3938,9 +4085,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-053",
@@ -3999,9 +4148,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-054",
@@ -4106,9 +4257,11 @@
         "SAFETY_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-055",
@@ -4166,9 +4319,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-056",
@@ -4226,9 +4381,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-057",
@@ -4284,9 +4441,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-058",
@@ -4366,9 +4525,11 @@
         "VERIFICATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-059",
@@ -4426,9 +4587,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-060",
@@ -4489,9 +4652,11 @@
         "POLICY_DECISION_TRACE"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-061",
@@ -4574,9 +4739,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-062",
@@ -4628,9 +4795,11 @@
         "VIEW_MAP"
       ],
       "governance_interface_expected_from_source_level": false,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-063",
@@ -4694,9 +4863,11 @@
         "EVALUATION_LEDGER"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     },
     {
       "ai_only_id": "AI-NEW-064",
@@ -4755,9 +4926,11 @@
         "RELIABILITY_MEMORY"
       ],
       "governance_interface_expected_from_source_level": true,
+      "governance_patch_applied": false,
+      "governance_patch_reason": null,
       "binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
       "unknown_source_cap_ids": [],
-      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings derived through source AI-CAP lineage; they do not rewrite the source record."
+      "authority_note": "AI-NEW identity/name/level are approved source records. AI/ASI segments, candidate containers, Sequence roles and ASI Nodes are additive Phase-2 mappings. Where source AI-CAP lineage did not expose required governance for a source Control parameter/Universal filter, AI_ONLY_GOVERNANCE_BINDING_PATCH_V1 supplies the missing ASI layer without rewriting the source record."
     }
   ]
 }
