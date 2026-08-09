@@ -110,7 +110,7 @@
 - **CON-100** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-101** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-102** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-103** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_expansion_081_160_v1.py`
+- **CON-103** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_expansion_081_160_v1.py`
 - **CON-104** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-105** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-106** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
@@ -374,7 +374,7 @@
 
 ## Approved Ai Only Records
 
-- **AI-NEW-001** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
+- **AI-NEW-001** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
 - **AI-NEW-002** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-003** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-004** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`

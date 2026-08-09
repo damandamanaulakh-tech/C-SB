@@ -99,6 +99,7 @@
     "CON-103": [
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
+      "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
@@ -1706,6 +1707,7 @@
     "AI-NEW-001": [
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/validate_brain_engine_adoption_v1.py"
