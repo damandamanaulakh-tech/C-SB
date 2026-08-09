@@ -360,6 +360,11 @@
     "size_bytes": 9643
   },
   {
+    "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
+    "sha256": "a34286722e477e1f5a4411e16dc801af7c968f7c17bb8752fb1017ec417a8f7c",
+    "size_bytes": 3926
+  },
+  {
     "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
     "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
     "size_bytes": 1711
