@@ -1,0 +1,12 @@
+{
+  "source_file": "SEQUENCE_TESTS_OVERLAY.svg",
+  "line_count": 413,
+  "sha256": "92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be",
+  "parts_in_order": [
+    "SEQUENCE_TESTS_OVERLAY.svg.parts/part-01.svg",
+    "SEQUENCE_TESTS_OVERLAY.svg.parts/part-02.svg",
+    "SEQUENCE_TESTS_OVERLAY.svg.parts/part-03.svg"
+  ],
+  "role": "PHASE1_GRAVITY_PYRAMID_FALSIFICATION_VISUAL_SOURCE",
+  "assembly": "Concatenate parts in listed order."
+}
