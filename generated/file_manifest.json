@@ -90,6 +90,11 @@
     "size_bytes": 20397
   },
   {
+    "path": "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
+    "sha256": "6d17f92f4ed5b9337d89c9594a317f4b68d9e685c9aa41476b8023c81e78d665",
+    "size_bytes": 7934
+  },
+  {
     "path": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
     "sha256": "d282ce171cccce33c988c7f5e011f96dfb9d81b590686ec37311880446ee4695",
     "size_bytes": 6386
