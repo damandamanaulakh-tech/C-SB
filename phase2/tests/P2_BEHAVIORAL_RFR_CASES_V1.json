@@ -1,0 +1,114 @@
+{
+  "test_suite_id":"P2-BEHAVIORAL-RFR-CASES-V1",
+  "status":"ACTIVE_TEST_FIXTURES_NOT_SOURCE_FACTS",
+  "fixture_rule":"Synthetic events/tools/results below exist only to test Sourceborn control laws. They are not promoted to source facts, capabilities or evidence.",
+  "cases":[
+    {
+      "case_id":"P2-BEH-AUTH-001",
+      "name":"AI tool selection cannot bypass ASI authorization",
+      "source_anchor":{"ai_only_id":"AI-NEW-011","source_name":"Tool selection and authorization"},
+      "declared_end":"Demonstrate that local AI tool selection and execution authorization remain separate and that the action edge fires only after an accepted ASI-governed GRANTED permission return.",
+      "scope":"synthetic TEST_TOOL dispatch only",
+      "closure_scope":"authorization/barrier behavior",
+      "fixture":{"tool_id":"TEST_TOOL","tool_state":"AVAILABLE","candidate_selected":true},
+      "edge_contract":{
+        "edge_id":"EDGE-TEST-TOOL-DISPATCH",
+        "source":"TOOL_SELECTED",
+        "target":"TOOL_DISPATCHED",
+        "order_type":"CONTROL",
+        "trigger":"TOOL_CANDIDATE_SELECTED",
+        "threshold":"AUTHORIZATION_STATE == GRANTED",
+        "required_return":"AUTHORIZATION_DECISION",
+        "controller":"ASI_META_GOVERNANCE",
+        "performer":"AI_EXECUTION_MECHANISM"
+      },
+      "variants":[
+        {
+          "variant_id":"AUTH-UNKNOWN",
+          "initial_authorization":"UNKNOWN",
+          "expected_edge_fire":false,
+          "expected_barrier":"BLOCKED",
+          "expected_sub_sequence":{
+            "sequence_id":"S-AUTH-001-PERM-01",
+            "relation_type":"ATTACHED",
+            "required":true,
+            "requested_result":"AUTHORIZATION_DECISION",
+            "parent_status_while_open":"WAITING_FOR_RETURN"
+          }
+        },
+        {
+          "variant_id":"AUTH-DENIED",
+          "initial_authorization":"UNKNOWN",
+          "permission_return":{"sequence_id":"S-AUTH-001-PERM-02","terminal_status":"CLOSED_SUCCESS","result":"DENIED","return_accepted":true},
+          "expected_edge_fire":false,
+          "expected_parent_branch_result":"BLOCKED_BY_PERMISSION",
+          "note":"The permission Sequence may close successfully and its decision packet may be accepted while the action threshold remains false. Close condition != action permission."
+        },
+        {
+          "variant_id":"AUTH-GRANTED",
+          "initial_authorization":"UNKNOWN",
+          "permission_return":{"sequence_id":"S-AUTH-001-PERM-03","terminal_status":"CLOSED_SUCCESS","result":"GRANTED","return_accepted":true},
+          "expected_re_evaluation":true,
+          "expected_edge_fire":true,
+          "expected_rule":"GRANTED return permits threshold re-evaluation; it does not bypass threshold/barrier evaluation."
+        }
+      ],
+      "required_invariants":[
+        "AI_SELECTION_IS_NOT_AUTHORIZATION",
+        "NO_EXECUTION_BEFORE_GRANTED_PERMISSION",
+        "MISSING_REQUIRED_PERMISSION_OPENS_ATTACHED_SEQUENCE",
+        "PARENT_WAITS_FOR_REQUIRED_RETURN",
+        "DENIED_PERMISSION_NEVER_CROSSES_ACTION_EDGE",
+        "GRANTED_PERMISSION_CAUSES_REEVALUATION_NOT_BYPASS",
+        "CLOSED_PERMISSION_SEQUENCE_NEVER_REOPENS"
+      ]
+    },
+    {
+      "case_id":"P2-BEH-ENG-REPAIR-001",
+      "name":"Engine failure requires separate repair and retest Sub-Sequences",
+      "source_anchor":{"engine_id":"ENG-ARD-001","container_id":"CON-203","element_code":"E03"},
+      "declared_end":"Demonstrate that failure of a source-bound Engine operation blocks the parent, repair and retest occur as separate Sequences, and continuation occurs only after the retest return is accepted.",
+      "scope":"synthetic failure of ENG-ARD-001 while servicing CON-203 only",
+      "closure_scope":"repair/retest/return/barrier behavior",
+      "fixture":{"initial_engine_result":"FAILURE","failure_reason":"SYNTHETIC_TEST_FAILURE"},
+      "parent_sequence":{"sequence_id":"S-ENG-PARENT-001","initial_status":"OPEN","blocked_edge":"EDGE-CON203-RESULT-ACCEPT"},
+      "repair_sequence":{
+        "sequence_id":"S-ENG-REPAIR-001",
+        "relation_type":"ATTACHED",
+        "requested_result":"REPAIR_RESULT",
+        "terminal_status":"CLOSED_SUCCESS",
+        "result":"REPAIR_APPLIED",
+        "return_accepted":true
+      },
+      "retest_sequence":{
+        "sequence_id":"S-ENG-RETEST-001",
+        "relation_type":"ATTACHED",
+        "requested_result":"RETEST_RESULT",
+        "terminal_status":"CLOSED_SUCCESS",
+        "result":"PASS",
+        "return_accepted":true
+      },
+      "expected_runtime":[
+        "ENGINE_OPERATION_FAILURE_RECORDED",
+        "PARENT_STATUS_WAITING_FOR_RETURN",
+        "OPEN_REPAIR_SUB_SEQUENCE_WITH_UNIQUE_ID",
+        "REPAIR_CLOSES_AND_RETURNS",
+        "PARENT_REMAINS_BLOCKED_BECAUSE_REPAIR_IS_NOT_RETEST",
+        "OPEN_RETEST_SUB_SEQUENCE_WITH_UNIQUE_ID",
+        "RETEST_CLOSES_SUCCESS",
+        "RETEST_RETURN_ACCEPTED",
+        "BLOCKED_EDGE_REEVALUATED",
+        "PARENT_CONTINUES"
+      ],
+      "required_invariants":[
+        "NO_IN_PLACE_RETRY",
+        "REPAIR_AND_RETEST_HAVE_DIFFERENT_SEQUENCE_IDS",
+        "PARENT_REMAINS_OPEN_OR_WAITING_WHILE_REQUIRED_SUB_SEQUENCES_RUN",
+        "REPAIR_SUCCESS_DOES_NOT_EQUAL_RETEST_SUCCESS",
+        "NO_DEPENDENT_EDGE_CROSSES_BEFORE_ACCEPTED_RETEST_RETURN",
+        "CLOSED_REPAIR_SEQUENCE_NEVER_REOPENS",
+        "CLOSED_RETEST_SEQUENCE_NEVER_REOPENS"
+      ]
+    }
+  ]
+}
