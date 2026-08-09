@@ -90,7 +90,7 @@
 - **CON-080** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
 - **CON-081** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **CON-160** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **CON-161** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`
+- **CON-161** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **CON-162** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-163** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-164** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
@@ -169,7 +169,7 @@
 - **CON-237** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-238** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-239** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **CON-240** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`
+- **CON-240** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Sourceborn Parameters
 
@@ -177,8 +177,8 @@
 - **SB-ASI-P2560** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **SB-ASI-P2561** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **SB-ASI-P2592** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **SB-ASI-P2593** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`
-- **SB-ASI-P3072** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`
+- **SB-ASI-P2593** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **SB-ASI-P3072** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Human Combinations
 
@@ -266,7 +266,7 @@
 
 ## Approved Ai Only Records
 
-- **AI-NEW-001** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-001** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
 - **AI-NEW-002** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-003** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-004** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -329,7 +329,7 @@
 - **AI-NEW-061** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-062** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-063** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-064** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-064** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Ai Rubric Segments
 
@@ -600,14 +600,14 @@ _No IDs currently present._
 
 ## Operational Element Codes
 
-- **E01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
 - **E02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **E07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **E08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Governance Control Ids
 
