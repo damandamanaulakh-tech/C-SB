@@ -85,6 +85,11 @@
     "size_bytes": 1321
   },
   {
+    "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+    "sha256": "84c9735ee274d5f5105d298353646b3c05365ed172be7bc3189c3df74651fade",
+    "size_bytes": 5794
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
     "sha256": "0e76e239c40d083b11c896890a66aa07a0a3056651de85f02cac22296822e5b6",
     "size_bytes": 2142
