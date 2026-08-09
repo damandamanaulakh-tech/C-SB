@@ -31,7 +31,7 @@
 
 - Manifest: `raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json`
 - Assembled: `generated/assembled_sources/SEQUENCE_TESTS_OVERLAY.svg`
-- SHA-256: `0bbc38e741b8190c5eb4ae04be7ab509e90883ce45d94407c3a34d42a10b5030`
+- SHA-256: `92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be`
 - Expected: `92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be`
-- Hash match: `False`
+- Hash match: `True`
 - Missing parts: `[]`

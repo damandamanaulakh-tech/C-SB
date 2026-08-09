@@ -34,9 +34,9 @@
     "source_file": "SEQUENCE_TESTS_OVERLAY.svg",
     "assembled_path": "generated/assembled_sources/SEQUENCE_TESTS_OVERLAY.svg",
     "missing_parts": [],
-    "sha256": "0bbc38e741b8190c5eb4ae04be7ab509e90883ce45d94407c3a34d42a10b5030",
+    "sha256": "92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be",
     "expected_sha256": "92517a23c4fcba2eca3dc19a21d80494fffb205c7835b2c49633aa124809a5be",
-    "hash_match": false,
+    "hash_match": true,
     "note": null
   }
 ]
