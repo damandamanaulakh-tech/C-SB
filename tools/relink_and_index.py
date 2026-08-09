@@ -10,9 +10,14 @@ PATTERNS = {
     "segments": re.compile(r"\bSEG-\d{2}\b"),
     "containers": re.compile(r"\bCON-\d{3}\b"),
     "human_parameters": re.compile(r"\bSB-ASI-P\d{4}\b"),
-    "ai_capabilities": re.compile(r"\bAI-CAP-\d{3}\b"),
-    "asi_nodes": re.compile(r"\bASI-NODE-\d{2}\b"),
     "human_combinations": re.compile(r"\bH-COMB-\d{2}\b"),
+    "legacy_ai_capabilities": re.compile(r"\bAI-CAP-\d{3}\b"),
+    "ai_rubric_segments": re.compile(r"\bAI-\d{2}\b"),
+    "wisdom_lanes": re.compile(r"\bW-\d{2}\b"),
+    "asi_rubric_segments": re.compile(r"\bASI-\d{2}\b"),
+    "asi_nodes": re.compile(r"\bASI-NODE-\d{2}\b"),
+    "node_brains": re.compile(r"\bNB-\d{2}\b"),
+    "rubric_registry_ids": re.compile(r"\b(?:AI-RUBRIC-V\d+|ASI-RUBRIC-V\d+|WISDOM-REGISTRY-V\d+)\b"),
 }
 
 TEXT_EXTS = {".md", ".txt", ".json", ".yaml", ".yml", ".svg", ".py"}
