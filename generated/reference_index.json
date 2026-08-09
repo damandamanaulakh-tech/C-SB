@@ -295,33 +295,39 @@
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json"
     ],
     "AI-CAP-002": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-003": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-004": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-005": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-006": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-007": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -329,12 +335,14 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-008": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-009": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -342,17 +350,20 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-010": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-011": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-012": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -360,63 +371,74 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-013": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-014": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-015": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-016": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-017": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-018": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-019": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-020": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-021": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-022": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-023": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -424,17 +446,20 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-024": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-025": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-026": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -442,103 +467,122 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-027": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-028": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-029": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-030": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-031": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-032": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-033": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-034": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-035": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-036": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-037": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-038": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-039": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-040": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-041": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-042": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-043": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-044": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-045": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -546,7 +590,8 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-046": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -554,32 +599,38 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-047": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-048": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-049": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-050": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-051": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-052": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -587,7 +638,8 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-053": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -595,12 +647,14 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-054": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-055": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -608,30 +662,35 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-056": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-057": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-058": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-059": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-060": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -639,12 +698,14 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-061": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-062": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -652,33 +713,38 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-063": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-064": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-065": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-066": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-067": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -686,7 +752,8 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-068": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -694,23 +761,27 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-069": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-070": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-071": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-072": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -718,7 +789,8 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-073": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
@@ -726,12 +798,14 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-074": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ]
   },
   "ai_rubric_segments": {
@@ -739,6 +813,7 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "tools/validate_repo.py"
     ],
@@ -746,119 +821,143 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
       "tools/validate_repo.py"
     ],
     "AI-02": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-03": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-04": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-05": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-06": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json"
     ],
     "AI-07": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-08": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-09": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-10": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-11": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json"
     ],
     "AI-12": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-13": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-14": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-15": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-16": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-17": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-18": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-19": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-20": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-21": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-22": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json"
     ],
     "AI-23": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "AI-24": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json"
     ]
   },
@@ -932,49 +1031,59 @@
     ],
     "ASI-02": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-03": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-06": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-07": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-08": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json"
     ],
     "ASI-09": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json"
     ],
     "ASI-11": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-12": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-13": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-14": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json"
     ],
     "ASI-15": [
@@ -984,20 +1093,24 @@
     ],
     "ASI-16": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-18": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-19": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
     "ASI-04": [
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json"
     ],
