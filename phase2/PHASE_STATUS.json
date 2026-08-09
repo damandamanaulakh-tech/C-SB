@@ -20,17 +20,27 @@
       {
         "id": "P2-HUMAN",
         "status": "WAITING_NATIVE_2560_REGISTRY",
-        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node bindings."
+        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node bindings. Current project artifacts expose examples and container mappings but not a complete authoritative 2,560-row source."
       },
       {
         "id": "P2-AI",
-        "status": "REVIEW_MAP_AVAILABLE",
-        "next": "Review AI-CAP-001..074; approve/rename/split/merge/omit; then create native AI registry and bindings."
+        "status": "FULL_STRUCTURAL_REVIEW_V0_COMPLETE_CANDIDATE_NOT_ADOPTED",
+        "outputs": [
+          "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+          "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+          "tools/build_ai_candidate_registry.py",
+          "generated/registry_views/ai_native_candidate_registry_v0.json"
+        ],
+        "next": "Resolve HOLD/SPLIT cases, establish final native AI IDs and Sequence/write-back bindings, run R-F-R tests, then issue AI Adoption Closure Packet."
       },
       {
         "id": "P2-ASI",
-        "status": "SERVICE_REGISTRY_SEEDED",
-        "next": "Define each ASI Node Brain inputs/outputs/memory/permissions/contracts."
+        "status": "NODE_BRAINS_V0_INSTANTIATED",
+        "outputs": [
+          "registries/asi/node_brains_v0.json",
+          "phase2/asi/ASI_NODE_BRAINS_V0.md"
+        ],
+        "next": "Bind approved Human/AI registries to Node Brains and revise contracts only when sample Sequences falsify them."
       },
       {
         "id": "P2-HOLYBOOKS",
@@ -39,8 +49,8 @@
       },
       {
         "id": "P2-GENERATOR",
-        "status": "BOOTSTRAPPED",
-        "next": "Use registry index generator to relink IDs and produce cross-reference docs."
+        "status": "ACTIVE_AUTOGENERATION",
+        "next": "Workflow assembles canonical sources, builds registry views, builds the AI candidate view, relinks IDs, validates invariants and commits generated outputs."
       }
     ]
   }
