@@ -1,0 +1,35 @@
+{
+  "registry_id": "ASI-RUBRIC-V0",
+  "phase": "PHASE_2",
+  "status": "DRAFT_META_RUBRIC_FOR_REVIEW",
+  "principle": "ASI rubric governs how Human, AI, Wisdom and other domain registries may interact across multiple Sequences. It does not replace those rubrics and it does not rewrite source truth.",
+  "segments": [
+    {"asi_segment_id":"ASI-01","name":"Identity / Scope Governance","purpose":"Govern followed object, identity continuity, resolution, inclusion/exclusion and closure scope."},
+    {"asi_segment_id":"ASI-02","name":"Truth / Provenance Governance","purpose":"Enforce source custody, provenance, proof depth, evidence separation and epistemic labeling."},
+    {"asi_segment_id":"ASI-03","name":"Sequence / Closure Governance","purpose":"Enforce R-F-R, barrier law, no reopen, terminal contracts, closure packets and scope-correct closure."},
+    {"asi_segment_id":"ASI-04","name":"Cross-Sequence Coordination","purpose":"Coordinate Main, Rider, Attached, Counter, Parallel, Converging, Next, Reference and Observer Sequences."},
+    {"asi_segment_id":"ASI-05","name":"Cross-Domain Synthesis","purpose":"Combine Human, AI, Wisdom and other domain activations while retaining ownership, source and contradiction boundaries."},
+    {"asi_segment_id":"ASI-06","name":"Wisdom / Value / Principle Governance","purpose":"Use contextual wisdom and value priorities without converting interpretation into source fact or bypassing current reality."},
+    {"asi_segment_id":"ASI-07","name":"Rule / Priority / Exception Governance","purpose":"Resolve rule conflicts, priorities, promises, overrides and exception contracts with explicit authority and consequence."},
+    {"asi_segment_id":"ASI-08","name":"Safety / Permission / Authority","purpose":"Govern permissions, prohibitions, access, authority, intervention boundaries and accountability."},
+    {"asi_segment_id":"ASI-09","name":"Contradiction Governance","purpose":"Preserve unresolved conflicts, route investigation and prevent silent consensus fabrication."},
+    {"asi_segment_id":"ASI-10","name":"Uncertainty / Unknown Governance","purpose":"Keep unknown, unavailable, contradictory, not-applicable and speculative states machine-visible."},
+    {"asi_segment_id":"ASI-11","name":"Memory Governance","purpose":"Govern storage class, source binding, overwrite policy, versioning, trust, retrieval and contamination controls."},
+    {"asi_segment_id":"ASI-12","name":"Learning / Evolution Governance","purpose":"Govern what can change, where it may write, which version is affected and which learning mechanism is permitted."},
+    {"asi_segment_id":"ASI-13","name":"Resource Governance","purpose":"Coordinate compute, storage, concurrency, tools, external actors and shared resource conflicts."},
+    {"asi_segment_id":"ASI-14","name":"Version / Migration / Rollback","purpose":"Preserve historical states, canonical precedence, migration rules and reversible system updates."},
+    {"asi_segment_id":"ASI-15","name":"Long-Horizon / Future Consequence","purpose":"Track latent effects, downstream criticality, seeds, systemic consequences and future convergence windows."},
+    {"asi_segment_id":"ASI-16","name":"Multi-Agent / Multi-Human Coordination","purpose":"Coordinate multiple humans, artificial agents, institutions and distributed controllers without collapsing Actor Views."},
+    {"asi_segment_id":"ASI-17","name":"Law / Principle Formation","purpose":"Convert supported closed-case patterns into candidate guidance, rules or laws with exceptions and provenance."},
+    {"asi_segment_id":"ASI-18","name":"Meta-Reasoning / Self-Audit","purpose":"Audit reasoning paths, mechanism choice, proof debt, graph gaps, controller assumptions and internal contradictions."},
+    {"asi_segment_id":"ASI-19","name":"Goal Conflict / Arbitration","purpose":"Resolve competing ends, priorities, duties, wants, needs and long-horizon consequences under declared authority."},
+    {"asi_segment_id":"ASI-20","name":"Global Closure / Era Transition","purpose":"Distinguish local closure from higher-scope project, institution, war, civilization or era transition and determine what seeds the next reality."}
+  ],
+  "hard_guards": [
+    "ASI rubric cannot overwrite Human, AI or Wisdom native registry definitions.",
+    "ASI governance cannot convert a local closure into global closure without closure-scope evidence.",
+    "ASI governance cannot give an actor knowledge absent from that actor's View Map.",
+    "ASI governance cannot bypass Barrier Law or accept a required return that failed its acceptance condition.",
+    "ASI governance cannot manufacture provenance or silently merge contradiction."
+  ]
+}
