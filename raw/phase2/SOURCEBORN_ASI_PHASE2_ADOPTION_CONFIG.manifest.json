@@ -11,6 +11,10 @@
     "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-06.md",
     "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-07.md"
   ],
+  "insert_after_parts": {
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md": "\n",
+    "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md": "\n"
+  },
   "canonical_role": "PHASE2_ROOT_ADOPTION_CONTRACT",
-  "assembly": "Concatenate parts byte-for-byte in listed order with no inserted text."
+  "assembly": "Concatenate parts in listed order and apply insert_after_parts exactly; this preserves blank-line boundaries removed by text-file transport."
 }
