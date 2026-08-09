@@ -85,6 +85,11 @@
     "size_bytes": 20397
   },
   {
+    "path": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+    "sha256": "d282ce171cccce33c988c7f5e011f96dfb9d81b590686ec37311880446ee4695",
+    "size_bytes": 6386
+  },
+  {
     "path": "machine/v2/TYPED_NULL_SEMANTICS.json",
     "sha256": "fecb18023c4a9c3158ff5a0150ea107980b629fe8be860bf987441b9e8ba1f39",
     "size_bytes": 1398
