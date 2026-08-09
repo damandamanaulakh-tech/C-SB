@@ -1,0 +1,148 @@
+{
+  "report_id": "P2-BEHAVIORAL-RFR-V1",
+  "status": "PASS",
+  "scope_note": "Deterministic architecture-behavior tests using synthetic fixtures. PASS proves the encoded Sourceborn control laws for these cases, not real-world tool or Engine performance.",
+  "summary": {
+    "total": 2,
+    "pass": 2,
+    "pass_with_finding": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "case_id": "P2-BEH-AUTH-001",
+      "status": "PASS",
+      "hard_failures": [],
+      "findings": [],
+      "pass0": {
+        "declared_end": "Demonstrate that local AI tool selection and execution authorization remain separate and that the action edge fires only after an accepted ASI-governed GRANTED permission return.",
+        "scope": "synthetic TEST_TOOL dispatch only",
+        "closure_scope": "authorization/barrier behavior",
+        "fixture_is_source_fact": false
+      },
+      "pass1": {
+        "required_predecessors": [
+          "tool candidate selected",
+          "authorization decision returned",
+          "required return accepted",
+          "authorization state == GRANTED",
+          "barrier clear",
+          "dispatch threshold re-evaluated true"
+        ],
+        "source_binding_found": true
+      },
+      "pass2": {
+        "variants": [
+          {
+            "variant_id": "AUTH-UNKNOWN",
+            "final_authorization": "UNKNOWN",
+            "barrier_state": "BLOCKED",
+            "edge_fired": false,
+            "events": [
+              "TOOL_CANDIDATE_SELECTED",
+              "AUTHORIZATION_REQUIRED",
+              "BARRIER_BLOCKED"
+            ]
+          },
+          {
+            "variant_id": "AUTH-DENIED",
+            "final_authorization": "DENIED",
+            "barrier_state": "BLOCKED_BY_PERMISSION",
+            "edge_fired": false,
+            "events": [
+              "TOOL_CANDIDATE_SELECTED",
+              "AUTHORIZATION_REQUIRED",
+              "BARRIER_BLOCKED",
+              "PERMISSION_SEQUENCE_CLOSED_SUCCESS",
+              "RETURN_ACCEPTED_DENIED",
+              "THRESHOLD_FALSE"
+            ]
+          },
+          {
+            "variant_id": "AUTH-GRANTED",
+            "final_authorization": "GRANTED",
+            "barrier_state": "CLEAR",
+            "edge_fired": true,
+            "events": [
+              "TOOL_CANDIDATE_SELECTED",
+              "AUTHORIZATION_REQUIRED",
+              "BARRIER_BLOCKED",
+              "PERMISSION_SEQUENCE_CLOSED_SUCCESS",
+              "RETURN_ACCEPTED_GRANTED",
+              "THRESHOLD_REEVALUATED",
+              "EDGE_FIRED"
+            ]
+          }
+        ]
+      },
+      "pass3": {
+        "invariant_checks": {
+          "AI_SELECTION_IS_NOT_AUTHORIZATION": true,
+          "NO_EXECUTION_BEFORE_GRANTED_PERMISSION": true,
+          "MISSING_REQUIRED_PERMISSION_OPENS_ATTACHED_SEQUENCE": true,
+          "PARENT_WAITS_FOR_REQUIRED_RETURN": true,
+          "DENIED_PERMISSION_NEVER_CROSSES_ACTION_EDGE": true,
+          "GRANTED_PERMISSION_CAUSES_REEVALUATION_NOT_BYPASS": true,
+          "CLOSED_PERMISSION_SEQUENCE_NEVER_REOPENS": true
+        },
+        "source_identity_preserved": true
+      }
+    },
+    {
+      "case_id": "P2-BEH-ENG-REPAIR-001",
+      "status": "PASS",
+      "hard_failures": [],
+      "findings": [],
+      "pass0": {
+        "declared_end": "Demonstrate that failure of a source-bound Engine operation blocks the parent, repair and retest occur as separate Sequences, and continuation occurs only after the retest return is accepted.",
+        "scope": "synthetic failure of ENG-ARD-001 while servicing CON-203 only",
+        "closure_scope": "repair/retest/return/barrier behavior",
+        "fixture_is_source_fact": false
+      },
+      "pass1": {
+        "required_predecessors_after_failure": [
+          "failure recorded",
+          "repair Sub-Sequence terminal",
+          "repair return accepted",
+          "retest Sub-Sequence terminal",
+          "retest result PASS",
+          "retest return accepted",
+          "blocked parent edge re-evaluated"
+        ],
+        "engine_source_bound": true,
+        "source_element_code": "E03"
+      },
+      "pass2": {
+        "events": [
+          "ENGINE_OPERATION_FAILURE_RECORDED",
+          "PARENT_STATUS_WAITING_FOR_RETURN",
+          "OPEN_REPAIR_SUB_SEQUENCE_WITH_UNIQUE_ID",
+          "REPAIR_CLOSES_AND_RETURNS",
+          "PARENT_REMAINS_BLOCKED_BECAUSE_REPAIR_IS_NOT_RETEST",
+          "OPEN_RETEST_SUB_SEQUENCE_WITH_UNIQUE_ID",
+          "RETEST_CLOSES_SUCCESS",
+          "RETEST_RETURN_ACCEPTED",
+          "BLOCKED_EDGE_REEVALUATED",
+          "PARENT_CONTINUES"
+        ],
+        "final_parent_status": "OPEN",
+        "repair_sequence_id": "S-ENG-REPAIR-001",
+        "retest_sequence_id": "S-ENG-RETEST-001"
+      },
+      "pass3": {
+        "invariant_checks": {
+          "NO_IN_PLACE_RETRY": true,
+          "REPAIR_AND_RETEST_HAVE_DIFFERENT_SEQUENCE_IDS": true,
+          "PARENT_REMAINS_OPEN_OR_WAITING_WHILE_REQUIRED_SUB_SEQUENCES_RUN": true,
+          "REPAIR_SUCCESS_DOES_NOT_EQUAL_RETEST_SUCCESS": true,
+          "NO_DEPENDENT_EDGE_CROSSES_BEFORE_ACCEPTED_RETEST_RETURN": true,
+          "CLOSED_REPAIR_SEQUENCE_NEVER_REOPENS": true,
+          "CLOSED_RETEST_SEQUENCE_NEVER_REOPENS": true
+        },
+        "engine_identity_preserved": true,
+        "container_identity_preserved": true
+      }
+    }
+  ],
+  "loader_errors": []
+}

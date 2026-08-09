@@ -131,8 +131,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "a685b147a39e68373e3eb3247769ad2742f821e58881b62199c9ccba8ecfccef",
-    "size_bytes": 2914
+    "sha256": "90d6cc7f08cf457796fbfceebaee75fd625fe7e33663693357ce1739b5965460",
+    "size_bytes": 3045
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -213,6 +213,11 @@
     "path": "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md",
     "sha256": "a181725d9686765e5b99d353e22fc2c78cda7e4f364402967c89ba07d4f6e803",
     "size_bytes": 6359
+  },
+  {
+    "path": "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
+    "sha256": "8970b63c8c38d36de9f8d4ae09cf89cc36e6b0a6ce1e366cd45533ff990c78f7",
+    "size_bytes": 1259
   },
   {
     "path": "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",

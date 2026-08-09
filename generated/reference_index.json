@@ -292,6 +292,7 @@
     ],
     "CON-203": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
@@ -1720,6 +1721,7 @@
     ],
     "AI-NEW-011": [
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
@@ -2938,6 +2940,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-ARD-001": [
+      "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
@@ -3292,6 +3295,7 @@
     "E03": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/TASK_QUEUE.md",
+      "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
