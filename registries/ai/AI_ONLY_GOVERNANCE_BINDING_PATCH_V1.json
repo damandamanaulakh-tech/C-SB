@@ -1,0 +1,66 @@
+{
+  "patch_id":"AI-ONLY-GOVERNANCE-BINDING-PATCH-V1",
+  "phase":"PHASE_2",
+  "status":"ADDITIVE_MAPPING_PATCH_FOR_RFR",
+  "source_findings":"generated/tests/P2_AI_ASI_STRUCTURAL_RFR_FINDINGS_V1.json",
+  "rule":"This patch does not alter AI-NEW identity, name, structural level, AI-CAP lineage, or source approval. It adds ASI governance segments/nodes where the approved source record itself is a Control parameter or Universal filter and the lineage-only crosswalk left governance empty.",
+  "records":[
+    {
+      "ai_only_id":"AI-NEW-005",
+      "source_name":"Persistent-memory retrieval control",
+      "source_level":"Control parameter",
+      "add_asi_segments":["ASI-11"],
+      "add_asi_nodes":["ASI-NODE-12","ASI-NODE-21"],
+      "reason":"Memory retrieval execution is AI-05; control over access, source binding, trust and retrieval policy belongs to ASI-11 Memory Governance."
+    },
+    {
+      "ai_only_id":"AI-NEW-011",
+      "source_name":"Tool selection and authorization",
+      "source_level":"Control parameter",
+      "add_asi_segments":["ASI-08","ASI-13"],
+      "add_asi_nodes":["ASI-NODE-05","ASI-NODE-21"],
+      "reason":"AI may select a tool, but authorization and resource/access permission are governance functions under ASI-08 and ASI-13."
+    },
+    {
+      "ai_only_id":"AI-NEW-018",
+      "source_name":"Prompt-injection isolation",
+      "source_level":"Universal filter",
+      "add_asi_segments":["ASI-02","ASI-07","ASI-08","ASI-18"],
+      "add_asi_nodes":["ASI-NODE-07","ASI-NODE-16","ASI-NODE-21"],
+      "reason":"Isolation requires source/instruction provenance, rule priority, permission boundary and self-audit governance; detection alone cannot decide authority."
+    },
+    {
+      "ai_only_id":"AI-NEW-033",
+      "source_name":"Hallucination detection",
+      "source_level":"Universal filter",
+      "add_asi_segments":["ASI-02","ASI-09","ASI-10","ASI-18"],
+      "add_asi_nodes":["ASI-NODE-07","ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"],
+      "reason":"Detection is an AI mechanism; deciding truth/provenance status, contradiction handling, unknown state and audit consequence is ASI governance."
+    },
+    {
+      "ai_only_id":"AI-NEW-034",
+      "source_name":"Tool-hallucination detection",
+      "source_level":"Universal filter",
+      "add_asi_segments":["ASI-02","ASI-08","ASI-09","ASI-10","ASI-18"],
+      "add_asi_nodes":["ASI-NODE-05","ASI-NODE-07","ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"],
+      "reason":"A fabricated tool state affects provenance and action safety; detection is AI, while truth status, permission to continue and audit/block decisions are ASI."
+    },
+    {
+      "ai_only_id":"AI-NEW-048",
+      "source_name":"Cyber-capability gating",
+      "source_level":"Control parameter",
+      "add_asi_segments":["ASI-07","ASI-08","ASI-13"],
+      "add_asi_nodes":["ASI-NODE-05","ASI-NODE-08","ASI-NODE-21"],
+      "reason":"Capability assessment may be computational, but gating is a rule/permission/resource-authority decision and therefore cannot be owned by AI alone."
+    },
+    {
+      "ai_only_id":"AI-NEW-049",
+      "source_name":"Biological-capability gating",
+      "source_level":"Control parameter",
+      "add_asi_segments":["ASI-07","ASI-08","ASI-13"],
+      "add_asi_nodes":["ASI-NODE-05","ASI-NODE-08","ASI-NODE-21"],
+      "reason":"Capability assessment may be computational, but gating is a rule/permission/resource-authority decision and therefore cannot be owned by AI alone."
+    }
+  ],
+  "acceptance_condition":"After regeneration, all seven records retain exact source identity/level/AI-CAP lineage, receive non-empty ASI governance mappings, contain no unknown ASI Nodes, and pass structural R-F-R without findings caused by missing governance."
+}
