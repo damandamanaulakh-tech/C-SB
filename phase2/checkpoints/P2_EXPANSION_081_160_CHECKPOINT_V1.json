@@ -1,0 +1,23 @@
+{
+  "checkpoint_id":"P2-EXPANSION-081-160-V1",
+  "phase":"PHASE_2",
+  "phase_status":"ACTIVE",
+  "checkpoint_status":"CLOSED_PARTIAL",
+  "closed_scope":[
+    "Materialized source index for CON-081..CON-160 with exact IDs, parent segment, names, AI-CAP links, weight and source status",
+    "Materialized all approved SB-ASI-P2561..SB-ASI-P2592 records with exact source names, functional wording, parent containers and AI-CAP links",
+    "Classified named CROSS containers CON-103..CON-120 into additive AI/ASI roles and ASI-Node bindings",
+    "Added validation that preserves CON-121..CON-160 placeholder names and prevents premature semantic classification"
+  ],
+  "source_registry":"registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+  "parameter_registry":"registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+  "classification":"registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+  "validated_counts":{"expansion_containers":80,"materialized_expansion_parameters":32,"named_cross_classified":18,"unresolved_placeholder_containers":40},
+  "open_scope":[
+    "Full source scope wording and backup justification for all CON-081..160 are still source-bound to the workbook and not yet fully text-materialized in the repo index.",
+    "CON-081..102 require Human/Human-AI mapping before AI/ASI ownership is assigned.",
+    "CON-121..160 remain source placeholders named Extended Capability Node 121..160; no detailed meanings may be invented.",
+    "Expansion layer still requires R-F-R and integration testing before adoption closure."
+  ],
+  "next_sequences":["P2-AI-ONLY-64-RFR-TEST-01","P2-ENGINE-BOUNDNESS-AND-NODE-ROUTING-RFR-01","P2-EXPANSION-103-120-RFR-TEST-01","P2-MULTI-RUBRIC-INTEGRATION-TEST-01"]
+}
