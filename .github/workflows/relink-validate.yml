@@ -1,4 +1,4 @@
-name: Relink and validate Sourceborn registries
+name: Relink validate and regenerate Sourceborn indexes
 
 on:
   workflow_dispatch:
@@ -9,15 +9,41 @@ on:
       - 'raw/**'
       - 'tools/**'
       - 'phase2/**'
+      - 'docs/**'
       - 'CANONICALITY.json'
+      - 'README.md'
+
+permissions:
+  contents: write
 
 jobs:
-  validate:
+  validate-and-generate:
+    if: ${{ !contains(github.event.head_commit.message || '', '[generated]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python tools/relink_and_index.py
-      - run: python tools/validate_repo.py
+      - name: Assemble canonical long sources
+        run: python tools/assemble_sources.py
+      - name: Build machine-readable registry views
+        run: python tools/generate_registry_views.py
+      - name: Relink all known IDs and generate indexes
+        run: python tools/relink_and_index.py
+      - name: Validate locked invariants
+        run: python tools/validate_repo.py
+      - name: Commit regenerated indexes and assembled docs
+        shell: bash
+        run: |
+          git config user.name "sourceborn-index-bot"
+          git config user.email "sourceborn-index-bot@users.noreply.github.com"
+          git add generated
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "[generated] rebuild Sourceborn indexes and assembled sources"
+            git push
+          fi
