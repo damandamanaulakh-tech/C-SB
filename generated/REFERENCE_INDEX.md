@@ -171,7 +171,7 @@
 - **CON-239** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **CON-240** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `tools/generate_operational_subparameters_v1.py`
 
-## Human Parameters
+## Sourceborn Parameters
 
 - **SB-ASI-P0001** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **SB-ASI-P2560** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
@@ -263,6 +263,73 @@
 - **AI-CAP-072** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CAP-073** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 - **AI-CAP-074** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+
+## Approved Ai Only Records
+
+- **AI-NEW-001** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-002** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-003** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-004** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-005** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-006** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-007** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-008** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-009** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-010** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-011** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-012** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-013** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-014** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-015** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-016** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-017** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-018** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-019** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-020** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-021** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-022** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-023** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-024** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-025** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-026** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-027** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-028** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-029** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-030** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-031** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-032** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-033** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-034** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-035** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-036** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-037** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-038** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-039** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-040** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-041** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-042** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-043** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-044** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-045** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-046** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-047** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-048** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-049** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-050** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-051** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-052** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-053** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-054** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-055** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-056** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-057** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-058** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-059** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-060** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-061** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-062** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-063** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-064** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 
 ## Ai Rubric Segments
 
@@ -448,6 +515,103 @@
 - **NB-19** → `phase2/TASK_QUEUE.md`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
 - **NB-20** → `phase2/TASK_QUEUE.md`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
 - **NB-21** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`, `tools/validate_repo.py`
+
+## Engine Ids
+
+- **ENG-ARD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-ARD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-ARD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-ARD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-009** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-010** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-011** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-CORE-012** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-EVAL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-EVO-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-EXP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-EXP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-GRD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-GRD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-INF-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-LOOP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-MEM-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-META-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-META-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-OPS-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-ORC-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-OUT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-PAI-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-PAT-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-REV-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RGL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RGL-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RGL-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RGL-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RGL-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-RGL-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SB-009** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SEQ-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-SUP-008** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-URR-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-URR-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-URR-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-URR-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-URR-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-URR-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-VER-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-VER-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- **ENG-WLD-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+
+## Activation Rule Ids
+
+_No IDs currently present._
+
+## Operational Element Codes
+
+- **E01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+- **E08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
+
+## Governance Control Ids
+
+_No IDs currently present._
 
 ## Rubric Registry Ids
 
