@@ -1,0 +1,12 @@
+{
+  "source_file": "Universal_Sequence_Machine_Architecture_v1.md",
+  "line_count": 1905,
+  "parts_in_order": [
+    "Universal_Sequence_Machine_Architecture_v1.parts/part-01.md",
+    "Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
+    "Universal_Sequence_Machine_Architecture_v1.parts/part-03.md",
+    "Universal_Sequence_Machine_Architecture_v1.parts/part-04.md"
+  ],
+  "canonical_role": "PHASE1_SEQUENCE_MACHINE_EXECUTION_GRAMMAR",
+  "assembly": "Concatenate parts byte-for-byte in listed order with no inserted text."
+}
