@@ -240,6 +240,11 @@
     "size_bytes": 11704
   },
   {
+    "path": "registries/holy_books/NARRATIVE_SOURCE_ADAPTER_SCHEMA.json",
+    "sha256": "62b853b7837fc2f870617cb01af0e129dc039551e57887839b7f7607fa6845aa",
+    "size_bytes": 2792
+  },
+  {
     "path": "registries/asi/asi_node_registry.json",
     "sha256": "08508213f4c8fdd8e8cbe804843699324bfeea4123532a5bd2020b295a6f49c3",
     "size_bytes": 2194
