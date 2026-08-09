@@ -196,6 +196,49 @@ _No IDs currently present._
 - **AI-24** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`
 - **AI-25** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
 
+## Ai Container Candidates
+
+- **AI-CON-CAND-001** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-002** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-003** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-004** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-005** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-006** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-007** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-008** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-009** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-010** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-011** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-012** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-013** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-014** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-015** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-016** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-017** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-018** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-019** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-020** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-021** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-022** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-023** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-024** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-025** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-026** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-027** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-028** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-029** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-030** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-031** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-032** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-033** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-034** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-035** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-036** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-037** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-038** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-039** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-040** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+
 ## Wisdom Lanes
 
 - **W-01** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
@@ -236,6 +279,29 @@ _No IDs currently present._
 - **ASI-18** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **ASI-19** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **ASI-20** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
+
+## Asi Container Candidates
+
+- **ASI-CON-CAND-001** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-002** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-003** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-004** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-005** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-006** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-007** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-008** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-009** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-010** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-011** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-012** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-013** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-014** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-015** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-016** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-017** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-018** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-019** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-020** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 
 ## Asi Nodes
 
