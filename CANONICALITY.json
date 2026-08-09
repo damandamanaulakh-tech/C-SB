@@ -20,9 +20,40 @@
   "phase2": {
     "status": "ACTIVE",
     "opened_after_phase1_baseline_push": true,
-    "goal": "Adopt Human, AI, Holy Book, ASI and other domain native registries into the Universal Sequence grammar without rewriting native IDs, then bind them to ASI Nodes/Node Brains.",
-    "ai_capability_map_status": "REVIEW_ONLY",
-    "human_full_native_registry_status": "REQUIRED_NOT_PRESENT_IN_CURRENT_LOCAL_PAYLOAD",
+    "goal": "Construct/adopt Human, AI, Wisdom/Holy-Book and ASI registries into the Universal Sequence grammar, bind them to ASI Nodes/Node Brains, and close each batch through R-F-R without rewriting native source truth.",
+    "workstreams": {
+      "P2_HUMAN": {
+        "mode": "ADOPTION_AND_MAPPING",
+        "native_shape": "10 Segments -> 80 Containers -> 2,560 approved parameters",
+        "full_native_registry_status": "REQUIRED_NOT_PRESENT_IN_CURRENT_LOCAL_PAYLOAD"
+      },
+      "P2_AI": {
+        "mode": "NATIVE_CONSTRUCTION",
+        "registry": "registries/ai/AI_RUBRIC_V0.json",
+        "status": "DRAFT_FOR_REVIEW",
+        "runtime_rule": "No LLM API, Transformer or next-token dependency is assumed. Existing AI systems are reverse-engineering evidence only.",
+        "legacy_ai_capability_map_status": "REVIEW_ONLY"
+      },
+      "P2_WISDOM": {
+        "mode": "SOURCE_PRESERVATION_PLUS_DERIVED_WISDOM",
+        "registry": "registries/wisdom/WISDOM_REGISTRY_V0.json",
+        "source_contract": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
+        "status": "DRAFT_FOR_REVIEW",
+        "hard_separation": "SOURCE_TEXT != SOURCE_CLAIM != INTERPRETATION != WISDOM_OBJECT != LAW_OR_GUIDANCE"
+      },
+      "P2_ASI": {
+        "mode": "META_GOVERNANCE_CONSTRUCTION",
+        "registry": "registries/asi/ASI_RUBRIC_V0.json",
+        "asi_node_registry": "registries/asi/asi_node_registry.json",
+        "node_brains_18_21": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+        "status": "DRAFT_FOR_REVIEW"
+      }
+    },
+    "multi_rubric_wiring": {
+      "file": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "status": "WIRED_DRAFT_FOR_RFR",
+      "rule": "Universal Sequence remains the execution grammar; Human supplies human state/capability, AI supplies artificial cognition, Wisdom supplies source-linked contextual principles, and ASI supplies meta-governance."
+    },
     "v2_sequence_review": {
       "status": "LOCK_CANDIDATE_NOT_CANONICAL_YET",
       "source_custody": "raw/sequence/SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.custody.json",
