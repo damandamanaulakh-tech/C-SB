@@ -81,8 +81,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "0dbb13e6c23fcdcd581ff82db0967022e9ba961c070275e137ed6dfcb7c1388d",
-    "size_bytes": 1700
+    "sha256": "910c5787aa93dde98ee9572e584ec8674688d02da6cb5d2014ee8f9eeee23ff7",
+    "size_bytes": 1827
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -123,6 +123,11 @@
     "path": "machine/v2/TYPED_NULL_SEMANTICS.json",
     "sha256": "fecb18023c4a9c3158ff5a0150ea107980b629fe8be860bf987441b9e8ba1f39",
     "size_bytes": 1398
+  },
+  {
+    "path": "machine/v2/CORE_INVARIANTS_V2.json",
+    "sha256": "13f18e68636ce7c1ce71827b00a1b68e256aa4ad0ed81b8b06cf12b20d1aca67",
+    "size_bytes": 3929
   },
   {
     "path": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",

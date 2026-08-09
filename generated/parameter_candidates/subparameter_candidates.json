@@ -1,0 +1,11 @@
+{
+  "status": "GENERATED_REVIEW_ONLY",
+  "rule": "Candidate generation is not approval or canonicalization.",
+  "observation_count": 0,
+  "candidate_count": 0,
+  "non_candidate_count": 0,
+  "error_count": 0,
+  "candidates": [],
+  "non_candidates": [],
+  "errors": []
+}
