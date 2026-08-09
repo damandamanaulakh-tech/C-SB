@@ -95,6 +95,11 @@
     "size_bytes": 11384
   },
   {
+    "path": "raw/session/SESSION_SOURCE_MANIFEST.json",
+    "sha256": "efad6524cc9334a88f6e3bc000b5bf33a49f98d99fc65f18ea81c2c25cf32697",
+    "size_bytes": 2349
+  },
+  {
     "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
     "sha256": "1923417e282b5863bb18cab22aed4bd0d234b676a891f67fa402d4fc8e958d53",
     "size_bytes": 767
