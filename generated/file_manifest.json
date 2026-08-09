@@ -360,6 +360,11 @@
     "size_bytes": 9643
   },
   {
+    "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
+    "sha256": "9a3cb16ff648233ecff6d203d79f0a0ffbacceda222975490246e5542ed7561f",
+    "size_bytes": 1886
+  },
+  {
     "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
     "sha256": "a34286722e477e1f5a4411e16dc801af7c968f7c17bb8752fb1017ec417a8f7c",
     "size_bytes": 3926
