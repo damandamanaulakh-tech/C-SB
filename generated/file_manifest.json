@@ -36,8 +36,8 @@
   },
   {
     "path": "tools/validate_repo.py",
-    "sha256": "f85de750c348184716e7e46c86a8f2384e2f04cbe6732ff8cf2e9bc72fc798ba",
-    "size_bytes": 3396
+    "sha256": "38388726198dba254301bed5d6e16b2fc8b1b1cc2dc86d27d36c3b16b3d63d7f",
+    "size_bytes": 4685
   },
   {
     "path": "tools/relink_and_index.py",
