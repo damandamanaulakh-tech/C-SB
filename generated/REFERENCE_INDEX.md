@@ -93,7 +93,7 @@ _No IDs currently present._
 
 ## Legacy Ai Capabilities
 
-- **AI-CAP-001** → `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **AI-CAP-001** → `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CAP-002** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-003** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-004** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
@@ -105,7 +105,7 @@ _No IDs currently present._
 - **AI-CAP-010** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-011** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-012** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
-- **AI-CAP-013** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CAP-013** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CAP-014** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-015** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-016** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
@@ -138,7 +138,7 @@ _No IDs currently present._
 - **AI-CAP-043** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-044** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-045** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
-- **AI-CAP-046** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **AI-CAP-046** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CAP-047** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-048** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-049** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
@@ -163,8 +163,8 @@ _No IDs currently present._
 - **AI-CAP-068** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 - **AI-CAP-069** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CAP-070** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
-- **AI-CAP-071** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
-- **AI-CAP-072** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **AI-CAP-071** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
+- **AI-CAP-072** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CAP-073** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 - **AI-CAP-074** → `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 
@@ -198,7 +198,7 @@ _No IDs currently present._
 
 ## Ai Container Candidates
 
-- **AI-CON-CAND-001** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-001** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CON-CAND-002** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-003** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-004** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
@@ -209,7 +209,7 @@ _No IDs currently present._
 - **AI-CON-CAND-009** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-010** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-011** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
-- **AI-CON-CAND-012** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-012** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CON-CAND-013** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-014** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-015** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
@@ -233,7 +233,7 @@ _No IDs currently present._
 - **AI-CON-CAND-033** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-034** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-035** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
-- **AI-CON-CAND-036** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
+- **AI-CON-CAND-036** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **AI-CON-CAND-037** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-038** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
 - **AI-CON-CAND-039** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`
@@ -282,7 +282,7 @@ _No IDs currently present._
 
 ## Asi Container Candidates
 
-- **ASI-CON-CAND-001** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
+- **ASI-CON-CAND-001** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `tools/validate_ai_asi_container_candidates.py`
 - **ASI-CON-CAND-002** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 - **ASI-CON-CAND-003** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
 - **ASI-CON-CAND-004** → `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`
