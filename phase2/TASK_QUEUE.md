@@ -1,6 +1,6 @@
 # Phase-2 Active Task Queue
 
-Phase-1 Universal Sequence baseline is closed. Phase-2 is active with four explicit workstreams.
+Phase-1 Universal Sequence baseline is closed. Phase-2 remains active.
 
 ```text
 P2-H  HUMAN
@@ -9,92 +9,309 @@ P2-W  WISDOM / HOLY BOOKS
 P2-S  ASI
         │
         ↓
+BRAIN + ENGINE OPERATIONAL LAYER
+        ↓
 MULTI-RUBRIC INTEGRATION
         ↓
 R-F-R
         ↓
+ADOPTION CLOSURE PACKETS
+        ↓
 PHASE-2 CLOSURE
 ```
 
-## P2-H — Human native registry ingestion
+## Source authority correction
 
-Status: `WAITING_SOURCE`
+Primary operational source for the current Brain + Engine work:
 
-Required input: complete approved Human registry containing all `SEG-xx`, `CON-xxx`, and `SB-ASI-Pxxxx` records.
+`ASI_Brain_Engine_Combined_Corpus_v1.xlsx`
 
-Execution:
+Adoption record:
 
-```text
-RAW LOCK
-→ native hierarchy parse
-→ ID integrity check
-→ source/definition preservation
-→ Sequence-role binding
-→ ASI-Node binding
-→ combination/writeback mapping
-→ orphan test
-→ R-F-R sample tests
-→ Adoption Closure Packet
-```
+`phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 
-No Human parameter may be synthesized to fill a missing row.
-
-Current project materials expose Human container mappings and examples of native parameter IDs, but they do not provide the complete authoritative 2,560-row registry. This task remains blocked by source custody, not by architecture.
-
-## P2-A — Native AI rubric construction
-
-Status: `NATIVE_RUBRIC_V0_CREATED — DECOMPOSITION OPEN`
-
-Native draft: `registries/ai/AI_RUBRIC_V0.json`
-
-Legacy evidence source: `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
-
-The legacy `AI-CAP-001..074` map remains `REVIEW_ONLY`.
-
-Current rule:
+Current approved/evident controlled-test architecture:
 
 ```text
-EXISTING AI / LLM / AGENT / SEARCH / DATABASE /
-CONTROL / PLANNING / SYMBOLIC SYSTEM
-        ↓
-REVERSE ENGINEERING EVIDENCE
-        ↓
-USEFUL FUNCTION
-        ↓
-REMOVE PRODUCT-SPECIFIC IMPLEMENTATION
-        ↓
-SOURCEBORN-NATIVE AI MECHANISM
+10 functional segments
+240 master containers
+3,072 operational parameters
+75 bounded engines
+299 cognitive-source records
+400 Engine→Container relationships
+1,440 Parameter→Engine/Source relationships
+80 activation/termination rule sets
+80 corpus tests
 ```
 
-No LLM API, Transformer, next-token or monolithic-model dependency is assumed.
+User approval/evident status is authoritative for Sourceborn controlled testing. It remains separate from independent external verification.
 
-Current native AI rubric contains `AI-01..AI-25` functional segments.
+---
+
+## P2-H — Human
+
+Status: `SOURCE AVAILABLE — FULL REPO MATERIALIZATION OPEN`
+
+Canonical Human base remains:
+
+```text
+SEG-01..10
+↓
+CON-001..080
+↓
+SB-ASI-P0001..P2560
+```
+
+The earlier `WAITING_SOURCE` status is obsolete: the approved source exists in the uploaded merged/combined corpus. The remaining job is exact text materialization into the repo without renaming or invention.
 
 Next:
 
 ```text
-AI-01..AI-25
-→ containers
-→ implementable mechanisms/parameters
-→ compare AI-CAP-001..074
-→ split/merge/omit/hold decisions
-→ state ownership + memory writeback
+extract exact 2,560 rows
+→ preserve IDs/names/definitions/parents
+→ source hash/custody
 → Sequence bindings
 → ASI-Node bindings
-→ R-F-R tests
 → orphan test
-→ AI Adoption Closure Packet
+→ R-F-R
+→ Human Adoption Closure Packet
 ```
+
+---
+
+## P2-A — AI
+
+Status: `APPROVED SOURCE ADOPTED + BINDINGS ACTIVE — R-F-R OPEN`
+
+Native/source layers now include:
+
+- `AI-CAP-001..074` — approved/evident source capability families for controlled testing.
+- `AI-NEW-001..064` — approved/evident AI-only records.
+- `AI-01..AI-25` — Phase-2 semantic AI rubric used as an additive functional decomposition.
+- `AI-CON-CAND-001..040` — retained only as source-supported Phase-2 crosswalk candidates; not allowed to override the approved Brain + Engine source.
+
+Files:
+
+- `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- `generated/registry_views/ai_only_64_phase2_bindings_v1.json`
+- `registries/ai/AI_RUBRIC_V0.json`
+
+AI-only binding rule:
+
+```text
+APPROVED AI-NEW RECORD
+        ↓
+source AI-CAP lineage
+        ↓
+AI functional segments / AI crosswalk
+        +
+ASI governance interfaces
+        +
+Sequence roles
+        +
+ASI Nodes
+```
+
+Source AI-NEW identity is never rewritten by the mapping.
+
+No LLM API / Transformer / next-token runtime dependency is introduced.
+
+Next AI sequence:
+
+```text
+AI-NEW-001..064
+→ R-F-R sample execution
+→ check state ownership / memory writes / threshold and barrier behavior
+→ detect orphan or over-broad mappings
+→ repair through new mapping version only
+→ AI Adoption Closure Packet when clean
+```
+
+---
+
+## P2-S — ASI / Brain + Engine
+
+Status: `SOURCE OPERATIONAL LAYER ACTIVE — NODE ROUTING VALIDATED — R-F-R OPEN`
+
+### ASI semantic/meta layer
+
+- `ASI-01..ASI-20`
+- `ASI-NODE-00..21`
+- `NB-00..21`
+
+### Approved Engine layer
+
+- 75 bounded engines in `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`
+- exact Engine→Segment source map in `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`
+
+### Approved operational container layer
+
+```text
+CON-161..240
+= 80 containers
+= E01..E08 repeated across 10 segments
+```
+
+Operational elements:
+
+```text
+E01 State and Signal Intake
+E02 Pattern and Context Integration
+E03 Prediction and Counterfactual Simulation
+E04 Decision and Priority Arbitration
+E05 Action and Execution Control
+E06 Verification and Uncertainty Control
+E07 Memory and Learning Integration
+E08 Governance, Safety and Recovery
+```
+
+Phase-2 AI/ASI role classification:
+
+```text
+E01  AI primary
+E02  AI primary
+E03  AI primary
+E04  shared AI + ASI
+E05  AI execution under ASI permission
+E06  shared AI + ASI
+E07  shared AI + ASI
+E08  ASI primary
+```
+
+Machine file:
+
+`machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`
+
+### Approved operational parameters
+
+```text
+SB-ASI-P2593..P3072
+= 480 parameters
+= six per CON-161..240
+```
+
+Six source operations per container:
+
+```text
+1 Activation Trigger
+2 Input Normalisation
+3 Cross-Engine Synthesis
+4 State and Confidence Update
+5 Failure and Contradiction Response
+6 Validated Commit and Feed-Forward
+```
+
+Generated registry:
+
+`generated/registry_views/operational_subparameters_2593_3072_v1.json`
+
+### Exact source relationships
+
+`generated/registry_views/brain_engine_relationships_compact_v1.json`
+
+Losslessly represents:
+
+```text
+400 Engine→Container relations
+1,440 Parameter→Engine/Source relations
+```
+
+Every operational container has exactly five Engine relations; each of its six operational parameters uses the same three Engine/source execution-support relations.
+
+### Engine→ASI Node binding
+
+`generated/registry_views/engine_75_phase2_asi_node_bindings_v1.json`
+
+Binding is derived from actual source container use:
+
+```text
+ENGINE
+↓
+SOURCE Engine→Container relation
+↓
+container E01..E08 role
+↓
+Phase-2 operational spine
+↓
+ASI Nodes
+```
+
+It is not guessed from Engine names.
+
+Ten Engine Master records are not used in the source 400 Engine→Container map and remain explicit open gaps rather than being force-fit:
+
+- `ENG-ARD-002`
+- `ENG-URR-001`
+- `ENG-SB-002`
+- `ENG-SB-003`
+- `ENG-SB-004`
+- `ENG-WLD-006`
+- `ENG-SUP-005`
+- `ENG-SUP-006`
+- `ENG-SUP-007`
+- `ENG-SUP-008`
+
+Next ASI sequence:
+
+```text
+source-bound 65 Engines
+→ Node-routing R-F-R tests
+→ verify barriers / authority / writeback / closure
+
+10 unbound Engines
+→ preserve as GAP
+→ do not assign operational containers until source/test evidence exists
+```
+
+---
+
+## P2-X — Approved Expansion Layer CON-081..160
+
+Status: `SOURCE AVAILABLE — MATERIALIZATION / CLASSIFICATION OPEN`
+
+The merged source contains approved/evident `CON-081..160`.
+
+Known structure:
+
+```text
+CON-081..102
+mostly segment-bound Human / Human-AI expansion
+
+CON-103..120
+named CROSS-domain control / evidence / uncertainty / engine / audit structures
+
+CON-121..160
+source names remain Extended Capability Node 121..160
+```
+
+Do not invent meanings for `CON-121..160` merely to obtain coverage.
+
+Approved expansion parameters currently present in the merged source:
+
+`SB-ASI-P2561..P2592` (32 records).
+
+Next:
+
+```text
+materialize exact CON-081..160 source rows
+→ materialize P2561..P2592
+→ classify AI / ASI / Human / Shared only where source + Sequence support it
+→ preserve generic CON-121..160 as unresolved where appropriate
+→ R-F-R
+```
+
+---
 
 ## P2-W — Wisdom / Holy Books
 
-Status: `WISDOM_REGISTRY_V0 + SOURCE_CONTRACT CREATED — SOURCE INGESTION OPEN`
+Status: `WISDOM REGISTRY + SOURCE CONTRACT WIRED — FIRST SOURCE BATCH OPEN`
 
-Files:
 - `registries/wisdom/WISDOM_REGISTRY_V0.json`
 - `registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json`
+- `ASI-NODE-18`
+- `ASI-NODE-19`
 
-Hard separation:
+Hard invariant:
 
 ```text
 SOURCE TEXT
@@ -105,171 +322,104 @@ SOURCE TEXT
 != CURRENT APPLICATION
 ```
 
-Current Wisdom registry contains `W-01..W-15` initial lanes.
+Next: bounded source ingestion → source claims → Sequence reconstruction → counter-cases → Wisdom synthesis → R-F-R.
 
-Next:
+---
 
-```text
-bounded Holy-Book/narrative source batch
-→ raw lock
-→ source claims
-→ event/rule/promise/symbol extraction
-→ Sequence reconstruction
-→ interpretation records
-→ counter-case comparison
-→ applicability boundaries
-→ Wisdom candidates
-→ ASI-NODE-18 / 19 test
-→ R-F-R
-→ Wisdom batch Closure Packet
-```
+## P2-I — Multi-rubric integration
 
-## P2-S — ASI rubric + Node Brain instantiation
-
-Status: `ASI_RUBRIC_V0 CREATED — ASI-NODE-00..21 WIRED`
-
-Files:
-- `registries/asi/ASI_RUBRIC_V0.json`
-- `registries/asi/asi_node_registry.json`
-- `registries/asi/node_brains_v0.json`
-- `registries/asi/node_brains/NODE_BRAINS_18_21.json`
-
-Base Node Brains `NB-00..17` remain preserved.
-
-New Node Brains:
-- `NB-18` — Holy-Book / Wisdom Source Interpreter
-- `NB-19` — Wisdom / Principle Synthesis
-- `NB-20` — AI Rubric / Cognitive Mechanism Router
-- `NB-21` — ASI Rubric / Meta-Governor
-
-Current ASI rubric contains `ASI-01..ASI-20` meta-governance segments.
-
-Next:
-
-```text
-ASI-01..ASI-20
-→ meta-containers / parameters
-→ bind to ASI-NODE-00..21
-→ complete all Node Brain cross-domain bindings
-→ execute sample conflict / priority / provenance / closure cases
-→ falsify contracts
-→ revise only falsified contracts
-→ ASI Adoption Closure Packet
-```
-
-## P2-I — Multi-rubric wiring
-
-Status: `WIRED_DRAFT_FOR_RFR`
-
-Machine-readable file: `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`
-
-Runtime:
+Status: `WIRED — LIVE R-F-R TESTING OPEN`
 
 ```text
 SEQUENCE NODE / EDGE
         ↓
-ASI-NODE-06 MULTI-RUBRIC ROUTER
+ASI-NODE-06
         │
-        ├── HUMAN activation/state
-        ├── AI cognition demand
-        ├── WISDOM/source demand
-        └── ASI governance demand
+        ├── HUMAN
+        ├── AI
+        ├── WISDOM
+        └── ASI
         ↓
-specialist ASI Nodes
+AI mechanism / bounded Engine / Wisdom service / governance service
         ↓
-conflict / arbitration where required
-        ↓
-trigger + threshold
-        ↓
-barrier / dependency
+threshold + dependency + barrier
         ↓
 execution
         ↓
-result / entity outcome / trace
+verification
+        ↓
+writeback if allowed
         ↓
 R-F-R
         ↓
-closure
+closure / new Sequence
 ```
 
-Next integration tests must include at least:
+Required integration tests remain:
 
 1. Human + AI without Wisdom.
 2. Human + Wisdom without artificial action.
 3. AI + ASI governance conflict.
 4. Human + AI + Wisdom + ASI on the same Sequence node.
-5. Contradictory Wisdom/source cases.
-6. Actor View restricting global knowledge.
-7. Local closure vs higher-scope closure.
-8. Barrier blocked by an unaccepted required return.
+5. Contradictory source/Wisdom cases.
+6. Actor View restrictions.
+7. Local vs higher-scope closure.
+8. Barrier blocked by unaccepted required return.
+9. Engine failure → repair Sub-Sequence → return.
+10. AI-NEW control parameter blocked by ASI authority.
 
-## P2-G — Cross-reference/document generator
+---
 
-Status: `ACTIVE_AUTOGENERATION`
+## P2-G — Generator / self-relinker
 
-- `tools/assemble_sources.py`
-- `tools/generate_registry_views.py`
-- `tools/build_ai_candidate_registry.py`
-- `tools/relink_and_index.py`
-- `tools/validate_repo.py`
-- `.github/workflows/relink-validate.yml`
+Status: `ACTIVE + VALIDATED`
 
-The relinker now indexes:
+Current pipeline includes:
 
 ```text
-SEG-xx
-CON-xxx
-SB-ASI-Pxxxx
-H-COMB-xx
-AI-CAP-xxx legacy review IDs
-AI-01..AI-25 native rubric IDs
-W-01..W-15 Wisdom lanes
-ASI-01..ASI-20 meta-rubric IDs
-ASI-NODE-00..21 service nodes
-NB-00..21 Node Brains
-AI/ASI/Wisdom registry IDs
+assemble sources
+→ registry views
+→ AI candidate review view
+→ V2 rubric views
+→ operational P2593..P3072 generation
+→ exact 400/1440 Brain-Engine relationship generation
+→ AI-NEW-001..064 Phase-2 binding generation
+→ Engine→ASI-Node binding generation
+→ relink all known IDs
+→ validate AI/ASI candidate crosswalk
+→ validate Brain+Engine source adoption
+→ validate locked invariants
+→ commit generated outputs
 ```
 
-The workflow:
+The relinker now indexes Human/Sourceborn parameters, AI-CAP, AI-NEW, AI/ASI rubric IDs, AI/ASI candidate containers, Wisdom lanes, ASI Nodes, Node Brains, Engines, activation IDs, E01..E08 and governance IDs.
+
+---
+
+## Current critical path
 
 ```text
-ASSEMBLE CANONICAL SOURCES
-↓
-BUILD REGISTRY VIEWS
-↓
-BUILD AI NATIVE CANDIDATE VIEW
-↓
-RELINK KNOWN IDS
-↓
-VALIDATE LOCKED INVARIANTS
-↓
-COMMIT GENERATED OUTPUTS
-```
-
-## Current Phase-2 critical path
-
-```text
-P2-H
-waits for authoritative 2,560-row Human source
-
+P2-X
+CON-081..160 exact source materialization
++
+P2561..P2592 materialization/classification
+        ↓
 P2-A
-AI rubric v0 exists
-→ mechanism/container decomposition now begins
-
-P2-W
-Wisdom/source contracts exist
-→ first bounded source ingestion now begins
-
+AI-NEW-001..064 R-F-R
+        ↓
 P2-S
-ASI rubric v0 + 22 ASI Nodes exist
-→ meta-parameter decomposition + integration tests now begin
-
+65 source-bound Engine routing R-F-R
++ 10 Engine gaps preserved
+        ↓
+P2-W
+first bounded Wisdom source batch
+        ↓
 P2-I
-four-rubric wiring exists
-→ R-F-R integration tests required
-
-THEN
-orphan tests
-→ adoption closure packets
-→ Phase-2 closure
+full multi-rubric integration tests
+        ↓
+orphan / contradiction / proof-debt audit
+        ↓
+adoption closure packets
+        ↓
+Phase-2 closure
 ```
