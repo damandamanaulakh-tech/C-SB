@@ -84,7 +84,14 @@ _No IDs currently present._
 
 _No IDs currently present._
 
-## Ai Capabilities
+## Human Combinations
+
+- **H-COMB-01** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
+- **H-COMB-02** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
+- **H-COMB-03** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
+- **H-COMB-04** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
+
+## Legacy Ai Capabilities
 
 - **AI-CAP-001** → `phase1/PHASE1_CLOSURE_PACKET.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/AI_RUBRIC_V0.json`
 - **AI-CAP-002** → `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
@@ -161,6 +168,75 @@ _No IDs currently present._
 - **AI-CAP-073** → `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md`, `phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
 - **AI-CAP-074** → `phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
 
+## Ai Rubric Segments
+
+- **AI-01** → `registries/ai/AI_RUBRIC_V0.json`, `tools/validate_repo.py`
+- **AI-02** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-03** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-04** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-05** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-06** → `registries/ai/AI_RUBRIC_V0.json`
+- **AI-07** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-08** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-09** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-10** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-11** → `registries/ai/AI_RUBRIC_V0.json`
+- **AI-12** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-13** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-14** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-15** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-16** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-17** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-18** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-19** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-20** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-21** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-22** → `registries/ai/AI_RUBRIC_V0.json`
+- **AI-23** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **AI-24** → `registries/ai/AI_RUBRIC_V0.json`
+- **AI-25** → `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
+
+## Wisdom Lanes
+
+- **W-01** → `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
+- **W-02** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-03** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-04** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-05** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-06** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-07** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-08** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-09** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-10** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-11** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-12** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-13** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-14** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-15** → `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
+
+## Asi Rubric Segments
+
+- **ASI-01** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
+- **ASI-02** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-03** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-04** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-05** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-06** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-07** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-08** → `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-09** → `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-10** → `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-11** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-12** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-13** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-14** → `registries/asi/ASI_RUBRIC_V0.json`
+- **ASI-15** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-16** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-17** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-18** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-19** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-20** → `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
+
 ## Asi Nodes
 
 - **ASI-NODE-00** → `README.md`, `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `phase2/README.md`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`, `tools/validate_repo.py`
@@ -186,9 +262,33 @@ _No IDs currently present._
 - **ASI-NODE-20** → `README.md`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
 - **ASI-NODE-21** → `README.md`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `phase2/README.md`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains/NODE_BRAINS_18_21.json`
 
-## Human Combinations
+## Node Brains
 
-- **H-COMB-01** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
-- **H-COMB-02** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
-- **H-COMB-03** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
-- **H-COMB-04** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
+- **NB-00** → `phase2/TASK_QUEUE.md`, `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`, `tools/validate_repo.py`
+- **NB-01** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-02** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-03** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-04** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-05** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-06** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-07** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-08** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-09** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-10** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-11** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-12** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-13** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-14** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-15** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-16** → `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-17** → `phase2/TASK_QUEUE.md`, `phase2/asi/ASI_NODE_BRAINS_V0.md`, `registries/asi/node_brains_v0.json`
+- **NB-18** → `registries/asi/node_brains/NODE_BRAINS_18_21.json`, `tools/validate_repo.py`
+- **NB-19** → `registries/asi/node_brains/NODE_BRAINS_18_21.json`
+- **NB-20** → `registries/asi/node_brains/NODE_BRAINS_18_21.json`
+- **NB-21** → `registries/asi/node_brains/NODE_BRAINS_18_21.json`, `tools/validate_repo.py`
+
+## Rubric Registry Ids
+
+- **AI-RUBRIC-V0** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-RUBRIC-V0** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **WISDOM-REGISTRY-V0** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `registries/asi/asi_node_registry.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
