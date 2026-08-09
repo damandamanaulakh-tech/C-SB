@@ -22,6 +22,17 @@
     "opened_after_phase1_baseline_push": true,
     "goal": "Adopt Human, AI, Holy Book, ASI and other domain native registries into the Universal Sequence grammar without rewriting native IDs, then bind them to ASI Nodes/Node Brains.",
     "ai_capability_map_status": "REVIEW_ONLY",
-    "human_full_native_registry_status": "REQUIRED_NOT_PRESENT_IN_CURRENT_LOCAL_PAYLOAD"
+    "human_full_native_registry_status": "REQUIRED_NOT_PRESENT_IN_CURRENT_LOCAL_PAYLOAD",
+    "v2_sequence_review": {
+      "status": "LOCK_CANDIDATE_NOT_CANONICAL_YET",
+      "source_custody": "raw/sequence/SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.custody.json",
+      "canonical_graph_candidate": "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
+      "rubric_registry": "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
+      "parameter_split_contract": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
+      "first_class_records": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+      "typed_nulls": "machine/v2/TYPED_NULL_SEMANTICS.json",
+      "services": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
+      "adoption_rule": "V2 may supersede the Phase-1 canonical execution grammar only through an explicit V2 adoption/closure packet; no historical instance is rewritten."
+    }
   }
 }
