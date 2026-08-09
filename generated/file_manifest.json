@@ -350,6 +350,11 @@
     "size_bytes": 1038
   },
   {
+    "path": "registries/asi/ASI_RUBRIC_V0.json",
+    "sha256": "7b54459a0d4d13789eb67cc1cd153d19a74343a299dffa43a20c0af9e08589cb",
+    "size_bytes": 4673
+  },
+  {
     "path": "registries/ai/STATUS.json",
     "sha256": "38aa4182eb09989ec3d276fa040eb5f1167a1758c99fe22497a4bbd3b9a3b638",
     "size_bytes": 850
