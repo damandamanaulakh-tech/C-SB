@@ -1,0 +1,34 @@
+{
+  "checkpoint_id":"P2-AI-ASI-STRUCTURAL-RFR-CHECKPOINT-V1",
+  "checkpoint_type":"RFR_CLOSURE_PACKET_FOR_STRUCTURAL_MAPPING_SCOPE",
+  "phase":"PHASE_2",
+  "phase_status":"ACTIVE",
+  "checkpoint_status":"CLOSED_SUCCESS_WITH_EXPECTED_SOURCE_GAPS",
+  "source_report":"generated/tests/P2_AI_ASI_STRUCTURAL_RFR_V1.json",
+  "findings_view":"generated/tests/P2_AI_ASI_STRUCTURAL_RFR_FINDINGS_V1.json",
+  "result": {
+    "ai_only":{"total":64,"pass":64,"findings":0,"fail":0},
+    "engines":{"total":75,"source_bound_pass":65,"expected_source_gap":10,"fail":0},
+    "named_cross_expansion":{"total":18,"pass":18,"findings":0,"fail":0}
+  },
+  "repairs_applied": [
+    "AI-NEW-005 Persistent-memory retrieval control -> ASI-11 governance",
+    "AI-NEW-011 Tool selection and authorization -> ASI-08/13 governance",
+    "AI-NEW-018 Prompt-injection isolation -> ASI-02/07/08/18 governance",
+    "AI-NEW-033 Hallucination detection -> ASI-02/09/10/18 governance",
+    "AI-NEW-034 Tool-hallucination detection -> ASI-02/08/09/10/18 governance",
+    "AI-NEW-048 Cyber-capability gating -> ASI-07/08/13 governance",
+    "AI-NEW-049 Biological-capability gating -> ASI-07/08/13 governance"
+  ],
+  "repair_rule":"Repairs were additive mapping changes only. No approved AI-NEW source identity/name/structural level/AI-CAP lineage was modified.",
+  "expected_engine_gaps":[
+    "ENG-ARD-002","ENG-URR-001","ENG-SB-002","ENG-SB-003","ENG-SB-004","ENG-WLD-006","ENG-SUP-005","ENG-SUP-006","ENG-SUP-007","ENG-SUP-008"
+  ],
+  "gap_rule":"These Engines have valid Engine Master and Engine->Segment source records but no use in the source 400 Engine->Container map. They remain unbound until source or behavioral test evidence supplies a legal operational relation.",
+  "scope_boundary":"Structural closure proves source custody, lineage, mapping and routing integrity only. It does not prove cognitive quality, external truth, Engine implementation correctness, or action safety.",
+  "next_sequences":[
+    "P2-BEHAVIORAL-RFR-AI-AUTHORIZATION-01",
+    "P2-BEHAVIORAL-RFR-ENGINE-REPAIR-01",
+    "P2-MULTI-RUBRIC-INTEGRATION-TEST-01"
+  ]
+}
