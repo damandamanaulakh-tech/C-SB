@@ -1,0 +1,160 @@
+{
+  "status": "P2_BINDING_SCHEMA_V0_NOT_NATIVE_ADOPTION",
+  "rule": "Bindings apply to AI candidate layers. They do not approve any source AI-CAP family or mutate Human mappings.",
+  "bindings": {
+    "CORE_REASONING": {
+      "primary_sequence_roles": ["STATE_INTERPRETATION","HYPOTHESIS_GENERATION","QUALIFICATION","ALTERNATIVE_GENERATION","CAUSAL_LOGICAL_INFERENCE"],
+      "secondary_sequence_roles": ["TESTING","VERIFICATION","PASS3_FALSIFICATION"],
+      "state_owned_by": ["RUNTIME_CONTEXT","WORKING_STATE"],
+      "memory_read": ["WORKING_MEMORY","RETRIEVED_KNOWLEDGE","PATH_MEMORY"],
+      "memory_write": ["TRACE","CANDIDATE_INFERENCE"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-02","ASI-NODE-07","ASI-NODE-08","ASI-NODE-16"]
+    },
+    "KNOWLEDGE_RETRIEVAL": {
+      "primary_sequence_roles": ["PROVENANCE","DEPENDENCY_SOURCE","AVAILABILITY","EVIDENCE_GATHERING","MEMORY_RETRIEVAL"],
+      "secondary_sequence_roles": ["QUALIFICATION","MEMORY_VALIDATION"],
+      "state_owned_by": ["RETRIEVAL_STATE","EXTERNAL_SOURCE_STATE"],
+      "memory_read": ["SEMANTIC_MEMORY","EPISODIC_MEMORY","EXTERNAL_MEMORY","SOURCE_INDEX"],
+      "memory_write": ["EVIDENCE_LEDGER","RETRIEVAL_TRACE"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-01","ASI-NODE-07","ASI-NODE-12"]
+    },
+    "MEMORY_STATE": {
+      "primary_sequence_roles": ["TRACE_MEMORY","RETRIEVAL","RE_ENTRY_REFERENCE","CONTEXT_RECONSTRUCTION"],
+      "secondary_sequence_roles": ["COMPRESSION","INHERITANCE","NEXT_SEQUENCE_SEED"],
+      "state_owned_by": ["WORKING_MEMORY","EXTERNAL_PERSISTENT_MEMORY"],
+      "memory_read": ["TRACE","FACT_MEMORY","PATH_MEMORY","CONTEXT_MEMORY","CLOSURE_PACKET"],
+      "memory_write": ["MEMORY_FABRIC"],
+      "durable_write_default": "POLICY_GATED",
+      "asi_nodes": ["ASI-NODE-12","ASI-NODE-13","ASI-NODE-14"]
+    },
+    "PERCEPTION_GROUNDING": {
+      "primary_sequence_roles": ["ENVIRONMENT_OBSERVATION","STATE_ESTIMATION","ENCOUNTER","COUPLING","GROUNDING"],
+      "secondary_sequence_roles": ["QUALIFICATION","RELATION_MAPPING"],
+      "state_owned_by": ["OBSERVATION_STATE","RUNTIME_CONTEXT"],
+      "memory_read": ["CURRENT_CONTEXT","WORLD_MODEL"],
+      "memory_write": ["OBSERVATION_TRACE"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-02","ASI-NODE-07","ASI-NODE-09"]
+    },
+    "LANGUAGE_COMMUNICATION": {
+      "primary_sequence_roles": ["INFORMATION_COUPLING","COMMUNICATION_EFFECT","OUTPUT","OBSERVER_WRITER"],
+      "secondary_sequence_roles": ["EXPLANATION","NARRATIVE_MEMORY"],
+      "state_owned_by": ["RUNTIME_CONTEXT","OUTPUT_STATE"],
+      "memory_read": ["WORKING_MEMORY","ROLE_CONTEXT","STYLE_CONSTRAINTS"],
+      "memory_write": ["OUTPUT_TRACE","NARRATIVE_CANDIDATE"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-09","ASI-NODE-10","ASI-NODE-15"]
+    },
+    "PLANNING_CONTROL": {
+      "primary_sequence_roles": ["DRIVER_TO_TARGET","DEPENDENCY_PLANNING","ALTERNATIVE_GENERATION","SELECTION","DECISION","LONG_HORIZON_EXECUTION"],
+      "secondary_sequence_roles": ["NEXT_SEQUENCE_SEED","RESOURCE_PLANNING","CONVERGENCE_PLANNING"],
+      "state_owned_by": ["PLAN_STATE","RUNTIME_CONTROL"],
+      "memory_read": ["GOAL_STATE","RULE_MEMORY","PATH_MEMORY","RESOURCE_STATE"],
+      "memory_write": ["PLAN_TRACE","DECISION_LEDGER"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-03","ASI-NODE-04","ASI-NODE-05","ASI-NODE-08","ASI-NODE-17"]
+    },
+    "TOOL_EXECUTION": {
+      "primary_sequence_roles": ["ACCESS","ENCOUNTER","COUPLING","EXECUTION","OUTPUT","RETURN"],
+      "secondary_sequence_roles": ["AVAILABILITY","RESULT"],
+      "state_owned_by": ["TOOL_STATE","EXTERNAL_SYSTEM_STATE"],
+      "memory_read": ["EXECUTION_PLAN","TOOL_SCHEMA","PERMISSIONS"],
+      "memory_write": ["TOOL_TRACE","RESULT_TRACE"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-05","ASI-NODE-09","ASI-NODE-10","ASI-NODE-11"]
+    },
+    "SOCIAL_MODELING": {
+      "primary_sequence_roles": ["RELATION_MAP","ACTOR_VIEW","BELIEF_TRACKING","SOCIAL_PREDICTION","MULTI_AGENT_COORDINATION"],
+      "secondary_sequence_roles": ["ALTERNATIVE","IMPACT","CONVERGENCE"],
+      "state_owned_by": ["VIEW_STATE","RELATION_STATE"],
+      "memory_read": ["ACTOR_VIEW_MEMORY","SOCIAL_CONTEXT","INTERACTION_TRACE"],
+      "memory_write": ["VIEW_MAP","SOCIAL_PREDICTION_TRACE"],
+      "durable_write_default": "POLICY_GATED",
+      "asi_nodes": ["ASI-NODE-02","ASI-NODE-03","ASI-NODE-08","ASI-NODE-17"]
+    },
+    "VALUE_RISK_SAFETY": {
+      "primary_sequence_roles": ["RULE","PRIORITY","QUALIFICATION","RISK_EVALUATION","BARRIER","ACTION_SAFETY"],
+      "secondary_sequence_roles": ["VERIFICATION","COUNTER_SEQUENCE"],
+      "state_owned_by": ["RISK_STATE","POLICY_STATE"],
+      "memory_read": ["RULE_MEMORY","POLICY","RISK_MODEL","CONTEXT"],
+      "memory_write": ["SAFETY_TRACE","RISK_RESULT"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-03","ASI-NODE-04","ASI-NODE-05","ASI-NODE-07","ASI-NODE-11","ASI-NODE-17"]
+    },
+    "SELF_MONITORING": {
+      "primary_sequence_roles": ["TESTING","ERROR_DETECTION","SELF_AUDIT","VERIFICATION","FEEDBACK","MEMORY_VALIDATION"],
+      "secondary_sequence_roles": ["REPAIR_REQUEST","PASS3_FALSIFICATION"],
+      "state_owned_by": ["MONITOR_STATE","EVALUATION_STATE"],
+      "memory_read": ["TRACE","EXPECTED_RESULT","ACTUAL_RESULT","CONFIDENCE"],
+      "memory_write": ["ERROR_LEDGER","VERIFICATION_LEDGER","FAILURE_MEMORY"],
+      "durable_write_default": "POLICY_GATED",
+      "asi_nodes": ["ASI-NODE-07","ASI-NODE-10","ASI-NODE-11","ASI-NODE-12","ASI-NODE-16"]
+    },
+    "LEARNING_ADAPTATION": {
+      "primary_sequence_roles": ["FEEDBACK_UPDATE","MEMORY_UPDATE","PATH_ADAPTATION","TRANSFER","LEARNING_TO_LEARN"],
+      "secondary_sequence_roles": ["INHERITANCE","NEXT_SEQUENCE_BASELINE"],
+      "state_owned_by": ["RUNTIME_CONTEXT","EXTERNAL_MEMORY","CONFIGURATION_STATE"],
+      "memory_read": ["FAILURE_MEMORY","PATH_MEMORY","RESULT_HISTORY"],
+      "memory_write": ["ALLOWED_RUNTIME_MEMORY","TRAINING_CANDIDATE"],
+      "durable_write_default": "EXPLICIT_WRITEBACK_POLICY_REQUIRED",
+      "asi_nodes": ["ASI-NODE-12","ASI-NODE-13","ASI-NODE-14","ASI-NODE-16"]
+    },
+    "TRAINING_OPTIMIZATION": {
+      "primary_sequence_roles": ["TRAINING_SEQUENCE","OPTIMIZATION","META_LEARNING"],
+      "secondary_sequence_roles": ["EVALUATION","MODEL_VERSION_CREATION"],
+      "state_owned_by": ["MODEL_WEIGHTS","OPTIMIZER_STATE","TRAINING_DATA_STATE"],
+      "memory_read": ["TRAINING_CORPUS","EVALUATION_RESULTS","TRAINING_HISTORY"],
+      "memory_write": ["MODEL_WEIGHTS","MODEL_VERSION","TRAINING_TRACE"],
+      "durable_write_default": true,
+      "runtime_boundary": "MUST_RUN_AS_SEPARATE_SEQUENCE_FROM_NORMAL_INFERENCE_RUNTIME",
+      "asi_nodes": ["ASI-NODE-12","ASI-NODE-13","ASI-NODE-15","ASI-NODE-16"]
+    },
+    "SECURITY_ROBUSTNESS": {
+      "primary_sequence_roles": ["THREAT_DETECTION","ADVERSARIAL_QUALIFICATION","BARRIER","ATTACK_RESISTANCE","SECURITY_VERIFICATION"],
+      "secondary_sequence_roles": ["COUNTER_SEQUENCE","RECOVERY"],
+      "state_owned_by": ["SECURITY_STATE","SYSTEM_CONTROL"],
+      "memory_read": ["THREAT_MODEL","POLICY","SECURITY_HISTORY"],
+      "memory_write": ["SECURITY_TRACE","INCIDENT_MEMORY"],
+      "durable_write_default": "POLICY_GATED",
+      "asi_nodes": ["ASI-NODE-04","ASI-NODE-05","ASI-NODE-07","ASI-NODE-11","ASI-NODE-17"]
+    },
+    "EVALUATION_OVERSIGHT": {
+      "primary_sequence_roles": ["TESTING","EVIDENCE_INTERPRETATION","VERIFICATION","OVERSIGHT","PASS3_AUDIT"],
+      "secondary_sequence_roles": ["PATTERN_VALIDATION","MEMORY_VALIDATION"],
+      "state_owned_by": ["EVALUATION_STATE","EVIDENCE_LEDGER"],
+      "memory_read": ["EVIDENCE","RESULTS","TRACE","BENCHMARK_STATE"],
+      "memory_write": ["EVALUATION_LEDGER","AUDIT_TRACE"],
+      "durable_write_default": true,
+      "asi_nodes": ["ASI-NODE-07","ASI-NODE-11","ASI-NODE-15","ASI-NODE-16","ASI-NODE-17"]
+    },
+    "SYSTEM_RELIABILITY": {
+      "primary_sequence_roles": ["PERSISTENCE","FAILURE_DETECTION","RECOVERY","REPAIR_SEQUENCE","QUALITY_ASSURANCE"],
+      "secondary_sequence_roles": ["VERIFICATION","CLOSURE_READINESS"],
+      "state_owned_by": ["SYSTEM_HEALTH_STATE","OPERATIONS_STATE"],
+      "memory_read": ["FAILURE_HISTORY","HEALTH_METRICS","TRACE"],
+      "memory_write": ["INCIDENT_TRACE","RELIABILITY_MEMORY"],
+      "durable_write_default": true,
+      "asi_nodes": ["ASI-NODE-05","ASI-NODE-10","ASI-NODE-11","ASI-NODE-12","ASI-NODE-14","ASI-NODE-17"]
+    },
+    "POLICY_OUTPUT_CONTROL": {
+      "primary_sequence_roles": ["CONSTRAINT","QUALIFICATION","DECISION_INHIBITION","OUTPUT_CONTROL","REFUSAL_FALLBACK"],
+      "secondary_sequence_roles": ["VERIFICATION","DISCLOSURE"],
+      "state_owned_by": ["POLICY_STATE","OUTPUT_CONTROL_STATE"],
+      "memory_read": ["POLICY","ROLE_CONSTRAINTS","OUTPUT_CONTEXT"],
+      "memory_write": ["POLICY_DECISION_TRACE"],
+      "durable_write_default": false,
+      "asi_nodes": ["ASI-NODE-03","ASI-NODE-04","ASI-NODE-08","ASI-NODE-09","ASI-NODE-11","ASI-NODE-17"]
+    },
+    "COMPOSITE_OUTCOME": {
+      "primary_sequence_roles": ["RESULT_SET","IMPACT","EVENT_WEIGHT","SYSTEM_OUTCOME"],
+      "secondary_sequence_roles": ["PATTERN","LAW_CANDIDATE","META_EVALUATION"],
+      "state_owned_by": ["AGGREGATE_EVALUATION_STATE"],
+      "memory_read": ["MULTIPLE_CLOSURE_PACKETS","RESULT_HISTORY"],
+      "memory_write": ["COMPOSITE_METRIC","PATTERN_CANDIDATE"],
+      "durable_write_default": true,
+      "asi_nodes": ["ASI-NODE-10","ASI-NODE-15","ASI-NODE-16","ASI-NODE-17"]
+    }
+  }
+}
