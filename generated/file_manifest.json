@@ -80,6 +80,11 @@
     "size_bytes": 7385
   },
   {
+    "path": "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
+    "sha256": "cbaaa05a5eda0e2fad67fd0b301c18a686624b0d35ffedf4e247c9587404c776",
+    "size_bytes": 20397
+  },
+  {
     "path": "machine/vocab/core_vocab.json",
     "sha256": "662c92faa776ceda55f86f43414fc9280b5141bbf9dfdd86047f4a9b7c0f241a",
     "size_bytes": 1321
