@@ -1,0 +1,47 @@
+{
+  "project": "Sourceborn ASI",
+  "repository": "damandamanaulakh-tech/C-SB",
+  "phase1": {
+    "status": "CLOSED",
+    "closure_basis": [
+      "Universal Sequence grammar consolidated",
+      "Machine execution architecture defined",
+      "R-F-R validation locked",
+      "Barrier/no-reopen/no-in-place-loop invariants locked",
+      "Human adoption adapter defined",
+      "AI capability family map preserved as REVIEW ONLY"
+    ]
+  },
+  "phase2": {
+    "status": "ACTIVE",
+    "opened": "2026-08-09",
+    "objective": "Define/adopt Human, AI, Holy Book, ASI and other domain parameters/containers/elements against Sequence without mutating native registries.",
+    "workstreams": [
+      {
+        "id": "P2-HUMAN",
+        "status": "WAITING_NATIVE_2560_REGISTRY",
+        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node bindings."
+      },
+      {
+        "id": "P2-AI",
+        "status": "REVIEW_MAP_AVAILABLE",
+        "next": "Review AI-CAP-001..074; approve/rename/split/merge/omit; then create native AI registry and bindings."
+      },
+      {
+        "id": "P2-ASI",
+        "status": "SERVICE_REGISTRY_SEEDED",
+        "next": "Define each ASI Node Brain inputs/outputs/memory/permissions/contracts."
+      },
+      {
+        "id": "P2-HOLYBOOKS",
+        "status": "SCHEMA_READY",
+        "next": "Ingest sources with source-text vs extracted-event vs interpretation separation."
+      },
+      {
+        "id": "P2-GENERATOR",
+        "status": "BOOTSTRAPPED",
+        "next": "Use registry index generator to relink IDs and produce cross-reference docs."
+      }
+    ]
+  }
+}
