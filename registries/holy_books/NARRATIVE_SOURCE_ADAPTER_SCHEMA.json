@@ -1,0 +1,37 @@
+{
+  "status": "P2_SCHEMA_ACTIVE",
+  "purpose": "Keep source text, extracted event/rule/symbol, actor view, and Sourceborn interpretation separate while allowing Sequence binding.",
+  "record_types": {
+    "SOURCE_RECORD": {
+      "required": ["source_record_id","source_family","source_ref","source_text_or_summary","source_status"],
+      "fields": ["source_record_id","source_family","edition_or_version","source_ref","location_ref","language","source_text_or_summary","source_status","translation_status","custody_hash","notes"]
+    },
+    "EXTRACTED_RECORD": {
+      "required": ["extracted_record_id","source_record_ids","extracted_type","exact_claim"],
+      "fields": ["extracted_record_id","source_record_ids","extracted_type","exact_claim","actors","objects","relations","time_order_claim","causal_claim","rule_claim","promise_claim","result_claim","entity_outcome_claim","epistemic_status","contradictions"]
+    },
+    "ACTOR_VIEW_RECORD": {
+      "required": ["view_id","actor_id","source_record_ids"],
+      "fields": ["view_id","actor_id","source_record_ids","known","believed","unknown","hidden_from_actor","false_beliefs","confidence","time_or_sequence_ref"]
+    },
+    "INTERPRETATION_RECORD": {
+      "required": ["interpretation_id","derived_from","interpretation_text","interpretation_status"],
+      "fields": ["interpretation_id","derived_from","interpretation_text","sequence_roles","pattern_candidate","law_candidate","alternative_interpretations","falsifiers","interpretation_status"]
+    },
+    "SEQUENCE_BINDING": {
+      "required": ["binding_id","record_id","sequence_id","binding_role"],
+      "fields": ["binding_id","record_id","sequence_id","node_or_edge_id","binding_role","order_type","driver","controller","performer","carrier","trigger","threshold","closure_scope","source_support"]
+    }
+  },
+  "extracted_types": ["EVENT","RULE","PROMISE","CONSTRAINT","RELATION","SYMBOL","ACTOR_STATE","RESULT","ENTITY_OUTCOME","NARRATIVE_TRANSITION","OBSERVER_WRITER_EVENT"],
+  "interpretation_statuses": ["USER_INTERPRETATION","SOURCEBORN_HYPOTHESIS","SOURCEBORN_PATTERN_CANDIDATE","VALIDATED_INTERPRETATION","CONTESTED","UNKNOWN"],
+  "epistemic_statuses": ["DIRECT_SOURCE","SOURCE_SUMMARY","INFERRED_FROM_SOURCE","USER_SUPPLIED_INTERPRETATION","CONTESTED","UNKNOWN"],
+  "hard_rules": [
+    "SOURCE_RECORD is never overwritten by an interpretation.",
+    "EXTRACTED_RECORD must point to one or more SOURCE_RECORD ids.",
+    "INTERPRETATION_RECORD must declare that it is interpretation.",
+    "Actor View is never promoted to Global Reality without independent support.",
+    "A narrative Sequence may close as UNKNOWN when source custody is insufficient.",
+    "Later law/guidance extraction is a new Observer/Writer Sequence, not the original event Sequence."
+  ]
+}
