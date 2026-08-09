@@ -2,279 +2,369 @@
   "segments": {
     "SEG-01": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-02": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-03": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-04": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-05": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-06": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-07": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-08": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-09": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "SEG-10": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ]
   },
   "containers": {
     "CON-161": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-162": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-163": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-164": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-165": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-166": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-167": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-168": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-169": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-170": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-171": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-172": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-173": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-174": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-175": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-176": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-177": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-178": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-179": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-180": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-181": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-182": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-183": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-184": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-185": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-186": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-187": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-188": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-189": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-190": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-191": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-192": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-193": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-194": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-195": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-196": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-197": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-198": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-199": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-200": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-201": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-202": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-203": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-204": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-205": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-206": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-207": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-208": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-209": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-210": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-211": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-212": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-213": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-214": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-215": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-216": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-217": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-218": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-219": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-220": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-221": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-222": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-223": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-224": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-225": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-226": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-227": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-228": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-229": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-230": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-231": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-232": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-233": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-234": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-235": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-236": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-237": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-238": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-239": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json"
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-240": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-006": [
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
