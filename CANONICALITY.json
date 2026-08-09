@@ -1,0 +1,26 @@
+{
+  "repository": "damandamanaulakh-tech/C-SB",
+  "phase1": {
+    "status": "CLOSED_BASELINE",
+    "canonical_sequence_execution": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.md",
+    "canonical_phase2_adoption": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+    "historical_sequence_documents": [
+      "raw/sequence/UNIVERSAL_SEQUENCE_FINAL.md",
+      "raw/sequence/Pasted_text_original.txt"
+    ],
+    "notes": [
+      "The 57-stage Arrow Chart is a discovery ledger/registry of stage types, not a universal chronological timeline.",
+      "Where historical text says a closed Sequence reopens, canonical rule is: create a new Sequence referencing the closed one.",
+      "Where historical text conflates entity termination with Sequence closure, canonical rule keeps two statuses separate.",
+      "The old nine loops are route templates, not a universal fixed count.",
+      "Assimilation and Integration are one conditional incorporation/integration operation unless a domain proves two distinct transitions."
+    ]
+  },
+  "phase2": {
+    "status": "ACTIVE",
+    "opened_after_phase1_baseline_push": true,
+    "goal": "Adopt Human, AI, Holy Book, ASI and other domain native registries into the Universal Sequence grammar without rewriting native IDs, then bind them to ASI Nodes/Node Brains.",
+    "ai_capability_map_status": "REVIEW_ONLY",
+    "human_full_native_registry_status": "REQUIRED_NOT_PRESENT_IN_CURRENT_LOCAL_PAYLOAD"
+  }
+}
