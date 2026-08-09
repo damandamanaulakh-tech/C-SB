@@ -295,34 +295,6 @@
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_RUBRIC_V0.json"
     ],
-    "AI-CAP-013": [
-      "phase2/TASK_QUEUE.md",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-046": [
-      "phase2/TASK_QUEUE.md",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-056": [
-      "phase2/TASK_QUEUE.md",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "AI-CAP-067": [
-      "phase2/TASK_QUEUE.md",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "AI-CAP-002": [
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
@@ -347,6 +319,11 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-013": [
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-015": [
@@ -425,6 +402,13 @@
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
+    "AI-CAP-046": [
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
     "AI-CAP-052": [
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
@@ -446,6 +430,11 @@
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
+    "AI-CAP-056": [
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
     "AI-CAP-060": [
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
@@ -454,6 +443,13 @@
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "AI-CAP-062": [
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "AI-CAP-067": [
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
@@ -665,10 +661,12 @@
   },
   "ai_rubric_segments": {
     "AI-01": [
+      "phase2/TASK_QUEUE.md",
       "registries/ai/AI_RUBRIC_V0.json",
       "tools/validate_repo.py"
     ],
     "AI-25": [
+      "phase2/TASK_QUEUE.md",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
       "tools/validate_repo.py"
@@ -764,10 +762,12 @@
   },
   "wisdom_lanes": {
     "W-01": [
+      "phase2/TASK_QUEUE.md",
       "registries/wisdom/WISDOM_REGISTRY_V0.json",
       "tools/validate_repo.py"
     ],
     "W-15": [
+      "phase2/TASK_QUEUE.md",
       "registries/wisdom/WISDOM_REGISTRY_V0.json",
       "tools/validate_repo.py"
     ],
@@ -813,11 +813,13 @@
   },
   "asi_rubric_segments": {
     "ASI-01": [
+      "phase2/TASK_QUEUE.md",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
       "tools/validate_repo.py"
     ],
     "ASI-20": [
+      "phase2/TASK_QUEUE.md",
       "registries/asi/ASI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
       "tools/validate_repo.py"
@@ -896,6 +898,7 @@
       "README.md",
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "phase2/README.md",
+      "phase2/TASK_QUEUE.md",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json",
@@ -905,6 +908,7 @@
       "README.md",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "phase2/README.md",
+      "phase2/TASK_QUEUE.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
       "tools/validate_repo.py"
@@ -933,6 +937,7 @@
     "ASI-NODE-06": [
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "phase2/README.md",
+      "phase2/TASK_QUEUE.md",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
@@ -1064,16 +1069,21 @@
       "registries/asi/node_brains_v0.json",
       "tools/validate_repo.py"
     ],
-    "NB-17": [
-      "phase2/TASK_QUEUE.md",
-      "phase2/asi/ASI_NODE_BRAINS_V0.md",
-      "registries/asi/node_brains_v0.json"
-    ],
     "NB-18": [
+      "phase2/TASK_QUEUE.md",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
       "tools/validate_repo.py"
     ],
+    "NB-19": [
+      "phase2/TASK_QUEUE.md",
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+    ],
+    "NB-20": [
+      "phase2/TASK_QUEUE.md",
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+    ],
     "NB-21": [
+      "phase2/TASK_QUEUE.md",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
       "tools/validate_repo.py"
     ],
@@ -1141,11 +1151,9 @@
       "phase2/asi/ASI_NODE_BRAINS_V0.md",
       "registries/asi/node_brains_v0.json"
     ],
-    "NB-19": [
-      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
-    ],
-    "NB-20": [
-      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+    "NB-17": [
+      "phase2/asi/ASI_NODE_BRAINS_V0.md",
+      "registries/asi/node_brains_v0.json"
     ]
   },
   "rubric_registry_ids": {
