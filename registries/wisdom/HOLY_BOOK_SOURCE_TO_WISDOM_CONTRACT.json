@@ -1,0 +1,73 @@
+{
+  "contract_id": "HOLY-BOOK-TO-WISDOM-V0",
+  "phase": "PHASE_2",
+  "status": "DRAFT_FOR_REVIEW",
+  "flow": [
+    "RAW_SOURCE_LOCK",
+    "SOURCE_TEXT",
+    "SOURCE_CLAIM_EXTRACTION",
+    "EVENT_RULE_PROMISE_SYMBOL_RECORD",
+    "SEQUENCE_RECONSTRUCTION",
+    "INTERPRETATION_RECORD",
+    "CASE_COMPARISON",
+    "WISDOM_CANDIDATE",
+    "COUNTER_CASE_CHECK",
+    "APPLICABILITY_BOUNDARY",
+    "WISDOM_OBJECT",
+    "OPTIONAL_LAW_OR_GUIDANCE_FORMATION"
+  ],
+  "records": {
+    "holy_book_source": [
+      "source_id",
+      "tradition_id",
+      "work_id",
+      "book_chapter_section",
+      "source_text",
+      "translation_id",
+      "source_type",
+      "provenance_ref"
+    ],
+    "source_claim": [
+      "claim_id",
+      "source_id",
+      "explicit_claim",
+      "actors",
+      "events",
+      "rules",
+      "promises",
+      "consequences",
+      "source_scope"
+    ],
+    "interpretation": [
+      "interpretation_id",
+      "claim_ids",
+      "interpreter_or_interpretive_source",
+      "tradition_or_framework",
+      "reasoning",
+      "context",
+      "conclusion",
+      "epistemic_status"
+    ]
+  },
+  "sequence_roles": [
+    "NARRATIVE_MEMORY",
+    "ACTOR_VIEW",
+    "PROMISE_COMMITMENT",
+    "RULE_CONSTRAINT",
+    "EXCEPTION_CONTRACT",
+    "PRIORITY_CONFLICT",
+    "COUNTER_SEQUENCE",
+    "CONVERGENCE",
+    "OBSERVER_WRITER_SEQUENCE",
+    "LAW_FORMATION",
+    "ERA_CLOSURE",
+    "COMPRESSED_GUIDANCE"
+  ],
+  "guards": [
+    "Do not silently convert theology, narrative, interpretation or commentary into externally verified history.",
+    "Do not erase differences among translations or traditions.",
+    "Do not merge contradictory source claims into one synthetic claim.",
+    "Do not apply a wisdom object outside its declared applicability conditions without opening a new evaluation Sequence.",
+    "Every extracted item must retain its source reference."
+  ]
+}
