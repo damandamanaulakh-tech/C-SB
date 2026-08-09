@@ -378,20 +378,20 @@
 - **AI-NEW-002** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-003** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-004** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-005** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-005** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-006** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-007** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-008** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-009** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-010** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-011** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-011** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-012** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-013** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-014** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-015** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-016** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-017** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-018** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-018** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-019** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-020** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-021** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -406,8 +406,8 @@
 - **AI-NEW-030** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-031** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-032** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-033** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-034** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-033** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-034** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-035** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-036** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-037** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -421,8 +421,8 @@
 - **AI-NEW-045** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-046** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-047** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-048** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-049** → `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-048** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-049** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-050** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-051** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-052** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -531,16 +531,16 @@
 ## Asi Rubric Segments
 
 - **ASI-01** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`
-- **ASI-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
+- **ASI-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-04** → `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
-- **ASI-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
+- **ASI-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
+- **ASI-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-10** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
-- **ASI-11** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
+- **ASI-11** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-12** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-13** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-14** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json`, `registries/ai/AI_CONTAINER_CANDIDATES_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
@@ -627,7 +627,7 @@
 ## Engine Ids
 
 - **ENG-ARD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-ARD-002** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-ARD-002** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **ENG-ARD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-ARD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-CORE-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
@@ -669,9 +669,9 @@
 - **ENG-RGL-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RGL-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-SB-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SB-002** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **ENG-SB-003** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **ENG-SB-004** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SB-002** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SB-003** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SB-004** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **ENG-SB-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-SB-006** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-SB-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
@@ -682,11 +682,11 @@
 - **ENG-SUP-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-SUP-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-SUP-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-SUP-005** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **ENG-SUP-006** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **ENG-SUP-007** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **ENG-SUP-008** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
-- **ENG-URR-001** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SUP-005** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SUP-006** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SUP-007** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-SUP-008** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-URR-001** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **ENG-URR-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-URR-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-URR-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
@@ -699,7 +699,7 @@
 - **ENG-WLD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-WLD-004** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-WLD-005** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-WLD-006** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **ENG-WLD-006** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **ENG-WLD-007** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 
 ## Activation Rule Ids
