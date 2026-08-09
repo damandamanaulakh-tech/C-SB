@@ -47,7 +47,14 @@
     "CON-161": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
-      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
+      "tools/generate_operational_subparameters_v1.py"
+    ],
+    "CON-240": [
+      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
+      "tools/generate_operational_subparameters_v1.py"
     ],
     "CON-162": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
@@ -361,11 +368,6 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
-    "CON-240": [
-      "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
-      "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
-    ],
     "CON-006": [
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
@@ -638,6 +640,14 @@
     ]
   },
   "human_parameters": {
+    "SB-ASI-P2593": [
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "tools/generate_operational_subparameters_v1.py"
+    ],
+    "SB-ASI-P3072": [
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "tools/generate_operational_subparameters_v1.py"
+    ],
     "SB-ASI-P0001": [
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
     ],
@@ -648,12 +658,6 @@
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
     ],
     "SB-ASI-P2592": [
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
-    ],
-    "SB-ASI-P2593": [
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
-    ],
-    "SB-ASI-P3072": [
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
     ]
   },
