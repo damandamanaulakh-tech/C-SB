@@ -1,0 +1,57 @@
+{
+  "status": "V2_LOCK_CANDIDATE",
+  "rule": "Definitions/templates are versioned separately from execution instances. Closed execution instances retain the exact template/schema versions they executed.",
+  "schemas": {
+    "SEQUENCE_TEMPLATE": {
+      "fields": ["sequence_template_id","version","exact_name","semantic_contract","allowed_modes","allowed_node_templates","allowed_edge_templates","default_rubric_pack_ids","invariants","created_from_source_ids","status"]
+    },
+    "SEQUENCE_INSTANCE": {
+      "fields": ["sequence_instance_id","sequence_template_id","template_version","mode","sequence_name","declared_end_or_target","observation_window","scope","closure_scope","resolution_level","causal_horizon","epistemic_floor","followed_object_ids","controller_ids","performer_ids","carrier_ids","parent_or_requesting_sequence_id","relation_type","opened_at","current_status","gap_ids","contradiction_ids","proof_debt_ids","closure_packet_id"]
+    },
+    "NODE_TEMPLATE": {
+      "fields": ["node_template_id","version","exact_name","semantic_contract","allowed_node_types","default_rubric_pack_ids","completion_contract","status"]
+    },
+    "NODE_INSTANCE": {
+      "fields": ["node_instance_id","node_template_id","node_template_version","sequence_instance_id","exact_name","exact_meaning","node_type","order_type","followed_object_id","role","input_state_ids","output_state_ids","claim_ids","evidence_ids","provenance_ids","dependency_ids","required_attached_sequence_ids","relation_ids","controller_id","performer_id","carrier_id","driver_record_id","rule_ids","promise_ids","priority_state","override_record_id","view_ids","epistemic_status","proof_depth","effect_ids","event_weight_id","entity_outcome_ids","trace_ids","memory_ids","compression_handle_ids","rubric_evaluation_ids","node_status","completion_condition","unresolved_condition_ids","next_edge_ids"]
+    },
+    "EDGE_TEMPLATE": {
+      "fields": ["edge_template_id","version","semantic_contract","allowed_relation_types","allowed_order_types","default_trigger_policy","default_threshold_policy","default_dependency_policy","default_barrier_policy","status"]
+    },
+    "EDGE_INSTANCE": {
+      "fields": ["edge_instance_id","edge_template_id","edge_template_version","sequence_instance_id","source_node_id","target_node_id","relation_type","order_type","trigger_id","evaluation_mode","threshold_id","evaluator_id","recheck_policy_id","timeout_policy_id","dependency_expression_id","barrier_id","evidence_input_ids","uncertainty_policy_id","allowed_fire_states","blocked_reason_ids","counter_sequence_ids","synchronization_gate_id","fired_at","edge_status"]
+    },
+    "CLAIM": {
+      "fields": ["claim_id","subject_id","predicate_id","object_or_value","claim_type","source_ids","evidence_ids","observer_or_view_id","valid_from","valid_to","epistemic_status","confidence","proof_depth","contradiction_ids","gap_ids","proof_debt_ids","record_version"]
+    },
+    "IDENTITY_DECISION_PACKET": {
+      "fields": ["identity_decision_id","object_id","sequence_instance_id","continuity_criterion","criterion_source_ids","before_state_ids","after_state_ids","preserved_invariants","broken_invariants","observer_or_controller_id","decision","confidence","competing_identity_claim_ids","evidence_ids","epistemic_status"]
+    },
+    "COMPRESSION_CONTRACT": {
+      "fields": ["compression_handle_id","source_sequence_ids","compression_type","compression_ratio","preserved_invariants","discarded_detail","scope","conditions","assumptions","confidence","known_exceptions","source_links","recoverability","reconstruction_method","information_loss_grade","ambiguity_introduced","version","validity","proof_debt_ids","contradiction_ids"]
+    },
+    "GAP_RECORD": {
+      "fields": ["gap_id","gap_type","sequence_instance_id","node_or_edge_id","missing_object","source_ids","closure_blocking","severity","repairability","investigation_sequence_id","status"]
+    },
+    "CONTRADICTION_RECORD": {
+      "fields": ["contradiction_id","contradiction_type","claim_ids","scope","source_independence","severity","closure_impact","resolution_path","status"]
+    },
+    "EVIDENCE_RECORD": {
+      "fields": ["evidence_id","source_id","evidence_type","supports_claim_ids","challenges_claim_ids","test_id","independence","strength","context","validity_interval","provenance_confidence","status"]
+    },
+    "PROOF_DEBT_RECORD": {
+      "fields": ["proof_debt_id","claim_id","required_proof_depth","current_proof_depth","missing_evidence_type","uncertainty","missing_falsifier","missing_replication","missing_provenance","counterexample_exposure","closure_impact","deadline","owner","investigation_sequence_id","status","accepted_temporary_debt"]
+    },
+    "OPEN_SEQUENCE_LEDGER_RECORD": {
+      "fields": ["sequence_instance_id","relation_type","requesting_sequence_id","requesting_node_or_edge_id","required_or_optional","controller_id","performer_id","carrier_id","contract_id","blocked_edge_id","opened_at","current_status","required_return","returned_packet_id","return_acceptance","terminal_status"]
+    },
+    "SEED_RECORD": {
+      "fields": ["seed_id","source_sequence_id","source_closure_packet_id","seed_type","seed_content","created_at","persistence_condition","carrier_bound","possible_carrier_types","activation_trigger_id","activation_threshold_id","current_status","resulting_sequence_ids"]
+    },
+    "ACTOR_VIEW_RECORD": {
+      "fields": ["view_id","actor_or_system_id","sequence_instance_id","time_or_state_ref","known_claim_ids","believed_claim_ids","inferred_claim_ids","unknown_subjects","false_belief_claim_ids","hidden_claim_ids","source_refs","confidence_map","record_version"]
+    },
+    "CLOSURE_PACKET": {
+      "fields": ["closure_packet_id","sequence_instance_id","sequence_template_id","template_version","closure_scope","closure_status","declared_end_or_target","starting_reality_state_ids","final_reality_state_ids","result_ids","entity_outcome_ids","effect_ids","event_weight_ids","related_sequence_ids","sub_sequence_terminal_statuses","verification_status","trace_ids","memory_ids","compression_handle_ids","unresolved_condition_ids","gap_ids","contradiction_ids","proof_debt_ids","epistemic_summary","inherited_output_ids","next_sequence_seed_ids","prior_sequence_references","driver_record_ids","controller_ids","performer_ids","carrier_ids","pass3_status","immutable_seal","closed_at"]
+    }
+  }
+}
