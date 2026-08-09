@@ -85,6 +85,11 @@
     "size_bytes": 7385
   },
   {
+    "path": "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+    "sha256": "e7ca110d9ae86aa9bcfd147efa1bb4f2e03737f621f37b53e354d459eeeca79e",
+    "size_bytes": 2743
+  },
+  {
     "path": "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
     "sha256": "cbaaa05a5eda0e2fad67fd0b301c18a686624b0d35ffedf4e247c9587404c776",
     "size_bytes": 20397

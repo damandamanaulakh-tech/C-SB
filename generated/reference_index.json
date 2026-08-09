@@ -646,36 +646,119 @@
   },
   "asi_nodes": {
     "ASI-NODE-00": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "phase2/README.md",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ],
     "ASI-NODE-01": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ],
     "ASI-NODE-02": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ],
     "ASI-NODE-03": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ],
     "ASI-NODE-04": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ],
     "ASI-NODE-05": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-07": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-08": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-09": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-10": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-11": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-12": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-13": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-14": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-15": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-16": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json"
+    ],
+    "ASI-NODE-17": [
+      "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -683,72 +766,6 @@
     ],
     "ASI-NODE-06": [
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-07": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-08": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-09": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-10": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-11": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-12": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-13": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-14": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-15": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-16": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-17": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ]
