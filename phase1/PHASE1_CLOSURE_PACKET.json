@@ -1,0 +1,61 @@
+{
+  "sequence_id": "PHASE1-UNIVERSAL-SEQUENCE",
+  "sequence_name": "Universal Sequence Definition and Machine Grammar",
+  "closure_scope": "PHASE_1_ARCHITECTURE_BASELINE",
+  "closure_status": "CLOSED_SUCCESS",
+  "declared_end": "A stable Universal Sequence grammar and machine execution architecture that Phase-2 registries can adopt without rewriting native source truth.",
+  "result_set": [
+    "Universal Sequence defined as Difference + Relationship + typed Order",
+    "R-F-R validation locked",
+    "Trigger/Threshold edge law locked",
+    "Barrier and Open-Sequence Ledger rule locked",
+    "No in-place loop and No Reopen locked",
+    "Sequence closure separated from Entity Outcome",
+    "Sub-Sequence close condition separated from parent acceptance",
+    "Driver/Controller/Performer/Carrier separated",
+    "Seed Registry and Actor/View Map promoted to first-class architecture",
+    "Node Truth and Path Truth separated",
+    "Compression/Expansion and Event Weight defined",
+    "Human additive adoption contract defined",
+    "AI review crosswalk preserved without approval",
+    "ASI Node service registry seeded",
+    "Self-relinking/source-assembly/document-generation pipeline bootstrapped"
+  ],
+  "verification_status": "PASS",
+  "pass3_status": "PASS_WITH_DECLARED_NONBLOCKING_PHASE2_DEPENDENCIES",
+  "unresolved_conditions": [
+    {
+      "id": "P2-DEP-HUMAN-NATIVE-2560",
+      "type": "NEXT_PHASE_DEPENDENCY",
+      "blocking_phase1_closure": false,
+      "description": "The approved full Human 2,560-row native registry is not in the currently accessible local payload; Phase-2 must ingest it unchanged when supplied."
+    },
+    {
+      "id": "P2-DEP-AI-APPROVAL",
+      "type": "NEXT_PHASE_REVIEW",
+      "blocking_phase1_closure": false,
+      "description": "AI-CAP-001..074 are a REVIEW ONLY crosswalk and require explicit Phase-2 review before native adoption."
+    },
+    {
+      "id": "SOURCE-CUSTODY-BINARY-BYTES",
+      "type": "CONNECTOR_TRANSPORT_LIMIT",
+      "blocking_phase1_closure": false,
+      "description": "Session PNG/JPG binary bytes are catalogued with SHA-256 but the current GitHub text connector did not transfer local binary bytes. Text-native sources and SVG are archived/reconstructable."
+    }
+  ],
+  "next_sequence_seeds": [
+    "P2-HUMAN",
+    "P2-AI",
+    "P2-ASI",
+    "P2-HOLYBOOKS",
+    "P2-GENERATOR"
+  ],
+  "archive_refs": [
+    "CANONICALITY.json",
+    "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
+    "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
+    "docs/LOCKED_DECISIONS.md",
+    "docs/SEQUENCE_RESEARCH_LEDGER.md",
+    "raw/session/SESSION_SOURCE_MANIFEST.json"
+  ]
+}
