@@ -1,0 +1,62 @@
+{
+  "status": "P2_BINDING_PROPOSAL_V0_NOT_CANONICAL",
+  "basis": "Source-derived V2 rubric packs + already instantiated ASI Node service roles.",
+  "rule": "A rubric pack may be evaluated by multiple ASI Nodes. This mapping does not change the rubric definitions or make an ASI Node chronological.",
+  "bindings": {
+    "LOCK_PACK": {
+      "rubrics":["R01","R02","R09","R52"],
+      "primary_asi_nodes":["ASI-NODE-00","ASI-NODE-02","ASI-NODE-16"],
+      "secondary_asi_nodes":["ASI-NODE-14","ASI-NODE-17"]
+    },
+    "PRIOR_REALITY_PACK": {
+      "rubrics":["R03","R04","R05","R06","R07","R08"],
+      "primary_asi_nodes":["ASI-NODE-01","ASI-NODE-02"],
+      "secondary_asi_nodes":["ASI-NODE-07","ASI-NODE-16"]
+    },
+    "CONTROL_CRITERIA_PACK": {
+      "rubrics":["R10","R11","R12","R13","R14","R15"],
+      "primary_asi_nodes":["ASI-NODE-03","ASI-NODE-08","ASI-NODE-17"],
+      "secondary_asi_nodes":["ASI-NODE-04","ASI-NODE-05","ASI-NODE-11"]
+    },
+    "EDGE_PACK": {
+      "rubrics":["R16","R17","R18","R46"],
+      "primary_asi_nodes":["ASI-NODE-04","ASI-NODE-05","ASI-NODE-17"],
+      "secondary_asi_nodes":["ASI-NODE-07","ASI-NODE-08","ASI-NODE-16"]
+    },
+    "PREPARATION_PACK": {
+      "rubrics":["R19","R20","R21","R22"],
+      "primary_asi_nodes":["ASI-NODE-05","ASI-NODE-07"],
+      "secondary_asi_nodes":["ASI-NODE-08","ASI-NODE-09","ASI-NODE-16"]
+    },
+    "RESOLUTION_PACK": {
+      "rubrics":["R23","R24","R25"],
+      "primary_asi_nodes":["ASI-NODE-08","ASI-NODE-17"],
+      "secondary_asi_nodes":["ASI-NODE-03","ASI-NODE-05","ASI-NODE-11"]
+    },
+    "DYNAMICS_PACK": {
+      "rubrics":["R26","R27","R28","R29"],
+      "primary_asi_nodes":["ASI-NODE-09"],
+      "secondary_asi_nodes":["ASI-NODE-02","ASI-NODE-04","ASI-NODE-05","ASI-NODE-10"]
+    },
+    "CONSEQUENCE_PACK": {
+      "rubrics":["R30","R31","R32","R33","R34","R35"],
+      "primary_asi_nodes":["ASI-NODE-10","ASI-NODE-14","ASI-NODE-17"],
+      "secondary_asi_nodes":["ASI-NODE-02","ASI-NODE-11","ASI-NODE-12","ASI-NODE-16"]
+    },
+    "VALIDATION_MEMORY_PACK": {
+      "rubrics":["R36","R37","R38","R39","R40","R41"],
+      "primary_asi_nodes":["ASI-NODE-11","ASI-NODE-12","ASI-NODE-13","ASI-NODE-16"],
+      "secondary_asi_nodes":["ASI-NODE-07","ASI-NODE-14"]
+    },
+    "DERIVED_KNOWLEDGE_PACK": {
+      "rubrics":["R42","R43","R44","R45"],
+      "primary_asi_nodes":["ASI-NODE-15","ASI-NODE-17"],
+      "secondary_asi_nodes":["ASI-NODE-12","ASI-NODE-13","ASI-NODE-14","ASI-NODE-16"]
+    },
+    "INTEGRITY_CLOSURE_PACK": {
+      "rubrics":["R47","R48","R49","R50","R51"],
+      "primary_asi_nodes":["ASI-NODE-14","ASI-NODE-16","ASI-NODE-17"],
+      "secondary_asi_nodes":["ASI-NODE-00","ASI-NODE-01","ASI-NODE-05","ASI-NODE-07","ASI-NODE-11"]
+    }
+  }
+}
