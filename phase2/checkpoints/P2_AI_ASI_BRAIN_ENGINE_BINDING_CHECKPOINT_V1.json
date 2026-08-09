@@ -1,0 +1,55 @@
+{
+  "checkpoint_id":"P2-AI-ASI-BRAIN-ENGINE-BINDING-V1",
+  "checkpoint_type":"SOURCE_ADOPTION_AND_BINDING_CHECKPOINT",
+  "phase":"PHASE_2",
+  "phase_status":"ACTIVE",
+  "checkpoint_status":"CLOSED_SUCCESS_WITH_VISIBLE_GAPS",
+  "source_authority":"Brain + Engine library / user-approved Sourceborn corpus",
+  "closed_scope":[
+    "Adopt Brain + Engine library as Phase-2 operational source authority for controlled testing",
+    "Register AI-NEW-001..064 approved AI-only records without rewriting source identity",
+    "Register 75 approved bounded Engines and exact source Engine->Segment bindings",
+    "Register CON-161..240 approved operational containers",
+    "Generate SB-ASI-P2593..SB-ASI-P3072 from the exact six-subparameter source pattern",
+    "Preserve the exact 400 Engine->Container relationships and 1,440 Parameter->Engine/Source relationships in lossless generated form",
+    "Derive additive AI/ASI/Sequence/ASI-Node bindings for all 64 AI-only records through their source AI-CAP lineage",
+    "Derive additive ASI-Node bindings for source-used Engines through exact Engine->Container use plus the approved E01..E08 operational spine",
+    "Update relinking, generation and validation so these structures regenerate automatically"
+  ],
+  "validated_counts": {
+    "functional_segments":10,
+    "master_containers_total":240,
+    "operational_parameters_total":3072,
+    "approved_ai_only_records":64,
+    "canonical_engines":75,
+    "operational_containers_161_240":80,
+    "operational_subparameters_2593_3072":480,
+    "engine_container_relationships":400,
+    "parameter_engine_source_relationships":1440
+  },
+  "validated_source_boundaries": [
+    "User-approved/evident status remains separate from independent external verification.",
+    "AI-NEW source records remain native; generated AI/ASI/Node bindings are additive mappings.",
+    "Engine identity and Engine->Segment/Container use remain source records; Engine->ASI-Node is a Phase-2 derivation.",
+    "Engines remain bounded operators, not autonomous authorities.",
+    "Legacy 40 AI / 20 ASI container candidates remain crosswalks and cannot override the approved Brain + Engine corpus.",
+    "Universal Sequence closure/barrier/R-F-R law is unchanged."
+  ],
+  "visible_gaps": {
+    "engines_not_used_in_source_400_container_map": [
+      "ENG-ARD-002","ENG-URR-001","ENG-SB-002","ENG-SB-003","ENG-SB-004","ENG-WLD-006","ENG-SUP-005","ENG-SUP-006","ENG-SUP-007","ENG-SUP-008"
+    ],
+    "rule_for_unbound_engines":"Do not force-fit. Their Engine Master and Engine->Segment records remain active source records; operational container/Node binding remains open until source or test evidence supplies it.",
+    "expansion_layer":"CON-081..160 is approved/evident source material but has not yet been fully text-materialized and AI/ASI-classified in the repo.",
+    "generic_expansion_placeholders":"CON-121..160 are named Extended Capability Node 121..160 in the source and must not be falsely given detailed meanings until source/test evidence resolves them.",
+    "human_native_materialization":"The approved Human 2,560-row source is available in uploaded corpus, but full exact text rows are not yet materialized under registries/human/native/."
+  },
+  "next_sequences": [
+    "P2-EXPANSION-081-160-SOURCE-MATERIALIZATION-01",
+    "P2-EXPANSION-081-160-AI-ASI-CLASSIFICATION-01",
+    "P2-AI-ONLY-64-RFR-TEST-01",
+    "P2-ENGINE-BOUNDNESS-AND-NODE-ROUTING-RFR-01",
+    "P2-MULTI-RUBRIC-INTEGRATION-TEST-01"
+  ],
+  "closure_note":"This checkpoint closes the Brain+Engine source-binding batch only. It does not close P2-AI, P2-ASI or Phase-2."
+}
