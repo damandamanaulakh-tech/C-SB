@@ -125,6 +125,11 @@
     "size_bytes": 1321
   },
   {
+    "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
+    "sha256": "8b6b118421693a51eed42d9ef92fc05525877c159d4e475ba26c5f98ee1a7e15",
+    "size_bytes": 4648
+  },
+  {
     "path": "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md",
     "sha256": "a181725d9686765e5b99d353e22fc2c78cda7e4f364402967c89ba07d4f6e803",
     "size_bytes": 6359
