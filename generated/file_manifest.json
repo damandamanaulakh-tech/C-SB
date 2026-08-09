@@ -160,6 +160,11 @@
     "size_bytes": 6545
   },
   {
+    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
+    "sha256": "107cc42396946c941425498853d4fa87706a93718679a219bf7cf18ecf0f7177",
+    "size_bytes": 3488
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
     "sha256": "84c9735ee274d5f5105d298353646b3c05365ed172be7bc3189c3df74651fade",
     "size_bytes": 5794
