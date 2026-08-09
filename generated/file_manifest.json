@@ -80,6 +80,11 @@
     "size_bytes": 5352
   },
   {
+    "path": "tools/validate_expansion_081_160_v1.py",
+    "sha256": "91c066cce7a81d2dd371af42cbc9de956d742a4b2bcdec6444876f613436f8a2",
+    "size_bytes": 2391
+  },
+  {
     "path": "tools/validate_ai_asi_container_candidates.py",
     "sha256": "86baffe61e478e6e540149c75686c1d90094b268fab61c6b7b063f5ad4a61444",
     "size_bytes": 4498
