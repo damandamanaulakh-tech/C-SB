@@ -15,7 +15,7 @@ def load(path):
 
 canonical = load("CANONICALITY.json")
 if canonical.get("phase2", {}).get("ai_capability_map_status") != "REVIEW_ONLY":
-    errors.append("AI capability map must remain REVIEW_ONLY until user approval.")
+    errors.append("AI capability map must remain REVIEW_ONLY until explicit AI adoption closure.")
 if canonical.get("phase2", {}).get("status") != "ACTIVE":
     errors.append("Phase 2 is expected to be ACTIVE.")
 
@@ -24,7 +24,6 @@ for key in ["canonical_sequence_execution_manifest", "canonical_phase2_adoption_
     if not rel or not (ROOT / rel).exists():
         errors.append(f"Canonical manifest missing or invalid: {key}={rel}")
 
-# Validate every ordered-parts manifest structurally.
 for manifest_path in ROOT.rglob("*.manifest.json"):
     if "generated" in manifest_path.parts:
         continue
@@ -54,16 +53,39 @@ asi_ids = [n.get("asi_node_id") for n in asi.get("nodes", [])]
 if len(asi_ids) != 18 or len(set(asi_ids)) != 18:
     errors.append(f"ASI service registry must contain 18 unique nodes; found {len(asi_ids)} / {len(set(asi_ids))} unique.")
 
+brains = load("registries/asi/node_brains_v0.json")
+brain_rows = brains.get("node_brains", [])
+brain_ids = [n.get("node_brain_id") for n in brain_rows]
+brain_asi_ids = [n.get("asi_node_id") for n in brain_rows]
+if len(brain_ids) != 18 or len(set(brain_ids)) != 18:
+    errors.append(f"Node Brain v0 must contain 18 unique brains; found {len(brain_ids)} / {len(set(brain_ids))} unique.")
+if set(brain_asi_ids) != set(asi_ids):
+    errors.append("Node Brain v0 must bind exactly once to every ASI service node.")
+for row in brain_rows:
+    for required_key in ["inputs","outputs","reads","writes","threshold_evaluators","closure_responsibilities"]:
+        if not row.get(required_key):
+            errors.append(f"{row.get('node_brain_id')} missing required contract field {required_key}.")
+
 ai_path = ROOT / "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+ai_ids = []
 if ai_path.exists():
-    ids = re.findall(r"\bAI-CAP-\d{3}\b", ai_path.read_text(encoding="utf-8"))
-    unique_ids = sorted(set(ids))
-    if len(unique_ids) != 74:
-        errors.append(f"AI review map expected 74 unique capability families; found {len(unique_ids)}.")
+    ai_ids = sorted(set(re.findall(r"\bAI-CAP-\d{3}\b", ai_path.read_text(encoding="utf-8"))))
+    if len(ai_ids) != 74:
+        errors.append(f"AI review map expected 74 unique capability families; found {len(ai_ids)}.")
 else:
     errors.append("AI capability review source missing.")
 
-# Human native source is intentionally allowed to be absent, but must not be silently fabricated.
+rules = load("phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json")
+layer_ids = []
+for ids in rules.get("layer_groups", {}).values():
+    layer_ids.extend(ids)
+if len(layer_ids) != 74 or len(set(layer_ids)) != 74:
+    errors.append(f"AI decision rules must classify exactly 74 unique source families; found {len(layer_ids)} / {len(set(layer_ids))} unique.")
+if ai_ids and set(layer_ids) != set(ai_ids):
+    errors.append("AI decision rule coverage does not exactly match source AI-CAP IDs.")
+if rules.get("status") != "P2_REVIEW_PROPOSAL_NOT_ADOPTED":
+    errors.append("AI decision rules must remain a non-adopted review proposal until closure.")
+
 native_dir = ROOT / "registries/human/native"
 if not native_dir.exists() or not any(p.is_file() for p in native_dir.rglob("*")):
     warnings.append("Approved Human 2,560-row native registry not present yet; full parameter relinking remains blocked by design.")
