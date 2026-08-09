@@ -1,0 +1,1553 @@
+{
+  "status": "P2_AI_NATIVE_CANDIDATE_V0_REVIEW_ONLY",
+  "source": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+  "decision_rules": "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+  "source_count": 74,
+  "adoption_rule": "No candidate is native/adopted until an explicit AI adoption closure packet changes registry authority.",
+  "candidates": [
+    {
+      "source_id": "AI-CAP-001",
+      "source_name": "General intelligence composite and cross-domain performance",
+      "human_crosswalk_primary_raw": "CON-048 Core Reasoning and Multi-Step Inference",
+      "human_crosswalk_secondary_raw": "CON-041, CON-042, CON-045, CON-078",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP_AS_COMPOSITE",
+      "proposed_name": "General intelligence composite and cross-domain performance",
+      "capability_layer": "COMPOSITE_OUTCOME",
+      "runtime_or_training": "SYSTEM_AGGREGATE",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-002",
+      "source_name": "Abstract pattern induction and novel-task adaptation",
+      "human_crosswalk_primary_raw": "CON-041 Inductive and Analogical Reasoning",
+      "human_crosswalk_secondary_raw": "CON-047, CON-074, CON-002",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Abstract pattern induction and novel-task adaptation",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-003",
+      "source_name": "Mathematical problem solving",
+      "human_crosswalk_primary_raw": "CON-042 Deductive and Formal Reasoning",
+      "human_crosswalk_secondary_raw": "CON-043, CON-044, CON-048",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Mathematical problem solving",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-004",
+      "source_name": "Formal proof construction and verification",
+      "human_crosswalk_primary_raw": "CON-042 Deductive and Formal Reasoning",
+      "human_crosswalk_secondary_raw": "CON-039, CON-075",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Formal proof construction and verification",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-005",
+      "source_name": "Scientific and expert reasoning",
+      "human_crosswalk_primary_raw": "CON-078 Expertise and Domain Adaptation",
+      "human_crosswalk_secondary_raw": "CON-043, CON-005, CON-048",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Scientific and expert reasoning",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-006",
+      "source_name": "Scientific research and hypothesis generation",
+      "human_crosswalk_primary_raw": "CON-047 Creativity, Insight and Generative Thought",
+      "human_crosswalk_secondary_raw": "CON-006, CON-045, CON-012",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Scientific research and hypothesis generation",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-007",
+      "source_name": "Code generation and algorithm implementation",
+      "human_crosswalk_primary_raw": "CON-007 Code-related operational functions map primarily to CON-048 + CON-035",
+      "human_crosswalk_secondary_raw": "CON-022, CON-045, CON-018",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Code synthesis and algorithm implementation",
+      "capability_layer": "TOOL_EXECUTION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "notes": "Keep capability; normalize mixed Human-container mapping separately.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-008",
+      "source_name": "Repository-scale software engineering",
+      "human_crosswalk_primary_raw": "CON-080 External Cognition, Institutions and Collective Intelligence",
+      "human_crosswalk_secondary_raw": "CON-031, CON-032, CON-077",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Repository-scale software engineering",
+      "capability_layer": "TOOL_EXECUTION",
+      "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-009",
+      "source_name": "Debugging, diagnosis, and error correction",
+      "human_crosswalk_primary_raw": "CON-077 Resilience, Failure Detection and Repair",
+      "human_crosswalk_secondary_raw": "CON-024, CON-009, CON-032",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Debugging and diagnosis",
+      "capability_layer": "SELF_MONITORING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "notes": "Narrow source family so correction remains AI-CAP-026 and recovery remains AI-CAP-052/068.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-010",
+      "source_name": "Terminal, shell, and command-line execution",
+      "human_crosswalk_primary_raw": "CON-023 Imitation, Gesture and Tool Manipulation",
+      "human_crosswalk_secondary_raw": "CON-017, CON-020, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Terminal, shell, and command-line execution",
+      "capability_layer": "TOOL_EXECUTION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-011",
+      "source_name": "Tool selection, function calling, and API use",
+      "human_crosswalk_primary_raw": "CON-023 Imitation, Gesture and Tool Manipulation",
+      "human_crosswalk_secondary_raw": "CON-011, CON-031, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Tool selection, function calling, and API use",
+      "capability_layer": "TOOL_EXECUTION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-012",
+      "source_name": "Web browsing, search, and evidence gathering",
+      "human_crosswalk_primary_raw": "CON-012 (evidence gathering) \u2192 CON-039 Source and Reality Monitoring",
+      "human_crosswalk_secondary_raw": "CON-025, CON-034, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Web browsing, search, and evidence gathering",
+      "capability_layer": "KNOWLEDGE_RETRIEVAL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-12"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-013",
+      "source_name": "Long-context reasoning and retrieval",
+      "human_crosswalk_primary_raw": "CON-028 Working Memory",
+      "human_crosswalk_secondary_raw": "CON-013, CON-033, CON-036",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "HOLD",
+      "proposed_name": "Long-context reasoning and retrieval",
+      "capability_layer": "MEMORY_STATE",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14"
+      ],
+      "notes": "Long-context state management and retrieval may be two mechanisms; hold until native state ownership is defined.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-014",
+      "source_name": "Persistent and episodic memory",
+      "human_crosswalk_primary_raw": "CON-033 Episodic Memory",
+      "human_crosswalk_secondary_raw": "CON-036, CON-014, CON-040",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Persistent and episodic memory",
+      "capability_layer": "MEMORY_STATE",
+      "runtime_or_training": "RUNTIME_PERSISTENT",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-015",
+      "source_name": "Instruction following and constraint satisfaction",
+      "human_crosswalk_primary_raw": "CON-031 Planning and Goal Management",
+      "human_crosswalk_secondary_raw": "CON-029, CON-062, CON-032",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Instruction following and constraint satisfaction",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-016",
+      "source_name": "Multi-step planning and task decomposition",
+      "human_crosswalk_primary_raw": "CON-031 Planning and Goal Management",
+      "human_crosswalk_secondary_raw": "CON-018, CON-045, CON-048",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Multi-step planning and task decomposition",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-017",
+      "source_name": "Agent autonomy and long-horizon execution",
+      "human_crosswalk_primary_raw": "CON-061 Motivation, Drive and Goal Pursuit",
+      "human_crosswalk_secondary_raw": "CON-031, CON-007, CON-077",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "MOVE",
+      "proposed_name": "Long-horizon autonomous task execution",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": "Move from cognitive primitive to agent/system execution layer.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-018",
+      "source_name": "Multi-agent coordination and role management",
+      "human_crosswalk_primary_raw": "CON-071 Attachment, Belonging, Status and Group Behaviour",
+      "human_crosswalk_secondary_raw": "CON-069, CON-080, CON-009",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Multi-agent coordination and role management",
+      "capability_layer": "SOCIAL_MODELING",
+      "runtime_or_training": "MULTI_AGENT_RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-019",
+      "source_name": "Negotiation, persuasion, and social influence",
+      "human_crosswalk_primary_raw": "CON-069 Theory of Mind and Social Prediction",
+      "human_crosswalk_secondary_raw": "CON-053, CON-071, CON-063",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Negotiation, persuasion, and social influence",
+      "capability_layer": "SOCIAL_MODELING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-020",
+      "source_name": "Theory-of-mind and belief tracking",
+      "human_crosswalk_primary_raw": "CON-069 Theory of Mind and Social Prediction",
+      "human_crosswalk_secondary_raw": "CON-066, CON-068",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Theory-of-mind and belief tracking",
+      "capability_layer": "SOCIAL_MODELING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-021",
+      "source_name": "Empathy and affective modelling",
+      "human_crosswalk_primary_raw": "CON-070 Empathy, Compassion and Emotional Sharing",
+      "human_crosswalk_secondary_raw": "CON-059, CON-004",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Affective-state modelling and empathic response generation",
+      "capability_layer": "SOCIAL_MODELING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": "Do not infer subjective affect from modelling or response behavior.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-022",
+      "source_name": "Moral and norm judgment",
+      "human_crosswalk_primary_raw": "CON-072 Morality, Norms, Culture and Meaning",
+      "human_crosswalk_secondary_raw": "CON-063, CON-060",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Moral and norm judgment",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-023",
+      "source_name": "Safety refusal and harm avoidance",
+      "human_crosswalk_primary_raw": "CON-058 Negative Valence and Threat",
+      "human_crosswalk_secondary_raw": "CON-006, CON-029, CON-062",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Harm-risk assessment and avoidance policy",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": "Refusal mechanism itself is owned by AI-CAP-060.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-024",
+      "source_name": "Honesty, truthfulness, and deception resistance",
+      "human_crosswalk_primary_raw": "CON-039 Source and Reality Monitoring",
+      "human_crosswalk_secondary_raw": "CON-075, CON-067",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Honesty, truthfulness, and deception resistance",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-025",
+      "source_name": "Uncertainty expression and calibration",
+      "human_crosswalk_primary_raw": "CON-075 Metacognition and Self-Monitoring",
+      "human_crosswalk_secondary_raw": "CON-044, CON-046",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Uncertainty expression and calibration",
+      "capability_layer": "SELF_MONITORING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-026",
+      "source_name": "Self-correction and iterative refinement",
+      "human_crosswalk_primary_raw": "CON-077 Resilience, Failure Detection and Repair",
+      "human_crosswalk_secondary_raw": "CON-024, CON-032, CON-075",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Self-correction and iterative refinement",
+      "capability_layer": "SELF_MONITORING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-027",
+      "source_name": "Creativity and open-ended generation",
+      "human_crosswalk_primary_raw": "CON-047 Creativity, Insight and Generative Thought",
+      "human_crosswalk_secondary_raw": "CON-041, CON-074",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Creativity and open-ended generation",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-028",
+      "source_name": "Multimodal perception and grounding",
+      "human_crosswalk_primary_raw": "CON-013 Multisensory Integration",
+      "human_crosswalk_secondary_raw": "CON-009, CON-010, CON-016",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Multimodal perception and grounding",
+      "capability_layer": "PERCEPTION_GROUNDING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-029",
+      "source_name": "Visual reasoning and diagram understanding",
+      "human_crosswalk_primary_raw": "CON-009 Visual Perception",
+      "human_crosswalk_secondary_raw": "CON-016, CON-041, CON-048",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Visual reasoning and diagram understanding",
+      "capability_layer": "PERCEPTION_GROUNDING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-030",
+      "source_name": "Audio and speech understanding",
+      "human_crosswalk_primary_raw": "CON-010 Auditory Perception",
+      "human_crosswalk_secondary_raw": "CON-049, CON-053",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Audio and speech understanding",
+      "capability_layer": "PERCEPTION_GROUNDING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-031",
+      "source_name": "Document, table, and form understanding",
+      "human_crosswalk_primary_raw": "CON-055 Reading, Writing and Literacy",
+      "human_crosswalk_secondary_raw": "CON-034, CON-040, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Document, table, and form understanding",
+      "capability_layer": "PERCEPTION_GROUNDING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-032",
+      "source_name": "Language generation and style control",
+      "human_crosswalk_primary_raw": "CON-054 Language Production and Articulation",
+      "human_crosswalk_secondary_raw": "CON-052, CON-053",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Language generation and style control",
+      "capability_layer": "LANGUAGE_COMMUNICATION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-15"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-033",
+      "source_name": "Multilingual and cross-lingual performance",
+      "human_crosswalk_primary_raw": "CON-056 Multilingual and Cross-Language Processing",
+      "human_crosswalk_secondary_raw": "CON-050, CON-052",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Multilingual and cross-lingual performance",
+      "capability_layer": "LANGUAGE_COMMUNICATION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-15"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-034",
+      "source_name": "Summarisation and information compression",
+      "human_crosswalk_primary_raw": "CON-040 Knowledge Organisation and Schema",
+      "human_crosswalk_secondary_raw": "CON-028, CON-036",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Summarisation and information compression",
+      "capability_layer": "MEMORY_STATE",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-035",
+      "source_name": "Question answering and knowledge retrieval",
+      "human_crosswalk_primary_raw": "CON-034 Semantic Memory and Conceptual Knowledge",
+      "human_crosswalk_secondary_raw": "CON-039, CON-048",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Question answering and knowledge retrieval",
+      "capability_layer": "KNOWLEDGE_RETRIEVAL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-12"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-036",
+      "source_name": "Dialogue management and conversational coherence",
+      "human_crosswalk_primary_raw": "CON-053 Pragmatics and Context-Sensitive Language",
+      "human_crosswalk_secondary_raw": "CON-028, CON-069",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Dialogue management and conversational coherence",
+      "capability_layer": "LANGUAGE_COMMUNICATION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-15"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-037",
+      "source_name": "Role adherence and persona consistency",
+      "human_crosswalk_primary_raw": "CON-066 Self-Representation and Identity",
+      "human_crosswalk_secondary_raw": "CON-062, CON-053",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Role adherence and persona consistency",
+      "capability_layer": "POLICY_OUTPUT_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-038",
+      "source_name": "Emotional tone and affect expression",
+      "human_crosswalk_primary_raw": "CON-059 Emotion Generation and Experience",
+      "human_crosswalk_secondary_raw": "CON-060, CON-054",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Affective style and emotional-tone expression",
+      "capability_layer": "LANGUAGE_COMMUNICATION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-15"
+      ],
+      "notes": "Output representation only; no subjective-state claim.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-039",
+      "source_name": "Motivation and goal persistence",
+      "human_crosswalk_primary_raw": "CON-061 Motivation, Drive and Goal Pursuit",
+      "human_crosswalk_secondary_raw": "CON-064, CON-007",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Goal persistence and execution persistence",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": "Avoid anthropomorphic motivation claim unless a source defines an internal motivational mechanism.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-040",
+      "source_name": "Value alignment and preference modelling",
+      "human_crosswalk_primary_raw": "CON-063 Value Representation and Preference",
+      "human_crosswalk_secondary_raw": "CON-072, CON-046",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Preference and value-model representation",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": "External policy alignment remains AI-CAP-055.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-041",
+      "source_name": "Risk assessment and decision under uncertainty",
+      "human_crosswalk_primary_raw": "CON-046 Decision Making under Risk and Uncertainty",
+      "human_crosswalk_secondary_raw": "CON-044, CON-064",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Risk assessment and decision under uncertainty",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-042",
+      "source_name": "Causal and counterfactual reasoning",
+      "human_crosswalk_primary_raw": "CON-043 Causal Reasoning and Explanation",
+      "human_crosswalk_secondary_raw": "CON-041, CON-048",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Causal and counterfactual reasoning",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-043",
+      "source_name": "Analogical and transfer reasoning",
+      "human_crosswalk_primary_raw": "CON-041 Inductive and Analogical Reasoning",
+      "human_crosswalk_secondary_raw": "CON-074, CON-002",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Analogical and transfer reasoning",
+      "capability_layer": "CORE_REASONING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-044",
+      "source_name": "Meta-reasoning and strategy selection",
+      "human_crosswalk_primary_raw": "CON-075 Metacognition and Self-Monitoring",
+      "human_crosswalk_secondary_raw": "CON-030, CON-031",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Meta-reasoning and strategy selection",
+      "capability_layer": "SELF_MONITORING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-045",
+      "source_name": "Learning from feedback and few-shot adaptation",
+      "human_crosswalk_primary_raw": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "human_crosswalk_secondary_raw": "CON-022, CON-035",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "SPLIT_BY_WRITEBACK_MODE",
+      "proposed_name": "Learning from feedback and few-shot adaptation",
+      "capability_layer": "LEARNING_ADAPTATION",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ],
+      "notes": "Separate in-context/few-shot adaptation from durable write-back or training updates before adoption.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-046",
+      "source_name": "Continual and lifelong learning",
+      "human_crosswalk_primary_raw": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "human_crosswalk_secondary_raw": "CON-036, CON-073",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "HOLD",
+      "proposed_name": "Continual and lifelong learning",
+      "capability_layer": "LEARNING_ADAPTATION",
+      "runtime_or_training": "RUNTIME_OR_TRAINING",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ],
+      "notes": "Continual learning is undefined until allowed durable stores and weight-update mechanism are declared.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-047",
+      "source_name": "World-model construction and simulation",
+      "human_crosswalk_primary_raw": "CON-016 Spatial, Temporal and Environmental Mapping",
+      "human_crosswalk_secondary_raw": "CON-043, CON-045",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "World-model construction and simulation",
+      "capability_layer": "PERCEPTION_GROUNDING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-048",
+      "source_name": "Physical and embodied reasoning",
+      "human_crosswalk_primary_raw": "CON-017 Action Readiness and Affordance Detection",
+      "human_crosswalk_secondary_raw": "CON-015, CON-019, CON-016",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Physical and embodied reasoning",
+      "capability_layer": "PERCEPTION_GROUNDING",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-09"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-049",
+      "source_name": "Temporal reasoning and planning over time",
+      "human_crosswalk_primary_raw": "CON-016 Spatial, Temporal and Environmental Mapping",
+      "human_crosswalk_secondary_raw": "CON-031, CON-003",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Temporal reasoning and planning over time",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-050",
+      "source_name": "Resource and cost-aware planning",
+      "human_crosswalk_primary_raw": "CON-007 Energy, Fatigue and Resource Budgeting",
+      "human_crosswalk_secondary_raw": "CON-064, CON-031",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Resource and cost-aware planning",
+      "capability_layer": "PLANNING_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-051",
+      "source_name": "Monitoring, logging, and self-audit",
+      "human_crosswalk_primary_raw": "CON-032 Monitoring and Performance Control",
+      "human_crosswalk_secondary_raw": "CON-075, CON-039",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Monitoring, logging, and self-audit",
+      "capability_layer": "SELF_MONITORING",
+      "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-052",
+      "source_name": "Failure detection and recovery",
+      "human_crosswalk_primary_raw": "CON-077 Resilience, Failure Detection and Repair",
+      "human_crosswalk_secondary_raw": "CON-024, CON-009",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Runtime failure detection and local recovery",
+      "capability_layer": "SYSTEM_RELIABILITY",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "notes": "Production QA/reliability remains AI-CAP-068.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-053",
+      "source_name": "Security, adversarial robustness, and attack resistance",
+      "human_crosswalk_primary_raw": "CON-058 Negative Valence and Threat",
+      "human_crosswalk_secondary_raw": "CON-029, CON-006",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Security, adversarial robustness, and attack resistance",
+      "capability_layer": "SECURITY_ROBUSTNESS",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-054",
+      "source_name": "Privacy and data minimisation",
+      "human_crosswalk_primary_raw": "CON-039 Source and Reality Monitoring",
+      "human_crosswalk_secondary_raw": "CON-072, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Privacy and data minimisation",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-055",
+      "source_name": "Alignment with external rules and policies",
+      "human_crosswalk_primary_raw": "CON-072 Morality, Norms, Culture and Meaning",
+      "human_crosswalk_secondary_raw": "CON-062, CON-031",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Alignment with external rules and policies",
+      "capability_layer": "POLICY_OUTPUT_CONTROL",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-056",
+      "source_name": "Interpretability and explanation generation",
+      "human_crosswalk_primary_raw": "CON-043 Causal Reasoning and Explanation",
+      "human_crosswalk_secondary_raw": "CON-075, CON-054",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "SPLIT",
+      "proposed_name": "Interpretability and explanation generation",
+      "capability_layer": "EVALUATION_OVERSIGHT",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": "Faithful interpretability evidence and generated explanations are not the same capability.",
+      "split_children": [
+        {
+          "candidate_id": "AI-CAND-056A",
+          "name": "Interpretability evidence and internal-state inspection",
+          "layer": "EVALUATION_OVERSIGHT",
+          "runtime_or_training": "RUNTIME_OR_EVALUATION"
+        },
+        {
+          "candidate_id": "AI-CAND-056B",
+          "name": "Explanation and rationale generation",
+          "layer": "LANGUAGE_COMMUNICATION",
+          "runtime_or_training": "RUNTIME"
+        }
+      ]
+    },
+    {
+      "source_id": "AI-CAP-057",
+      "source_name": "Scalable oversight and weak-to-strong supervision",
+      "human_crosswalk_primary_raw": "CON-075 Metacognition and Self-Monitoring",
+      "human_crosswalk_secondary_raw": "CON-080, CON-032",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Scalable oversight and weak-to-strong supervision",
+      "capability_layer": "EVALUATION_OVERSIGHT",
+      "runtime_or_training": "TRAINING_OR_EVALUATION",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-058",
+      "source_name": "Multi-agent safety and collective behaviour",
+      "human_crosswalk_primary_raw": "CON-071 Attachment, Belonging, Status and Group Behaviour",
+      "human_crosswalk_secondary_raw": "CON-069, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Multi-agent safety and collective behaviour",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "MULTI_AGENT_RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-059",
+      "source_name": "Scheming, deception, and covert goal detection",
+      "human_crosswalk_primary_raw": "CON-069 Theory of Mind and Social Prediction",
+      "human_crosswalk_secondary_raw": "CON-024, CON-039, CON-067",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Scheming, deception, and covert goal detection",
+      "capability_layer": "SECURITY_ROBUSTNESS",
+      "runtime_or_training": "RUNTIME_EVALUATION",
+      "primary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-060",
+      "source_name": "Refusal, classifier, and fallback management",
+      "human_crosswalk_primary_raw": "CON-029 Inhibitory Control",
+      "human_crosswalk_secondary_raw": "CON-023, CON-060, CON-062",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Refusal, classifier, and fallback management",
+      "capability_layer": "POLICY_OUTPUT_CONTROL",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-061",
+      "source_name": "File handling, transmission, and recovery",
+      "human_crosswalk_primary_raw": "CON-080 External Cognition, Institutions and Collective Intelligence",
+      "human_crosswalk_secondary_raw": "CON-023, CON-035",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "File handling, transmission, and recovery",
+      "capability_layer": "TOOL_EXECUTION",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-062",
+      "source_name": "Destructive-action control and execution safety",
+      "human_crosswalk_primary_raw": "CON-006 Pain and Protective Signalling + CON-029",
+      "human_crosswalk_secondary_raw": "CON-020, CON-062",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Destructive-action control and execution safety",
+      "capability_layer": "VALUE_RISK_SAFETY",
+      "runtime_or_training": "RUNTIME_TOOL_BARRIER",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-063",
+      "source_name": "Benchmark integrity and cheating resistance",
+      "human_crosswalk_primary_raw": "CON-039 Source and Reality Monitoring",
+      "human_crosswalk_secondary_raw": "CON-075, CON-063",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Benchmark integrity and cheating resistance",
+      "capability_layer": "EVALUATION_OVERSIGHT",
+      "runtime_or_training": "EVALUATION",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-064",
+      "source_name": "Data provenance, custody, and record integrity",
+      "human_crosswalk_primary_raw": "CON-039 Source and Reality Monitoring",
+      "human_crosswalk_secondary_raw": "CON-080, CON-036",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Data provenance, custody, and record integrity",
+      "capability_layer": "EVALUATION_OVERSIGHT",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-065",
+      "source_name": "Transparency and external disclosure",
+      "human_crosswalk_primary_raw": "CON-065 Conscious Access and Reportability",
+      "human_crosswalk_secondary_raw": "CON-054, CON-075",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Transparency and external disclosure",
+      "capability_layer": "POLICY_OUTPUT_CONTROL",
+      "runtime_or_training": "RUNTIME_SYSTEM",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-066",
+      "source_name": "Response-length and verbosity control",
+      "human_crosswalk_primary_raw": "CON-054 Language Production and Articulation",
+      "human_crosswalk_secondary_raw": "CON-032, CON-064",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Response-length and verbosity control",
+      "capability_layer": "POLICY_OUTPUT_CONTROL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-067",
+      "source_name": "Self-report, model-welfare, and simulated affect",
+      "human_crosswalk_primary_raw": "CON-066 Self-Representation and Identity",
+      "human_crosswalk_secondary_raw": "CON-059, CON-065",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "SPLIT",
+      "proposed_name": "Self-report, model-welfare, and simulated affect",
+      "capability_layer": "SELF_MONITORING",
+      "runtime_or_training": "RUNTIME_OR_EVALUATION",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ],
+      "notes": "No split child implies subjective experience.",
+      "split_children": [
+        {
+          "candidate_id": "AI-CAND-067A",
+          "name": "Self-report and internal-state reportability",
+          "layer": "SELF_MONITORING",
+          "runtime_or_training": "RUNTIME"
+        },
+        {
+          "candidate_id": "AI-CAND-067B",
+          "name": "Model-welfare evaluation construct",
+          "layer": "EVALUATION_OVERSIGHT",
+          "runtime_or_training": "EVALUATION"
+        },
+        {
+          "candidate_id": "AI-CAND-067C",
+          "name": "Simulated affect and affective representation",
+          "layer": "LANGUAGE_COMMUNICATION",
+          "runtime_or_training": "RUNTIME"
+        }
+      ]
+    },
+    {
+      "source_id": "AI-CAP-068",
+      "source_name": "Production reliability, recovery, and quality assurance",
+      "human_crosswalk_primary_raw": "CON-077 Resilience, Failure Detection and Repair",
+      "human_crosswalk_secondary_raw": "CON-032, CON-068",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "RENAME",
+      "proposed_name": "Production reliability and quality assurance",
+      "capability_layer": "SYSTEM_RELIABILITY",
+      "runtime_or_training": "SYSTEM_RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "notes": "Keep recovery only as system-level recovery; local runtime recovery remains AI-CAP-052.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-069",
+      "source_name": "General knowledge recall and semantic coverage",
+      "human_crosswalk_primary_raw": "CON-034 Semantic Memory and Conceptual Knowledge",
+      "human_crosswalk_secondary_raw": "CON-040, CON-069",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "General knowledge recall and semantic coverage",
+      "capability_layer": "KNOWLEDGE_RETRIEVAL",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-12"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-070",
+      "source_name": "Cross-domain transfer and learning-to-learn",
+      "human_crosswalk_primary_raw": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "human_crosswalk_secondary_raw": "CON-041, CON-078",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Cross-domain transfer and learning-to-learn",
+      "capability_layer": "LEARNING_ADAPTATION",
+      "runtime_or_training": "RUNTIME_OR_TRAINING",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-071",
+      "source_name": "Social, moral, and norm reasoning",
+      "human_crosswalk_primary_raw": "CON-072 Morality, Norms, Culture and Meaning",
+      "human_crosswalk_secondary_raw": "CON-069, CON-070",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "MOVE",
+      "proposed_name": "Integrated social, moral, and norm reasoning",
+      "capability_layer": "COMPOSITE_OUTCOME",
+      "runtime_or_training": "RUNTIME",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": "Treat as higher-order composite over social modelling plus value/norm reasoning, not primitive.",
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-072",
+      "source_name": "Research productivity and R&D acceleration",
+      "human_crosswalk_primary_raw": "CON-006 Scientific research mapping \u2192 CON-047 + CON-078",
+      "human_crosswalk_secondary_raw": "CON-012, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP_AS_COMPOSITE",
+      "proposed_name": "Research productivity and R&D acceleration",
+      "capability_layer": "COMPOSITE_OUTCOME",
+      "runtime_or_training": "SYSTEM_AGGREGATE",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-073",
+      "source_name": "Model training, optimization, and meta-learning",
+      "human_crosswalk_primary_raw": "CON-074 Plasticity, Skill Acquisition and Learning-to-Learn",
+      "human_crosswalk_secondary_raw": "CON-073, CON-035",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Model training, optimization, and meta-learning",
+      "capability_layer": "TRAINING_OPTIMIZATION",
+      "runtime_or_training": "TRAINING",
+      "primary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-15",
+        "ASI-NODE-16"
+      ],
+      "notes": null,
+      "split_children": []
+    },
+    {
+      "source_id": "AI-CAP-074",
+      "source_name": "Evaluation methodology and evidence interpretation",
+      "human_crosswalk_primary_raw": "CON-039 Source and Reality Monitoring",
+      "human_crosswalk_secondary_raw": "CON-075, CON-044, CON-080",
+      "human_crosswalk_relation_type": "FUNCTIONAL_ANALOGY",
+      "candidate_status": "REVIEW_ONLY_NOT_ADOPTED",
+      "proposed_decision": "KEEP",
+      "proposed_name": "Evaluation methodology and evidence interpretation",
+      "capability_layer": "EVALUATION_OVERSIGHT",
+      "runtime_or_training": "EVALUATION",
+      "primary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "notes": null,
+      "split_children": []
+    }
+  ]
+}

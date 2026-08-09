@@ -71,8 +71,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "3934a3aaf0b74e192a76768f240ab2b056aadeb1f100e87391aa85b50f632abe",
-    "size_bytes": 1471
+    "sha256": "9b67ba8e8ad3272b75ed8d9656ae21f138224bcfc221b928afaa7fb47c58d558",
+    "size_bytes": 1584
   },
   {
     "path": "machine/schemas/sourceborn.bundle.schema.json",
@@ -233,6 +233,11 @@
     "path": "registries/asi/asi_node_registry.json",
     "sha256": "08508213f4c8fdd8e8cbe804843699324bfeea4123532a5bd2020b295a6f49c3",
     "size_bytes": 2194
+  },
+  {
+    "path": "registries/asi/node_brains_v0.json",
+    "sha256": "ac2f0200a0c98c4c5fc931cec928d6255fe61e41e8a3c4ad57aca7ab4bc89ef7",
+    "size_bytes": 15272
   },
   {
     "path": "registries/asi/node_brain_template.json",
