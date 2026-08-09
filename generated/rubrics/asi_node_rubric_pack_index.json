@@ -1,0 +1,166 @@
+{
+  "ASI-NODE-00": {
+    "primary": [
+      "LOCK_PACK"
+    ],
+    "secondary": [
+      "INTEGRITY_CLOSURE_PACK"
+    ]
+  },
+  "ASI-NODE-02": {
+    "primary": [
+      "LOCK_PACK",
+      "PRIOR_REALITY_PACK"
+    ],
+    "secondary": [
+      "DYNAMICS_PACK",
+      "CONSEQUENCE_PACK"
+    ]
+  },
+  "ASI-NODE-16": {
+    "primary": [
+      "LOCK_PACK",
+      "VALIDATION_MEMORY_PACK",
+      "INTEGRITY_CLOSURE_PACK"
+    ],
+    "secondary": [
+      "PRIOR_REALITY_PACK",
+      "EDGE_PACK",
+      "PREPARATION_PACK",
+      "CONSEQUENCE_PACK",
+      "DERIVED_KNOWLEDGE_PACK"
+    ]
+  },
+  "ASI-NODE-14": {
+    "primary": [
+      "CONSEQUENCE_PACK",
+      "INTEGRITY_CLOSURE_PACK"
+    ],
+    "secondary": [
+      "LOCK_PACK",
+      "VALIDATION_MEMORY_PACK",
+      "DERIVED_KNOWLEDGE_PACK"
+    ]
+  },
+  "ASI-NODE-17": {
+    "primary": [
+      "CONTROL_CRITERIA_PACK",
+      "EDGE_PACK",
+      "RESOLUTION_PACK",
+      "CONSEQUENCE_PACK",
+      "DERIVED_KNOWLEDGE_PACK",
+      "INTEGRITY_CLOSURE_PACK"
+    ],
+    "secondary": [
+      "LOCK_PACK"
+    ]
+  },
+  "ASI-NODE-01": {
+    "primary": [
+      "PRIOR_REALITY_PACK"
+    ],
+    "secondary": [
+      "INTEGRITY_CLOSURE_PACK"
+    ]
+  },
+  "ASI-NODE-07": {
+    "primary": [
+      "PREPARATION_PACK"
+    ],
+    "secondary": [
+      "PRIOR_REALITY_PACK",
+      "EDGE_PACK",
+      "VALIDATION_MEMORY_PACK",
+      "INTEGRITY_CLOSURE_PACK"
+    ]
+  },
+  "ASI-NODE-03": {
+    "primary": [
+      "CONTROL_CRITERIA_PACK"
+    ],
+    "secondary": [
+      "RESOLUTION_PACK"
+    ]
+  },
+  "ASI-NODE-08": {
+    "primary": [
+      "CONTROL_CRITERIA_PACK",
+      "RESOLUTION_PACK"
+    ],
+    "secondary": [
+      "EDGE_PACK",
+      "PREPARATION_PACK"
+    ]
+  },
+  "ASI-NODE-04": {
+    "primary": [
+      "EDGE_PACK"
+    ],
+    "secondary": [
+      "CONTROL_CRITERIA_PACK",
+      "DYNAMICS_PACK"
+    ]
+  },
+  "ASI-NODE-05": {
+    "primary": [
+      "EDGE_PACK",
+      "PREPARATION_PACK"
+    ],
+    "secondary": [
+      "CONTROL_CRITERIA_PACK",
+      "RESOLUTION_PACK",
+      "DYNAMICS_PACK",
+      "INTEGRITY_CLOSURE_PACK"
+    ]
+  },
+  "ASI-NODE-11": {
+    "primary": [
+      "VALIDATION_MEMORY_PACK"
+    ],
+    "secondary": [
+      "CONTROL_CRITERIA_PACK",
+      "RESOLUTION_PACK",
+      "CONSEQUENCE_PACK",
+      "INTEGRITY_CLOSURE_PACK"
+    ]
+  },
+  "ASI-NODE-09": {
+    "primary": [
+      "DYNAMICS_PACK"
+    ],
+    "secondary": [
+      "PREPARATION_PACK"
+    ]
+  },
+  "ASI-NODE-10": {
+    "primary": [
+      "CONSEQUENCE_PACK"
+    ],
+    "secondary": [
+      "DYNAMICS_PACK"
+    ]
+  },
+  "ASI-NODE-12": {
+    "primary": [
+      "VALIDATION_MEMORY_PACK"
+    ],
+    "secondary": [
+      "CONSEQUENCE_PACK",
+      "DERIVED_KNOWLEDGE_PACK"
+    ]
+  },
+  "ASI-NODE-13": {
+    "primary": [
+      "VALIDATION_MEMORY_PACK"
+    ],
+    "secondary": [
+      "DERIVED_KNOWLEDGE_PACK"
+    ]
+  },
+  "ASI-NODE-15": {
+    "primary": [
+      "DERIVED_KNOWLEDGE_PACK"
+    ],
+    "secondary": []
+  }
+}

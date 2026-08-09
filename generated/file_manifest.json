@@ -76,8 +76,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "9b67ba8e8ad3272b75ed8d9656ae21f138224bcfc221b928afaa7fb47c58d558",
-    "size_bytes": 1584
+    "sha256": "0dbb13e6c23fcdcd581ff82db0967022e9ba961c070275e137ed6dfcb7c1388d",
+    "size_bytes": 1700
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -168,6 +168,11 @@
     "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
     "sha256": "b769f22713a64327ace66e11d702661a3b3fd1104ba44b97921f0752dd90e43f",
     "size_bytes": 618
+  },
+  {
+    "path": "raw/sequence/SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.custody.json",
+    "sha256": "a4909012eb1de7b57ef3f9dae041aeb5ad3115d5738b1fda592570f8ff8877f4",
+    "size_bytes": 1240
   },
   {
     "path": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",

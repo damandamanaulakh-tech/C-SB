@@ -1,0 +1,1919 @@
+{
+  "rubric_count": 52,
+  "dimension_count": 987,
+  "status": "PHASE2_V2_LOCK_CANDIDATE",
+  "items": [
+    {
+      "rubric_id": "R01",
+      "rubric_name": "Scope Rubrics",
+      "dimension_count": 15,
+      "dimensions": [
+        "scope_type",
+        "closure_scope",
+        "system_scope",
+        "spatial_scope",
+        "temporal_scope",
+        "causal_horizon",
+        "epistemic_horizon",
+        "resolution_level",
+        "granularity",
+        "abstraction_level",
+        "included_systems",
+        "excluded_systems",
+        "observer_scope",
+        "jurisdiction/domain scope",
+        "local/global scope"
+      ],
+      "pack": "LOCK_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-02",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ]
+    },
+    {
+      "rubric_id": "R02",
+      "rubric_name": "Identity Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "object_type",
+        "identity_basis",
+        "continuity_criterion",
+        "boundary_type",
+        "boundary_permeability",
+        "boundary_stability",
+        "role",
+        "function",
+        "ownership",
+        "version",
+        "lineage",
+        "split_status",
+        "merge_status",
+        "replacement_status",
+        "identity_conflict",
+        "identity_confidence"
+      ],
+      "pack": "LOCK_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-02",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ]
+    },
+    {
+      "rubric_id": "R03",
+      "rubric_name": "Existence Rubrics",
+      "dimension_count": 15,
+      "dimensions": [
+        "existence_mode",
+        "instantiation_degree",
+        "materiality",
+        "representation_status",
+        "maturity",
+        "lifecycle_stage",
+        "presence/absence",
+        "persistence",
+        "duration",
+        "latency",
+        "recurrence",
+        "decay",
+        "availability_in_reality",
+        "accessibility",
+        "observability"
+      ],
+      "pack": "PRIOR_REALITY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-02"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R04",
+      "rubric_name": "State Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "state_variable_type",
+        "value",
+        "range",
+        "direction",
+        "rate",
+        "acceleration/change-of-rate",
+        "trend",
+        "volatility",
+        "stability",
+        "coherence",
+        "viability",
+        "equilibrium_status",
+        "saturation",
+        "capacity",
+        "deficit",
+        "deviation",
+        "entropy/order",
+        "reversibility",
+        "resilience",
+        "fragility"
+      ],
+      "pack": "PRIOR_REALITY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-02"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R05",
+      "rubric_name": "Formation Rubrics",
+      "dimension_count": 14,
+      "dimensions": [
+        "formation_mode",
+        "formation_origin",
+        "formation_controller",
+        "formation_carrier",
+        "formation_inputs",
+        "assembly/growth/emergence type",
+        "inherited/generated/designed",
+        "spontaneous/intentional",
+        "formation_duration",
+        "formation_dependencies",
+        "formation_evidence",
+        "incomplete formation",
+        "transformation lineage",
+        "unknown-formation depth"
+      ],
+      "pack": "PRIOR_REALITY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-02"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R06",
+      "rubric_name": "Provenance Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "source_class",
+        "source_identity",
+        "source_location",
+        "source_version",
+        "source_time",
+        "source_chain_depth",
+        "first-hand/derived",
+        "primary/secondary/tertiary",
+        "independence",
+        "authority",
+        "authenticity",
+        "completeness",
+        "contamination risk",
+        "manipulation risk",
+        "conflict-of-interest",
+        "traceability",
+        "recoverability",
+        "provenance confidence",
+        "missing-origin type",
+        "source contradiction"
+      ],
+      "pack": "PRIOR_REALITY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-02"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R07",
+      "rubric_name": "Epistemic Rubrics",
+      "dimension_count": 22,
+      "dimensions": [
+        "known",
+        "supported",
+        "inferred",
+        "speculative",
+        "unknown",
+        "contradictory",
+        "unavailable",
+        "not-applicable",
+        "confidence",
+        "uncertainty type",
+        "uncertainty magnitude",
+        "ambiguity",
+        "precision",
+        "proof depth",
+        "falsifiability",
+        "verification status",
+        "replication status",
+        "corroboration status",
+        "witness count",
+        "source independence",
+        "unresolved proof debt",
+        "model dependence"
+      ],
+      "pack": "PRIOR_REALITY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-02"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R08",
+      "rubric_name": "Relation Rubrics",
+      "dimension_count": 26,
+      "dimensions": [
+        "relation_type",
+        "directionality",
+        "order_type",
+        "cardinality",
+        "symmetry",
+        "transitivity",
+        "reflexivity",
+        "exclusivity",
+        "dependency strength",
+        "causal sign",
+        "coupling strength",
+        "mediation",
+        "moderation",
+        "hierarchy",
+        "containment",
+        "adjacency",
+        "distance",
+        "alignment",
+        "conflict",
+        "compatibility",
+        "persistence",
+        "validity interval",
+        "relation confidence",
+        "relation provenance",
+        "inverse_relation",
+        "relation multiplicity"
+      ],
+      "pack": "PRIOR_REALITY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-02"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R09",
+      "rubric_name": "Order/Time Rubrics",
+      "dimension_count": 25,
+      "dimensions": [
+        "temporal_order",
+        "causal_order",
+        "dependency_order",
+        "logical_order",
+        "construction_order",
+        "discovery_order",
+        "control_order",
+        "representation_order",
+        "simultaneous",
+        "partially_ordered",
+        "event_time",
+        "observation_time",
+        "record_time",
+        "processing_time",
+        "valid_from",
+        "valid_to",
+        "duration",
+        "latency",
+        "deadline",
+        "time_window",
+        "recurrence",
+        "cadence",
+        "phase",
+        "synchronization requirement",
+        "clock certainty"
+      ],
+      "pack": "LOCK_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-02",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ]
+    },
+    {
+      "rubric_id": "R10",
+      "rubric_name": "Driver Rubrics",
+      "dimension_count": 22,
+      "dimensions": [
+        "driver_presence",
+        "driver_type",
+        "driver_origin",
+        "intensity",
+        "urgency",
+        "persistence",
+        "direction",
+        "competing_driver",
+        "hidden/visible",
+        "internal/external",
+        "natural/agentic/structural",
+        "need",
+        "want",
+        "goal",
+        "demand",
+        "opportunity",
+        "curiosity",
+        "damage/deviation",
+        "relational",
+        "commitment activation",
+        "prior-result activation",
+        "represented-future activation"
+      ],
+      "pack": "CONTROL_CRITERIA_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R11",
+      "rubric_name": "Control Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "controller_presence",
+        "controller_type",
+        "control_regime",
+        "authority",
+        "permission",
+        "autonomy",
+        "delegation",
+        "joint-control share",
+        "meta-control",
+        "control boundary",
+        "controllability",
+        "observability",
+        "intervention ability",
+        "override ability",
+        "accountability",
+        "controller knowledge",
+        "controller conflict",
+        "control transfer",
+        "control persistence",
+        "unknown controller"
+      ],
+      "pack": "CONTROL_CRITERIA_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R12",
+      "rubric_name": "Carrier Rubrics",
+      "dimension_count": 14,
+      "dimensions": [
+        "carrier_presence",
+        "carrier_type",
+        "carrier_identity",
+        "carrier_capacity",
+        "carrier_state",
+        "carrier_knowledge",
+        "carrier_capability",
+        "carrier_constraints",
+        "carrier_history",
+        "carrier_role",
+        "carrier replacement",
+        "multi-carrier distribution",
+        "carrier-to-seed binding",
+        "carrier continuity"
+      ],
+      "pack": "CONTROL_CRITERIA_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R13",
+      "rubric_name": "Rule/Constraint Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "rule_type",
+        "rule_source",
+        "rule_scope",
+        "rule_priority",
+        "hard/soft constraint",
+        "permission/prohibition",
+        "exception allowed",
+        "override condition",
+        "override authority",
+        "conflict",
+        "precedence",
+        "persistence",
+        "expiry",
+        "inertia",
+        "enforcement mechanism",
+        "compliance status",
+        "violation status",
+        "consequence",
+        "interpretation ambiguity",
+        "rule version"
+      ],
+      "pack": "CONTROL_CRITERIA_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R14",
+      "rubric_name": "Promise/Commitment Rubrics",
+      "dimension_count": 18,
+      "dimensions": [
+        "creator",
+        "owner",
+        "beneficiary/target",
+        "promised result",
+        "activation condition",
+        "persistence",
+        "expiry",
+        "close condition",
+        "acceptance condition",
+        "transferability",
+        "revocability",
+        "priority",
+        "conflict",
+        "fulfillment status",
+        "breach status",
+        "evidence",
+        "future-sequence seed",
+        "rule interaction"
+      ],
+      "pack": "CONTROL_CRITERIA_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R15",
+      "rubric_name": "Requirement/Contract Rubrics",
+      "dimension_count": 21,
+      "dimensions": [
+        "contract_type",
+        "requirement_presence",
+        "requirement_type",
+        "exact criterion",
+        "minimum acceptable state",
+        "ideal state",
+        "tolerance",
+        "priority",
+        "negotiability",
+        "amendment authority",
+        "scope",
+        "deadline",
+        "evidence requirement",
+        "proof depth",
+        "acceptance evaluator",
+        "success condition",
+        "partial condition",
+        "failure condition",
+        "unknown condition",
+        "unavailable condition",
+        "abort condition"
+      ],
+      "pack": "CONTROL_CRITERIA_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R16",
+      "rubric_name": "Trigger Rubrics",
+      "dimension_count": 14,
+      "dimensions": [
+        "trigger_type",
+        "trigger_source",
+        "event/state/time/return/manual",
+        "trigger time",
+        "trigger confidence",
+        "trigger observability",
+        "trigger uniqueness",
+        "repeatability",
+        "debounce/cooldown",
+        "missed-trigger handling",
+        "false-trigger risk",
+        "trigger dependency",
+        "trigger priority",
+        "trigger provenance"
+      ],
+      "pack": "EDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R17",
+      "rubric_name": "Threshold Rubrics",
+      "dimension_count": 24,
+      "dimensions": [
+        "threshold_type",
+        "operator",
+        "value",
+        "range",
+        "boundary inclusivity",
+        "state predicate",
+        "absence condition",
+        "count/quorum",
+        "confidence/proof",
+        "time",
+        "event",
+        "promise-match",
+        "priority resolution",
+        "similarity/distance",
+        "rate/trend",
+        "probability",
+        "composite logic",
+        "evaluator",
+        "evaluation mode",
+        "recheck condition",
+        "hysteresis",
+        "timeout",
+        "uncertainty tolerance",
+        "threshold version"
+      ],
+      "pack": "EDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R18",
+      "rubric_name": "Dependency Rubrics",
+      "dimension_count": 25,
+      "dimensions": [
+        "dependency_type",
+        "required/optional",
+        "alternative group",
+        "boolean group",
+        "precedence",
+        "source",
+        "availability",
+        "accessibility",
+        "sufficiency",
+        "quality",
+        "quantity",
+        "capacity",
+        "timing",
+        "location",
+        "permission",
+        "version",
+        "substitutability",
+        "redundancy",
+        "scarcity",
+        "bottleneck status",
+        "critical path",
+        "dependency depth",
+        "fragility",
+        "shared-resource conflict",
+        "acceptance status"
+      ],
+      "pack": "EDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R19",
+      "rubric_name": "Resource Rubrics",
+      "dimension_count": 22,
+      "dimensions": [
+        "resource_type",
+        "quantity",
+        "quality",
+        "capacity",
+        "ownership",
+        "control",
+        "accessibility",
+        "location",
+        "cost",
+        "acquisition time",
+        "replenishment",
+        "depletion",
+        "substitutability",
+        "portability",
+        "divisibility",
+        "reliability",
+        "redundancy",
+        "scarcity",
+        "expiration",
+        "contamination",
+        "security",
+        "dependency load"
+      ],
+      "pack": "PREPARATION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R20",
+      "rubric_name": "Availability Rubrics",
+      "dimension_count": 18,
+      "dimensions": [
+        "exists",
+        "reachable",
+        "usable",
+        "timely",
+        "sufficient",
+        "authorized",
+        "correct version",
+        "stable",
+        "reserved",
+        "contested",
+        "latency",
+        "failure probability",
+        "alternate route",
+        "obtainability",
+        "buildability",
+        "repairability",
+        "substitutability",
+        "waitability"
+      ],
+      "pack": "PREPARATION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R21",
+      "rubric_name": "Qualification/Admissibility Rubrics",
+      "dimension_count": 18,
+      "dimensions": [
+        "physical possibility",
+        "logical validity",
+        "compatibility",
+        "identity match",
+        "version match",
+        "scope fit",
+        "sufficiency",
+        "relevance",
+        "authorization",
+        "safety-if-contracted",
+        "integrity",
+        "authenticity",
+        "quality",
+        "contamination",
+        "completeness",
+        "legal/normative fit if applicable",
+        "proof status",
+        "qualification confidence"
+      ],
+      "pack": "PREPARATION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R22",
+      "rubric_name": "Evidence/Test Rubrics",
+      "dimension_count": 28,
+      "dimensions": [
+        "test_required",
+        "test_mode",
+        "observation",
+        "experiment",
+        "simulation",
+        "formal derivation",
+        "trial",
+        "cross-check",
+        "memory comparison",
+        "test scope",
+        "sensitivity",
+        "specificity/discrimination",
+        "coverage",
+        "repeatability",
+        "reproducibility",
+        "independence",
+        "control/reference",
+        "sample adequacy",
+        "error rate",
+        "false-positive risk",
+        "false-negative risk",
+        "pass criterion",
+        "fail criterion",
+        "unknown criterion",
+        "unavailable criterion",
+        "evidence strength",
+        "evidence conflict",
+        "test provenance"
+      ],
+      "pack": "PREPARATION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R23",
+      "rubric_name": "Alternative Path Rubrics",
+      "dimension_count": 19,
+      "dimensions": [
+        "path_id",
+        "feasibility",
+        "expected result",
+        "dependencies",
+        "cost",
+        "time",
+        "risk",
+        "reversibility",
+        "optionality",
+        "robustness",
+        "uncertainty",
+        "evidence confidence",
+        "rule compatibility",
+        "resource demand",
+        "side effects",
+        "opportunity cost",
+        "regret",
+        "fallback value",
+        "selection status"
+      ],
+      "pack": "RESOLUTION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R24",
+      "rubric_name": "Decision/Arbitration Rubrics",
+      "dimension_count": 18,
+      "dimensions": [
+        "selector presence",
+        "selector type",
+        "decision method",
+        "priority rule",
+        "tie-break",
+        "authority",
+        "information available",
+        "uncertainty",
+        "conflict",
+        "veto",
+        "consensus/quorum",
+        "structural resolution",
+        "chosen path",
+        "rejected paths",
+        "rejection reason",
+        "reversibility",
+        "accountability",
+        "decision confidence"
+      ],
+      "pack": "RESOLUTION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R25",
+      "rubric_name": "Counter-Sequence Rubrics",
+      "dimension_count": 15,
+      "dimensions": [
+        "counter relation type",
+        "target sequence",
+        "target result",
+        "negate/block/degrade/divert/balance/neutralize",
+        "activation condition",
+        "controller",
+        "carrier",
+        "strength",
+        "timing",
+        "interaction point",
+        "detectability",
+        "reversibility",
+        "counter-counter sequence",
+        "result",
+        "closure state"
+      ],
+      "pack": "RESOLUTION_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R26",
+      "rubric_name": "Encounter/Access Rubrics",
+      "dimension_count": 14,
+      "dimensions": [
+        "encounter required",
+        "access type",
+        "physical/logical/informational/social",
+        "distance",
+        "boundary approach",
+        "permission",
+        "discoverability",
+        "reachability",
+        "timing",
+        "encounter threshold",
+        "access persistence",
+        "exclusivity",
+        "contention",
+        "failure mode"
+      ],
+      "pack": "DYNAMICS_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-09"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-10"
+      ]
+    },
+    {
+      "rubric_id": "R27",
+      "rubric_name": "Coupling Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "coupling type",
+        "direction",
+        "strength",
+        "duration",
+        "bandwidth",
+        "permeability",
+        "channel",
+        "medium",
+        "latency",
+        "loss",
+        "noise",
+        "interference",
+        "reversibility",
+        "stability",
+        "feedback",
+        "saturation"
+      ],
+      "pack": "DYNAMICS_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-09"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-10"
+      ]
+    },
+    {
+      "rubric_id": "R28",
+      "rubric_name": "Transformation Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "transformation_required",
+        "type",
+        "input form",
+        "output form",
+        "mechanism",
+        "controller",
+        "reversibility",
+        "loss",
+        "gain",
+        "energy/resource cost",
+        "information loss",
+        "fidelity",
+        "side effects",
+        "intermediate states",
+        "completion status",
+        "validation"
+      ],
+      "pack": "DYNAMICS_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-09"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-10"
+      ]
+    },
+    {
+      "rubric_id": "R29",
+      "rubric_name": "Dynamics/Process Rubrics",
+      "dimension_count": 30,
+      "dimensions": [
+        "mechanism type",
+        "deterministic/stochastic",
+        "continuous/discrete",
+        "linear/nonlinear",
+        "local/distributed",
+        "rate",
+        "direction",
+        "intensity",
+        "duration",
+        "propagation",
+        "diffusion/spread",
+        "transfer",
+        "exchange",
+        "reaction",
+        "regulation",
+        "computation",
+        "reasoning",
+        "assembly",
+        "decay",
+        "amplification",
+        "damping",
+        "saturation",
+        "oscillation",
+        "phase transition",
+        "emergence",
+        "adaptation",
+        "efficiency",
+        "loss",
+        "bottleneck",
+        "failure mode"
+      ],
+      "pack": "DYNAMICS_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-09"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-10"
+      ]
+    },
+    {
+      "rubric_id": "R30",
+      "rubric_name": "Effect/Output Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "effect_type",
+        "intended/unintended",
+        "direct/indirect",
+        "primary/side",
+        "material/energy/information/control/relation",
+        "magnitude",
+        "direction",
+        "recipient",
+        "locality",
+        "persistence",
+        "latency",
+        "reversibility",
+        "externality",
+        "resource consumption",
+        "resource creation",
+        "capability creation",
+        "information creation",
+        "environmental alteration",
+        "action subtype",
+        "output confidence"
+      ],
+      "pack": "CONSEQUENCE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R31",
+      "rubric_name": "State-Change Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "changed object",
+        "changed variable",
+        "before value",
+        "after value",
+        "delta",
+        "direction",
+        "rate",
+        "permanence",
+        "reversibility",
+        "identity impact",
+        "relation impact",
+        "environment impact",
+        "rule impact",
+        "capability impact",
+        "information impact",
+        "uncertainty"
+      ],
+      "pack": "CONSEQUENCE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R32",
+      "rubric_name": "Entity-Outcome Rubrics",
+      "dimension_count": 17,
+      "dimensions": [
+        "persists",
+        "modified",
+        "degraded",
+        "repaired",
+        "transformed",
+        "split",
+        "merged",
+        "consumed/incorporated",
+        "terminated",
+        "new entity instantiated",
+        "absent",
+        "unknown",
+        "not applicable",
+        "identity continuity",
+        "lifecycle stage",
+        "residual trace",
+        "successor identity"
+      ],
+      "pack": "CONSEQUENCE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R33",
+      "rubric_name": "Result Rubrics",
+      "dimension_count": 21,
+      "dimensions": [
+        "primary",
+        "side",
+        "failed",
+        "intended",
+        "unintended",
+        "immediate",
+        "delayed",
+        "latent",
+        "conditional",
+        "resource",
+        "capability",
+        "entity",
+        "relation",
+        "knowledge",
+        "rule",
+        "problem",
+        "opportunity",
+        "seed",
+        "counter-seed",
+        "environment change",
+        "closure contribution"
+      ],
+      "pack": "CONSEQUENCE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R34",
+      "rubric_name": "Impact/Criticality Rubrics",
+      "dimension_count": 19,
+      "dimensions": [
+        "local magnitude",
+        "affected scope",
+        "downstream depth",
+        "dependency count",
+        "dependency centrality",
+        "time to activation",
+        "closure criticality",
+        "necessity",
+        "sufficiency",
+        "contribution",
+        "substitute paths",
+        "irreversibility",
+        "propagation radius",
+        "systemic importance",
+        "cascade potential",
+        "amplification",
+        "damping",
+        "uncertainty",
+        "counterfactual confidence"
+      ],
+      "pack": "CONSEQUENCE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R35",
+      "rubric_name": "Latency/Seed Rubrics",
+      "dimension_count": 15,
+      "dimensions": [
+        "seed_type",
+        "origin sequence",
+        "persistence",
+        "activation threshold",
+        "possible carriers",
+        "binding status",
+        "dormant duration",
+        "decay/expiry",
+        "transformed status",
+        "consumed status",
+        "multiple activation",
+        "conflict",
+        "counter-seed",
+        "activation evidence",
+        "future scope"
+      ],
+      "pack": "CONSEQUENCE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-10",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R36",
+      "rubric_name": "Verification Rubrics",
+      "dimension_count": 19,
+      "dimensions": [
+        "criterion",
+        "evaluator",
+        "evidence",
+        "result match",
+        "deviation",
+        "tolerance",
+        "success",
+        "partial",
+        "failure",
+        "unknown",
+        "unavailable",
+        "not applicable",
+        "confidence",
+        "proof depth",
+        "independent corroboration",
+        "contradiction",
+        "repeat verification",
+        "acceptance authority",
+        "verification timestamp"
+      ],
+      "pack": "VALIDATION_MEMORY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-14"
+      ]
+    },
+    {
+      "rubric_id": "R37",
+      "rubric_name": "Feedback Rubrics",
+      "dimension_count": 15,
+      "dimensions": [
+        "feedback source",
+        "positive/negative/neutral relative to criterion",
+        "immediate/delayed",
+        "strength",
+        "target",
+        "corrective",
+        "reinforcing",
+        "balancing",
+        "informational",
+        "control",
+        "learning",
+        "repair",
+        "requirement-amendment proposal",
+        "new-sequence seed",
+        "confidence update"
+      ],
+      "pack": "VALIDATION_MEMORY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-14"
+      ]
+    },
+    {
+      "rubric_id": "R38",
+      "rubric_name": "Trace Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "trace_type",
+        "persistence",
+        "location",
+        "detectability",
+        "fidelity",
+        "decay",
+        "manipulation",
+        "contamination",
+        "source link",
+        "time",
+        "physical",
+        "biological",
+        "behavioral",
+        "informational",
+        "symbolic",
+        "technical",
+        "institutional",
+        "environmental",
+        "narrative",
+        "evidential value"
+      ],
+      "pack": "VALIDATION_MEMORY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-14"
+      ]
+    },
+    {
+      "rubric_id": "R39",
+      "rubric_name": "Memory Rubrics",
+      "dimension_count": 24,
+      "dimensions": [
+        "memory_type",
+        "encoded_from_trace",
+        "storage location",
+        "owner/system",
+        "scope",
+        "context binding",
+        "source binding",
+        "retention",
+        "decay",
+        "retrieval",
+        "accessibility",
+        "update policy",
+        "append/overwrite",
+        "version",
+        "trust",
+        "contamination",
+        "contradiction",
+        "manipulation risk",
+        "compression",
+        "recoverability",
+        "procedural/factual/path/failure/context/rule",
+        "reuse conditions",
+        "expiry",
+        "validation status"
+      ],
+      "pack": "VALIDATION_MEMORY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-14"
+      ]
+    },
+    {
+      "rubric_id": "R40",
+      "rubric_name": "Memory-Validation Rubrics",
+      "dimension_count": 17,
+      "dimensions": [
+        "validation policy",
+        "source quality",
+        "source independence",
+        "witness count",
+        "quorum",
+        "formal proof",
+        "replication",
+        "context match",
+        "age/version",
+        "contradiction count",
+        "contamination",
+        "manipulation",
+        "recoverability",
+        "confidence",
+        "scope limitation",
+        "unresolved gap",
+        "reconstruction required"
+      ],
+      "pack": "VALIDATION_MEMORY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-14"
+      ]
+    },
+    {
+      "rubric_id": "R41",
+      "rubric_name": "Compression Rubrics",
+      "dimension_count": 18,
+      "dimensions": [
+        "compression type",
+        "compression ratio",
+        "preserved invariants",
+        "discarded detail",
+        "scope",
+        "conditions",
+        "assumptions",
+        "confidence",
+        "known exceptions",
+        "source links",
+        "recoverability",
+        "reconstruction method",
+        "information-loss grade",
+        "ambiguity introduced",
+        "version",
+        "validity",
+        "proof debt",
+        "contradiction references"
+      ],
+      "pack": "VALIDATION_MEMORY_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-14"
+      ]
+    },
+    {
+      "rubric_id": "R42",
+      "rubric_name": "Pattern/Generalization Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "cases compared",
+        "sample diversity",
+        "repeated relation",
+        "exception count",
+        "context dependence",
+        "failed generalization",
+        "confidence",
+        "causal vs correlational",
+        "support count",
+        "counterexample count",
+        "scope",
+        "transferability",
+        "stability",
+        "predictive usefulness",
+        "falsifiability",
+        "rule-candidate status"
+      ],
+      "pack": "DERIVED_KNOWLEDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-15",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R43",
+      "rubric_name": "Observer/Writer Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "observer identity",
+        "access",
+        "vantage point",
+        "knowledge state",
+        "selection policy",
+        "omission",
+        "ordering",
+        "interpretation",
+        "bias",
+        "source set",
+        "recording time",
+        "distance from event",
+        "transformation from event to record",
+        "narrative frame",
+        "confidence",
+        "later reinterpretation"
+      ],
+      "pack": "DERIVED_KNOWLEDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-15",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R44",
+      "rubric_name": "Inheritance Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "inheritance_type",
+        "source sequence",
+        "target sequence",
+        "transferred object",
+        "fidelity",
+        "loss",
+        "transformation",
+        "constraint inheritance",
+        "capability inheritance",
+        "rule inheritance",
+        "memory inheritance",
+        "biological",
+        "social",
+        "cultural",
+        "technical",
+        "institutional",
+        "physical",
+        "informational",
+        "abstract/mathematical",
+        "validity scope"
+      ],
+      "pack": "DERIVED_KNOWLEDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-15",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R45",
+      "rubric_name": "Sequence-Relation Rubrics",
+      "dimension_count": 21,
+      "dimensions": [
+        "main/global",
+        "local/rider",
+        "attached",
+        "next",
+        "reference",
+        "counter",
+        "observer",
+        "audit",
+        "parent",
+        "child",
+        "sibling",
+        "nested",
+        "parallel",
+        "convergent",
+        "divergent",
+        "synchronized",
+        "resource-sharing",
+        "conflicting",
+        "dependency-bearing",
+        "superseding interpretation",
+        "lineage depth"
+      ],
+      "pack": "DERIVED_KNOWLEDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-15",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R46",
+      "rubric_name": "Concurrency Rubrics",
+      "dimension_count": 18,
+      "dimensions": [
+        "parallelism",
+        "shared resource",
+        "lock required",
+        "wait state",
+        "wait-for relation",
+        "deadlock risk",
+        "starvation risk",
+        "race condition",
+        "priority inversion",
+        "timeout",
+        "transaction boundary",
+        "commit policy",
+        "rollback policy",
+        "merge policy",
+        "synchronization gate",
+        "quorum",
+        "convergence window",
+        "conflict resolution"
+      ],
+      "pack": "EDGE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ]
+    },
+    {
+      "rubric_id": "R47",
+      "rubric_name": "Closure Rubrics",
+      "dimension_count": 22,
+      "dimensions": [
+        "closure scope",
+        "readiness",
+        "success",
+        "failure",
+        "partial",
+        "unknown",
+        "unavailable",
+        "not applicable",
+        "aborted",
+        "unresolved required items",
+        "unaccepted returns",
+        "gap count",
+        "contradiction count",
+        "proof debt",
+        "verification status",
+        "entity outcome separation",
+        "trace completeness",
+        "memory completeness",
+        "seed extraction",
+        "archive completeness",
+        "pass3 integrity",
+        "immutable seal"
+      ],
+      "pack": "INTEGRITY_CLOSURE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-01",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R48",
+      "rubric_name": "Gap Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "gap_type",
+        "missing source",
+        "missing dependency",
+        "missing evaluator",
+        "missing threshold",
+        "missing identity",
+        "missing relation",
+        "missing evidence",
+        "missing result producer",
+        "missing input",
+        "missing return",
+        "missing contract",
+        "unknown provenance",
+        "inaccessible data",
+        "contradiction-caused gap",
+        "human-only resolution",
+        "closure blocking",
+        "severity",
+        "repairability",
+        "investigation sequence"
+      ],
+      "pack": "INTEGRITY_CLOSURE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-01",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R49",
+      "rubric_name": "Contradiction Rubrics",
+      "dimension_count": 20,
+      "dimensions": [
+        "factual",
+        "temporal",
+        "causal",
+        "identity",
+        "scope",
+        "definition",
+        "rule",
+        "source",
+        "evidence",
+        "memory",
+        "threshold",
+        "result",
+        "actor-view",
+        "apparent/context-resolvable",
+        "hard contradiction",
+        "source independence",
+        "severity",
+        "closure impact",
+        "resolution path",
+        "unresolved status"
+      ],
+      "pack": "INTEGRITY_CLOSURE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-01",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R50",
+      "rubric_name": "Proof-Debt Rubrics",
+      "dimension_count": 15,
+      "dimensions": [
+        "claim lacking proof",
+        "required proof depth",
+        "current proof depth",
+        "missing evidence type",
+        "uncertainty",
+        "falsifier missing",
+        "replication missing",
+        "provenance missing",
+        "counterexample exposure",
+        "closure impact",
+        "deadline",
+        "owner",
+        "investigation sequence",
+        "debt status",
+        "accepted temporary debt"
+      ],
+      "pack": "INTEGRITY_CLOSURE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-01",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R51",
+      "rubric_name": "Human-Handoff Rubrics",
+      "dimension_count": 16,
+      "dimensions": [
+        "handoff reason",
+        "unresolvable ambiguity",
+        "conflicting witnesses",
+        "source unavailable",
+        "authorization required",
+        "normative choice",
+        "identity choice",
+        "scope choice",
+        "end selection",
+        "override approval",
+        "contract amendment",
+        "risk acceptance",
+        "unresolved contradiction",
+        "proof debt acceptance",
+        "response required",
+        "blocking/nonblocking"
+      ],
+      "pack": "INTEGRITY_CLOSURE_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-01",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11"
+      ]
+    },
+    {
+      "rubric_id": "R52",
+      "rubric_name": "Version/Migration Rubrics",
+      "dimension_count": 17,
+      "dimensions": [
+        "template version",
+        "schema version",
+        "record version",
+        "legacy id",
+        "migration target",
+        "backward compatibility",
+        "semantic change",
+        "breaking/nonbreaking",
+        "migration reason",
+        "affected nodes",
+        "affected edges",
+        "affected memories",
+        "affected tests",
+        "rollback",
+        "deprecation",
+        "archive",
+        "canonical status"
+      ],
+      "pack": "LOCK_PACK",
+      "primary_asi_nodes": [
+        "ASI-NODE-00",
+        "ASI-NODE-02",
+        "ASI-NODE-16"
+      ],
+      "secondary_asi_nodes": [
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ]
+    }
+  ]
+}
