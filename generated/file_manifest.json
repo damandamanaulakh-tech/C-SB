@@ -85,6 +85,11 @@
     "size_bytes": 1321
   },
   {
+    "path": "phase2/asi/ASI_NODE_BRAINS_V0.md",
+    "sha256": "7e01c656167aeb21ed5b7757e8d2dd5dc546f97edb920ce2576fab2ff63fa4da",
+    "size_bytes": 6545
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
     "sha256": "84c9735ee274d5f5105d298353646b3c05365ed172be7bc3189c3df74651fade",
     "size_bytes": 5794
