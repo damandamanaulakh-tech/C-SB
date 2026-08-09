@@ -1,0 +1,205 @@
+UNIVERSAL SEQUENCE GRAPH
+══════════════════════════════════════════════════════════════════════════════
+
+
+                         PRIOR REALITY
+                              │
+                              │
+                              │ What existed before this entity/system?
+                              │ What earlier sequence made it possible?
+                              ↓
+                    ┌─────────────────────┐
+                    │   ORIGIN / SOURCE   │
+                    └─────────────────────┘
+                              │
+                 ┌────────────┼────────────┐
+                 │            │            │
+             MATERIAL       ENERGY      INFORMATION
+                 │            │            │
+                 └────────────┼────────────┘
+                              ↓
+                    ENVIRONMENT / HOST
+                              │
+                 ┌────────────┼────────────┐
+                 │            │            │
+             SUBSTRATE     CONDITIONS   CONSTRAINTS
+                 │            │            │
+                 └────────────┼────────────┘
+                              ↓
+                      FORMATION SEQUENCE
+                              │
+          ┌───────────────────┼────────────────────┐
+          │                   │                    │
+      assembly            growth              emergence
+          │                   │                    │
+          └───────────────────┼────────────────────┘
+                              ↓
+                         EXISTENCE
+                              │
+          ┌───────────────────┼─────────────────────┐
+          │                   │                     │
+       BOUNDARY            IDENTITY               STATE
+          │                   │                     │
+          └───────────────────┼─────────────────────┘
+                              ↓
+                    STABILITY / VIABILITY
+                              │
+               Can this existence persist?
+                              │
+                 ┌────────────┴────────────┐
+                 │                         │
+                NO                        YES
+                 │                         │
+                 ↓                         ↓
+          collapse / repair          CONTINUATION
+          transformation                  │
+          termination                     │
+                                          ↓
+                                  REQUIREMENT EMERGES
+                                          │
+                 ┌────────────────────────┼────────────────────────┐
+                 │                        │                        │
+             MAINTAIN                 CHANGE                   CREATE
+                 │                        │                        │
+          survive/stabilize        grow/adapt/repair        reproduce/build
+                 │                        │                        │
+                 └────────────────────────┼────────────────────────┘
+                                          ↓
+                                    REQUIREMENT
+                                          │
+                         "What must now be true?"
+                                          │
+          ┌───────────────────────────────┼─────────────────────────────┐
+          │                               │                             │
+       RESOURCE                        CONDITION                     CAPABILITY
+          │                               │                             │
+       matter                           weather                       skill
+       energy                           temperature                   knowledge
+       food                             timing                        tool
+       water                            location                      mechanism
+       data                             pressure                      permission
+          │                               │                             │
+          └───────────────────────────────┼─────────────────────────────┘
+                                          ↓
+                                   DEPENDENCY GRAPH
+                                          │
+                     "What must already exist first?"
+                                          │
+          ┌───────────────────────────────┼──────────────────────────────┐
+          │                               │                              │
+       SOURCE                        INFRASTRUCTURE                  OTHER ENTITIES
+          │                               │                              │
+       soil                              tools                          plants
+       sun                               network                        animals
+       parent                            roads                          humans
+       database                          organs                         institutions
+       factory                           machines                       AI
+          │                               │                              │
+          └───────────────────────────────┼──────────────────────────────┘
+                                          ↓
+                                     AVAILABILITY
+                                          │
+                      Is the dependency actually accessible?
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+             │                                                         │
+            NO                                                        YES
+             │                                                         │
+             ↓                                                         ↓
+        SEEK SOURCE                                              QUALIFICATION
+        CREATE SOURCE                                                  │
+        SUBSTITUTE                                                     │
+        WAIT                                                           │
+        IMPORT                                                         │
+        BUILD                                                          │
+        REDUCE REQUIREMENT                                             │
+        ABORT                                                          │
+             │                                                         │
+             └───────────────────────→─────────────────────────────────┘
+                                                                       ↓
+                                                                QUALIFICATION
+                                                                       │
+                                                   "Can this thing be used?"
+                                                                       │
+                         ┌──────────────────────────────┼──────────────────────────┐
+                         │                              │                          │
+                       SAFE                         COMPATIBLE                   SUFFICIENT
+                         │                              │                          │
+                       valid                         usable                     enough
+                       clean                         fit                        timely
+                       trusted                       edible                     stable
+                         │                              │                          │
+                         └──────────────────────────────┼──────────────────────────┘
+                                                        ↓
+                                                    TESTING
+                                                        │
+                              observation / experiment / comparison /
+                                 previous memory / simulation / trial
+                                                        │
+                            ┌───────────────────────────┴─────────────────────────┐
+                            │                                                     │
+                           FAIL                                                  PASS
+                            │                                                     │
+                            ↓                                                     ↓
+                   reject / modify / repair                                  SELECTION
+                   retest / replace                                               │
+                            │                                                      │
+                            └──────────────────────────────────────────────────────┘
+                                                                                   ↓
+                                                                              SELECTION
+                                                                                   │
+                                                   Multiple qualified options may exist
+                                                                                   │
+                        ┌───────────────────────────────┼──────────────────────────────┐
+                        │                               │                              │
+                      option A                        option B                       option C
+                        │                               │                              │
+                        └───────────────────────────────┼──────────────────────────────┘
+                                                        ↓
+                                                   DECISION / CHOICE
+                                                        │
+                                                        ↓
+                                                   ACQUISITION
+                                                        │
+                                         gain access / collect / harvest /
+                                          retrieve / hunt / buy / connect
+                                                        │
+                                                        ↓
+                                                BOUNDARY APPROACH
+                                                        │
+                                                        ↓
+                                                     INTAKE
+                                                        │
+                       ┌────────────────────────────────┼─────────────────────────────┐
+                       │                                │                             │
+                   ingestion                       connection                     reception
+                   food/material                   electricity                   information
+                       │                                │                             │
+                       └────────────────────────────────┼─────────────────────────────┘
+                                                        ↓
+                                                 TRANSFORMATION
+                                                        │
+                       optional pre-processing / conversion / preparation
+                                                        │
+                 ┌──────────────────┬───────────────────┼───────────────────┐
+                 │                  │                   │                   │
+              cooking            refining            encoding            cleaning
+                 │                  │                   │                   │
+                 └──────────────────┴───────────────────┼───────────────────┘
+                                                        ↓
+                                                    PROCESSING
+                                                        │
+                         "What does the system internally do with it?"
+                                                        │
+          ┌─────────────────────────┬───────────────────┼───────────────────────┐
+          │                         │                   │                       │
+       digestion                 computation         metabolism             reasoning
+          │                         │                   │                       │
+          └─────────────────────────┴───────────────────┼───────────────────────┘
+                                                        ↓
+                                                  ASSIMILATION
+                                                        │
+                              useful components become usable internally
+                                                        │
+                 nutrients / energy / knowledge / state / capability
+                                                        │
