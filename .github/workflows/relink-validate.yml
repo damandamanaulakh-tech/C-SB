@@ -39,6 +39,8 @@ jobs:
         run: python tools/build_subparameter_candidates.py
       - name: Relink all known IDs and generate indexes
         run: python tools/relink_and_index.py
+      - name: Validate AI and ASI container extraction
+        run: python tools/validate_ai_asi_container_candidates.py
       - name: Validate locked invariants
         run: python tools/validate_repo.py
       - name: Commit regenerated indexes and assembled docs
