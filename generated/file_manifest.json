@@ -315,6 +315,11 @@
     "size_bytes": 10359
   },
   {
+    "path": "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
+    "sha256": "26e2fadd33d2d284525a1e99c35f738e50c7e50b0530e97d4728aa1c4dc132b0",
+    "size_bytes": 10436
+  },
+  {
     "path": "registries/holy_books/NARRATIVE_SOURCE_ADAPTER_SCHEMA.json",
     "sha256": "62b853b7837fc2f870617cb01af0e129dc039551e57887839b7f7607fa6845aa",
     "size_bytes": 2792
