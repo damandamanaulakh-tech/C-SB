@@ -1,0 +1,194 @@
+{
+  "status": "P2_NODE_BRAINS_V0_ACTIVE_REVIEW",
+  "authority": "SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG + Universal Sequence Machine Architecture",
+  "invariants": [
+    "No Node Brain may bypass Barrier Law.",
+    "No Node Brain may reopen a CLOSED Sequence.",
+    "No Node Brain may fabricate provenance.",
+    "Actor View is never silently promoted to Global Reality.",
+    "Sequence closure and Entity Outcome remain separate.",
+    "Every Sub-Sequence request emits a contract and ledger entry."
+  ],
+  "node_brains": [
+    {
+      "node_brain_id":"NB-00","asi_node_id":"ASI-NODE-00","service_role":"END / SCOPE LOCK","status":"INSTANTIATED_V0",
+      "inputs":["raw_ask","declared_target","source_context","canonicality"],
+      "outputs":["declared_end","sequence_scope","closure_scope","resolution","followed_object_type","point_zero_lock"],
+      "reads":["CANONICALITY","RAW_SOURCE","USER_DECLARATION"],
+      "writes":["SEQUENCE_DECLARATION","GAP_LEDGER"],
+      "threshold_evaluators":["END_DECLARED","SCOPE_BOUNDED","CLOSURE_SCOPE_DECLARED"],
+      "allowed_tools":["source_reader"],
+      "closure_responsibilities":["Do not release reverse mining until end, scope and closure scope are explicit or explicitly UNKNOWN."]
+    },
+    {
+      "node_brain_id":"NB-01","asi_node_id":"ASI-NODE-01","service_role":"REVERSE MINER / PROVENANCE","status":"INSTANTIATED_V0",
+      "inputs":["declared_end","case_graph","source_registry","memory_refs"],
+      "outputs":["provenance_edges","required_predecessors","source_refs","unconnected_dots","epistemic_floor_records"],
+      "reads":["RAW_SOURCE","CLOSED_SEQUENCE_ARCHIVE","GRAPH_STORE","MEMORY"],
+      "writes":["CASE_GRAPH","PROVENANCE_LEDGER","GAP_LEDGER"],
+      "threshold_evaluators":["PREDECESSOR_REQUIRED","SOURCE_SUPPORTED","REVERSE_DEPTH_RELEVANT"],
+      "allowed_tools":["search","fetch","graph_query"],
+      "closure_responsibilities":["Every closure-critical predecessor is sourced, explicitly unknown, or routed to an Investigation Sequence."]
+    },
+    {
+      "node_brain_id":"NB-02","asi_node_id":"ASI-NODE-02","service_role":"STATE / IDENTITY / RELATION","status":"INSTANTIATED_V0",
+      "inputs":["entity_or_relation","time_state_ref","actor_views","case_graph"],
+      "outputs":["state_snapshot","identity_continuity","relation_map","role_map","boundary_status"],
+      "reads":["GRAPH_STORE","VIEW_MAP","ENTITY_REGISTRY","TRACE_MEMORY"],
+      "writes":["STATE_STORE","RELATION_STORE","IDENTITY_LEDGER"],
+      "threshold_evaluators":["STATE_CHANGED","IDENTITY_THRESHOLD","RELATION_EXISTS"],
+      "allowed_tools":["graph_query"],
+      "closure_responsibilities":["Identity changes cannot be implied by state changes; continuity or transformation must be explicit."]
+    },
+    {
+      "node_brain_id":"NB-03","asi_node_id":"ASI-NODE-03","service_role":"DRIVER / RULE / PRIORITY","status":"INSTANTIATED_V0",
+      "inputs":["current_state","rules","promises","goals","wants","needs","external_demands","actor_view"],
+      "outputs":["driver_origin","priority_order","rule_conflicts","exception_contract_requests","represented_future"],
+      "reads":["RULE_MEMORY","PROMISE_REGISTRY","VIEW_MAP","CURRENT_STATE"],
+      "writes":["DRIVER_LEDGER","PRIORITY_LEDGER","EXCEPTION_REGISTER"],
+      "threshold_evaluators":["DRIVER_ACTIVE","PRIORITY_CONFLICT","PROMISE_MATCH"],
+      "allowed_tools":["rule_evaluator"],
+      "closure_responsibilities":["Need and Want remain distinct; rule override requires explicit Exception Contract terms."]
+    },
+    {
+      "node_brain_id":"NB-04","asi_node_id":"ASI-NODE-04","service_role":"TRIGGER / THRESHOLD","status":"INSTANTIATED_V0",
+      "inputs":["candidate_edge","event_stream","current_state","threshold_definition","recheck_condition"],
+      "outputs":["trigger_status","threshold_status","why_now_record","next_recheck"],
+      "reads":["EDGE_STORE","EVENT_STREAM","STATE_STORE"],
+      "writes":["EDGE_ACTIVATION_LEDGER"],
+      "threshold_evaluators":["VALUE","RANGE","TIME","EVENT","COUNT","QUORUM","CONFIDENCE","STATE","ABSENCE","PROMISE_MATCH","PRIORITY_CONFLICT","COMPOSITE","ALWAYS"],
+      "allowed_tools":["clock","state_query","event_query"],
+      "closure_responsibilities":["No executable edge fires without an explicit threshold result; undefined becomes a gap, not TRUE."]
+    },
+    {
+      "node_brain_id":"NB-05","asi_node_id":"ASI-NODE-05","service_role":"DEPENDENCY / AVAILABILITY / BARRIER","status":"INSTANTIATED_V0",
+      "inputs":["candidate_edge","dependency_graph","open_sequence_ledger","returns"],
+      "outputs":["dependency_status","availability_status","barrier_state","sub_sequence_contracts","join_sync_state"],
+      "reads":["DEPENDENCY_STORE","OPEN_SEQUENCE_LEDGER","CLOSURE_PACKET_ARCHIVE","RESOURCE_STATE"],
+      "writes":["OPEN_SEQUENCE_LEDGER","BARRIER_LEDGER","SUB_SEQUENCE_CONTRACT_STORE"],
+      "threshold_evaluators":["REQUIRED_RETURN_PRESENT","RETURN_ACCEPTED","ALL_REQUIRED_CHILDREN_TERMINAL","RESOURCE_AVAILABLE"],
+      "allowed_tools":["ledger_query","resource_query"],
+      "closure_responsibilities":["A dependent edge cannot cross until every required return is terminal and accepted or the parent contract terminally rejects/aborts it."]
+    },
+    {
+      "node_brain_id":"NB-06","asi_node_id":"ASI-NODE-06","service_role":"RUBRIC ACTIVATION / COMBINATION","status":"INSTANTIATED_V0",
+      "inputs":["sequence_node","edge","current_state","domain_registry","actor_identity"],
+      "outputs":["rubric_activation_set","temporary_functional_state","writeback_permissions","binding_trace"],
+      "reads":["HUMAN_REGISTRY","AI_REGISTRY","ASI_REGISTRY","DOMAIN_REGISTRIES","RUBRIC_BINDINGS"],
+      "writes":["ACTIVATION_LEDGER"],
+      "threshold_evaluators":["BINDING_APPLIES","ACTIVATION_CONDITION_MET","WRITEBACK_ALLOWED"],
+      "allowed_tools":["registry_query"],
+      "closure_responsibilities":["Native IDs and definitions remain unchanged; activation is additive and fully traceable to bindings."]
+    },
+    {
+      "node_brain_id":"NB-07","asi_node_id":"ASI-NODE-07","service_role":"EVIDENCE / TEST / QUALIFICATION","status":"INSTANTIATED_V0",
+      "inputs":["candidate","qualification_contract","evidence","source_refs","test_plan"],
+      "outputs":["qualification_status","test_result","evidence_ledger_entries","confidence","contradictions"],
+      "reads":["SOURCE_STORE","EVIDENCE_LEDGER","MEMORY","TEST_REGISTRY"],
+      "writes":["EVIDENCE_LEDGER","CONTRADICTION_REGISTER","TEST_RESULT_STORE"],
+      "threshold_evaluators":["SAFE_OR_ADMISSIBLE","COMPATIBLE","SUFFICIENT","CONFIDENCE","COUNT_QUORUM"],
+      "allowed_tools":["search","fetch","test_runner","comparison"],
+      "closure_responsibilities":["Conflicting evidence is preserved separately; a failed test closes its attempt and may spawn repair/retest Sequences."]
+    },
+    {
+      "node_brain_id":"NB-08","asi_node_id":"ASI-NODE-08","service_role":"ALTERNATIVE / ARBITRATION / COUNTER-SEQUENCE","status":"INSTANTIATED_V0",
+      "inputs":["qualified_options","priority_order","controller","rules","counter_sequences"],
+      "outputs":["selected_option","decision_record","arbitration_reason","counter_sequence_requests"],
+      "reads":["OPTION_STORE","PRIORITY_LEDGER","RULE_MEMORY","VIEW_MAP"],
+      "writes":["DECISION_LEDGER","COUNTER_SEQUENCE_REGISTRY"],
+      "threshold_evaluators":["OPTION_COUNT","CONTROLLER_AUTHORITY","PRIORITY_RESOLVED"],
+      "allowed_tools":["decision_evaluator"],
+      "closure_responsibilities":["Selection without a chooser and intentional Decision are recorded as different mechanisms."]
+    },
+    {
+      "node_brain_id":"NB-09","asi_node_id":"ASI-NODE-09","service_role":"ENCOUNTER / COUPLING / DYNAMICS","status":"INSTANTIATED_V0",
+      "inputs":["participants","relation_state","selected_path","execution_contract","tools"],
+      "outputs":["encounter_event","coupling_state","dynamics_trace","execution_events","immediate_outputs"],
+      "reads":["STATE_STORE","RELATION_STORE","TOOL_REGISTRY","EXECUTION_PLAN"],
+      "writes":["EVENT_STREAM","DYNAMICS_TRACE","TOOL_TRACE"],
+      "threshold_evaluators":["ENCOUNTER_REQUIRED","BOUNDARY_REACHED","COUPLING_VALID","EXECUTION_AUTHORIZED"],
+      "allowed_tools":["domain_tools","execution_tools"],
+      "closure_responsibilities":["Encounter is conditional; coupling/dynamics must identify performer and carrier when applicable."]
+    },
+    {
+      "node_brain_id":"NB-10","asi_node_id":"ASI-NODE-10","service_role":"RESULT / ENTITY OUTCOME / EVENT WEIGHT","status":"INSTANTIATED_V0",
+      "inputs":["pre_state","post_state","effects","declared_end","case_graph"],
+      "outputs":["result_set","entity_outcome","event_weight","latent_result_flags","downstream_effects"],
+      "reads":["STATE_STORE","CASE_GRAPH","EVENT_STREAM"],
+      "writes":["RESULT_STORE","ENTITY_OUTCOME_LEDGER","EVENT_WEIGHT_LEDGER","SEED_CANDIDATES"],
+      "threshold_evaluators":["STATE_DIFFERENCE","IDENTITY_OUTCOME","COUNTERFACTUAL_NECESSITY","LATENT_RESULT"],
+      "allowed_tools":["graph_query","counterfactual_test"],
+      "closure_responsibilities":["Sequence result and entity lifecycle outcome are both recorded before Sequence closure readiness is evaluated."]
+    },
+    {
+      "node_brain_id":"NB-11","asi_node_id":"ASI-NODE-11","service_role":"VERIFICATION / ACCEPTANCE","status":"INSTANTIATED_V0",
+      "inputs":["result_set","requirement_or_target","acceptance_condition","evidence","controller"],
+      "outputs":["verification_status","acceptance_status","failure_reason","repair_or_resequence_request"],
+      "reads":["RESULT_STORE","CONTRACT_STORE","EVIDENCE_LEDGER"],
+      "writes":["VERIFICATION_LEDGER","RETURN_ACCEPTANCE_LEDGER"],
+      "threshold_evaluators":["SUCCESS","PARTIAL","FAILURE","UNKNOWN","ACCEPTANCE_CONDITION"],
+      "allowed_tools":["comparison","test_runner"],
+      "closure_responsibilities":["Close condition and acceptance condition remain separate; CLOSED does not imply ACCEPTED."]
+    },
+    {
+      "node_brain_id":"NB-12","asi_node_id":"ASI-NODE-12","service_role":"TRACE / MEMORY / LEARNING","status":"INSTANTIATED_V0",
+      "inputs":["events","results","verification","actor_state","writeback_policy"],
+      "outputs":["trace_records","fact_memory","path_memory","failure_memory","context_memory","skill_or_procedure_memory","learning_writebacks"],
+      "reads":["EVENT_STREAM","RESULT_STORE","VERIFICATION_LEDGER","RUBRIC_BINDINGS"],
+      "writes":["MEMORY_FABRIC","HUMAN_STATE_VERSION","AI_ALLOWED_RUNTIME_STORES"],
+      "threshold_evaluators":["WRITEBACK_ALLOWED","MEMORY_RELEVANT","LEARNING_SIGNAL_PRESENT"],
+      "allowed_tools":["memory_write","state_versioning"],
+      "closure_responsibilities":["Human experience may change the Human baseline node-to-node; AI model weights do not change unless a separate training Sequence authorizes it."]
+    },
+    {
+      "node_brain_id":"NB-13","asi_node_id":"ASI-NODE-13","service_role":"COMPRESSION / EXPANSION / INHERITANCE","status":"INSTANTIATED_V0",
+      "inputs":["closed_or_closing_path","memory_records","scope","recoverability"],
+      "outputs":["compression_handles","expansion_refs","inheritance_records","loss_flags"],
+      "reads":["MEMORY_FABRIC","TRACE_STORE","CLOSURE_PACKET_ARCHIVE"],
+      "writes":["COMPRESSION_HANDLE_STORE","INHERITANCE_LEDGER"],
+      "threshold_evaluators":["COMPRESSION_USEFUL","CONTEXT_PRESERVED","RECOVERABILITY_GRADE"],
+      "allowed_tools":["compression","expansion"],
+      "closure_responsibilities":["Compression never erases scope, conditions, confidence, exceptions or known information loss."]
+    },
+    {
+      "node_brain_id":"NB-14","asi_node_id":"ASI-NODE-14","service_role":"CLOSURE / RETURN / SEED","status":"INSTANTIATED_V0",
+      "inputs":["sequence_contract","ledger","result_set","entity_outcomes","verification","memory","pass3_status"],
+      "outputs":["closure_packet","terminal_status","parent_return","seed_records","archive_record"],
+      "reads":["OPEN_SEQUENCE_LEDGER","RESULT_STORE","ENTITY_OUTCOME_LEDGER","VERIFICATION_LEDGER","MEMORY_FABRIC","RFR_LEDGER"],
+      "writes":["CLOSURE_PACKET_ARCHIVE","SEED_REGISTRY","OPEN_SEQUENCE_LEDGER","PARENT_RETURN_QUEUE"],
+      "threshold_evaluators":["ALL_REQUIRED_CHILDREN_TERMINAL","PASS3_COMPLETE","CONTRACT_TERMINAL","REQUIRED_MEMORY_WRITTEN"],
+      "allowed_tools":["ledger_update","archive_write"],
+      "closure_responsibilities":["Once CLOSED, the Sequence is immutable; future work creates a new Sequence that references it."]
+    },
+    {
+      "node_brain_id":"NB-15","asi_node_id":"ASI-NODE-15","service_role":"PATTERN / LAW / OBSERVER-WRITER","status":"INSTANTIATED_V0",
+      "inputs":["closed_cases","traces","observer_view","source_text","interpretation_layer"],
+      "outputs":["pattern_candidates","rule_candidates","law_or_guidance_candidates","narrative_records","source_vs_interpretation_links"],
+      "reads":["CLOSURE_PACKET_ARCHIVE","NARRATIVE_MEMORY","SOURCE_STORE","VIEW_MAP"],
+      "writes":["PATTERN_REGISTRY","RULE_CANDIDATE_REGISTRY","NARRATIVE_MEMORY"],
+      "threshold_evaluators":["REPEATING_RELATION","EXCEPTION_ACCOUNTED","GENERALIZATION_SUPPORTED"],
+      "allowed_tools":["comparison","abstraction","writer"],
+      "closure_responsibilities":["Observer/writer output is a new Sequence; interpretation is never silently promoted to source fact."]
+    },
+    {
+      "node_brain_id":"NB-16","asi_node_id":"ASI-NODE-16","service_role":"R-F-R FALSIFIER","status":"INSTANTIATED_V0",
+      "inputs":["declared_end","case_graph","edge_records","source_refs","closure_candidate"],
+      "outputs":["pass1_record","pass2_record","pass3_record","unconnected_dots","falsifier_findings","rfr_status"],
+      "reads":["CASE_GRAPH","SOURCE_STORE","EDGE_ACTIVATION_LEDGER","OPEN_SEQUENCE_LEDGER","CLOSURE_PACKET_ARCHIVE"],
+      "writes":["RFR_LEDGER","GAP_LEDGER","INVESTIGATION_SEQUENCE_REQUESTS"],
+      "threshold_evaluators":["SOURCE_COMPLETE_ENOUGH","FORWARD_REACHABILITY","REVERSE_AUDIT_CLEAN"],
+      "allowed_tools":["graph_query","search","comparison","counterfactual_test"],
+      "closure_responsibilities":["A required unconnected dot blocks clean closure unless the Sequence contract explicitly permits UNKNOWN/UNAVAILABLE termination."]
+    },
+    {
+      "node_brain_id":"NB-17","asi_node_id":"ASI-NODE-17","service_role":"META-CONTROLLER / CROSS-SEQUENCE COORDINATION","status":"INSTANTIATED_V0",
+      "inputs":["all_active_ledgers","sequence_graphs","seed_registry","view_maps","convergence_requirements","closure_scopes"],
+      "outputs":["cross_sequence_schedule","sync_gates","convergence_windows","meta_control_decisions","escalations"],
+      "reads":["OPEN_SEQUENCE_LEDGER","SEED_REGISTRY","VIEW_MAP","CASE_GRAPH","BARRIER_LEDGER","CLOSURE_PACKET_ARCHIVE"],
+      "writes":["META_CONTROL_LEDGER","SYNC_GATE_STORE","CONVERGENCE_REGISTRY"],
+      "threshold_evaluators":["CONVERGENCE_READY","SYNC_READY","GLOBAL_SCOPE_CONFLICT","CONTROLLER_AUTHORITY"],
+      "allowed_tools":["cross_graph_query","scheduler","ledger_query"],
+      "closure_responsibilities":["May coordinate multiple Sequences but may not bypass local barriers, fabricate provenance, rewrite closed history, or leak Global Reality into an actor View Map."]
+    }
+  ]
+}
