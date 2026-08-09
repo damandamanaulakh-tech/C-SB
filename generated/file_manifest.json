@@ -90,6 +90,11 @@
     "size_bytes": 2249
   },
   {
+    "path": "tools/generate_engine_asi_node_bindings_v1.py",
+    "sha256": "004b7e59d0a876e96b6f1b810d13b75ae6193ec13e968b8458a84666f0c1fa18",
+    "size_bytes": 4287
+  },
+  {
     "path": "tools/build_ai_candidate_registry.py",
     "sha256": "1939a75e270ae683bb8fc8606fcf22e121a669ce7339a29cf3f3cb23139df913",
     "size_bytes": 3667
