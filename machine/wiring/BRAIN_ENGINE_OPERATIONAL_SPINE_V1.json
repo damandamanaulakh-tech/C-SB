@@ -1,0 +1,125 @@
+{
+  "wiring_id": "BRAIN-ENGINE-OPERATIONAL-SPINE-V1",
+  "phase": "PHASE_2",
+  "source_status": "APPROVED_BY_USER_USER_EVIDENT_ACTIVE_FOR_CONTROLLED_TESTING",
+  "source": "ASI_Brain_Engine_Combined_Corpus_v1.xlsx",
+  "source_sha256": "6d6bd608844b07728aaefb0d16e6c36bfcf7ba4ac3ec70af2610ea2bd7622a1b",
+  "mapping_status": "SOURCE_DERIVED_STRUCTURE_WITH_PHASE2_AI_ASI_ROLE_CLASSIFICATION",
+  "rule": "Element names, container IDs, parameter counts and six sub-parameter names are source-derived. AI/ASI/shared classification is an additive Phase-2 mapping and does not rewrite source records.",
+  "segments": ["SEG-01","SEG-02","SEG-03","SEG-04","SEG-05","SEG-06","SEG-07","SEG-08","SEG-09","SEG-10"],
+  "element_count": 8,
+  "container_count": 80,
+  "subparameter_count": 480,
+  "elements": [
+    {
+      "element_code": "E01",
+      "name": "State and Signal Intake",
+      "phase2_role": "AI_PRIMARY",
+      "reason": "Acquires and normalizes state/evidence before interpretation; governance applies to authority and source boundaries but the local function is cognition/runtime intake.",
+      "container_ids": ["CON-161","CON-169","CON-177","CON-185","CON-193","CON-201","CON-209","CON-217","CON-225","CON-233"],
+      "primary_ai_segments": ["AI-01","AI-02","AI-03","AI-06"],
+      "primary_asi_segments": ["ASI-02","ASI-10"],
+      "asi_nodes": ["ASI-NODE-02","ASI-NODE-06","ASI-NODE-20"]
+    },
+    {
+      "element_code": "E02",
+      "name": "Pattern and Context Integration",
+      "phase2_role": "AI_PRIMARY",
+      "reason": "Combines signals, context, engines and source evidence into a working representation while preserving contradiction.",
+      "container_ids": ["CON-162","CON-170","CON-178","CON-186","CON-194","CON-202","CON-210","CON-218","CON-226","CON-234"],
+      "primary_ai_segments": ["AI-02","AI-04","AI-05","AI-07","AI-08"],
+      "primary_asi_segments": ["ASI-02","ASI-05","ASI-09"],
+      "asi_nodes": ["ASI-NODE-02","ASI-NODE-06","ASI-NODE-20"]
+    },
+    {
+      "element_code": "E03",
+      "name": "Prediction and Counterfactual Simulation",
+      "phase2_role": "AI_PRIMARY",
+      "reason": "Projects candidate trajectories and counterfactuals; simulation is not promoted to source fact.",
+      "container_ids": ["CON-163","CON-171","CON-179","CON-187","CON-195","CON-203","CON-211","CON-219","CON-227","CON-235"],
+      "primary_ai_segments": ["AI-09","AI-10","AI-12","AI-13"],
+      "primary_asi_segments": ["ASI-10","ASI-15","ASI-18"],
+      "asi_nodes": ["ASI-NODE-08","ASI-NODE-10","ASI-NODE-16","ASI-NODE-20"]
+    },
+    {
+      "element_code": "E04",
+      "name": "Decision and Priority Arbitration",
+      "phase2_role": "SHARED_AI_ASI",
+      "reason": "AI can compare and score alternatives; authority, priority, rule conflict and permission belong to ASI governance.",
+      "container_ids": ["CON-164","CON-172","CON-180","CON-188","CON-196","CON-204","CON-212","CON-220","CON-228","CON-236"],
+      "primary_ai_segments": ["AI-11","AI-12","AI-13","AI-14"],
+      "primary_asi_segments": ["ASI-06","ASI-07","ASI-08","ASI-19"],
+      "asi_nodes": ["ASI-NODE-03","ASI-NODE-08","ASI-NODE-21"]
+    },
+    {
+      "element_code": "E05",
+      "name": "Action and Execution Control",
+      "phase2_role": "AI_PRIMARY_UNDER_ASI_PERMISSION",
+      "reason": "Execution/tool control is an AI/runtime function, but legal action requires ASI authority, permission, barrier and rollback constraints.",
+      "container_ids": ["CON-165","CON-173","CON-181","CON-189","CON-197","CON-205","CON-213","CON-221","CON-229","CON-237"],
+      "primary_ai_segments": ["AI-12","AI-15","AI-16","AI-23","AI-25"],
+      "primary_asi_segments": ["ASI-03","ASI-08","ASI-13","ASI-16"],
+      "asi_nodes": ["ASI-NODE-05","ASI-NODE-09","ASI-NODE-17","ASI-NODE-20","ASI-NODE-21"]
+    },
+    {
+      "element_code": "E06",
+      "name": "Verification and Uncertainty Control",
+      "phase2_role": "SHARED_AI_ASI",
+      "reason": "AI executes tests/calibration and contradiction detection; ASI governs truth/provenance, proof debt, acceptance and closure implications.",
+      "container_ids": ["CON-166","CON-174","CON-182","CON-190","CON-198","CON-206","CON-214","CON-222","CON-230","CON-238"],
+      "primary_ai_segments": ["AI-17","AI-18","AI-19","AI-24"],
+      "primary_asi_segments": ["ASI-02","ASI-03","ASI-09","ASI-10","ASI-18"],
+      "asi_nodes": ["ASI-NODE-07","ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"]
+    },
+    {
+      "element_code": "E07",
+      "name": "Memory and Learning Integration",
+      "phase2_role": "SHARED_AI_ASI",
+      "reason": "AI retrieves/compresses/adapts; ASI governs write-back, version, contamination, durability and evolution authority.",
+      "container_ids": ["CON-167","CON-175","CON-183","CON-191","CON-199","CON-207","CON-215","CON-223","CON-231","CON-239"],
+      "primary_ai_segments": ["AI-05","AI-20","AI-21"],
+      "primary_asi_segments": ["ASI-11","ASI-12","ASI-14"],
+      "asi_nodes": ["ASI-NODE-12","ASI-NODE-13","ASI-NODE-14","ASI-NODE-21"]
+    },
+    {
+      "element_code": "E08",
+      "name": "Governance, Safety and Recovery",
+      "phase2_role": "ASI_PRIMARY",
+      "reason": "Permissions, safety boundaries, rollback, self-healing, authority and termination are meta-governance responsibilities; AI mechanisms may detect/execute but do not own final authority.",
+      "container_ids": ["CON-168","CON-176","CON-184","CON-192","CON-200","CON-208","CON-216","CON-224","CON-232","CON-240"],
+      "primary_ai_segments": ["AI-16","AI-17","AI-19","AI-24"],
+      "primary_asi_segments": ["ASI-03","ASI-07","ASI-08","ASI-09","ASI-12","ASI-14","ASI-18","ASI-19","ASI-20"],
+      "asi_nodes": ["ASI-NODE-05","ASI-NODE-11","ASI-NODE-14","ASI-NODE-17","ASI-NODE-21"]
+    }
+  ],
+  "six_subparameters_per_container": [
+    {"local_number":1,"name":"Activation Trigger","sequence_role":"TRIGGER_THRESHOLD_ENTRY"},
+    {"local_number":2,"name":"Input Normalisation","sequence_role":"REPRESENTATION_AND_SOURCE_PRESERVATION"},
+    {"local_number":3,"name":"Cross-Engine Synthesis","sequence_role":"MULTI_ENGINE_COMBINATION_WITH_CONTRADICTION_PRESERVATION"},
+    {"local_number":4,"name":"State and Confidence Update","sequence_role":"STATE_CHANGE_PLUS_EPISTEMIC_UPDATE"},
+    {"local_number":5,"name":"Failure and Contradiction Response","sequence_role":"BLOCK_REPAIR_INVESTIGATION_OR_STOP"},
+    {"local_number":6,"name":"Validated Commit and Feed-Forward","sequence_role":"VERIFIED_OUTPUT_RETURN_MEMORY_OR_NEXT_EDGE"}
+  ],
+  "source_activation_contract": {
+    "activation_trigger": "Relevant task signal + segment routing + minimum one authorized source or explicit synthetic-fuel label",
+    "required_inputs": "Point Zero; current state; linked engine outputs; source lineage; goal and constraints",
+    "suppression_conditions": "No authority; unresolved safety boundary; contradictory state without checkpoint; termination signal",
+    "mandatory_pairing": "Reality Anchor for simulation; Evidence Ledger for claims; External Checkpoint for high-impact action",
+    "termination_condition": "Goal satisfied, proof debt bounded, action handed off, or Critical Logic Wall stops continuation",
+    "memory_write_condition": "Validated outcome with source and engine lineage; rejected alternatives retained"
+  },
+  "runtime_flow": [
+    "POINT_ZERO",
+    "SEGMENT_ROUTE",
+    "E01_STATE_SIGNAL_INTAKE",
+    "E02_PATTERN_CONTEXT_INTEGRATION",
+    "E03_PREDICTION_COUNTERFACTUAL_IF_REQUIRED",
+    "E04_DECISION_PRIORITY_ARBITRATION_IF_REQUIRED",
+    "E05_ACTION_EXECUTION_IF_AUTHORIZED",
+    "E06_VERIFICATION_UNCERTAINTY",
+    "E07_MEMORY_LEARNING_IF_WRITEBACK_ALLOWED",
+    "E08_GOVERNANCE_SAFETY_RECOVERY_AS_REQUIRED",
+    "RFR",
+    "CLOSURE_OR_NEW_SEQUENCE"
+  ]
+}
