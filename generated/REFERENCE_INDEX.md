@@ -86,7 +86,7 @@ _No IDs currently present._
 
 ## Ai Capabilities
 
-- **AI-CAP-001** → `phase2/PHASE_STATUS.json`, `phase2/README.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/STATUS.json`
+- **AI-CAP-001** → `phase2/PHASE_STATUS.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/ai/STATUS.json`
 - **AI-CAP-002** → `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
 - **AI-CAP-003** → `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`
 - **AI-CAP-004** → `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`

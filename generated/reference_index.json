@@ -259,6 +259,7 @@
     "AI-CAP-001": [
       "phase2/PHASE_STATUS.json",
       "phase2/README.md",
+      "phase2/TASK_QUEUE.md",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/STATUS.json"
     ],
