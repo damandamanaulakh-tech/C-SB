@@ -1,13 +1,13 @@
 [
   {
     "path": "CANONICALITY.json",
-    "sha256": "f5fd08cdb4edb4500034a1fdea2395ad493e769bdc31c8130bb89c6b49aa5e45",
-    "size_bytes": 2472
+    "sha256": "77b9cbd606bef3b4e44ae2ad654a0d1761349f9004b7fb68426dc9dd9d4ba5f2",
+    "size_bytes": 4075
   },
   {
     "path": "README.md",
-    "sha256": "23615419ac7a8498180f548b240385ab039a89aa53ccceeb9d458a598fa2b9b8",
-    "size_bytes": 2607
+    "sha256": "2e1a56dfe3b2ae1dc7eb75e683a1c6bcd228a699fb49c640506007d06a587464",
+    "size_bytes": 4769
   },
   {
     "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
@@ -21,8 +21,8 @@
   },
   {
     "path": "phase2/README.md",
-    "sha256": "a3c035bf144ee550015048da886839df7c8fff1ae61479191f894220540d2279",
-    "size_bytes": 1467
+    "sha256": "43c0d735e1a1159ec589c5b9502279ed5b96a21fec590a1341ac07af036113b2",
+    "size_bytes": 5344
   },
   {
     "path": "phase2/PHASE_STATUS.json",
@@ -46,8 +46,8 @@
   },
   {
     "path": "tools/validate_repo.py",
-    "sha256": "0d75757e7fea873b52c93e12354ff8f6b8f1489c0e9a2e939705e3046d1f96e6",
-    "size_bytes": 8862
+    "sha256": "bdedd26daffe70fb914f0b072a2411311f6d7f8ef5ef6d9b957f8b1ad3d47db9",
+    "size_bytes": 11836
   },
   {
     "path": "tools/relink_and_index.py",
@@ -138,6 +138,11 @@
     "path": "machine/vocab/core_vocab.json",
     "sha256": "662c92faa776ceda55f86f43414fc9280b5141bbf9dfdd86047f4a9b7c0f241a",
     "size_bytes": 1321
+  },
+  {
+    "path": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+    "sha256": "a4857a5c0cc4750536112bea7c95cf366529bac20a62cf275dba8a8a21896a04",
+    "size_bytes": 6164
   },
   {
     "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
@@ -336,8 +341,8 @@
   },
   {
     "path": "registries/asi/asi_node_registry.json",
-    "sha256": "08508213f4c8fdd8e8cbe804843699324bfeea4123532a5bd2020b295a6f49c3",
-    "size_bytes": 2194
+    "sha256": "e692d235fe61323a59871854b31369b15f4227724b57f293ec829fdd29961313",
+    "size_bytes": 4589
   },
   {
     "path": "registries/asi/node_brains_v0.json",
@@ -383,5 +388,10 @@
     "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
     "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
     "size_bytes": 1711
+  },
+  {
+    "path": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+    "sha256": "b12a29c8dfd31e25da39565b50c465e6113323cc58bb6928c292caeff9c3e078",
+    "size_bytes": 7637
   }
 ]

@@ -647,7 +647,45 @@
   },
   "asi_nodes": {
     "ASI-NODE-00": [
+      "README.md",
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "phase2/README.md",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains_v0.json",
+      "tools/validate_repo.py"
+    ],
+    "ASI-NODE-18": [
+      "README.md",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "phase2/README.md",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+      "tools/validate_repo.py"
+    ],
+    "ASI-NODE-19": [
+      "README.md",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "phase2/README.md",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+    ],
+    "ASI-NODE-20": [
+      "README.md",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "phase2/README.md",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+    ],
+    "ASI-NODE-21": [
+      "README.md",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "phase2/README.md",
+      "registries/asi/asi_node_registry.json",
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+    ],
+    "ASI-NODE-06": [
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "phase2/README.md",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
@@ -655,6 +693,7 @@
     ],
     "ASI-NODE-01": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -669,6 +708,7 @@
     ],
     "ASI-NODE-03": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -690,6 +730,7 @@
     ],
     "ASI-NODE-07": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -697,6 +738,7 @@
     ],
     "ASI-NODE-08": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -718,6 +760,7 @@
     ],
     "ASI-NODE-11": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -746,6 +789,7 @@
     ],
     "ASI-NODE-15": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -760,13 +804,9 @@
     ],
     "ASI-NODE-17": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-      "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains_v0.json"
-    ],
-    "ASI-NODE-06": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json"
     ]

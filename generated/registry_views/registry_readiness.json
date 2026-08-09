@@ -17,7 +17,7 @@
     "ready_for_full_parameter_relink": false
   },
   "asi": {
-    "service_node_count": 18,
+    "service_node_count": 22,
     "node_ids": [
       "ASI-NODE-00",
       "ASI-NODE-01",
@@ -36,7 +36,11 @@
       "ASI-NODE-14",
       "ASI-NODE-15",
       "ASI-NODE-16",
-      "ASI-NODE-17"
+      "ASI-NODE-17",
+      "ASI-NODE-18",
+      "ASI-NODE-19",
+      "ASI-NODE-20",
+      "ASI-NODE-21"
     ],
     "node_brain_v0_count": 18,
     "node_brain_status": "P2_NODE_BRAINS_V0_ACTIVE_REVIEW"
