@@ -19,11 +19,13 @@ The key machine rule is:
 ## Read first
 
 1. `CANONICALITY.json`
-2. `raw/sequence/Universal_Sequence_Machine_Architecture_v1.md`
-3. `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md`
+2. `raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json`
+3. `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json`
 4. `phase2/README.md`
 5. `docs/LOCKED_DECISIONS.md`
 6. `docs/SEQUENCE_RESEARCH_LEDGER.md`
+
+The two canonical long source documents are stored as exact ordered parts. Their manifests contain the source SHA-256 and reconstruction order.
 
 ## Machine-readable layers
 
@@ -31,7 +33,7 @@ The key machine rule is:
 - `machine/vocab/` — order types, drivers, thresholds, controller types, relation types and statuses.
 - `registries/asi/` — ASI Node service registry.
 - `registries/human/` — Human native-registry adoption contract. The full 2,560-row native Human registry must be imported unchanged when supplied.
-- `registries/ai/` — AI capability-family mapping currently **REVIEW ONLY**.
+- `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md` — current 74-family AI review map; it is **REVIEW ONLY**.
 - `tools/relink_and_index.py` — scans repository IDs and generates cross-reference documents.
 - `tools/validate_repo.py` — checks locked invariants that can be checked statically.
 
@@ -39,7 +41,7 @@ The key machine rule is:
 
 `raw/` preserves source text artifacts and research outputs. Historical files are not deleted when superseded; canonical precedence is recorded in `CANONICALITY.json`.
 
-Binary visual artifacts from the working session are listed with SHA-256 hashes in `raw/visuals/BINARY_ARTIFACT_MANIFEST.json`. The exact SVG test overlay is stored directly as text when available.
+Binary visual artifacts from the working session are listed with SHA-256 hashes in `raw/visuals/BINARY_ARTIFACT_MANIFEST.json`. Text-native visual sources such as SVG are archived directly when available.
 
 ## Core invariants
 
