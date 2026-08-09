@@ -1,0 +1,78 @@
+{
+  "status": "V2_LOCK_CANDIDATE",
+  "principle": "Do not create a permanent sub-parameter merely because rubric values can be combined. Create a split candidate only when the distinction changes machine behavior in a source-supported way.",
+  "parameter_schema": {
+    "fields": [
+      "parameter_id","parent_container_id","exact_name","exact_definition",
+      "source_claim_ids","source_sequence_ids",
+      "applicable_sequence_layers","applicable_node_types","applicable_edge_types",
+      "rubric_pack_ids","allowed_values",
+      "split_rule","merge_rule",
+      "trigger_impact","threshold_impact","dependency_impact","evidence_impact","identity_impact","controller_impact","result_impact","closure_impact","memory_impact",
+      "contradiction_ids","proof_debt_ids","status","version"
+    ]
+  },
+  "sub_parameter_schema": {
+    "fields": [
+      "sub_parameter_id","parent_parameter_id",
+      "differentiating_rubric_ids","differentiating_value_set",
+      "reason_for_split","machine_behavior_difference",
+      "source_claim_ids","evidence_ids",
+      "scope","conditions","exceptions","status","version"
+    ]
+  },
+  "split_candidate_required_differences": [
+    "different_trigger",
+    "different_threshold",
+    "different_dependency",
+    "different_evidence_requirement",
+    "different_controller_or_authority",
+    "different_identity_rule",
+    "different_transition_mechanism",
+    "different_result_interpretation",
+    "different_closure_rule",
+    "different_memory_rule",
+    "different_verification_rule",
+    "different_risk_or_priority_treatment",
+    "different_provenance_requirement",
+    "different_contradiction_handling",
+    "different_downstream_behavior"
+  ],
+  "split_score_rubric": {
+    "formula": "transition_difference + threshold_difference + dependency_difference + evidence_difference + identity_difference + controller_difference + result_difference + closure_difference + memory_difference + recurrence + discriminative_value - redundancy - unsupported_complexity",
+    "weights_status": "UNDECLARED_NOT_FIXED",
+    "rule": "The formula is a rubric, not fixed mathematics yet. Do not fabricate weights."
+  },
+  "candidate_statuses": [
+    "OBSERVED",
+    "CANDIDATE_SPLIT",
+    "UNDER_REVIEW",
+    "URR_CHALLENGED",
+    "VALIDATED",
+    "APPROVED",
+    "CANONICAL",
+    "MERGED",
+    "REJECTED",
+    "DEPRECATED"
+  ],
+  "generation_flow": [
+    "observe_repeated_or_behaviorally_distinct_case",
+    "bind_source_claims_and_sequence_examples",
+    "evaluate_applicable_rubric_dimensions",
+    "compare_machine_behavior",
+    "calculate_unweighted_split_score_components",
+    "check_redundancy_and_unsupported_complexity",
+    "create_CANDIDATE_SPLIT_only_if_behavior_changes",
+    "run_URR_challenge_and_falsifier",
+    "validate_on_multiple_sequences",
+    "approve_or_merge_or_reject",
+    "version_and_migrate_if_canonical"
+  ],
+  "anti_explosion_rules": [
+    "No Cartesian product generation from rubric dimensions.",
+    "No permanent split without source/evidence bindings.",
+    "No split merely for linguistic nuance if execution/evidence/closure behavior is unchanged.",
+    "Do not mutate the parent native parameter while a candidate split is under review.",
+    "A rejected candidate remains archived with reason so the same unsupported split is not repeatedly regenerated."
+  ]
+}
