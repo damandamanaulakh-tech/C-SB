@@ -1,0 +1,24 @@
+{
+  "status": "V2_LOCK_CANDIDATE",
+  "rule": "Cross-cutting services are persistent stores/managers and do not occupy one chronological position in a Sequence.",
+  "services": [
+    {"service_id":"SVC-01","name":"Open-Sequence Ledger","purpose":"Track every active/suspended Sequence, required return, barrier, terminal status, and return acceptance."},
+    {"service_id":"SVC-02","name":"Gap Ledger","purpose":"Track missing source, dependency, evaluator, threshold, identity, relation, evidence, result producer, input, return or contract."},
+    {"service_id":"SVC-03","name":"Contradiction Register","purpose":"Preserve incompatible supported claims and their scope instead of silently merging them."},
+    {"service_id":"SVC-04","name":"Evidence Ledger","purpose":"Bind evidence to claims/tests/verification with provenance, independence and strength."},
+    {"service_id":"SVC-05","name":"Proof-Debt Ledger","purpose":"Track claims whose required proof depth exceeds current proof depth and whether debt blocks closure."},
+    {"service_id":"SVC-06","name":"Claim Registry","purpose":"Store machine-relevant assertions as first-class records with source, evidence, view and epistemic state."},
+    {"service_id":"SVC-07","name":"Identity Registry","purpose":"Track identity basis, continuity criteria, transformations, splits, merges and competing identity claims."},
+    {"service_id":"SVC-08","name":"Threshold Registry","purpose":"Version and evaluate threshold definitions independently from triggers and nodes."},
+    {"service_id":"SVC-09","name":"Rule/Promise Registry","purpose":"Store constraints, permissions, prohibitions, promises, priorities, exception terms and activation conditions."},
+    {"service_id":"SVC-10","name":"Seed Registry","purpose":"Store latent results/commitments/future-action seeds independently from the open Sequence ledger."},
+    {"service_id":"SVC-11","name":"Sequence-Relation Registry","purpose":"Track MAIN, LOCAL/RIDER, ATTACHED, NEXT, REFERENCE, COUNTER, OBSERVER, AUDIT, PARALLEL, CONVERGENT and other typed Sequence relations."},
+    {"service_id":"SVC-12","name":"Actor/View Registry","purpose":"Keep actor/system knowledge and beliefs separate from Global Reality."},
+    {"service_id":"SVC-13","name":"Rubric Registry","purpose":"Store orthogonal rubric dimensions and evaluations without mutating native domain registries."},
+    {"service_id":"SVC-14","name":"Template/Version Registry","purpose":"Separate template/schema evolution from immutable historical execution instances."},
+    {"service_id":"SVC-15","name":"Event/State Ledger","purpose":"Version states/events with event, observation, record and processing times."},
+    {"service_id":"SVC-16","name":"Concurrency/Lock Manager","purpose":"Track resource/dependency locks, wait-for graphs, deadlocks, races, starvation, timeouts, transactions and synchronization gates."},
+    {"service_id":"SVC-17","name":"Human-Handoff Queue","purpose":"Route source gaps, normative choices, authorization, identity/scope choices, proof-debt acceptance and unresolved contradictions to a human when required."},
+    {"service_id":"SVC-18","name":"Migration Registry","purpose":"Track schema/template/record migrations, backward compatibility, deprecation, rollback, archive and canonical status."}
+  ]
+}
