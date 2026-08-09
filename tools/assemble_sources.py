@@ -16,6 +16,7 @@ for manifest_path in sorted(ROOT.rglob("*.manifest.json")):
     if not parts or not source_file:
         continue
     base = manifest_path.parent
+    insert_after = data.get("insert_after_parts", {})
     content = ""
     missing = []
     for rel in parts:
@@ -24,6 +25,7 @@ for manifest_path in sorted(ROOT.rglob("*.manifest.json")):
             missing.append(str(p.relative_to(ROOT)))
             continue
         content += p.read_text(encoding="utf-8")
+        content += insert_after.get(rel, "")
     out = OUT / Path(source_file).name
     out.write_text(content, encoding="utf-8")
     digest = hashlib.sha256(out.read_bytes()).hexdigest()
@@ -36,6 +38,7 @@ for manifest_path in sorted(ROOT.rglob("*.manifest.json")):
         "sha256": digest,
         "expected_sha256": expected,
         "hash_match": None if not expected else digest == expected,
+        "insert_after_parts": insert_after,
         "note": data.get("note")
     })
 
@@ -44,6 +47,16 @@ for manifest_path in sorted(ROOT.rglob("*.manifest.json")):
 
 md = ["# Assembled Source Report", ""]
 for r in reports:
-    md += [f"## {r['source_file']}", "", f"- Manifest: `{r['manifest']}`", f"- Assembled: `{r['assembled_path']}`", f"- SHA-256: `{r['sha256']}`", f"- Expected: `{r['expected_sha256']}`", f"- Hash match: `{r['hash_match']}`", f"- Missing parts: `{r['missing_parts']}`", ""]
+    md += [
+        f"## {r['source_file']}", "",
+        f"- Manifest: `{r['manifest']}`",
+        f"- Assembled: `{r['assembled_path']}`",
+        f"- SHA-256: `{r['sha256']}`",
+        f"- Expected: `{r['expected_sha256']}`",
+        f"- Hash match: `{r['hash_match']}`",
+        f"- Missing parts: `{r['missing_parts']}`",
+        f"- Boundary insertions: `{r['insert_after_parts']}`",
+        ""
+    ]
 (ROOT / "generated" / "ASSEMBLY_REPORT.md").write_text("\n".join(md), encoding="utf-8")
 print(f"assembled {len(reports)} manifest-backed sources")
