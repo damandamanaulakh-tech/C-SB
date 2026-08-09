@@ -662,7 +662,7 @@
 - **ENG-RD-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RD-002** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RD-003** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
-- **ENG-REPAIR-001** → `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `tools/run_phase2_behavioral_rfr_v1.py`
+- **ENG-REPAIR-001** → `phase2/checkpoints/P2_BEHAVIORAL_RFR_CHECKPOINT_V1.json`, `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `tools/run_phase2_behavioral_rfr_v1.py`
 - **ENG-RETEST-001** → `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`
 - **ENG-REV-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`
 - **ENG-RGL-001** → `registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `tools/generate_brain_engine_relationships_v1.py`

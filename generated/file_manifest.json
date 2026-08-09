@@ -245,6 +245,11 @@
     "size_bytes": 1766
   },
   {
+    "path": "phase2/checkpoints/P2_BEHAVIORAL_RFR_CHECKPOINT_V1.json",
+    "sha256": "5805ed1edc08c4302a8c76ee853a165f3c4fc6010c25290daa5e8a32c6ae7a6c",
+    "size_bytes": 1914
+  },
+  {
     "path": "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
     "sha256": "80c869a2f2a046c4a50f98fabbd9220853f02d3f4a4ed68090d7087593148006",
     "size_bytes": 2115

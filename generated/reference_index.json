@@ -3267,6 +3267,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-REPAIR-001": [
+      "phase2/checkpoints/P2_BEHAVIORAL_RFR_CHECKPOINT_V1.json",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "tools/run_phase2_behavioral_rfr_v1.py"
     ],
