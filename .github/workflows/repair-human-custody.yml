@@ -1,0 +1,76 @@
+name: Repair Human-2560 custody from release source
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - chore/release-assets-ingestion
+    paths:
+      - .github/workflows/repair-human-custody.yml
+      - tools/repair_human_native_custody_from_release.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repair-human-custody-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python -m pip install --disable-pip-version-check openpyxl
+
+      - name: Rebuild deterministic 8-part custody from approved release workbook
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/repair_human_native_custody_from_release.py
+
+      - name: Gate repair through existing Human custody materializer
+        run: python tools/materialize_human_native_2560_v1.py
+
+      - name: Verify repair shape and materialized output
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('.')
+          source = json.loads((root/'raw/human/task3_human_native_parts/SOURCE_MANIFEST.json').read_text())
+          report = json.loads((root/'generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json').read_text())
+          assert source['shape']['parameter_rows'] == 2560
+          assert source['shape']['part_count'] == 8
+          assert len(source['parts']) == 8
+          assert report['status'] == 'PASS_COMPLETE_CUSTODY', report['errors']
+          assert report['decoded']['parameter_rows'] == 2560
+          assert report['decoded']['container_count'] == 80
+          assert report['decoded']['segment_count'] == 10
+          assert report['decoded']['parameter_column_counts'] == [13]
+          print(json.dumps({
+            'source_tsv_sha256': source['reconstructed_tsv_sha256'],
+            'materializer_status': report['status'],
+            'transport_mode': report['transport_mode'],
+            'decoded': report['decoded'],
+          }, indent=2))
+          PY
+
+      - name: Commit only verified raw custody repair
+        run: |
+          git config user.name 'sourceborn-custody-repair-bot'
+          git config user.email 'sourceborn-custody-repair-bot@users.noreply.github.com'
+          git add raw/human/task3_human_native_parts
+          if git diff --cached --quiet; then
+            echo 'Human custody already matches the verified release reconstruction.'
+            exit 0
+          fi
+          git commit -m 'fix: restore complete Human-2560 custody from approved release source'
+          git push origin HEAD:${GITHUB_REF_NAME}
