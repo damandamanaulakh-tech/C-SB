@@ -1,0 +1,61 @@
+{
+  "fixture_id": "P2-HUMAN-WISDOM-NO-AI-001",
+  "fixture_type": "SYNTHETIC_CONTROLLED_INTEGRATION_CASE",
+  "fixture_is_source_fact": false,
+  "declared_end": "Verify that Human state/history and source-linked Wisdom can be modelled without activating artificial cognition, while Wisdom remains contextual rather than causal authority for the Human response.",
+  "scope": "synthetic common-input / different-history response case",
+  "ai_activation": {
+    "required": false,
+    "activated_segments": [],
+    "activated_ai_only_records": [],
+    "activated_engines": []
+  },
+  "human_activation": {
+    "container_ids": ["CON-047", "CON-064", "CON-067"],
+    "role": "Human current state, priority structure and decision production"
+  },
+  "wisdom_activation": {
+    "wisdom_candidate_ids": ["WIS-CAND-004"],
+    "role": "contextual applicability principle: identical external input need not produce identical response when relevant path history/current state differ",
+    "forbidden_role": "Wisdom does not select or execute the Human response"
+  },
+  "asi_activation": {
+    "asi_segment_ids": ["ASI-02", "ASI-05", "ASI-06", "ASI-10", "ASI-18"],
+    "role": "provenance, cross-domain interpretation, Wisdom applicability, uncertainty and audit only"
+  },
+  "common_input": "INPUT_X",
+  "variants": [
+    {
+      "variant_id": "HW-HISTORY-A",
+      "history_state": "HISTORY_A",
+      "current_priority_state": "PRIORITY_A",
+      "history_relevant": true,
+      "human_response": "RESPONSE_A",
+      "expected_wisdom_applicability": true
+    },
+    {
+      "variant_id": "HW-HISTORY-B",
+      "history_state": "HISTORY_B",
+      "current_priority_state": "PRIORITY_B",
+      "history_relevant": true,
+      "human_response": "RESPONSE_B",
+      "expected_wisdom_applicability": true
+    },
+    {
+      "variant_id": "HW-HISTORY-PROVEN-IRRELEVANT",
+      "history_state": "HISTORY_C",
+      "current_priority_state": "FIXED_BY_TEST_CONTRACT",
+      "history_relevant": false,
+      "human_response": "RESPONSE_FIXED",
+      "expected_wisdom_applicability": false
+    }
+  ],
+  "hard_invariants": [
+    "AI is not required merely because a Sourceborn system is analysing a Human + Wisdom case.",
+    "Human response remains attributed to Human state/history/decision, not to Wisdom.",
+    "Wisdom applicability is conditional and can be false.",
+    "The same external input may coexist with different Human responses when relevant Human state/history differs.",
+    "The Wisdom Candidate remains source-linked and provisional.",
+    "ASI may audit applicability/provenance but does not become the Human decision-maker."
+  ]
+}
