@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Inspect candidate Human-2560 release workbooks without committing binaries."""
+"""Inspect candidate Human-2560 release workbooks without committing binaries.
+
+The existing Human custody materializer defines the authoritative transport
+shape: SB-ASI-P0001..SB-ASI-P2560, 80 CON-xxx containers, 10 SEG-xx segments,
+and 13 columns per parameter row. This inspector looks for that exact source
+shape instead of inventing a new Human ID namespace.
+"""
 
 from __future__ import annotations
 
@@ -9,6 +15,7 @@ import os
 import re
 import tempfile
 import urllib.request
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -29,16 +36,16 @@ CANDIDATE_NAMES = (
     "ASI-Brain_Task3_Review_v0_2.xlsx",
 )
 
-EXPECTED_COLUMNS = (
-    "row_id", "verified", "condensed_meaning", "bucket_256", "bucket_title",
-    "sub_bucket_128", "category_64", "category_name", "reasoning_function",
-    "actor_view", "phenomenological_qualia", "decision_function",
-    "values_ethics", "bias_pattern", "memory_orientation", "system_mapping",
-    "function_equation", "human_eval_relevance", "source",
-    "verification_source", "schema_note",
-)
-
-ID_RE = re.compile(r"^H(?:00[1-9]|0[1-9]\d|[1-9]\d{2}|[12]\d{3}|25[0-5]\d|2560)$")
+PID_RE = re.compile(r"^SB-ASI-P(\d{4})$")
+CON_RE = re.compile(r"^CON-(\d{3})$")
+SEG_RE = re.compile(r"^SEG-(\d{2})$")
+EXPECTED_IDS = [f"SB-ASI-P{i:04d}" for i in range(1, 2561)]
+EXPECTED_ID_SET = set(EXPECTED_IDS)
+SENTINELS = {
+    "SB-ASI-P0001", "SB-ASI-P0032", "SB-ASI-P0033", "SB-ASI-P0256",
+    "SB-ASI-P0257", "SB-ASI-P0512", "SB-ASI-P0513", "SB-ASI-P1280",
+    "SB-ASI-P1281", "SB-ASI-P1920", "SB-ASI-P1921", "SB-ASI-P2560",
+}
 
 
 def download(url: str, token: str, path: Path) -> None:
@@ -64,55 +71,94 @@ def norm(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
+def trim_row(values: list[str]) -> list[str]:
+    values = list(values)
+    while values and values[-1] == "":
+        values.pop()
+    return values
+
+
 def inspect_workbook(path: Path) -> dict[str, Any]:
     wb = load_workbook(path, read_only=True, data_only=True)
     result: dict[str, Any] = {"sheets": []}
-    all_ids: set[str] = set()
+    workbook_ids: set[str] = set()
+    workbook_containers: set[str] = set()
+    workbook_segments: set[str] = set()
+
     for ws in wb.worksheets:
-        sheet: dict[str, Any] = {
-            "name": ws.title,
-            "max_row": ws.max_row,
-            "max_column": ws.max_column,
-            "first_rows": [],
-            "header_matches": [],
-            "id_count": 0,
-            "id_samples": [],
-            "sentinel_rows": {},
-        }
-        header_best = {"row": None, "matched": []}
-        id_values: set[str] = set()
-        sentinel_targets = {"H001", "H080", "H081", "H160", "H161", "H256", "H257", "H512", "H513", "H640", "H641", "H1280", "H1281", "H1920", "H1921", "H2560"}
+        ids: list[str] = []
+        containers: set[str] = set()
+        segments: set[str] = set()
+        param_column_counts: Counter[int] = Counter()
+        approval_count = 0
+        evidence_count = 0
+        brain_base_count = 0
+        first_parameter_rows: list[dict[str, Any]] = []
+        sentinel_rows: dict[str, dict[str, Any]] = {}
+        first_rows: list[list[str]] = []
+        scanned_rows = 0
+        max_seen_columns = 0
 
         for r_idx, row in enumerate(ws.iter_rows(values_only=True), start=1):
-            vals = [norm(v) for v in row]
+            scanned_rows = r_idx
+            vals = trim_row([norm(v) for v in row])
+            max_seen_columns = max(max_seen_columns, len(vals))
             if r_idx <= 8:
-                sheet["first_rows"].append(vals[:30])
-            if r_idx <= 25:
-                lower = {v.lower() for v in vals if v}
-                matched = [c for c in EXPECTED_COLUMNS if c.lower() in lower]
-                if len(matched) > len(header_best["matched"]):
-                    header_best = {"row": r_idx, "matched": matched}
-            for v in vals:
-                if ID_RE.match(v):
-                    id_values.add(v)
-                    all_ids.add(v)
-                    if v in sentinel_targets and v not in sheet["sentinel_rows"]:
-                        sheet["sentinel_rows"][v] = {"row": r_idx, "values": vals[:40]}
-            if len(sheet["id_samples"]) < 12:
-                row_ids = [v for v in vals if ID_RE.match(v)]
-                for rid in row_ids:
-                    if rid not in sheet["id_samples"]:
-                        sheet["id_samples"].append(rid)
-                        if len(sheet["id_samples"]) >= 12:
-                            break
-        sheet["id_count"] = len(id_values)
-        sheet["id_range"] = [min(id_values), max(id_values)] if id_values else []
-        sheet["header_matches"] = header_best
+                first_rows.append(vals[:30])
+
+            row_pids = [v for v in vals if PID_RE.fullmatch(v)]
+            if not row_pids:
+                continue
+            pid = row_pids[0]
+            ids.append(pid)
+            workbook_ids.add(pid)
+            row_cons = {v for v in vals if CON_RE.fullmatch(v)}
+            row_segs = {v for v in vals if SEG_RE.fullmatch(v)}
+            containers.update(row_cons)
+            segments.update(row_segs)
+            workbook_containers.update(row_cons)
+            workbook_segments.update(row_segs)
+            param_column_counts[len(vals)] += 1
+            approval_count += int("APPROVED BY USER" in vals)
+            evidence_count += int("USER EVIDENT" in vals)
+            brain_base_count += int("Canonical Brain Base" in vals)
+
+            if len(first_parameter_rows) < 5:
+                first_parameter_rows.append({"row": r_idx, "values": vals[:30]})
+            if pid in SENTINELS and pid not in sentinel_rows:
+                sentinel_rows[pid] = {"row": r_idx, "values": vals[:30]}
+
+        id_set = set(ids)
+        sheet = {
+            "name": ws.title,
+            "scanned_rows": scanned_rows,
+            "max_seen_columns": max_seen_columns,
+            "parameter_row_count": len(ids),
+            "unique_parameter_id_count": len(id_set),
+            "first_parameter_id": ids[0] if ids else None,
+            "last_parameter_id": ids[-1] if ids else None,
+            "ordered_id_coverage_exact_0001_2560": ids == EXPECTED_IDS,
+            "set_id_coverage_exact_0001_2560": id_set == EXPECTED_ID_SET,
+            "missing_parameter_ids": [pid for pid in EXPECTED_IDS if pid not in id_set][:25],
+            "container_count": len(containers),
+            "segment_count": len(segments),
+            "parameter_column_counts": dict(sorted(param_column_counts.items())),
+            "approval_coverage": approval_count,
+            "evidence_coverage": evidence_count,
+            "canonical_brain_base_coverage": brain_base_count,
+            "first_rows": first_rows,
+            "first_parameter_rows": first_parameter_rows,
+            "sentinel_rows": sentinel_rows,
+        }
         result["sheets"].append(sheet)
+
     wb.close()
-    result["workbook_unique_h_ids"] = len(all_ids)
-    result["workbook_h_id_range"] = [min(all_ids), max(all_ids)] if all_ids else []
-    result["has_all_h001_h2560"] = len(all_ids) == 2560 and all(f"H{i:03d}" if i < 1000 else f"H{i}" for i in range(1, 2561)) <= all_ids
+    result.update({
+        "workbook_unique_parameter_ids": len(workbook_ids),
+        "workbook_parameter_id_set_exact_0001_2560": workbook_ids == EXPECTED_ID_SET,
+        "workbook_container_count": len(workbook_containers),
+        "workbook_segment_count": len(workbook_segments),
+    })
     return result
 
 
@@ -146,14 +192,16 @@ def main() -> int:
             })
             inspections.append(inspected)
 
-    payload = {"schema_version": 1, "candidates": inspections}
+    payload = {"schema_version": 2, "candidates": inspections}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     lines = [
         "# Human-2560 Source Workbook Inspection",
         "",
-        "Release binaries are downloaded only inside CI and are not committed. This report records workbook structure needed for an exact, hash-guarded reconstruction.",
+        "Release binaries are downloaded only inside CI and are not committed. The inspection uses the exact identifiers and row-shape enforced by `tools/materialize_human_native_2560_v1.py`.",
+        "",
+        "Required source shape: `SB-ASI-P0001..SB-ASI-P2560`, 80 `CON-xxx` containers, 10 `SEG-xx` segments, 13 columns per parameter row, with the approval/evidence/base markers expected by the materializer.",
         "",
     ]
     for item in inspections:
@@ -163,35 +211,52 @@ def main() -> int:
             f"- Asset: `{item['asset_id']}`",
             f"- SHA-256: `{item['sha256']}`",
             f"- Size: `{item['size']}` bytes",
-            f"- Unique Human IDs across workbook: **{item['workbook_unique_h_ids']}**",
-            f"- Human ID range: `{item['workbook_h_id_range']}`",
-            f"- Exact H001..H2560 set present: **{item['has_all_h001_h2560']}**",
+            f"- Unique `SB-ASI-P` IDs across workbook: **{item['workbook_unique_parameter_ids']}**",
+            f"- Exact ID set P0001..P2560 present: **{item['workbook_parameter_id_set_exact_0001_2560']}**",
+            f"- Containers seen: **{item['workbook_container_count']}**",
+            f"- Segments seen: **{item['workbook_segment_count']}**",
             "",
-            "| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |",
-            "|---|---:|---:|---:|---:|---:|",
+            "| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |",
+            "|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|",
         ]
         for sheet in item["sheets"]:
-            hb = sheet["header_matches"]
+            if not sheet["parameter_row_count"]:
+                continue
+            col_counts = ", ".join(f"{k}:{v}" for k, v in sheet["parameter_column_counts"].items())
             lines.append(
-                f"| `{sheet['name']}` | {sheet['max_row']} | {sheet['max_column']} | {sheet['id_count']} | "
-                f"{hb.get('row') or ''} | {len(hb.get('matched') or [])}/{len(EXPECTED_COLUMNS)} |"
+                f"| `{sheet['name']}` | {sheet['scanned_rows']} | {sheet['parameter_row_count']} | {sheet['unique_parameter_id_count']} | "
+                f"`{sheet['first_parameter_id']}` → `{sheet['last_parameter_id']}` | {sheet['ordered_id_coverage_exact_0001_2560']} | "
+                f"{sheet['container_count']} | {sheet['segment_count']} | `{col_counts}` | {sheet['approval_coverage']} | "
+                f"{sheet['evidence_coverage']} | {sheet['canonical_brain_base_coverage']} |"
             )
-        lines += ["", "### Candidate headers / first rows", ""]
+        lines += ["", "### Matching parameter row samples", ""]
         for sheet in item["sheets"]:
-            if not sheet["id_count"] and not sheet["header_matches"].get("matched"):
+            if not sheet["parameter_row_count"]:
                 continue
             lines.append(f"**{sheet['name']}**")
-            for idx, row in enumerate(sheet["first_rows"], start=1):
-                compact = " | ".join(x for x in row if x)
-                if compact:
-                    lines.append(f"- row {idx}: `{compact[:1500]}`")
+            for sample in sheet["first_parameter_rows"]:
+                compact = " | ".join(sample["values"])
+                lines.append(f"- row {sample['row']}: `{compact[:1800]}`")
             if sheet["sentinel_rows"]:
                 lines.append("- sentinel IDs located: " + ", ".join(sorted(sheet["sentinel_rows"])))
+            if sheet["missing_parameter_ids"]:
+                lines.append("- first missing IDs: " + ", ".join(sheet["missing_parameter_ids"]))
             lines.append("")
 
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text("\n".join(lines), encoding="utf-8")
-    print(json.dumps({"inspected": len(inspections)}, indent=2))
+
+    candidates = [
+        {
+            "name": c["name"],
+            "parameter_ids": c["workbook_unique_parameter_ids"],
+            "full_2560": c["workbook_parameter_id_set_exact_0001_2560"],
+            "containers": c["workbook_container_count"],
+            "segments": c["workbook_segment_count"],
+        }
+        for c in inspections
+    ]
+    print(json.dumps(candidates, indent=2))
     return 0
 
 
