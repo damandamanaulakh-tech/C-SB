@@ -381,7 +381,7 @@
 
 ## Approved Ai Only Records
 
-- **AI-NEW-001** → `machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/generate_ai_new_64_structural_decomposition_v1.py`, `tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py`, `tools/run_phase2_ai_new_64_structural_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
+- **AI-NEW-001** → `machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `phase2/tests/P2_AI_ASI_RUNTIME_VIEWS_ORPHAN_OVERLAP_TRIGGER_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/generate_ai_new_64_structural_decomposition_v1.py`, `tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py`, `tools/run_phase2_ai_new_64_structural_rfr_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **AI-NEW-002** → `machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json`, `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-003** → `machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-004** → `machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`

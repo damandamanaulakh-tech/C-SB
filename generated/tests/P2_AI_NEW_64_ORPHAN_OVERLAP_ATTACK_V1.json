@@ -1,0 +1,400 @@
+{
+  "report_id": "P2-AI-NEW-64-ORPHAN-OVERLAP-ATTACK-V1",
+  "status": "PASS_WITH_REVIEW_FINDINGS",
+  "scope_note": "Orphan, governance-path, mapping-breadth and semantic-overlap attack for AI-NEW-001..064. Engine gaps are source gaps, not silently treated as runtime proof.",
+  "pass0": {
+    "declared_end": "No approved AI-NEW record is orphaned or silently merged; overlap and breadth risks remain machine-visible.",
+    "scope": "AI-NEW-001..064 plus derived AI runtime and ASI governance interface views"
+  },
+  "pass1": {
+    "records": 64,
+    "hard_orphans": [],
+    "governance_orphans": [],
+    "node_orphans": [],
+    "engine_source_gaps": 64
+  },
+  "pass2": {
+    "overlap_clusters": [
+      {
+        "cluster_id": "OV-01",
+        "name": "Context / memory / cache lifecycle",
+        "record_count": 8,
+        "expected_relation": "LIFECYCLE_COMPLEMENTARITY",
+        "duplicate_hypothesis": "REJECT_UNLESS_CONTRACTS_COLLAPSE",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-02",
+        "name": "Budget / effort / output resource control",
+        "record_count": 7,
+        "expected_relation": "RESOURCE_PIPELINE_WITH_DISTINCT_STATE_METRIC_AND_CONTROL",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-03",
+        "name": "Tool execution lifecycle",
+        "record_count": 11,
+        "expected_relation": "LIFECYCLE_AND_SCOPE_COMPLEMENTARITY",
+        "duplicate_hypothesis": "REVIEW_058_VS_064_SCOPE",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-04",
+        "name": "Search / source / instruction trust boundary",
+        "record_count": 6,
+        "expected_relation": "PIPELINE_COMPLEMENTARITY",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-05",
+        "name": "Routing / fallback / refusal control",
+        "record_count": 6,
+        "expected_relation": "CONTROL_STATE_AND_TRANSPARENCY_COMPLEMENTARITY",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-06",
+        "name": "Multi-agent coordination lifecycle",
+        "record_count": 3,
+        "expected_relation": "DELEGATE_AGGREGATE_INTERRUPT_COMPLEMENTARITY",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-07",
+        "name": "Multimodal routing / reconstruction",
+        "record_count": 2,
+        "expected_relation": "ROUTER_VS_MECHANISM",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-08",
+        "name": "Hallucination / uncertainty / evidence integrity",
+        "record_count": 7,
+        "expected_relation": "GENERAL_DETECTION_SPECIALIZATION_AND_EVIDENCE_PIPELINE",
+        "duplicate_hypothesis": "REVIEW_033_VS_034_SPECIALIZATION",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-09",
+        "name": "Benchmark / evaluation integrity",
+        "record_count": 7,
+        "expected_relation": "EVIDENCE_PROVENANCE_AND_ADVERSARIAL_EVALUATION_PIPELINE",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-10",
+        "name": "High-risk capability gating",
+        "record_count": 4,
+        "expected_relation": "SEVERITY_CLASSIFICATION_PLUS_PARALLEL_DOMAIN_GATES_PLUS_CONFIRMATION",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-11",
+        "name": "Record / provenance / update governance",
+        "record_count": 4,
+        "expected_relation": "CUSTODY_DISCLOSURE_CORRECTION_VERSIONING_COMPLEMENTARITY",
+        "duplicate_hypothesis": "REJECT",
+        "auto_merge_allowed": false
+      },
+      {
+        "cluster_id": "OV-12",
+        "name": "Recovery scope comparison",
+        "record_count": 4,
+        "expected_relation": "SAME_RECOVERY_PRIMITIVE_AT_DIFFERENT_RUNTIME_SCOPES",
+        "duplicate_hypothesis": "KEEP_SEPARATE_IF_SCOPE_AND_CLOSURE_DIFFER",
+        "auto_merge_allowed": false
+      }
+    ],
+    "targeted_pairs": [
+      {
+        "ids": [
+          "AI-NEW-033",
+          "AI-NEW-034"
+        ],
+        "question": "Is tool-hallucination detection merely a specialization of hallucination detection, or does tool-call evidence/state require a separate contract?",
+        "default": "KEEP_SEPARATE_UNTIL_CONTRACT_EQUIVALENCE_PROVEN",
+        "exact_runtime_equivalence": false,
+        "merge_status": "KEEP_SEPARATE_RUNTIME_CONTRACTS_DIFFER"
+      },
+      {
+        "ids": [
+          "AI-NEW-058",
+          "AI-NEW-064"
+        ],
+        "question": "Do API-local recovery and production rollback/recovery have distinct controllers, state scopes and closure conditions?",
+        "default": "KEEP_SEPARATE",
+        "exact_runtime_equivalence": false,
+        "merge_status": "KEEP_SEPARATE_RUNTIME_CONTRACTS_DIFFER"
+      },
+      {
+        "ids": [
+          "AI-NEW-004",
+          "AI-NEW-063"
+        ],
+        "question": "Does persistent-memory write control overlap versioned update governance?",
+        "default": "KEEP_SEPARATE_MEMORY_WRITE_VS_VERSION_MIGRATION",
+        "exact_runtime_equivalence": false,
+        "merge_status": "KEEP_SEPARATE_RUNTIME_CONTRACTS_DIFFER"
+      },
+      {
+        "ids": [
+          "AI-NEW-021",
+          "AI-NEW-023"
+        ],
+        "question": "Is safety-classifier routing distinct from model-route selection?",
+        "default": "KEEP_SEPARATE_POLICY_ROUTE_VS_CAPABILITY_ROUTE",
+        "exact_runtime_equivalence": false,
+        "merge_status": "KEEP_SEPARATE_RUNTIME_CONTRACTS_DIFFER"
+      },
+      {
+        "ids": [
+          "AI-NEW-052",
+          "AI-NEW-063"
+        ],
+        "question": "Does custody ledger ownership overlap versioned parameter/evidence updating?",
+        "default": "KEEP_SEPARATE_CUSTODY_VS_MUTATION_CONTROL",
+        "exact_runtime_equivalence": false,
+        "merge_status": "KEEP_SEPARATE_RUNTIME_CONTRACTS_DIFFER"
+      }
+    ],
+    "over_broad_mapping_review": [
+      {
+        "ai_only_id": "AI-NEW-002",
+        "source_name": "Context compression and semantic retention",
+        "breadth": {
+          "ai_segments": 8,
+          "asi_segments": 9,
+          "asi_nodes": 9,
+          "primary_sequence_roles": 14
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-006",
+        "source_name": "Token-budget allocation",
+        "breadth": {
+          "ai_segments": 8,
+          "asi_segments": 9,
+          "asi_nodes": 10,
+          "primary_sequence_roles": 15
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-009",
+        "source_name": "Cache invalidation and freshness control",
+        "breadth": {
+          "ai_segments": 5,
+          "asi_segments": 8,
+          "asi_nodes": 7,
+          "primary_sequence_roles": 10
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-013",
+        "source_name": "Tool-result validation",
+        "breadth": {
+          "ai_segments": 6,
+          "asi_segments": 4,
+          "asi_nodes": 9,
+          "primary_sequence_roles": 17
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-014",
+        "source_name": "Tool retry and recovery policy",
+        "breadth": {
+          "ai_segments": 6,
+          "asi_segments": 4,
+          "asi_nodes": 9,
+          "primary_sequence_roles": 17
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-017",
+        "source_name": "External-content trust classification",
+        "breadth": {
+          "ai_segments": 7,
+          "asi_segments": 5,
+          "asi_nodes": 8,
+          "primary_sequence_roles": 14
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-021",
+        "source_name": "Safety-classifier routing",
+        "breadth": {
+          "ai_segments": 7,
+          "asi_segments": 8,
+          "asi_nodes": 11,
+          "primary_sequence_roles": 16
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-025",
+        "source_name": "Multi-agent result aggregation",
+        "breadth": {
+          "ai_segments": 6,
+          "asi_segments": 10,
+          "asi_nodes": 9,
+          "primary_sequence_roles": 11
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-031",
+        "source_name": "Modality routing",
+        "breadth": {
+          "ai_segments": 8,
+          "asi_segments": 8,
+          "asi_nodes": 10,
+          "primary_sequence_roles": 16
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-034",
+        "source_name": "Tool-hallucination detection",
+        "breadth": {
+          "ai_segments": 6,
+          "asi_segments": 5,
+          "asi_nodes": 11,
+          "primary_sequence_roles": 11
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-036",
+        "source_name": "Claim\u2013evidence binding",
+        "breadth": {
+          "ai_segments": 7,
+          "asi_segments": 6,
+          "asi_nodes": 8,
+          "primary_sequence_roles": 10
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-040",
+        "source_name": "Live-leaderboard revision tracking",
+        "breadth": {
+          "ai_segments": 7,
+          "asi_segments": 9,
+          "asi_nodes": 9,
+          "primary_sequence_roles": 11
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-041",
+        "source_name": "Work-completion claim verification",
+        "breadth": {
+          "ai_segments": 8,
+          "asi_segments": 9,
+          "asi_nodes": 10,
+          "primary_sequence_roles": 17
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-042",
+        "source_name": "Evaluation-awareness monitoring",
+        "breadth": {
+          "ai_segments": 6,
+          "asi_segments": 9,
+          "asi_nodes": 8,
+          "primary_sequence_roles": 11
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-043",
+        "source_name": "Cheating and benchmark-gaming resistance",
+        "breadth": {
+          "ai_segments": 6,
+          "asi_segments": 9,
+          "asi_nodes": 8,
+          "primary_sequence_roles": 11
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-054",
+        "source_name": "Token-consumption monitoring",
+        "breadth": {
+          "ai_segments": 8,
+          "asi_segments": 9,
+          "asi_nodes": 10,
+          "primary_sequence_roles": 15
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      },
+      {
+        "ai_only_id": "AI-NEW-061",
+        "source_name": "User-correction propagation",
+        "breadth": {
+          "ai_segments": 4,
+          "asi_segments": 7,
+          "asi_nodes": 8,
+          "primary_sequence_roles": 10
+        },
+        "status": "REVIEW_MAPPING_BREADTH_NOT_SOURCE_FAILURE"
+      }
+    ],
+    "unclustered_records": [],
+    "asi_segment_interface_counts": {
+      "ASI-01": 1,
+      "ASI-02": 32,
+      "ASI-03": 21,
+      "ASI-04": 12,
+      "ASI-05": 2,
+      "ASI-06": 6,
+      "ASI-07": 22,
+      "ASI-08": 29,
+      "ASI-09": 24,
+      "ASI-10": 11,
+      "ASI-11": 13,
+      "ASI-12": 0,
+      "ASI-13": 19,
+      "ASI-14": 28,
+      "ASI-15": 11,
+      "ASI-16": 9,
+      "ASI-17": 0,
+      "ASI-18": 36,
+      "ASI-19": 25,
+      "ASI-20": 0
+    }
+  },
+  "pass3": {
+    "invariant_checks": {
+      "NO_HARD_AI_ORPHANS": true,
+      "NO_GOVERNANCE_ORPHANS_FOR_CONTROL_LIKE_RECORDS": true,
+      "NO_ASI_NODE_ORPHANS_FOR_CONTROL_LIKE_RECORDS": true,
+      "ENGINE_SOURCE_GAP_NOT_FORCE_FIT": true,
+      "NO_AUTOMATIC_MERGE_FROM_OVERLAP": true,
+      "ALL_TARGETED_OVERLAPS_RETAIN_REVIEW_BOUNDARY": true,
+      "AI_VIEW_PRESERVES_64_SOURCE_IDENTITIES": true
+    },
+    "auto_merge_performed": false,
+    "engine_force_fit_performed": false,
+    "source_record_rewrite_performed": false
+  },
+  "errors": [],
+  "findings": [
+    "ASI segments with no AI-NEW interface in this bounded view:['ASI-12', 'ASI-17', 'ASI-20']",
+    "64 direct Engine source gaps preserved; not counted as AI orphans",
+    "17 records exceed mapping-breadth review thresholds; source records remain valid"
+  ]
+}
