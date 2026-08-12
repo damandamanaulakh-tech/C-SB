@@ -735,6 +735,11 @@
     "size_bytes": 1711
   },
   {
+    "path": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+    "sha256": "38195d05259d51b2b13f11c68e144eb65aa8e7c1aeb5aa70d2ec9c9529c055f3",
+    "size_bytes": 5649
+  },
+  {
     "path": "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
     "sha256": "50c57dfe75a6f3d7d8f68e1f87e22a515f11fe4e069239710685769db0bbec47",
     "size_bytes": 6035
