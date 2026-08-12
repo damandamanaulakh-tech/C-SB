@@ -1,0 +1,29 @@
+{
+  "registry_id": "HUMAN-CONTAINER-INDEX-80-APPROVED-V1",
+  "status": "APPROVED_USER_EVIDENT_SOURCE_MATERIALIZATION",
+  "source_artifacts": ["ASI-Brain_Merged_APPROVED_EVIDENT_v0_3.xlsx","ASI_Brain_Engine_Combined_Corpus_v1.xlsx"],
+  "shape": {"segments":10,"containers":80,"parameter_target_total":2560},
+  "rule": "IDs, names, segment ownership and parameter targets are source materialization. Sequence/AI/ASI/Wisdom bindings are additive mappings and may not rename these records.",
+  "segments": [
+    {"segment_id":"SEG-01","name":"Biological Regulation and Internal State","containers":[
+      ["CON-001","Homeostasis and Allostasis",36],["CON-002","Arousal and Wakefulness",28],["CON-003","Sleep and Circadian Regulation",28],["CON-004","Interoception and Internal Body Mapping",32],["CON-005","Autonomic and Hormonal Regulation",32],["CON-006","Pain and Protective Signalling",28],["CON-007","Energy, Fatigue and Resource Budgeting",24],["CON-008","Basic Biological Drives",28]]},
+    {"segment_id":"SEG-02","name":"Perception and Body Representation","containers":[
+      ["CON-009","Visual Perception",36],["CON-010","Auditory Perception",32],["CON-011","Somatosensory Perception",28],["CON-012","Smell, Taste and Chemical Sensing",24],["CON-013","Multisensory Integration",32],["CON-014","Salience and Orienting",28],["CON-015","Body Schema, Body Image and Ownership",32],["CON-016","Spatial, Temporal and Environmental Mapping",28]]},
+    {"segment_id":"SEG-03","name":"Sensorimotor Action and Physical Execution","containers":[
+      ["CON-017","Action Readiness and Affordance Detection",32],["CON-018","Motor Planning and Sequencing",28],["CON-019","Motor Execution and Control",32],["CON-020","Action Selection and Initiation",28],["CON-021","Coordination, Balance and Posture",24],["CON-022","Procedural Skill and Automatization",28],["CON-023","Imitation, Gesture and Tool Manipulation",28],["CON-024","Sensorimotor Feedback and Error Correction",28]]},
+    {"segment_id":"SEG-04","name":"Attention and Executive Control","containers":[
+      ["CON-025","Selective Attention",32],["CON-026","Sustained Attention and Vigilance",28],["CON-027","Divided Attention and Attention Switching",28],["CON-028","Working Memory",40],["CON-029","Inhibitory Control and Self-Control",36],["CON-030","Cognitive Flexibility",32],["CON-031","Executive Sequencing and Task Management",32],["CON-032","Conflict, Error and Performance Monitoring",32]]},
+    {"segment_id":"SEG-05","name":"Learning, Memory and Knowledge","containers":[
+      ["CON-033","Episodic Memory",36],["CON-034","Semantic Memory and General Knowledge",36],["CON-035","Procedural and Habit Memory",32],["CON-036","Associative Learning and Conditioning",32],["CON-037","Reinforcement and Reward Learning",36],["CON-038","Emotional and Threat Memory",28],["CON-039","Prospective Memory",28],["CON-040","Encoding, Consolidation, Retrieval, Reconsolidation and Forgetting",36]]},
+    {"segment_id":"SEG-06","name":"Reasoning, Planning, Decision and Creativity","containers":[
+      ["CON-041","Concept Formation and Abstraction",32],["CON-042","Core Reasoning",48],["CON-043","Causal, Counterfactual and Predictive Reasoning",36],["CON-044","Uncertainty, Probability and Confidence",32],["CON-045","Problem Framing and Decomposition",32],["CON-046","Planning, Strategy and Future Simulation",40],["CON-047","Decision, Judgment and Trade-off Intelligence",36],["CON-048","Creativity, Imagination and Invention",36]]},
+    {"segment_id":"SEG-07","name":"Language and Communication","containers":[
+      ["CON-049","Speech and Language-Signal Recognition",36],["CON-050","Lexical and Semantic Access",36],["CON-051","Syntax and Grammar",32],["CON-052","Comprehension and Discourse Integration",28],["CON-053","Language Production and Articulation",28],["CON-054","Pragmatics and Implied Meaning",28],["CON-055","Prosody, Gesture and Non-Verbal Communication",28],["CON-056","Narrative, Reading, Writing and Audience Adaptation",32]]},
+    {"segment_id":"SEG-08","name":"Emotion, Motivation, Intent and Motive","containers":[
+      ["CON-057","Emotion Generation and Affective State",40],["CON-058","Emotion Recognition and Labelling",28],["CON-059","Emotion Regulation and Coping",36],["CON-060","Positive Valence and Reward",32],["CON-061","Negative Valence, Threat and Loss",32],["CON-062","Motivation, Effort and Persistence",36],["CON-063","Intent Formation and Commitment",32],["CON-064","Motive, Needs, Values and Priority Structure",32]]},
+    {"segment_id":"SEG-09","name":"Consciousness, Self and Social Intelligence","containers":[
+      ["CON-065","Conscious Awareness and Global Access",36],["CON-066","Self-Model, Identity and Narrative Self",32],["CON-067","Personality and Temperament",32],["CON-068","Agency, Ownership and Responsibility",36],["CON-069","Theory of Mind and Social Prediction",36],["CON-070","Empathy, Compassion and Emotional Sharing",32],["CON-071","Attachment, Belonging, Status and Group Behaviour",32],["CON-072","Morality, Norms, Culture and Meaning",36]]},
+    {"segment_id":"SEG-10","name":"Development, Metacognition and Adaptation","containers":[
+      ["CON-073","Development and Maturation",32],["CON-074","Plasticity, Skill Acquisition and Learning-to-Learn",36],["CON-075","Metacognition and Self-Monitoring",32],["CON-076","Heuristics, Biases and Cognitive Distortion",32],["CON-077","Resilience, Failure Detection and Repair",28],["CON-078","Expertise and Domain Adaptation",28],["CON-079","Social Learning, Teaching and Cultural Transmission",32],["CON-080","External Cognition, Institutions and Collective Intelligence",32]]}
+  ]
+}
