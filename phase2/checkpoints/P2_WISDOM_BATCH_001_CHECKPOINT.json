@@ -1,0 +1,35 @@
+{
+  "checkpoint_id": "P2-WISDOM-BATCH-001-CHECKPOINT",
+  "checkpoint_type": "WISDOM_SOURCE_INGESTION_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS_WITH_PROOF_DEBT",
+  "source_batch": "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json",
+  "derivation": "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+  "rfr_report": "generated/tests/P2_WISDOM_BATCH_001_RFR.json",
+  "result": {
+    "source_texts": 5,
+    "source_claims": 5,
+    "interpretations": 5,
+    "supporting_sequences": 5,
+    "wisdom_candidates": 5,
+    "hard_failures": 0
+  },
+  "closed_scope": [
+    "bounded user-provided Mahabharata modelling narrative custody",
+    "source text to source claim separation",
+    "source claim to interpretation separation",
+    "interpretation to supporting Sequence reconstruction",
+    "source-linked Wisdom Candidate creation",
+    "applicability/non-applicability fields",
+    "non-promotion to law or direct action authority"
+  ],
+  "proof_debt": [
+    "primary Mahabharata/Bhagavad Gita text not ingested",
+    "external historical/theological verification not performed",
+    "cross-tradition/counter-interpretation corpus not ingested",
+    "WIS-CAND-005 lacks multi-case evidence required for principle promotion"
+  ],
+  "authority_rule": "These are Sourceborn Wisdom Candidates derived from a user-provided modelling narrative. They may be used as source-linked contextual inputs in controlled tests but cannot be cited as primary scripture, promoted to law, or treated as independent action authority.",
+  "next_sequence": "P2-MULTI-RUBRIC-INTEGRATION-TEST-01"
+}
