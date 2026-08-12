@@ -1952,6 +1952,7 @@
   },
   "approved_ai_only_records": {
     "AI-NEW-001": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json",
@@ -1963,12 +1964,14 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "AI-NEW-064": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "AI-NEW-011": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
@@ -1979,207 +1982,268 @@
       "tools/run_phase2_multi_rubric_integration_v1.py"
     ],
     "AI-NEW-002": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
-    "AI-NEW-009": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+    "AI-NEW-003": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
-    "AI-NEW-014": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-026": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-029": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-052": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-055": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-058": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-063": [
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+    "AI-NEW-004": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-005": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-006": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-007": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-008": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-009": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-010": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-012": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-013": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-014": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-015": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-016": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-017": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-018": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
+    "AI-NEW-019": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-020": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-021": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-022": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-023": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-024": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-025": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-026": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-027": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-028": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-029": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-030": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-031": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-032": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
     "AI-NEW-033": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-034": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
+    "AI-NEW-035": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-036": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-037": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-038": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-039": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-040": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-041": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-042": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-043": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-044": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-045": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-046": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-047": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
     "AI-NEW-048": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-049": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
-    "AI-NEW-003": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-004": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-006": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-007": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-008": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-010": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-012": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-013": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-015": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-016": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-017": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-019": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-020": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-021": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-022": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-023": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-024": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-025": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-027": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-028": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-030": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-031": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-032": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-035": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-036": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-037": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-038": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-039": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-040": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-041": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-042": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-043": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-044": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-045": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-046": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-047": [
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
     "AI-NEW-050": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-051": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-052": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-053": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-054": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-055": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-056": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-057": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-058": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-059": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-060": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-061": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-062": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-NEW-063": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ]
   },

@@ -285,6 +285,11 @@
     "size_bytes": 3307
   },
   {
+    "path": "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+    "sha256": "93db4f0832edd6e9cd39257f0bfdaf3d567e0bfe6a9eeb261c3900bbaa3eba1d",
+    "size_bytes": 4691
+  },
+  {
     "path": "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
     "sha256": "5339362823b7a0ebd13c234f6cf9ae0c5ccce45a715ac008dbbed92db47ebd30",
     "size_bytes": 4545
