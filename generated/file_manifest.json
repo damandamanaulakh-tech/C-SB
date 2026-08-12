@@ -826,8 +826,8 @@
   },
   {
     "path": "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
-    "sha256": "979a286a0b1930d5753769d1f669c3853aca24868208ce97e2ac5158c4f07108",
-    "size_bytes": 5705
+    "sha256": "b6e59da8645ff5ccbfb8e77bc986798dad5370ad0172dfe8996c3eaf7effa3d5",
+    "size_bytes": 6820
   },
   {
     "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
