@@ -185,6 +185,11 @@
     "size_bytes": 4072
   },
   {
+    "path": ".github/workflows/multi-rubric-integration-rfr.yml",
+    "sha256": "2c667418cf514b9f7bf8c8cfd12e25aa61364ffda7c0c0f8f832512ef1649595",
+    "size_bytes": 1637
+  },
+  {
     "path": ".github/workflows/wisdom-ingestion-rfr.yml",
     "sha256": "454c34c2b93adcdb98f98968419e456951208cb4580d9ca8ab56b2196dd893d7",
     "size_bytes": 1237
@@ -290,6 +295,11 @@
     "size_bytes": 3380
   },
   {
+    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json",
+    "sha256": "36279dc8709ed92fd300dc2928200462b08bf72bfd48cb1d0445a117842a3c9d",
+    "size_bytes": 707
+  },
+  {
     "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
     "sha256": "ddc1e2be036681c3c0c089674910daede8dfa4640906acd7a024455e6034dc01",
     "size_bytes": 3410
@@ -378,6 +388,11 @@
     "path": "phase2/checkpoints/P2_CLOSURE_SCOPE_INHERITANCE_CHECKPOINT_001.json",
     "sha256": "8a8d3506fdb23b95d3ed97b89fe911de653637795a1df3eb71822ea24ba88fae",
     "size_bytes": 1203
+  },
+  {
+    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_V1.json",
+    "sha256": "d5dabb9fbbe49f04a1f5a3c87672603557ec005c8c456679ef2ccc809b5393e8",
+    "size_bytes": 2161
   },
   {
     "path": "phase2/checkpoints/P2_WISDOM_SOURCE_INGESTION_CHECKPOINT_V1.json",

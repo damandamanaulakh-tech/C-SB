@@ -15,7 +15,7 @@
 
 ## Containers
 
-- **CON-001** → `phase2/TASK_QUEUE.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
+- **CON-001** → `phase2/TASK_QUEUE.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
 - **CON-002** → `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json`
 - **CON-003** → `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json`
 - **CON-004** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
@@ -627,7 +627,7 @@
 
 ## Asi Nodes
 
-- **ASI-NODE-00** → `README.md`, `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`, `tools/validate_repo.py`
+- **ASI-NODE-00** → `README.md`, `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `phase2/README.md`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`, `tools/validate_repo.py`
 - **ASI-NODE-01** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-NODE-02** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`
 - **ASI-NODE-03** → `machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json`, `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md`, `registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json`, `registries/asi/asi_node_registry.json`, `registries/asi/node_brains_v0.json`
