@@ -53,6 +53,8 @@ jobs:
         run: python tools/validate_ai_asi_container_candidates.py
       - name: Validate approved expansion 081 to 160
         run: python tools/validate_expansion_081_160_v1.py
+      - name: Validate expansion P2561 to P2592 domain ownership
+        run: python tools/validate_expansion_2561_2592_domain_bindings_v1.py
       - name: Validate Brain Engine source adoption
         run: python tools/validate_brain_engine_adoption_v1.py
       - name: Validate AI ASI multi-owner operational parameters
