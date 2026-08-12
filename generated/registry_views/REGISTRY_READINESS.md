@@ -5,6 +5,6 @@
 - ASI service nodes: **22**
 - ASI Node Brains v0: **18**
 - Human locked shape: **{'segments': 10, 'containers': 80, 'active_parameters': 2560}**
-- Human native files present: **3**
+- Human native files present: **4**
 
 > AI source families remain REVIEW ONLY even though a complete v0 candidate classification is generated. Candidate generation is not adoption.
