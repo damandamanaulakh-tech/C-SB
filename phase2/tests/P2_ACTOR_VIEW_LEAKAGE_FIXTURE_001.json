@@ -1,0 +1,74 @@
+{
+  "fixture_id": "P2-ACTOR-VIEW-LEAKAGE-001",
+  "fixture_type": "SYNTHETIC_CONTROLLED_INTEGRATION_CASE",
+  "fixture_is_source_fact": false,
+  "declared_end": "Verify that global/system knowledge, AI belief and Human Actor View remain separate, and that Actor View changes only after a legal information-transfer Sequence returns an accepted update.",
+  "scope": "single synthetic fact FACT_F and Human actor ACTOR_A",
+  "global_state": {"FACT_F": "KNOWN_TRUE"},
+  "initial_actor_view": {"actor_id": "ACTOR_A", "FACT_F": "UNKNOWN"},
+  "human_activation": {
+    "container_ids": ["CON-047", "CON-066", "CON-069"],
+    "role": "actor decision, self/view state, social/other-state modelling"
+  },
+  "ai_activation": {
+    "ai_segment_ids": ["AI-03", "AI-04", "AI-10", "AI-18", "AI-23"],
+    "role": "state estimation, relationship modelling, prediction, uncertainty and multi-agent modelling",
+    "forbidden_write": "AI may not silently write global/system knowledge into ACTOR_A View"
+  },
+  "wisdom_activation": {
+    "wisdom_candidate_ids": ["WIS-CAND-001"],
+    "principle_use": "Do not treat global/system knowledge as if every actor possesses it.",
+    "forbidden_write": "Wisdom may constrain modelling but may not write ACTOR_A knowledge state"
+  },
+  "asi_activation": {
+    "asi_segment_ids": ["ASI-02", "ASI-04", "ASI-10", "ASI-16", "ASI-18"],
+    "asi_node_ids": ["ASI-NODE-02", "ASI-NODE-06", "ASI-NODE-07", "ASI-NODE-11", "ASI-NODE-17", "ASI-NODE-21"],
+    "role": "truth/provenance governance, cross-sequence coordination, uncertainty, multi-human coordination and meta-audit"
+  },
+  "legal_actor_view_update_contract": {
+    "sequence_relation": "ATTACHED_INFORMATION_TRANSFER_SEQUENCE",
+    "required_fields": ["source", "evidence", "recipient", "return_schema", "close_condition", "acceptance_condition"],
+    "update_rule": "Actor View changes only if the information-transfer Sequence is terminal and its required return is accepted."
+  },
+  "variants": [
+    {
+      "variant_id": "AV-NO-COMMUNICATION",
+      "ai_system_belief": "KNOWN_TRUE",
+      "communication_sequence": "ABSENT",
+      "return_accepted": false,
+      "expected_actor_view_final": "UNKNOWN"
+    },
+    {
+      "variant_id": "AV-AI-INFERENCE-ONLY",
+      "ai_system_belief": "INFERRED_TRUE",
+      "communication_sequence": "ABSENT",
+      "return_accepted": false,
+      "expected_actor_view_final": "UNKNOWN"
+    },
+    {
+      "variant_id": "AV-COMMUNICATION-UNACCEPTED",
+      "ai_system_belief": "KNOWN_TRUE",
+      "communication_sequence": "CLOSED_SUCCESS",
+      "return_accepted": false,
+      "return_value": "FACT_F_TRUE",
+      "expected_actor_view_final": "UNKNOWN"
+    },
+    {
+      "variant_id": "AV-COMMUNICATION-ACCEPTED",
+      "ai_system_belief": "KNOWN_TRUE",
+      "communication_sequence": "CLOSED_SUCCESS",
+      "return_accepted": true,
+      "return_value": "FACT_F_TRUE",
+      "expected_actor_view_final": "KNOWN_TRUE"
+    }
+  ],
+  "hard_invariants": [
+    "GLOBAL_STATE != ACTOR_VIEW",
+    "AI_BELIEF != ACTOR_VIEW",
+    "AI inference is not Human knowledge",
+    "closed information-transfer Sequence does not update Actor View unless the required return is accepted",
+    "Actor View update writes provenance and source reference",
+    "no hidden knowledge injection",
+    "a later decision by ACTOR_A reads ACTOR_A View, not unrestricted global state"
+  ]
+}
