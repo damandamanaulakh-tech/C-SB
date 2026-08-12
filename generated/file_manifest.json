@@ -151,8 +151,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "250282e99dbe649d6c6ca6928c4d3de94795fc54087543e60b75194a6a2fabfe",
-    "size_bytes": 3403
+    "sha256": "ed9c3955085d97bd510b3f356a991b9894c3f183bbf8067b73df9d81e349dafc",
+    "size_bytes": 3527
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -253,6 +253,11 @@
     "path": "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
     "sha256": "8970b63c8c38d36de9f8d4ae09cf89cc36e6b0a6ce1e366cd45533ff990c78f7",
     "size_bytes": 1259
+  },
+  {
+    "path": "phase2/rfr/P2_CLOSURE_SCOPE_INHERITANCE_RFR_001.md",
+    "sha256": "f0c43507d1e4c85828c8e8a75b465ccf124e13bd85e6bbd267180bad156268e1",
+    "size_bytes": 730
   },
   {
     "path": "phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md",

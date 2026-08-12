@@ -1,0 +1,163 @@
+{
+  "report_id": "P2-CLOSURE-SCOPE-INHERITANCE-RFR-001",
+  "status": "PASS",
+  "scope_note": "Synthetic nested-closure control-law test. PASS proves closure-scope isolation and return propagation behavior for this fixture only.",
+  "pass0": {
+    "declared_end": "Verify that local closure returns usable results upward without automatically closing higher-scope Sequences, and that every scope closes only against its own contract.",
+    "closure_scopes": [
+      "PROJECT",
+      "PROMISE",
+      "ACTION"
+    ]
+  },
+  "pass1": {
+    "scope_hierarchy": [
+      {
+        "sequence_id": "S-PROJECT-001",
+        "closure_scope": "PROJECT",
+        "contract": "PROJECT_RESULT_A and PROJECT_RESULT_B accepted"
+      },
+      {
+        "sequence_id": "S-PROMISE-001",
+        "closure_scope": "PROMISE",
+        "parent_sequence_id": "S-PROJECT-001",
+        "contract": "ACTION_RESULT accepted and PROMISE_CONFIRMATION complete"
+      },
+      {
+        "sequence_id": "S-ACTION-001",
+        "closure_scope": "ACTION",
+        "parent_sequence_id": "S-PROMISE-001",
+        "contract": "LOCAL_ACTION performed and verified"
+      }
+    ],
+    "required_return_routes": [
+      {
+        "from": "S-ACTION-001",
+        "to": "S-PROMISE-001",
+        "return_key": "ACTION_RESULT"
+      },
+      {
+        "from": "S-PROMISE-001",
+        "to": "S-PROJECT-001",
+        "return_key": "PROJECT_RESULT_A"
+      }
+    ],
+    "independent_project_result_source": "S-INDEPENDENT-001"
+  },
+  "pass2": {
+    "variants": [
+      {
+        "variant_id": "CS-ACTION-CLOSED-RETURN-UNACCEPTED",
+        "status": "PASS",
+        "actual": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "WAITING_FOR_RETURN",
+          "project": "OPEN"
+        },
+        "expected": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "WAITING_FOR_RETURN",
+          "project": "OPEN"
+        },
+        "events": [
+          "ACTION_SCOPE_CLOSED_SUCCESS",
+          "ACTION_RETURN_PACKET_CREATED",
+          "ACTION_RETURN_UNACCEPTED",
+          "PROMISE_SCOPE_BLOCKED",
+          "PROJECT_SCOPE_REMAINS_OPEN"
+        ]
+      },
+      {
+        "variant_id": "CS-ACTION-RETURN-ACCEPTED-PROMISE-INCOMPLETE",
+        "status": "PASS",
+        "actual": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "OPEN",
+          "project": "OPEN"
+        },
+        "expected": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "OPEN",
+          "project": "OPEN"
+        },
+        "events": [
+          "ACTION_SCOPE_CLOSED_SUCCESS",
+          "ACTION_RETURN_PACKET_CREATED",
+          "ACTION_RETURN_ACCEPTED",
+          "PROMISE_CONTRACT_REEVALUATED",
+          "PROMISE_CONFIRMATION_OPEN",
+          "PROMISE_SCOPE_REMAINS_OPEN",
+          "PROJECT_SCOPE_REMAINS_OPEN"
+        ]
+      },
+      {
+        "variant_id": "CS-PROMISE-CLOSED-PROJECT-INCOMPLETE",
+        "status": "PASS",
+        "actual": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "CLOSED_SUCCESS",
+          "project": "OPEN"
+        },
+        "expected": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "CLOSED_SUCCESS",
+          "project": "OPEN"
+        },
+        "events": [
+          "ACTION_SCOPE_CLOSED_SUCCESS",
+          "ACTION_RETURN_PACKET_CREATED",
+          "ACTION_RETURN_ACCEPTED",
+          "PROMISE_CONTRACT_REEVALUATED",
+          "PROMISE_CONFIRMATION_COMPLETE",
+          "PROMISE_SCOPE_CLOSED_SUCCESS",
+          "PROMISE_RETURN_PACKET_CREATED",
+          "PROMISE_RETURN_ACCEPTED_BY_PROJECT",
+          "PROJECT_CONTRACT_REEVALUATED",
+          "PROJECT_RESULT_B_MISSING",
+          "PROJECT_SCOPE_REMAINS_OPEN"
+        ]
+      },
+      {
+        "variant_id": "CS-ALL-REQUIRED-RESULTS-ACCEPTED",
+        "status": "PASS",
+        "actual": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "CLOSED_SUCCESS",
+          "project": "CLOSED_SUCCESS"
+        },
+        "expected": {
+          "action": "CLOSED_SUCCESS",
+          "promise": "CLOSED_SUCCESS",
+          "project": "CLOSED_SUCCESS"
+        },
+        "events": [
+          "ACTION_SCOPE_CLOSED_SUCCESS",
+          "ACTION_RETURN_PACKET_CREATED",
+          "ACTION_RETURN_ACCEPTED",
+          "PROMISE_CONTRACT_REEVALUATED",
+          "PROMISE_CONFIRMATION_COMPLETE",
+          "PROMISE_SCOPE_CLOSED_SUCCESS",
+          "PROMISE_RETURN_PACKET_CREATED",
+          "PROMISE_RETURN_ACCEPTED_BY_PROJECT",
+          "PROJECT_CONTRACT_REEVALUATED",
+          "PROJECT_RESULT_B_ACCEPTED",
+          "PROJECT_SCOPE_CLOSED_SUCCESS"
+        ]
+      }
+    ]
+  },
+  "pass3": {
+    "invariant_checks": {
+      "ACTION_CLOSURE_DOES_NOT_AUTO_CLOSE_PROMISE": true,
+      "ACCEPTED_ACTION_RETURN_STILL_REQUIRES_PROMISE_CONTRACT": true,
+      "PROMISE_CLOSURE_DOES_NOT_AUTO_CLOSE_PROJECT": true,
+      "PROJECT_CLOSES_ONLY_WITH_ALL_REQUIRED_RESULTS": true,
+      "PARENT_REEVALUATION_USED": true,
+      "CLOSED_LOWER_SCOPE_NOT_REOPENED": true,
+      "RETURN_ACCEPTANCE_SEPARATE_FROM_SUB_SEQUENCE_CLOSURE": true
+    },
+    "closed_sequence_reopen_used": false,
+    "closure_status_propagation_mode": "RETURN_PACKET_PLUS_PARENT_REEVALUATION_NOT_STATUS_INHERITANCE"
+  },
+  "errors": []
+}
