@@ -9,6 +9,7 @@ on:
       - .github/workflows/release-assets-inventory.yml
       - tools/build_release_asset_manifest.py
       - tools/profile_release_assets.py
+      - tools/build_release_asset_merge_plan.py
       - raw/release-assets/backend-docs/README.md
 
 permissions:
@@ -53,6 +54,12 @@ jobs:
             --manifest raw/release-assets/backend-docs/MANIFEST.json \
             --workers 8
 
+      - name: Build conservative merge plan
+        run: |
+          python tools/build_release_asset_merge_plan.py \
+            --manifest raw/release-assets/backend-docs/MANIFEST.json \
+            --content-index raw/release-assets/backend-docs/CONTENT_INDEX.json
+
       - name: Sanity-check generated files
         run: |
           python - <<'PY'
@@ -60,14 +67,18 @@ jobs:
           from pathlib import Path
           manifest = json.loads(Path('raw/release-assets/backend-docs/MANIFEST.json').read_text())
           content = json.loads(Path('raw/release-assets/backend-docs/CONTENT_INDEX.json').read_text())
+          plan = json.loads(Path('raw/release-assets/backend-docs/MERGE_PLAN.json').read_text())
           assert manifest['summary']['asset_count'] == 383
           assert len(manifest['assets']) == 383
           assert content['unique_payload_count'] == manifest['summary']['unique_sha256_payloads']
           assert len(content['profiles']) == content['unique_payload_count']
+          assert plan['summary']['asset_count'] == 383
+          assert len(plan['decisions']) == 383
           assert Path('docs/RELEASE_ASSET_INGESTION_REPORT.md').is_file()
           assert Path('docs/RELEASE_ASSET_CONTENT_PROFILE.md').is_file()
+          assert Path('docs/RELEASE_ASSET_MERGE_PLAN.md').is_file()
           print(json.dumps(manifest['summary'], indent=2))
-          print(json.dumps({'content_profiles': len(content['profiles'])}, indent=2))
+          print(json.dumps(plan['summary'], indent=2))
           PY
 
       - name: Commit generated inventory back to intake branch
@@ -75,8 +86,10 @@ jobs:
           changes="$(git status --porcelain -- \
             raw/release-assets/backend-docs/MANIFEST.json \
             raw/release-assets/backend-docs/CONTENT_INDEX.json \
+            raw/release-assets/backend-docs/MERGE_PLAN.json \
             docs/RELEASE_ASSET_INGESTION_REPORT.md \
-            docs/RELEASE_ASSET_CONTENT_PROFILE.md)"
+            docs/RELEASE_ASSET_CONTENT_PROFILE.md \
+            docs/RELEASE_ASSET_MERGE_PLAN.md)"
           if [ -z "$changes" ]; then
             echo 'Generated inventory is unchanged.'
             exit 0
@@ -87,7 +100,9 @@ jobs:
           git add \
             raw/release-assets/backend-docs/MANIFEST.json \
             raw/release-assets/backend-docs/CONTENT_INDEX.json \
+            raw/release-assets/backend-docs/MERGE_PLAN.json \
             docs/RELEASE_ASSET_INGESTION_REPORT.md \
-            docs/RELEASE_ASSET_CONTENT_PROFILE.md
-          git commit -m 'chore: snapshot backend docs release asset inventory and content profile'
+            docs/RELEASE_ASSET_CONTENT_PROFILE.md \
+            docs/RELEASE_ASSET_MERGE_PLAN.md
+          git commit -m 'chore: snapshot backend docs release asset inventory, profile, and merge plan'
           git push origin HEAD:${GITHUB_REF_NAME}
