@@ -2,12 +2,12 @@
 
 ## Segments
 
-- **SEG-01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
+- **SEG-01** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **SEG-02** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **SEG-03** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **SEG-04** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **SEG-05** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
-- **SEG-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
+- **SEG-06** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **SEG-07** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`
 - **SEG-08** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **SEG-09** → `machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json`, `raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json`, `registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json`, `registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
@@ -88,16 +88,16 @@
 - **CON-078** → `phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
 - **CON-079** → `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
 - **CON-080** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md`, `raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md`, `registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json`
-- **CON-081** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_081_160_v1.py`
-- **CON-082** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-081** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_081_160_v1.py`
+- **CON-082** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-083** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-084** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-085** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-086** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-087** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-087** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-088** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-089** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-090** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-090** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-091** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-092** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-093** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
@@ -110,20 +110,20 @@
 - **CON-100** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-101** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-102** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-103** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_expansion_081_160_v1.py`
+- **CON-103** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/run_phase2_ai_asi_rfr_v1.py`, `tools/validate_expansion_081_160_v1.py`
 - **CON-104** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-105** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-106** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-107** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **CON-108** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-107** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-108** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-109** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-110** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-111** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-112** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-113** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-113** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-114** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-115** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **CON-116** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-115** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-116** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-117** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-118** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-119** → `registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
@@ -253,38 +253,38 @@
 
 - **SB-ASI-P0001** → `phase2/TASK_QUEUE.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
 - **SB-ASI-P2560** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`
-- **SB-ASI-P2561** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_081_160_v1.py`
-- **SB-ASI-P2562** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2563** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2564** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2565** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2566** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2567** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2568** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2569** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2570** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2571** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2572** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2573** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2574** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2575** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2576** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2577** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2578** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2579** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2580** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2581** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2582** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2583** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2584** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2585** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2586** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2587** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2588** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2589** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2590** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2591** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
-- **SB-ASI-P2592** → `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_081_160_v1.py`
+- **SB-ASI-P2561** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_081_160_v1.py`
+- **SB-ASI-P2562** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2563** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2564** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2565** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2566** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2567** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2568** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2569** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2570** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2571** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2572** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2573** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2574** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2575** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2576** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2577** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2578** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2579** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2580** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2581** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2582** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2583** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2584** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2585** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2586** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2587** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2588** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2589** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2590** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2591** → `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **SB-ASI-P2592** → `phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_081_160_v1.py`
 - **SB-ASI-P2593** → `CANONICALITY.json`, `machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json`, `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 - **SB-ASI-P3072** → `CANONICALITY.json`, `machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `tools/generate_operational_subparameters_v1.py`, `tools/validate_brain_engine_adoption_v1.py`
 
