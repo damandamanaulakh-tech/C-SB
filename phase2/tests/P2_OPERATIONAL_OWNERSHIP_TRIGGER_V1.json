@@ -1,0 +1,8 @@
+{
+  "sequence_id":"P2-AI-ASI-OPERATIONAL-PARAMETER-OWNERSHIP-01",
+  "status":"RFR_REQUESTED",
+  "source_parameter_range":"SB-ASI-P2593..SB-ASI-P3072",
+  "source_container_range":"CON-161..CON-240",
+  "operational_elements":"E01..E08",
+  "closure_rule":"Do not close this mapping batch unless generated/tests/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_RFR_V1.json returns PASS with zero errors."
+}
