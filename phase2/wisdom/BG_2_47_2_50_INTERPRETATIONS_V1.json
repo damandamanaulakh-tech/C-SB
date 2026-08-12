@@ -1,0 +1,66 @@
+{
+  "interpretation_batch_id": "W-INT-BG-02-047-050-V1",
+  "status": "INTERPRETATIONS_FOR_ARCHITECTURE_TEST_NOT_DOCTRINAL_CANON",
+  "source_claim_batch": "phase2/wisdom/BG_2_47_2_50_SOURCE_CLAIMS_V1.json",
+  "interpretation_rule": "Interpretations may synthesize source claims but must preserve source references, assumptions, alternatives, counter-cases and epistemic status. They are not source text and are not automatically Wisdom.",
+  "interpretations": [
+    {
+      "interpretation_id": "W-INT-BG-001",
+      "name": "Action-domain versus outcome-ownership distinction",
+      "source_claim_refs": ["W-CLAIM-BG-001","W-CLAIM-BG-002","W-CLAIM-BG-003"],
+      "interpretation": "A useful operational reading distinguishes what an agent can presently own/control most directly—its action, effort and conduct—from results that also depend on conditions beyond the agent. Result-seeking should not become the sole controller of whether action is undertaken.",
+      "assumptions": [
+        "adhikara is being operationally read as a bounded entitlement/scope of agency rather than as a complete theory of rights",
+        "phala is being read as result/fruit/outcome",
+        "the interpretation is limited to this local source batch"
+      ],
+      "alternatives": [
+        "A duty-centered reading may emphasize obligation more strongly than controllability.",
+        "A spiritual reading may prioritize liberation/non-attachment rather than decision-process design.",
+        "A commentarial tradition may give adhikara, buddhi or yoga a more technical meaning than this operational reading."
+      ],
+      "epistemic_status": "INTERPRETIVE_CANDIDATE",
+      "source_boundary_preserved": true
+    },
+    {
+      "interpretation_id": "W-INT-BG-002",
+      "name": "Equanimity as execution-state discipline",
+      "source_claim_refs": ["W-CLAIM-BG-004","W-CLAIM-BG-005","W-CLAIM-BG-006"],
+      "interpretation": "A second operational reading treats equanimity as a state discipline that prevents anticipated success or failure from becoming the sole arbiter of action quality. Discernment remains active; success/failure information can still be observed and used.",
+      "assumptions": [
+        "equanimity is not equated with indifference or suppression",
+        "buddhi is treated here as a discernment/intelligence function for architecture testing",
+        "current evidence and consequence monitoring remain available to the active Sequence"
+      ],
+      "alternatives": [
+        "Equanimity may be read primarily as a spiritual realization rather than an operational control state.",
+        "The text may be interpreted within broader teachings not represented in verses 2.47-2.50."
+      ],
+      "epistemic_status": "INTERPRETIVE_CANDIDATE",
+      "source_boundary_preserved": true
+    },
+    {
+      "interpretation_id": "W-INT-BG-003",
+      "name": "Skill in action requires quality of execution, not blind action",
+      "source_claim_refs": ["W-CLAIM-BG-006","W-CLAIM-BG-007","W-CLAIM-BG-008"],
+      "interpretation": "The local passage can support an operational distinction between merely acting and acting with discernment/skill. This does not define all components of skill, but it prevents the earlier action-focus reading from being reduced to indiscriminate action.",
+      "assumptions": [
+        "kaushala is left semantically open enough to include skill/competence without claiming that this exhausts the term",
+        "buddhi-yoga is not reduced to a modern optimization algorithm"
+      ],
+      "alternatives": [
+        "Some traditions may interpret 'yoga is skill in action' through doctrinal concepts not represented in this architecture fixture."
+      ],
+      "epistemic_status": "INTERPRETIVE_CANDIDATE",
+      "source_boundary_preserved": true
+    }
+  ],
+  "interpretive_guards": [
+    "Outcome non-ownership is not outcome blindness.",
+    "Equanimity is not permission to ignore failure signals.",
+    "Avoiding attachment to inaction is not permission to bypass safety, authority, role or capability barriers.",
+    "Skill in action is not proof that a selected action is legal or correct.",
+    "These interpretations cannot be injected into an Actor View unless that actor actually has access to them."
+  ],
+  "next_layer": "COUNTER_CASE_AND_APPLICABILITY_TEST"
+}
