@@ -1,0 +1,16 @@
+{
+  "test_id": "P2-AI-NEW-64-STRUCTURAL-DECOMPOSITION-01",
+  "status": "TRIGGER_RFR",
+  "declared_end": "Generate and R-F-R all 64 approved AI-NEW records across source type, runtime form, atomicity/composite status, AI/ASI ownership, Sequence/memory bindings and exact-source Engine-binding status.",
+  "source_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+  "contract": "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+  "generator": "tools/generate_ai_new_64_structural_decomposition_v1.py",
+  "validator": "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
+  "guards": [
+    "No source ID/name/type rewrite",
+    "No guessed Engine binding",
+    "No AI control promoted to permission authority",
+    "Composite candidates retain explicit subcontracts when closure differs",
+    "State is not Sequence closure"
+  ]
+}
