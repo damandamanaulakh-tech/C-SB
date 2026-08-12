@@ -1,414 +1,227 @@
 # Human-2560 Source Workbook Inspection
 
-Release binaries are downloaded only inside CI and are not committed. This report records workbook structure needed for an exact, hash-guarded reconstruction.
+Release binaries are downloaded only inside CI and are not committed. The inspection uses the exact identifiers and row-shape enforced by `tools/materialize_human_native_2560_v1.py`.
+
+Required source shape: `SB-ASI-P0001..SB-ASI-P2560`, 80 `CON-xxx` containers, 10 `SEG-xx` segments, 13 columns per parameter row, with the approval/evidence/base markers expected by the materializer.
 
 ## `ASI_Brain_Engine_Combined_Corpus_v1.xlsx`
 
 - Asset: `512182897`
 - SHA-256: `6d6bd608844b07728aaefb0d16e6c36bfcf7ba4ac3ec70af2610ea2bd7622a1b`
 - Size: `490855` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **3072**
+- Exact ID set P0001..P2560 present: **False**
+- Containers seen: **170**
+- Segments seen: **10**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Corpus Dashboard` | None | None | 0 |  | 0/21 |
-| `01 Functional Segments` | None | None | 0 |  | 0/21 |
-| `02 Existing Containers` | None | None | 0 |  | 0/21 |
-| `03 Existing Parameters` | None | None | 0 |  | 0/21 |
-| `04 Engine Master` | None | None | 0 |  | 0/21 |
-| `05 Engine-Segment Map` | None | None | 0 |  | 0/21 |
-| `06 New Corpus Containers` | None | None | 0 |  | 0/21 |
-| `07 New Sub-Parameters` | None | None | 0 |  | 0/21 |
-| `08 Cognitive Source Base` | None | None | 0 |  | 0/21 |
-| `09 Engine-Container Map` | None | None | 0 |  | 0/21 |
-| `10 Parameter-Source Map` | None | None | 0 |  | 0/21 |
-| `11 Activation Rules` | None | None | 0 |  | 0/21 |
-| `12 Corpus Tests` | None | None | 0 |  | 0/21 |
-| `13 Governance Ledger` | None | None | 0 |  | 0/21 |
-| `14 Change Log` | None | None | 0 |  | 0/21 |
-| `15 Segment Corpus Summary` | None | None | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
+| `03 Existing Parameters` | 2593 | 2592 | 2592 | `SB-ASI-P0001` → `SB-ASI-P2592` | False | 90 | 10 | `13:2592` | 2592 | 2592 | 2560 |
+| `07 New Sub-Parameters` | 481 | 480 | 480 | `SB-ASI-P2593` → `SB-ASI-P3072` | False | 80 | 10 | `21:480` | 480 | 480 | 0 |
+| `10 Parameter-Source Map` | 1441 | 1440 | 480 | `SB-ASI-P2593` → `SB-ASI-P3072` | False | 80 | 10 | `11:1440` | 1440 | 1440 | 0 |
 
-### Candidate headers / first rows
+### Matching parameter row samples
+
+**03 Existing Parameters**
+- row 2: `1 | SB-ASI-P0001 | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Core temperature setpoint | “Core temperature setpoint” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to carry out the distinct operational function represented by core temperature setpoint. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | APPROVED BY USER | USER EVIDENT | Canonical Brain Base`
+- row 3: `2 | SB-ASI-P0002 | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Thermal correction | “Thermal correction” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct thermal correction. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | APPROVED BY USER | USER EVIDENT | Canonical Brain Base`
+- row 4: `3 | SB-ASI-P0003 | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Fluid/osmotic balance | “Fluid/osmotic balance” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to prepare, execute, monitor, or correct bodily action through fluid/osmotic balance. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | APPROVED BY USER | USER EVIDENT | Canonical Brain Base`
+- row 5: `4 | SB-ASI-P0004 | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Blood volume regulation | “Blood volume regulation” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct blood volume regulation. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | APPROVED BY USER | USER EVIDENT | Canonical Brain Base`
+- row 6: `5 | SB-ASI-P0005 | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Oxygen demand sensing | “Oxygen demand sensing” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to detect, distinguish, monitor, or represent oxygen demand sensing. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | APPROVED BY USER | USER EVIDENT | Canonical Brain Base`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
+
+**07 New Sub-Parameters**
+- row 2: `2593 | SB-ASI-P2593 | Sourceborn | SEG-01 | Biological Regulation and Internal State | CON-161 | Bioregulation — State and Signal Intake | E01 | 1 | Activation Trigger | In “Bioregulation — State and Signal Intake”, activation trigger defines the minimum evidence, state, goal, or event conditions required to activate this element. It must preserve Point Zero, source lineage, engine identity, uncertainty, and the distinction between user-authorized evidence and externally verified evidence. | ENG-ARD-003; ENG-ARD-004; ENG-CORE-001 | State; evidence; memory; engine output; user command | Updated state; decision object; action instruction; memory candidate; verification result | Contradiction / proof debt / unsafe action / unresolved authority / termination condition | Write only validated outcome; retain rejected alternatives and source lineage | Medium | APPROVED BY USER | USER EVIDENT | ACTIVE FOR TESTING | SEPARATE LEDGER`
+- row 3: `2594 | SB-ASI-P2594 | Sourceborn | SEG-01 | Biological Regulation and Internal State | CON-161 | Bioregulation — State and Signal Intake | E01 | 2 | Input Normalisation | In “Bioregulation — State and Signal Intake”, input normalisation converts heterogeneous source and engine signals into a comparable operational representation without erasing provenance. It must preserve Point Zero, source lineage, engine identity, uncertainty, and the distinction between user-authorized evidence and externally verified evidence. | ENG-ARD-003; ENG-ARD-004; ENG-CORE-001 | State; evidence; memory; engine output; user command | Updated state; decision object; action instruction; memory candidate; verification result | Contradiction / proof debt / unsafe action / unresolved authority / termination condition | Write only validated outcome; retain rejected alternatives and source lineage | Medium | APPROVED BY USER | USER EVIDENT | ACTIVE FOR TESTING | SEPARATE LEDGER`
+- row 4: `2595 | SB-ASI-P2595 | Sourceborn | SEG-01 | Biological Regulation and Internal State | CON-161 | Bioregulation — State and Signal Intake | E01 | 3 | Cross-Engine Synthesis | In “Bioregulation — State and Signal Intake”, cross-engine synthesis combines relevant engine outputs, segment state, and source evidence while preserving contradictions and uncertainty. It must preserve Point Zero, source lineage, engine identity, uncertainty, and the distinction between user-authorized evidence and externally verified evidence. | ENG-ARD-003; ENG-ARD-004; ENG-CORE-001 | State; evidence; memory; engine output; user command | Updated state; decision object; action instruction; memory candidate; verification result | Contradiction / proof debt / unsafe action / unresolved authority / termination condition | Write only validated outcome; retain rejected alternatives and source lineage | Medium | APPROVED BY USER | USER EVIDENT | ACTIVE FOR TESTING | SEPARATE LEDGER`
+- row 5: `2596 | SB-ASI-P2596 | Sourceborn | SEG-01 | Biological Regulation and Internal State | CON-161 | Bioregulation — State and Signal Intake | E01 | 4 | State and Confidence Update | In “Bioregulation — State and Signal Intake”, state and confidence update updates the active state vector, confidence, proof debt, and priority after processing new information. It must preserve Point Zero, source lineage, engine identity, uncertainty, and the distinction between user-authorized evidence and externally verified evidence. | ENG-ARD-003; ENG-ARD-004; ENG-CORE-001 | State; evidence; memory; engine output; user command | Updated state; decision object; action instruction; memory candidate; verification result | Contradiction / proof debt / unsafe action / unresolved authority / termination condition | Write only validated outcome; retain rejected alternatives and source lineage | Medium | APPROVED BY USER | USER EVIDENT | ACTIVE FOR TESTING | SEPARATE LEDGER`
+- row 6: `2597 | SB-ASI-P2597 | Sourceborn | SEG-01 | Biological Regulation and Internal State | CON-161 | Bioregulation — State and Signal Intake | E01 | 5 | Failure and Contradiction Response | In “Bioregulation — State and Signal Intake”, failure and contradiction response detects conflict, drift, overload, unsupported inference, or unsafe continuation and selects repair, checkpoint, or stop. It must preserve Point Zero, source lineage, engine identity, uncertainty, and the distinction between user-authorized evidence and externally verified evidence. | ENG-ARD-003; ENG-ARD-004; ENG-CORE-001 | State; evidence; memory; engine output; user command | Updated state; decision object; action instruction; memory candidate; verification result | Contradiction / proof debt / unsafe action / unresolved authority / termination condition | Write only validated outcome; retain rejected alternatives and source lineage | Medium | APPROVED BY USER | USER EVIDENT | ACTIVE FOR TESTING | SEPARATE LEDGER`
+- first missing IDs: SB-ASI-P0001, SB-ASI-P0002, SB-ASI-P0003, SB-ASI-P0004, SB-ASI-P0005, SB-ASI-P0006, SB-ASI-P0007, SB-ASI-P0008, SB-ASI-P0009, SB-ASI-P0010, SB-ASI-P0011, SB-ASI-P0012, SB-ASI-P0013, SB-ASI-P0014, SB-ASI-P0015, SB-ASI-P0016, SB-ASI-P0017, SB-ASI-P0018, SB-ASI-P0019, SB-ASI-P0020, SB-ASI-P0021, SB-ASI-P0022, SB-ASI-P0023, SB-ASI-P0024, SB-ASI-P0025
+
+**10 Parameter-Source Map**
+- row 2: `PES-2593-1 | SB-ASI-P2593 | CON-161 | SEG-01 | ENG-ARD-003 | ARD-Interocept | COG-ENG-ARD-003 | Primary execution | Unresolved contradiction or missing external evidence remains labeled | APPROVED BY USER | USER EVIDENT`
+- row 3: `PES-2593-2 | SB-ASI-P2593 | CON-161 | SEG-01 | ENG-ARD-004 | ARD-Interocept+ | COG-ENG-ARD-004 | Cross-check / support | Unresolved contradiction or missing external evidence remains labeled | APPROVED BY USER | USER EVIDENT`
+- row 4: `PES-2593-3 | SB-ASI-P2593 | CON-161 | SEG-01 | ENG-CORE-001 | Point Zero Source Lock | SRC-001; SRC-006; SRC-007 | Cross-check / support | Unresolved contradiction or missing external evidence remains labeled | APPROVED BY USER | USER EVIDENT`
+- row 5: `PES-2594-1 | SB-ASI-P2594 | CON-161 | SEG-01 | ENG-ARD-003 | ARD-Interocept | COG-ENG-ARD-003 | Primary execution | Unresolved contradiction or missing external evidence remains labeled | APPROVED BY USER | USER EVIDENT`
+- row 6: `PES-2594-2 | SB-ASI-P2594 | CON-161 | SEG-01 | ENG-ARD-004 | ARD-Interocept+ | COG-ENG-ARD-004 | Cross-check / support | Unresolved contradiction or missing external evidence remains labeled | APPROVED BY USER | USER EVIDENT`
+- first missing IDs: SB-ASI-P0001, SB-ASI-P0002, SB-ASI-P0003, SB-ASI-P0004, SB-ASI-P0005, SB-ASI-P0006, SB-ASI-P0007, SB-ASI-P0008, SB-ASI-P0009, SB-ASI-P0010, SB-ASI-P0011, SB-ASI-P0012, SB-ASI-P0013, SB-ASI-P0014, SB-ASI-P0015, SB-ASI-P0016, SB-ASI-P0017, SB-ASI-P0018, SB-ASI-P0019, SB-ASI-P0020, SB-ASI-P0021, SB-ASI-P0022, SB-ASI-P0023, SB-ASI-P0024, SB-ASI-P0025
 
 ## `Brain.+.Engine.Combined.Corpus.xlsx`
 
 - Asset: `512183053`
 - SHA-256: `f136e340b7d6c5c4f4a808fa8a217ebba3db3faec19d1eed815f5b9de7de26fe`
 - Size: `40720` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **0**
+- Exact ID set P0001..P2560 present: **False**
+- Containers seen: **0**
+- Segments seen: **0**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Dashboard` | None | None | 0 |  | 0/21 |
-| `01 Functional Segments` | None | None | 0 |  | 0/21 |
-| `04 Engine Master` | None | None | 0 |  | 0/21 |
-| `06 New Corpus Containers` | None | None | 0 |  | 0/21 |
-| `07 New Sub-Parameters` | None | None | 0 |  | 0/21 |
-| `08 Cognitive Source Base` | None | None | 0 |  | 0/21 |
-| `15 Segment Summary` | None | None | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
 
-### Candidate headers / first rows
+### Matching parameter row samples
 
 ## `ASI-Brain.xlsx`
 
 - Asset: `512183754`
 - SHA-256: `bc7137fa6b1f83c3f03855a526a9fb0ee87484b5e57852813b79f0b03d25209e`
 - Size: `485670` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **2560**
+- Exact ID set P0001..P2560 present: **True**
+- Containers seen: **80**
+- Segments seen: **10**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Dashboard` | None | None | 0 | 1 | 1/21 |
-| `01 User Control` | None | None | 0 |  | 0/21 |
-| `02 Hierarchy` | None | None | 0 |  | 0/21 |
-| `03 Segments 10` | None | None | 0 |  | 0/21 |
-| `04 Containers 80` | None | None | 0 |  | 0/21 |
-| `05 Brain Parameters 2560` | None | None | 0 |  | 0/21 |
-| `06 Held Reserve 650` | None | None | 0 |  | 0/21 |
-| `07 Filters 40` | None | None | 0 |  | 0/21 |
-| `08 States 12` | None | None | 0 |  | 0/21 |
-| `09 Evidence 6 plus Unknown` | None | None | 0 |  | 0/21 |
-| `10 Failures 20` | None | None | 0 |  | 0/21 |
-| `11 Operating Chain 30` | None | None | 0 |  | 0/21 |
-| `12 Source Lineage` | None | None | 0 | 1 | 1/21 |
-| `13 Change Log` | None | None | 0 | 1 | 1/21 |
-| `14 Review Instructions` | None | None | 0 |  | 0/21 |
-| `15 Atomic Source` | None | None | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
+| `05 Brain Parameters 2560` | 2561 | 2560 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | True | 80 | 10 | `23:2560` | 0 | 0 | 0 |
 
-### Candidate headers / first rows
+### Matching parameter row samples
 
-**00 Dashboard**
-- row 1: `Hierarchy level | Required total | Workbook result | Status | Control item | Current position | Source | User review | Task gate`
-- row 2: `Functional system | 1.0 | 1.0 | TASK 2 REVIEW | Project/workspace | SB-ASI | Current user instruction | Current | Active`
-- row 3: `Functional segments | 10.0 | 10.0 | TASK 2 REVIEW | Master file name | ASI-Brain | Current user instruction | Current | Created`
-- row 4: `Containers per segment | 8.0 | 8.0 | TASK 2 REVIEW | Functional system | Sourceborn | Current user instruction | Pending word review | Task 2`
-- row 5: `Master containers | 80.0 | 80.0 | TASK 2 REVIEW | Hierarchy | 1 → 10 → 8 → 80 → 2,560 | Earlier verified baseline | Pending word review | Task 2`
-- row 6: `Operational parameters | 2560.0 | 2560.0 | TASK 2 REVIEW | Task 3 | Human–AI four-model comparison | Forensic benchmark master | BLOCKED | Start only after user confirmation`
-- row 7: `Task 4 | Worldwide ASI research parameters | Worldwide research registry | BLOCKED | Discuss every sentence first`
-- row 8: `Reference layer | Current position | Loaded now | Treatment | Task 5 | SOAR, ACT-R, Co-Scientist and further systems | Later external research | BLOCKED | Start after Tasks 3–4`
-
-**12 Source Lineage**
-- row 1: `Priority | Source | Role in this workbook | Exact treatment | Status`
-- row 2: `1.0 | Current user instruction | Sets project name, hierarchy, open-ended status and Task 3 gate. | Highest current authority; archive wording cannot replace it. | CURRENT`
-- row 3: `2.0 | GPT_first_V_for_ASI_Paras.docx | Supplies 1–10–8–80–2,560 counts and container allocations. | Counts and container metadata carried into Task 2. | READ`
-- row 4: `3.0 | ASI_GPT_Parameters.docx | Supplies corrected 2,560 architecture, 40 filters, 12 states, evidence levels and 20 failures. | Used as the baseline structure. | READ`
-- row 5: `4.0 | ASI_Claude_Parameters.docx | Supplies 3,204 enumerated atomic names across the same 80 containers. | First 2,554 source names carried forward; 650 surplus names retained in Held Reserve. | READ`
-- row 6: `5.0 | Six visible Core Reasoning candidates | Completes the historical target of 48 because the enumerated source contains 42. | Clearly marked; user may replace or omit. | REQUIRES USER DECISION`
-- row 7: `6.0 | SOURCEBORN_CLEAN archive | Canonical archive containing the source files. | Read and content-hash reconciled; source history retained. | READ`
-- row 8: `7.0 | SB-ASI Drive folder | Destination for ASI-Brain. | Task 3 and Task 4 source files are present but not merged. | ACTIVE`
-
-**13 Change Log**
-- row 1: `Change ID | Version | Date | Task | Affected level | Exact change | Reason | Source | Approval status | Rollback position`
-- row 2: `CHG-0001 | v0.1 | 2026-07-19 00:00:00 | Task 1 | Workbook | Created one master spreadsheet named ASI-Brain. | User requested one Drive master file. | Current user instruction | IMPLEMENTED | Original source files unchanged`
-- row 3: `CHG-0002 | v0.1 | 2026-07-19 00:00:00 | Task 2 | Hierarchy | Loaded 1 → 10 → 8 → 80 → 2,560 as review baseline. | Historical verified baseline requested for review. | GPT first V plus ASI GPT Parameters | PENDING USER CONFIRMATION | Original source files unchanged`
-- row 4: `CHG-0003 | v0.1 | 2026-07-19 00:00:00 | Task 2 | Atomic parameters | Selected 2,554 exact names from the 3,204 source list and retained 650 in a held reserve. | Match earlier per-container counts without losing surplus names. | ASI Claude Parameters | PENDING USER CONFIRMATION | Reserve sheet retains every held item`
-- row 5: `CHG-0004 | v0.1 | 2026-07-19 00:00:00 | Task 2 | Core Reasoning | Added six visible candidates to complete the historical container count of 48. | The enumerated source contains 42 names while the earlier target is 48. | Visible reconstruction disclosure | REQUIRES USER DECISION | Six candidates may be replaced without changing source names`
+**05 Brain Parameters 2560**
+- row 2: `1 | SB-ASI-P0001 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 1 | Core temperature setpoint | “Core temperature setpoint” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 1 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 3: `2.0 | SB-ASI-P0002 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 2.0 | Thermal correction | “Thermal correction” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 2.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 4: `3.0 | SB-ASI-P0003 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 3.0 | Fluid/osmotic balance | “Fluid/osmotic balance” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 3.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 5: `4.0 | SB-ASI-P0004 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 4.0 | Blood volume regulation | “Blood volume regulation” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 4.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 6: `5.0 | SB-ASI-P0005 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 5.0 | Oxygen demand sensing | “Oxygen demand sensing” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 5.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
 ## `ASI-Brain_Task2_Approved_v0_1.xlsx`
 
 - Asset: `512183787`
 - SHA-256: `15df2734d1291670f9060fc3bfcb59929ac6eceaabb094174d69661b54b938f4`
 - Size: `485670` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **2560**
+- Exact ID set P0001..P2560 present: **True**
+- Containers seen: **80**
+- Segments seen: **10**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Dashboard` | None | None | 0 | 1 | 1/21 |
-| `01 User Control` | None | None | 0 |  | 0/21 |
-| `02 Hierarchy` | None | None | 0 |  | 0/21 |
-| `03 Segments 10` | None | None | 0 |  | 0/21 |
-| `04 Containers 80` | None | None | 0 |  | 0/21 |
-| `05 Brain Parameters 2560` | None | None | 0 |  | 0/21 |
-| `06 Held Reserve 650` | None | None | 0 |  | 0/21 |
-| `07 Filters 40` | None | None | 0 |  | 0/21 |
-| `08 States 12` | None | None | 0 |  | 0/21 |
-| `09 Evidence 6 plus Unknown` | None | None | 0 |  | 0/21 |
-| `10 Failures 20` | None | None | 0 |  | 0/21 |
-| `11 Operating Chain 30` | None | None | 0 |  | 0/21 |
-| `12 Source Lineage` | None | None | 0 | 1 | 1/21 |
-| `13 Change Log` | None | None | 0 | 1 | 1/21 |
-| `14 Review Instructions` | None | None | 0 |  | 0/21 |
-| `15 Atomic Source` | None | None | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
+| `05 Brain Parameters 2560` | 2561 | 2560 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | True | 80 | 10 | `23:2560` | 0 | 0 | 0 |
 
-### Candidate headers / first rows
+### Matching parameter row samples
 
-**00 Dashboard**
-- row 1: `Hierarchy level | Required total | Workbook result | Status | Control item | Current position | Source | User review | Task gate`
-- row 2: `Functional system | 1.0 | 1.0 | TASK 2 REVIEW | Project/workspace | SB-ASI | Current user instruction | Current | Active`
-- row 3: `Functional segments | 10.0 | 10.0 | TASK 2 REVIEW | Master file name | ASI-Brain | Current user instruction | Current | Created`
-- row 4: `Containers per segment | 8.0 | 8.0 | TASK 2 REVIEW | Functional system | Sourceborn | Current user instruction | Pending word review | Task 2`
-- row 5: `Master containers | 80.0 | 80.0 | TASK 2 REVIEW | Hierarchy | 1 → 10 → 8 → 80 → 2,560 | Earlier verified baseline | Pending word review | Task 2`
-- row 6: `Operational parameters | 2560.0 | 2560.0 | TASK 2 REVIEW | Task 3 | Human–AI four-model comparison | Forensic benchmark master | BLOCKED | Start only after user confirmation`
-- row 7: `Task 4 | Worldwide ASI research parameters | Worldwide research registry | BLOCKED | Discuss every sentence first`
-- row 8: `Reference layer | Current position | Loaded now | Treatment | Task 5 | SOAR, ACT-R, Co-Scientist and further systems | Later external research | BLOCKED | Start after Tasks 3–4`
-
-**12 Source Lineage**
-- row 1: `Priority | Source | Role in this workbook | Exact treatment | Status`
-- row 2: `1.0 | Current user instruction | Sets project name, hierarchy, open-ended status and Task 3 gate. | Highest current authority; archive wording cannot replace it. | CURRENT`
-- row 3: `2.0 | GPT_first_V_for_ASI_Paras.docx | Supplies 1–10–8–80–2,560 counts and container allocations. | Counts and container metadata carried into Task 2. | READ`
-- row 4: `3.0 | ASI_GPT_Parameters.docx | Supplies corrected 2,560 architecture, 40 filters, 12 states, evidence levels and 20 failures. | Used as the baseline structure. | READ`
-- row 5: `4.0 | ASI_Claude_Parameters.docx | Supplies 3,204 enumerated atomic names across the same 80 containers. | First 2,554 source names carried forward; 650 surplus names retained in Held Reserve. | READ`
-- row 6: `5.0 | Six visible Core Reasoning candidates | Completes the historical target of 48 because the enumerated source contains 42. | Clearly marked; user may replace or omit. | REQUIRES USER DECISION`
-- row 7: `6.0 | SOURCEBORN_CLEAN archive | Canonical archive containing the source files. | Read and content-hash reconciled; source history retained. | READ`
-- row 8: `7.0 | SB-ASI Drive folder | Destination for ASI-Brain. | Task 3 and Task 4 source files are present but not merged. | ACTIVE`
-
-**13 Change Log**
-- row 1: `Change ID | Version | Date | Task | Affected level | Exact change | Reason | Source | Approval status | Rollback position`
-- row 2: `CHG-0001 | v0.1 | 2026-07-19 00:00:00 | Task 1 | Workbook | Created one master spreadsheet named ASI-Brain. | User requested one Drive master file. | Current user instruction | IMPLEMENTED | Original source files unchanged`
-- row 3: `CHG-0002 | v0.1 | 2026-07-19 00:00:00 | Task 2 | Hierarchy | Loaded 1 → 10 → 8 → 80 → 2,560 as review baseline. | Historical verified baseline requested for review. | GPT first V plus ASI GPT Parameters | PENDING USER CONFIRMATION | Original source files unchanged`
-- row 4: `CHG-0003 | v0.1 | 2026-07-19 00:00:00 | Task 2 | Atomic parameters | Selected 2,554 exact names from the 3,204 source list and retained 650 in a held reserve. | Match earlier per-container counts without losing surplus names. | ASI Claude Parameters | PENDING USER CONFIRMATION | Reserve sheet retains every held item`
-- row 5: `CHG-0004 | v0.1 | 2026-07-19 00:00:00 | Task 2 | Core Reasoning | Added six visible candidates to complete the historical container count of 48. | The enumerated source contains 42 names while the earlier target is 48. | Visible reconstruction disclosure | REQUIRES USER DECISION | Six candidates may be replaced without changing source names`
+**05 Brain Parameters 2560**
+- row 2: `1 | SB-ASI-P0001 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 1 | Core temperature setpoint | “Core temperature setpoint” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 1 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 3: `2.0 | SB-ASI-P0002 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 2.0 | Thermal correction | “Thermal correction” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 2.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 4: `3.0 | SB-ASI-P0003 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 3.0 | Fluid/osmotic balance | “Fluid/osmotic balance” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 3.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 5: `4.0 | SB-ASI-P0004 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 4.0 | Blood volume regulation | “Blood volume regulation” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 4.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- row 6: `5.0 | SB-ASI-P0005 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1.0 | CON-001 | Homeostasis and Allostasis | 5.0 | Oxygen demand sensing | “Oxygen demand sensing” is a distinct operational function inside “Homeostasis and Allostasis”. It is reviewed as part of the segment “Biological Regulation and Internal State”. Container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Scope: Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation Main filters/modulators: Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 5.0 | Carried forward in source order to match the earlier verified container target. | TASK 2 PROPOSED BASELINE — NOT FINAL | PENDING USER REVIEW | PENDING |  | YES`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
 ## `ASI-Brain_Core_Engine_Combined_v0_4.xlsx`
 
 - Asset: `512183044`
 - SHA-256: `307da56307d633d42fefffe3e9e233615c6adb6abea43bfbd273124a20d83164`
 - Size: `618803` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **3072**
+- Exact ID set P0001..P2560 present: **False**
+- Containers seen: **130**
+- Segments seen: **10**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Dashboard` | None | None | 0 |  | 0/21 |
-| `01 Architecture` | None | None | 0 |  | 0/21 |
-| `02 Segments 10` | None | None | 0 |  | 0/21 |
-| `03 Containers 200` | None | None | 0 |  | 0/21 |
-| `04 Parameters 3072` | None | None | 0 |  | 0/21 |
-| `05 External Base 1200` | None | None | 0 |  | 0/21 |
-| `06 Engines 30` | None | None | 0 |  | 0/21 |
-| `07 Formal Cores 12` | None | None | 0 |  | 0/21 |
-| `08 SB Nodes 70` | None | None | 0 |  | 0/21 |
-| `09 URR Nodes 25` | None | None | 0 |  | 0/21 |
-| `10 Modules 100` | None | None | 0 |  | 0/21 |
-| `11 Core Engine Crosswalk` | None | None | 0 |  | 0/21 |
-| `12 Source Lineage` | None | None | 0 | 2 | 1/21 |
-| `13 Integration Ledger` | None | None | 0 |  | 0/21 |
-| `14 Data Dictionary` | None | None | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
+| `04 Parameters 3072` | 3074 | 3072 | 3072 | `SB-ASI-P0001` → `SB-ASI-P3072` | False | 130 | 10 | `29:3072` | 0 | 0 | 0 |
 
-### Candidate headers / first rows
+### Matching parameter row samples
 
-**12 Source Lineage**
-- row 1: `Source Lineage and Reconstruction Disclosure`
-- row 2: `Priority | Source | Role in combined master | Exact treatment | Record contribution | Status | Proof debt / limitation`
-- row 3: `1 | Current user instruction | Authorizes clubbing engine and brain and generating new corpus under every main element. | Highest authority for v0.4 working layer. | 40 containers; 480 parameters; 282 concepts | APPROVED / EVIDENT FOR TESTING | Final wording remains reviewable.`
-- row 4: `2 | ASI-Brain_Approved_Evident_Test_v0_3.xlsx | Confirmed brain baseline. | Raw XML read because the supplied XLSX could not be imported by the spreadsheet engine; baseline rows preserved exactly where available. | 10 segments; 160 containers; 2,592 parameters | PRESERVED | Workbook-level styles and non-main sheets are not copied into this rebuilt master.`
-- row 5: `3 | ASI_Engines_Catalog_ARD_SB_Sourceborn_v1 (1).xlsx | Engine schema and engine content sample. | Thirty engines adopted and mapped to new containers. | 30 engines | APPROVED / EVIDENT FOR TESTING | Engine performance remains test evidence, not automatic truth.`
-- row 6: `4 | ASI_Core_Corpus_Integration_v0_1 | Reconstructed core, node and module corpus. | 12 cores, 70 SB nodes, 25 URR nodes and 100 modules retained with source decisions. | 207 explicit records | APPROVED / EVIDENT FOR TESTING | Original missing core markdown files remain a documented source gap.`
-- row 7: `5 | ASI-Brain_Task3_AI_Readable_11338_Records_v0_2.md | AI capability and evidence context. | Capability IDs referenced where relevant; conflicting evidence remains separate. | Task-3 linkage context | APPROVED / EVIDENT FOR TESTING | Not all 11,338 evidence rows are duplicated in this main-element master.`
-- row 8: `6 | Confirmed external cognitive source base = 918 | Inherited architecture count. | Count preserved without fabricating individual concept labels. | 918 inherited concepts | PRESERVED | Original 918-row enumerated source register was not supplied.`
+**04 Parameters 3072**
+- row 3: `1 | SB-ASI-P0001 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 1 | Core temperature setpoint | “Core temperature setpoint” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to carry out the distinct operational function represented by core temperature setpoint. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication |  |  |  |  |  | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 1 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES |  | CONFIRMED BASELINE`
+- row 4: `2 | SB-ASI-P0002 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 2 | Thermal correction | “Thermal correction” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct thermal correction. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication |  |  |  |  |  | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 2 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES |  | CONFIRMED BASELINE`
+- row 5: `3 | SB-ASI-P0003 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 3 | Fluid/osmotic balance | “Fluid/osmotic balance” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to prepare, execute, monitor, or correct bodily action through fluid/osmotic balance. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication |  |  |  |  |  | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 3 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES |  | CONFIRMED BASELINE`
+- row 6: `4 | SB-ASI-P0004 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 4 | Blood volume regulation | “Blood volume regulation” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct blood volume regulation. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication |  |  |  |  |  | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 4 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES |  | CONFIRMED BASELINE`
+- row 7: `5 | SB-ASI-P0005 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 5 | Oxygen demand sensing | “Oxygen demand sensing” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to detect, distinguish, monitor, or represent oxygen demand sensing. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication |  |  |  |  |  | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 5 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES |  | CONFIRMED BASELINE`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
 ## `ASI-Brain_Merged_APPROVED_EVIDENT_v0_3.xlsx`
 
 - Asset: `512182911`
 - SHA-256: `69bcf2e7507ffc52ecfc58be6890948099038485f16bf7f5b4e302ed401948a8`
 - Size: `2326195` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **2592**
+- Exact ID set P0001..P2560 present: **False**
+- Containers seen: **90**
+- Segments seen: **10**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Dashboard` | 24 | 10 | 0 | 3 | 1/21 |
-| `01 User Control` | 16 | 6 | 0 |  | 0/21 |
-| `02 Hierarchy` | 15 | 8 | 0 |  | 0/21 |
-| `03 Segments 10` | 11 | 10 | 0 |  | 0/21 |
-| `04 Containers 80` | 81 | 14 | 0 |  | 0/21 |
-| `05 Brain Parameters 2560` | 2561 | 23 | 0 |  | 0/21 |
-| `06 Held Reserve 650` | 651 | 13 | 0 |  | 0/21 |
-| `07 Filters 40` | 41 | 7 | 0 |  | 0/21 |
-| `08 States 12` | 13 | 7 | 0 |  | 0/21 |
-| `09 Evidence 6 plus Unknown` | 8 | 6 | 0 |  | 0/21 |
-| `10 Failures 20` | 21 | 7 | 0 |  | 0/21 |
-| `11 Operating Chain 30` | 31 | 6 | 0 |  | 0/21 |
-| `12 Source Lineage` | 13 | 6 | 0 | 3 | 1/21 |
-| `13 Change Log` | 7 | 10 | 0 | 1 | 1/21 |
-| `14 Review Instructions` | 20 | 6 | 0 |  | 0/21 |
-| `15 Atomic Source` | 10 | 8 | 0 | 1 | 1/21 |
-| `16 Task3 Dashboard` | 21 | 12 | 0 |  | 0/21 |
-| `17 AI Models 4` | 5 | 19 | 0 |  | 0/21 |
-| `18 AI Capabilities 74` | 75 | 42 | 0 |  | 0/21 |
-| `19 Benchmark Index 435` | 436 | 8 | 0 |  | 0/21 |
-| `20 AI Evidence 700` | 701 | 17 | 0 | 1 | 1/21 |
-| `21 Human-AI Matrix 2560` | 2561 | 26 | 0 |  | 0/21 |
-| `23 AI-Only Candidates 64` | 65 | 21 | 0 |  | 0/21 |
-| `24 Coverage by Segment` | 41 | 9 | 0 |  | 0/21 |
-| `25 Evidence Conflicts` | 55 | 6 | 0 |  | 0/21 |
-| `26 Negative Space` | 65 | 6 | 0 |  | 0/21 |
-| `27 Task3 Review Queue` | 139 | 10 | 0 |  | 0/21 |
-| `28 Task3 Change Log` | 8 | 10 | 0 | 1 | 1/21 |
-| `22 Human-AI Edges 10240` | 10241 | 28 | 0 |  | 0/21 |
-| `29 Approval Merge Ledger` | 19 | 10 | 0 |  | 0/21 |
-| `30 Containers 081-160` | 81 | 14 | 0 |  | 0/21 |
-| `31 Parameters 2561-2592` | 33 | 12 | 0 |  | 0/21 |
-| `32 Container-AI-CAP Map` | 32 | 13 | 0 |  | 0/21 |
-| `33 Expansion Weights` | 4 | 8 | 0 |  | 0/21 |
-| `34 Expansion Change Log` | 7 | 6 | 0 |  | 0/21 |
-| `35 AI-Readable Source` | 626 | 8 | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
+| `05 Brain Parameters 2560` | 2561 | 2560 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | True | 80 | 10 | `22:2560` | 0 | 0 | 0 |
+| `21 Human-AI Matrix 2560` | 2561 | 2560 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | True | 80 | 10 | `26:2560` | 0 | 0 | 0 |
+| `22 Human-AI Edges 10240` | 10241 | 10240 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | False | 80 | 10 | `27:10240` | 0 | 0 | 0 |
+| `31 Parameters 2561-2592` | 33 | 32 | 32 | `SB-ASI-P2561` → `SB-ASI-P2592` | False | 10 | 0 | `12:32` | 0 | 0 | 0 |
 
-### Candidate headers / first rows
+### Matching parameter row samples
 
-**00 Dashboard**
-- row 1: `ASI-Brain — Task 1 and Task 2 Review Master`
-- row 3: `Hierarchy level | Required total | Workbook result | Status | Control item | Current position | Source | User review | Task gate`
-- row 4: `Functional system | 1 | 1 | APPROVED | Project/workspace | SB-ASI | Current user instruction | Current | Active`
-- row 5: `Functional segments | 10 | 10 | APPROVED | Master file name | ASI-Brain | Current user instruction | Current | Active`
-- row 6: `Containers per segment | 8 | 8 | APPROVED | Functional system | Sourceborn | Current user instruction | Pending word review | Active`
-- row 7: `Master containers | 80 | 80 | APPROVED | Hierarchy | 1 → 10 → 8 → 80 → 2,560 | Earlier verified baseline | Pending word review | Active`
-- row 8: `Operational parameters | 2560 | 2560 | APPROVED | Task 3 | Human–AI four-model comparison | Forensic benchmark master | Current | Active`
+**05 Brain Parameters 2560**
+- row 2: `1 | SB-ASI-P0001 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 1 | Core temperature setpoint | “Core temperature setpoint” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to carry out the distinct operational function represented by core temperature setpoint. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 1 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 3: `2 | SB-ASI-P0002 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 2 | Thermal correction | “Thermal correction” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct thermal correction. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 2 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 4: `3 | SB-ASI-P0003 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 3 | Fluid/osmotic balance | “Fluid/osmotic balance” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to prepare, execute, monitor, or correct bodily action through fluid/osmotic balance. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 3 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 5: `4 | SB-ASI-P0004 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 4 | Blood volume regulation | “Blood volume regulation” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct blood volume regulation. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 4 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 6: `5 | SB-ASI-P0005 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 5 | Oxygen demand sensing | “Oxygen demand sensing” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to detect, distinguish, monitor, or represent oxygen demand sensing. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 5 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
-**12 Source Lineage**
-- row 1: `Task 2 Source Lineage and Reconstruction Disclosure`
-- row 3: `Priority | Source | Role in this workbook | Exact treatment | URL | Status`
-- row 4: `1 | Current user instruction | Sets current project name, hierarchy, open-ended status and Task 3 gate. | Highest current authority; not replaced by archive wording. | APPROVED`
-- row 5: `2 | GPT_first_V_for_ASI_Paras.docx | Supplies 1–10–8–80–2,560 counts and exact container allocations. | Counts and container metadata carried into Task 2. | https://docs.google.com/document/d/1rvsHcQBJ1F2uaE12YfUNw--nqTGbxgGd/edit | APPROVED`
-- row 6: `3 | ASI_GPT_Parameters.docx | Corrected and verified 2,560 architecture; 40 filters, 12 states, 6 plus Unknown evidence levels, 20 failures. | Used as the baseline structure. | https://docs.google.com/document/d/1yqFNO8qoWL6WICSPCfrCpU-NqMgHIUrO/edit | APPROVED`
-- row 7: `4 | ASI_Claude_Parameters.docx | Supplies 3,204 fully enumerated atomic names across the same 80 containers. | First 2,554 names carried forward in source order; 650 surplus names retained in Held Reserve. | https://docs.google.com/document/d/1z1MDkggXE9qKtwzkvF6YkFjHVyQ89N10/edit | APPROVED`
-- row 8: `5 | Six visible Core Reasoning candidates | Completes the earlier target of 48 because the enumerated source contains 42. | Clearly marked in red in the 2,560 sheet; no hidden insertion; user may replace or omit. | APPROVED`
+**21 Human-AI Matrix 2560**
+- row 2: `SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | APPROVED USER REVIEW | APPROVED | USER-EVIDENT OVERRIDE — approved by user/sourceborn for testing on 2026-07-20`
+- row 3: `SB-ASI-P0002 | Thermal correction | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | APPROVED USER REVIEW | APPROVED | USER-EVIDENT OVERRIDE — approved by user/sourceborn for testing on 2026-07-20`
+- row 4: `SB-ASI-P0003 | Fluid/osmotic balance | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | APPROVED USER REVIEW | APPROVED | USER-EVIDENT OVERRIDE — approved by user/sourceborn for testing on 2026-07-20`
+- row 5: `SB-ASI-P0004 | Blood volume regulation | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | APPROVED USER REVIEW | APPROVED | USER-EVIDENT OVERRIDE — approved by user/sourceborn for testing on 2026-07-20`
+- row 6: `SB-ASI-P0005 | Oxygen demand sensing | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | APPROVED USER REVIEW | APPROVED | USER-EVIDENT OVERRIDE — approved by user/sourceborn for testing on 2026-07-20`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
-**13 Change Log**
-- row 1: `Change ID | Version | Date | Task | Affected level | Exact change | Reason | Source | Approval status | Rollback position`
-- row 2: `CHG-0001 | v0.1 | 2026-07-19 | Task 1 | Workbook | Created one master spreadsheet named ASI-Brain. | User requested one Drive master file. | Current user instruction | IMPLEMENTED | Delete only with explicit user approval`
-- row 3: `CHG-0002 | v0.1 | 2026-07-19 | Task 2 | Hierarchy | Loaded 1 → 10 → 8 → 80 → 2,560 as review baseline. | Historical verified baseline requested for review. | GPT first V + ASI GPT Parameters | PENDING USER CONFIRMATION | Source files remain unchanged`
-- row 4: `CHG-0003 | v0.1 | 2026-07-19 | Task 2 | Atomic parameters | Selected 2,554 exact names from the 3,204 source list and preserved 650 in a held reserve. | Match earlier per-container counts without deleting surplus names. | ASI Claude Parameters | PENDING USER CONFIRMATION | Reserve sheet restores every held item`
-- row 5: `CHG-0004 | v0.1 | 2026-07-19 | Task 2 | Core Reasoning | Added six visible candidates to complete the historical container count of 48. | The fully enumerated source contains 42 names while the earlier target is 48. | Visible reconstruction disclosure | REQUIRES USER DECISION | Remove/replace six candidates without affecting source names`
-- row 6: `CHG-0005 | v0.2 | 2026-07-19 | Task 2 | Approved brain baseline | User approved the complete 1 → 10 → 8 → 80 → 2,560 Task 2 brain baseline. | Exact user instruction: brain approved. | Current SB-ASI chat | APPROVED | Task 2 workbook remains preserved as the prior approved checkpoint.`
-- row 7: `CHG-0006 | v0.2 | 2026-07-19 | Task 3 | Human–AI comparison | Started four-model human–AI comparison using the compiled forensic benchmark master. | Exact user instruction: hit task 3. | Forensic_Benchmark_Autopsies_Compiled_Master_4_Models.xlsx | TASK 3 REVIEW | No Task 3 candidate is activated without user approval.`
+**22 Human-AI Edges 10240**
+- row 2: `MAP-FAB-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Claude Fable 5 |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | NO DIRECT EVIDENt | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 3: `MAP-SOL-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | GPT-5.6 Sol |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 4: `MAP-GEM-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Gemini 3.1 Pro |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 5: `MAP-GROK-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Grok 4.5 |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 6: `MAP-FAB-0002 | SB-ASI-P0002 | Thermal correction | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Claude Fable 5 |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
-**15 Atomic Source**
-- row 1: `Atomic rule ID | Rule | Exact meaning | Source | Status | Task effect | User decision | Notes`
-- row 2: `AT-001 | Benchmark atomic unit | Model + benchmark version + harness + effort + attempts + tools + runner + date. | Forensic master | ACTIVE SOURCE RULE | Prevents score averaging | APPROVED`
-- row 3: `AT-002 | No row removal | Current, revised, disputed, unreproduced, and withdrawn events remain separate. | Forensic master | ACTIVE SOURCE RULE | Preserves measurement history | APPROVED`
-- row 4: `AT-003 | Benchmark is evidence | A benchmark event is evidence of a capability or failure; it is not itself the human or AI function. | Current SB-ASI rule | ACTIVE SOURCE RULE | Separates evidence from brain structure | APPROVED`
-- row 5: `AT-004 | Human–AI mapping | One human parameter may map to many AI functions and one AI function may map to many human parameters. | Current SB-ASI rule | ACTIVE SOURCE RULE | Uses many-to-many edges | APPROVED`
-- row 6: `AT-005 | Task evidence is not equivalence | Task performance does not prove identical human mechanism, consciousness, emotion, embodiment, or moral status. | Current SB-ASI rule | ACTIVE SOURCE RULE | Limits comparison claims | APPROVED`
-- row 7: `AT-006 | AI candidates remain separate | AI-only candidates stay outside the approved 2,560 until the user approves wording and location. | Current Task 3 control | ACTIVE SOURCE RULE | Blocks silent addition | APPROVED | All 64 AI-only candidates approved and evident by user for controlled testing; provenance and mechanism distinctions remain preserved.`
-- row 8: `AT-007 | Score conflicts remain separate | Conflicting scores are preserved with their measurement conditions and are never averaged. | Forensic master | ACTIVE SOURCE RULE | Protects evidence integrity | APPROVED`
-
-**20 AI Evidence 700**
-- row 1: `Model | Benchmark | Version | Score | Harness | Effort | Attempts | Tools | Source | Who ran it | Date | Tier(1-5) | URL | Status | Event ID | Capability IDs | Status Bucket`
-- row 2: `Gemini 3.1 Pro | Humanity's Last Exam | full set text+MM | 44.4% | Google self-eval; methodology PDF | Thinking High | pass@1; trials unstated | No tools | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0001 | AI-CAP-005; AI-CAP-040; AI-CAP-069 | CURRENT`
-- row 3: `Gemini 3.1 Pro | Humanity's Last Exam | full set text+MM | 51.4% | Google self-eval; search blocklist | Thinking High | pass@1; trials unstated | Search + code | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0002 | AI-CAP-005; AI-CAP-012; AI-CAP-040; AI-CAP-069 | CURRENT`
-- row 4: `Gemini 3.1 Pro | ARC-AGI-2 | Verified | 77.1% | ARC Prize verified | Thinking High | pass@1 | No external tools stated | Google + ARC Prize | ARC Prize / Google | 2026-02-19 | 1 | https://arcprize.org/leaderboard | CURRENT | AI-EVT-0003 | AI-CAP-002; AI-CAP-070 | CURRENT`
-- row 5: `Gemini 3.1 Pro | GPQA Diamond — SATURATED | Diamond | 94.3% | Google self-eval | Thinking High | pass@1; trials unstated | No tools | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0004 | AI-CAP-005; AI-CAP-069 | CURRENT`
-- row 6: `Gemini 3.1 Pro | Terminal-Bench | 2.0 | 68.5% | Terminus-2 | Thinking High | pass@1; trials unstated | Terminal tools | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0005 | AI-CAP-010 | CURRENT`
-- row 7: `Gemini 3.1 Pro | SWE-bench Verified | Verified | 80.6% | Google custom scaffold; 3 item fixes; +0.6 adjustment | Thinking High | 10 runs averaged; single attempt/task | bash + file + submit | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/evals-methodology/gemini-3-1-pro | REVISED-FROM(undisclosed raw→80.6) | AI-EVT-0006 | AI-CAP-008; AI-CAP-010 | REVISED`
-- row 8: `Gemini 3.1 Pro | SWE-bench Pro | Public | 54.2% | Google custom scaffold | Thinking High | 5 runs averaged; single attempt/task | bash + file + submit | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/evals-methodology/gemini-3-1-pro | CURRENT | AI-EVT-0007 | AI-CAP-008; AI-CAP-010 | CURRENT`
-
-**28 Task3 Change Log**
-- row 1: `Change ID | Version | Date | Task | Affected layer | Exact action | Source | Activation status | User approval required | Rollback/preservation`
-- row 2: `T3-CHG-001 | v0.2 | 2026-07-19 | Task 3 | Task 2 baseline | Marked the approved 1–10–8–80–2,560 brain as APPROVED. | Exact user instruction: brain approved | IMPLEMENTED | NO | Prior Task 2 workbook remains the rollback checkpoint.`
-- row 3: `T3-CHG-002 | v0.2 | 2026-07-19 | Task 3 | AI model registry | Added four model records with source dates, event totals, strengths, gaps, and mechanism warnings. | Forensic benchmark master | IMPLEMENTED — APPROVED & EVIDENT | NO | Source workbook remains unchanged.`
-- row 4: `T3-CHG-003 | v0.2 | 2026-07-19 | Task 3 | Capability families | Classified 435 benchmark labels and 700 events into 74 review-only AI capability families. | Forensic benchmark master | IMPLEMENTED — APPROVED & EVIDENT | NO | Every source event remains separately preserved.`
-- row 5: `T3-CHG-004 | v0.2 | 2026-07-19 | Task 3 | Human–AI matrix | Created four-model evidence positions for all 2,560 approved human parameters. | Task 2 brain + forensic benchmark master | IMPLEMENTED — APPROVED & EVIDENT | NO | Task 2 parameter wording is unchanged.`
-- row 6: `T3-CHG-005 | v0.2 | 2026-07-19 | Task 3 | Many-to-many edges | Created 10,240 human-parameter × AI-model evidence edges. | Task 2 brain + forensic benchmark master | IMPLEMENTED — APPROVED & EVIDENT | NO | Overlap scores are review aids, not equivalence claims.`
-- row 7: `T3-CHG-006 | v0.2 | 2026-07-19 | Task 3 | AI-only candidates | Proposed 64 AI operational functions and controls outside the approved 2,560. | Benchmark, routing, tool, safety, and deployment evidence | IMPLEMENTED — APPROVED & EVIDENT | NO | No candidate enters the brain without user approval.`
-- row 8: `T3-CHG-007 | v0.2 | 2026-07-19 | Task 3 | Task 4 gate | Kept worldwide ASI research separate and unmerged. | Current task sequence | IMPLEMENTED — APPROVED & EVIDENT | NO | Task 4 source remains unchanged.`
+**31 Parameters 2561-2592**
+- row 2: `SB-ASI-P2561 | CON-081 | Interoceptive Pressure Mapping | Cardiac Salience Spike | Sudden rise in heartbeat awareness that alters decision priority under high stakes. | AI-CAP-001; AI-CAP-005 | High | APPROVED | APPROVED | EVIDENT | USER / SOURCEBORN | ACTIVE FOR CONTROLLED TESTING`
+- row 3: `SB-ASI-P2562 | CON-081 | Interoceptive Pressure Mapping | Respiratory Constraint Load | Breathing restriction that reduces available cognitive bandwidth. | AI-CAP-001; AI-CAP-005 | High | APPROVED | APPROVED | EVIDENT | USER / SOURCEBORN | ACTIVE FOR CONTROLLED TESTING`
+- row 4: `SB-ASI-P2563 | CON-081 | Interoceptive Pressure Mapping | Gut-Signal Priority Override | Visceral signal that overwrites a pre-selected tactical or strategic plan. | AI-CAP-001; AI-CAP-005 | High | APPROVED | APPROVED | EVIDENT | USER / SOURCEBORN | ACTIVE FOR CONTROLLED TESTING`
+- row 5: `SB-ASI-P2564 | CON-081 | Interoceptive Pressure Mapping | Fatigue Threshold Collapse | Point at which physical resource budgeting fails and performance drops non-linearly. | AI-CAP-001; AI-CAP-005 | High | APPROVED | APPROVED | EVIDENT | USER / SOURCEBORN | ACTIVE FOR CONTROLLED TESTING`
+- row 6: `SB-ASI-P2565 | CON-082 | Allostatic Load and Recovery Dynamics | Cumulative Stress Debt | Total unresolved physiological and cognitive load carried across multiple high-demand episodes. | AI-CAP-001; AI-CAP-005 | High | APPROVED | APPROVED | EVIDENT | USER / SOURCEBORN | ACTIVE FOR CONTROLLED TESTING`
+- first missing IDs: SB-ASI-P0001, SB-ASI-P0002, SB-ASI-P0003, SB-ASI-P0004, SB-ASI-P0005, SB-ASI-P0006, SB-ASI-P0007, SB-ASI-P0008, SB-ASI-P0009, SB-ASI-P0010, SB-ASI-P0011, SB-ASI-P0012, SB-ASI-P0013, SB-ASI-P0014, SB-ASI-P0015, SB-ASI-P0016, SB-ASI-P0017, SB-ASI-P0018, SB-ASI-P0019, SB-ASI-P0020, SB-ASI-P0021, SB-ASI-P0022, SB-ASI-P0023, SB-ASI-P0024, SB-ASI-P0025
 
 ## `ASI-Brain_Task3_Review_v0_2.xlsx`
 
 - Asset: `512182926`
 - SHA-256: `e749e961cbab379a1440da83878579a8ff508e7cfc93539d165a08e73283cf7e`
 - Size: `2051917` bytes
-- Unique Human IDs across workbook: **0**
-- Human ID range: `[]`
-- Exact H001..H2560 set present: **False**
+- Unique `SB-ASI-P` IDs across workbook: **2560**
+- Exact ID set P0001..P2560 present: **True**
+- Containers seen: **80**
+- Segments seen: **10**
 
-| Sheet | Rows | Cols | H IDs | Best header row | Expected columns matched |
-|---|---:|---:|---:|---:|---:|
-| `00 Dashboard` | 24 | 10 | 0 | 3 | 1/21 |
-| `01 User Control` | 16 | 6 | 0 |  | 0/21 |
-| `02 Hierarchy` | 15 | 8 | 0 |  | 0/21 |
-| `03 Segments 10` | 11 | 10 | 0 |  | 0/21 |
-| `04 Containers 80` | 81 | 14 | 0 |  | 0/21 |
-| `05 Brain Parameters 2560` | 2561 | 23 | 0 |  | 0/21 |
-| `06 Held Reserve 650` | 651 | 13 | 0 |  | 0/21 |
-| `07 Filters 40` | 41 | 7 | 0 |  | 0/21 |
-| `08 States 12` | 13 | 7 | 0 |  | 0/21 |
-| `09 Evidence 6 plus Unknown` | 8 | 6 | 0 |  | 0/21 |
-| `10 Failures 20` | 21 | 7 | 0 |  | 0/21 |
-| `11 Operating Chain 30` | 31 | 6 | 0 |  | 0/21 |
-| `12 Source Lineage` | 13 | 6 | 0 | 3 | 1/21 |
-| `13 Change Log` | 7 | 10 | 0 | 1 | 1/21 |
-| `14 Review Instructions` | 20 | 6 | 0 |  | 0/21 |
-| `15 Atomic Source` | 10 | 8 | 0 | 1 | 1/21 |
-| `16 Task3 Dashboard` | 21 | 12 | 0 |  | 0/21 |
-| `17 AI Models 4` | 5 | 19 | 0 |  | 0/21 |
-| `18 AI Capabilities 74` | 75 | 42 | 0 |  | 0/21 |
-| `19 Benchmark Index 435` | 436 | 8 | 0 |  | 0/21 |
-| `20 AI Evidence 700` | 701 | 17 | 0 | 1 | 1/21 |
-| `21 Human-AI Matrix 2560` | 2561 | 26 | 0 |  | 0/21 |
-| `23 AI-Only Candidates 64` | 65 | 21 | 0 |  | 0/21 |
-| `24 Coverage by Segment` | 41 | 9 | 0 |  | 0/21 |
-| `25 Evidence Conflicts` | 55 | 6 | 0 |  | 0/21 |
-| `26 Negative Space` | 65 | 6 | 0 |  | 0/21 |
-| `27 Task3 Review Queue` | 139 | 10 | 0 |  | 0/21 |
-| `28 Task3 Change Log` | 8 | 10 | 0 | 1 | 1/21 |
-| `22 Human-AI Edges 10240` | 10241 | 28 | 0 |  | 0/21 |
+| Sheet | Rows scanned | Parameter rows | IDs | First → Last | Ordered full set | Containers | Segments | Column counts | Approval | Evident | Brain Base |
+|---|---:|---:|---:|---|---|---:|---:|---|---:|---:|---:|
+| `05 Brain Parameters 2560` | 2561 | 2560 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | True | 80 | 10 | `22:2560` | 0 | 0 | 0 |
+| `21 Human-AI Matrix 2560` | 2561 | 2560 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | True | 80 | 10 | `25:2560` | 0 | 0 | 0 |
+| `22 Human-AI Edges 10240` | 10241 | 10240 | 2560 | `SB-ASI-P0001` → `SB-ASI-P2560` | False | 80 | 10 | `27:10240` | 0 | 0 | 0 |
 
-### Candidate headers / first rows
+### Matching parameter row samples
 
-**00 Dashboard**
-- row 1: `ASI-Brain — Task 1 and Task 2 Review Master`
-- row 3: `Hierarchy level | Required total | Workbook result | Status | Control item | Current position | Source | User review | Task gate`
-- row 4: `Functional system | 1 | 1 | APPROVED | Project/workspace | SB-ASI | Current user instruction | Current | Active`
-- row 5: `Functional segments | 10 | 10 | APPROVED | Master file name | ASI-Brain | Current user instruction | Current | Active`
-- row 6: `Containers per segment | 8 | 8 | APPROVED | Functional system | Sourceborn | Current user instruction | Pending word review | Active`
-- row 7: `Master containers | 80 | 80 | APPROVED | Hierarchy | 1 → 10 → 8 → 80 → 2,560 | Earlier verified baseline | Pending word review | Active`
-- row 8: `Operational parameters | 2560 | 2560 | APPROVED | Task 3 | Human–AI four-model comparison | Forensic benchmark master | Current | Active`
+**05 Brain Parameters 2560**
+- row 2: `1 | SB-ASI-P0001 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 1 | Core temperature setpoint | “Core temperature setpoint” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to carry out the distinct operational function represented by core temperature setpoint. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 1 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 3: `2 | SB-ASI-P0002 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 2 | Thermal correction | “Thermal correction” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct thermal correction. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 2 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 4: `3 | SB-ASI-P0003 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 3 | Fluid/osmotic balance | “Fluid/osmotic balance” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to prepare, execute, monitor, or correct bodily action through fluid/osmotic balance. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 3 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 5: `4 | SB-ASI-P0004 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 4 | Blood volume regulation | “Blood volume regulation” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to regulate, stabilise, or correct blood volume regulation. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 4 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- row 6: `5 | SB-ASI-P0005 | Sourceborn | SEG-01 | Biological Regulation and Internal State | 1 | CON-001 | Homeostasis and Allostasis | 5 | Oxygen demand sensing | “Oxygen demand sensing” is a distinct operational function inside “Homeostasis and Allostasis”. It enables the system to detect, distinguish, monitor, or represent oxygen demand sensing. Within the segment “Biological Regulation and Internal State”, it contributes to this container purpose: Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. Its expression is reviewed under modulators including Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication. | Temperature balance, fluid balance, oxygen need, glucose regulation, metabolic stability, anticipatory regulation, internal correction, survival prioritisation | Homeostasis corrects present imbalance. Allostasis anticipates future need. This can override conscious plans. | Illness, environment, exertion, nutrition, hydration, age, chronic stress, medication | EXACT SOURCE WORDING — ASI_Claude_Parameters v1.0 | 05_PARAMETER_PYRAMID/ASI_Claude_Parameters.docx | 5 | Carried forward in source order to match the earlier verified container target of 36. | TASK 2 PROPOSED BASELINE — NOT FINAL | APPROVED | APPROVE | YES`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
-**12 Source Lineage**
-- row 1: `Task 2 Source Lineage and Reconstruction Disclosure`
-- row 3: `Priority | Source | Role in this workbook | Exact treatment | URL | Status`
-- row 4: `1 | Current user instruction | Sets current project name, hierarchy, open-ended status and Task 3 gate. | Highest current authority; not replaced by archive wording. | APPROVED`
-- row 5: `2 | GPT_first_V_for_ASI_Paras.docx | Supplies 1–10–8–80–2,560 counts and exact container allocations. | Counts and container metadata carried into Task 2. | https://docs.google.com/document/d/1rvsHcQBJ1F2uaE12YfUNw--nqTGbxgGd/edit | APPROVED`
-- row 6: `3 | ASI_GPT_Parameters.docx | Corrected and verified 2,560 architecture; 40 filters, 12 states, 6 plus Unknown evidence levels, 20 failures. | Used as the baseline structure. | https://docs.google.com/document/d/1yqFNO8qoWL6WICSPCfrCpU-NqMgHIUrO/edit | APPROVED`
-- row 7: `4 | ASI_Claude_Parameters.docx | Supplies 3,204 fully enumerated atomic names across the same 80 containers. | First 2,554 names carried forward in source order; 650 surplus names retained in Held Reserve. | https://docs.google.com/document/d/1z1MDkggXE9qKtwzkvF6YkFjHVyQ89N10/edit | APPROVED`
-- row 8: `5 | Six visible Core Reasoning candidates | Completes the earlier target of 48 because the enumerated source contains 42. | Clearly marked in red in the 2,560 sheet; no hidden insertion; user may replace or omit. | APPROVED`
+**21 Human-AI Matrix 2560**
+- row 2: `SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | PENDING USER REVIEW | PENDING`
+- row 3: `SB-ASI-P0002 | Thermal correction | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | PENDING USER REVIEW | PENDING`
+- row 4: `SB-ASI-P0003 | Fluid/osmotic balance | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | PENDING USER REVIEW | PENDING`
+- row 5: `SB-ASI-P0004 | Blood volume regulation | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | PENDING USER REVIEW | PENDING`
+- row 6: `SB-ASI-P0005 | Oxygen demand sensing | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | NO DIRECT EVIDENCE | 0 | 0 |  | No direct benchmark evidence across the four models. | PENDING USER REVIEW | PENDING`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
 
-**13 Change Log**
-- row 1: `Change ID | Version | Date | Task | Affected level | Exact change | Reason | Source | Approval status | Rollback position`
-- row 2: `CHG-0001 | v0.1 | 2026-07-19 | Task 1 | Workbook | Created one master spreadsheet named ASI-Brain. | User requested one Drive master file. | Current user instruction | IMPLEMENTED | Delete only with explicit user approval`
-- row 3: `CHG-0002 | v0.1 | 2026-07-19 | Task 2 | Hierarchy | Loaded 1 → 10 → 8 → 80 → 2,560 as review baseline. | Historical verified baseline requested for review. | GPT first V + ASI GPT Parameters | PENDING USER CONFIRMATION | Source files remain unchanged`
-- row 4: `CHG-0003 | v0.1 | 2026-07-19 | Task 2 | Atomic parameters | Selected 2,554 exact names from the 3,204 source list and preserved 650 in a held reserve. | Match earlier per-container counts without deleting surplus names. | ASI Claude Parameters | PENDING USER CONFIRMATION | Reserve sheet restores every held item`
-- row 5: `CHG-0004 | v0.1 | 2026-07-19 | Task 2 | Core Reasoning | Added six visible candidates to complete the historical container count of 48. | The fully enumerated source contains 42 names while the earlier target is 48. | Visible reconstruction disclosure | REQUIRES USER DECISION | Remove/replace six candidates without affecting source names`
-- row 6: `CHG-0005 | v0.2 | 2026-07-19 | Task 2 | Approved brain baseline | User approved the complete 1 → 10 → 8 → 80 → 2,560 Task 2 brain baseline. | Exact user instruction: brain approved. | Current SB-ASI chat | APPROVED | Task 2 workbook remains preserved as the prior approved checkpoint.`
-- row 7: `CHG-0006 | v0.2 | 2026-07-19 | Task 3 | Human–AI comparison | Started four-model human–AI comparison using the compiled forensic benchmark master. | Exact user instruction: hit task 3. | Forensic_Benchmark_Autopsies_Compiled_Master_4_Models.xlsx | TASK 3 REVIEW | No Task 3 candidate is activated without user approval.`
-
-**15 Atomic Source**
-- row 1: `Atomic rule ID | Rule | Exact meaning | Source | Status | Task effect | User decision | Notes`
-- row 2: `AT-001 | Benchmark atomic unit | Model + benchmark version + harness + effort + attempts + tools + runner + date. | Forensic master | ACTIVE SOURCE RULE | Prevents score averaging | APPROVED`
-- row 3: `AT-002 | No row removal | Current, revised, disputed, unreproduced, and withdrawn events remain separate. | Forensic master | ACTIVE SOURCE RULE | Preserves measurement history | APPROVED`
-- row 4: `AT-003 | Benchmark is evidence | A benchmark event is evidence of a capability or failure; it is not itself the human or AI function. | Current SB-ASI rule | ACTIVE SOURCE RULE | Separates evidence from brain structure | APPROVED`
-- row 5: `AT-004 | Human–AI mapping | One human parameter may map to many AI functions and one AI function may map to many human parameters. | Current SB-ASI rule | ACTIVE SOURCE RULE | Uses many-to-many edges | APPROVED`
-- row 6: `AT-005 | Task evidence is not equivalence | Task performance does not prove identical human mechanism, consciousness, emotion, embodiment, or moral status. | Current SB-ASI rule | ACTIVE SOURCE RULE | Limits comparison claims | APPROVED`
-- row 7: `AT-006 | AI candidates remain separate | AI-only candidates stay outside the approved 2,560 until the user approves wording and location. | Current Task 3 control | TASK 3 REVIEW | Blocks silent addition | PENDING`
-- row 8: `AT-007 | Score conflicts remain separate | Conflicting scores are preserved with their measurement conditions and are never averaged. | Forensic master | ACTIVE SOURCE RULE | Protects evidence integrity | APPROVED`
-
-**20 AI Evidence 700**
-- row 1: `Model | Benchmark | Version | Score | Harness | Effort | Attempts | Tools | Source | Who ran it | Date | Tier(1-5) | URL | Status | Event ID | Capability IDs | Status Bucket`
-- row 2: `Gemini 3.1 Pro | Humanity's Last Exam | full set text+MM | 44.4% | Google self-eval; methodology PDF | Thinking High | pass@1; trials unstated | No tools | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0001 | AI-CAP-005; AI-CAP-040; AI-CAP-069 | CURRENT`
-- row 3: `Gemini 3.1 Pro | Humanity's Last Exam | full set text+MM | 51.4% | Google self-eval; search blocklist | Thinking High | pass@1; trials unstated | Search + code | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0002 | AI-CAP-005; AI-CAP-012; AI-CAP-040; AI-CAP-069 | CURRENT`
-- row 4: `Gemini 3.1 Pro | ARC-AGI-2 | Verified | 77.1% | ARC Prize verified | Thinking High | pass@1 | No external tools stated | Google + ARC Prize | ARC Prize / Google | 2026-02-19 | 1 | https://arcprize.org/leaderboard | CURRENT | AI-EVT-0003 | AI-CAP-002; AI-CAP-070 | CURRENT`
-- row 5: `Gemini 3.1 Pro | GPQA Diamond — SATURATED | Diamond | 94.3% | Google self-eval | Thinking High | pass@1; trials unstated | No tools | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0004 | AI-CAP-005; AI-CAP-069 | CURRENT`
-- row 6: `Gemini 3.1 Pro | Terminal-Bench | 2.0 | 68.5% | Terminus-2 | Thinking High | pass@1; trials unstated | Terminal tools | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/model-cards/gemini-3-1-pro | CURRENT | AI-EVT-0005 | AI-CAP-010 | CURRENT`
-- row 7: `Gemini 3.1 Pro | SWE-bench Verified | Verified | 80.6% | Google custom scaffold; 3 item fixes; +0.6 adjustment | Thinking High | 10 runs averaged; single attempt/task | bash + file + submit | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/evals-methodology/gemini-3-1-pro | REVISED-FROM(undisclosed raw→80.6) | AI-EVT-0006 | AI-CAP-008; AI-CAP-010 | REVISED`
-- row 8: `Gemini 3.1 Pro | SWE-bench Pro | Public | 54.2% | Google custom scaffold | Thinking High | 5 runs averaged; single attempt/task | bash + file + submit | Google [self] | Google DeepMind | 2026-02-19 | 1 | https://deepmind.google/models/evals-methodology/gemini-3-1-pro | CURRENT | AI-EVT-0007 | AI-CAP-008; AI-CAP-010 | CURRENT`
-
-**28 Task3 Change Log**
-- row 1: `Change ID | Version | Date | Task | Affected layer | Exact action | Source | Activation status | User approval required | Rollback/preservation`
-- row 2: `T3-CHG-001 | v0.2 | 2026-07-19 | Task 3 | Task 2 baseline | Marked the approved 1–10–8–80–2,560 brain as APPROVED. | Exact user instruction: brain approved | IMPLEMENTED | NO | Prior Task 2 workbook remains the rollback checkpoint.`
-- row 3: `T3-CHG-002 | v0.2 | 2026-07-19 | Task 3 | AI model registry | Added four model records with source dates, event totals, strengths, gaps, and mechanism warnings. | Forensic benchmark master | REVIEW ONLY | YES | Source workbook remains unchanged.`
-- row 4: `T3-CHG-003 | v0.2 | 2026-07-19 | Task 3 | Capability families | Classified 435 benchmark labels and 700 events into 74 review-only AI capability families. | Forensic benchmark master | REVIEW ONLY | YES | Every source event remains separately preserved.`
-- row 5: `T3-CHG-004 | v0.2 | 2026-07-19 | Task 3 | Human–AI matrix | Created four-model evidence positions for all 2,560 approved human parameters. | Task 2 brain + forensic benchmark master | REVIEW ONLY | YES | Task 2 parameter wording is unchanged.`
-- row 6: `T3-CHG-005 | v0.2 | 2026-07-19 | Task 3 | Many-to-many edges | Created 10,240 human-parameter × AI-model evidence edges. | Task 2 brain + forensic benchmark master | REVIEW ONLY | YES | Overlap scores are review aids, not equivalence claims.`
-- row 7: `T3-CHG-006 | v0.2 | 2026-07-19 | Task 3 | AI-only candidates | Proposed 64 AI operational functions and controls outside the approved 2,560. | Benchmark, routing, tool, safety, and deployment evidence | HELD | YES | No candidate enters the brain without user approval.`
-- row 8: `T3-CHG-007 | v0.2 | 2026-07-19 | Task 3 | Task 4 gate | Kept worldwide ASI research separate and unmerged. | Current task sequence | BLOCKED | YES | Task 4 source remains unchanged.`
+**22 Human-AI Edges 10240**
+- row 2: `MAP-FAB-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Claude Fable 5 |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | NO DIRECT EVIDENt | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 3: `MAP-SOL-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | GPT-5.6 Sol |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 4: `MAP-GEM-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Gemini 3.1 Pro |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 5: `MAP-GROK-0001 | SB-ASI-P0001 | Core temperature setpoint | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Grok 4.5 |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- row 6: `MAP-FAB-0002 | SB-ASI-P0002 | Thermal correction | SEG-01 | Biological Regulation and Internal State | CON-001 | Homeostasis and Allostasis | Claude Fable 5 |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |  |  | DIRECT EVIDENCE | HUMAN BIOLOGICAL FUNCTION — NO AI EQUIVALENCE ESTABLISHED | 0 | Any AI evidence is an information-processing or task-performance analogue only; it does not establish biological homeostasis, physiology, interoception, pain, fatigue, hormonal regulation, or bodily drives. | The forensic workbook measures benchmark events, not the complete internal function. A score is valid only with its model route, benchmark version, harness, effort, attempts, tools, runner, date, and status. | APPROVED USER REVIEW | APPROVED`
+- sentinel IDs located: SB-ASI-P0001, SB-ASI-P0032, SB-ASI-P0033, SB-ASI-P0256, SB-ASI-P0257, SB-ASI-P0512, SB-ASI-P0513, SB-ASI-P1280, SB-ASI-P1281, SB-ASI-P1920, SB-ASI-P1921, SB-ASI-P2560
