@@ -1,0 +1,50 @@
+{
+  "report_id": "P2-OPERATIONAL-PARAMETER-AI-ASI-OWNERSHIP-RFR-V1",
+  "status": "PASS",
+  "scope_note": "R-F-R of additive AI/ASI ownership over approved SB-ASI-P2593..P3072. Does not change parameter source identity and does not declare final AI or ASI native parameter counts.",
+  "summary": {
+    "records": 480,
+    "ownership_counts": {
+      "AI_PRIMARY": 180,
+      "SHARED_AI_ASI": 240,
+      "ASI_PRIMARY": 60
+    },
+    "element_counts": {
+      "E01": 60,
+      "E02": 60,
+      "E03": 60,
+      "E04": 60,
+      "E05": 60,
+      "E06": 60,
+      "E07": 60,
+      "E08": 60
+    },
+    "errors": 0,
+    "findings": 0
+  },
+  "pass0": {
+    "declared_end": "Every approved operational parameter has an auditable AI/ASI ownership/interface mapping without source rewrite.",
+    "scope": "SB-ASI-P2593..SB-ASI-P3072",
+    "closure_scope": "ownership/routing integrity only"
+  },
+  "pass1": {
+    "source_trace": "parameter -> approved generated source record -> CON-161..240 -> E01..E08"
+  },
+  "pass2": {
+    "forward_route": "E01..E08 -> ownership class -> AI segments + ASI segments + ASI Nodes"
+  },
+  "pass3": {
+    "invariant_checks": {
+      "ALL_480_SOURCE_RECORDS_PRESERVED": true,
+      "EVERY_PARAMETER_TRACES_TO_CONTAINER_AND_ELEMENT": true,
+      "AI_SEGMENTS_VALID": true,
+      "ASI_SEGMENTS_VALID": true,
+      "ASI_NODES_VALID": true,
+      "OWNERSHIP_IS_ADDITIVE_NOT_SOURCE_REWRITE": true,
+      "EXPECTED_OWNERSHIP_DISTRIBUTION": true,
+      "EACH_E01_E08_HAS_60_PARAMETERS": true
+    },
+    "errors": [],
+    "findings": []
+  }
+}
