@@ -1,0 +1,46 @@
+name: Phase2 operational AI ASI ownership RFR
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json'
+      - 'registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json'
+      - 'registries/ai/AI_RUBRIC_V0.json'
+      - 'registries/asi/ASI_RUBRIC_V0.json'
+      - 'registries/asi/asi_node_registry.json'
+      - 'tools/generate_operational_parameter_ai_asi_ownership_v1.py'
+      - 'tools/run_phase2_operational_ownership_rfr_v1.py'
+      - 'phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json'
+      - '.github/workflows/operational-ownership-rfr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  operational-ownership-rfr:
+    if: ${{ !contains(github.event.head_commit.message || '', '[generated-ownership]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate operational AI ASI ownership view
+        run: python tools/generate_operational_parameter_ai_asi_ownership_v1.py
+      - name: Run ownership R-F-R
+        run: python tools/run_phase2_operational_ownership_rfr_v1.py
+      - name: Commit generated ownership view and R-F-R report
+        shell: bash
+        run: |
+          git config user.name "sourceborn-index-bot"
+          git config user.email "sourceborn-index-bot@users.noreply.github.com"
+          git add generated/registry_views/operational_parameter_ai_asi_ownership_v1.json generated/tests/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_RFR_V1.json
+          if git diff --cached --quiet; then
+            echo "No ownership changes"
+          else
+            git commit -m "[generated-ownership] rebuild Phase2 operational AI ASI ownership"
+            git push
+          fi
