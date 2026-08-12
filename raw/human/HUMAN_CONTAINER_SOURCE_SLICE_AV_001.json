@@ -1,0 +1,24 @@
+{
+  "source_slice_id": "HUMAN-SRC-SLICE-AV-001",
+  "status": "APPROVED_SOURCE_SLICE_FOR_CONTROLLED_TEST",
+  "scope": "Human containers activated by P2-ACTOR-VIEW-LEAKAGE-RFR-001.",
+  "source_note": "IDs/names are preserved from the user-provided approved Human registry material. This is a bounded source slice, not a replacement for the full Human registry.",
+  "records": [
+    {
+      "container_id": "CON-047",
+      "name": "Decision, Judgment and Trade-off Intelligence",
+      "segment_id": "SEG-06"
+    },
+    {
+      "container_id": "CON-066",
+      "name": "Self-Model, Identity and Narrative Self",
+      "segment_id": "SEG-09"
+    },
+    {
+      "container_id": "CON-069",
+      "name": "Theory of Mind and Social Prediction",
+      "segment_id": "SEG-09"
+    }
+  ],
+  "hard_guard": "This slice validates source custody for the test only; it does not claim complete Human parameter materialization."
+}
