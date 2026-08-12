@@ -1,0 +1,40 @@
+name: Phase2 Wisdom source-ingestion RFR
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'raw/wisdom/**'
+      - 'phase2/wisdom/**'
+      - 'registries/wisdom/**'
+      - 'tools/run_phase2_wisdom_ingestion_rfr_v1.py'
+      - '.github/workflows/wisdom-ingestion-rfr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  wisdom-rfr:
+    if: ${{ !contains(github.event.head_commit.message || '', '[generated-wisdom]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run bounded Wisdom ingestion R-F-R
+        run: python tools/run_phase2_wisdom_ingestion_rfr_v1.py
+      - name: Commit generated Wisdom R-F-R report
+        shell: bash
+        run: |
+          git config user.name "sourceborn-index-bot"
+          git config user.email "sourceborn-index-bot@users.noreply.github.com"
+          git add generated/tests/P2_WISDOM_SOURCE_INGESTION_RFR_V1.json
+          if git diff --cached --quiet; then
+            echo "No Wisdom R-F-R changes"
+          else
+            git commit -m "[generated-wisdom] rebuild Phase2 Wisdom ingestion RFR"
+            git push
+          fi

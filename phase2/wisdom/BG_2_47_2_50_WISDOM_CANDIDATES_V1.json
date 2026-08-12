@@ -1,0 +1,87 @@
+{
+  "wisdom_candidate_batch_id": "W-CAND-BG-02-047-050-V1",
+  "status": "WISDOM_CANDIDATES_PENDING_RFR",
+  "source_batch": "raw/wisdom/BHAGAVAD_GITA_2_47_2_50_SOURCE_V1.json",
+  "claim_batch": "phase2/wisdom/BG_2_47_2_50_SOURCE_CLAIMS_V1.json",
+  "interpretation_batch": "phase2/wisdom/BG_2_47_2_50_INTERPRETATIONS_V1.json",
+  "applicability_batch": "phase2/wisdom/BG_2_47_2_50_APPLICABILITY_COUNTERCASES_V1.json",
+  "candidate_rule": "A Wisdom candidate is a compressed contextual inference from source-linked interpretations that survived the local counter-case gate. It is not source text, universal law, permission, or direct action authority.",
+  "candidates": [
+    {
+      "wisdom_id": "W-CAND-BG-001",
+      "name": "Separate action-quality control from outcome ownership",
+      "wisdom_lane_refs": ["W-03","W-05","W-12","W-13","W-15"],
+      "source_claim_refs": ["W-CLAIM-BG-001","W-CLAIM-BG-002","W-CLAIM-BG-003","W-CLAIM-BG-004"],
+      "interpretation_refs": ["W-INT-BG-001","W-INT-BG-002"],
+      "supporting_applicability_cases": ["W-APP-BG-001","W-APP-BG-003","W-APP-BG-007"],
+      "principle": "When an actor has a legitimate action within its role but cannot guarantee the result, evaluate and improve the controllable quality of action separately from psychological or ownership claims over the final outcome.",
+      "applies_when": [
+        "a legal/legitimate action exists",
+        "outcome depends partly on external conditions",
+        "the actor can still monitor results and update from evidence"
+      ],
+      "does_not_apply_as_authority_when": [
+        "permission is unknown or denied",
+        "required capability/resource is absent",
+        "the active contract makes a result itself a required deliverable",
+        "the source batch is being used to resolve a broader duty conflict it does not cover"
+      ],
+      "counter_case_refs": ["W-APP-BG-002","W-APP-BG-003","W-APP-BG-005","W-APP-BG-006"],
+      "epistemic_status": "CONTEXTUAL_INTERPRETIVE_WISDOM_CANDIDATE",
+      "direct_action_authority": false
+    },
+    {
+      "wisdom_id": "W-CAND-BG-002",
+      "name": "Do not let anticipated success or failure become the sole controller of action",
+      "wisdom_lane_refs": ["W-05","W-09","W-11","W-13","W-15"],
+      "source_claim_refs": ["W-CLAIM-BG-004","W-CLAIM-BG-005","W-CLAIM-BG-006"],
+      "interpretation_refs": ["W-INT-BG-002"],
+      "supporting_applicability_cases": ["W-APP-BG-001","W-APP-BG-007"],
+      "principle": "Success/failure expectations may inform planning, but should not become the sole arbiter of whether a legitimate action is worth executing; maintain a stable decision state while continuing to observe evidence.",
+      "applies_when": [
+        "fear of failure or attraction to success is distorting a decision",
+        "the action remains legal, safe and role-consistent",
+        "feedback continues to influence future state"
+      ],
+      "does_not_apply_as_authority_when": [
+        "failure evidence indicates harm or invalidity",
+        "the action is blocked by permission, safety, dependency or capability",
+        "equanimity is being interpreted as emotional suppression or indifference"
+      ],
+      "counter_case_refs": ["W-APP-BG-002","W-APP-BG-004","W-APP-BG-007"],
+      "epistemic_status": "CONTEXTUAL_INTERPRETIVE_WISDOM_CANDIDATE",
+      "direct_action_authority": false
+    },
+    {
+      "wisdom_id": "W-CAND-BG-003",
+      "name": "Action-focus must remain coupled to discernment, skill and feedback",
+      "wisdom_lane_refs": ["W-03","W-11","W-13","W-14","W-15"],
+      "source_claim_refs": ["W-CLAIM-BG-006","W-CLAIM-BG-007","W-CLAIM-BG-008"],
+      "interpretation_refs": ["W-INT-BG-003"],
+      "supporting_applicability_cases": ["W-APP-BG-004","W-APP-BG-007"],
+      "principle": "A principle favoring action over paralysis must not be reduced to blind execution; discernment, verification, failure feedback and skill remain part of competent action.",
+      "applies_when": [
+        "an actor is tempted to confuse decisiveness with correctness",
+        "verification and feedback are available",
+        "execution quality can be improved"
+      ],
+      "does_not_apply_as_authority_when": [
+        "the action lacks permission or role authority",
+        "the action is unsafe or unqualified",
+        "feedback is being deliberately ignored"
+      ],
+      "counter_case_refs": ["W-APP-BG-002","W-APP-BG-004","W-APP-BG-005"],
+      "epistemic_status": "CONTEXTUAL_INTERPRETIVE_WISDOM_CANDIDATE",
+      "direct_action_authority": false
+    }
+  ],
+  "global_guards": [
+    "No candidate may overwrite source text or source claims.",
+    "No candidate may become law without a separate Law Formation Sequence.",
+    "No candidate may satisfy permission, resource, evidence or dependency thresholds by itself.",
+    "ASI-NODE-21 may govern application but may not manufacture source truth.",
+    "Actor View restrictions remain in force.",
+    "A later counter-case may supersede applicability through a new Sequence; it may not rewrite this closed source batch."
+  ],
+  "next_step": "P2-WISDOM-SOURCE-INGESTION-RFR-01"
+}

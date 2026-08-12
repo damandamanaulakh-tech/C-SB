@@ -1,0 +1,79 @@
+{
+  "applicability_batch_id": "W-APP-BG-02-047-050-V1",
+  "status": "COUNTER_CASE_GATE_COMPLETE_FOR_LOCAL_WISDOM_CANDIDATES",
+  "interpretation_batch": "phase2/wisdom/BG_2_47_2_50_INTERPRETATIONS_V1.json",
+  "rule": "No interpretation may become an accepted Wisdom candidate until it survives explicit applicability and counter-case tests. A surviving candidate remains contextual and advisory, never direct execution authority.",
+  "tests": [
+    {
+      "case_id": "W-APP-BG-001",
+      "name": "Uncertain outcome with meaningful controllable action",
+      "case": "The actor can perform a legitimate, bounded action but cannot guarantee the external result.",
+      "result": "APPLIES_STRONGLY",
+      "supported_interpretations": ["W-INT-BG-001","W-INT-BG-002"],
+      "reason": "The distinction between present action quality and uncertain result is directly useful without requiring outcome blindness."
+    },
+    {
+      "case_id": "W-APP-BG-002",
+      "name": "Action requires permission that is currently unknown",
+      "case": "AI identifies an action but authority/permission has not yet returned.",
+      "result": "DOES_NOT_AUTHORIZE_ACTION",
+      "supported_interpretations": ["W-INT-BG-001","W-INT-BG-003"],
+      "blocking_rules": ["ASI-08 Safety / Permission / Authority","Universal Sequence barrier law"],
+      "reason": "Avoiding attachment to inaction cannot cross a missing authorization barrier."
+    },
+    {
+      "case_id": "W-APP-BG-003",
+      "name": "Contract defines an outcome as part of the obligation",
+      "case": "A role or contract requires a measurable result, not merely an attempt.",
+      "result": "PARTIAL_ONLY",
+      "supported_interpretations": ["W-INT-BG-001","W-INT-BG-002"],
+      "reason": "The actor may separate psychological attachment from outcome ownership, but the active Sequence must still represent and verify the contractual result."
+    },
+    {
+      "case_id": "W-APP-BG-004",
+      "name": "Safety-critical failure signal",
+      "case": "A failed test indicates that continuing the same action could create harm.",
+      "result": "APPLIES_ONLY_WITH_FEEDBACK_AND_REPAIR",
+      "supported_interpretations": ["W-INT-BG-002","W-INT-BG-003"],
+      "blocking_rules": ["verification","barrier","repair/retest as separate Sub-Sequences"],
+      "reason": "Equanimity cannot mean ignoring failure; skill in action requires the failure to change execution state."
+    },
+    {
+      "case_id": "W-APP-BG-005",
+      "name": "Actor lacks capability or required resource",
+      "case": "The actor wants to act but required capability/resource is unavailable.",
+      "result": "DOES_NOT_REMOVE_DEPENDENCY",
+      "supported_interpretations": ["W-INT-BG-001"],
+      "reason": "Action-focus cannot manufacture unavailable capability or resource. The Sequence remains blocked or routes to another legal path."
+    },
+    {
+      "case_id": "W-APP-BG-006",
+      "name": "Competing duties or conflicting legitimate rules",
+      "case": "Two action paths each claim a different legitimate role/duty/priority.",
+      "result": "INSUFFICIENT_SOURCE_BATCH",
+      "supported_interpretations": ["W-INT-BG-001","W-INT-BG-002","W-INT-BG-003"],
+      "reason": "Verses 2.47-2.50 alone do not provide a complete conflict-resolution system. ASI arbitration and/or additional source context is required."
+    },
+    {
+      "case_id": "W-APP-BG-007",
+      "name": "Outcome evidence changes the best available action",
+      "case": "Observed results provide new evidence that another action is safer or more effective.",
+      "result": "APPLIES_WITHOUT_BLOCKING_LEARNING",
+      "supported_interpretations": ["W-INT-BG-002","W-INT-BG-003"],
+      "reason": "Non-attachment to success/failure cannot be interpreted as refusal to update from evidence."
+    }
+  ],
+  "hard_applicability_boundaries": [
+    "Wisdom does not bypass permission.",
+    "Wisdom does not satisfy missing resources or dependencies.",
+    "Wisdom does not replace contractual result verification.",
+    "Wisdom does not suppress failure evidence.",
+    "Wisdom does not resolve every role/duty conflict from this four-verse batch.",
+    "Wisdom does not authorize an actor who lacks role, capability or legal path."
+  ],
+  "closure": {
+    "counter_case_gate": "PASSED_WITH_CONTEXTUAL_LIMITS",
+    "eligible_for_wisdom_candidate_synthesis": true,
+    "eligible_for_direct_action_authority": false
+  }
+}
