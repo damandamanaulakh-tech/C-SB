@@ -1,0 +1,29 @@
+{
+  "checkpoint_id": "P2-WISDOM-SOURCE-INGESTION-CHECKPOINT-V1",
+  "checkpoint_type": "WISDOM_SOURCE_INGESTION_RFR_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "source_batch": "W-SRC-BG-02-047-050-V1",
+  "source_scope": "Bhagavad Gita chapter 2 verses 47-50 only",
+  "rfr_report": "generated/tests/P2_WISDOM_SOURCE_INGESTION_RFR_V1.json",
+  "closed_counts": {
+    "source_records": 4,
+    "source_claims": 8,
+    "interpretations": 3,
+    "applicability_counter_cases": 7,
+    "adopted_contextual_wisdom_objects": 3
+  },
+  "adopted_wisdom_registry": "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
+  "source_boundaries": [
+    "Sanskrit source text remains immutable within this batch.",
+    "English semantic claims remain translation-dependent.",
+    "Interpretations are not source text.",
+    "Wisdom Objects are contextual interpretations, not doctrinal canon or universal law.",
+    "Wisdom has no direct action authority.",
+    "Permission, resource, dependency, evidence and verification gates remain independent.",
+    "Actor View remains separate from global/system knowledge."
+  ],
+  "closure_note": "This closes only the first bounded Wisdom source-ingestion batch. It does not close the Wisdom workstream or Phase-2.",
+  "next_sequence": "P2-MULTI-RUBRIC-INTEGRATION-TEST-01"
+}
