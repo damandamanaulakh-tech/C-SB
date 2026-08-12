@@ -1,0 +1,33 @@
+{
+  "source_slice_id": "HUMAN-SRC-SLICE-MR-001",
+  "status": "APPROVED_SOURCE_SLICE_FOR_CONTROLLED_TEST",
+  "scope": "Only the four Human containers activated by P2-MR-EXCEPTION-001.",
+  "source_note": "Names and IDs are preserved from the user-provided approved Human registry material. This slice does not replace the full 80-container / 2,560-parameter Human source.",
+  "records": [
+    {
+      "container_id": "CON-047",
+      "name": "Decision, Judgment and Trade-off Intelligence",
+      "segment_id": "SEG-06",
+      "sequence_mapping_from_source": "QUALIFIED OPTIONS -> SELECTION -> DECISION"
+    },
+    {
+      "container_id": "CON-063",
+      "name": "Intent Formation and Commitment",
+      "segment_id": "SEG-08",
+      "sequence_mapping_from_source": "REQUIREMENT -> SELECTION -> DECISION -> EXECUTION"
+    },
+    {
+      "container_id": "CON-064",
+      "name": "Motive, Needs, Values and Priority Structure",
+      "segment_id": "SEG-08",
+      "sequence_mapping_from_source": "REQUIREMENT EMERGES -> WHY -> PRIORITY"
+    },
+    {
+      "container_id": "CON-072",
+      "name": "Morality, Norms, Culture and Meaning",
+      "segment_id": "SEG-09",
+      "sequence_mapping_from_source": "CONDITIONS / CONSTRAINTS -> QUALIFICATION -> DECISION -> IMPACT"
+    }
+  ],
+  "hard_guard": "This bounded slice may validate integration-test source custody but may not be used to claim the full Human native registry is text-materialized in the repo."
+}
