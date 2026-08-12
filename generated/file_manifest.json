@@ -165,6 +165,11 @@
     "size_bytes": 3667
   },
   {
+    "path": "tools/run_phase2_multi_rubric_integration_v1.py",
+    "sha256": "1372ec769d2301ada68f844b70b891213b08b77dc700f84d12a48e87938386d4",
+    "size_bytes": 10807
+  },
+  {
     "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
     "sha256": "4d1f350de30fb0260f9e24bf51ad6bf329092d1b5dc04da6d81989e954bcfc5c",
     "size_bytes": 3865
