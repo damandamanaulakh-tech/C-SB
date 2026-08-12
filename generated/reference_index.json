@@ -1,9 +1,12 @@
 {
   "segments": {
     "SEG-01": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -12,18 +15,23 @@
     ],
     "SEG-02": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "SEG-03": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "SEG-04": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -31,6 +39,7 @@
     ],
     "SEG-05": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -40,6 +49,8 @@
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -48,6 +59,7 @@
     ],
     "SEG-07": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -56,6 +68,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -74,6 +87,8 @@
     "SEG-10": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -83,6 +98,7 @@
   "containers": {
     "CON-161": [
       "CANONICALITY.json",
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
@@ -90,6 +106,8 @@
       "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "tools/generate_operational_subparameters_v1.py",
       "tools/run_phase2_operational_ownership_rfr_v1.py",
@@ -101,25 +119,32 @@
       "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "tools/generate_operational_subparameters_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "CON-001": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "phase2/TASK_QUEUE.md",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
       "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
     ],
     "CON-081": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
@@ -130,6 +155,8 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
@@ -154,50 +181,65 @@
     "CON-160": [
       "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
     "CON-090": [
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "tools/validate_expansion_2561_2592_domain_bindings_v1.py"
     ],
     "CON-082": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-087": [
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "CON-162": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-163": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-164": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-165": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-166": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-167": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-168": [
@@ -206,38 +248,51 @@
     ],
     "CON-169": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-170": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-171": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-172": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-173": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-174": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-175": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-176": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-177": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-178": [
@@ -246,22 +301,30 @@
     ],
     "CON-179": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-180": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-181": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-182": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-183": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-184": [
@@ -270,46 +333,60 @@
     ],
     "CON-185": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-186": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-187": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-188": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-189": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-190": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-191": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-192": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-193": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-194": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-195": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-196": [
@@ -318,18 +395,23 @@
     ],
     "CON-197": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-198": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-199": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-200": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "CON-201": [
@@ -490,17 +572,555 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
+    "CON-047": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-063": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-064": [
+      "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-072": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-067": [
+      "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-044": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-046": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-057": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-061": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-062": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-075": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-080": [
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-066": [
+      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-069": [
+      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-006": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-007": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-012": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-015": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-029": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-035": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-039": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-048": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-078": [
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-002": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-003": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-004": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-005": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-008": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-009": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-010": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-011": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-013": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-014": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-016": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-017": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-018": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-019": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-020": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-021": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-022": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-023": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-024": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-025": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-028": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-030": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-031": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-032": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-033": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-034": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-036": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-040": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-041": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-042": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-043": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-045": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-049": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-050": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-052": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-053": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-054": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-055": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-056": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-058": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-059": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-060": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-065": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-068": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-070": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-071": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-073": [
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-074": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-077": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-079": [
+      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
+    ],
+    "CON-026": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-037": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-051": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-076": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
     "CON-083": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-084": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-085": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-086": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-099": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-101": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-102": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-107": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
+    ],
+    "CON-109": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-110": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-112": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-113": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
+    ],
+    "CON-115": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
+    ],
+    "CON-116": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
+    ],
+    "CON-117": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
+    ],
+    "CON-108": [
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
+    ],
+    "CON-027": [
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+    ],
+    "CON-038": [
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "CON-088": [
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
@@ -532,16 +1152,7 @@
     "CON-098": [
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
-    "CON-099": [
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
     "CON-100": [
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
-    "CON-101": [
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
-    "CON-102": [
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "CON-104": [
@@ -556,57 +1167,11 @@
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
-    "CON-107": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
-    ],
-    "CON-108": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
-    ],
-    "CON-109": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
-    "CON-110": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
     "CON-111": [
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
-    "CON-112": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
-    "CON-113": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
-    ],
     "CON-114": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
-    "CON-115": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
-    ],
-    "CON-116": [
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-      "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
-    ],
-    "CON-117": [
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
@@ -731,392 +1296,12 @@
     ],
     "CON-159": [
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
-    ],
-    "CON-004": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-007": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-008": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-009": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-017": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-025": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-028": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-031": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-032": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-033": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-041": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-074": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-075": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-078": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-079": [
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-080": [
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
-    ],
-    "CON-002": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-003": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-005": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-006": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-010": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-011": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-012": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-013": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-014": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-015": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-016": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-018": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-019": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-020": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-021": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-022": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-023": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-024": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-026": [
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-027": [
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-029": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-030": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-034": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-035": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-036": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-037": [
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-038": [
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-039": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-040": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-042": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-043": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-044": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-045": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-046": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-047": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
-      "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-048": [
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-049": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-050": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-051": [
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-052": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-053": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-054": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-055": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-056": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-057": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-058": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-059": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-060": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-061": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-062": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-063": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-064": [
-      "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-065": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-066": [
-      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-067": [
-      "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-068": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-069": [
-      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-070": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-071": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-072": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-073": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-076": [
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
-    ],
-    "CON-077": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ]
   },
   "sourceborn_parameters": {
     "SB-ASI-P2593": [
       "CANONICALITY.json",
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
@@ -1125,72 +1310,280 @@
       "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "tools/generate_operational_subparameters_v1.py",
       "tools/run_phase2_operational_ownership_rfr_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "SB-ASI-P3072": [
       "CANONICALITY.json",
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "tools/generate_operational_subparameters_v1.py",
       "tools/run_phase2_operational_ownership_rfr_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "SB-ASI-P0001": [
+      ".github/workflows/human-source-inspection.yml",
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "docs/RELEASE_ASSET_RELINK_GATE.md",
       "phase2/TASK_QUEUE.md",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "phase2/tests/P2_HUMAN_2560_CUSTODY_PROBE_TRIGGER_V1.json",
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py",
+      "tools/repair_human_native_custody_from_release.py"
     ],
     "SB-ASI-P2561": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
     "SB-ASI-P2592": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
       "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
+    "SB-ASI-P0032": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P0033": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P0256": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P0257": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P0512": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P0513": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P1280": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P1281": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P1920": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P1921": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py"
+    ],
+    "SB-ASI-P2560": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "docs/RELEASE_ASSET_RELINK_GATE.md",
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "phase2/tests/P2_HUMAN_2560_CUSTODY_PROBE_TRIGGER_V1.json",
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "tools/inspect_human_source_workbook.py",
+      "tools/repair_human_native_custody_from_release.py"
+    ],
+    "SB-ASI-P0002": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0003": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0004": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0005": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0006": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0007": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0008": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0009": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0010": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0011": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0012": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0013": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0014": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0015": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0016": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0017": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0018": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0019": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0020": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0021": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0022": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0023": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0024": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0025": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
     "SB-ASI-P2562": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "SB-ASI-P2563": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "SB-ASI-P2564": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "SB-ASI-P2565": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
+    "SB-ASI-P2594": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P2595": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P2596": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P2597": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
     "SB-ASI-P2566": [
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "SB-ASI-P2567": [
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
@@ -1316,8 +1709,41 @@
       "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
       "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
-    "SB-ASI-P2560": [
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json"
+    "SB-ASI-P2598": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P2599": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "SB-ASI-P0320": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P0321": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P0640": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P0641": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P0960": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P0961": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P1600": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P1601": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P2240": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
+    ],
+    "SB-ASI-P2241": [
+      "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json"
     ]
   },
   "human_combinations": {
@@ -1341,6 +1767,7 @@
   "legacy_ai_capabilities": {
     "AI-CAP-001": [
       "CANONICALITY.json",
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "phase1/PHASE1_CLOSURE_PACKET.json",
       "phase2/README.md",
       "phase2/TASK_QUEUE.md",
@@ -1351,6 +1778,8 @@
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
@@ -1363,6 +1792,8 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
@@ -1374,6 +1805,7 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
@@ -1383,6 +1815,7 @@
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
@@ -1394,414 +1827,29 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "tools/validate_ai_asi_container_candidates.py"
     ],
-    "AI-CAP-017": [
+    "AI-CAP-005": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-022": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-023": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-024": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-037": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-039": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-040": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-045": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-050": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-052": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-053": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-054": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-055": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-056": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-057": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-058": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-059": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-060": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-062": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-063": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-064": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-065": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-067": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-068": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-073": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-074": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
-    ],
-    "AI-CAP-009": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-010": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-011": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-012": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-014": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-016": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-018": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-019": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-020": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-021": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-025": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-026": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-027": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-028": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-029": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-031": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-038": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-042": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-061": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-CAP-066": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "AI-CAP-002": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -1810,6 +1858,8 @@
     "AI-CAP-003": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
@@ -1817,20 +1867,15 @@
     "AI-CAP-004": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
-    ],
-    "AI-CAP-005": [
-      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-      "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-      "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json"
     ],
     "AI-CAP-006": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
@@ -1842,112 +1887,583 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
       "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-008": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-009": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-010": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-011": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-012": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-014": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-CAP-015": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-016": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-017": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-018": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-019": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-020": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-021": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-022": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-023": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-024": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-025": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-026": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-027": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-028": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-029": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-CAP-030": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-031": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-CAP-032": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
       "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-033": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-034": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-035": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-036": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-037": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-038": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-039": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-040": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
     ],
     "AI-CAP-041": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-042": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-CAP-043": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-044": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-045": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
     ],
     "AI-CAP-047": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-048": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-049": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-050": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
     ],
     "AI-CAP-051": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-052": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-053": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-054": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-055": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-056": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-057": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-058": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-059": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-060": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-061": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-062": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-063": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-064": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-065": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-066": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
+    ],
+    "AI-CAP-067": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-068": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
     ],
     "AI-CAP-069": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
     ],
     "AI-CAP-070": [
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json"
+    ],
+    "AI-CAP-073": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
+    ],
+    "AI-CAP-074": [
+      "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json"
     ]
   },
   "approved_ai_only_records": {
@@ -1960,17 +2476,12 @@
       "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "phase2/tests/P2_AI_ASI_RUNTIME_VIEWS_ORPHAN_OVERLAP_TRIGGER_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/generate_ai_new_64_structural_decomposition_v1.py",
       "tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py",
       "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
-      "tools/validate_brain_engine_adoption_v1.py"
-    ],
-    "AI-NEW-064": [
-      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "AI-NEW-014": [
@@ -1998,6 +2509,13 @@
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py"
     ],
+    "AI-NEW-064": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "tools/validate_brain_engine_adoption_v1.py"
+    ],
     "AI-NEW-011": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
@@ -2012,30 +2530,37 @@
     "AI-NEW-002": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-003": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-004": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-005": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-006": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-007": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-008": [
@@ -2723,18 +3248,18 @@
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
-    "W-04": [
-      "registries/wisdom/WISDOM_REGISTRY_V0.json"
-    ],
     "W-06": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
-    "W-07": [
-      "registries/wisdom/WISDOM_REGISTRY_V0.json"
-    ],
     "W-08": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_REGISTRY_V0.json"
+    ],
+    "W-04": [
+      "registries/wisdom/WISDOM_REGISTRY_V0.json"
+    ],
+    "W-07": [
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-10": [
@@ -3536,6 +4061,8 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/run_phase2_ai_asi_rfr_v1.py",
@@ -3572,6 +4099,7 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/run_phase2_ai_asi_rfr_v1.py",
@@ -3608,6 +4136,7 @@
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/run_phase2_ai_asi_rfr_v1.py",
@@ -3625,26 +4154,39 @@
     "ENG-ARD-001": [
       "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-ARD-003": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-ARD-004": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-001": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-002": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3665,11 +4207,13 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-006": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-007": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3680,11 +4224,15 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-009": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-010": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3695,11 +4243,13 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-012": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EVAL-001": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3710,11 +4260,14 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EXP-001": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EXP-002": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3740,16 +4293,19 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-MEM-001": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-META-001": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-META-002": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3760,11 +4316,14 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-ORC-001": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-OUT-001": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3780,6 +4339,8 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RD-001": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3800,16 +4361,21 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-001": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-002": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-003": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3820,6 +4386,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-005": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3830,6 +4397,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SB-001": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3850,6 +4418,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SB-008": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3870,11 +4439,13 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SUP-002": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SUP-003": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3900,6 +4471,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-URR-005": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3920,11 +4492,13 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-WLD-001": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-WLD-002": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3945,6 +4519,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-WLD-007": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -3961,15 +4536,42 @@
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json"
     ]
   },
-  "activation_rule_ids": {},
+  "activation_rule_ids": {
+    "ACT-161": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "ACT-162": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "ACT-163": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "ACT-164": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "ACT-165": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "ACT-166": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "ACT-167": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ]
+  },
   "operational_element_codes": {
     "E01": [
+      "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
       "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "tools/generate_engine_asi_node_bindings_v1.py",
       "tools/run_phase2_operational_ownership_rfr_v1.py",
@@ -3980,6 +4582,8 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E03": [
@@ -3989,6 +4593,7 @@
       "phase2/TASK_QUEUE.md",
       "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E04": [
@@ -3996,6 +4601,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E05": [
@@ -4003,6 +4609,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E06": [
@@ -4010,6 +4617,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E07": [
@@ -4017,6 +4625,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/TASK_QUEUE.md",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json"
     ],
     "E08": [
@@ -4032,7 +4641,31 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ]
   },
-  "governance_control_ids": {},
+  "governance_control_ids": {
+    "GOV-001": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "GOV-002": [
+      "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "GOV-003": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "GOV-004": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "GOV-005": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "GOV-006": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ],
+    "GOV-007": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json"
+    ]
+  },
   "rubric_registry_ids": {
     "AI-RUBRIC-V0": [
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",

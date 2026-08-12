@@ -1,0 +1,124 @@
+name: Release asset provenance inventory
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - chore/release-assets-ingestion
+    paths:
+      - .github/workflows/release-assets-inventory.yml
+      - tools/build_release_asset_manifest.py
+      - tools/profile_release_assets.py
+      - tools/build_release_asset_merge_plan.py
+      - tools/inspect_human_source_workbook.py
+      - raw/release-assets/backend-docs/README.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-assets-inventory-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install document profilers
+        run: python -m pip install --disable-pip-version-check openpyxl pypdf
+
+      - name: Build deterministic release manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python tools/build_release_asset_manifest.py \
+            --repository "$GITHUB_REPOSITORY" \
+            --release-tag Docs \
+            --expected-count 383
+
+      - name: Profile unique release payloads
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python tools/profile_release_assets.py \
+            --manifest raw/release-assets/backend-docs/MANIFEST.json \
+            --workers 8
+
+      - name: Build conservative merge plan
+        run: |
+          python tools/build_release_asset_merge_plan.py \
+            --manifest raw/release-assets/backend-docs/MANIFEST.json \
+            --content-index raw/release-assets/backend-docs/CONTENT_INDEX.json
+
+      - name: Inspect Human-2560 source workbook candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python tools/inspect_human_source_workbook.py \
+            --manifest raw/release-assets/backend-docs/MANIFEST.json
+
+      - name: Sanity-check generated files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('raw/release-assets/backend-docs/MANIFEST.json').read_text())
+          content = json.loads(Path('raw/release-assets/backend-docs/CONTENT_INDEX.json').read_text())
+          plan = json.loads(Path('raw/release-assets/backend-docs/MERGE_PLAN.json').read_text())
+          human = json.loads(Path('raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json').read_text())
+          assert manifest['summary']['asset_count'] == 383
+          assert len(manifest['assets']) == 383
+          assert content['unique_payload_count'] == manifest['summary']['unique_sha256_payloads']
+          assert len(content['profiles']) == content['unique_payload_count']
+          assert plan['summary']['asset_count'] == 383
+          assert len(plan['decisions']) == 383
+          assert human['candidates']
+          assert Path('docs/RELEASE_ASSET_INGESTION_REPORT.md').is_file()
+          assert Path('docs/RELEASE_ASSET_CONTENT_PROFILE.md').is_file()
+          assert Path('docs/RELEASE_ASSET_MERGE_PLAN.md').is_file()
+          assert Path('docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md').is_file()
+          print(json.dumps(manifest['summary'], indent=2))
+          print(json.dumps(plan['summary'], indent=2))
+          print(json.dumps({'human_source_candidates': len(human['candidates'])}, indent=2))
+          PY
+
+      - name: Commit generated inventory back to intake branch
+        run: |
+          changes="$(git status --porcelain -- \
+            raw/release-assets/backend-docs/MANIFEST.json \
+            raw/release-assets/backend-docs/CONTENT_INDEX.json \
+            raw/release-assets/backend-docs/MERGE_PLAN.json \
+            raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json \
+            docs/RELEASE_ASSET_INGESTION_REPORT.md \
+            docs/RELEASE_ASSET_CONTENT_PROFILE.md \
+            docs/RELEASE_ASSET_MERGE_PLAN.md \
+            docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md)"
+          if [ -z "$changes" ]; then
+            echo 'Generated inventory is unchanged.'
+            exit 0
+          fi
+          printf '%s\n' "$changes"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            raw/release-assets/backend-docs/MANIFEST.json \
+            raw/release-assets/backend-docs/CONTENT_INDEX.json \
+            raw/release-assets/backend-docs/MERGE_PLAN.json \
+            raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json \
+            docs/RELEASE_ASSET_INGESTION_REPORT.md \
+            docs/RELEASE_ASSET_CONTENT_PROFILE.md \
+            docs/RELEASE_ASSET_MERGE_PLAN.md \
+            docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md
+          git commit -m 'chore: snapshot backend docs asset inventory and Human source inspection'
+          git push origin HEAD:${GITHUB_REF_NAME}

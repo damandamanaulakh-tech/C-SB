@@ -1,0 +1,72 @@
+name: Human-2560 release source inspection
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - chore/release-assets-ingestion
+    paths:
+      - .github/workflows/human-source-inspection.yml
+      - tools/inspect_human_source_workbook.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: human-source-inspection-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python -m pip install --disable-pip-version-check openpyxl
+
+      - name: Inspect candidate source workbooks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/inspect_human_source_workbook.py
+
+      - name: Validate inspection
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json')
+          data = json.loads(p.read_text())
+          assert data['candidates']
+          exact = [c for c in data['candidates'] if c['workbook_parameter_id_set_exact_0001_2560']]
+          assert exact, 'no workbook contains exact SB-ASI-P0001..P2560 set'
+          print(json.dumps([
+            {
+              'name': c['name'],
+              'parameter_ids': c['workbook_unique_parameter_ids'],
+              'full_2560': c['workbook_parameter_id_set_exact_0001_2560'],
+              'containers': c['workbook_container_count'],
+              'segments': c['workbook_segment_count'],
+            }
+            for c in data['candidates']
+          ], indent=2))
+          PY
+
+      - name: Commit inspection snapshot
+        run: |
+          changes="$(git status --porcelain -- raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md)"
+          if [ -z "$changes" ]; then
+            echo 'Inspection unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md
+          git commit -m 'chore: snapshot Human-2560 release source inspection'
+          git push origin HEAD:${GITHUB_REF_NAME}
