@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: sourceborn-urr-orchestrator
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: false
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SOURCEBORN_API_KEY
+        sync: false
+      - key: TRUST_PROXY
+        value: "1"
