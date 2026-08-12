@@ -1,0 +1,26 @@
+{
+  "checkpoint_id": "P2-EXPANSION-2561-2592-DOMAIN-CHECKPOINT-V1",
+  "checkpoint_type": "SOURCE_PARAMETER_DOMAIN_CLASSIFICATION_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "source_registry": "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+  "domain_binding": "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+  "validator": "tools/validate_expansion_2561_2592_domain_bindings_v1.py",
+  "validated_workflow_run": 31643789127,
+  "result": {
+    "source_parameters": 32,
+    "source_ids": "SB-ASI-P2561..SB-ASI-P2592",
+    "validator_status": "PASS",
+    "source_rewrites": 0
+  },
+  "ownership_boundaries": [
+    "SB-ASI-P2561..P2571 remain Human-primary state/motive parameters.",
+    "SB-ASI-P2572..P2574 are Human-AI interfaces; Human state remains Human-owned and AI owns only detection/modelling mechanisms.",
+    "SB-ASI-P2575..P2592 are individually classified across Universal Sequence control, AI cognition, ASI epistemic governance, Human/social state and shared truth/uncertainty roles.",
+    "Synthetic/counterfactual parameters cannot overwrite source reality.",
+    "Unknown/orphan/contradiction states remain explicit rather than receiving invented fills.",
+    "ASI may govern epistemic promotion and authority but cannot manufacture evidence."
+  ],
+  "next_sequence": "P2-HUMAN-P0001-P2560-EXACT-SOURCE-MATERIALIZATION-01"
+}
