@@ -65,6 +65,8 @@ jobs:
         run: python tools/run_phase2_multi_rubric_integration_001.py
       - name: Run Actor View leakage R-F-R 001
         run: python tools/run_phase2_actor_view_leakage_001.py
+      - name: Run closure scope inheritance R-F-R 001
+        run: python tools/run_phase2_closure_scope_inheritance_001.py
       - name: Validate locked invariants
         run: python tools/validate_repo.py
       - name: Commit regenerated indexes and assembled docs
