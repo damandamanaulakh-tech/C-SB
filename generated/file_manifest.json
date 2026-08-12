@@ -370,6 +370,11 @@
     "size_bytes": 1203
   },
   {
+    "path": "phase2/checkpoints/P2_WISDOM_SOURCE_INGESTION_CHECKPOINT_V1.json",
+    "sha256": "09de770d4e39d1637acf39404165e7217903834a676c7ec4979f3de9619e5182",
+    "size_bytes": 1358
+  },
+  {
     "path": "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
     "sha256": "d12939de65380967bd4223c81f31a02011dc988bb5ec96604e671c790a87eda7",
     "size_bytes": 1440
@@ -723,6 +728,11 @@
     "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
     "sha256": "9a3cb16ff648233ecff6d203d79f0a0ffbacceda222975490246e5542ed7561f",
     "size_bytes": 1886
+  },
+  {
+    "path": "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
+    "sha256": "39c47cf64426aca24a496fec2ca84659aaf03c4550866405ce858b92096c637c",
+    "size_bytes": 3934
   },
   {
     "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
