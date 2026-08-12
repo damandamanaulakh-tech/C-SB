@@ -75,6 +75,11 @@
     "size_bytes": 11836
   },
   {
+    "path": "tools/generate_ai_new_64_runtime_routes_v2.py",
+    "sha256": "5b43e98c91ed7e3bf511fd49b167462f1dee567e5d915232027a1f1e3dc6ef9e",
+    "size_bytes": 4970
+  },
+  {
     "path": "tools/relink_and_index.py",
     "sha256": "75715dd5a17641d93c08f2939d8ace440373c4e2ea69a46c1bdaec91843617d7",
     "size_bytes": 3295
