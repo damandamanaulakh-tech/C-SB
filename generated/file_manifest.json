@@ -270,6 +270,11 @@
     "size_bytes": 6164
   },
   {
+    "path": "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
+    "sha256": "efe44cc06e5e66f9e4a571eecd82f1fba74ff549830dd4db426dc4a0ebeba488",
+    "size_bytes": 4985
+  },
+  {
     "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
     "sha256": "0134c9f5e927e3cfc696cf1acf668a51c82ed3a6209e34ad26192343f861e509",
     "size_bytes": 4505
