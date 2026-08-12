@@ -1,0 +1,17 @@
+{
+  "test_id": "P2-AI-ASI-NATIVE-RUNTIME-VIEWS-01",
+  "status": "TRIGGER_RFR",
+  "declared_end": "Generate source-preserving AI runtime and ASI governance interface views for AI-NEW-001..064 and attack them for orphan, governance-path, overlap and mapping-breadth failure.",
+  "generators": [
+    "tools/generate_ai_new_64_structural_decomposition_v1.py",
+    "tools/generate_ai_asi_native_runtime_views_v1.py"
+  ],
+  "attack": "tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py",
+  "guards": [
+    "AI-NEW remains AI source identity",
+    "ASI segment definitions come only from ASI_RUBRIC_V0",
+    "AI-NEW appears in ASI view only as governed interface reference",
+    "Engine source gaps remain gaps",
+    "Overlap does not auto-merge approved source records"
+  ]
+}
