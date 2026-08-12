@@ -1,0 +1,169 @@
+{
+  "report_id": "P2-MULTI-RUBRIC-INTEGRATION-RFR-V1",
+  "status": "PASS",
+  "scope_note": "Synthetic architecture test of one Sequence with Human + AI + source-linked Wisdom + ASI simultaneously active. It does not perform a real submission or claim external acceptance.",
+  "summary": {
+    "variants": 4,
+    "pass": 4,
+    "fail": 0,
+    "errors": 0,
+    "findings": 0
+  },
+  "pass0": {
+    "declared_end": "Determine and execute only the legal local submission path, then close the local submission scope without fabricating the external acceptance result.",
+    "scope": "Synthetic research-artifact submission to TEST_SUBMISSION_TOOL; no real external action.",
+    "closure_scope": "synthetic local submission control behavior; not real submission or external acceptance"
+  },
+  "pass1": {
+    "bad_human_refs": [],
+    "bad_ai_refs": [],
+    "bad_ai_only_refs": [],
+    "bad_wisdom_refs": [],
+    "bad_asi_refs": [],
+    "bad_node_refs": []
+  },
+  "pass2": {
+    "actor_view_before": {
+      "known_wisdom_refs": []
+    },
+    "actor_view_after_communication": {
+      "known_wisdom_refs": [
+        "W-BG-001",
+        "W-BG-002",
+        "W-BG-003"
+      ]
+    },
+    "variants": [
+      {
+        "variant_id": "MRI-DENIED",
+        "status": "PASS",
+        "edge_fired": false,
+        "human_authorization": "DENIED",
+        "artifact_complete": true,
+        "privacy_check": "PASS",
+        "provenance_check": "PASS",
+        "parent_status": "CLOSED_SUCCESS",
+        "local_result": "NOT_SUBMITTED_BY_EXPLICIT_AUTHORIZATION_DECISION",
+        "local_closure": "CLOSED_SUCCESS",
+        "external_acceptance_outcome": "UNKNOWN",
+        "seed": null,
+        "opened_sub_sequence": null,
+        "events": [
+          "MULTI_RUBRIC_ACTIVATION",
+          "AI_MECHANISM_ROUTED",
+          "WISDOM_RETRIEVED_AS_ADVISORY",
+          "SOURCE_LINKED_WISDOM_ADVISORY_PRESENTED",
+          "HUMAN_ACTOR_VIEW_UPDATED_BY_COMMUNICATION_EVENT",
+          "ASI_GOVERNANCE_CHECK",
+          "SUBMISSION_THRESHOLD_EVALUATED",
+          "SUBMISSION_EDGE_BLOCKED_BY_AUTHORIZATION",
+          "LOCAL_DECISION_RECORDED_NO_SUBMISSION"
+        ],
+        "hard_failures": []
+      },
+      {
+        "variant_id": "MRI-GRANTED-COMPLETE",
+        "status": "PASS",
+        "edge_fired": true,
+        "human_authorization": "GRANTED",
+        "artifact_complete": true,
+        "privacy_check": "PASS",
+        "provenance_check": "PASS",
+        "parent_status": "CLOSED_SUCCESS",
+        "local_result": "SUBMITTED",
+        "local_closure": "CLOSED_SUCCESS",
+        "external_acceptance_outcome": "UNKNOWN",
+        "seed": "AWAIT_EXTERNAL_SUBMISSION_DECISION",
+        "opened_sub_sequence": null,
+        "events": [
+          "MULTI_RUBRIC_ACTIVATION",
+          "AI_MECHANISM_ROUTED",
+          "WISDOM_RETRIEVED_AS_ADVISORY",
+          "SOURCE_LINKED_WISDOM_ADVISORY_PRESENTED",
+          "HUMAN_ACTOR_VIEW_UPDATED_BY_COMMUNICATION_EVENT",
+          "ASI_GOVERNANCE_CHECK",
+          "SUBMISSION_THRESHOLD_EVALUATED",
+          "SUBMISSION_EDGE_FIRED",
+          "LOCAL_RESULT_SUBMITTED",
+          "LOCAL_SEQUENCE_CLOSED_SUCCESS",
+          "FUTURE_OUTCOME_SEED_CREATED"
+        ],
+        "hard_failures": []
+      },
+      {
+        "variant_id": "MRI-GRANTED-INCOMPLETE",
+        "status": "PASS",
+        "edge_fired": false,
+        "human_authorization": "GRANTED",
+        "artifact_complete": false,
+        "privacy_check": "PASS",
+        "provenance_check": "PASS",
+        "parent_status": "WAITING_FOR_RETURN",
+        "local_result": null,
+        "local_closure": null,
+        "external_acceptance_outcome": "UNKNOWN",
+        "seed": null,
+        "opened_sub_sequence": "REMEDIATION_AND_REVERIFY",
+        "events": [
+          "MULTI_RUBRIC_ACTIVATION",
+          "AI_MECHANISM_ROUTED",
+          "WISDOM_RETRIEVED_AS_ADVISORY",
+          "SOURCE_LINKED_WISDOM_ADVISORY_PRESENTED",
+          "HUMAN_ACTOR_VIEW_UPDATED_BY_COMMUNICATION_EVENT",
+          "ASI_GOVERNANCE_CHECK",
+          "SUBMISSION_THRESHOLD_EVALUATED",
+          "BARRIER_BLOCKED_INCOMPLETE",
+          "OPEN_REMEDIATION_SUB_SEQUENCE",
+          "PARENT_WAITING_FOR_RETURN"
+        ],
+        "hard_failures": []
+      },
+      {
+        "variant_id": "MRI-GRANTED-PROVENANCE-FAIL",
+        "status": "PASS",
+        "edge_fired": false,
+        "human_authorization": "GRANTED",
+        "artifact_complete": true,
+        "privacy_check": "PASS",
+        "provenance_check": "FAIL",
+        "parent_status": "WAITING_FOR_RETURN_OR_BLOCKED",
+        "local_result": null,
+        "local_closure": null,
+        "external_acceptance_outcome": "UNKNOWN",
+        "seed": null,
+        "opened_sub_sequence": "PROVENANCE_REPAIR_OR_SOURCE_REVIEW",
+        "events": [
+          "MULTI_RUBRIC_ACTIVATION",
+          "AI_MECHANISM_ROUTED",
+          "WISDOM_RETRIEVED_AS_ADVISORY",
+          "SOURCE_LINKED_WISDOM_ADVISORY_PRESENTED",
+          "HUMAN_ACTOR_VIEW_UPDATED_BY_COMMUNICATION_EVENT",
+          "ASI_GOVERNANCE_CHECK",
+          "SUBMISSION_THRESHOLD_EVALUATED",
+          "BARRIER_BLOCKED_PROVENANCE",
+          "OPEN_PROVENANCE_REPAIR_OR_SOURCE_REVIEW",
+          "PARENT_WAITING_OR_BLOCKED"
+        ],
+        "hard_failures": []
+      }
+    ]
+  },
+  "pass3": {
+    "invariant_checks": {
+      "HUMAN_REFERENCES_SOURCE_BOUND": true,
+      "AI_REFERENCES_SOURCE_BOUND": true,
+      "WISDOM_REFERENCES_SOURCE_BOUND": true,
+      "ASI_REFERENCES_SOURCE_BOUND": true,
+      "ACTOR_VIEW_NOT_PRELOADED_WITH_GLOBAL_WISDOM": true,
+      "WISDOM_ENTERS_ACTOR_VIEW_ONLY_AFTER_COMMUNICATION_EVENT": true,
+      "WISDOM_NOT_ACTION_THRESHOLD": true,
+      "AI_TOOL_SELECTION_NOT_AUTHORIZATION": true,
+      "DENIED_AUTHORIZATION_BLOCKS_ACTION": true,
+      "INCOMPLETE_ARTIFACT_OPENS_SUB_SEQUENCE": true,
+      "FAILED_PROVENANCE_BLOCKS_ACTION": true,
+      "LOCAL_SUBMISSION_CLOSURE_DOES_NOT_FABRICATE_EXTERNAL_OUTCOME": true
+    },
+    "errors": [],
+    "findings": []
+  }
+}
