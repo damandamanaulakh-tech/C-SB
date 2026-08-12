@@ -415,6 +415,11 @@
     "size_bytes": 5280
   },
   {
+    "path": "phase2/wisdom/BG_2_47_2_50_APPLICABILITY_COUNTERCASES_V1.json",
+    "sha256": "de2fc9138791556b11ca44adcb02dec961a481a26626a42cc5ed90e68c188c47",
+    "size_bytes": 4428
+  },
+  {
     "path": "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
     "sha256": "4d4a8c47b57a94012ad327fdecac3f2736a6439a5ddc6dce01a0228b4bf7275f",
     "size_bytes": 10272

@@ -2588,6 +2588,7 @@
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/wisdom/BG_2_47_2_50_APPLICABILITY_COUNTERCASES_V1.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
