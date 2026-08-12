@@ -1,0 +1,89 @@
+{
+  "claim_batch_id": "W-CLAIM-BG-02-047-050-V1",
+  "status": "SOURCE_CLAIMS_EXTRACTED_TRANSLATION_DEPENDENT",
+  "source_batch": "raw/wisdom/BHAGAVAD_GITA_2_47_2_50_SOURCE_V1.json",
+  "claim_rule": "A claim is not the source text. Each English semantic rendering below is a linguistic/translation-dependent claim linked to exact Sanskrit source records and remains challengeable.",
+  "claims": [
+    {
+      "source_claim_id": "W-CLAIM-BG-001",
+      "source_refs": ["W-SRC-BG-2.47"],
+      "claim_type": "LINGUISTIC_SEMANTIC_CLAIM",
+      "semantic_rendering": "The verse associates the addressee's adhikara with action (karma) and negates such entitlement/claim with respect to fruits/results (phala).",
+      "key_terms": ["adhikara", "karma", "phala"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "HIGH_ON_RELATION_LOW_ON_TOTAL_DOCTRINAL_MEANING"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-002",
+      "source_refs": ["W-SRC-BG-2.47"],
+      "claim_type": "LINGUISTIC_SEMANTIC_CLAIM",
+      "semantic_rendering": "The verse warns against making the fruit/result of action the operative cause or motive-position of action.",
+      "key_terms": ["karma-phala", "hetu"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-003",
+      "source_refs": ["W-SRC-BG-2.47"],
+      "claim_type": "LINGUISTIC_SEMANTIC_CLAIM",
+      "semantic_rendering": "The verse also rejects attachment to inaction/non-action.",
+      "key_terms": ["sanga", "akarman"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "HIGH"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-004",
+      "source_refs": ["W-SRC-BG-2.48"],
+      "claim_type": "LINGUISTIC_SEMANTIC_CLAIM",
+      "semantic_rendering": "The verse connects acting with relinquishment of attachment and with an even stance toward success and failure.",
+      "key_terms": ["sanga", "siddhi", "asiddhi", "samatva"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "HIGH"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-005",
+      "source_refs": ["W-SRC-BG-2.48"],
+      "claim_type": "TEXTUAL_DEFINITION_CLAIM",
+      "semantic_rendering": "The verse explicitly associates samatva/equanimity with yoga.",
+      "key_terms": ["samatva", "yoga"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "HIGH"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-006",
+      "source_refs": ["W-SRC-BG-2.49"],
+      "claim_type": "COMPARATIVE_SEMANTIC_CLAIM",
+      "semantic_rendering": "The verse contrasts action framed around fruits/results unfavorably with buddhi-yoga and directs the addressee toward refuge in buddhi/discernment.",
+      "key_terms": ["buddhi-yoga", "phala-hetu", "buddhi"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-007",
+      "source_refs": ["W-SRC-BG-2.50"],
+      "claim_type": "LINGUISTIC_SEMANTIC_CLAIM",
+      "semantic_rendering": "The verse presents buddhi joined with yoga as changing the agent's relation to good and bad results/consequences and directs the addressee to engage in yoga.",
+      "key_terms": ["buddhi-yukta", "sukrita", "dushkrita", "yoga"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "MEDIUM"
+    },
+    {
+      "source_claim_id": "W-CLAIM-BG-008",
+      "source_refs": ["W-SRC-BG-2.50"],
+      "claim_type": "TEXTUAL_DEFINITION_CLAIM",
+      "semantic_rendering": "The verse characterizes yoga as kaushala in action; the precise semantic range of kaushala is interpretation-dependent and must not be flattened to a single modern meaning without review.",
+      "key_terms": ["yoga", "karma", "kaushala"],
+      "epistemic_status": "TRANSLATION_DEPENDENT",
+      "confidence": "HIGH_ON_TEXTUAL_RELATION_MEDIUM_ON_GLOSS"
+    }
+  ],
+  "explicit_non_claims": [
+    "The source batch does not say that outcomes are irrelevant.",
+    "The source batch does not by itself authorize every available action.",
+    "The source batch does not erase law, role, safety, evidence, consequence monitoring or accountability.",
+    "The source batch does not establish one universal interpretation across all traditions.",
+    "The source batch does not prove that equanimity means emotional suppression.",
+    "The source batch does not permit ASI governance to treat Wisdom as source truth."
+  ],
+  "next_layer": "INTERPRETATION_RECORDS"
+}
