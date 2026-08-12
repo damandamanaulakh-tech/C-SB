@@ -1,0 +1,101 @@
+{
+  "fixture_id": "P2-CLOSURE-SCOPE-001",
+  "fixture_type": "SYNTHETIC_CONTROLLED_SEQUENCE_CASE",
+  "fixture_is_source_fact": false,
+  "declared_end": "Verify that local closure returns usable results upward without automatically closing higher-scope Sequences, and that every scope closes only against its own contract.",
+  "scope_hierarchy": [
+    {
+      "sequence_id": "S-PROJECT-001",
+      "closure_scope": "PROJECT",
+      "contract": "PROJECT_RESULT_A and PROJECT_RESULT_B accepted"
+    },
+    {
+      "sequence_id": "S-PROMISE-001",
+      "closure_scope": "PROMISE",
+      "parent_sequence_id": "S-PROJECT-001",
+      "contract": "ACTION_RESULT accepted and PROMISE_CONFIRMATION complete"
+    },
+    {
+      "sequence_id": "S-ACTION-001",
+      "closure_scope": "ACTION",
+      "parent_sequence_id": "S-PROMISE-001",
+      "contract": "LOCAL_ACTION performed and verified"
+    }
+  ],
+  "required_return_routes": [
+    {
+      "from": "S-ACTION-001",
+      "to": "S-PROMISE-001",
+      "return_key": "ACTION_RESULT"
+    },
+    {
+      "from": "S-PROMISE-001",
+      "to": "S-PROJECT-001",
+      "return_key": "PROJECT_RESULT_A"
+    }
+  ],
+  "project_result_b_source": "S-INDEPENDENT-001",
+  "variants": [
+    {
+      "variant_id": "CS-ACTION-CLOSED-RETURN-UNACCEPTED",
+      "action_terminal": true,
+      "action_return_accepted": false,
+      "promise_confirmation": false,
+      "promise_return_accepted": false,
+      "project_result_b_accepted": false,
+      "expected": {
+        "action": "CLOSED_SUCCESS",
+        "promise": "WAITING_FOR_RETURN",
+        "project": "OPEN"
+      }
+    },
+    {
+      "variant_id": "CS-ACTION-RETURN-ACCEPTED-PROMISE-INCOMPLETE",
+      "action_terminal": true,
+      "action_return_accepted": true,
+      "promise_confirmation": false,
+      "promise_return_accepted": false,
+      "project_result_b_accepted": false,
+      "expected": {
+        "action": "CLOSED_SUCCESS",
+        "promise": "OPEN",
+        "project": "OPEN"
+      }
+    },
+    {
+      "variant_id": "CS-PROMISE-CLOSED-PROJECT-INCOMPLETE",
+      "action_terminal": true,
+      "action_return_accepted": true,
+      "promise_confirmation": true,
+      "promise_return_accepted": true,
+      "project_result_b_accepted": false,
+      "expected": {
+        "action": "CLOSED_SUCCESS",
+        "promise": "CLOSED_SUCCESS",
+        "project": "OPEN"
+      }
+    },
+    {
+      "variant_id": "CS-ALL-REQUIRED-RESULTS-ACCEPTED",
+      "action_terminal": true,
+      "action_return_accepted": true,
+      "promise_confirmation": true,
+      "promise_return_accepted": true,
+      "project_result_b_accepted": true,
+      "expected": {
+        "action": "CLOSED_SUCCESS",
+        "promise": "CLOSED_SUCCESS",
+        "project": "CLOSED_SUCCESS"
+      }
+    }
+  ],
+  "hard_invariants": [
+    "Closure status is scoped to one Sequence contract.",
+    "Lower-scope CLOSED_SUCCESS never directly sets parent closure status.",
+    "A closed Sub-Sequence contributes a return packet; the parent must accept the return and re-evaluate its own contract.",
+    "Parent may remain OPEN or WAITING_FOR_RETURN while a required lower scope is already closed.",
+    "Higher-scope closure requires every required result for that scope, including independent parallel results.",
+    "Closed lower-scope Sequences never reopen when the parent continues.",
+    "Closure scope and entity outcome remain orthogonal."
+  ]
+}
