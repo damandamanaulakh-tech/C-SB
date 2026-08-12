@@ -13,6 +13,29 @@ import { optionalToolRagStage } from './12-optional-tool-rag/index.js';
 import { memorySessionUpdateStage } from './13-memory-session-update/index.js';
 import { feedbackTrainingStage } from './14-feedback-training/index.js';
 
+export const BRAIN_ARCHITECTURE = Object.freeze({
+  id: 'sourceborn-llm-brain-walkthrough-v1',
+  stageCount: 14,
+  stages: [
+    { id: 1, slug: 'user-input', owner: 'sourceborn' },
+    { id: 2, slug: 'preprocessing', owner: 'sourceborn' },
+    { id: 3, slug: 'tokenization', owner: 'sourceborn-boundary' },
+    { id: 4, slug: 'embeddings-position', owner: 'model-adapter' },
+    { id: 5, slug: 'context-window', owner: 'sourceborn' },
+    { id: 6, slug: 'llm-brain', owner: 'model-internal' },
+    { id: 7, slug: 'attention-flow', owner: 'model-internal' },
+    { id: 8, slug: 'next-token-prediction', owner: 'model-internal' },
+    { id: 9, slug: 'decoding', owner: 'model-adapter' },
+    { id: 10, slug: 'loop', owner: 'sourceborn' },
+    { id: 11, slug: 'output', owner: 'sourceborn' },
+    { id: 12, slug: 'optional-tool-rag', owner: 'sourceborn' },
+    { id: 13, slug: 'memory-session-update', owner: 'sourceborn' },
+    { id: 14, slug: 'feedback-training', owner: 'sourceborn-boundary' },
+  ],
+  inputs: ['prompt', 'files-docs', 'images', 'tool-results', 'history'],
+  outputs: ['answers', 'plans-ideas', 'code', 'charts-tables', 'tool-actions', 'audio-image'],
+});
+
 export function runBrainWalkthrough({
   message = '',
   mode = 'standard',
@@ -45,7 +68,7 @@ export function runBrainWalkthrough({
   const stages = [s01,s02,s03,s04,s05,s06,s07,s08,s09,s10,s11,s12,s13,s14];
 
   return {
-    architecture: 'sourceborn-llm-brain-walkthrough-v1',
+    architecture: BRAIN_ARCHITECTURE.id,
     stageCount: stages.length,
     stages,
     stageMap: Object.fromEntries(stages.map((stage) => [String(stage.id).padStart(2, '0'), stage])),

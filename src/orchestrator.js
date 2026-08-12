@@ -104,7 +104,16 @@ function buildPublicAnswer(fragments, claimLedger, loopRoute) {
   };
 }
 
-export function orchestrate({ message = '', mode = 'standard', repositoryContext = null } = {}) {
+export function orchestrate({
+  message = '',
+  mode = 'standard',
+  repositoryContext = null,
+  files = [],
+  images = [],
+  toolResults = [],
+  history = [],
+  feedback = null,
+} = {}) {
   const rawSource = String(message ?? '');
   const runId = createRunId();
   const rawSourceId = `raw_${checksum(`${runId}:${rawSource}`).slice(0, 16)}`;
@@ -128,6 +137,11 @@ export function orchestrate({ message = '', mode = 'standard', repositoryContext
     modelOutput: publicOutput.answer,
     urrRoute: loopRoute.route,
     proofDebtOpen: loopRoute.route === 'proof-loop',
+    files,
+    images,
+    toolResults,
+    history,
+    feedback,
     runId,
   });
 
