@@ -230,6 +230,11 @@
     "size_bytes": 3380
   },
   {
+    "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
+    "sha256": "ddc1e2be036681c3c0c089674910daede8dfa4640906acd7a024455e6034dc01",
+    "size_bytes": 3410
+  },
+  {
     "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
     "sha256": "8b6b118421693a51eed42d9ef92fc05525877c159d4e475ba26c5f98ee1a7e15",
     "size_bytes": 4648
