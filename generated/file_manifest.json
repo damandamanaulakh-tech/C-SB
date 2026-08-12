@@ -718,5 +718,10 @@
     "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-01.b64",
     "sha256": "7705dd84ca11e61e2b8e545e8c089492ec2e59019f7b202962599f770d1264e3",
     "size_bytes": 10000
+  },
+  {
+    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-02.b64",
+    "sha256": "de1e94cdb862a208e1ff5b6751c7ae63b37686762da0acacf0204f31492e3924",
+    "size_bytes": 12000
   }
 ]
