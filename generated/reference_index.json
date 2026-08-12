@@ -1958,6 +1958,7 @@
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
       "tools/generate_ai_new_64_structural_decomposition_v1.py",
+      "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "AI-NEW-064": [
