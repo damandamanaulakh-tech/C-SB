@@ -1,0 +1,37 @@
+{
+  "checkpoint_id": "P2-AI-ASI-OPERATIONAL-PARAMETER-SPINE-CHECKPOINT-V1",
+  "checkpoint_type": "PARAMETER_SOURCE_EXTRACTION_AND_MULTI_OWNER_BINDING_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "source_registry": "generated/registry_views/operational_subparameters_2593_3072_v1.json",
+  "ownership_contract": "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
+  "generated_binding_registry": "generated/registry_views/ai_asi_operational_parameter_bindings_v1.json",
+  "result": {
+    "source_parameter_instances": 480,
+    "reusable_operational_archetypes": 48,
+    "functional_domain_roles": {
+      "AI_PRIMARY": 180,
+      "AI_PRIMARY_UNDER_ASI_PERMISSION": 60,
+      "SHARED_AI_ASI": 180,
+      "ASI_PRIMARY": 60
+    },
+    "runtime_operation_owners": {
+      "UNIVERSAL_SEQUENCE_CONTROL_PLANE": 80,
+      "SOURCEBORN_DOMAIN_MECHANISM": 160,
+      "SOURCEBORN_STATE_PLUS_EPISTEMIC_CONTROL": 80,
+      "UNIVERSAL_SEQUENCE_PLUS_ASI_CONTROL": 160
+    }
+  },
+  "closed_invariants": [
+    "All SB-ASI-P2593..SB-ASI-P3072 source identities remain Sourceborn-owned source records.",
+    "AI/ASI/Sequence bindings are additive and do not rename source parameter IDs.",
+    "Eight operational elements x six local operations produce exactly 48 archetypes.",
+    "Every archetype has exactly ten segment-context instances.",
+    "AI execution remains under ASI permission where applicable.",
+    "Universal Sequence control-plane ownership remains separate from AI cognition and ASI meta-governance.",
+    "Failure/repair and validated return/commit operations preserve no-reopen, no-in-place-retry and parent re-evaluation laws."
+  ],
+  "architecture_conclusion": "The approved 480-row operational layer is not a pure AI or pure ASI parameter registry. It is a Sourceborn runtime spine carrying AI functions, ASI governance interfaces, and Universal Sequence control operations simultaneously.",
+  "next_sequence": "P2-EXPANSION-P2561-P2592-DOMAIN-CLASSIFICATION-01"
+}
