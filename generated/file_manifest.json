@@ -395,6 +395,11 @@
     "size_bytes": 1458
   },
   {
+    "path": "phase2/closures/P2_AI_ASI_NATIVE_RUNTIME_VIEWS_CLOSURE_V2.json",
+    "sha256": "fa6160ab62408c6a29a602edb92ee9b03e5e25a321f44882a542af3752c88d89",
+    "size_bytes": 2494
+  },
+  {
     "path": "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md",
     "sha256": "a181725d9686765e5b99d353e22fc2c78cda7e4f364402967c89ba07d4f6e803",
     "size_bytes": 6359

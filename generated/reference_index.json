@@ -1955,6 +1955,7 @@
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "phase2/closures/P2_AI_ASI_NATIVE_RUNTIME_VIEWS_CLOSURE_V2.json",
       "phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json",
       "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
