@@ -2308,6 +2308,102 @@
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ]
   },
+  "wisdom_source_batches": {
+    "WIS-SRC-BATCH-001": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+    ]
+  },
+  "wisdom_source_text_ids": {
+    "WST-001": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+    ],
+    "WST-002": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+    ],
+    "WST-003": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+    ],
+    "WST-004": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+    ],
+    "WST-005": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+    ]
+  },
+  "wisdom_source_claim_ids": {
+    "WSC-001": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSC-002": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSC-003": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSC-004": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSC-005": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ]
+  },
+  "wisdom_interpretation_ids": {
+    "WINT-001": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WINT-002": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WINT-003": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WINT-004": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WINT-005": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ]
+  },
+  "wisdom_sequence_ids": {
+    "WSEQ-001": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSEQ-002": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSEQ-003": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSEQ-004": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WSEQ-005": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ]
+  },
+  "wisdom_candidate_ids": {
+    "WIS-CAND-001": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WIS-CAND-002": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WIS-CAND-003": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WIS-CAND-004": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ],
+    "WIS-CAND-005": [
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+    ]
+  },
   "asi_rubric_segments": {
     "ASI-01": [
       "phase2/TASK_QUEUE.md",

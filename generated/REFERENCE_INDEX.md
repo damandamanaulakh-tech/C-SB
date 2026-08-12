@@ -528,6 +528,50 @@
 - **W-14** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
 - **W-15** → `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
 
+## Wisdom Source Batches
+
+- **WIS-SRC-BATCH-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+
+## Wisdom Source Text Ids
+
+- **WST-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+- **WST-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+- **WST-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+- **WST-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+- **WST-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+
+## Wisdom Source Claim Ids
+
+- **WSC-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSC-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSC-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSC-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSC-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+
+## Wisdom Interpretation Ids
+
+- **WINT-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WINT-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WINT-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WINT-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WINT-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+
+## Wisdom Sequence Ids
+
+- **WSEQ-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSEQ-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSEQ-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSEQ-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSEQ-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+
+## Wisdom Candidate Ids
+
+- **WIS-CAND-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WIS-CAND-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WIS-CAND-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WIS-CAND-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WIS-CAND-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+
 ## Asi Rubric Segments
 
 - **ASI-01** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`, `tools/validate_repo.py`

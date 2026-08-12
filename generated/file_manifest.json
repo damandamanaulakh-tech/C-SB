@@ -56,8 +56,8 @@
   },
   {
     "path": "tools/relink_and_index.py",
-    "sha256": "ec3d7014d61249c253fe75c4829e11008f56c9dfebac28288e0c5b21a8fe7efa",
-    "size_bytes": 2920
+    "sha256": "75715dd5a17641d93c08f2939d8ace440373c4e2ea69a46c1bdaec91843617d7",
+    "size_bytes": 3295
   },
   {
     "path": "tools/generate_registry_views.py",
