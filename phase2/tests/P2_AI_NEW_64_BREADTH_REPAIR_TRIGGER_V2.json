@@ -1,0 +1,19 @@
+{
+  "test_id": "P2-AI-NEW-64-BREADTH-REPAIR-02",
+  "status": "TRIGGER_RFR",
+  "declared_end": "Repair exactly the 17 over-broad AI-NEW primary runtime routes while retaining source identity, secondary inherited lineage and explicit Engine gaps.",
+  "finding_source": "generated/tests/P2_AI_NEW_64_ORPHAN_OVERLAP_ATTACK_V1.json",
+  "patch": "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+  "generator": "tools/generate_ai_new_64_runtime_routes_v2.py",
+  "validator": "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py",
+  "guards": [
+    "Exactly 17 records repaired",
+    "Unflagged 47 routes unchanged",
+    "Broad lineage retained as secondary context",
+    "Primary AI/ASI/node breadth reduced",
+    "64 Engine source gaps preserved",
+    "Retry remains a repair Sub-Sequence policy",
+    "Safety route remains non-authoritative",
+    "User correction remains explicit write-back rather than model-weight self-update"
+  ]
+}
