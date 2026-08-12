@@ -230,6 +230,11 @@
     "size_bytes": 5422
   },
   {
+    "path": "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+    "sha256": "dc74ad266c95324ba84a810604ba8384d45469cd38abca7f823057aace312ecb",
+    "size_bytes": 2627
+  },
+  {
     "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
     "sha256": "559fb00e133aa1967e359f72d01e5f7a188278aac1ea8d3ed79770c8588a81c0",
     "size_bytes": 3380
