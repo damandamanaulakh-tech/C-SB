@@ -495,6 +495,11 @@
     "size_bytes": 1239
   },
   {
+    "path": "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
+    "sha256": "d12939de65380967bd4223c81f31a02011dc988bb5ec96604e671c790a87eda7",
+    "size_bytes": 1440
+  },
+  {
     "path": "phase2/checkpoints/P2_WISDOM_BATCH_001_CHECKPOINT.json",
     "sha256": "925ee6a79f8d6b14837b1a6269075a313d37884ff72565599d2d626a244b35d9",
     "size_bytes": 1634
