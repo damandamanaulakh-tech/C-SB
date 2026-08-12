@@ -125,7 +125,7 @@ report = {
         "invariant_checks": invariants,
         "wisdom_epistemic_status": w1.get("epistemic_status", []),
         "global_state_final": fx.get("global_state"),
-        "closed_sequence_reopen_used": false
+        "closed_sequence_reopen_used": False
     },
     "errors": errors
 }
