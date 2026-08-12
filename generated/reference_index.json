@@ -1965,6 +1965,31 @@
       "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"
     ],
+    "AI-NEW-014": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py"
+    ],
+    "AI-NEW-021": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py"
+    ],
+    "AI-NEW-041": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py"
+    ],
+    "AI-NEW-061": [
+      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py"
+    ],
     "AI-NEW-064": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
@@ -2035,12 +2060,6 @@
       "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
-    "AI-NEW-014": [
-      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
-      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
     "AI-NEW-015": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
@@ -2066,11 +2085,6 @@
     ],
     "AI-NEW-020": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-021": [
-      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-022": [
@@ -2160,11 +2174,6 @@
       "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
-    "AI-NEW-041": [
-      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
     "AI-NEW-042": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
       "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
@@ -2249,11 +2258,6 @@
     ],
     "AI-NEW-060": [
       "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
-    ],
-    "AI-NEW-061": [
-      "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
-      "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json"
     ],
     "AI-NEW-062": [

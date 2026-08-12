@@ -75,6 +75,11 @@
     "size_bytes": 11836
   },
   {
+    "path": "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py",
+    "sha256": "117caf86fc8456af71dcfbffafaeb43ae60360ff91fd8dda3b8605aac7f66609",
+    "size_bytes": 7344
+  },
+  {
     "path": "tools/generate_ai_new_64_runtime_routes_v2.py",
     "sha256": "5b43e98c91ed7e3bf511fd49b167462f1dee567e5d915232027a1f1e3dc6ef9e",
     "size_bytes": 4970
