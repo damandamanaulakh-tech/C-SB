@@ -100,6 +100,11 @@
     "size_bytes": 6793
   },
   {
+    "path": "tools/generate_ai_asi_operational_parameter_bindings_v1.py",
+    "sha256": "dfe05688b96cac82cf11c07d905c162333e625631533b58a65e7e011db10dcd9",
+    "size_bytes": 4425
+  },
+  {
     "path": "tools/validate_expansion_081_160_v1.py",
     "sha256": "91c066cce7a81d2dd371af42cbc9de956d742a4b2bcdec6444876f613436f8a2",
     "size_bytes": 2391
@@ -168,6 +173,11 @@
     "path": "machine/parameters/SPLIT_OBSERVATION_SCHEMA.json",
     "sha256": "7a604321a302b042356bbed347c04332a3b8fa86225f252b741ddf914fd28c62",
     "size_bytes": 2245
+  },
+  {
+    "path": "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
+    "sha256": "ff6b72bc3d06140f72cc9dcb8f8611c04f299c929e8a3b113fb0801330213960",
+    "size_bytes": 4731
   },
   {
     "path": "machine/schemas/sourceborn.bundle.schema.json",
