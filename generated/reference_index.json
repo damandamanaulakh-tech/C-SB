@@ -2500,41 +2500,49 @@
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json",
       "tools/validate_repo.py"
     ],
     "W-03": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-05": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-09": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-11": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-12": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-13": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-14": [
       "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "registries/wisdom/WISDOM_REGISTRY_V0.json"
     ],
     "W-02": [
@@ -2974,7 +2982,8 @@
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/asi/asi_node_registry.json",
-      "registries/asi/node_brains/NODE_BRAINS_18_21.json"
+      "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json"
     ],
     "ASI-NODE-20": [
       "README.md",
@@ -2999,6 +3008,7 @@
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "tools/run_phase2_behavioral_rfr_v1.py"
     ],
     "ASI-NODE-06": [
@@ -3012,7 +3022,8 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json",
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json"
     ],
     "ASI-NODE-01": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",

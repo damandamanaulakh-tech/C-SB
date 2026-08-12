@@ -1,5 +1,15 @@
 [
   {
+    "path": "package-lock.json",
+    "sha256": "46dad9232319f3530fb8be75ccc6afd3fa8ead4ae4260420e1f3a20bd5eb0919",
+    "size_bytes": 297
+  },
+  {
+    "path": "package.json",
+    "sha256": "e5186b42206071801003c68eb531d8e0d8e5a33afdd0dbb66c6e32f3331ee43e",
+    "size_bytes": 545
+  },
+  {
     "path": "CANONICALITY.json",
     "sha256": "56cd39de1275504d5e255873067648c5a07a8cc75cf685497d04a806583a89ae",
     "size_bytes": 6395
@@ -8,6 +18,16 @@
     "path": "README.md",
     "sha256": "2e1a56dfe3b2ae1dc7eb75e683a1c6bcd228a699fb49c640506007d06a587464",
     "size_bytes": 4769
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "69ef52ee084032912d045b316106c56919037379e8ab14ae46847fe0e7879883",
+    "size_bytes": 44
+  },
+  {
+    "path": "render.yaml",
+    "sha256": "e836204af1442c625730b5f8bd4ae497374eda9de53fd9b4685a1f1a106ef3fb",
+    "size_bytes": 360
   },
   {
     "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
@@ -33,6 +53,21 @@
     "path": "phase1/PHASE1_CLOSURE_PACKET.json",
     "sha256": "331dd8eaffd5a09a4545c2a2e9051a19f5fc3174e616ffa7f7a70528b0f829a7",
     "size_bytes": 2688
+  },
+  {
+    "path": "src/server.js",
+    "sha256": "146f18b1afed687ec67f0eee6988db07b8462228e331d3b2d51594a55f2dc4d8",
+    "size_bytes": 6527
+  },
+  {
+    "path": "src/orchestrator.js",
+    "sha256": "92aa347c609126a990bc70e8fe716c134d5687b60b674dce2b464fa5d5f5d633",
+    "size_bytes": 5391
+  },
+  {
+    "path": "src/repository-context.js",
+    "sha256": "fd03bd3f1fb676a43f4413d44842c43c925889e07581df02e57ab2eb6df6e68f",
+    "size_bytes": 1453
   },
   {
     "path": "tools/generate_rubric_views.py",
@@ -165,6 +200,11 @@
     "size_bytes": 3667
   },
   {
+    "path": "docs/CODEX_ORCHESTRATOR_RECOVERY.md",
+    "sha256": "ad3828af87b227a6ffee110ede0bc96f98416c51535d740bd798375d86152f1f",
+    "size_bytes": 1356
+  },
+  {
     "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
     "sha256": "4d1f350de30fb0260f9e24bf51ad6bf329092d1b5dc04da6d81989e954bcfc5c",
     "size_bytes": 3865
@@ -175,9 +215,24 @@
     "size_bytes": 2459
   },
   {
+    "path": "test/orchestrator.test.js",
+    "sha256": "d6c18b45b02f114512aad451c81fa938eaca9d9eea5550138d43412a50581a20",
+    "size_bytes": 1497
+  },
+  {
+    "path": "test/server.test.js",
+    "sha256": "6f35db7302c34ac9cce2868caa331698c22d6b88d77d1d952928efef8172e0be",
+    "size_bytes": 2859
+  },
+  {
     "path": ".github/workflows/relink-validate.yml",
     "sha256": "cd5cb3218039f8567d135641c5fd8c6d6b1358b23fe61ccbb494415a024be54a",
     "size_bytes": 4072
+  },
+  {
+    "path": ".github/workflows/orchestrator-ci.yml",
+    "sha256": "c04dde1d874b44819a9941ae149e11740371c008f2cb6cf046e735d343b19811",
+    "size_bytes": 665
   },
   {
     "path": ".github/workflows/wisdom-ingestion-rfr.yml",
@@ -723,6 +778,11 @@
     "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
     "sha256": "9a3cb16ff648233ecff6d203d79f0a0ffbacceda222975490246e5542ed7561f",
     "size_bytes": 1886
+  },
+  {
+    "path": "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
+    "sha256": "39c47cf64426aca24a496fec2ca84659aaf03c4550866405ce858b92096c637c",
+    "size_bytes": 3934
   },
   {
     "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
