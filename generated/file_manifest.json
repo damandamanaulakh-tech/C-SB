@@ -335,6 +335,11 @@
     "size_bytes": 1914
   },
   {
+    "path": "phase2/checkpoints/P2_HUMAN_WISDOM_NO_AI_CHECKPOINT_001.json",
+    "sha256": "5a59638137049234478cfba268409b9040743e675f6dfd6c46433c68b22d3b6a",
+    "size_bytes": 1467
+  },
+  {
     "path": "phase2/checkpoints/P2_ACTOR_VIEW_LEAKAGE_CHECKPOINT_001.json",
     "sha256": "1dcb40aa7b9331d30c94c06f4c89880dfd72b3b9d783269243aaf1cf1cf03712",
     "size_bytes": 1239
