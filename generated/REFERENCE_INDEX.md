@@ -382,19 +382,19 @@
 ## Approved Ai Only Records
 
 - **AI-NEW-001** → `phase2/TASK_QUEUE.md`, `phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json`, `phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
-- **AI-NEW-002** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-002** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-003** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-004** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-005** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-006** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-007** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-008** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-009** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-009** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-010** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-011** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/rfr/P2_BEHAVIORAL_RFR_V1.md`, `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/run_phase2_multi_rubric_integration_v1.py`
+- **AI-NEW-011** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `phase2/rfr/P2_BEHAVIORAL_RFR_V1.md`, `phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json`, `phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/run_phase2_multi_rubric_integration_v1.py`
 - **AI-NEW-012** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-013** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-014** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-014** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-015** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-016** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-017** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -406,10 +406,10 @@
 - **AI-NEW-023** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-024** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-025** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-026** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-026** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-027** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-028** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-029** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-029** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-030** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-031** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-032** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
@@ -432,19 +432,19 @@
 - **AI-NEW-049** → `phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json`, `registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-050** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-051** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-052** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-052** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-053** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-054** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-055** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-055** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-056** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-057** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-058** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-058** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-059** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-060** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-061** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
 - **AI-NEW-062** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-063** → `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
-- **AI-NEW-064** → `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
+- **AI-NEW-063** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`
+- **AI-NEW-064** → `machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json`, `phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json`, `registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json`, `tools/validate_brain_engine_adoption_v1.py`
 
 ## Ai Rubric Segments
 
