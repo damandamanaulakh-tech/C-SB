@@ -566,7 +566,7 @@
 
 ## Wisdom Candidate Ids
 
-- **WIS-CAND-001** → `phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
+- **WIS-CAND-001** → `phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_actor_view_leakage_001.py`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WIS-CAND-002** → `phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md`, `phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_multi_rubric_integration_001.py`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WIS-CAND-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WIS-CAND-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
