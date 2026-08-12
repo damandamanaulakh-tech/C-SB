@@ -1,0 +1,57 @@
+{
+  "contract_id": "AI-NEW-64-STRUCTURAL-DECOMPOSITION-CONTRACT-V1",
+  "phase": "PHASE_2",
+  "status": "ADDITIVE_MAPPING_FOR_RFR",
+  "source_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+  "existing_binding_registry": "generated/registry_views/ai_only_64_phase2_bindings_v1.json",
+  "source_preservation_rule": "AI-NEW ID, source name, source structural level and AI-CAP lineage are immutable inputs. Structural decomposition adds runtime metadata only.",
+  "runtime_form_by_source_level": {
+    "Operational parameter": "MECHANISM",
+    "Control parameter": "CONTROL",
+    "Universal filter": "FILTER",
+    "Evidence-control parameter": "EVIDENCE_CONTROL",
+    "Master control parameter": "META_CONTROL",
+    "Operating state": "STATE",
+    "Operating state or parameter": "STATE_OR_MECHANISM_MIXED"
+  },
+  "composite_candidates": {
+    "AI-NEW-002": ["CONTEXT_COMPRESSION", "SEMANTIC_RETENTION"],
+    "AI-NEW-009": ["CACHE_INVALIDATION", "FRESHNESS_CONTROL"],
+    "AI-NEW-011": ["TOOL_SELECTION", "TOOL_AUTHORIZATION"],
+    "AI-NEW-014": ["TOOL_RETRY_POLICY", "TOOL_RECOVERY_POLICY"],
+    "AI-NEW-026": ["AGENT_INTERRUPTION", "ROLLBACK"],
+    "AI-NEW-029": ["FILE_TRANSFER_CONTROL", "MARKER_VERIFICATION"],
+    "AI-NEW-052": ["RECORD_INTEGRITY", "CUSTODY_LEDGER"],
+    "AI-NEW-055": ["LATENCY_MONITORING", "TIME_TO_FIRST_TOKEN_MONITORING"],
+    "AI-NEW-058": ["API_ERROR_INTERPRETATION", "RECOVERY"],
+    "AI-NEW-063": ["VERSIONED_PARAMETER_UPDATE", "VERSIONED_EVIDENCE_UPDATE"],
+    "AI-NEW-064": ["PRODUCTION_ROLLBACK", "RECOVERY"]
+  },
+  "composite_rule": "A composite candidate remains one approved source record. Runtime decomposition is required only when listed components have separate activation, verification or closure conditions; otherwise the source record may execute as one bounded mechanism.",
+  "ownership_derivation": {
+    "MECHANISM": "AI_PRIMARY unless an existing ASI segment/interface is present, then AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+    "CONTROL": "SHARED_AI_ASI_CONTROL when an ASI interface is present; otherwise AI_LOCAL_CONTROL_WITHOUT_PERMISSION_AUTHORITY",
+    "FILTER": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE when an ASI interface is present; otherwise AI_LOCAL_FILTER",
+    "EVIDENCE_CONTROL": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+    "META_CONTROL": "SHARED_AI_ASI_META_CONTROL",
+    "STATE": "AI_RUNTIME_STATE_UNDER_ASI_POLICY when an ASI interface is present; otherwise AI_RUNTIME_STATE",
+    "STATE_OR_MECHANISM_MIXED": "AI_RUNTIME_STATE_OR_MECHANISM_UNDER_EXPLICIT_CALL_CONTRACT"
+  },
+  "authority_guards": [
+    "AI mechanism output is not execution authority.",
+    "AI filter output is not automatically a closure decision.",
+    "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+    "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+    "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+  ],
+  "engine_binding_rule": "No direct Engine ID may be generated from name similarity. Direct Engine binding requires an existing source-derived relation. Otherwise use ENGINE_BINDING_OPEN and preserve operational-element candidates separately as mapping hypotheses.",
+  "sequence_contract_by_runtime_form": {
+    "MECHANISM": {"activation": "task/state trigger plus required inputs", "closure": "mechanism output produced and verified or terminal failure returned"},
+    "CONTROL": {"activation": "control decision requested", "closure": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority"},
+    "FILTER": {"activation": "candidate input/output available for qualification", "closure": "filter verdict plus evidence/provenance returned"},
+    "EVIDENCE_CONTROL": {"activation": "claim/evidence/evaluation state changed", "closure": "evidence-control update verified and ledger write accepted"},
+    "META_CONTROL": {"activation": "cross-record/cross-version control condition", "closure": "bounded governance result returned; no automatic parent closure"},
+    "STATE": {"activation": "state selected or observed", "closure": "state itself does not close a Sequence; consuming edge must close against its own contract"},
+    "STATE_OR_MECHANISM_MIXED": {"activation": "caller declares state-read or mechanism-execution mode", "closure": "mode-specific contract only"}
+  }
+}
