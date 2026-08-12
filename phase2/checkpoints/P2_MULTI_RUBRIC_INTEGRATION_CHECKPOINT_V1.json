@@ -1,0 +1,35 @@
+{
+  "checkpoint_id": "P2-MULTI-RUBRIC-INTEGRATION-CHECKPOINT-V1",
+  "checkpoint_type": "FOUR_DOMAIN_RFR_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "fixture": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+  "rfr_report": "generated/tests/P2_MULTI_RUBRIC_INTEGRATION_RFR_V1.json",
+  "domains_tested": ["HUMAN","AI","WISDOM","ASI"],
+  "variant_result": {"total":4,"pass":4,"fail":0},
+  "proved_within_synthetic_fixture_scope": [
+    "Human container activations, AI mechanisms, source-linked Wisdom and ASI governance can be active on the same Sequence decision node without collapsing their ownership.",
+    "System possession of Wisdom does not preload a Human Actor View; Wisdom enters the Human view only through an explicit communication event.",
+    "Wisdom retrieval/application is not part of the submission execution threshold and cannot grant authorization.",
+    "AI tool selection and preparation do not replace Human authorization or ASI permission/governance.",
+    "Denied Human authorization blocks execution even when AI and Wisdom favor action-readiness.",
+    "Incomplete artifact state opens a remediation/reverify Sub-Sequence and keeps the parent waiting.",
+    "Failed provenance blocks execution and routes to provenance repair/source review.",
+    "A locally successful submission Sequence may close while the external acceptance outcome remains UNKNOWN.",
+    "Local closure creates a future external-decision seed rather than keeping or reopening the closed submission Sequence."
+  ],
+  "non_claims": [
+    "The fixture performs no real submission.",
+    "The test does not prove theological consensus or universal applicability of the bounded Wisdom source.",
+    "The test does not prove AI cognitive quality or real-world safety.",
+    "The test does not close P2-HUMAN, P2-AI, P2-WISDOM, P2-ASI or Phase-2."
+  ],
+  "next_sequences": [
+    "P2-HUMAN-2560-EXACT-MATERIALIZATION-01",
+    "P2-AI-NATIVE-PARAMETER-DECOMPOSITION-02",
+    "P2-ASI-META-PARAMETER-DECOMPOSITION-01",
+    "P2-WISDOM-SOURCE-INGESTION-02",
+    "P2-MULTI-RUBRIC-INTEGRATION-TEST-02"
+  ]
+}
