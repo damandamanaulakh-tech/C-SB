@@ -994,6 +994,7 @@
       "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "tools/generate_operational_subparameters_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"
@@ -1002,6 +1003,7 @@
       "CANONICALITY.json",
       "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "tools/generate_operational_subparameters_v1.py",
       "tools/validate_brain_engine_adoption_v1.py"

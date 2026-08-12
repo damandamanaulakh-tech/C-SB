@@ -325,6 +325,11 @@
     "size_bytes": 1634
   },
   {
+    "path": "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
+    "sha256": "b69cd6237b575dae372f1523a862347819e3686e399bd841e54aeb86757d4c75",
+    "size_bytes": 2040
+  },
+  {
     "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
     "sha256": "c5c9e2f609ea454461fefabea0dcacde9d790a3756b5fb2c3475c1d43ba9e0bb",
     "size_bytes": 3629
