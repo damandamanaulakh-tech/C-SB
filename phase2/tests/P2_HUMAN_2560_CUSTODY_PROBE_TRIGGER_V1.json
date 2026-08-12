@@ -1,0 +1,15 @@
+{
+  "test_id": "P2-HUMAN-2560-EXACT-MATERIALIZATION-01",
+  "status": "TRIGGER_CUSTODY_PROBE",
+  "declared_end": "Determine whether the current Human custody parts reconstruct the complete approved SB-ASI-P0001..P2560 source and materialize it only if complete.",
+  "parts_dir": "raw/human/task3_human_native_parts",
+  "materializer": "tools/materialize_human_native_2560_v1.py",
+  "hard_requirements": {
+    "parameter_rows": 2560,
+    "first_id": "SB-ASI-P0001",
+    "last_id": "SB-ASI-P2560",
+    "containers": 80,
+    "segments": 10,
+    "source_columns": 13
+  }
+}
