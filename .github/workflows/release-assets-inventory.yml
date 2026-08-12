@@ -1,0 +1,66 @@
+name: Release asset provenance inventory
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - chore/release-assets-ingestion
+    paths:
+      - .github/workflows/release-assets-inventory.yml
+      - tools/build_release_asset_manifest.py
+      - raw/release-assets/backend-docs/README.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-assets-inventory-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build deterministic release manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python tools/build_release_asset_manifest.py \
+            --repository "$GITHUB_REPOSITORY" \
+            --release-tag Docs \
+            --expected-count 383
+
+      - name: Sanity-check generated files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('raw/release-assets/backend-docs/MANIFEST.json')
+          data = json.loads(p.read_text())
+          assert data['summary']['asset_count'] == 383
+          assert len(data['assets']) == 383
+          assert Path('docs/RELEASE_ASSET_INGESTION_REPORT.md').is_file()
+          print(json.dumps(data['summary'], indent=2))
+          PY
+
+      - name: Commit generated inventory back to intake branch
+        run: |
+          if git diff --quiet -- raw/release-assets/backend-docs/MANIFEST.json docs/RELEASE_ASSET_INGESTION_REPORT.md; then
+            echo 'Generated inventory is unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add raw/release-assets/backend-docs/MANIFEST.json docs/RELEASE_ASSET_INGESTION_REPORT.md
+          git commit -m 'chore: snapshot backend docs release asset inventory'
+          git push origin HEAD:${GITHUB_REF_NAME}
