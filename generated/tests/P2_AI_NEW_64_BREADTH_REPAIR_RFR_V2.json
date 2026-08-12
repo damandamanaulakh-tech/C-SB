@@ -1,0 +1,87 @@
+{
+  "report_id": "P2-AI-NEW-64-BREADTH-REPAIR-RFR-V2",
+  "status": "PASS",
+  "scope_note": "Repairs only the 17 over-broad primary runtime routes found in V1. Broad AI-CAP-derived mappings remain secondary provenance; source identities and Engine gaps remain unchanged.",
+  "pass0": {
+    "declared_end": "Exactly the 17 mapping-breadth findings have narrow executable primary routes without source or lineage loss.",
+    "repair_scope": "17 records only"
+  },
+  "pass1": {
+    "finding_ids": [
+      "AI-NEW-002",
+      "AI-NEW-006",
+      "AI-NEW-009",
+      "AI-NEW-013",
+      "AI-NEW-014",
+      "AI-NEW-017",
+      "AI-NEW-021",
+      "AI-NEW-025",
+      "AI-NEW-031",
+      "AI-NEW-034",
+      "AI-NEW-036",
+      "AI-NEW-040",
+      "AI-NEW-041",
+      "AI-NEW-042",
+      "AI-NEW-043",
+      "AI-NEW-054",
+      "AI-NEW-061"
+    ],
+    "patch_ids": [
+      "AI-NEW-002",
+      "AI-NEW-006",
+      "AI-NEW-009",
+      "AI-NEW-013",
+      "AI-NEW-014",
+      "AI-NEW-017",
+      "AI-NEW-021",
+      "AI-NEW-025",
+      "AI-NEW-031",
+      "AI-NEW-034",
+      "AI-NEW-036",
+      "AI-NEW-040",
+      "AI-NEW-041",
+      "AI-NEW-042",
+      "AI-NEW-043",
+      "AI-NEW-054",
+      "AI-NEW-061"
+    ],
+    "source_record_count": 64
+  },
+  "pass2": {
+    "breadth_before": {
+      "ai_segment_edges": 113,
+      "asi_segment_edges": 128,
+      "service_node_edges": 154
+    },
+    "breadth_after_primary": {
+      "ai_segment_edges": 30,
+      "asi_segment_edges": 29,
+      "service_node_edges": 43
+    },
+    "reduction": {
+      "ai_segment_edges": 83,
+      "asi_segment_edges": 99,
+      "service_node_edges": 111
+    },
+    "engine_source_gaps": 64
+  },
+  "pass3": {
+    "invariant_checks": {
+      "EXACT_17_BREADTH_FINDINGS_REPAIRED": true,
+      "SOURCE_IDENTITIES_PRESERVED": true,
+      "PRIMARY_ROUTE_NARROWED": true,
+      "SECONDARY_LINEAGE_PRESERVED": true,
+      "UNFLAGGED_47_UNCHANGED": true,
+      "ENGINE_GAPS_PRESERVED": true,
+      "RETRY_IS_SUB_SEQUENCE_POLICY": true,
+      "SAFETY_ROUTE_HAS_NO_ACTION_AUTHORITY": true,
+      "CORRECTION_IS_EXPLICIT_WRITEBACK": true
+    },
+    "source_rewrite_performed": false,
+    "secondary_lineage_deleted": false,
+    "engine_force_fit_performed": false,
+    "closed_sequence_reopen_used": false
+  },
+  "errors": [],
+  "findings": []
+}

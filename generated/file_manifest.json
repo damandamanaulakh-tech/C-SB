@@ -221,8 +221,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "ae9dd152eabbea1a37ac7366658beda5e2a8168a104318df40d3aa8524d4b439",
-    "size_bytes": 4576
+    "sha256": "58c6931e9697f289fc1e40134cee8f9c642c59797ac53543eaecfc75717ace4b",
+    "size_bytes": 4823
   },
   {
     "path": ".github/workflows/multi-rubric-integration-rfr.yml",
@@ -328,6 +328,11 @@
     "path": "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
     "sha256": "efe44cc06e5e66f9e4a571eecd82f1fba74ff549830dd4db426dc4a0ebeba488",
     "size_bytes": 4985
+  },
+  {
+    "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
+    "sha256": "9ecaafc0eb3ed985af62c92b7284e1696f0bc8dee570ff7e8f2c47c6602093eb",
+    "size_bytes": 945
   },
   {
     "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
