@@ -1,0 +1,14 @@
+{
+  "sequence_id": "P2-MULTI-RUBRIC-INTEGRATION-TEST-01",
+  "status": "RFR_REQUESTED",
+  "fixture": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+  "required_domains": ["HUMAN","AI","WISDOM","ASI"],
+  "required_preconditions": [
+    "approved Human CON-001..080 container index materialized",
+    "approved AI-only records and additive AI/ASI bindings available",
+    "bounded Wisdom source-ingestion R-F-R PASS",
+    "contextual Wisdom objects adopted for controlled testing",
+    "ASI semantic registry and ASI-NODE-00..21 available"
+  ],
+  "closure_rule": "Do not close this integration batch unless generated/tests/P2_MULTI_RUBRIC_INTEGRATION_RFR_V1.json returns PASS with zero errors."
+}
