@@ -1,0 +1,197 @@
+{
+  "batch_id": "WIS-BATCH-001",
+  "phase": "PHASE_2",
+  "status": "DERIVED_CANDIDATES_AWAITING_RFR",
+  "source_batch": "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json",
+  "source_boundary": "USER_PROVIDED_INTERPRETIVE_NARRATIVE_NOT_PRIMARY_SCRIPTURE",
+  "source_claims": [
+    {
+      "source_claim_id": "WSC-001",
+      "source_text_ids": ["WST-001"],
+      "claim": "Within the supplied modelling lens, global reality and an actor's available knowledge are distinct.",
+      "claim_type": "MODELLING_CLAIM",
+      "epistemic_status": "SUPPORTED_BY_SUPPLIED_NARRATIVE_ONLY"
+    },
+    {
+      "source_claim_id": "WSC-002",
+      "source_text_ids": ["WST-002"],
+      "claim": "Within the supplied modelling lens, an exception is bounded and does not replace the normal rule.",
+      "claim_type": "MODELLING_CLAIM",
+      "epistemic_status": "SUPPORTED_BY_SUPPLIED_NARRATIVE_ONLY"
+    },
+    {
+      "source_claim_id": "WSC-003",
+      "source_text_ids": ["WST-003"],
+      "claim": "Within the supplied modelling lens, event reality, recorded reality and later interpretation must remain distinct.",
+      "claim_type": "MODELLING_CLAIM",
+      "epistemic_status": "SUPPORTED_BY_SUPPLIED_NARRATIVE_ONLY"
+    },
+    {
+      "source_claim_id": "WSC-004",
+      "source_text_ids": ["WST-004"],
+      "claim": "Within the supplied modelling lens, common input does not guarantee common output because current state includes unique path history.",
+      "claim_type": "MODELLING_CLAIM",
+      "epistemic_status": "SUPPORTED_BY_SUPPLIED_NARRATIVE_ONLY"
+    },
+    {
+      "source_claim_id": "WSC-005",
+      "source_text_ids": ["WST-005"],
+      "claim": "Within the supplied modelling lens, transferable guidance can be formed by compressing patterns from many lived or closed Sequences.",
+      "claim_type": "MODELLING_CLAIM",
+      "epistemic_status": "SUPPORTED_BY_SUPPLIED_NARRATIVE_ONLY"
+    }
+  ],
+  "interpretations": [
+    {
+      "interpretation_id": "WINT-001",
+      "source_claim_ids": ["WSC-001"],
+      "interpretation": "A multi-actor intelligence architecture should maintain Actor View separately from global/system state.",
+      "status": "SOURCEBORN_INTERPRETATION",
+      "not_source_fact": true
+    },
+    {
+      "interpretation_id": "WINT-002",
+      "source_claim_ids": ["WSC-002"],
+      "interpretation": "Rule exceptions require an explicit bounded contract containing authority, trigger, scope, alternatives, permitted action, consequence and closure.",
+      "status": "SOURCEBORN_INTERPRETATION",
+      "not_source_fact": true
+    },
+    {
+      "interpretation_id": "WINT-003",
+      "source_claim_ids": ["WSC-003"],
+      "interpretation": "Narrative memory should preserve separate records for event, observer/writer construction and later interpretation.",
+      "status": "SOURCEBORN_INTERPRETATION",
+      "not_source_fact": true
+    },
+    {
+      "interpretation_id": "WINT-004",
+      "source_claim_ids": ["WSC-004"],
+      "interpretation": "Prediction and decision systems should include actor-specific path history and current state rather than assuming identical response to identical input.",
+      "status": "SOURCEBORN_INTERPRETATION",
+      "not_source_fact": true
+    },
+    {
+      "interpretation_id": "WINT-005",
+      "source_claim_ids": ["WSC-005"],
+      "interpretation": "A reusable principle should be formed through comparison of closed cases, consequences, counter-cases and exceptions rather than promotion of a single anecdote.",
+      "status": "SOURCEBORN_INTERPRETATION",
+      "not_source_fact": true
+    }
+  ],
+  "supporting_sequences": [
+    {
+      "sequence_id": "WSEQ-001",
+      "name": "Knowledge Distribution to Actor View",
+      "path": ["GLOBAL_REALITY", "ACTOR_SPECIFIC_EXPOSURE", "ACTOR_VIEW", "ACTOR_DECISION_STATE"],
+      "order_types": ["DEPENDENCY", "REPRESENTATION", "CONTROL"],
+      "closure_scope": "model relation only"
+    },
+    {
+      "sequence_id": "WSEQ-002",
+      "name": "Bounded Exception Contract",
+      "path": ["NORMAL_RULE", "BLOCKED_OBJECTIVE_OR_CONFLICT", "EXCEPTION_TRIGGER", "AUTHORITY_AND_ALTERNATIVE_CHECK", "BOUNDED_EXCEPTION", "EXCEPTION_CLOSURE", "NORMAL_RULE_REMAINS"],
+      "order_types": ["CONTROL", "DEPENDENCY", "DECISION", "EXECUTION"],
+      "closure_scope": "exception handling pattern only"
+    },
+    {
+      "sequence_id": "WSEQ-003",
+      "name": "Event to Narrative to Interpretation",
+      "path": ["EVENT", "TRACE", "OBSERVER_WRITER", "RECORDED_NARRATIVE", "LATER_INTERPRETATION"],
+      "order_types": ["TEMPORAL", "DISCOVERY", "REPRESENTATION", "REFERENCE"],
+      "closure_scope": "narrative provenance pattern only"
+    },
+    {
+      "sequence_id": "WSEQ-004",
+      "name": "Common Input with Unique Path History",
+      "path": ["COMMON_INPUT", "ACTOR_HISTORY_AND_STATE", "STATE_SPECIFIC_INTERPRETATION", "DIFFERENT_RESPONSE"],
+      "order_types": ["DEPENDENCY", "CAUSAL", "REPRESENTATION"],
+      "closure_scope": "response differentiation pattern only"
+    },
+    {
+      "sequence_id": "WSEQ-005",
+      "name": "Closed Cases to Transferable Guidance",
+      "path": ["MULTIPLE_CLOSED_CASES", "CONSEQUENCE_COMPARISON", "PATTERN", "COUNTER_CASE_AND_EXCEPTION_AUDIT", "GENERALIZATION", "GUIDANCE_CANDIDATE", "FUTURE_PRIOR_REALITY_IF_ADOPTED"],
+      "order_types": ["DISCOVERY", "LOGICAL", "CONTROL", "REFERENCE"],
+      "closure_scope": "guidance formation candidate only"
+    }
+  ],
+  "wisdom_candidates": [
+    {
+      "wisdom_id": "WIS-CAND-001",
+      "wisdom_lane_ids": ["W-01", "W-09", "W-13", "W-15"],
+      "source_claim_ids": ["WSC-001"],
+      "interpretation_ids": ["WINT-001"],
+      "supporting_sequence_ids": ["WSEQ-001"],
+      "principle": "Do not treat global/system knowledge as if every actor possesses it; reason from the actor's actual View when modelling that actor.",
+      "applies_when": ["multiple actors or systems have different information access", "belief/knowledge state affects action"],
+      "does_not_apply_when": ["the contract intentionally models only global state and makes no actor-behaviour claim"],
+      "known_counterexamples": [],
+      "epistemic_status": ["SOURCE_LINKED_CANDIDATE", "PRIMARY_SCRIPTURE_NOT_CHECKED", "COUNTER_CASE_REVIEW_OPEN"],
+      "source_refs": ["WIS-SRC-BATCH-001:WST-001"],
+      "confidence": "PROVISIONAL"
+    },
+    {
+      "wisdom_id": "WIS-CAND-002",
+      "wisdom_lane_ids": ["W-05", "W-06", "W-08", "W-13", "W-15"],
+      "source_claim_ids": ["WSC-002"],
+      "interpretation_ids": ["WINT-002"],
+      "supporting_sequence_ids": ["WSEQ-002"],
+      "principle": "An exception should be a bounded local contract, not a silent replacement of the normal rule.",
+      "applies_when": ["a normal rule exists", "a claimed higher objective or conflict is present", "an exception is being considered"],
+      "does_not_apply_when": ["no normal rule exists", "no authority exists to grant an exception", "the claimed exception is actually a permanent rule change"],
+      "known_counterexamples": [],
+      "epistemic_status": ["SOURCE_LINKED_CANDIDATE", "PRIMARY_SCRIPTURE_NOT_CHECKED", "COUNTER_CASE_REVIEW_OPEN"],
+      "source_refs": ["WIS-SRC-BATCH-001:WST-002"],
+      "exception_refs": ["WSEQ-002"],
+      "confidence": "PROVISIONAL"
+    },
+    {
+      "wisdom_id": "WIS-CAND-003",
+      "wisdom_lane_ids": ["W-01", "W-02", "W-13", "W-14", "W-15"],
+      "source_claim_ids": ["WSC-003"],
+      "interpretation_ids": ["WINT-003"],
+      "supporting_sequence_ids": ["WSEQ-003"],
+      "principle": "Preserve event, record and later interpretation as separate provenance layers.",
+      "applies_when": ["knowledge reaches the system through testimony, narrative, history, scripture, commentary or later interpretation"],
+      "does_not_apply_when": ["the source object is already explicitly defined as a single synthetic fixture with no external event claim"],
+      "known_counterexamples": [],
+      "epistemic_status": ["SOURCE_LINKED_CANDIDATE", "COUNTER_CASE_REVIEW_OPEN"],
+      "source_refs": ["WIS-SRC-BATCH-001:WST-003"],
+      "confidence": "PROVISIONAL"
+    },
+    {
+      "wisdom_id": "WIS-CAND-004",
+      "wisdom_lane_ids": ["W-03", "W-09", "W-13", "W-15"],
+      "source_claim_ids": ["WSC-004"],
+      "interpretation_ids": ["WINT-004"],
+      "supporting_sequence_ids": ["WSEQ-004"],
+      "principle": "Identical external input need not produce identical response when relevant path history and current state differ.",
+      "applies_when": ["actor history or current state is causally relevant", "the same stimulus reaches different actors or the same actor at different times"],
+      "does_not_apply_when": ["the contract proves history/state are irrelevant to the tested transformation"],
+      "known_counterexamples": [],
+      "epistemic_status": ["SOURCE_LINKED_CANDIDATE", "COUNTER_CASE_REVIEW_OPEN"],
+      "source_refs": ["WIS-SRC-BATCH-001:WST-004"],
+      "confidence": "PROVISIONAL"
+    },
+    {
+      "wisdom_id": "WIS-CAND-005",
+      "wisdom_lane_ids": ["W-02", "W-03", "W-12", "W-14", "W-15"],
+      "source_claim_ids": ["WSC-005"],
+      "interpretation_ids": ["WINT-005"],
+      "supporting_sequence_ids": ["WSEQ-005"],
+      "principle": "Reusable guidance should be compressed from compared closed cases with consequences, exceptions and counter-cases, not promoted from one anecdote alone.",
+      "applies_when": ["the system is forming reusable guidance or a rule candidate from historical/case material"],
+      "does_not_apply_when": ["the output is explicitly limited to describing one case rather than generalizing"],
+      "known_counterexamples": [],
+      "epistemic_status": ["SOURCE_LINKED_CANDIDATE", "PRIMARY_SCRIPTURE_NOT_CHECKED", "MULTI_CASE_EVIDENCE_NOT_YET_SUPPLIED", "COUNTER_CASE_REVIEW_OPEN"],
+      "source_refs": ["WIS-SRC-BATCH-001:WST-005"],
+      "confidence": "LOW_UNTIL_MULTI_CASE_TEST"
+    }
+  ],
+  "global_proof_debt": [
+    "No primary Mahabharata or Bhagavad Gita text is included in this batch.",
+    "No independent historical or theological verification has been performed.",
+    "No cross-tradition or counter-interpretation corpus has yet been ingested.",
+    "Wisdom candidates cannot be promoted to LAW_OR_GUIDANCE or direct execution authority in this batch."
+  ]
+}
