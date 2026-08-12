@@ -1,0 +1,52 @@
+{
+  "source_batch_id": "WIS-SRC-BATCH-001",
+  "phase": "PHASE_2",
+  "status": "RAW_BOUNDED_SOURCE_LOCKED",
+  "source_class": "USER_PROVIDED_MAHABHARATA_MODELLING_NARRATIVE",
+  "not_source_class": [
+    "PRIMARY_SCRIPTURE_TEXT",
+    "HISTORICAL_FACT_REGISTRY",
+    "INDEPENDENT_EXTERNAL_VERIFICATION"
+  ],
+  "source_title": "Pasted markdown.md — Mahabharata modelling / Universal Sequence discussion",
+  "custody_note": "This batch preserves only bounded excerpts surfaced from the user-provided uploaded narrative. The source is interpretive/project material and must never be silently promoted to canonical Mahabharata wording, scripture, history, or theology.",
+  "epistemic_status": [
+    "USER_PROVIDED_SOURCE",
+    "INTERPRETIVE_NARRATIVE",
+    "EXTERNAL_VERIFICATION_NOT_PERFORMED"
+  ],
+  "records": [
+    {
+      "source_text_id": "WST-001",
+      "excerpt": "Reality ≠ what each actor knows. Krishna holds the full map. Every other character holds only a fragment.",
+      "source_context": "Knowledge Distribution / Actor-View in the user's Mahabharata modelling lens."
+    },
+    {
+      "source_text_id": "WST-002",
+      "excerpt": "The exception does not replace the rule.",
+      "source_context": "Exception Contract in the user's Mahabharata modelling lens; the surrounding source requires explicit objective, trigger, scope, allowed action and consequence."
+    },
+    {
+      "source_text_id": "WST-003",
+      "excerpt": "EVENT REALITY ≠ RECORDED REALITY ≠ INTERPRETED REALITY",
+      "source_context": "Narrative Memory / Observer-Writer separation."
+    },
+    {
+      "source_text_id": "WST-004",
+      "excerpt": "SAME INPUT ≠ SAME RESULT because CURRENT STATE contains UNIQUE PATH HISTORY.",
+      "source_context": "Common Input + Unique History rule extracted from the modelling discussion."
+    },
+    {
+      "source_text_id": "WST-005",
+      "excerpt": "1000 lived sequences → compressed → 1 transferable rule",
+      "source_context": "Law/guidance formation as compressed output of multiple closed cases."
+    }
+  ],
+  "hard_guards": [
+    "Source excerpt is not automatically a Source Claim about the Mahabharata itself.",
+    "Source Claim is not automatically an Interpretation.",
+    "Interpretation is not automatically a Wisdom Object.",
+    "Wisdom Candidate is not automatically law, policy, permission or executable action.",
+    "Primary-scripture and external-verification debt must remain visible."
+  ]
+}
