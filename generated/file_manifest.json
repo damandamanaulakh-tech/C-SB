@@ -350,6 +350,11 @@
     "size_bytes": 5422
   },
   {
+    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+    "sha256": "0134c9f5e927e3cfc696cf1acf668a51c82ed3a6209e34ad26192343f861e509",
+    "size_bytes": 4505
+  },
+  {
     "path": "phase2/rfr/P2_WISDOM_BATCH_001_RFR.md",
     "sha256": "e6509a915f90822755250f531976077de67e295c7f9abe9452e3ebac8349f72a",
     "size_bytes": 1046
@@ -468,6 +473,11 @@
     "path": "raw/sequence/Pasted_text_original.manifest.json",
     "sha256": "1d8808326ec42a733aede377323d88fd29a98201c961cb16d51360532f13fd8c",
     "size_bytes": 599
+  },
+  {
+    "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+    "sha256": "fa5397b89dd5473a3c36b6b611cc66102e3956a2e64def43db1d2dd1db821df0",
+    "size_bytes": 1457
   },
   {
     "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-01.md",

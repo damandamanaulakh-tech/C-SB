@@ -31,6 +31,7 @@
     ],
     "SEG-06": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
@@ -42,12 +43,14 @@
     ],
     "SEG-08": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
     ],
     "SEG-09": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json"
@@ -797,10 +800,27 @@
     ],
     "CON-047": [
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-048": [
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-063": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-064": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
+    ],
+    "CON-072": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-002": [
@@ -911,12 +931,6 @@
     "CON-062": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
-    "CON-063": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-064": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
     "CON-065": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
@@ -936,9 +950,6 @@
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-071": [
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
-    ],
-    "CON-072": [
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md"
     ],
     "CON-073": [
@@ -2007,6 +2018,7 @@
     "AI-10": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
@@ -2029,6 +2041,7 @@
     "AI-13": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
@@ -2037,6 +2050,7 @@
     "AI-14": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
@@ -2069,6 +2083,7 @@
     "AI-18": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
@@ -2077,6 +2092,7 @@
     "AI-19": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_RUBRIC_V0.json",
       "registries/asi/asi_node_registry.json",
@@ -2310,6 +2326,7 @@
   },
   "wisdom_source_batches": {
     "WIS-SRC-BATCH-001": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
     ]
@@ -2397,6 +2414,7 @@
       "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-002": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
@@ -2436,6 +2454,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
@@ -2484,6 +2503,7 @@
     "ASI-06": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
@@ -2493,6 +2513,7 @@
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
@@ -2502,6 +2523,7 @@
     "ASI-09": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
@@ -2563,6 +2585,7 @@
     "ASI-18": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
@@ -2573,6 +2596,7 @@
     "ASI-19": [
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/ASI_RUBRIC_V0.json",
@@ -2683,6 +2707,7 @@
       "phase2/README.md",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json"
     ],
@@ -2702,6 +2727,7 @@
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "phase2/README.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
@@ -2714,6 +2740,7 @@
       "phase2/README.md",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json",
@@ -2748,6 +2775,7 @@
     ],
     "ASI-NODE-04": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/asi/asi_node_registry.json",
@@ -2757,6 +2785,7 @@
     "ASI-NODE-05": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
@@ -2779,6 +2808,7 @@
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
@@ -2808,6 +2838,7 @@
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
