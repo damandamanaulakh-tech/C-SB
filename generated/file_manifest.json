@@ -51,7 +51,7 @@
   },
   {
     "path": "tools/run_phase2_actor_view_leakage_001.py",
-    "sha256": "a22f0ac52d0109f9e619ca6ca9e02698ff6b536bef8d32e133175f5377023c50",
+    "sha256": "d7a2376a8c5ebf53ad0d67b681f17f6c32c301019f4e3a1e9685a54e4fa0a303",
     "size_bytes": 6533
   },
   {
@@ -146,8 +146,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "1ebe96b754b9cfcc1d748416a6d4ab227c904b94acf8cd42010c1a286c6f3b9c",
-    "size_bytes": 3293
+    "sha256": "250282e99dbe649d6c6ca6928c4d3de94795fc54087543e60b75194a6a2fabfe",
+    "size_bytes": 3403
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -253,6 +253,11 @@
     "path": "phase2/rfr/P2_WISDOM_BATCH_001_RFR.md",
     "sha256": "e6509a915f90822755250f531976077de67e295c7f9abe9452e3ebac8349f72a",
     "size_bytes": 1046
+  },
+  {
+    "path": "phase2/rfr/P2_ACTOR_VIEW_LEAKAGE_RFR_001.md",
+    "sha256": "e90b736de0639eaa1d028215ef35baab6417fd648ee0c8b7451daa2d73cc1589",
+    "size_bytes": 677
   },
   {
     "path": "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",

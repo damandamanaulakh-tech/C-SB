@@ -2423,6 +2423,7 @@
   },
   "wisdom_candidate_ids": {
     "WIS-CAND-001": [
+      "phase2/rfr/P2_ACTOR_VIEW_LEAKAGE_RFR_001.md",
       "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "tools/run_phase2_actor_view_leakage_001.py",

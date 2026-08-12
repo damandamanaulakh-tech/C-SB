@@ -1,0 +1,118 @@
+{
+  "report_id": "P2-ACTOR-VIEW-LEAKAGE-RFR-001",
+  "status": "PASS",
+  "scope_note": "Synthetic Actor View control-law test. PASS proves separation and legal update behavior for this fixture, not the truth of FACT_F or any real actor's knowledge.",
+  "domains": [
+    "HUMAN",
+    "AI",
+    "WISDOM",
+    "ASI"
+  ],
+  "pass0": {
+    "declared_end": "Verify that global/system knowledge, AI belief and Human Actor View remain separate, and that Actor View changes only after a legal information-transfer Sequence returns an accepted update.",
+    "scope": "single synthetic fact FACT_F and Human actor ACTOR_A",
+    "fixture_is_source_fact": false
+  },
+  "pass1": {
+    "human_source_bound": true,
+    "wisdom_source_bound": true,
+    "ai_and_asi_ids_valid": true
+  },
+  "pass2": {
+    "variants": [
+      {
+        "variant_id": "AV-NO-COMMUNICATION",
+        "ai_system_belief": "KNOWN_TRUE",
+        "global_fact": "KNOWN_TRUE",
+        "actor_view_final": "UNKNOWN",
+        "expected_actor_view_final": "UNKNOWN",
+        "status": "PASS",
+        "events": [
+          "LOAD_GLOBAL_STATE",
+          "LOAD_ACTOR_VIEW",
+          "LOAD_AI_SYSTEM_BELIEF",
+          "WIS-CAND-001_APPLICABILITY_TRUE",
+          "NO_INFORMATION_TRANSFER_SEQUENCE",
+          "ACTOR_VIEW_UNCHANGED"
+        ],
+        "actor_decision_reads": "ACTOR_VIEW"
+      },
+      {
+        "variant_id": "AV-AI-INFERENCE-ONLY",
+        "ai_system_belief": "INFERRED_TRUE",
+        "global_fact": "KNOWN_TRUE",
+        "actor_view_final": "UNKNOWN",
+        "expected_actor_view_final": "UNKNOWN",
+        "status": "PASS",
+        "events": [
+          "LOAD_GLOBAL_STATE",
+          "LOAD_ACTOR_VIEW",
+          "LOAD_AI_SYSTEM_BELIEF",
+          "WIS-CAND-001_APPLICABILITY_TRUE",
+          "NO_INFORMATION_TRANSFER_SEQUENCE",
+          "ACTOR_VIEW_UNCHANGED"
+        ],
+        "actor_decision_reads": "ACTOR_VIEW"
+      },
+      {
+        "variant_id": "AV-COMMUNICATION-UNACCEPTED",
+        "ai_system_belief": "KNOWN_TRUE",
+        "global_fact": "KNOWN_TRUE",
+        "actor_view_final": "UNKNOWN",
+        "expected_actor_view_final": "UNKNOWN",
+        "status": "PASS",
+        "events": [
+          "LOAD_GLOBAL_STATE",
+          "LOAD_ACTOR_VIEW",
+          "LOAD_AI_SYSTEM_BELIEF",
+          "WIS-CAND-001_APPLICABILITY_TRUE",
+          "INFORMATION_TRANSFER_SEQUENCE_CLOSED_SUCCESS",
+          "REQUIRED_RETURN_NOT_ACCEPTED",
+          "ACTOR_VIEW_UNCHANGED"
+        ],
+        "actor_decision_reads": "ACTOR_VIEW"
+      },
+      {
+        "variant_id": "AV-COMMUNICATION-ACCEPTED",
+        "ai_system_belief": "KNOWN_TRUE",
+        "global_fact": "KNOWN_TRUE",
+        "actor_view_final": "KNOWN_TRUE",
+        "expected_actor_view_final": "KNOWN_TRUE",
+        "status": "PASS",
+        "events": [
+          "LOAD_GLOBAL_STATE",
+          "LOAD_ACTOR_VIEW",
+          "LOAD_AI_SYSTEM_BELIEF",
+          "WIS-CAND-001_APPLICABILITY_TRUE",
+          "INFORMATION_TRANSFER_SEQUENCE_CLOSED_SUCCESS",
+          "REQUIRED_RETURN_ACCEPTED",
+          "ACTOR_VIEW_UPDATED_WITH_PROVENANCE"
+        ],
+        "actor_decision_reads": "ACTOR_VIEW"
+      }
+    ]
+  },
+  "pass3": {
+    "invariant_checks": {
+      "GLOBAL_STATE_SEPARATE_FROM_ACTOR_VIEW": true,
+      "AI_BELIEF_SEPARATE_FROM_ACTOR_VIEW": true,
+      "CLOSED_SEQUENCE_ALONE_DOES_NOT_UPDATE_VIEW": true,
+      "ACCEPTED_RETURN_CAN_UPDATE_VIEW": true,
+      "VIEW_UPDATE_HAS_PROVENANCE_EVENT": true,
+      "NO_HIDDEN_KNOWLEDGE_INJECTION": true,
+      "ACTOR_DECISION_READS_ACTOR_VIEW": true,
+      "WISDOM_DOES_NOT_WRITE_VIEW": true,
+      "AI_DOES_NOT_WRITE_VIEW": true
+    },
+    "wisdom_epistemic_status": [
+      "SOURCE_LINKED_CANDIDATE",
+      "PRIMARY_SCRIPTURE_NOT_CHECKED",
+      "COUNTER_CASE_REVIEW_OPEN"
+    ],
+    "global_state_final": {
+      "FACT_F": "KNOWN_TRUE"
+    },
+    "closed_sequence_reopen_used": false
+  },
+  "errors": []
+}
