@@ -67,6 +67,10 @@ jobs:
         run: python tools/run_phase2_ai_new_64_structural_rfr_v1.py
       - name: Run AI-NEW 64 orphan overlap attack
         run: python tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py
+      - name: Build AI-NEW 64 narrowed runtime routes V2
+        run: python tools/generate_ai_new_64_runtime_routes_v2.py
+      - name: Run AI-NEW 64 breadth-repair R-F-R V2
+        run: python tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py
       - name: Run AI ASI structural R-F-R tests
         run: python tools/run_phase2_ai_asi_rfr_v1.py
       - name: Build compact R-F-R findings view
