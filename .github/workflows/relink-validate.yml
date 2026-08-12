@@ -59,6 +59,8 @@ jobs:
         run: python tools/summarize_phase2_ai_asi_rfr_v1.py
       - name: Run authorization and Engine-repair behavioral R-F-R tests
         run: python tools/run_phase2_behavioral_rfr_v1.py
+      - name: Run Wisdom source-ingestion R-F-R batch 001
+        run: python tools/run_phase2_wisdom_batch_001_rfr.py
       - name: Validate locked invariants
         run: python tools/validate_repo.py
       - name: Commit regenerated indexes and assembled docs
