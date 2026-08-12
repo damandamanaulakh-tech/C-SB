@@ -1,0 +1,46 @@
+{
+  "closure_packet_id": "P2-AI-ASI-NATIVE-RUNTIME-VIEWS-CLOSURE-V2",
+  "status": "CLOSED_SUCCESS_WITH_ENGINE_SOURCE_GAP",
+  "closure_scope": "AI-NEW-001..064 structural decomposition, AI runtime view, ASI governance interface view, orphan/overlap attack and primary-route breadth repair",
+  "declared_end": "All 64 approved AI-NEW records have source-preserving executable runtime routes and governance interfaces; no hard orphan or silent overlap merge remains; over-broad primary routing is repaired.",
+  "result_refs": [
+    "generated/registry_views/ai_new_64_structural_decomposition_v1.json",
+    "generated/registry_views/ai_native_runtime_view_v1.json",
+    "generated/registry_views/asi_governance_interface_view_from_ai_new_v1.json",
+    "generated/tests/P2_AI_NEW_64_STRUCTURAL_RFR_V1.json",
+    "generated/tests/P2_AI_NEW_64_ORPHAN_OVERLAP_ATTACK_V1.json",
+    "generated/registry_views/ai_new_64_runtime_routes_v2.json",
+    "generated/tests/P2_AI_NEW_64_BREADTH_REPAIR_RFR_V2.json"
+  ],
+  "results": {
+    "source_records": 64,
+    "hard_orphans": 0,
+    "governance_orphans": 0,
+    "node_orphans": 0,
+    "composite_candidates": 11,
+    "overlap_auto_merges": 0,
+    "breadth_findings_repaired": 17,
+    "primary_route_reduction": {
+      "ai_segment_edges": 83,
+      "asi_segment_edges": 99,
+      "service_node_edges": 111
+    },
+    "direct_engine_bindings": 0,
+    "engine_source_gaps": 64
+  },
+  "invariants": [
+    "AI-NEW source IDs/names/types unchanged",
+    "ASI segment definitions come only from ASI_RUBRIC_V0",
+    "AI-NEW appears in ASI view only as governed interface reference",
+    "Control/filter/state/evidence/meta-control records retain governance paths",
+    "No overlap cluster auto-merges source records",
+    "Broad AI-CAP lineage remains secondary provenance after primary-route narrowing",
+    "Retry/recovery remains Sub-Sequence policy rather than hidden loop",
+    "Safety routing has no implicit action authority",
+    "User correction propagation is explicit write-back and does not imply model-weight self-update",
+    "Direct Engine binding requires exact source-derived evidence"
+  ],
+  "open_source_gap": "No exact source-derived Engine relationship currently links AI-NEW-001..064 IDs directly to Engine IDs. Engine candidate inference may be explored separately, but cannot be promoted to direct binding without source/test evidence.",
+  "closed_sequence_reopen_used": false,
+  "next_sequence": "P2-HUMAN-2560-EXACT-MATERIALIZATION-01"
+}
