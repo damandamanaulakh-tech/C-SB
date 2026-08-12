@@ -300,6 +300,11 @@
     "size_bytes": 1914
   },
   {
+    "path": "phase2/checkpoints/P2_ACTOR_VIEW_LEAKAGE_CHECKPOINT_001.json",
+    "sha256": "1dcb40aa7b9331d30c94c06f4c89880dfd72b3b9d783269243aaf1cf1cf03712",
+    "size_bytes": 1239
+  },
+  {
     "path": "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
     "sha256": "80c869a2f2a046c4a50f98fabbd9220853f02d3f4a4ed68090d7087593148006",
     "size_bytes": 2115
