@@ -1,0 +1,5468 @@
+{
+  "registry_id": "AI-NEW-64-STRUCTURAL-DECOMPOSITION-V1",
+  "phase": "PHASE_2",
+  "status": "GENERATED_ADDITIVE_DECOMPOSITION_NOT_SOURCE_REWRITE",
+  "source_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+  "binding_registry": "generated/registry_views/ai_only_64_phase2_bindings_v1.json",
+  "contract": "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+  "record_count": 64,
+  "summary": {
+    "runtime_form_counts": {
+      "MECHANISM": 19,
+      "CONTROL": 14,
+      "STATE_OR_MECHANISM_MIXED": 1,
+      "FILTER": 19,
+      "EVIDENCE_CONTROL": 7,
+      "META_CONTROL": 3,
+      "STATE": 1
+    },
+    "atomicity_counts": {
+      "ATOMIC_AT_APPROVED_SOURCE_SCOPE": 53,
+      "COMPOSITE_CANDIDATE": 11
+    },
+    "ownership_counts": {
+      "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE": 13,
+      "AI_PRIMARY": 6,
+      "SHARED_AI_ASI_CONTROL": 14,
+      "AI_RUNTIME_STATE_OR_MECHANISM_UNDER_EXPLICIT_CALL_CONTRACT": 1,
+      "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE": 19,
+      "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE": 7,
+      "SHARED_AI_ASI_META_CONTROL": 3,
+      "AI_RUNTIME_STATE_UNDER_ASI_POLICY": 1
+    },
+    "engine_binding_counts": {
+      "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION": 64
+    },
+    "governance_patch_count": 7
+  },
+  "records": [
+    {
+      "ai_only_id": "AI-NEW-001",
+      "source_name": "Context-window allocation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-013",
+        "AI-CAP-058"
+      ],
+      "source_record_sha256": "cb35a9df8ff61796441b77f1599976af974b670f4ac123b73f404d7cc9b58666",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-05",
+        "AI-10",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-08",
+        "ASI-16",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONTEXT_RECONSTRUCTION",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "RISK_EVALUATION",
+        "RULE",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "COUNTER_SEQUENCE",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "MEMORY_FABRIC",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-002",
+      "source_name": "Context compression and semantic retention",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-013",
+        "AI-CAP-058",
+        "AI-CAP-059"
+      ],
+      "source_record_sha256": "583416b040f3a734310181752097c641cda477517487a37aefc1deda0b12f89d",
+      "runtime_form": "MECHANISM",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "CONTEXT_COMPRESSION",
+        "SEMANTIC_RETENTION"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-05",
+        "AI-10",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "ADVERSARIAL_QUALIFICATION",
+        "ATTACK_RESISTANCE",
+        "BARRIER",
+        "CONTEXT_RECONSTRUCTION",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "RISK_EVALUATION",
+        "RULE",
+        "SECURITY_VERIFICATION",
+        "THREAT_DETECTION",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "COUNTER_SEQUENCE",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED",
+        "RECOVERY",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "SECURITY_HISTORY",
+        "THREAT_MODEL",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "INCIDENT_MEMORY",
+        "MEMORY_FABRIC",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "SECURITY_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-003",
+      "source_name": "Long-context position management",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-013"
+      ],
+      "source_record_sha256": "c45d8e2f0e2cacea0950460f0360627ccc139f8531e4621158653b2088a6541c",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-05"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14"
+      ],
+      "primary_sequence_roles": [
+        "CONTEXT_RECONSTRUCTION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "MEMORY_FABRIC"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-004",
+      "source_name": "Persistent-memory write control",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-014",
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "511fa95ea2e44dd16f89e648abb82f1404c81d9cef73cf5b21470ae292b00b73",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONTEXT_RECONSTRUCTION",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "TESTING",
+        "TRACE_MEMORY",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "MEMORY_VALIDATION",
+        "NEXT_SEQUENCE_SEED",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CLOSURE_PACKET",
+        "CONTEXT_MEMORY",
+        "EVIDENCE",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "MEMORY_FABRIC"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-005",
+      "source_name": "Persistent-memory retrieval control",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-014"
+      ],
+      "source_record_sha256": "0240b73e8945501c0650d28c3f841b2ef9ef2dd90946a8d72728470eea438ed8",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-05"
+      ],
+      "phase2_asi_segments": [
+        "ASI-11"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-12",
+        "ASI-NODE-13",
+        "ASI-NODE-14",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "CONTEXT_RECONSTRUCTION",
+        "RETRIEVAL",
+        "RE_ENTRY_REFERENCE",
+        "TRACE_MEMORY"
+      ],
+      "secondary_sequence_roles": [
+        "COMPRESSION",
+        "INHERITANCE",
+        "NEXT_SEQUENCE_SEED"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_PERSISTENT_MEMORY",
+        "WORKING_MEMORY"
+      ],
+      "memory_read_candidates": [
+        "CLOSURE_PACKET",
+        "CONTEXT_MEMORY",
+        "FACT_MEMORY",
+        "PATH_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "MEMORY_FABRIC"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-006",
+      "source_name": "Token-budget allocation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-056",
+        "AI-CAP-058",
+        "AI-CAP-066"
+      ],
+      "source_record_sha256": "cbfb9ec25a97d47ad20087c934676e035208935556ecd943731e865450b5045d",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-19",
+        "AI-22",
+        "AI-23",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-07",
+        "ASI-08",
+        "ASI-10",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "EVIDENCE_INTERPRETATION",
+        "OUTPUT_CONTROL",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "DISCLOSURE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "ROLE_CONSTRAINTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "POLICY_DECISION_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-007",
+      "source_name": "Inference-effort level selection",
+      "source_structural_level": "Operating state or parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-058"
+      ],
+      "source_record_sha256": "490f4098ecd48b7a09819b55f06b2865361230149eed8a11cbd905cadda4e05a",
+      "runtime_form": "STATE_OR_MECHANISM_MIXED",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_RUNTIME_STATE_OR_MECHANISM_UNDER_EXPLICIT_CALL_CONTRACT",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-08",
+        "ASI-16",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "caller declares state-read or mechanism-execution mode",
+      "closure_contract": "mode-specific contract only",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-008",
+      "source_name": "Cache-read reuse control",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-059"
+      ],
+      "source_record_sha256": "b6d3bd0c38fb1aebc4a71ad4dc334f84e0128af574eb325fda718af7037985a2",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-13",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ADVERSARIAL_QUALIFICATION",
+        "ATTACK_RESISTANCE",
+        "BARRIER",
+        "SECURITY_VERIFICATION",
+        "THREAT_DETECTION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "RECOVERY"
+      ],
+      "state_ownership_candidates": [
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "POLICY",
+        "SECURITY_HISTORY",
+        "THREAT_MODEL"
+      ],
+      "memory_write_candidates": [
+        "INCIDENT_MEMORY",
+        "SECURITY_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-009",
+      "source_name": "Cache invalidation and freshness control",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-059",
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "b24ab4938863f14857145808d7b0f4752e279f2ba2c084379694ddc7e165c6d3",
+      "runtime_form": "FILTER",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "CACHE_INVALIDATION",
+        "FRESHNESS_CONTROL"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-11",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ADVERSARIAL_QUALIFICATION",
+        "ATTACK_RESISTANCE",
+        "BARRIER",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "SECURITY_VERIFICATION",
+        "TESTING",
+        "THREAT_DETECTION",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "RECOVERY"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "SECURITY_STATE",
+        "SYSTEM_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "POLICY",
+        "RESULTS",
+        "SECURITY_HISTORY",
+        "THREAT_MODEL",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "INCIDENT_MEMORY",
+        "SECURITY_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-010",
+      "source_name": "Tool-schema interpretation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-011"
+      ],
+      "source_record_sha256": "6fb58e42d1ff40a28cc6ac51ac2cee03d634a3bddfa66f93cc54fac1ea23d149",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY",
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "TOOL_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-011",
+      "source_name": "Tool selection and authorization",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-011"
+      ],
+      "source_record_sha256": "98f34ee082eb2027642bdb78bfb5ebe3b1a26ba19f45b55373e573a19fe9ab8d",
+      "runtime_form": "CONTROL",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "TOOL_SELECTION",
+        "TOOL_AUTHORIZATION"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-08",
+        "ASI-13"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "RETURN"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "TOOL_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-012",
+      "source_name": "Tool-argument construction",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-011",
+        "AI-CAP-018"
+      ],
+      "source_record_sha256": "c87193d67a089333ccd7d4fe6adacd3b661270de4a17d4afe1f78b6043156f4d",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-23",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "MULTI_AGENT_COORDINATION",
+        "OUTPUT",
+        "RELATION_MAP",
+        "RETURN",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "AVAILABILITY",
+        "CONVERGENCE",
+        "IMPACT",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "RELATION_STATE",
+        "TOOL_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "EXECUTION_PLAN",
+        "INTERACTION_TRACE",
+        "PERMISSIONS",
+        "SOCIAL_CONTEXT",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "SOCIAL_PREDICTION_TRACE",
+        "TOOL_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-013",
+      "source_name": "Tool-result validation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-009",
+        "AI-CAP-011",
+        "AI-CAP-068"
+      ],
+      "source_record_sha256": "01ed743e24056550d3412fc4e959949b7b21056d761c4208a577f7744393d549",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "ERROR_DETECTION",
+        "EXECUTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "OUTPUT",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "RETURN",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "CLOSURE_READINESS",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EXTERNAL_SYSTEM_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXECUTION_PLAN",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "PERMISSIONS",
+        "TOOL_SCHEMA",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "RESULT_TRACE",
+        "TOOL_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-014",
+      "source_name": "Tool retry and recovery policy",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-009",
+        "AI-CAP-010",
+        "AI-CAP-068"
+      ],
+      "source_record_sha256": "7b02030af6fb9cb0a257a783d81d283637b60e1d913c551528de943d6c0dba24",
+      "runtime_form": "MECHANISM",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "TOOL_RETRY_POLICY",
+        "TOOL_RECOVERY_POLICY"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "ERROR_DETECTION",
+        "EXECUTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "OUTPUT",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "RETURN",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "CLOSURE_READINESS",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EXTERNAL_SYSTEM_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXECUTION_PLAN",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "PERMISSIONS",
+        "TOOL_SCHEMA",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "RESULT_TRACE",
+        "TOOL_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-015",
+      "source_name": "Search-query generation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-012"
+      ],
+      "source_record_sha256": "985e97d2c2961c278e27cebd12d1001b66b96ff2fdc954374bf11b9991e2dab3",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY",
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-06",
+        "AI-17"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-12"
+      ],
+      "primary_sequence_roles": [
+        "AVAILABILITY",
+        "DEPENDENCY_SOURCE",
+        "EVIDENCE_GATHERING",
+        "MEMORY_RETRIEVAL",
+        "PROVENANCE"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "QUALIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SOURCE_STATE",
+        "RETRIEVAL_STATE"
+      ],
+      "memory_read_candidates": [
+        "EPISODIC_MEMORY",
+        "EXTERNAL_MEMORY",
+        "SEMANTIC_MEMORY",
+        "SOURCE_INDEX"
+      ],
+      "memory_write_candidates": [
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-016",
+      "source_name": "Source-citation binding",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-012",
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "a62c0685a20081685bedfa3ff0f9d438086a72aa2298304499e5f62a840120c7",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-06",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "AVAILABILITY",
+        "DEPENDENCY_SOURCE",
+        "EVIDENCE_GATHERING",
+        "EVIDENCE_INTERPRETATION",
+        "MEMORY_RETRIEVAL",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PROVENANCE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "QUALIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_SOURCE_STATE",
+        "RETRIEVAL_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EPISODIC_MEMORY",
+        "EVIDENCE",
+        "EXTERNAL_MEMORY",
+        "RESULTS",
+        "SEMANTIC_MEMORY",
+        "SOURCE_INDEX",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "EVIDENCE_LEDGER",
+        "RETRIEVAL_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-017",
+      "source_name": "External-content trust classification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-012",
+        "AI-CAP-025",
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "a9c3ad59af55c7594501ef358ec2af4fb1701f7801105b412abfbe194c74624b",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-05",
+        "AI-06",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-01",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "AVAILABILITY",
+        "DEPENDENCY_SOURCE",
+        "ERROR_DETECTION",
+        "EVIDENCE_GATHERING",
+        "EVIDENCE_INTERPRETATION",
+        "FEEDBACK",
+        "MEMORY_RETRIEVAL",
+        "MEMORY_VALIDATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PROVENANCE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PASS3_FALSIFICATION",
+        "PATTERN_VALIDATION",
+        "QUALIFICATION",
+        "REPAIR_REQUEST"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_SOURCE_STATE",
+        "MONITOR_STATE",
+        "RETRIEVAL_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "BENCHMARK_STATE",
+        "CONFIDENCE",
+        "EPISODIC_MEMORY",
+        "EVIDENCE",
+        "EXPECTED_RESULT",
+        "EXTERNAL_MEMORY",
+        "RESULTS",
+        "SEMANTIC_MEMORY",
+        "SOURCE_INDEX",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "ERROR_LEDGER",
+        "EVALUATION_LEDGER",
+        "EVIDENCE_LEDGER",
+        "FAILURE_MEMORY",
+        "RETRIEVAL_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-018",
+      "source_name": "Prompt-injection isolation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-025"
+      ],
+      "source_record_sha256": "f8b53ec76032f12f44ce8563a446323e51dd317c7ad0485f6f19b52826c27d23",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-18",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXPECTED_RESULT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-019",
+      "source_name": "Instruction-priority resolution",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-018",
+        "AI-CAP-025"
+      ],
+      "source_record_sha256": "2e07953a291fb62c9a779b48f0341d2b1e73283c52cae2ec95f45c761f5e99ac",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-18",
+        "AI-23",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-04",
+        "ASI-16"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SELF_AUDIT",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXPECTED_RESULT",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "SOCIAL_PREDICTION_TRACE",
+        "VERIFICATION_LEDGER",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-020",
+      "source_name": "System\u2013developer\u2013user conflict detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-018",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "6626b43a7977ee412561cda971efa6b553718d2f256b396068a2d88f7286c59f",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-04",
+        "ASI-09",
+        "ASI-16",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "EVIDENCE_INTERPRETATION",
+        "MULTI_AGENT_COORDINATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "INTERACTION_TRACE",
+        "RESULTS",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-021",
+      "source_name": "Safety-classifier routing",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-024",
+        "AI-CAP-026",
+        "AI-CAP-060"
+      ],
+      "source_record_sha256": "65c106c34f410b2678753201be12eb892e3706ba4e066c7419a77e4e882eeb3f",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-14",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "OUTPUT_CONTROL",
+        "PRIORITY",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "DISCLOSURE",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "CONTEXT",
+        "EXPECTED_RESULT",
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "ROLE_CONSTRAINTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "POLICY_DECISION_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-022",
+      "source_name": "Safeguard fallback routing",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-060"
+      ],
+      "source_record_sha256": "eb7f63d74f4a9d443883d56a65bad9925821989b5fa026980dca8aea5d3f1f61",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-023",
+      "source_name": "Model-route selection",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-060"
+      ],
+      "source_record_sha256": "96fa9f382ae7495e7637aa62fd9c0a86e475723f02bcd7627a7bf688488c3818",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-024",
+      "source_name": "Multi-agent task delegation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-017"
+      ],
+      "source_record_sha256": "630d181ea2d71c09d9fb71f8d1f1ebfdb1ce607352605e49cf9bc8c894dd78b8",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-12",
+        "AI-16",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-04",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "LONG_HORIZON_EXECUTION",
+        "SELECTION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING"
+      ],
+      "state_ownership_candidates": [
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "DECISION_LEDGER",
+        "PLAN_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-025",
+      "source_name": "Multi-agent result aggregation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-017",
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "4b0a5e1f7bbf67f6cca83ac2f6c1f87714beb9c026e57fa28f59ab5f10c2f151",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-12",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-04",
+        "ASI-09",
+        "ASI-11",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "EVIDENCE_INTERPRETATION",
+        "LONG_HORIZON_EXECUTION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "SELECTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "MEMORY_VALIDATION",
+        "NEXT_SEQUENCE_SEED",
+        "PATTERN_VALIDATION",
+        "RESOURCE_PLANNING"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RESULTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "DECISION_LEDGER",
+        "EVALUATION_LEDGER",
+        "PLAN_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-026",
+      "source_name": "Agent interruption and rollback",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-016",
+        "AI-CAP-068"
+      ],
+      "source_record_sha256": "e29fc906fdcf3ad813fe8b677b11651826c6dc06c837dba832ea589174ef7cee",
+      "runtime_form": "CONTROL",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "AGENT_INTERRUPTION",
+        "ROLLBACK"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-12",
+        "AI-16",
+        "AI-17",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-08",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "FAILURE_DETECTION",
+        "LONG_HORIZON_EXECUTION",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "SELECTION"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "CONVERGENCE_PLANNING",
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OPERATIONS_STATE",
+        "PLAN_STATE",
+        "RUNTIME_CONTROL",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "FAILURE_HISTORY",
+        "GOAL_STATE",
+        "HEALTH_METRICS",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "DECISION_LEDGER",
+        "INCIDENT_TRACE",
+        "PLAN_TRACE",
+        "RELIABILITY_MEMORY"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-027",
+      "source_name": "Sandbox command execution",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-010",
+        "AI-CAP-062"
+      ],
+      "source_record_sha256": "5d1d1103713a4a6077f543f5f1c6cb7edf8d7af62529e82e085b59d9b7266260",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-15",
+        "AI-17",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTION_SAFETY",
+        "BARRIER",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETURN",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "COUNTER_SEQUENCE",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "TOOL_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-028",
+      "source_name": "Filesystem operation control",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-061",
+        "AI-CAP-062"
+      ],
+      "source_record_sha256": "d91feb17cf53b71e8a818120c6c3b8b9f12c1f999b92f457f235f202b477c46c",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-15",
+        "AI-17",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTION_SAFETY",
+        "BARRIER",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "OUTPUT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RETURN",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "COUNTER_SEQUENCE",
+        "RESULT",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "TOOL_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-029",
+      "source_name": "File-transfer and marker verification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-061",
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "f8c7995386d18238a22310d6a1bb217b2342f832638b5ffd2344a2e29305965e",
+      "runtime_form": "FILTER",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "FILE_TRANSFER_CONTROL",
+        "MARKER_VERIFICATION"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-15",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "COUPLING",
+        "ENCOUNTER",
+        "EVIDENCE_INTERPRETATION",
+        "EXECUTION",
+        "OUTPUT",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RETURN",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "AVAILABILITY",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "EXTERNAL_SYSTEM_STATE",
+        "TOOL_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "EXECUTION_PLAN",
+        "PERMISSIONS",
+        "RESULTS",
+        "TOOL_SCHEMA",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "RESULT_TRACE",
+        "TOOL_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-030",
+      "source_name": "Graphical-interface action grounding",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-042"
+      ],
+      "source_record_sha256": "1b5df4b0a39416828f01a76d575705c5710510dfb20f7a59d50f221cf2ea7055",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY",
+      "phase2_ai_segments": [
+        "AI-07",
+        "AI-09"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-16"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "STATE_INTERPRETATION"
+      ],
+      "secondary_sequence_roles": [
+        "PASS3_FALSIFICATION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read_candidates": [
+        "PATH_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "WORKING_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "CANDIDATE_INFERENCE",
+        "TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-031",
+      "source_name": "Modality routing",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-038",
+        "AI-CAP-039",
+        "AI-CAP-040"
+      ],
+      "source_record_sha256": "70ae543f5d1cd562e704dc6e9ab66827067ad1eb905120699eaea32b4da57e5d",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-12",
+        "AI-14",
+        "AI-16",
+        "AI-18",
+        "AI-22",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-04",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "ALTERNATIVE_GENERATION",
+        "BARRIER",
+        "COMMUNICATION_EFFECT",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "INFORMATION_COUPLING",
+        "LONG_HORIZON_EXECUTION",
+        "OBSERVER_WRITER",
+        "OUTPUT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELECTION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "COUNTER_SEQUENCE",
+        "EXPLANATION",
+        "NARRATIVE_MEMORY",
+        "NEXT_SEQUENCE_SEED",
+        "RESOURCE_PLANNING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_STATE",
+        "PLAN_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "RUNTIME_CONTEXT",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "POLICY",
+        "RESOURCE_STATE",
+        "RISK_MODEL",
+        "ROLE_CONTEXT",
+        "RULE_MEMORY",
+        "STYLE_CONSTRAINTS",
+        "WORKING_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "DECISION_LEDGER",
+        "NARRATIVE_CANDIDATE",
+        "OUTPUT_TRACE",
+        "PLAN_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-032",
+      "source_name": "OCR and layout reconstruction",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-037"
+      ],
+      "source_record_sha256": "2555197036c66359a81daed6744ebd60164f8d996b6efdacbedc3b6f612bbe36",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-01",
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-033",
+      "source_name": "Hallucination detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-020"
+      ],
+      "source_record_sha256": "9e98088003ab91f4cf16110b02e230c3df8d484f826d42807fab82f8ef13b7d0",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-22"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT"
+      ],
+      "state_ownership_candidates": [
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT"
+      ],
+      "memory_write_candidates": [
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-034",
+      "source_name": "Tool-hallucination detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-011",
+        "AI-CAP-020"
+      ],
+      "source_record_sha256": "d06364893e97a1ae52c134136be723959f90bd5b173a34bd12fdfaff29544d1b",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-15",
+        "AI-22",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-08",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-16",
+        "ASI-NODE-17",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "ACCESS",
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "COUPLING",
+        "ENCOUNTER",
+        "EXECUTION",
+        "MULTI_AGENT_COORDINATION",
+        "OUTPUT",
+        "RELATION_MAP",
+        "RETURN",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "AVAILABILITY",
+        "CONVERGENCE",
+        "IMPACT",
+        "RESULT"
+      ],
+      "state_ownership_candidates": [
+        "EXTERNAL_SYSTEM_STATE",
+        "RELATION_STATE",
+        "TOOL_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "EXECUTION_PLAN",
+        "INTERACTION_TRACE",
+        "PERMISSIONS",
+        "SOCIAL_CONTEXT",
+        "TOOL_SCHEMA"
+      ],
+      "memory_write_candidates": [
+        "RESULT_TRACE",
+        "SOCIAL_PREDICTION_TRACE",
+        "TOOL_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-035",
+      "source_name": "Uncertainty calibration",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-021"
+      ],
+      "source_record_sha256": "64c48ac8d244e495aca932ff670f2db9aa181af4703bcfad7a599009c6d5c8dd",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-22"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT"
+      ],
+      "state_ownership_candidates": [
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT"
+      ],
+      "memory_write_candidates": [
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-036",
+      "source_name": "Claim\u2013evidence binding",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-020",
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "8564a5a397e72a6a887a2a8455ece1876a5f16911a9f701564ff5d91d5b5927d",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-22"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "EVIDENCE_INTERPRETATION",
+        "MULTI_AGENT_COORDINATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "INTERACTION_TRACE",
+        "RESULTS",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-037",
+      "source_name": "Source-conflict preservation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "625442343be2072f61823566dff2369d4c995bb488c4bd184cc1f8a3f49b2012",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-038",
+      "source_name": "Benchmark-harness provenance",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-063",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "acd93fbe17be653306a0e57b0972f6046e5dd2f5180c4ad2e7bae352a41024d1",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-039",
+      "source_name": "Benchmark-version tracking",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-063",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "197c0f4eb8a66ad00203bf6c58e9e54e3a60e09e93f060a30b759ea2528fc510",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-040",
+      "source_name": "Live-leaderboard revision tracking",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-050",
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "3704724c0ee019f4d63c67ec0876335d7510b5687279a7b47de526ccaed4e21f",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-10",
+        "AI-12",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-25"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "DECISION",
+        "DEPENDENCY_PLANNING",
+        "DRIVER_TO_TARGET",
+        "EVIDENCE_INTERPRETATION",
+        "LONG_HORIZON_EXECUTION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "SELECTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CONVERGENCE_PLANNING",
+        "MEMORY_VALIDATION",
+        "NEXT_SEQUENCE_SEED",
+        "PATTERN_VALIDATION",
+        "RESOURCE_PLANNING"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "PLAN_STATE",
+        "RUNTIME_CONTROL"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "GOAL_STATE",
+        "PATH_MEMORY",
+        "RESOURCE_STATE",
+        "RESULTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "DECISION_LEDGER",
+        "EVALUATION_LEDGER",
+        "PLAN_TRACE"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-041",
+      "source_name": "Work-completion claim verification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-009",
+        "AI-CAP-023",
+        "AI-CAP-068"
+      ],
+      "source_record_sha256": "05fca91bfe223723c67490e6c1aae3fd2272d9645d374a8a30a8becc49142265",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-14",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "ERROR_DETECTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "PERSISTENCE",
+        "PRIORITY",
+        "QUALIFICATION",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "COUNTER_SEQUENCE",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "POLICY_STATE",
+        "RISK_STATE",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "CONTEXT",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-042",
+      "source_name": "Evaluation-awareness monitoring",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-022",
+        "AI-CAP-063"
+      ],
+      "source_record_sha256": "41b0c1891c9bad0a23b2eda5a49ae8b808bcf9a710c4803278edc6814cca2a42",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-043",
+      "source_name": "Cheating and benchmark-gaming resistance",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-023",
+        "AI-CAP-063"
+      ],
+      "source_record_sha256": "2a5931e10cfc572bb12e4030a03a8275baa40c6410b9f572b61741c31a2f546c",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-09",
+        "ASI-15",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-044",
+      "source_name": "Reasoning\u2013output discrepancy monitoring",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-022",
+        "AI-CAP-023"
+      ],
+      "source_record_sha256": "6372a3966793bcb6e7f4b85cdd12a2314ce5ce768b4e560dd890958d73c923d2",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-18"
+      ],
+      "phase2_asi_segments": [
+        "ASI-05",
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-045",
+      "source_name": "Sabotage-behaviour detection",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-023"
+      ],
+      "source_record_sha256": "5a563418ab71a5472cc54c2f0a01501afc8c91e42906fa15893069c182c67581",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-18"
+      ],
+      "phase2_asi_segments": [
+        "ASI-06",
+        "ASI-07",
+        "ASI-08",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-046",
+      "source_name": "Refusal calibration",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-024"
+      ],
+      "source_record_sha256": "844af331a4d08e4c8a950e65b669532692f81ec53a64eb7f2cc253a056284fb8",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-047",
+      "source_name": "Harm-severity classification",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-024",
+        "AI-CAP-026"
+      ],
+      "source_record_sha256": "bd30a558001bbeecf52178ae7a50149fc7fc0507377300ee03fb9785334d5504",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "ERROR_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "CONTEXT",
+        "EXPECTED_RESULT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "RISK_RESULT",
+        "SAFETY_TRACE",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-048",
+      "source_name": "Cyber-capability gating",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-027",
+        "AI-CAP-028"
+      ],
+      "source_record_sha256": "8ad30d195fe5a388be140dbde54c4020dd72530ad30fb423b78390f986dfeb13",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-01",
+        "AI-02",
+        "AI-03",
+        "AI-08",
+        "AI-13"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-16",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "ALTERNATIVE_GENERATION",
+        "CAUSAL_LOGICAL_INFERENCE",
+        "COUPLING",
+        "ENCOUNTER",
+        "ENVIRONMENT_OBSERVATION",
+        "GROUNDING",
+        "HYPOTHESIS_GENERATION",
+        "QUALIFICATION",
+        "STATE_ESTIMATION",
+        "STATE_INTERPRETATION"
+      ],
+      "secondary_sequence_roles": [
+        "PASS3_FALSIFICATION",
+        "QUALIFICATION",
+        "RELATION_MAPPING",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT",
+        "WORKING_STATE"
+      ],
+      "memory_read_candidates": [
+        "CURRENT_CONTEXT",
+        "PATH_MEMORY",
+        "RETRIEVED_KNOWLEDGE",
+        "WORKING_MEMORY",
+        "WORLD_MODEL"
+      ],
+      "memory_write_candidates": [
+        "CANDIDATE_INFERENCE",
+        "OBSERVATION_TRACE",
+        "TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-049",
+      "source_name": "Biological-capability gating",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-029",
+        "AI-CAP-031"
+      ],
+      "source_record_sha256": "c627965eb80bb60ed8f8667dd8c666f3fd50186e91ed388e4d3c9c8e2b661d96",
+      "runtime_form": "CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-01",
+        "AI-02",
+        "AI-03"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-21"
+      ],
+      "primary_sequence_roles": [
+        "COUPLING",
+        "ENCOUNTER",
+        "ENVIRONMENT_OBSERVATION",
+        "GROUNDING",
+        "STATE_ESTIMATION"
+      ],
+      "secondary_sequence_roles": [
+        "QUALIFICATION",
+        "RELATION_MAPPING"
+      ],
+      "state_ownership_candidates": [
+        "OBSERVATION_STATE",
+        "RUNTIME_CONTEXT"
+      ],
+      "memory_read_candidates": [
+        "CURRENT_CONTEXT",
+        "WORLD_MODEL"
+      ],
+      "memory_write_candidates": [
+        "OBSERVATION_TRACE"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_PLUS_GOVERNANCE_PATCH",
+      "governance_patch_applied": true
+    },
+    {
+      "ai_only_id": "AI-NEW-050",
+      "source_name": "Destructive-action confirmation",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-062"
+      ],
+      "source_record_sha256": "da6a29b3f09fd5783603f59aba8631699bd316ccf417af83ba980fcbdb1f1933",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-15",
+        "AI-17"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-13",
+        "ASI-15",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "PRIORITY",
+        "QUALIFICATION",
+        "RISK_EVALUATION",
+        "RULE"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "CONTEXT",
+        "POLICY",
+        "RISK_MODEL",
+        "RULE_MEMORY"
+      ],
+      "memory_write_candidates": [
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-051",
+      "source_name": "External-disclosure logging",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-065"
+      ],
+      "source_record_sha256": "0d0db8b209577d875c8f41c7aa8c793456e83271657731ef2eadcf45e4e60309",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-052",
+      "source_name": "Record-integrity and custody ledger",
+      "source_structural_level": "Master control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "3ef69482d05521efa19b3e28a6ddac6b609afbb0390b941555e7d7ac952bd214",
+      "runtime_form": "META_CONTROL",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "RECORD_INTEGRITY",
+        "CUSTODY_LEDGER"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "SHARED_AI_ASI_META_CONTROL",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "cross-record/cross-version control condition",
+      "closure_contract": "bounded governance result returned; no automatic parent closure",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-053",
+      "source_name": "Task-cost estimation",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-056"
+      ],
+      "source_record_sha256": "acebb7365992ccb7a704f1572428e06e01e032d04594c48d836ab67539948d10",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-10",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-054",
+      "source_name": "Token-consumption monitoring",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-056",
+        "AI-CAP-058",
+        "AI-CAP-066"
+      ],
+      "source_record_sha256": "9b04234269f4a2a2cb94f07395f91a0287e241c224852fa0e251941488c4e16d",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-10",
+        "AI-14",
+        "AI-17",
+        "AI-19",
+        "AI-22",
+        "AI-23",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-07",
+        "ASI-08",
+        "ASI-10",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTION_SAFETY",
+        "BARRIER",
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "EVIDENCE_INTERPRETATION",
+        "OUTPUT_CONTROL",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "PRIORITY",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK",
+        "RISK_EVALUATION",
+        "RULE",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "COUNTER_SEQUENCE",
+        "DISCLOSURE",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE",
+        "RISK_STATE"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "CONTEXT",
+        "EVIDENCE",
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "RESULTS",
+        "RISK_MODEL",
+        "ROLE_CONSTRAINTS",
+        "RULE_MEMORY",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "POLICY_DECISION_TRACE",
+        "RISK_RESULT",
+        "SAFETY_TRACE"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-055",
+      "source_name": "Latency and time-to-first-token monitoring",
+      "source_structural_level": "Evidence-control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-057"
+      ],
+      "source_record_sha256": "76fb1d5ce42248e489ab3977ebea4d399b5b8dcf9e08e7c45968af0f4496de0b",
+      "runtime_form": "EVIDENCE_CONTROL",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "LATENCY_MONITORING",
+        "TIME_TO_FIRST_TOKEN_MONITORING"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "claim/evidence/evaluation state changed",
+      "closure_contract": "evidence-control update verified and ledger write accepted",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-056",
+      "source_name": "Throughput optimization",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-057"
+      ],
+      "source_record_sha256": "7ece1b9a7df8e8d72f27368e1a82e4eab9b28041981488f3df988c19c809b939",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-057",
+      "source_name": "Output-length budgeting",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-066"
+      ],
+      "source_record_sha256": "a5ef046bf5d29c1230bed73c6d288d833bf2893c5a248fc0105137bb4de6bf76",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-058",
+      "source_name": "API-error interpretation and recovery",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-009",
+        "AI-CAP-068"
+      ],
+      "source_record_sha256": "c250c7c7099d0d7c756f5aeaf4dedb44cff19e81f22a12219637bad4117932aa",
+      "runtime_form": "MECHANISM",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "API_ERROR_INTERPRETATION",
+        "RECOVERY"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-17",
+        "AI-19",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-07",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ERROR_DETECTION",
+        "FAILURE_DETECTION",
+        "FEEDBACK",
+        "MEMORY_VALIDATION",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE",
+        "SELF_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "PASS3_FALSIFICATION",
+        "REPAIR_REQUEST",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "MONITOR_STATE",
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTUAL_RESULT",
+        "CONFIDENCE",
+        "EXPECTED_RESULT",
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "ERROR_LEDGER",
+        "FAILURE_MEMORY",
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY",
+        "VERIFICATION_LEDGER"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-059",
+      "source_name": "No-fallback mode control",
+      "source_structural_level": "Operating state",
+      "source_ai_cap_lineage": [
+        "AI-CAP-060"
+      ],
+      "source_record_sha256": "870162290198413eb8917bff351aa9942dde23e37e3912ca4289c14bb44f4e90",
+      "runtime_form": "STATE",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_RUNTIME_STATE_UNDER_ASI_POLICY",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "state selected or observed",
+      "closure_contract": "state itself does not close a Sequence; consuming edge must close against its own contract",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-060",
+      "source_name": "Fallback transparency",
+      "source_structural_level": "Universal filter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-060",
+        "AI-CAP-065"
+      ],
+      "source_record_sha256": "6192d40bfd39f905ba0a7acc99810b2369732ffeef1438699842ae351409a155",
+      "runtime_form": "FILTER",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE",
+      "phase2_ai_segments": [
+        "AI-14",
+        "AI-22",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-07",
+        "ASI-08",
+        "ASI-14",
+        "ASI-19"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-03",
+        "ASI-NODE-04",
+        "ASI-NODE-08",
+        "ASI-NODE-09",
+        "ASI-NODE-11",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "CONSTRAINT",
+        "DECISION_INHIBITION",
+        "OUTPUT_CONTROL",
+        "QUALIFICATION",
+        "REFUSAL_FALLBACK"
+      ],
+      "secondary_sequence_roles": [
+        "DISCLOSURE",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OUTPUT_CONTROL_STATE",
+        "POLICY_STATE"
+      ],
+      "memory_read_candidates": [
+        "OUTPUT_CONTEXT",
+        "POLICY",
+        "ROLE_CONSTRAINTS"
+      ],
+      "memory_write_candidates": [
+        "POLICY_DECISION_TRACE"
+      ],
+      "activation_contract": "candidate input/output available for qualification",
+      "closure_contract": "filter verdict plus evidence/provenance returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-061",
+      "source_name": "User-correction propagation",
+      "source_structural_level": "Master control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-018",
+        "AI-CAP-064"
+      ],
+      "source_record_sha256": "4b0b15a798f1f91d806a056eb49ea672168e36aa059a8f4e59d625e85e464dc0",
+      "runtime_form": "META_CONTROL",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "SHARED_AI_ASI_META_CONTROL",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19",
+        "AI-23"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-04",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-16",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-07",
+        "ASI-NODE-08",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "EVIDENCE_INTERPRETATION",
+        "MULTI_AGENT_COORDINATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT",
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER",
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "INTERACTION_TRACE",
+        "RESULTS",
+        "SOCIAL_CONTEXT",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER",
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "cross-record/cross-version control condition",
+      "closure_contract": "bounded governance result returned; no automatic parent closure",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-062",
+      "source_name": "Multi-turn session-state management",
+      "source_structural_level": "Operational parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-019"
+      ],
+      "source_record_sha256": "d4bbfed6edc3f5b53dc4eb7e3e5167d62bc4bf806fd5bd2319c6c572e2fb3797",
+      "runtime_form": "MECHANISM",
+      "atomicity": "ATOMIC_AT_APPROVED_SOURCE_SCOPE",
+      "composite_components": [],
+      "composite_split_status": "NOT_REQUIRED_BY_CURRENT_SOURCE",
+      "mechanism_ownership": "AI_PRIMARY",
+      "phase2_ai_segments": [
+        "AI-03",
+        "AI-04",
+        "AI-10",
+        "AI-22"
+      ],
+      "phase2_asi_segments": [],
+      "phase2_asi_nodes": [
+        "ASI-NODE-02",
+        "ASI-NODE-03",
+        "ASI-NODE-08",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "ACTOR_VIEW",
+        "BELIEF_TRACKING",
+        "MULTI_AGENT_COORDINATION",
+        "RELATION_MAP",
+        "SOCIAL_PREDICTION"
+      ],
+      "secondary_sequence_roles": [
+        "ALTERNATIVE",
+        "CONVERGENCE",
+        "IMPACT"
+      ],
+      "state_ownership_candidates": [
+        "RELATION_STATE",
+        "VIEW_STATE"
+      ],
+      "memory_read_candidates": [
+        "ACTOR_VIEW_MEMORY",
+        "INTERACTION_TRACE",
+        "SOCIAL_CONTEXT"
+      ],
+      "memory_write_candidates": [
+        "SOCIAL_PREDICTION_TRACE",
+        "VIEW_MAP"
+      ],
+      "activation_contract": "task/state trigger plus required inputs",
+      "closure_contract": "mechanism output produced and verified or terminal failure returned",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-063",
+      "source_name": "Versioned parameter and evidence updating",
+      "source_structural_level": "Master control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-064",
+        "AI-CAP-074"
+      ],
+      "source_record_sha256": "7f781c2c7077517ef38925a088b2dc2a78e097deb6bab143a8933b590be82a75",
+      "runtime_form": "META_CONTROL",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "VERSIONED_PARAMETER_UPDATE",
+        "VERSIONED_EVIDENCE_UPDATE"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "SHARED_AI_ASI_META_CONTROL",
+      "phase2_ai_segments": [
+        "AI-17",
+        "AI-18",
+        "AI-19"
+      ],
+      "phase2_asi_segments": [
+        "ASI-02",
+        "ASI-03",
+        "ASI-09",
+        "ASI-11",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-07",
+        "ASI-NODE-11",
+        "ASI-NODE-15",
+        "ASI-NODE-16",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "EVIDENCE_INTERPRETATION",
+        "OVERSIGHT",
+        "PASS3_AUDIT",
+        "TESTING",
+        "VERIFICATION"
+      ],
+      "secondary_sequence_roles": [
+        "MEMORY_VALIDATION",
+        "PATTERN_VALIDATION"
+      ],
+      "state_ownership_candidates": [
+        "EVALUATION_STATE",
+        "EVIDENCE_LEDGER"
+      ],
+      "memory_read_candidates": [
+        "BENCHMARK_STATE",
+        "EVIDENCE",
+        "RESULTS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "AUDIT_TRACE",
+        "EVALUATION_LEDGER"
+      ],
+      "activation_contract": "cross-record/cross-version control condition",
+      "closure_contract": "bounded governance result returned; no automatic parent closure",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    },
+    {
+      "ai_only_id": "AI-NEW-064",
+      "source_name": "Production rollback and recovery",
+      "source_structural_level": "Control parameter",
+      "source_ai_cap_lineage": [
+        "AI-CAP-068"
+      ],
+      "source_record_sha256": "960c213b5281b96568bc0ac4ff5c378713bab2b655c9b6b019189501278b58e6",
+      "runtime_form": "CONTROL",
+      "atomicity": "COMPOSITE_CANDIDATE",
+      "composite_components": [
+        "PRODUCTION_ROLLBACK",
+        "RECOVERY"
+      ],
+      "composite_split_status": "RUNTIME_SUBCONTRACTS_REQUIRED_IF_COMPONENT_CLOSURE_DIFFERS",
+      "mechanism_ownership": "SHARED_AI_ASI_CONTROL",
+      "phase2_ai_segments": [
+        "AI-16",
+        "AI-17",
+        "AI-24"
+      ],
+      "phase2_asi_segments": [
+        "ASI-03",
+        "ASI-13",
+        "ASI-14",
+        "ASI-18"
+      ],
+      "phase2_asi_nodes": [
+        "ASI-NODE-05",
+        "ASI-NODE-10",
+        "ASI-NODE-11",
+        "ASI-NODE-12",
+        "ASI-NODE-14",
+        "ASI-NODE-17"
+      ],
+      "primary_sequence_roles": [
+        "FAILURE_DETECTION",
+        "PERSISTENCE",
+        "QUALITY_ASSURANCE",
+        "RECOVERY",
+        "REPAIR_SEQUENCE"
+      ],
+      "secondary_sequence_roles": [
+        "CLOSURE_READINESS",
+        "VERIFICATION"
+      ],
+      "state_ownership_candidates": [
+        "OPERATIONS_STATE",
+        "SYSTEM_HEALTH_STATE"
+      ],
+      "memory_read_candidates": [
+        "FAILURE_HISTORY",
+        "HEALTH_METRICS",
+        "TRACE"
+      ],
+      "memory_write_candidates": [
+        "INCIDENT_TRACE",
+        "RELIABILITY_MEMORY"
+      ],
+      "activation_contract": "control decision requested",
+      "closure_contract": "bounded control decision returned; permission-bearing consequences still require ASI/Sequence authority",
+      "direct_engine_ids": [],
+      "direct_engine_evidence": [],
+      "engine_binding_status": "ENGINE_BINDING_OPEN_NO_EXACT_SOURCE_RELATION",
+      "authority_guards": [
+        "AI mechanism output is not execution authority.",
+        "AI filter output is not automatically a closure decision.",
+        "Control, master-control and state records cannot bypass ASI authority, Sequence thresholds or barriers.",
+        "Evidence-control records may update evidence/provenance state only under their write contract; they do not create source facts.",
+        "Composite candidates with independently closable components must use explicit subcontracts or Sub-Sequences rather than hidden in-place loops."
+      ],
+      "source_binding_status": "SOURCE_LINEAGE_DERIVED_CROSSWALK",
+      "governance_patch_applied": false
+    }
+  ]
+}

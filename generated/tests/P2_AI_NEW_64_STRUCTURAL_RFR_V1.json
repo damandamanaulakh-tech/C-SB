@@ -1,0 +1,67 @@
+{
+  "report_id": "P2-AI-NEW-64-STRUCTURAL-RFR-V1",
+  "status": "PASS_WITH_SOURCE_GAPS",
+  "scope_note": "Structural/runtime decomposition of approved AI-NEW-001..064. PASS does not promote Phase-2 crosswalks to source fact and does not invent direct Engine relations.",
+  "pass0": {
+    "declared_end": "All 64 approved AI-only records have source-preserving runtime-form, atomicity, ownership, Sequence/memory and Engine-binding status.",
+    "closure_scope": "AI-NEW structural decomposition only; not final AI/ASI ontology closure"
+  },
+  "pass1": {
+    "source_record_count": 64,
+    "source_level_counts": {
+      "Operational parameter": 19,
+      "Control parameter": 14,
+      "Operating state or parameter": 1,
+      "Universal filter": 19,
+      "Evidence-control parameter": 7,
+      "Master control parameter": 3,
+      "Operating state": 1
+    },
+    "runtime_form_counts": {
+      "MECHANISM": 19,
+      "CONTROL": 14,
+      "STATE_OR_MECHANISM_MIXED": 1,
+      "FILTER": 19,
+      "EVIDENCE_CONTROL": 7,
+      "META_CONTROL": 3,
+      "STATE": 1
+    },
+    "composite_candidate_count": 11
+  },
+  "pass2": {
+    "ownership_counts": {
+      "AI_PRIMARY_WITH_ASI_GOVERNANCE_INTERFACE": 13,
+      "AI_PRIMARY": 6,
+      "SHARED_AI_ASI_CONTROL": 14,
+      "AI_RUNTIME_STATE_OR_MECHANISM_UNDER_EXPLICIT_CALL_CONTRACT": 1,
+      "AI_FILTER_WITH_ASI_ACCEPTANCE_INTERFACE": 19,
+      "AI_EVIDENCE_MECHANISM_WITH_ASI_PROVENANCE_GOVERNANCE": 7,
+      "SHARED_AI_ASI_META_CONTROL": 3,
+      "AI_RUNTIME_STATE_UNDER_ASI_POLICY": 1
+    },
+    "engine_binding_counts": {
+      "source_derived_direct": 0,
+      "open_no_exact_source_relation": 64
+    },
+    "governance_patch_count": 7
+  },
+  "pass3": {
+    "invariant_checks": {
+      "SOURCE_IDENTITY_PRESERVED": true,
+      "ALL_64_STRUCTURALLY_CLASSIFIED": true,
+      "COMPOSITES_NOT_SILENTLY_SPLIT_OR_FLATTENED": true,
+      "AI_CONTROL_HAS_NO_IMPLICIT_PERMISSION_AUTHORITY": true,
+      "STATE_IS_NOT_SEQUENCE_CLOSURE": true,
+      "DIRECT_ENGINE_BINDING_REQUIRES_SOURCE_EVIDENCE": true,
+      "ENGINE_GAPS_PRESERVED": true,
+      "PRIMARY_SEQUENCE_ROLE_PRESENT": true
+    },
+    "source_records_rewritten": false,
+    "guessed_engine_bindings_allowed": false,
+    "closed_sequence_reopen_used": false
+  },
+  "errors": [],
+  "findings": [
+    "64 AI-NEW records have no exact direct Engine relation; gaps preserved rather than guessed"
+  ]
+}
