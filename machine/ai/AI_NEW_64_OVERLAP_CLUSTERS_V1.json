@@ -1,0 +1,27 @@
+{
+  "registry_id": "AI-NEW-64-OVERLAP-CLUSTERS-V1",
+  "status": "PHASE2_INFERRED_REVIEW_MAP_NOT_SOURCE_REWRITE",
+  "source_registry": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+  "rule": "Clusters identify structural proximity for falsification. They do not rename, merge or demote approved source records. Merge is forbidden without explicit source/test evidence that activation, state ownership, output contract and closure condition are truly the same.",
+  "clusters": [
+    {"cluster_id":"OV-01","name":"Context / memory / cache lifecycle","ids":["AI-NEW-001","AI-NEW-002","AI-NEW-003","AI-NEW-004","AI-NEW-005","AI-NEW-008","AI-NEW-009","AI-NEW-062"],"expected_relation":"LIFECYCLE_COMPLEMENTARITY","duplicate_hypothesis":"REJECT_UNLESS_CONTRACTS_COLLAPSE"},
+    {"cluster_id":"OV-02","name":"Budget / effort / output resource control","ids":["AI-NEW-006","AI-NEW-007","AI-NEW-053","AI-NEW-054","AI-NEW-055","AI-NEW-056","AI-NEW-057"],"expected_relation":"RESOURCE_PIPELINE_WITH_DISTINCT_STATE_METRIC_AND_CONTROL","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-03","name":"Tool execution lifecycle","ids":["AI-NEW-010","AI-NEW-011","AI-NEW-012","AI-NEW-013","AI-NEW-014","AI-NEW-027","AI-NEW-028","AI-NEW-029","AI-NEW-030","AI-NEW-058","AI-NEW-064"],"expected_relation":"LIFECYCLE_AND_SCOPE_COMPLEMENTARITY","duplicate_hypothesis":"REVIEW_058_VS_064_SCOPE"},
+    {"cluster_id":"OV-04","name":"Search / source / instruction trust boundary","ids":["AI-NEW-015","AI-NEW-016","AI-NEW-017","AI-NEW-018","AI-NEW-019","AI-NEW-020"],"expected_relation":"PIPELINE_COMPLEMENTARITY","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-05","name":"Routing / fallback / refusal control","ids":["AI-NEW-021","AI-NEW-022","AI-NEW-023","AI-NEW-046","AI-NEW-059","AI-NEW-060"],"expected_relation":"CONTROL_STATE_AND_TRANSPARENCY_COMPLEMENTARITY","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-06","name":"Multi-agent coordination lifecycle","ids":["AI-NEW-024","AI-NEW-025","AI-NEW-026"],"expected_relation":"DELEGATE_AGGREGATE_INTERRUPT_COMPLEMENTARITY","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-07","name":"Multimodal routing / reconstruction","ids":["AI-NEW-031","AI-NEW-032"],"expected_relation":"ROUTER_VS_MECHANISM","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-08","name":"Hallucination / uncertainty / evidence integrity","ids":["AI-NEW-033","AI-NEW-034","AI-NEW-035","AI-NEW-036","AI-NEW-037","AI-NEW-041","AI-NEW-044"],"expected_relation":"GENERAL_DETECTION_SPECIALIZATION_AND_EVIDENCE_PIPELINE","duplicate_hypothesis":"REVIEW_033_VS_034_SPECIALIZATION"},
+    {"cluster_id":"OV-09","name":"Benchmark / evaluation integrity","ids":["AI-NEW-038","AI-NEW-039","AI-NEW-040","AI-NEW-042","AI-NEW-043","AI-NEW-044","AI-NEW-045"],"expected_relation":"EVIDENCE_PROVENANCE_AND_ADVERSARIAL_EVALUATION_PIPELINE","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-10","name":"High-risk capability gating","ids":["AI-NEW-047","AI-NEW-048","AI-NEW-049","AI-NEW-050"],"expected_relation":"SEVERITY_CLASSIFICATION_PLUS_PARALLEL_DOMAIN_GATES_PLUS_CONFIRMATION","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-11","name":"Record / provenance / update governance","ids":["AI-NEW-051","AI-NEW-052","AI-NEW-061","AI-NEW-063"],"expected_relation":"CUSTODY_DISCLOSURE_CORRECTION_VERSIONING_COMPLEMENTARITY","duplicate_hypothesis":"REJECT"},
+    {"cluster_id":"OV-12","name":"Recovery scope comparison","ids":["AI-NEW-014","AI-NEW-026","AI-NEW-058","AI-NEW-064"],"expected_relation":"SAME_RECOVERY_PRIMITIVE_AT_DIFFERENT_RUNTIME_SCOPES","duplicate_hypothesis":"KEEP_SEPARATE_IF_SCOPE_AND_CLOSURE_DIFFER"}
+  ],
+  "targeted_pairs": [
+    {"ids":["AI-NEW-033","AI-NEW-034"],"question":"Is tool-hallucination detection merely a specialization of hallucination detection, or does tool-call evidence/state require a separate contract?","default":"KEEP_SEPARATE_UNTIL_CONTRACT_EQUIVALENCE_PROVEN"},
+    {"ids":["AI-NEW-058","AI-NEW-064"],"question":"Do API-local recovery and production rollback/recovery have distinct controllers, state scopes and closure conditions?","default":"KEEP_SEPARATE"},
+    {"ids":["AI-NEW-004","AI-NEW-063"],"question":"Does persistent-memory write control overlap versioned update governance?","default":"KEEP_SEPARATE_MEMORY_WRITE_VS_VERSION_MIGRATION"},
+    {"ids":["AI-NEW-021","AI-NEW-023"],"question":"Is safety-classifier routing distinct from model-route selection?","default":"KEEP_SEPARATE_POLICY_ROUTE_VS_CAPABILITY_ROUTE"},
+    {"ids":["AI-NEW-052","AI-NEW-063"],"question":"Does custody ledger ownership overlap versioned parameter/evidence updating?","default":"KEEP_SEPARATE_CUSTODY_VS_MUTATION_CONTROL"}
+  ]
+}
