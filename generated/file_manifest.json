@@ -410,6 +410,11 @@
     "size_bytes": 6618
   },
   {
+    "path": "phase2/wisdom/BG_2_47_2_50_SOURCE_CLAIMS_V1.json",
+    "sha256": "e42e596195acd9101f5e24ba9582ba66a62dd04b5d224a108b14966543f77c77",
+    "size_bytes": 4513
+  },
+  {
     "path": "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
     "sha256": "4d4a8c47b57a94012ad327fdecac3f2736a6439a5ddc6dce01a0228b4bf7275f",
     "size_bytes": 10272
