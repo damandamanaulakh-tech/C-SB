@@ -55,10 +55,12 @@ jobs:
 
       - name: Commit generated inventory back to intake branch
         run: |
-          if git diff --quiet -- raw/release-assets/backend-docs/MANIFEST.json docs/RELEASE_ASSET_INGESTION_REPORT.md; then
+          changes="$(git status --porcelain -- raw/release-assets/backend-docs/MANIFEST.json docs/RELEASE_ASSET_INGESTION_REPORT.md)"
+          if [ -z "$changes" ]; then
             echo 'Generated inventory is unchanged.'
             exit 0
           fi
+          printf '%s\n' "$changes"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add raw/release-assets/backend-docs/MANIFEST.json docs/RELEASE_ASSET_INGESTION_REPORT.md
