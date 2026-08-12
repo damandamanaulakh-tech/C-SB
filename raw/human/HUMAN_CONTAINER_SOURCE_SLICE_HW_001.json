@@ -1,0 +1,12 @@
+{
+  "source_slice_id": "HUMAN-SRC-SLICE-HW-001",
+  "status": "APPROVED_SOURCE_SLICE_FOR_CONTROLLED_TEST",
+  "scope": "Human containers activated by P2-HUMAN-WISDOM-NO-AI-RFR-001.",
+  "source_note": "IDs/names are preserved from user-provided approved Human registry material. This is a bounded test source slice only.",
+  "records": [
+    {"container_id": "CON-047", "name": "Decision, Judgment and Trade-off Intelligence", "segment_id": "SEG-06"},
+    {"container_id": "CON-064", "name": "Motive, Needs, Values and Priority Structure", "segment_id": "SEG-08"},
+    {"container_id": "CON-067", "name": "Personality and Temperament", "segment_id": "SEG-09"}
+  ],
+  "hard_guard": "This slice validates source custody for this test only and does not replace the full Human registry."
+}
