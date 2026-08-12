@@ -1,0 +1,14 @@
+{
+  "sequence_id": "P2-WISDOM-SOURCE-INGESTION-01",
+  "status": "RFR_REQUESTED",
+  "source_batch": "W-SRC-BG-02-047-050-V1",
+  "expected_chain": [
+    "SOURCE_TEXT",
+    "SOURCE_CLAIM",
+    "INTERPRETATION",
+    "COUNTER_CASE_APPLICABILITY",
+    "WISDOM_CANDIDATE",
+    "RFR"
+  ],
+  "closure_rule": "Do not adopt the three Wisdom candidates unless generated/tests/P2_WISDOM_SOURCE_INGESTION_RFR_V1.json returns PASS with zero errors."
+}
