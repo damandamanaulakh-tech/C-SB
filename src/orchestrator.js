@@ -1,4 +1,5 @@
 import crypto from 'node:crypto';
+import { runBrainWalkthrough } from '../brain/pipeline.js';
 
 const ENGINE_RULES = [
   'Raw Source Never Changes',
@@ -120,14 +121,25 @@ export function orchestrate({ message = '', mode = 'standard', repositoryContext
   const checks = runUrrChecks(rawLock, claimLedger);
   const loopRoute = chooseLoopRoute(checks, claimLedger);
   const publicOutput = buildPublicAnswer(fragments, claimLedger, loopRoute);
+  const brainWalkthrough = runBrainWalkthrough({
+    message: rawSource,
+    mode,
+    repositoryContext,
+    modelOutput: publicOutput.answer,
+    urrRoute: loopRoute.route,
+    proofDebtOpen: loopRoute.route === 'proof-loop',
+    runId,
+  });
 
   return {
     runId,
     engine: 'Sourceborn URR Orchestrator',
-    engineVersion: '1.1.0',
+    engineVersion: '1.2.0',
+    architecture: brainWalkthrough.architecture,
     rules: ENGINE_RULES,
     rawLock,
     repositoryContext,
+    brainWalkthrough,
     stages: {
       sourceborn: { fragments },
       claimLedger,
@@ -140,6 +152,7 @@ export function orchestrate({ message = '', mode = 'standard', repositoryContext
       { event: 'fragments-created', count: fragments.length },
       { event: 'claim-ledger-created', claims: claimLedger.claims.length, assumptions: claimLedger.assumptions.length },
       { event: 'urr-decision', decision: checks.every((check) => check.status === 'pass') ? 'pass' : 'fail' },
+      { event: 'brain-walkthrough-completed', stages: brainWalkthrough.stageCount },
       { event: 'loop-route-selected', route: loopRoute.route },
       { event: 'public-output-created', safeForPublic: true },
     ],
