@@ -1,0 +1,44 @@
+{
+  "report_id": "P2-WISDOM-SOURCE-INGESTION-RFR-V1",
+  "status": "PASS",
+  "scope_note": "Structural/source-boundary R-F-R for one bounded Holy-Book ingestion batch. It does not establish theological consensus, external truth, or universal applicability.",
+  "summary": {
+    "source_records": 4,
+    "source_claims": 8,
+    "interpretations": 3,
+    "applicability_cases": 7,
+    "wisdom_candidates": 3,
+    "errors": 0,
+    "findings": 0
+  },
+  "pass0": {
+    "declared_end": "Three source-linked contextual Wisdom candidates survive source custody, interpretation separation and counter-case/applicability audit without acquiring execution authority.",
+    "source_scope": "Bhagavad Gita chapter 2 verses 47-50 only",
+    "closure_scope": "source-ingestion architecture integrity; not doctrinal consensus or universal truth"
+  },
+  "pass1": {
+    "all_claims_trace_to_source": true,
+    "all_interpretations_trace_to_claims": true,
+    "all_wisdom_candidates_trace_to_claims_interpretations_and_cases": true
+  },
+  "pass2": {
+    "chain": [
+      "SOURCE_TEXT",
+      "SOURCE_CLAIM",
+      "INTERPRETATION",
+      "COUNTER_CASE_APPLICABILITY",
+      "WISDOM_CANDIDATE"
+    ],
+    "direct_action_authority_present": false,
+    "translation_dependency_preserved": true
+  },
+  "pass3": {
+    "counter_case_gate_present": true,
+    "required_boundaries_present": true,
+    "source_text_immutable_input": true,
+    "law_formation_not_performed": true,
+    "actor_view_not_modified": true
+  },
+  "errors": [],
+  "findings": []
+}
