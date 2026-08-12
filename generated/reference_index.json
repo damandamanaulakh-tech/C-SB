@@ -2317,7 +2317,8 @@
   "wisdom_source_text_ids": {
     "WST-001": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
-      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json"
+      "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WST-002": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
@@ -2338,7 +2339,8 @@
   },
   "wisdom_source_claim_ids": {
     "WSC-001": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WSC-002": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
@@ -2355,7 +2357,8 @@
   },
   "wisdom_interpretation_ids": {
     "WINT-001": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WINT-002": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
@@ -2372,7 +2375,8 @@
   },
   "wisdom_sequence_ids": {
     "WSEQ-001": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WSEQ-002": [
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
@@ -2389,19 +2393,24 @@
   },
   "wisdom_candidate_ids": {
     "WIS-CAND-001": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-002": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-003": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-004": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-005": [
-      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json"
+      "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "tools/run_phase2_wisdom_batch_001_rfr.py"
     ]
   },
   "asi_rubric_segments": {

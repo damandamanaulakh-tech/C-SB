@@ -534,7 +534,7 @@
 
 ## Wisdom Source Text Ids
 
-- **WST-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
+- **WST-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WST-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
 - **WST-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
 - **WST-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json`
@@ -542,7 +542,7 @@
 
 ## Wisdom Source Claim Ids
 
-- **WSC-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSC-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WSC-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
 - **WSC-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
 - **WSC-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
@@ -550,7 +550,7 @@
 
 ## Wisdom Interpretation Ids
 
-- **WINT-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WINT-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WINT-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
 - **WINT-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
 - **WINT-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
@@ -558,7 +558,7 @@
 
 ## Wisdom Sequence Ids
 
-- **WSEQ-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WSEQ-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WSEQ-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
 - **WSEQ-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
 - **WSEQ-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
@@ -566,11 +566,11 @@
 
 ## Wisdom Candidate Ids
 
-- **WIS-CAND-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
-- **WIS-CAND-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
-- **WIS-CAND-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
-- **WIS-CAND-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
-- **WIS-CAND-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`
+- **WIS-CAND-001** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
+- **WIS-CAND-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
+- **WIS-CAND-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
+- **WIS-CAND-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
+- **WIS-CAND-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 
 ## Asi Rubric Segments
 
