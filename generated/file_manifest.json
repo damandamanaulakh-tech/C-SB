@@ -100,6 +100,11 @@
     "size_bytes": 6356
   },
   {
+    "path": "tools/generate_ai_new_64_structural_decomposition_v1.py",
+    "sha256": "5c4086e7f8465c53a70371414e0e80cb2d815bf5d192c7a4951c28126a588653",
+    "size_bytes": 7064
+  },
+  {
     "path": "tools/run_phase2_operational_ownership_rfr_v1.py",
     "sha256": "f05286f9d2e1bf34ff88b86c1706f09c810759a391f0301069c407d18f40b5f1",
     "size_bytes": 6066
