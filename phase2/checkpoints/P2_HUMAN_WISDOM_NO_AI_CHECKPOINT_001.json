@@ -1,0 +1,26 @@
+{
+  "checkpoint_id": "P2-HUMAN-WISDOM-NO-AI-CHECKPOINT-001",
+  "checkpoint_type": "DOMAIN_INDEPENDENCE_RFR_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "fixture": "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+  "report": "generated/tests/P2_HUMAN_WISDOM_NO_AI_RFR_001.json",
+  "result": {"variants": 3, "pass": 3, "fail": 0},
+  "closed_invariants": [
+    "AI is not required merely because Sourceborn analyses a Human + Wisdom case.",
+    "Human state/history remains the owner/producer of the Human response.",
+    "Wisdom remains contextual and conditional rather than causal authority for the Human response.",
+    "Wisdom applicability may evaluate false and then the Wisdom Candidate is not applied.",
+    "The same input may coexist with different Human responses when relevant Human state/history differs.",
+    "ASI audits provenance/applicability without becoming the Human decision-maker.",
+    "No AI segment, AI-only record or Engine was activated in the tested path."
+  ],
+  "scope_boundary": "Synthetic common-input/different-history case only.",
+  "blocked_next_test": {
+    "sequence": "P2-CONTRADICTORY-WISDOM-SOURCE-RFR-001",
+    "barrier": "REQUIRES_REAL_OPPOSING_OR_COUNTER_SOURCE",
+    "rule": "Do not fabricate an opposing Wisdom/source record solely to make the contradiction test executable."
+  },
+  "parallel_unblocked_sequence": "P2-AI-ASI-PARAMETER-SOURCE-EXTRACTION-01"
+}
