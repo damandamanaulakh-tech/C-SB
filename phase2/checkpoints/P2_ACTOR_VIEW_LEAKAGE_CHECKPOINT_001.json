@@ -1,0 +1,22 @@
+{
+  "checkpoint_id": "P2-ACTOR-VIEW-LEAKAGE-CHECKPOINT-001",
+  "checkpoint_type": "ACTOR_VIEW_CONTROL_LAW_RFR_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "fixture": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+  "report": "generated/tests/P2_ACTOR_VIEW_LEAKAGE_RFR_001.json",
+  "result": {"variants": 4, "pass": 4, "fail": 0},
+  "closed_invariants": [
+    "GLOBAL_STATE remains separate from ACTOR_VIEW.",
+    "AI belief/inference remains separate from ACTOR_VIEW.",
+    "A closed information-transfer Sequence alone does not update Actor View when its required return is unaccepted.",
+    "An accepted information-transfer return may update Actor View with provenance.",
+    "No hidden knowledge injection is permitted.",
+    "Human actor decisions read the actor's View rather than unrestricted global state.",
+    "AI and Wisdom may constrain modelling but do not write Human Actor View directly.",
+    "No closed Sequence is reopened."
+  ],
+  "scope_boundary": "Synthetic knowledge-distribution/control-law test only; FACT_F is not a real-world fact and no claim is made about a real person's knowledge.",
+  "next_sequence": "P2-CLOSURE-SCOPE-INHERITANCE-RFR-001"
+}
