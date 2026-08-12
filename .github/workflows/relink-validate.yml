@@ -47,6 +47,8 @@ jobs:
         run: python tools/generate_ai_only_bindings_v1.py
       - name: Build AI-NEW 64 structural decomposition
         run: python tools/generate_ai_new_64_structural_decomposition_v1.py
+      - name: Build AI runtime and ASI governance interface views
+        run: python tools/generate_ai_asi_native_runtime_views_v1.py
       - name: Bind bounded Engines to ASI Nodes from source container use
         run: python tools/generate_engine_asi_node_bindings_v1.py
       - name: Relink all known IDs and generate indexes
@@ -63,6 +65,8 @@ jobs:
         run: python tools/validate_ai_asi_operational_parameter_bindings_v1.py
       - name: Run AI-NEW 64 structural R-F-R
         run: python tools/run_phase2_ai_new_64_structural_rfr_v1.py
+      - name: Run AI-NEW 64 orphan overlap attack
+        run: python tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py
       - name: Run AI ASI structural R-F-R tests
         run: python tools/run_phase2_ai_asi_rfr_v1.py
       - name: Build compact R-F-R findings view
