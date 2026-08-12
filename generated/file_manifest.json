@@ -156,8 +156,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "ed9c3955085d97bd510b3f356a991b9894c3f183bbf8067b73df9d81e349dafc",
-    "size_bytes": 3527
+    "sha256": "deb9c6c6c4f4e7749e7c07dfb90565da159941b0bdc5b1f9f555c704f2a10c6c",
+    "size_bytes": 3637
   },
   {
     "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
@@ -273,6 +273,11 @@
     "path": "phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md",
     "sha256": "3c4b1e05154fceeb2827f8e8fe482519aa599c6dc12debbc292673fd3c8baa61",
     "size_bytes": 990
+  },
+  {
+    "path": "phase2/rfr/P2_HUMAN_WISDOM_NO_AI_RFR_001.md",
+    "sha256": "3d21ff81f982477a7875a3c7a9e1ec9cf0ce19d80fa96f15fe43282e82c46326",
+    "size_bytes": 756
   },
   {
     "path": "phase2/rfr/P2_WISDOM_BATCH_001_RFR.md",

@@ -1,0 +1,106 @@
+{
+  "report_id": "P2-HUMAN-WISDOM-NO-AI-RFR-001",
+  "status": "PASS",
+  "scope_note": "Synthetic Human + Wisdom integration test with no AI activation. PASS proves domain ownership and conditional Wisdom applicability behavior for this fixture only.",
+  "domains_active": [
+    "HUMAN",
+    "WISDOM",
+    "ASI"
+  ],
+  "domains_inactive": [
+    "AI"
+  ],
+  "pass0": {
+    "declared_end": "Verify that Human state/history and source-linked Wisdom can be modelled without activating artificial cognition, while Wisdom remains contextual rather than causal authority for the Human response.",
+    "scope": "synthetic common-input / different-history response case",
+    "fixture_is_source_fact": false
+  },
+  "pass1": {
+    "human_source_bound": true,
+    "wisdom_source_bound": true,
+    "asi_ids_valid": true,
+    "ai_activation_empty": true
+  },
+  "pass2": {
+    "variants": [
+      {
+        "variant_id": "HW-HISTORY-A",
+        "input": "INPUT_X",
+        "history_state": "HISTORY_A",
+        "current_priority_state": "PRIORITY_A",
+        "human_response": "RESPONSE_A",
+        "wisdom_applicable": true,
+        "expected_wisdom_applicability": true,
+        "response_owner": "HUMAN",
+        "ai_used": false,
+        "events": [
+          "COMMON_INPUT_RECEIVED",
+          "HUMAN_STATE_AND_HISTORY_READ",
+          "HUMAN_RESPONSE_PRODUCED",
+          "WIS-CAND-004_APPLICABILITY_TRUE",
+          "WISDOM_USED_AS_CONTEXTUAL_INTERPRETIVE_INPUT",
+          "ASI_PROVENANCE_AND_APPLICABILITY_AUDIT"
+        ],
+        "status": "PASS"
+      },
+      {
+        "variant_id": "HW-HISTORY-B",
+        "input": "INPUT_X",
+        "history_state": "HISTORY_B",
+        "current_priority_state": "PRIORITY_B",
+        "human_response": "RESPONSE_B",
+        "wisdom_applicable": true,
+        "expected_wisdom_applicability": true,
+        "response_owner": "HUMAN",
+        "ai_used": false,
+        "events": [
+          "COMMON_INPUT_RECEIVED",
+          "HUMAN_STATE_AND_HISTORY_READ",
+          "HUMAN_RESPONSE_PRODUCED",
+          "WIS-CAND-004_APPLICABILITY_TRUE",
+          "WISDOM_USED_AS_CONTEXTUAL_INTERPRETIVE_INPUT",
+          "ASI_PROVENANCE_AND_APPLICABILITY_AUDIT"
+        ],
+        "status": "PASS"
+      },
+      {
+        "variant_id": "HW-HISTORY-PROVEN-IRRELEVANT",
+        "input": "INPUT_X",
+        "history_state": "HISTORY_C",
+        "current_priority_state": "FIXED_BY_TEST_CONTRACT",
+        "human_response": "RESPONSE_FIXED",
+        "wisdom_applicable": false,
+        "expected_wisdom_applicability": false,
+        "response_owner": "HUMAN",
+        "ai_used": false,
+        "events": [
+          "COMMON_INPUT_RECEIVED",
+          "HUMAN_STATE_AND_HISTORY_READ",
+          "HUMAN_RESPONSE_PRODUCED",
+          "WIS-CAND-004_APPLICABILITY_FALSE",
+          "WISDOM_NOT_APPLIED",
+          "ASI_PROVENANCE_AND_APPLICABILITY_AUDIT"
+        ],
+        "status": "PASS"
+      }
+    ]
+  },
+  "pass3": {
+    "invariant_checks": {
+      "AI_NOT_REQUIRED": true,
+      "HUMAN_OWNS_RESPONSE": true,
+      "SAME_INPUT_CAN_HAVE_DIFFERENT_RESPONSES_WITH_RELEVANT_HISTORY": true,
+      "WISDOM_APPLICABILITY_CAN_BE_FALSE": true,
+      "WISDOM_DOES_NOT_PRODUCE_HUMAN_RESPONSE": true,
+      "WISDOM_REMAINS_SOURCE_LINKED_CANDIDATE": true,
+      "ASI_ONLY_AUDITS_NOT_HUMAN_DECISION_MAKER": true
+    },
+    "wisdom_epistemic_status": [
+      "SOURCE_LINKED_CANDIDATE",
+      "COUNTER_CASE_REVIEW_OPEN"
+    ],
+    "wisdom_law_status": "NOT_PROMOTED",
+    "ai_runtime_dependency": false
+  },
+  "errors": []
+}

@@ -2439,6 +2439,7 @@
       "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-004": [
+      "phase2/rfr/P2_HUMAN_WISDOM_NO_AI_RFR_001.md",
       "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "tools/run_phase2_human_wisdom_no_ai_001.py",
