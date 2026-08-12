@@ -275,6 +275,11 @@
     "size_bytes": 2627
   },
   {
+    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+    "sha256": "38c402486294fc74c7d745331b45f0b8b9be559323f1fa55605dd2444b1d59da",
+    "size_bytes": 5172
+  },
+  {
     "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
     "sha256": "559fb00e133aa1967e359f72d01e5f7a188278aac1ea8d3ed79770c8588a81c0",
     "size_bytes": 3380
