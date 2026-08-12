@@ -1,0 +1,35 @@
+{
+  "closure_packet_id": "P2-AI-NEW-64-STRUCTURAL-DECOMPOSITION-CLOSURE-V1",
+  "status": "CLOSED_SUCCESS_WITH_SOURCE_GAP",
+  "closure_scope": "AI-NEW-001..064 structural/runtime decomposition",
+  "declared_end": "All 64 approved AI-only source records are structurally classified without source rewrite, hidden authority or guessed Engine binding.",
+  "result_refs": [
+    "generated/registry_views/ai_new_64_structural_decomposition_v1.json",
+    "generated/tests/P2_AI_NEW_64_STRUCTURAL_RFR_V1.json"
+  ],
+  "results": {
+    "records": 64,
+    "runtime_forms": {
+      "MECHANISM": 19,
+      "CONTROL": 14,
+      "FILTER": 19,
+      "EVIDENCE_CONTROL": 7,
+      "META_CONTROL": 3,
+      "STATE": 1,
+      "STATE_OR_MECHANISM_MIXED": 1
+    },
+    "composite_candidates": 11,
+    "direct_engine_bindings": 0,
+    "engine_binding_open": 64
+  },
+  "invariants": [
+    "AI-NEW source IDs/names/types unchanged",
+    "AI control has no implicit permission authority",
+    "State is not Sequence closure",
+    "Composite candidates preserve explicit subcontracts when component closure differs",
+    "Direct Engine binding requires exact source-derived evidence"
+  ],
+  "open_source_gap": "No existing source-derived Engine relationship registry directly relates an AI-NEW-001..064 ID to an Engine ID. All 64 direct Engine bindings remain open rather than guessed.",
+  "closed_sequence_reopen_used": false,
+  "next_sequence": "P2-AI-ASI-NATIVE-RUNTIME-VIEWS-01"
+}
