@@ -1,0 +1,56 @@
+{
+  "report_id": "P2-WISDOM-BATCH-001-RFR",
+  "status": "PASS_WITH_PROOF_DEBT",
+  "scope": "Source custody, derivation separation, applicability and non-promotion checks for the first user-provided Mahabharata modelling narrative batch.",
+  "counts": {
+    "source_texts": 5,
+    "source_claims": 5,
+    "interpretations": 5,
+    "supporting_sequences": 5,
+    "wisdom_candidates": 5,
+    "hard_failures": 0
+  },
+  "pass0": {
+    "declared_end": "Five source-linked Wisdom Candidates exist without collapsing narrative source, claim, interpretation, Wisdom, law or action authority.",
+    "closure_scope": "first bounded interpretive narrative ingestion only; not scripture validation"
+  },
+  "pass1": {
+    "reverse_trace_complete": true,
+    "source_class": "USER_PROVIDED_MAHABHARATA_MODELLING_NARRATIVE",
+    "source_boundaries": [
+      "PRIMARY_SCRIPTURE_TEXT",
+      "HISTORICAL_FACT_REGISTRY",
+      "INDEPENDENT_EXTERNAL_VERIFICATION"
+    ]
+  },
+  "pass2": {
+    "forward_derivation_path": [
+      "SOURCE_TEXT",
+      "SOURCE_CLAIM",
+      "INTERPRETATION",
+      "SEQUENCE_RECONSTRUCTION",
+      "WISDOM_CANDIDATE"
+    ],
+    "candidate_checks": {
+      "WIS-CAND-001": "actor view must remain distinct from global state",
+      "WIS-CAND-002": "exception must remain bounded and not replace normal rule",
+      "WIS-CAND-003": "event/record/interpretation provenance layers must remain separate",
+      "WIS-CAND-004": "unique path history may alter response under common input",
+      "WIS-CAND-005": "guidance generalization requires multi-case/counter-case evidence before promotion"
+    }
+  },
+  "pass3": {
+    "proof_debt_preserved": [
+      "No cross-tradition or counter-interpretation corpus has yet been ingested.",
+      "No independent historical or theological verification has been performed.",
+      "No primary Mahabharata or Bhagavad Gita text is included in this batch.",
+      "Wisdom candidates cannot be promoted to LAW_OR_GUIDANCE or direct execution authority in this batch."
+    ],
+    "law_promotion_allowed": false,
+    "direct_execution_allowed": false,
+    "primary_scripture_verified": false,
+    "counter_case_review_complete": false
+  },
+  "errors": [],
+  "findings": []
+}
