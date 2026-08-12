@@ -1,0 +1,37 @@
+{
+  "checkpoint_id":"P2-OPERATIONAL-PARAMETER-AI-ASI-OWNERSHIP-CHECKPOINT-V1",
+  "checkpoint_type":"PARAMETER_OWNERSHIP_RFR_CLOSURE",
+  "phase":"PHASE_2",
+  "phase_status":"ACTIVE",
+  "checkpoint_status":"CLOSED_SUCCESS",
+  "source_parameter_range":"SB-ASI-P2593..SB-ASI-P3072",
+  "source_container_range":"CON-161..CON-240",
+  "ownership_map":"machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
+  "generated_view":"generated/registry_views/operational_parameter_ai_asi_ownership_v1.json",
+  "rfr_report":"generated/tests/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_RFR_V1.json",
+  "validated_counts": {
+    "operational_parameters":480,
+    "AI_PRIMARY":180,
+    "SHARED_AI_ASI":240,
+    "ASI_PRIMARY":60,
+    "parameters_per_operational_element":60
+  },
+  "ownership_meaning": {
+    "AI_PRIMARY":"The low-level functional mechanism is primarily artificial cognition; applicable ASI governance remains independent.",
+    "SHARED_AI_ASI":"AI mechanism and ASI governance are distinct responsibilities over the same source parameter context; this does not duplicate the source parameter.",
+    "ASI_PRIMARY":"The source parameter's primary architectural role is governance/safety/recovery; AI/Engine mechanisms may still supply detection, evidence or low-level operation."
+  },
+  "source_guards": [
+    "No SB-ASI-P2593..P3072 source ID was renamed or duplicated.",
+    "No CON-161..240 source ID was changed.",
+    "Engine and cognitive-source relationships remain source-owned and unchanged.",
+    "Ownership metadata is additive Phase-2 mapping only.",
+    "This checkpoint does not declare a final AI-native or ASI-native parameter count."
+  ],
+  "next_sequences": [
+    "P2-AI-64-STRUCTURAL-DECOMPOSITION-01",
+    "P2-AI-NATIVE-SOURCE-VIEW-01",
+    "P2-ASI-GOVERNANCE-SOURCE-VIEW-01",
+    "P2-AI-ASI-ORPHAN-OVERLAP-RFR-01"
+  ]
+}
