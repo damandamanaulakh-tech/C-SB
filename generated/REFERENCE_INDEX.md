@@ -512,21 +512,21 @@
 
 ## Wisdom Lanes
 
-- **W-01** → `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
-- **W-02** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-03** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-01** → `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
+- **W-02** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-03** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
 - **W-04** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-05** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-06** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-05** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-06** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
 - **W-07** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-08** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-09** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-08** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-09** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
 - **W-10** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
 - **W-11** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-12** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-13** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-14** → `registries/wisdom/WISDOM_REGISTRY_V0.json`
-- **W-15** → `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
+- **W-12** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-13** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-14** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+- **W-15** → `phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`, `tools/validate_repo.py`
 
 ## Asi Rubric Segments
 
