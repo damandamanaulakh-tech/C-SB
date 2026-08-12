@@ -39,6 +39,8 @@ jobs:
         run: python tools/build_subparameter_candidates.py
       - name: Build approved Brain Engine operational sub-parameters
         run: python tools/generate_operational_subparameters_v1.py
+      - name: Build AI ASI multi-owner operational parameter bindings
+        run: python tools/generate_ai_asi_operational_parameter_bindings_v1.py
       - name: Build exact Brain Engine source relationships
         run: python tools/generate_brain_engine_relationships_v1.py
       - name: Bind approved AI-only records through AI-CAP lineage
@@ -53,6 +55,8 @@ jobs:
         run: python tools/validate_expansion_081_160_v1.py
       - name: Validate Brain Engine source adoption
         run: python tools/validate_brain_engine_adoption_v1.py
+      - name: Validate AI ASI multi-owner operational parameters
+        run: python tools/validate_ai_asi_operational_parameter_bindings_v1.py
       - name: Run AI ASI structural R-F-R tests
         run: python tools/run_phase2_ai_asi_rfr_v1.py
       - name: Build compact R-F-R findings view
