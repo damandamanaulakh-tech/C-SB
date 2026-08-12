@@ -13,8 +13,10 @@
       "containers": 80,
       "active_parameters": 2560
     },
-    "native_files_present": [],
-    "ready_for_full_parameter_relink": false
+    "native_files_present": [
+      "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-01.b64"
+    ],
+    "ready_for_full_parameter_relink": true
   },
   "asi": {
     "service_node_count": 22,
