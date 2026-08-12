@@ -1,0 +1,115 @@
+{
+  "fixture_id": "P2-MR-EXCEPTION-001",
+  "fixture_type": "SYNTHETIC_CONTROLLED_INTEGRATION_CASE",
+  "fixture_is_source_fact": false,
+  "declared_end": "Verify that Human state, AI cognition, source-linked Wisdom and ASI governance can participate in one Sequence without ownership collapse or authority leakage.",
+  "scope": "synthetic rule-conflict / exception-decision case only",
+  "normal_rule": "TEST_RULE_R1",
+  "candidate_action": "TEST_ACTION_X",
+  "human_activation": {
+    "registry_role": "state / motive / decision / norm context",
+    "container_ids": ["CON-047", "CON-063", "CON-064", "CON-072"],
+    "container_names": [
+      "Decision, Judgment and Trade-off Intelligence",
+      "Intent Formation and Commitment",
+      "Motive, Needs, Values and Priority Structure",
+      "Morality, Norms, Culture and Meaning"
+    ],
+    "ownership_rule": "Human state remains Human-owned; AI, Wisdom and ASI may read permitted state but do not rewrite Human native definitions."
+  },
+  "ai_activation": {
+    "registry_role": "candidate generation / prediction / contradiction / uncertainty",
+    "ai_segment_ids": ["AI-10", "AI-13", "AI-14", "AI-18", "AI-19"],
+    "outputs": ["candidate alternatives", "predicted consequences", "uncertainty state", "detected rule conflict"],
+    "forbidden_output": "permission or final authority"
+  },
+  "wisdom_activation": {
+    "registry_role": "source-linked contextual principle with applicability boundaries",
+    "wisdom_candidate_ids": ["WIS-CAND-002"],
+    "source_batch": "WIS-SRC-BATCH-001",
+    "principle_use": "bounded exception contract; exception does not replace normal rule",
+    "forbidden_output": "direct execution authority"
+  },
+  "asi_activation": {
+    "registry_role": "meta-governance / authority / rule conflict / permission",
+    "asi_segment_ids": ["ASI-06", "ASI-07", "ASI-08", "ASI-09", "ASI-18", "ASI-19"],
+    "asi_node_ids": ["ASI-NODE-04", "ASI-NODE-05", "ASI-NODE-06", "ASI-NODE-08", "ASI-NODE-11", "ASI-NODE-19", "ASI-NODE-21"]
+  },
+  "runtime_route": [
+    "SEQUENCE_NODE",
+    "ASI-NODE-06_MULTI_RUBRIC_ACTIVATION",
+    "HUMAN_STATE_ACTIVATION",
+    "AI_ALTERNATIVE_AND_CONSEQUENCE_ANALYSIS",
+    "WIS-CAND-002_RETRIEVAL_AND_APPLICABILITY_CHECK",
+    "ASI-NODE-08_ARBITRATION",
+    "ASI-NODE-21_META_GOVERNANCE",
+    "ASI-NODE-04_THRESHOLD_EVALUATION",
+    "ASI-NODE-05_BARRIER_CHECK",
+    "EXECUTE_OR_ROUTE_OR_BLOCK",
+    "ASI-NODE-11_VERIFICATION",
+    "TRACE_AND_CLOSURE"
+  ],
+  "exception_contract_required_fields": [
+    "normal_rule",
+    "blocked_or_higher_objective",
+    "authority",
+    "alternatives_evaluated",
+    "exception_trigger",
+    "exception_scope",
+    "exact_action_allowed",
+    "consequence_record",
+    "closure_condition"
+  ],
+  "variants": [
+    {
+      "variant_id": "MR-NO-AUTHORITY",
+      "wisdom_applicable": true,
+      "authority": false,
+      "alternatives_evaluated": true,
+      "trigger_true": true,
+      "scope_bounded": true,
+      "expected_result": "BLOCKED_NO_AUTHORITY"
+    },
+    {
+      "variant_id": "MR-ALTERNATIVES-OPEN",
+      "wisdom_applicable": true,
+      "authority": true,
+      "alternatives_evaluated": false,
+      "trigger_true": true,
+      "scope_bounded": true,
+      "expected_result": "BLOCKED_INCOMPLETE_EXCEPTION_CONTRACT"
+    },
+    {
+      "variant_id": "MR-WISDOM-NOT-APPLICABLE",
+      "wisdom_applicable": false,
+      "authority": true,
+      "alternatives_evaluated": true,
+      "trigger_true": true,
+      "scope_bounded": true,
+      "case_type": "PERMANENT_RULE_CHANGE_REQUEST",
+      "expected_result": "ROUTE_TO_RULE_CHANGE_SEQUENCE"
+    },
+    {
+      "variant_id": "MR-BOUNDED-EXCEPTION-GRANTED",
+      "wisdom_applicable": true,
+      "authority": true,
+      "alternatives_evaluated": true,
+      "trigger_true": true,
+      "scope_bounded": true,
+      "exact_action_matches": true,
+      "consequence_recorded": true,
+      "closure_condition_defined": true,
+      "expected_result": "BOUNDED_ACTION_PERMITTED"
+    }
+  ],
+  "hard_invariants": [
+    "AI does not grant permission.",
+    "Wisdom does not grant permission.",
+    "Human motive does not by itself authorize the edge.",
+    "ASI governance may block or route but cannot invent source truth.",
+    "Wisdom applicability must be evaluated before use.",
+    "A bounded exception never deletes or replaces the normal rule.",
+    "The action edge fires only after threshold and barrier checks.",
+    "Ownership metadata for Human, AI, Wisdom and ASI remains distinct."
+  ]
+}
