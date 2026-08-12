@@ -1,0 +1,27 @@
+{
+  "checkpoint_id": "P2-MULTI-RUBRIC-INTEGRATION-CHECKPOINT-001",
+  "checkpoint_type": "FOUR_DOMAIN_INTEGRATION_RFR_CLOSURE",
+  "phase": "PHASE_2",
+  "phase_status": "ACTIVE",
+  "checkpoint_status": "CLOSED_SUCCESS",
+  "fixture": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+  "report": "generated/tests/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.json",
+  "domains": ["HUMAN", "AI", "WISDOM", "ASI"],
+  "result": {
+    "variants": 4,
+    "pass": 4,
+    "fail": 0
+  },
+  "closed_invariants": [
+    "Human state remains Human-owned.",
+    "AI may generate alternatives/predictions but does not grant permission.",
+    "Wisdom Candidate may supply a source-linked contextual principle but does not grant permission.",
+    "Wisdom applicability is checked before use.",
+    "ASI governs authority and exception permission.",
+    "Threshold and barrier checks are required before the action edge fires.",
+    "Non-applicable Wisdom routes rather than forcing itself into the decision.",
+    "A bounded exception does not delete or replace the normal rule."
+  ],
+  "scope_boundary": "Synthetic rule-conflict integration behavior only. This is not a real-world moral ruling and does not validate the Mahabharata modelling source as scripture or history.",
+  "next_sequence": "P2-ACTOR-VIEW-LEAKAGE-RFR-001"
+}
