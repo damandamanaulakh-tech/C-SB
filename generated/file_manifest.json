@@ -430,6 +430,11 @@
     "size_bytes": 1457
   },
   {
+    "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
+    "sha256": "4a58af6aecd0a45101266af6e7a816f48ddc0af6b9cacc5dfbd7301bf4d76c36",
+    "size_bytes": 783
+  },
+  {
     "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
     "sha256": "78f201e5c00eeef6c1a486920db58e4a8169b31fee6ea97a40b91ed8a749cdba",
     "size_bytes": 16287
