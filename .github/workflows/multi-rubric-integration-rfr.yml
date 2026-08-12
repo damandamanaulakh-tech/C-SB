@@ -1,0 +1,45 @@
+name: Phase2 Multi-rubric integration RFR
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json'
+      - 'phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json'
+      - 'registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json'
+      - 'registries/ai/**'
+      - 'registries/wisdom/**'
+      - 'registries/asi/**'
+      - 'generated/registry_views/ai_only_64_phase2_bindings_v1.json'
+      - 'generated/tests/P2_WISDOM_SOURCE_INGESTION_RFR_V1.json'
+      - 'tools/run_phase2_multi_rubric_integration_v1.py'
+      - '.github/workflows/multi-rubric-integration-rfr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  integration-rfr:
+    if: ${{ !contains(github.event.head_commit.message || '', '[generated-integration]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Human AI Wisdom ASI integration R-F-R
+        run: python tools/run_phase2_multi_rubric_integration_v1.py
+      - name: Commit generated integration R-F-R report
+        shell: bash
+        run: |
+          git config user.name "sourceborn-index-bot"
+          git config user.email "sourceborn-index-bot@users.noreply.github.com"
+          git add generated/tests/P2_MULTI_RUBRIC_INTEGRATION_RFR_V1.json
+          if git diff --cached --quiet; then
+            echo "No integration R-F-R changes"
+          else
+            git commit -m "[generated-integration] rebuild Phase2 multi-rubric integration RFR"
+            git push
+          fi
