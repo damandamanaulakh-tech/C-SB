@@ -1,0 +1,71 @@
+{
+  "contract_id": "AI-ASI-OPERATIONAL-OWNERSHIP-V1",
+  "phase": "PHASE_2",
+  "status": "ACTIVE_ADDITIVE_MAPPING_FOR_RFR",
+  "source_registry": "generated/registry_views/operational_subparameters_2593_3072_v1.json",
+  "source_spine": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+  "source_rule": "SB-ASI-P2593..SB-ASI-P3072 are Sourceborn operational parameter identities. AI/ASI/Sequence ownership fields are additive bindings and never replace the source System=Sourceborn identity.",
+  "ownership_dimensions": {
+    "source_system_owner": "SOURCEBORN",
+    "functional_domain_role": "Inherited from E01..E08 Phase-2 role in the approved operational spine.",
+    "runtime_operation_role": "Inherited from local sub-parameter number 1..6.",
+    "ai_mechanism_binding": "Which AI-01..AI-25 segments provide cognition/mechanism functions for the element.",
+    "asi_governance_binding": "Which ASI-01..ASI-20 segments govern authority, truth, memory, safety, priority, evolution or closure implications.",
+    "sequence_runtime_binding": "Which Universal Sequence runtime controls own trigger/threshold, failure routing, return/acceptance or closure behavior."
+  },
+  "element_rules": {
+    "E01": {"functional_domain_role":"AI_PRIMARY","ai_active":true,"asi_governance_required":true},
+    "E02": {"functional_domain_role":"AI_PRIMARY","ai_active":true,"asi_governance_required":true},
+    "E03": {"functional_domain_role":"AI_PRIMARY","ai_active":true,"asi_governance_required":true},
+    "E04": {"functional_domain_role":"SHARED_AI_ASI","ai_active":true,"asi_governance_required":true},
+    "E05": {"functional_domain_role":"AI_PRIMARY_UNDER_ASI_PERMISSION","ai_active":true,"asi_governance_required":true},
+    "E06": {"functional_domain_role":"SHARED_AI_ASI","ai_active":true,"asi_governance_required":true},
+    "E07": {"functional_domain_role":"SHARED_AI_ASI","ai_active":true,"asi_governance_required":true},
+    "E08": {"functional_domain_role":"ASI_PRIMARY","ai_active":true,"asi_governance_required":true}
+  },
+  "local_operation_rules": {
+    "1": {
+      "name":"Activation Trigger",
+      "runtime_owner":"UNIVERSAL_SEQUENCE_CONTROL_PLANE",
+      "sequence_runtime_binding":["TRIGGER_DETECTION","THRESHOLD_EVALUATION","EDGE_ACTIVATION"],
+      "authority_rule":"The operational parameter may supply/evaluate domain conditions but cannot bypass the Sequence threshold/barrier law."
+    },
+    "2": {
+      "name":"Input Normalisation",
+      "runtime_owner":"SOURCEBORN_DOMAIN_MECHANISM",
+      "sequence_runtime_binding":["REPRESENTATION","PROVENANCE_PRESERVATION"],
+      "authority_rule":"Normalization cannot erase source ownership, epistemic status, contradictions or typed nulls."
+    },
+    "3": {
+      "name":"Cross-Engine Synthesis",
+      "runtime_owner":"SOURCEBORN_DOMAIN_MECHANISM",
+      "sequence_runtime_binding":["COMBINATION","CONTRADICTION_PRESERVATION","EVIDENCE_LINEAGE"],
+      "authority_rule":"Engine outputs remain bounded inputs; synthesis cannot promote disagreement to consensus without an explicit resolution Sequence."
+    },
+    "4": {
+      "name":"State and Confidence Update",
+      "runtime_owner":"SOURCEBORN_STATE_PLUS_EPISTEMIC_CONTROL",
+      "sequence_runtime_binding":["STATE_CHANGE","EPISTEMIC_UPDATE","PROOF_DEBT_UPDATE"],
+      "authority_rule":"State/confidence update cannot fabricate evidence or silently convert USER_EVIDENT into independently verified truth."
+    },
+    "5": {
+      "name":"Failure and Contradiction Response",
+      "runtime_owner":"UNIVERSAL_SEQUENCE_PLUS_ASI_CONTROL",
+      "sequence_runtime_binding":["BLOCK","OPEN_REPAIR_SEQUENCE","OPEN_INVESTIGATION_SEQUENCE","STOP_OR_ROUTE"],
+      "authority_rule":"No in-place retry. Repair, investigation and retest are separate Sequences with their own closure and return contracts."
+    },
+    "6": {
+      "name":"Validated Commit and Feed-Forward",
+      "runtime_owner":"UNIVERSAL_SEQUENCE_PLUS_ASI_CONTROL",
+      "sequence_runtime_binding":["ACCEPTANCE","RETURN_PACKET","MEMORY_WRITE_GATE","NEXT_EDGE_REEVALUATION","CLOSURE_READINESS"],
+      "authority_rule":"A local validated result may be returned upward, but parent scope must accept it and re-evaluate its own contract; no terminal-status inheritance."
+    }
+  },
+  "hard_guards": [
+    "Do not rename SB-ASI-P2593..SB-ASI-P3072 as AI-P or ASI-P source IDs.",
+    "Do not collapse Sourceborn runtime, AI cognition and ASI governance into one owner field.",
+    "AI candidate generation or execution never implies authority.",
+    "ASI governance never manufactures source truth or bypasses Universal Sequence threshold/barrier/closure law.",
+    "Universal Sequence runtime controls remain distinct from AI and ASI rubrics."
+  ]
+}
