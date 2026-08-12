@@ -97,7 +97,7 @@
 - **CON-087** → `machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
 - **CON-088** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-089** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
-- **CON-090** → `machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`
+- **CON-090** → `machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json`, `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`, `registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json`, `tools/validate_expansion_2561_2592_domain_bindings_v1.py`
 - **CON-091** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-092** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
 - **CON-093** → `registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json`
