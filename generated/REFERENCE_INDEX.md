@@ -570,7 +570,7 @@
 - **WIS-CAND-002** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WIS-CAND-003** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 - **WIS-CAND-004** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
-- **WIS-CAND-005** → `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
+- **WIS-CAND-005** → `phase2/checkpoints/P2_WISDOM_BATCH_001_CHECKPOINT.json`, `phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json`, `tools/run_phase2_wisdom_batch_001_rfr.py`
 
 ## Asi Rubric Segments
 
