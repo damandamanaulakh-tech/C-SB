@@ -1,0 +1,88 @@
+{
+  "mapping_id": "OPERATIONAL-ELEMENT-AI-ASI-OWNERSHIP-V1",
+  "status": "PHASE2_ADDITIVE_MAPPING_FOR_RFR",
+  "source_operational_spine": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+  "source_identity_rule": "E01..E08 names, CON-161..240 and SB-ASI-P2593..P3072 remain approved source identities. AI/ASI ownership below is a Phase-2 functional mapping and does not rewrite source records.",
+  "ownership_classes": ["AI_PRIMARY","SHARED_AI_ASI","ASI_PRIMARY"],
+  "elements": [
+    {
+      "element_code":"E01",
+      "name":"State and Signal Intake",
+      "ownership_class":"AI_PRIMARY",
+      "ai_segments":["AI-01","AI-03","AI-06"],
+      "asi_segments":["ASI-01","ASI-02","ASI-10"],
+      "asi_nodes":["ASI-NODE-02","ASI-NODE-04","ASI-NODE-07"],
+      "boundary":"AI acquires/estimates input state; ASI governs scope, provenance and epistemic admissibility where required."
+    },
+    {
+      "element_code":"E02",
+      "name":"Pattern and Context Integration",
+      "ownership_class":"AI_PRIMARY",
+      "ai_segments":["AI-02","AI-04","AI-05","AI-06","AI-08"],
+      "asi_segments":["ASI-05","ASI-11"],
+      "asi_nodes":["ASI-NODE-02","ASI-NODE-06","ASI-NODE-12","ASI-NODE-13","ASI-NODE-15"],
+      "boundary":"AI builds/links context and patterns; ASI governs cross-domain ownership and durable memory effects."
+    },
+    {
+      "element_code":"E03",
+      "name":"Prediction and Counterfactual Simulation",
+      "ownership_class":"AI_PRIMARY",
+      "ai_segments":["AI-07","AI-09","AI-10","AI-13"],
+      "asi_segments":["ASI-10","ASI-15","ASI-18"],
+      "asi_nodes":["ASI-NODE-01","ASI-NODE-08","ASI-NODE-16","ASI-NODE-17"],
+      "boundary":"AI generates predictions/counterfactuals; ASI governs uncertainty, long-horizon consequence scope and meta-audit."
+    },
+    {
+      "element_code":"E04",
+      "name":"Decision and Priority Arbitration",
+      "ownership_class":"SHARED_AI_ASI",
+      "ai_segments":["AI-11","AI-13","AI-14","AI-18"],
+      "asi_segments":["ASI-06","ASI-07","ASI-19"],
+      "asi_nodes":["ASI-NODE-03","ASI-NODE-08","ASI-NODE-17","ASI-NODE-21"],
+      "boundary":"AI forms and compares candidate paths; ASI owns cross-domain priority, rule/value conflict and authority arbitration."
+    },
+    {
+      "element_code":"E05",
+      "name":"Action and Execution Control",
+      "ownership_class":"SHARED_AI_ASI",
+      "ai_segments":["AI-12","AI-15","AI-16","AI-25"],
+      "asi_segments":["ASI-03","ASI-08","ASI-13","ASI-19"],
+      "asi_nodes":["ASI-NODE-04","ASI-NODE-05","ASI-NODE-09","ASI-NODE-10","ASI-NODE-11","ASI-NODE-17","ASI-NODE-21"],
+      "boundary":"AI plans/performs legal operations; ASI owns permission, barrier, resource conflict, high-level control and governed continuation."
+    },
+    {
+      "element_code":"E06",
+      "name":"Verification and Uncertainty Control",
+      "ownership_class":"SHARED_AI_ASI",
+      "ai_segments":["AI-16","AI-17","AI-18","AI-19","AI-24"],
+      "asi_segments":["ASI-02","ASI-09","ASI-10","ASI-18"],
+      "asi_nodes":["ASI-NODE-07","ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"],
+      "boundary":"AI executes tests, calibration and contradiction detection; ASI governs truth/provenance acceptance, unresolved contradiction and meta-audit."
+    },
+    {
+      "element_code":"E07",
+      "name":"Memory and Learning Integration",
+      "ownership_class":"SHARED_AI_ASI",
+      "ai_segments":["AI-05","AI-20","AI-21","AI-24"],
+      "asi_segments":["ASI-11","ASI-12","ASI-14","ASI-17"],
+      "asi_nodes":["ASI-NODE-12","ASI-NODE-13","ASI-NODE-14","ASI-NODE-15","ASI-NODE-21"],
+      "boundary":"AI can form/retrieve/compress learning candidates; ASI governs durable write-back, evolution, versioning, inheritance and law/principle formation."
+    },
+    {
+      "element_code":"E08",
+      "name":"Governance, Safety and Recovery",
+      "ownership_class":"ASI_PRIMARY",
+      "ai_segments":["AI-16","AI-17","AI-19","AI-24","AI-25"],
+      "asi_segments":["ASI-03","ASI-07","ASI-08","ASI-09","ASI-13","ASI-14","ASI-18","ASI-19"],
+      "asi_nodes":["ASI-NODE-03","ASI-NODE-05","ASI-NODE-08","ASI-NODE-11","ASI-NODE-14","ASI-NODE-16","ASI-NODE-17","ASI-NODE-21"],
+      "boundary":"AI supplies detection, diagnostics and recovery mechanisms; ASI owns governance, permission, safety barriers, escalation, version/recovery policy and conflict arbitration."
+    }
+  ],
+  "hard_guards": [
+    "AI_PRIMARY does not mean autonomous authority; applicable ASI rules and Universal Sequence barriers still govern execution.",
+    "SHARED_AI_ASI means mechanism and governance are distinct responsibilities, not duplicated parameters.",
+    "ASI_PRIMARY does not mean ASI performs every low-level mechanism; AI/Engine operators can supply evidence and candidate operations.",
+    "No ownership mapping may modify source parameter identity, container identity, Engine relation or cognitive-source relation.",
+    "No Engine becomes a controller merely because it is bound to an ASI Node."
+  ]
+}
