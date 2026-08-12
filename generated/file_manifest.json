@@ -55,6 +55,11 @@
     "size_bytes": 6533
   },
   {
+    "path": "tools/run_phase2_closure_scope_inheritance_001.py",
+    "sha256": "8080ba1da0ea243bc437d74ba3511ae233f4ea0414570f4ec6a2e2989240b4a5",
+    "size_bytes": 5709
+  },
+  {
     "path": "tools/run_phase2_wisdom_batch_001_rfr.py",
     "sha256": "b72cecb253a7cc5bdeab48d5181619d5b7c8ee52ca9c5cce88c1c09943a0e235",
     "size_bytes": 7185
