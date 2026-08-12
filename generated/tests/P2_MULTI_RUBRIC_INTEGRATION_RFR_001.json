@@ -1,0 +1,138 @@
+{
+  "report_id": "P2-MULTI-RUBRIC-INTEGRATION-RFR-001",
+  "status": "PASS",
+  "scope_note": "Synthetic control-law integration test using source-backed Human container identities and a source-linked Wisdom Candidate. PASS proves routing/ownership/governance behavior in this fixture, not real-world moral correctness or scripture validation.",
+  "domains": [
+    "HUMAN",
+    "AI",
+    "WISDOM",
+    "ASI"
+  ],
+  "pass0": {
+    "declared_end": "Verify that Human state, AI cognition, source-linked Wisdom and ASI governance can participate in one Sequence without ownership collapse or authority leakage.",
+    "scope": "synthetic rule-conflict / exception-decision case only",
+    "fixture_is_source_fact": false
+  },
+  "pass1": {
+    "human_source_bound": true,
+    "ai_segments_source_bound": true,
+    "wisdom_source_bound": true,
+    "asi_segments_and_nodes_source_bound": true
+  },
+  "pass2": {
+    "runtime_route": [
+      "SEQUENCE_NODE",
+      "ASI-NODE-06_MULTI_RUBRIC_ACTIVATION",
+      "HUMAN_STATE_ACTIVATION",
+      "AI_ALTERNATIVE_AND_CONSEQUENCE_ANALYSIS",
+      "WIS-CAND-002_RETRIEVAL_AND_APPLICABILITY_CHECK",
+      "ASI-NODE-08_ARBITRATION",
+      "ASI-NODE-21_META_GOVERNANCE",
+      "ASI-NODE-04_THRESHOLD_EVALUATION",
+      "ASI-NODE-05_BARRIER_CHECK",
+      "EXECUTE_OR_ROUTE_OR_BLOCK",
+      "ASI-NODE-11_VERIFICATION",
+      "TRACE_AND_CLOSURE"
+    ],
+    "variants": [
+      {
+        "variant_id": "MR-NO-AUTHORITY",
+        "expected_result": "BLOCKED_NO_AUTHORITY",
+        "actual_result": "BLOCKED_NO_AUTHORITY",
+        "status": "PASS",
+        "action_fired": false,
+        "barrier_state": "BLOCKED",
+        "normal_rule_after": "TEST_RULE_R1",
+        "events": [
+          "MULTI_RUBRIC_ROUTER_ACTIVATED",
+          "HUMAN_STATE_READ",
+          "AI_ALTERNATIVES_AND_CONSEQUENCES_RETURNED",
+          "WISDOM_CANDIDATE_RETRIEVED",
+          "WISDOM_APPLICABILITY_TRUE",
+          "ASI_AUTHORITY_CHECK_FALSE",
+          "BARRIER_BLOCKED"
+        ]
+      },
+      {
+        "variant_id": "MR-ALTERNATIVES-OPEN",
+        "expected_result": "BLOCKED_INCOMPLETE_EXCEPTION_CONTRACT",
+        "actual_result": "BLOCKED_INCOMPLETE_EXCEPTION_CONTRACT",
+        "status": "PASS",
+        "action_fired": false,
+        "barrier_state": "BLOCKED",
+        "normal_rule_after": "TEST_RULE_R1",
+        "events": [
+          "MULTI_RUBRIC_ROUTER_ACTIVATED",
+          "HUMAN_STATE_READ",
+          "AI_ALTERNATIVES_AND_CONSEQUENCES_RETURNED",
+          "WISDOM_CANDIDATE_RETRIEVED",
+          "WISDOM_APPLICABILITY_TRUE",
+          "ASI_AUTHORITY_CHECK_TRUE",
+          "EXCEPTION_CONTRACT_INCOMPLETE",
+          "BARRIER_BLOCKED"
+        ]
+      },
+      {
+        "variant_id": "MR-WISDOM-NOT-APPLICABLE",
+        "expected_result": "ROUTE_TO_RULE_CHANGE_SEQUENCE",
+        "actual_result": "ROUTE_TO_RULE_CHANGE_SEQUENCE",
+        "status": "PASS",
+        "action_fired": false,
+        "barrier_state": "BLOCKED_FOR_CURRENT_ACTION",
+        "normal_rule_after": "TEST_RULE_R1",
+        "events": [
+          "MULTI_RUBRIC_ROUTER_ACTIVATED",
+          "HUMAN_STATE_READ",
+          "AI_ALTERNATIVES_AND_CONSEQUENCES_RETURNED",
+          "WISDOM_CANDIDATE_RETRIEVED",
+          "WISDOM_APPLICABILITY_FALSE",
+          "WISDOM_NOT_APPLIED",
+          "OPEN_RULE_CHANGE_SEQUENCE"
+        ]
+      },
+      {
+        "variant_id": "MR-BOUNDED-EXCEPTION-GRANTED",
+        "expected_result": "BOUNDED_ACTION_PERMITTED",
+        "actual_result": "BOUNDED_ACTION_PERMITTED",
+        "status": "PASS",
+        "action_fired": true,
+        "barrier_state": "CLEAR",
+        "normal_rule_after": "TEST_RULE_R1",
+        "events": [
+          "MULTI_RUBRIC_ROUTER_ACTIVATED",
+          "HUMAN_STATE_READ",
+          "AI_ALTERNATIVES_AND_CONSEQUENCES_RETURNED",
+          "WISDOM_CANDIDATE_RETRIEVED",
+          "WISDOM_APPLICABILITY_TRUE",
+          "EXCEPTION_CONTRACT_COMPLETE",
+          "ASI_AUTHORITY_CHECK_TRUE",
+          "TRIGGER_OBSERVED",
+          "THRESHOLD_TRUE",
+          "BARRIER_CLEAR",
+          "BOUNDED_ACTION_EDGE_FIRED",
+          "NORMAL_RULE_PRESERVED"
+        ]
+      }
+    ]
+  },
+  "pass3": {
+    "invariant_checks": {
+      "HUMAN_STATE_REMAINS_HUMAN_OWNED": true,
+      "AI_HAS_NO_PERMISSION_AUTHORITY": true,
+      "WISDOM_HAS_NO_PERMISSION_AUTHORITY": true,
+      "WISDOM_APPLICABILITY_IS_CHECKED": true,
+      "ASI_GOVERNS_AUTHORITY": true,
+      "NORMAL_RULE_SURVIVES_EXCEPTION": true,
+      "THRESHOLD_AND_BARRIER_REQUIRED_FOR_ACTION": true,
+      "NON_APPLICABLE_WISDOM_ROUTES_NOT_FORCES": true
+    },
+    "wisdom_epistemic_status": [
+      "SOURCE_LINKED_CANDIDATE",
+      "PRIMARY_SCRIPTURE_NOT_CHECKED",
+      "COUNTER_CASE_REVIEW_OPEN"
+    ],
+    "wisdom_law_status": "NOT_PROMOTED",
+    "normal_rule_final": "TEST_RULE_R1"
+  },
+  "errors": []
+}

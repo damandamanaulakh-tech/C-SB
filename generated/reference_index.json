@@ -2414,6 +2414,7 @@
       "tools/run_phase2_wisdom_batch_001_rfr.py"
     ],
     "WIS-CAND-002": [
+      "phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
       "tools/run_phase2_multi_rubric_integration_001.py",
