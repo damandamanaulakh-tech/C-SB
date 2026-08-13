@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/semantic_clarification.schema.json",
+  "title": "Sourceborn Semantic Clarification Schema",
+  "$defs": {
+    "SemanticClarificationPacket": {
+      "type": "object",
+      "required": [
+        "clarification_id",
+        "sequence_id",
+        "source_text",
+        "source_span_ref",
+        "machine_sense_candidates",
+        "user_authorized_contextual_sense",
+        "scope",
+        "epistemic_status",
+        "downstream_recompute_required"
+      ],
+      "properties": {
+        "clarification_id": {"type":"string"},
+        "sequence_id": {"type":"string"},
+        "source_text": {"type":"string"},
+        "source_span_ref": {},
+        "machine_sense_candidates": {"type":"array","items":{}},
+        "rejected_senses": {"type":"array","items":{}},
+        "user_authorized_contextual_sense": {},
+        "semantic_relation_type": {"type":["string","null"]},
+        "dimension_scope": {},
+        "applies_when": {},
+        "does_not_apply_when": {},
+        "scope": {},
+        "epistemic_status": {
+          "enum": [
+            "USER_DEFINED_CONTEXT",
+            "USER_CLARIFIED",
+            "SOURCE_EXPLICIT",
+            "INFERRED",
+            "UNKNOWN"
+          ]
+        },
+        "affected_micro_unit_ids": {"type":"array","items":{"type":"string"}},
+        "affected_relation_ids": {"type":"array","items":{"type":"string"}},
+        "affected_rubric_refs": {"type":"array","items":{"type":"string"}},
+        "affected_human_container_refs": {"type":"array","items":{"type":"string"}},
+        "downstream_recompute_required": {"type":"boolean"},
+        "recompute_targets": {"type":"array","items":{"type":"string"}},
+        "source_remains_immutable": {"const":true},
+        "universalization_allowed": {"const":false},
+        "provenance_refs": {"type":"array"}
+      }
+    },
+    "DimensionalReturnPacket": {
+      "type":"object",
+      "required":["return_id","sequence_id","dimensions","total_return_unknown"],
+      "properties": {
+        "return_id":{"type":"string"},
+        "sequence_id":{"type":"string"},
+        "dimensions":{
+          "type":"object",
+          "properties":{
+            "material":{},
+            "practical":{},
+            "emotional":{},
+            "relational":{},
+            "experiential":{},
+            "identity":{},
+            "meaning":{},
+            "memory":{}
+          }
+        },
+        "total_return_unknown":{"type":"boolean"},
+        "zero_in_one_dimension_does_not_imply_zero_total":{"const":true},
+        "epistemic_status":{}
+      }
+    },
+    "HumanRubricChangeCandidate": {
+      "type":"object",
+      "required":["candidate_id","statement","status","scope","supporting_sequence_ids","direct_action_authority"],
+      "properties":{
+        "candidate_id":{"type":"string"},
+        "statement":{"type":"string"},
+        "status":{"enum":["REVIEW_REQUIRED","NEEDS_MORE_EVIDENCE","APPROVED_VERSIONED","REJECTED","SUPERSEDED"]},
+        "scope":{"type":"string"},
+        "supporting_sequence_ids":{"type":"array","items":{"type":"string"}},
+        "supporting_human_container_refs":{"type":"array","items":{"type":"string"}},
+        "supporting_rubric_refs":{"type":"array","items":{"type":"string"}},
+        "counterexample_refs":{"type":"array"},
+        "applies_when":{},
+        "does_not_apply_when":{},
+        "direct_action_authority":{"const":false},
+        "approval_authority":{"type":"string"},
+        "epistemic_status":{}
+      }
+    }
+  }
+}
