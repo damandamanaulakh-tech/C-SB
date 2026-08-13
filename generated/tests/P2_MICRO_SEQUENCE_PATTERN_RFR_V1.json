@@ -1,0 +1,85 @@
+{
+  "report_id": "P2-MICRO-SEQUENCE-PATTERN-RFR-V1",
+  "status": "PASS",
+  "pass0": {
+    "declared_end": "Every sentence/event is represented as a local micro-Sequence and can contribute to versioned, reviewable patterns without inference/fact or candidate/rubric collapse.",
+    "scope": "runtime + schema + small-brain ownership + Engine routing + editable review + pattern writeback"
+  },
+  "pass1": {
+    "runtime_stage_count": 13,
+    "schema_object_count": 9,
+    "pattern_namespace_count": 7,
+    "ui_panel_count": 9,
+    "small_brain_overlay_count": 9,
+    "fixture_occurrence_count": 5
+  },
+  "pass2": {
+    "engine_refs": [
+      "ENG-ARD-001",
+      "ENG-CORE-001",
+      "ENG-CORE-002",
+      "ENG-CORE-003",
+      "ENG-CORE-004",
+      "ENG-CORE-009",
+      "ENG-CORE-010",
+      "ENG-CORE-012",
+      "ENG-EVO-001",
+      "ENG-MEM-001",
+      "ENG-META-001",
+      "ENG-ORC-001",
+      "ENG-PAT-001",
+      "ENG-RGL-001",
+      "ENG-RGL-002",
+      "ENG-SB-002",
+      "ENG-SB-003",
+      "ENG-SB-004",
+      "ENG-SB-005",
+      "ENG-SB-006",
+      "ENG-SB-007",
+      "ENG-SB-009",
+      "ENG-SEQ-001",
+      "ENG-URR-002",
+      "ENG-VER-001",
+      "ENG-WLD-005",
+      "ENG-WLD-006"
+    ],
+    "engine_ref_count": 27,
+    "asi_node_refs": [
+      "ASI-NODE-00",
+      "ASI-NODE-01",
+      "ASI-NODE-02",
+      "ASI-NODE-03",
+      "ASI-NODE-06",
+      "ASI-NODE-07",
+      "ASI-NODE-08",
+      "ASI-NODE-11",
+      "ASI-NODE-12",
+      "ASI-NODE-13",
+      "ASI-NODE-14",
+      "ASI-NODE-15",
+      "ASI-NODE-16",
+      "ASI-NODE-17",
+      "ASI-NODE-20",
+      "ASI-NODE-21"
+    ],
+    "asi_node_ref_count": 16,
+    "fixture_pattern_candidate_creation_justified": true,
+    "fixture_user_approval_scope": "RELATIONSHIP_SPECIFIC_PATTERN"
+  },
+  "pass3": {
+    "invariants": {
+      "EVERY_INPUT_CREATES_LOCAL_MICRO_SEQUENCE": true,
+      "OBSERVATION_INTERPRETATION_SEPARATED": true,
+      "INTENT_NOT_AUTO_FACT": true,
+      "PATTERN_CANDIDATE_NOT_APPROVED_RUBRIC": true,
+      "NO_AUTOMATIC_PATTERN_PROMOTION": true,
+      "USER_EDIT_VERSIONED": true,
+      "ENGINE_NOT_AUTHORITY": true,
+      "CLOSED_SEQUENCES_NOT_REOPENED": true
+    }
+  },
+  "errors": [],
+  "findings": [
+    "overlay principle does not itself mention reasoning Engine authority; runtime stage guard is used instead"
+  ]
+}
