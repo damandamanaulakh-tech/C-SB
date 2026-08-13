@@ -209,6 +209,7 @@
     "CON-033": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -224,6 +225,7 @@
       "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
@@ -256,6 +258,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py",
@@ -264,6 +267,7 @@
     "CON-058": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
@@ -285,6 +289,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -299,6 +304,7 @@
       "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -322,6 +328,7 @@
     "CON-071": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
@@ -332,6 +339,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -388,11 +396,13 @@
     "CON-038": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "CON-040": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -402,6 +412,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -410,6 +421,7 @@
     "CON-068": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -417,6 +429,7 @@
     "CON-070": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -425,6 +438,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -488,6 +502,7 @@
     "CON-007": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -774,6 +789,7 @@
     "CON-062": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -5528,7 +5544,20 @@
       "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json"
     ]
   },
-  "pattern_candidate_ids": {},
+  "pattern_candidate_ids": {
+    "PAT-CAND-CARE-RESIDUE-DUTY-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ],
+    "PAT-CAND-EMOTIONAL-ACCUMULATION-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ],
+    "PAT-CAND-NON-MATERIAL-RETURN-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ],
+    "PAT-CAND-RESPONSIBILITY-PERSISTENCE-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ]
+  },
   "rubric_review_ids": {},
   "learning_writeback_ids": {}
 }

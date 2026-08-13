@@ -510,6 +510,11 @@
     "size_bytes": 568
   },
   {
+    "path": "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+    "sha256": "3378027cb7d1b3ab9494f48193ca22e0b625e0bb64e3643038cd3e9c64a95659",
+    "size_bytes": 11060
+  },
+  {
     "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
     "sha256": "559fb00e133aa1967e359f72d01e5f7a188278aac1ea8d3ed79770c8588a81c0",
     "size_bytes": 3380
