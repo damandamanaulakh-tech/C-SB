@@ -43,8 +43,34 @@
       },
       {
         "id": "P2-HUMAN",
-        "status": "WAITING_NATIVE_2560_REGISTRY",
-        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node/rubric bindings. Human custody diagnostics remain visible but are not a hard CI gate until formal Human adoption/materialization."
+        "status": "NATIVE_2560_CUSTODY_MATERIALIZED_EXACT_RFR_OPEN",
+        "outputs": [
+          "raw/human/task3_human_native_parts/part-01.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-03.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-04.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-05.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-06.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-07.tsv.gz.b64",
+          "raw/human/task3_human_native_parts/part-08.tsv.gz.b64",
+          "generated/registry_views/human_native_2560_source_v1.tsv",
+          "generated/registry_views/human_native_2560_registry_v1.json",
+          "generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json"
+        ],
+        "metrics": {
+          "parameter_rows": 2560,
+          "first_parameter_id": "SB-ASI-P0001",
+          "last_parameter_id": "SB-ASI-P2560",
+          "containers": 80,
+          "segments": 10,
+          "source_columns": 13,
+          "approved_by_user_coverage": 2560,
+          "user_evident_coverage": 2560,
+          "canonical_brain_base_coverage": 2560,
+          "custody_parts": 8,
+          "rows_per_part": 320
+        },
+        "next": "Generate additive Sequence/ASI-node/rubric bindings over the exact materialized Human registry, run orphan/overlap/R-F-R tests and issue the Human Adoption Closure Packet when clean."
       },
       {
         "id": "P2-AI",
@@ -70,7 +96,7 @@
       },
       {
         "id": "P2-MICRO-SEQUENCE-PATTERN",
-        "status": "WIRING_V1_CLOSED_SUCCESS_LIVE_INTERPRETER_OPEN",
+        "status": "WIRING_V1_CLOSED_SUCCESS_LIVE_INTERPRETER_V1_1_VALIDATED",
         "outputs": [
           "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
           "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
@@ -79,8 +105,13 @@
           "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
           "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
           "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
+          "tools/run_micro_sequence_interpreter_v1.py",
+          "tools/run_micro_sequence_interpreter_v1_1.py",
+          "tools/test_micro_sequence_live_interpreter_v1.py",
           "generated/tests/P2_MICRO_SEQUENCE_PATTERN_RFR_V1.json",
-          "phase2/checkpoints/P2_MICRO_SEQUENCE_PATTERN_WIRING_CHECKPOINT_V1.json"
+          "generated/tests/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_TEST_V1.json",
+          "phase2/checkpoints/P2_MICRO_SEQUENCE_PATTERN_WIRING_CHECKPOINT_V1.json",
+          "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_CHECKPOINT_V1.json"
         ],
         "metrics": {
           "runtime_stages": 13,
@@ -90,7 +121,9 @@
           "rubric_microscope_panels": 9,
           "small_brain_overlays": 9,
           "validated_engine_refs": 32,
-          "validated_asi_node_refs": 16
+          "validated_asi_node_refs": 16,
+          "live_interpreter_version": "V1.1",
+          "live_interpreter_ci_run": 31655424523
         },
         "invariants": [
           "every input utterance creates at least one local Micro-Sequence",
@@ -99,9 +132,11 @@
           "Pattern Candidate != approved rubric",
           "Engine output != execution authority",
           "user edits are versioned write-backs",
-          "closed supporting Sequences never reopen"
+          "closed supporting Sequences never reopen",
+          "no invented atomic Human parameter IDs in V1.1",
+          "incomplete-disclosure inflections activate Gap/Proof-Debt routing when detected"
         ],
-        "next": "Implement P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001: real input producer that emits typed packets, calls existing rubric/Engine routing, persists Pattern Contributions and serves Rubric Microscope review/write-back contracts."
+        "next": "Implement P2-RUBRIC-MICROSCOPE-PERSISTENCE-001: persist live Micro-Sequence outputs, Pattern Contributions/Candidates and RubricEditDecision/LearningWriteback objects, then connect the application UI to the Rubric Microscope contract."
       },
       {
         "id": "P2-HOLYBOOKS",
@@ -115,7 +150,7 @@
       {
         "id": "P2-GENERATOR",
         "status": "ACTIVE_AUTOGENERATION_V2_EXTENDED",
-        "next": "Workflow assembles canonical sources, builds registry views, builds AI candidate view, generates V2 rubric cross-references, relinks IDs including Micro-Sequence runtime IDs, validates micro-pattern invariants and locked invariants, then commits generated outputs."
+        "next": "Workflow assembles canonical sources, materializes/validates Human custody, builds registry views, generates V2 rubric cross-references, relinks Micro-Sequence runtime IDs, validates live interpreter behavior plus micro-pattern and locked invariants, then commits generated outputs."
       }
     ]
   }
