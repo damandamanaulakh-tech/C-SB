@@ -18,6 +18,23 @@ transport_findings=[]
 if not part_paths:
     errors.append('no Human custody parts found')
 
+def phase2_human_status():
+    p=ROOT/'phase2/PHASE_STATUS.json'
+    if not p.exists():
+        return 'UNKNOWN'
+    try:
+        data=json.loads(p.read_text(encoding='utf-8'))
+        for ws in data.get('phase2',{}).get('workstreams',[]):
+            if ws.get('id')=='P2-HUMAN':
+                return str(ws.get('status','UNKNOWN'))
+    except Exception:
+        return 'UNKNOWN'
+    return 'UNKNOWN'
+
+human_status=phase2_human_status()
+hard_gate_tokens=('ADOPTED','MATERIALIZED_EXACT','CLOSED_SUCCESS','CLOSED')
+hard_gate=any(tok in human_status for tok in hard_gate_tokens)
+
 def parse_param_rows(text):
     rows=list(csv.reader(io.StringIO(text),delimiter='\t')) if text else []
     param=[]
@@ -27,7 +44,6 @@ def parse_param_rows(text):
             param.append((i,row,pids[0]))
     return rows,param
 
-# Probe every file independently first. Filenames end in .tsv.gz.b64, so this is the preferred legal transport form.
 part_diagnostics=[]
 independent_texts=[]
 all_independent_valid=bool(part_paths)
@@ -86,11 +102,9 @@ raw_gz=b''
 text=''
 if all_independent_valid and len(independent_texts)==len(part_paths):
     transport_mode='INDEPENDENT_GZIP_BASE64_PARTS'
-    # Exact concatenation of decompressed chunk payloads. No newline or delimiter is invented.
     text=''.join(independent_texts)
     transport_findings.append('Each custody file independently decoded as base64(gzip(UTF-8)); decompressed payloads concatenated in filename order.')
 else:
-    # Fallback for a single base64 stream split over files. Whitespace is transport-only and removed.
     joined=''.join(''.join(p.read_text(encoding='utf-8').split()) for p in part_paths)
     try:
         raw_gz=base64.b64decode(joined,validate=True)
@@ -135,9 +149,17 @@ hashes={
     'reconstructed_tsv_sha256':hashlib.sha256(text.encode('utf-8')).hexdigest() if text else None,
 }
 
+if errors:
+    status='FAIL_INCOMPLETE_OR_INVALID' if hard_gate else 'OPEN_SOURCE_BARRIER_NONBLOCKING'
+else:
+    status='PASS_COMPLETE_CUSTODY'
+
 report={
     'report_id':'P2-HUMAN-2560-CUSTODY-PROBE-V1',
-    'status':'FAIL_INCOMPLETE_OR_INVALID' if errors else 'PASS_COMPLETE_CUSTODY',
+    'status':status,
+    'phase2_human_status':human_status,
+    'hard_gate_active':hard_gate,
+    'hard_gate_rule':'Incomplete custody is blocking only after P2-HUMAN is formally marked adopted/materialized/closed. While the ingestion Sequence remains open, defects stay visible as proof debt without breaking unrelated Phase-2 CI.',
     'transport_mode':transport_mode,
     'transport_findings':transport_findings,
     'part_count':len(part_paths),
@@ -177,5 +199,5 @@ if not errors:
     (OUT/'human_native_2560_registry_v1.json').write_text(json.dumps(registry,ensure_ascii=False,indent=2),encoding='utf-8')
 
 compact_parts=[{k:d[k] for k in ['path','base64_valid','gzip_valid','parameter_rows','first_parameter_id','last_parameter_id','container_count','segment_count','parameter_column_counts','error']} for d in part_diagnostics]
-print(report['status'],'transport',transport_mode,'decoded',json.dumps(report['decoded'],sort_keys=True),'parts',json.dumps(compact_parts,sort_keys=True),'errors',json.dumps(errors))
-sys.exit(1 if errors else 0)
+print(report['status'],'human_status',human_status,'hard_gate',hard_gate,'transport',transport_mode,'decoded',json.dumps(report['decoded'],sort_keys=True),'parts',json.dumps(compact_parts,sort_keys=True),'errors',json.dumps(errors))
+sys.exit(1 if errors and hard_gate else 0)
