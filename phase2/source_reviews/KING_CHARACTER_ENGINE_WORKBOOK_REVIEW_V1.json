@@ -1,0 +1,135 @@
+{
+  "review_id": "P2-KING-CHARACTER-ENGINE-WORKBOOK-REVIEW-001",
+  "status": "SOURCE_REVIEW_COMPLETE_CANDIDATES_NOT_ADOPTED",
+  "source": {
+    "uploaded_filename": "9bbca5c5-cf86-4027-b743-cd6aed2b67d4.xlsx",
+    "sha256": "cb4f21211ec85762fe79e77f31637dbfaf27de3f178240a17b266f46d0ae43b5",
+    "size_bytes": 329383,
+    "source_preserved_in_repo": false,
+    "source_truth_rule": "Workbook-derived statements below are source-review observations, not automatically canonical Sourceborn truth."
+  },
+  "shape": {
+    "sheets": 16,
+    "segments": 10,
+    "containers": 80,
+    "instantiated_parameter_rows": 2000,
+    "unique_interrogation_dimensions": 25,
+    "parameters_per_container": 25,
+    "containers_per_segment": 8,
+    "parameter_rows_per_segment": 200,
+    "ard_loops": 5,
+    "nodes_per_loop": 12,
+    "ard_nodes_total": 60,
+    "reverse_forward_steps": 100,
+    "reverse_steps": 50,
+    "forward_steps": 50,
+    "steps_per_loop": 20,
+    "evidence_capacity": 500,
+    "memory_node_capacity": 500,
+    "character_hypotheses": 100,
+    "character_families": 10,
+    "characters_per_family": 10
+  },
+  "parameter_factorization": {
+    "formula": "80 DOMAIN CONTAINERS × 25 REUSED INTERROGATION DIMENSIONS = 2000 INSTANTIATED ADDRESSES",
+    "classification": "DOMAIN_RUBRIC_INSTANTIATION_MATRIX",
+    "not_equivalent_to": "2000 independent native Sourceborn primitives",
+    "unique_dimensions": [
+      "Alternative Explanation",
+      "Chronological Fit",
+      "Comparative Parallel",
+      "Confidence",
+      "Contradiction Risk",
+      "Duration",
+      "Economic Linkage",
+      "Falsifier",
+      "Family Linkage",
+      "Frequency",
+      "Geographic Scope",
+      "Iconographic Evidence",
+      "Material Evidence",
+      "Presence",
+      "Primary Actor",
+      "Primary Target",
+      "Repetition Pattern",
+      "Ritual Linkage",
+      "Sequence Position",
+      "Social Scope",
+      "Strength",
+      "Textual Evidence",
+      "Trigger Situation",
+      "War Linkage",
+      "Workshop Fit"
+    ],
+    "finding": "All 80 containers reuse the same 25 suffix dimensions exactly once."
+  },
+  "architecture_matches": [
+    "Observation Lock and Source Lock align with Point Zero / source sovereignty.",
+    "Reverse Chain and Forward Chain align with Universal Sequence reverse-mining and forward reconstruction.",
+    "Contradiction Test and Falsifier Test align with R-F-R / epistemic attack.",
+    "Memory Write aligns with append-only/versioned memory principles.",
+    "Character hypothesis is explicitly a candidate brain-state, not fixed identity."
+  ],
+  "rfr_findings": [
+    {
+      "finding_id": "KC-RFR-001",
+      "severity": "HIGH",
+      "name": "PARAMETER_COUNT_SEMANTIC_OVERSTATEMENT",
+      "detail": "The workbook names 2000 rows as parameters, but the rows are a Cartesian instantiation of 80 domain containers against 25 repeated interrogation dimensions. Several dimensions are evidence, relation, provenance, scope or falsification questions rather than native domain primitives.",
+      "preserve_source_count": 2000,
+      "source_count_meaning": "instantiated evaluation addresses"
+    },
+    {
+      "finding_id": "KC-RFR-002",
+      "severity": "HIGH",
+      "name": "PYRAMID_SCORE_RANGE_OFF_BY_TWO",
+      "detail": "PYRAMID_INDEX segment-score formulas reference PARAMETER_BANK rows 2:2001 while actual parameter data occupy rows 4:2003. P1999 and P2000 are excluded from S10 scoring.",
+      "excluded_parameter_ids": ["P1999", "P2000"],
+      "excluded_meanings": ["Completeness & Authenticity — Falsifier", "Completeness & Authenticity — Confidence"]
+    },
+    {
+      "finding_id": "KC-RFR-003",
+      "severity": "HIGH",
+      "name": "NO_EVIDENCE_STILL_RANKS_CHARACTERS",
+      "detail": "MATCH_ENGINE ranks zero-score candidates 1..100 using row-order tie-breaking; DASHBOARD therefore displays ordered top characters even when all evidence and loop scores are zero.",
+      "required_guard": "NO_VALIDATED_EVIDENCE => UNRANKED / NO_LEADING_HYPOTHESIS"
+    },
+    {
+      "finding_id": "KC-RFR-004",
+      "severity": "MEDIUM",
+      "name": "SCORE_MAGNITUDE_CONFLATED_WITH_CONFIDENCE",
+      "detail": "Confidence Band uses ABS(Final Score), so a strong negative mismatch can be labelled Strong/Very strong. Fit direction/magnitude and epistemic confidence require separate fields."
+    },
+    {
+      "finding_id": "KC-RFR-005",
+      "severity": "HIGH",
+      "name": "FIVE_LOOPS_SHARE_IDENTICAL_ROUTE_SKELETON",
+      "detail": "All five loops reuse exactly the same 10-step reverse path and the same 10-step forward path. Different core questions do not by themselves establish evidential/path independence.",
+      "required_guard": "INDEPENDENT_LOOP != DUPLICATED_ROUTE_TEMPLATE"
+    },
+    {
+      "finding_id": "KC-RFR-006",
+      "severity": "HIGH",
+      "name": "LOOP_RESULTS_NOT_MACHINE_LINKED_TO_MATCH_SCORE",
+      "detail": "MATCH_ENGINE loop adjustment columns L1..L5 are manual cells. They are not formula-linked to ARD_5_LOOPS outputs, evidence, contradiction or node completion. The declared no-skip loop contract is therefore not enforced by the score engine."
+    },
+    {
+      "finding_id": "KC-RFR-007",
+      "severity": "MEDIUM",
+      "name": "CHARACTER_WEIGHT_PROVENANCE_OPEN",
+      "detail": "The 100 character hypotheses contain normalized segment-weight vectors, but the workbook provides no evidence/provenance fields explaining how those weights were derived. Treat as hypothesis priors/scaffolds, not learned facts."
+    }
+  ],
+  "candidate_concepts": [
+    "RC-DOMAIN-RUBRIC-INSTANTIATION-001",
+    "RC-NO-EVIDENCE-NO-RANK-001",
+    "RC-SCORE-CONFIDENCE-SEPARATION-001",
+    "RC-INDEPENDENT-LOOP-001"
+  ],
+  "adoption_guards": [
+    "Do not add 2000 to the active 3204 Human-derived source count.",
+    "Do not treat King-character hypotheses as person identities.",
+    "Do not promote workbook scoring constants or weights as canonical without provenance.",
+    "Preserve workbook defects as findings rather than silently repairing source truth."
+  ]
+}
