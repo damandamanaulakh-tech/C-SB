@@ -925,6 +925,11 @@
     "size_bytes": 2345
   },
   {
+    "path": "phase2/sources/GROWTH_BATCH_003_SOURCE_CUSTODY.json",
+    "sha256": "92f80a2507feb8c7bbd191dc00c5cd4fbcdc2e47ebafbecc568a8bd02e7b9929",
+    "size_bytes": 3791
+  },
+  {
     "path": "phase2/runs/P2_REALTIME_ASI_REPO_MIGRATION_RUN_V1.json",
     "sha256": "4433a5a2016b347b7f034356381b4b81349fd22108b2235ed14bef859c80cca2",
     "size_bytes": 790
