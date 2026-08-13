@@ -1,0 +1,55 @@
+{
+  "registry_id": "P2-EXAMPLE-REGISTRY-V1",
+  "status": "ACTIVE_EXAMPLE_BANK",
+  "active_human_derived_source_registry": {
+    "registry_id": "HUMAN-FUNCTIONAL-REGISTRY-V1-3204",
+    "range": "SB-HFR-P0001..SB-HFR-P3204",
+    "count": 3204
+  },
+  "legacy_human_registry": {
+    "range": "SB-ASI-P0001..SB-ASI-P2560",
+    "count": 2560,
+    "status": "IMMUTABLE_LEGACY_PROVENANCE",
+    "example_rule": "Do not present 2560 as the active count in new examples."
+  },
+  "laws": [
+    "SOURCE LOCATION != RUNTIME OWNERSHIP",
+    "Existing source activation != new parameter creation",
+    "Runtime relation != parameter",
+    "Interpretation candidate != fact",
+    "Pattern candidate != approved pattern",
+    "Rubric candidate != canonical rubric",
+    "Exact SB-HFR atomic IDs require exact registry lookup",
+    "Closed source records are not mutated by later approval"
+  ],
+  "examples": [
+    {
+      "example_id": "EX-SOURCE-SOVEREIGNTY-PURITY-001",
+      "path": "phase2/examples/SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md",
+      "type": "SOURCE_GOVERNANCE_AND_EXTRACTION",
+      "parameter_count_effect": 0,
+      "placement": "RAW_SOURCE -> POINT_ZERO -> SOURCE_SOVEREIGNTY/PURITY_FILTER -> SOURCE_OBSERVATION_PACKET -> UNIVERSAL_SEQUENCE",
+      "special_rules": [
+        "Preserve raw source as source truth, not automatic objective truth",
+        "Fact/claim/inference/interpretation remain distinct",
+        "Halt/open is allowed instead of fabricated completion",
+        "Logistical suppression is view-local and non-destructive",
+        "Philosophical claims about AI are source-linked stances, not runtime technical facts"
+      ]
+    },
+    {
+      "example_id": "EX-FATHER-DOOR-3204-001",
+      "path": "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "type": "MULTI_DOMAIN_REASONING_FIXTURE",
+      "active_source_count": 3204,
+      "approx_container_hits": 17,
+      "generated_runtime_relations": 10,
+      "generated_interpretation_candidates": 7,
+      "generated_pattern_candidates": 3,
+      "generated_rule_candidates": 1,
+      "canonical_additions": 0,
+      "atomic_parameter_ids_asserted": false,
+      "reason": "Exact atomic successor IDs are not inferred from container titles."
+    }
+  ]
+}
