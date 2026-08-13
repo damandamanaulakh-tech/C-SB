@@ -27,6 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Apply real-time growing ASI semantic migration
+        run: python tools/apply_realtime_asi_semantic_migration_v1.py
       - name: Assemble canonical long sources
         run: python tools/assemble_sources.py
       - name: Build machine-readable registry views
@@ -107,17 +109,28 @@ jobs:
         run: python tools/run_phase2_closure_scope_inheritance_001.py
       - name: Run Human Wisdom no-AI R-F-R 001
         run: python tools/run_phase2_human_wisdom_no_ai_001.py
+      - name: Validate real-time growing ASI identity across repo
+        run: python tools/validate_sourceborn_realtime_asi_v1.py
       - name: Validate locked invariants
         run: python tools/validate_repo.py
-      - name: Commit regenerated indexes and assembled docs
+      - name: Commit regenerated indexes, audit, and semantic migration
         shell: bash
         run: |
           git config user.name "sourceborn-index-bot"
           git config user.email "sourceborn-index-bot@users.noreply.github.com"
-          git add generated
+          git add generated \
+            README.md CANONICALITY.json \
+            docs/LOCKED_DECISIONS.md \
+            docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md \
+            docs/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.md \
+            phase2/PHASE_STATUS.json phase2/README.md phase2/TASK_QUEUE.md \
+            phase2/examples \
+            machine/schemas/sourceborn.bundle.schema.json \
+            machine/runtime/INTENT_HYPOTHESIS_SYNTHESIS_RUNTIME_V1.json \
+            registries/sourceborn/*.json
           if git diff --cached --quiet; then
-            echo "No generated changes"
+            echo "No generated or migration changes"
           else
-            git commit -m "[generated] rebuild Sourceborn indexes and assembled sources"
+            git commit -m "[generated] apply Sourceborn real-time growing ASI semantics and rebuild indexes"
             git push
           fi
