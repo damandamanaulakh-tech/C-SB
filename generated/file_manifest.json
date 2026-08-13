@@ -910,6 +910,11 @@
     "size_bytes": 6475
   },
   {
+    "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
+    "sha256": "d3dd1b500129d9fbbc66b3acdf89400c2ab3a4b7f16de494908070d4c54c7dbf",
+    "size_bytes": 4466
+  },
+  {
     "path": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
     "sha256": "c94a0731e5ab4e64338a1364f49ef015ea79957d5fef551bd7de3fd142833cc4",
     "size_bytes": 3261
