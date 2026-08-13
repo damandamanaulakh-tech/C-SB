@@ -495,6 +495,11 @@
     "size_bytes": 2382
   },
   {
+    "path": "phase2/examples/SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md",
+    "sha256": "0abac28f8321ce159581fa4dd7f01216f88cc35225da684c0f82578df5c5db10",
+    "size_bytes": 4497
+  },
+  {
     "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
     "sha256": "9ecaafc0eb3ed985af62c92b7284e1696f0bc8dee570ff7e8f2c47c6602093eb",
     "size_bytes": 945
