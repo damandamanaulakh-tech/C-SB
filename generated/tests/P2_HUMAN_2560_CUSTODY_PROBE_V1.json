@@ -1,6 +1,9 @@
 {
   "report_id": "P2-HUMAN-2560-CUSTODY-PROBE-V1",
   "status": "PASS_COMPLETE_CUSTODY",
+  "phase2_human_status": "WAITING_NATIVE_2560_REGISTRY",
+  "hard_gate_active": false,
+  "hard_gate_rule": "Incomplete custody is blocking only after P2-HUMAN is formally marked adopted/materialized/closed. While the ingestion Sequence remains open, defects stay visible as proof debt without breaking unrelated Phase-2 CI.",
   "transport_mode": "INDEPENDENT_GZIP_BASE64_PARTS",
   "transport_findings": [
     "Each custody file independently decoded as base64(gzip(UTF-8)); decompressed payloads concatenated in filename order."

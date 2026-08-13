@@ -46,8 +46,8 @@
   },
   {
     "path": "tools/materialize_human_native_2560_v1.py",
-    "sha256": "8b9f9612eceb1089c489b83ca22ed41b719d4d23a62eed61f7504a6848151eb7",
-    "size_bytes": 8630
+    "sha256": "f4402f59753f94d54b0286f58b757be79b3cc885f311d6fa744cbeee526fdf54",
+    "size_bytes": 9358
   },
   {
     "path": "tools/generate_brain_engine_relationships_v1.py",
