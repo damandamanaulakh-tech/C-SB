@@ -39,6 +39,9 @@ PATTERNS = {
     "rubric_microscope_panels": re.compile(r"\bRM-\d{2}\b"),
     "micro_pattern_test_sequences": re.compile(r"\bSYN-MICRO-S\d+\b"),
     "pattern_candidate_ids": re.compile(r"\b(?:PATTERN-CANDIDATE|PAT-CAND|P-CAND)-[A-Z0-9-]+\b"),
+    "intent_signal_ids": re.compile(r"\bINT-SIG-[A-Z0-9]+\b"),
+    "intent_candidate_ids": re.compile(r"\bINT-CAND-[A-Z0-9]+\b"),
+    "intent_contribution_ids": re.compile(r"\bINT-CONTRIB-[A-Z0-9]+\b"),
     "rubric_review_ids": re.compile(r"\b(?:REVIEW|RUBRIC-REVIEW)-[A-Z0-9-]+\b"),
     "learning_writeback_ids": re.compile(r"\b(?:WRITEBACK|LEARN-WB)-[A-Z0-9-]+\b"),
     "semantic_clarification_ids": re.compile(r"\bSC-[A-Z0-9-]+\b"),
@@ -70,8 +73,6 @@ for p in ROOT.rglob("*"):
         for ident in sorted(set(rx.findall(text))):
             refs[kind].setdefault(ident, []).append(rel)
 
-# The expanded 3,204 Human functional registry is generated from a locked compressed source.
-# Index its IDs explicitly without recursively indexing all generated artifacts.
 hfr_generated = ROOT / "generated/registry_views/human_functional_3204_registry_v1.json"
 if hfr_generated.exists():
     text = hfr_generated.read_text(encoding="utf-8")

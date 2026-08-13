@@ -1,0 +1,11 @@
+{
+  "pointer_id":"CURRENT-MICRO-SEQUENCE-INTERPRETER",
+  "status":"PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "current_script":"tools/run_micro_sequence_interpreter.py",
+  "current_version_script":"tools/run_micro_sequence_interpreter_v1_2.py",
+  "current_version":"P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.2",
+  "supersedes":"P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.1",
+  "reason":"V1.2 adds live compositional intent hypothesis generation from relevant parameters plus relation/order structure, including when explicit intent words are absent.",
+  "compatibility":"V1.1 structural output is preserved and extended additively with intent_signals, intent_hypotheses and intent_contribution.",
+  "epistemic_guard":"Generated intent remains HYPOTHESIZED unless directly evidenced or user-attributed. More parameters increase candidate resolution, not confidence by themselves."
+}

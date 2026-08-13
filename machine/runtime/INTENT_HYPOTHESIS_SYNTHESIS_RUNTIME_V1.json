@@ -1,0 +1,107 @@
+{
+  "runtime_id":"INTENT-HYPOTHESIS-SYNTHESIS-RUNTIME-V1",
+  "status":"PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "purpose":"Generate live, reviewable intent hypotheses from activated Human/Sequence parameters, relation/order structure and prior patterns even when the input does not explicitly use intent/motive words.",
+  "core_law":"MORE_RELEVANT_PARAMETERS_AND_RELATIONS_MAY_CREATE_MORE_DISTINCT_INTENT_HYPOTHESES; PARAMETER_COUNT_ALONE_DOES_NOT_JUSTIFY_INTENT.",
+  "non_equivalences":[
+    "ACTION != INTENT_FACT",
+    "OMISSION != DELIBERATE_WITHHOLDING",
+    "REPETITION != MOTIVE",
+    "INTENT_HYPOTHESIS != ACTOR_KNOWLEDGE",
+    "NEW_LIVE_INTENT_CANDIDATE != APPROVED_PATTERN",
+    "MORE_PARAMETERS != MORE_CONFIDENCE",
+    "PARAMETER_COMBINATION != CAUSATION",
+    "USER_ATTRIBUTED_INTENT != MACHINE_INFERRED_INTENT"
+  ],
+  "input_channels":[
+    "micro_sequence features",
+    "relation/order structure",
+    "Human Container activations",
+    "exact Human functional parameter signals when supplied",
+    "review-required Human parameter candidates when explicitly supplied as candidate signals",
+    "prior closed Sequence intent hypotheses",
+    "Pattern Contributions/Candidates"
+  ],
+  "intent_roles":["GOAL","TARGET","METHOD","CONDITION","ORDER","MODIFIER","CONSTRAINT","STATE"],
+  "feature_atoms":{
+    "REQUEST":[
+      {"role":"GOAL","atom":"OBTAIN_COOPERATION"},
+      {"role":"METHOD","atom":"REQUEST"}
+    ],
+    "RESOURCE":[
+      {"role":"GOAL","atom":"ACCESS_RESOURCE_OR_HELP"},
+      {"role":"TARGET","atom":"RESOURCE_OR_HELP"}
+    ],
+    "INCOMPLETE_DISCLOSURE":[
+      {"role":"CONDITION","atom":"INCOMPLETE_CONTEXT"},
+      {"role":"CONSTRAINT","atom":"INFORMATION_ASYMMETRY"}
+    ],
+    "PERSON_TRANSFER_OR_PRESENCE":[
+      {"role":"TARGET","atom":"PERSON_OR_RESPONSIBILITY"}
+    ],
+    "REPETITION":[
+      {"role":"MODIFIER","atom":"REPEATED_STRUCTURE"}
+    ]
+  },
+  "derived_signal_rules":[
+    {
+      "rule_id":"ISR-001",
+      "name":"COMMITMENT BEFORE FULL CONTEXT",
+      "requires_features":["INCOMPLETE_DISCLOSURE"],
+      "text_pattern":"\\b(?:already\\s+committed|committed|agreed|accepted|said\\s+yes)\\b",
+      "atoms":[
+        {"role":"TARGET","atom":"COMMITMENT"},
+        {"role":"ORDER","atom":"COMMITMENT_PRECEDES_FULL_CONTEXT"}
+      ]
+    },
+    {
+      "rule_id":"ISR-002",
+      "name":"RESPONSIBILITY TRANSFER",
+      "requires_features":["PERSON_TRANSFER_OR_PRESENCE"],
+      "text_pattern":"\\b(?:left|leave|leaving|handed|gave)\\b.{0,90}\\b(?:with\\s+me|with\\s+him|with\\s+her|with\\s+them|responsib(?:le|ility))\\b",
+      "atoms":[
+        {"role":"GOAL","atom":"TRANSFER_RESPONSIBILITY"},
+        {"role":"METHOD","atom":"PERSON_OR_TASK_TRANSFER"},
+        {"role":"TARGET","atom":"RESPONSIBILITY"}
+      ]
+    }
+  ],
+  "parameter_role_keywords":{
+    "GOAL":["motive","drive","need","goal","priority","protection","dominance","attachment","care","curiosity","restoration","succession","reward"],
+    "TARGET":["resource","status","identity","control","safety","relationship","lineage","memory","certainty","responsibility"],
+    "METHOD":["delegation","persuasion","imitation","signaling","avoidance","inhibition","cooperation","reciprocity","conceal","planning","strategy","request"],
+    "CONDITION":["uncertainty","scarcity","threat","stress","context","availability"],
+    "STATE":["emotion","arousal","fatigue","confidence","belief"]
+  },
+  "composition_policy":{
+    "minimum_distinct_roles":2,
+    "minimum_supporting_signals":2,
+    "max_live_candidates":12,
+    "prefer_maximally_specific_candidate":true,
+    "also_emit_atomic_goal_candidates":true,
+    "history_novelty_scope":"SUPPLIED_CLOSED_HISTORY",
+    "novelty_labels":["NEW_LIVE_INTENT_CANDIDATE","MATCHES_PRIOR_INTENT_SIGNATURE"],
+    "do_not_generate_from_parameter_count_only":true
+  },
+  "candidate_required_fields":[
+    "intent_candidate_id","sequence_id","machine_label","machine_description","epistemic_status",
+    "novelty_status","goal_atoms","target_atoms","method_atoms","condition_atoms","order_atoms",
+    "supporting_signal_ids","supporting_parameter_refs","alternative_explanations","falsifiers",
+    "proof_debt","review_status","direct_action_authority"
+  ],
+  "default_alternatives":[
+    "ordinary convenience without hidden motive",
+    "poor communication or planning",
+    "assumed shared context/familiarity",
+    "different goal than the machine hypothesis",
+    "unknown/other"
+  ],
+  "default_proof_debt":[
+    "direct evidence of the actor's goal or stated reason",
+    "counter-cases where similar actions occurred with a different intent",
+    "actor-view information available at the time of action",
+    "evidence distinguishing deliberate strategy from accident/poor planning"
+  ],
+  "review_and_learning":"A live intent hypothesis contributes to pattern memory but cannot become an approved intent/rubric/pattern without explicit review and versioned writeback.",
+  "scaling_rule":"Adding a relevant approved parameter or review-required parameter candidate expands the available intent atom set. New atom combinations may create new live intent signatures. Irrelevant parameters are gated out rather than multiplied cartesianly."
+}

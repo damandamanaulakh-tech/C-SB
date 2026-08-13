@@ -69,8 +69,10 @@ jobs:
         run: python tools/validate_semantic_clarification_residual_return_001.py
       - name: Validate rain target-layer action reasoning fixture
         run: python tools/validate_rain_target_layer_action_001.py
-      - name: Test live sentence micro-sequence interpreter
+      - name: Test live sentence micro-sequence interpreter V1.1 regression
         run: python tools/test_micro_sequence_live_interpreter_v1.py
+      - name: Test live compositional intent synthesis V1.2
+        run: python tools/test_micro_sequence_live_intent_v1_2.py
       - name: Validate AI and ASI container extraction
         run: python tools/validate_ai_asi_container_candidates.py
       - name: Validate approved expansion 081 to 160
