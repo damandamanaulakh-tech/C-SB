@@ -540,6 +540,11 @@
     "size_bytes": 5196
   },
   {
+    "path": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+    "sha256": "6bbc697de791c98ea5891a5b01001497083b3625ab51ea37dd4579cce117d733",
+    "size_bytes": 3315
+  },
+  {
     "path": "machine/runtime/CURRENT_MICRO_SEQUENCE_INTERPRETER.json",
     "sha256": "a71f5ea6f9866a6336acd4830c25c7bdb50bd71b7c9d9d0b392fc09135a404d4",
     "size_bytes": 875
