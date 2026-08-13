@@ -1,0 +1,25 @@
+name: King Character workbook review R-F-R
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json'
+      - 'registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json'
+      - 'docs/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.md'
+      - 'tools/validate_king_character_engine_workbook_review_v1.py'
+      - '.github/workflows/king-character-workbook-review-rfr.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate King Character workbook source review
+        run: python tools/validate_king_character_engine_workbook_review_v1.py
