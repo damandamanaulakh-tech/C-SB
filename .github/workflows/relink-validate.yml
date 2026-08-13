@@ -73,8 +73,10 @@ jobs:
         run: python tools/validate_rain_target_layer_action_001.py
       - name: Test live sentence micro-sequence interpreter V1.1 regression
         run: python tools/test_micro_sequence_live_interpreter_v1.py
-      - name: Test live compositional intent synthesis V1.2
+      - name: Test live compositional intent synthesis V1.2 regression
         run: python tools/test_micro_sequence_live_intent_v1_2.py
+      - name: Test Event Intent growth ledger V1.3
+        run: python tools/test_event_intent_growth_v1_3.py --report generated/tests/P2_EVENT_INTENT_GROWTH_V1_3.json
       - name: Validate AI and ASI container extraction
         run: python tools/validate_ai_asi_container_candidates.py
       - name: Validate approved expansion 081 to 160
