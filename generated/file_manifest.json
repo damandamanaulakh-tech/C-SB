@@ -110,6 +110,11 @@
     "size_bytes": 4603
   },
   {
+    "path": "tools/run_micro_sequence_interpreter_v1.py",
+    "sha256": "240813a2aa104b84a9515db3038a8afcc1d794e7304cdec67cabfd04c1a4da59",
+    "size_bytes": 18125
+  },
+  {
     "path": "tools/run_phase2_wisdom_ingestion_rfr_v1.py",
     "sha256": "820214cda1db0242c6a3fdc53d069e569fce1f2ef5a80544a4d47ca337bfd5b7",
     "size_bytes": 7385
