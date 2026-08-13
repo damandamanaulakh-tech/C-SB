@@ -1,0 +1,54 @@
+{
+  "batch_id": "P2-GROWTH-EVENT-BATCH-002",
+  "status": "SOURCE_CUSTODY_LOCKED_DERIVED_INGESTION_ACTIVE",
+  "source_files": [
+    {
+      "source_id": "SRC-GROW-002-001",
+      "uploaded_name": "08_Weekend_Plans_Archive_Raw_Thought_Extract_ASIDE.md",
+      "sha256": "a1109ad30e48dcbd0d8d0bc696289f110f3b050ec25cda4cb1b3efa639598f67",
+      "source_event_units": 5,
+      "source_class": "ARCHIVE_RAW_CARRYOVER",
+      "privacy_class": "NORMAL_PRIVATE"
+    },
+    {
+      "source_id": "SRC-GROW-002-002",
+      "uploaded_name": "Chat_Full_Raw_Thought_Extraction_Complete.docx.extracted.txt",
+      "sha256": "4f67d3c5bbc67c50c002a98ead265848fa5520cc730eb385fea98bafe4f7d3c8",
+      "source_event_units": 8,
+      "source_class": "PRIVATE_PERSONAL_PHILOSOPHICAL_SOURCE",
+      "privacy_class": "HIGH_SENSITIVITY_PRIVATE"
+    },
+    {
+      "source_id": "SRC-GROW-002-003",
+      "uploaded_name": "govt_article.md",
+      "sha256": "adbbda54445c2a28a50b63e5364b52a8be1ef61e8a38f4683695f8ba1c6cce3c",
+      "source_event_units": 19,
+      "source_class": "USER_AUTHORED_POLITICAL_CLAIM_SOURCE",
+      "privacy_class": "NORMAL_PRIVATE"
+    },
+    {
+      "source_id": "SRC-GROW-002-004",
+      "uploaded_name": "Philosophy_Document_Complete.docx.extracted.txt",
+      "sha256": "ba3e83e5ab67ab4b7b683d4e8771d40acfcc4688c745946d6d4188724b927157",
+      "source_event_units": 18,
+      "source_class": "RAW_THOUGHT_EXTRACTION",
+      "privacy_class": "NORMAL_PRIVATE"
+    },
+    {
+      "source_id": "SRC-GROW-002-005",
+      "uploaded_name": "Raw_Thoughts_D_Eye_5Percent_Mindset.md",
+      "sha256": "d75aa5af2a83ff92c4b99694c2b7166a5512635019091c4bc8533e2fb3c7818c",
+      "source_event_units": 10,
+      "source_class": "RAW_THOUGHT_EXTRACTION",
+      "privacy_class": "NORMAL_PRIVATE"
+    }
+  ],
+  "source_event_units_total": 60,
+  "source_interpretation_guards": [
+    "User-authored political assertions remain SOURCE_CLAIM unless independently verified.",
+    "Personal/sexual material remains private source evidence and is not generalized into universal Human truth.",
+    "Assistant-written summaries inside extracted chats are not treated as objective facts about the user.",
+    "Archive material does not override current active architecture.",
+    "Source wording is not silently normalized into canonical parameter definitions."
+  ]
+}
