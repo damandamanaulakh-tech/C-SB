@@ -1,0 +1,59 @@
+{
+  "review_id": "P2-KING-PROFILE-PARAMETER-DISCOVERY-001",
+  "status": "SOURCE_PACK_REVIEW_COMPLETE_PARAMETER_DISCOVERY_OPEN",
+  "purpose": "Correct the earlier King-workbook interpretation and use the expanded King/profile corpus as a controlled new-parameter discovery mechanism.",
+  "correction_to_prior_review": {
+    "prior_review": "P2-KING-CHARACTER-ENGINE-WORKBOOK-REVIEW-001",
+    "preserved_findings": [
+      "The exact 2000 workbook rows are structurally 80 domain containers x 25 repeated interrogation dimensions.",
+      "The scoring/ranking/loop-linkage R-F-R defects remain valid source findings."
+    ],
+    "corrected_overreach": "The factorization of the workbook's 2000 rows does not imply that King/profile work cannot generate new native parameter candidates. Profile comparison, new evidence and residual explanatory gaps are explicitly allowed to propose new parameters.",
+    "new_separations": [
+      "INSTANTIATED_EVALUATION_ADDRESS != NEW_PARAMETER_CANDIDATE",
+      "NEW_PARAMETER_CANDIDATE != APPROVED_PARAMETER",
+      "PROFILE_LABEL != PARAMETER",
+      "COMBINATION_OF_EXISTING_PARAMETERS != NEW_ATOMIC_PARAMETER"
+    ]
+  },
+  "sources": [
+    {"name":"Sourceborn_18_Kings_HTML_with_Pictures.zip","sha256":"077c48cbc40d55f0676fe2935b608080bcc80d6f9808935417d0bb692000d602","role":"VISUAL_PROFILE_PACK","preserved_in_repo":false},
+    {"name":"Sourceborn_18_Kings_Tablet_Meanings.html","sha256":"bef6c8078e3a644f27fb46a2607d85db5f3c47629c9b1b1c8eb3fd688bba236f","role":"18_PROFILE_MEANING_PACK","preserved_in_repo":false},
+    {"name":"Sourceborn_King_Characters_Multiple_Brains_v0.1.md","sha256":"b6082c939690b99a8cd8258533c7bd08532572d7ab31fa95430beaa165d4d702","role":"PROFILE_GENERATION_METHOD","preserved_in_repo":false},
+    {"name":"Sourceborn_King_Characters_Reverse_Engineering_v0.1.xlsx","sha256":"9b69a775df8115c7cde4a55ee700d3776f6c00268e0366b111ca767ef29004a9","role":"REVERSE_FORWARD_PROFILE_WORKBOOK","preserved_in_repo":false},
+    {"name":"Sourceborn_ANSWER_Worldwide_Civilization_Vetted_New_Meanings.md","sha256":"b5041a6aa47444ecb688a33de3b7011db1fa78fc1509a89a057efd389017ec66","role":"CROSS_DOMAIN_NEW_MEANINGS_SPECIMEN","preserved_in_repo":false},
+    {"name":"zfile.md","sha256":"cf626f1a6f4afd3b5191a3e6b0b119c36d2a647cfb06506109245d47e1874a22","role":"HISTORICAL_PROCESS_AND_REGENERATION_TRACE","preserved_in_repo":false}
+  ],
+  "observed_profile_count": 18,
+  "discovery_surfaces": [
+    "profile dominant focus",
+    "active filter",
+    "operating state",
+    "commission/origin hypothesis",
+    "maker-vs-authority relation",
+    "family/succession relation",
+    "war/build/ritual/afterlife relation",
+    "public-vs-hidden power",
+    "development/age",
+    "forward prediction",
+    "reverse-loop mismatch",
+    "same-era corroboration",
+    "contradiction",
+    "symbol meaning under profile",
+    "worldwide cross-cultural analogy",
+    "new meaning/product proposal"
+  ],
+  "parameter_discovery_gate": {
+    "step_1": "Activate existing parameters and combinations first.",
+    "step_2": "Record unexplained residuals instead of forcing a fit.",
+    "step_3": "Require a candidate to have a distinct definition, activation condition, measurable variation, negative boundary and falsifier.",
+    "step_4": "Seek support from another profile/case or independent evidence path; one weak anomaly is insufficient for broad promotion.",
+    "step_5": "Run exact-name and semantic-neighborhood comparison against the current 3204 Human-derived source registry for HUMAN_FUNCTIONAL candidates.",
+    "step_6": "Route candidates to HUMAN_FUNCTIONAL, ASI_REASONING or DOMAIN instead of mixing registries.",
+    "step_7": "Run R-F-R and user review. Candidate creation never changes the active 3204 count.",
+    "step_8": "Approved future adoption must create a new versioned source/registry; it may not mutate closed predecessor records."
+  },
+  "candidate_counts": {"human_functional":18,"asi_reasoning":12,"domain_egypt":16,"total":46},
+  "source_truth_rule": "Uploaded source claims and profile meanings are preserved as source-derived hypotheses. External historical truth is not inferred merely because a profile states it.",
+  "next": "Run 3204 collision/nearest-neighbor probe, R-F-R candidate validation, then surface candidates for user review."
+}

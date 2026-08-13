@@ -37,6 +37,8 @@ jobs:
         run: python tools/generate_human_functional_3204_v1.py
       - name: Validate Human functional expansion 2560 to 3204
         run: python tools/validate_human_functional_3204_v1.py
+      - name: Validate King-profile new-parameter discovery candidates
+        run: python tools/validate_king_profile_parameter_discovery_v1.py
       - name: Validate exact Human 2560 runtime depth placement
         run: python tools/validate_human_native_2560_runtime_depth_v1.py
       - name: Build AI native candidate review registry

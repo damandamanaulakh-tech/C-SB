@@ -1,0 +1,27 @@
+{
+  "registry_id":"EGYPT-KING-PROFILE-DOMAIN-PARAMETER-CANDIDATES-V0",
+  "status":"REVIEW_REQUIRED_DOMAIN_CANDIDATES",
+  "authority":"NO_DIRECT_EXECUTION_AUTHORITY",
+  "source_review_ref":"P2-KING-PROFILE-PARAMETER-DISCOVERY-001",
+  "scope":"Egypt/tablet/King-profile domain. These records do not enter the Human 3204 bank without a separate cross-domain Human-functional case.",
+  "candidates":[
+    {"candidate_id":"EG-KP-001","name":"Commission Origin Type","definition":"Candidate role that initiated or authorized artifact creation: ruler, queen/family, priesthood, court, institution, workshop/decorator, other or unknown."},
+    {"candidate_id":"EG-KP-002","name":"Physical Maker / Workshop Role","definition":"Candidate identity/class of physical maker distinct from commissioner and depicted actor."},
+    {"candidate_id":"EG-KP-003","name":"Artifact Functional Context","definition":"Dedication, ritual/liturgy, funerary, family memorial, succession, campaign/victory, treaty/diplomatic, restoration, decorative or other context."},
+    {"candidate_id":"EG-KP-004","name":"Regency / Co-Regency Signal","definition":"Evidence that represented ruler status and operative authority were shared or mediated by regents/co-rulers."},
+    {"candidate_id":"EG-KP-005","name":"Name Erasure / Replacement Signal","definition":"Evidence of deliberate removal, overwrite, replacement or suppression of a royal identity marker."},
+    {"candidate_id":"EG-KP-006","name":"Ritual Name-Recitation Function","definition":"Contextual hypothesis that an inscribed name participates in repeated ritual speech or maintenance practice."},
+    {"candidate_id":"EG-KP-007","name":"Series Membership / Repetition Unit","definition":"Whether an artifact is standalone or one unit in a repeated yearly, decadal, temple, campaign or other series."},
+    {"candidate_id":"EG-KP-008","name":"Lineage Memorial Function","definition":"Whether artifact primarily encodes family, heir, dynastic continuity or succession memory."},
+    {"candidate_id":"EG-KP-009","name":"Posthumous Identity Anchor Function","definition":"Whether artifact functions as a durable representation of identity after bodily death or absence."},
+    {"candidate_id":"EG-KP-010","name":"Public Face / Hidden Power Signature","definition":"Whether represented royal identity differs from evidence about the operative controller or power-holder."},
+    {"candidate_id":"EG-KP-011","name":"Workshop-Style Continuity","definition":"Degree of stylistic, material or manufacturing continuity with same-era pieces from a workshop or production network."},
+    {"candidate_id":"EG-KP-012","name":"Symbolic Completion State","definition":"Source-local interpretation dimension for partial/full glyph forms as incomplete/complete state; never assumed universal."},
+    {"candidate_id":"EG-KP-013","name":"Restoration / Re-Carving Status","definition":"Evidence that artifact was repaired, reinscribed, re-carved or created as part of restoration after disruption."},
+    {"candidate_id":"EG-KP-014","name":"Campaign-Theatre Encoding","definition":"Whether spatial/column structure maps separate campaigns, theatres, years, stages or tributary domains."},
+    {"candidate_id":"EG-KP-015","name":"Treaty / Negotiated-Balance Function","definition":"Whether artifact encodes diplomatic settlement, reciprocal status or negotiated balance rather than victory/submission."},
+    {"candidate_id":"EG-KP-016","name":"Funerary / Afterlife Journey Encoding","definition":"Whether sequence or spatial structure maps a funerary, solar or afterlife journey under source-supported context."}
+  ],
+  "common_candidate_state":{"status":"REVIEW_REQUIRED","canonical":false,"direct_action_authority":false},
+  "scope_guard":"A domain-local symbol or artifact feature is not a Human parameter merely because it appears in a King profile."
+}

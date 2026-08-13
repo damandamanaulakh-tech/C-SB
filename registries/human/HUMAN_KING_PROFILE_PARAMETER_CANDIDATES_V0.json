@@ -1,0 +1,180 @@
+{
+  "registry_id": "HUMAN-KING-PROFILE-PARAMETER-CANDIDATES-V0",
+  "status": "REVIEW_REQUIRED_CANDIDATES",
+  "authority": "NO_DIRECT_EXECUTION_AUTHORITY",
+  "source_review_ref": "P2-KING-PROFILE-PARAMETER-DISCOVERY-001",
+  "baseline_registry": "HUMAN-FUNCTIONAL-REGISTRY-V1-3204",
+  "baseline_count_changes_now": false,
+  "promotion_rule": "Repeated unexplained residual + distinct measurable dimension + negative boundary + falsifier + exact/semantic 3204 diff + R-F-R + explicit user review.",
+  "candidates": [
+    {
+      "candidate_id":"HFP-KP-001","name":"Delegated / Proxy Agency","nearest_existing_containers":["CON-068","CON-080"],
+      "source_signals":["Ritual King: priests act under king authority","Child King: regents operate external cognition","Builder King: commanded work executed by others"],
+      "definition":"Degree to which an actor's intended control is realized through other agents while causal/role authority remains attributable to the originating actor.",
+      "activation_condition":"Actor authorizes or owns an outcome but another actor performs material/operational execution.",
+      "measurable_dimensions":["delegation_depth","executor_count","authority_retention","execution_distance","revocability"],
+      "negative_boundary":"Not ordinary agency; requires separation between authority holder and executor.",
+      "falsifier":"If authority, planning and execution all reside in the same actor, proxy agency is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-002","name":"Shared / Distributed Authority","nearest_existing_containers":["CON-068","CON-071","CON-080"],
+      "source_signals":["Child King under regency: Power(shared)","Shadow King: co-regent or power behind"],
+      "definition":"Degree to which decision/control authority is simultaneously distributed across multiple actors rather than merely delegated from one uncontested controller.",
+      "activation_condition":"Multiple actors possess non-trivial decision rights over the same role/result.",
+      "measurable_dimensions":["authority_share","veto_share","visibility_asymmetry","domain_split","conflict_rate"],
+      "negative_boundary":"Not delegation; no single actor necessarily retains complete authority.",
+      "falsifier":"If one actor can unilaterally decide and all others only execute, classify as delegation instead."
+    },
+    {
+      "candidate_id":"HFP-KP-003","name":"Status-Capability Asynchrony","nearest_existing_containers":["CON-071","CON-073","CON-068"],
+      "source_signals":["Child King: full adult names/status while maturity is incomplete"],
+      "definition":"Gap between socially or institutionally assigned status/authority and the actor's current developmental or operational capability.",
+      "activation_condition":"Role/status is granted before, after, or independently of matching capability.",
+      "measurable_dimensions":["status_level","capability_level","developmental_gap","support_dependence","decision_independence"],
+      "negative_boundary":"Not simple low capability; requires mismatch relative to an assigned role/status.",
+      "falsifier":"If assigned status scales with actual capability and independence, the asynchrony is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-004","name":"Public-Private Identity Divergence","nearest_existing_containers":["CON-066","CON-054","CON-071"],
+      "source_signals":["Court King: controlled public identity; private self not fully written","Shadow King: public face conceals private engine"],
+      "definition":"Degree to which an actor's publicly represented identity differs from privately held identity, motive, control state, or operative role.",
+      "activation_condition":"Public representation and private operating state are systematically non-equivalent.",
+      "measurable_dimensions":["representation_gap","audience_dependence","concealment_degree","role_consistency","private_public_motive_delta"],
+      "negative_boundary":"Not ordinary audience adaptation; requires a meaningful identity/state divergence.",
+      "falsifier":"If public representation and private operative state are materially aligned across contexts, divergence is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-005","name":"Hidden Agency Expression","nearest_existing_containers":["CON-068","CON-069","CON-054"],
+      "source_signals":["Shadow King: invisible flow of decisions, true power signature elsewhere"],
+      "definition":"Capacity to exert causal influence while minimizing visible attribution of agency.",
+      "activation_condition":"Outcomes track an actor's decisions but overt authorship/control signals are weak or intentionally displaced.",
+      "measurable_dimensions":["causal_influence","public_attribution","concealment","intermediary_layers","detectability"],
+      "negative_boundary":"Not merely private identity; this concerns causal control with low observability.",
+      "falsifier":"If influence disappears when observable actions are removed, hidden agency is not supported."
+    },
+    {
+      "candidate_id":"HFP-KP-006","name":"Intergenerational Self-Extension","nearest_existing_containers":["CON-066","CON-071","CON-073","CON-079"],
+      "source_signals":["Family/Dynastic King: self-model multi-generation","Father of Many: identity(lineage), succession charter"],
+      "definition":"Degree to which an actor represents descendants, lineage, or future generations as continuation of the self or its identity project.",
+      "activation_condition":"Personal identity goals explicitly incorporate continuity through descendants or lineage.",
+      "measurable_dimensions":["lineage_identification","descendant_self_overlap","future_generation_horizon","sacrifice_for_lineage","identity_transfer_expectation"],
+      "negative_boundary":"Not attachment alone; the descendant is represented as continuity of self/identity.",
+      "falsifier":"Strong care for descendants without self-continuity representation does not satisfy this parameter."
+    },
+    {
+      "candidate_id":"HFP-KP-007","name":"Succession Security Motive","nearest_existing_containers":["CON-064","CON-071","CON-073","CON-039"],
+      "source_signals":["Family/Dynastic King: succession document","Father of Many: fertility and succession charter","Child King: regency and future rule"],
+      "definition":"Motivational priority placed on preserving an orderly transfer of role, authority, lineage, or institutional continuity to a successor.",
+      "activation_condition":"Actor choices are organized around continuity of role after replacement, death, retirement, or incapacity.",
+      "measurable_dimensions":["succession_priority","heir_preparation","transfer_planning","rival_suppression","continuity_risk_sensitivity"],
+      "negative_boundary":"Not generic family attachment or long-term planning; target is transfer of role/continuity.",
+      "falsifier":"If successor identity is irrelevant to decisions, succession-security motive is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-008","name":"Posthumous Identity Persistence Motive","nearest_existing_containers":["CON-064","CON-066","CON-080"],
+      "source_signals":["Architect of Eternity: name must survive when body is gone","Wise Elder: cartouches as remaining permanent self","Long-Reign: name outlasts body"],
+      "definition":"Motivational drive to preserve identity, name, reputation, representation, or influence beyond bodily life.",
+      "activation_condition":"Actor invests resources in persistence of identity after expected bodily absence/death.",
+      "measurable_dimensions":["posthumous_horizon","legacy_investment","name_preservation_priority","representation_persistence","resource_sacrifice"],
+      "negative_boundary":"Not general death anxiety; focuses on persistence of identity/representation.",
+      "falsifier":"If post-death representation has no motivational effect on choices, the parameter is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-009","name":"External Identity Anchoring","nearest_existing_containers":["CON-066","CON-080","CON-056"],
+      "source_signals":["Builder: permanent identity locked in stone","Composite: Identity Lock + External Memory","Cartouches repeatedly act as durable identity anchors"],
+      "definition":"Degree to which stable external symbols, records, names, objects, or institutions are used to maintain and retrieve a person's identity model.",
+      "activation_condition":"Identity continuity depends materially on external representations rather than internal memory alone.",
+      "measurable_dimensions":["external_anchor_dependence","symbol_stability","retrieval_frequency","institutional_reinforcement","loss_sensitivity"],
+      "negative_boundary":"Not external cognition generally; external artifact specifically stabilizes identity representation.",
+      "falsifier":"If removing the external representation does not alter identity continuity/retrieval, anchoring is weak or absent."
+    },
+    {
+      "candidate_id":"HFP-KP-010","name":"Ritual Efficacy Belief","nearest_existing_containers":["CON-072","CON-036","CON-064"],
+      "source_signals":["Ritual/Priest King: repeated speaking/ritual is represented as maintaining power/order","Healer King: spoken name represented as protective"],
+      "definition":"Strength of belief that prescribed symbolic or ritual actions causally help maintain, restore, or alter a desired state.",
+      "activation_condition":"Actor expects ritualized symbolic performance to have causal efficacy beyond its communicative/social role.",
+      "measurable_dimensions":["efficacy_belief_strength","ritual_dependency","causal_expectancy","failure_attribution","repetition_requirement"],
+      "negative_boundary":"Not belief/religiosity in general; requires causal efficacy attributed to ritual performance.",
+      "falsifier":"If ritual is performed only for social convention with no expected causal effect, this parameter is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-011","name":"Restoration / Order-Recovery Motive","nearest_existing_containers":["CON-064","CON-077","CON-072"],
+      "source_signals":["Restorer/Stabiliser: post-chaos restoration, healing flow of order"],
+      "definition":"Motivational priority to re-establish a previously valued order, identity, institution, or norm after disruption.",
+      "activation_condition":"Current behavior is organized around returning a damaged system toward a represented prior acceptable state.",
+      "measurable_dimensions":["restoration_priority","prior_state_attachment","damage_sensitivity","repair_persistence","acceptable_deviation"],
+      "negative_boundary":"Not resilience alone; resilience preserves function, whereas restoration specifically targets a represented prior order.",
+      "falsifier":"If actor prefers novel replacement over restoring prior order, restoration motive is low."
+    },
+    {
+      "candidate_id":"HFP-KP-012","name":"Long-Horizon Self-Continuity","nearest_existing_containers":["CON-066","CON-039","CON-073","CON-075"],
+      "source_signals":["Long-Reign: self-model over decades","Wise Elder: life-summary and backward/forward perspective"],
+      "definition":"Degree to which present decisions are integrated with a temporally extended self-model spanning long past and future horizons.",
+      "activation_condition":"Actor treats distant past/future versions of self as strongly continuous with current self.",
+      "measurable_dimensions":["future_self_overlap","past_self_integration","planning_horizon","identity_stability","temporal_tradeoff_consistency"],
+      "negative_boundary":"Not planning alone; concerns identity continuity across time.",
+      "falsifier":"Long-range plans made solely for external goals without temporal self-continuity do not establish this parameter."
+    },
+    {
+      "candidate_id":"HFP-KP-013","name":"Institutional Self-Extension","nearest_existing_containers":["CON-066","CON-080","CON-071"],
+      "source_signals":["Builder/Long-Reign/Empire profiles: identity persists through monuments, institutions, empire"],
+      "definition":"Degree to which an actor incorporates an institution, office, polity, or collective structure into the represented self and uses it as an extension of agency/identity.",
+      "activation_condition":"Threats or achievements of the institution are processed as threats or achievements of the self beyond ordinary group membership.",
+      "measurable_dimensions":["institution_self_overlap","institutional_loss_reactivity","agency_through_institution","identity_dependence","role_exit_cost"],
+      "negative_boundary":"Not group belonging alone; institution functions as extension of self/agency.",
+      "falsifier":"If institutional outcomes do not alter self-representation beyond ordinary membership effects, self-extension is unsupported."
+    },
+    {
+      "candidate_id":"HFP-KP-014","name":"Negotiated Parity Orientation","nearest_existing_containers":["CON-047","CON-069","CON-071","CON-072"],
+      "source_signals":["Diplomat/Treaty King: negotiated balance of power, names standing equal"],
+      "definition":"Preference to stabilize conflict through reciprocal status recognition and negotiated equivalence rather than unilateral dominance or submission.",
+      "activation_condition":"Actor accepts constraints/reciprocity to preserve a mutually recognized balance.",
+      "measurable_dimensions":["parity_preference","reciprocity_tolerance","dominance_cost","status_equivalence_value","agreement_stability"],
+      "negative_boundary":"Not generic cooperation; parity/status equivalence is a central target.",
+      "falsifier":"If actor consistently accepts cooperation only under unilateral dominance, negotiated parity orientation is low."
+    },
+    {
+      "candidate_id":"HFP-KP-015","name":"Prestige-Model Adoption Susceptibility","nearest_existing_containers":["CON-071","CON-076","CON-079"],
+      "source_signals":["Worldwide Civilization: prestige architecture spreads through imitation of high-status language"],
+      "definition":"Tendency to adopt forms, practices, styles, or beliefs because they are associated with high-status actors or institutions.",
+      "activation_condition":"Adoption probability rises with perceived prestige independent of intrinsic functional superiority.",
+      "measurable_dimensions":["prestige_weight","model_status_sensitivity","functional_evidence_discount","copying_rate","local_style_displacement"],
+      "negative_boundary":"Not social learning generally; prestige of the model is the causal selector.",
+      "falsifier":"If adoption tracks demonstrated utility while model status has no independent effect, prestige susceptibility is unsupported."
+    },
+    {
+      "candidate_id":"HFP-KP-016","name":"Golden-Age Loss Narrative Attraction","nearest_existing_containers":["CON-064","CON-072","CON-076"],
+      "source_signals":["Looks-Like Worldwide King: desire for a golden age that was stolen; lost paradise + erasure narrative"],
+      "definition":"Degree to which explanations framed as recovery of a superior lost past attract attention, meaning, or belief beyond their evidential support.",
+      "activation_condition":"Lost/erased golden-age framing increases explanatory preference relative to evidence-matched alternatives.",
+      "measurable_dimensions":["lost_past_preference","erasure_salience","nostalgic_idealization","counterevidence_resistance","narrative_reward"],
+      "negative_boundary":"Not nostalgia alone; includes explanatory attraction to a lost-superior-past causal narrative.",
+      "falsifier":"If lost-past framing provides no preference when evidence is held constant, the attraction is absent."
+    },
+    {
+      "candidate_id":"HFP-KP-017","name":"Collective-Capacity Underestimation Bias","nearest_existing_containers":["CON-076","CON-080","CON-043"],
+      "source_signals":["Ants Perspective: large monuments prompt extraordinary-agent explanations when collective labour, time, and organization are underrepresented"],
+      "definition":"Bias toward underestimating what coordinated groups can produce over long periods, thereby over-attributing large outcomes to extraordinary individual agents or mechanisms.",
+      "activation_condition":"Observed output scale appears implausible because collective time/labor/organization is omitted or discounted.",
+      "measurable_dimensions":["collective_capacity_estimate","time_horizon_discount","coordination_discount","extraordinary_agent_attribution","scale_surprise"],
+      "negative_boundary":"Not general incredulity; specifically mis-models collective productive capacity.",
+      "falsifier":"If explicit collective-resource information removes the extraordinary-agent inference, the bias is supported; if not, another cause is needed."
+    },
+    {
+      "candidate_id":"HFP-KP-018","name":"Contextual Role-State Switching","nearest_existing_containers":["CON-066","CON-067","CON-068","CON-071"],
+      "source_signals":["18 King profiles treat one King as different functional brains under war, ritual, family, intrigue, diplomacy, ageing and other contexts"],
+      "definition":"Degree to which the same person's active self-model, priorities, affect and decision policy reorganize around a context-bound social/functional role.",
+      "activation_condition":"A role/context change produces a coherent multi-parameter state transition without identity discontinuity.",
+      "measurable_dimensions":["role_switch_magnitude","state_bundle_coherence","context_specificity","switch_latency","cross_role_carryover"],
+      "negative_boundary":"Not permanent personality change; the underlying person persists while an alternate functional profile activates.",
+      "falsifier":"If parameter state remains unchanged across materially different roles, contextual switching is weak."
+    }
+  ],
+  "common_candidate_state": {
+    "status":"REVIEW_REQUIRED",
+    "canonical":false,
+    "direct_action_authority":false,
+    "novelty_status":"NEEDS_EXACT_3204_DIFF"
+  },
+  "hard_guard": "Exact-name noncollision is not sufficient to prove semantic novelty. Candidate remains review-required until semantic overlap and R-F-R are resolved."
+}
