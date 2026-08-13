@@ -15,7 +15,7 @@
   "phase2": {
     "status": "ACTIVE",
     "opened": "2026-08-09",
-    "objective": "Define/adopt Human, AI, Holy Book, ASI and other domain parameters/containers/elements against Sequence without mutating native registries.",
+    "objective": "Define/adopt Human, AI, Holy Book, ASI and other domain parameters/containers/elements against Sequence without mutating native registries; execute each input as traceable Micro-Sequences and allow reviewed/versioned pattern learning.",
     "workstreams": [
       {
         "id": "P2-V2-SEQUENCE-RUBRICS",
@@ -44,7 +44,7 @@
       {
         "id": "P2-HUMAN",
         "status": "WAITING_NATIVE_2560_REGISTRY",
-        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node/rubric bindings. Current project artifacts expose examples and container mappings but not a complete authoritative 2,560-row source."
+        "next": "Import full approved Human native registry unchanged and generate additive Sequence/ASI-node/rubric bindings. Human custody diagnostics remain visible but are not a hard CI gate until formal Human adoption/materialization."
       },
       {
         "id": "P2-AI",
@@ -69,6 +69,41 @@
         "next": "Bind approved Human/AI registries to Node Brains and rubric packs; revise contracts only when sample Sequences falsify them."
       },
       {
+        "id": "P2-MICRO-SEQUENCE-PATTERN",
+        "status": "WIRING_V1_CLOSED_SUCCESS_LIVE_INTERPRETER_OPEN",
+        "outputs": [
+          "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
+          "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
+          "machine/schemas/micro_sequence_learning.schema.json",
+          "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
+          "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
+          "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
+          "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
+          "generated/tests/P2_MICRO_SEQUENCE_PATTERN_RFR_V1.json",
+          "phase2/checkpoints/P2_MICRO_SEQUENCE_PATTERN_WIRING_CHECKPOINT_V1.json"
+        ],
+        "metrics": {
+          "runtime_stages": 13,
+          "engine_routes": 12,
+          "packet_schema_objects": 9,
+          "pattern_namespaces": 7,
+          "rubric_microscope_panels": 9,
+          "small_brain_overlays": 9,
+          "validated_engine_refs": 32,
+          "validated_asi_node_refs": 16
+        },
+        "invariants": [
+          "every input utterance creates at least one local Micro-Sequence",
+          "observation != interpretation",
+          "interpretation != intent fact",
+          "Pattern Candidate != approved rubric",
+          "Engine output != execution authority",
+          "user edits are versioned write-backs",
+          "closed supporting Sequences never reopen"
+        ],
+        "next": "Implement P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001: real input producer that emits typed packets, calls existing rubric/Engine routing, persists Pattern Contributions and serves Rubric Microscope review/write-back contracts."
+      },
+      {
         "id": "P2-HOLYBOOKS",
         "status": "ADAPTER_SCHEMA_INSTANTIATED_TEST_CONTRACTS_READY",
         "outputs": [
@@ -80,7 +115,7 @@
       {
         "id": "P2-GENERATOR",
         "status": "ACTIVE_AUTOGENERATION_V2_EXTENDED",
-        "next": "Workflow assembles canonical sources, builds registry views, builds AI candidate view, generates V2 rubric cross-references, relinks IDs, validates invariants and commits generated outputs."
+        "next": "Workflow assembles canonical sources, builds registry views, builds AI candidate view, generates V2 rubric cross-references, relinks IDs including Micro-Sequence runtime IDs, validates micro-pattern invariants and locked invariants, then commits generated outputs."
       }
     ]
   }
