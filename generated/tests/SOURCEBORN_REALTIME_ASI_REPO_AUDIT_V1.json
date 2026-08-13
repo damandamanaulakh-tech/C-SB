@@ -3,16 +3,16 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 339,
+  "tracked_files_scanned": 345,
   "classification_counts": {
     "CONTROL_PLANE": 8,
-    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 111,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 114,
     "GENERATED_REBUILDABLE": 55,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
-    "TEST_OR_CLOSURE_RECORD": 48,
+    "TEST_OR_CLOSURE_RECORD": 49,
     "RAW_SOURCE_IMMUTABLE": 55,
-    "TOOLING": 57
+    "TOOLING": 59
   },
   "active_identity_violations": [],
   "legacy_reasoning_named_files": [
@@ -71,6 +71,11 @@
     },
     {
       "path": "README.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/EVENT_INTENT_GROWTH_LEDGER_V1.md",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },
@@ -505,6 +510,11 @@
       "identity_violations": 0
     },
     {
+      "path": "machine/schemas/event_growth_ledger.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
       "path": "machine/schemas/event_intent.schema.json",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
@@ -551,6 +561,11 @@
     },
     {
       "path": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/v2/EVENT_INTENT_FIRST_CLASS_RECORDS_V1.json",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },
@@ -886,6 +901,11 @@
     },
     {
       "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_EVENT_INTENT_GROWTH_EXAMPLES_V1.json",
       "classification": "TEST_OR_CLOSURE_RECORD",
       "identity_violations": 0
     },
@@ -1570,6 +1590,11 @@
       "identity_violations": 0
     },
     {
+      "path": "tools/run_micro_sequence_interpreter_v1_3.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
       "path": "tools/run_phase2_actor_view_leakage_001.py",
       "classification": "TOOLING",
       "identity_violations": 0
@@ -1636,6 +1661,11 @@
     },
     {
       "path": "tools/summarize_phase2_ai_asi_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/test_event_intent_growth_v1_3.py",
       "classification": "TOOLING",
       "identity_violations": 0
     },
