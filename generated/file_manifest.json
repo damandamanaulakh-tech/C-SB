@@ -65,6 +65,11 @@
     "size_bytes": 6533
   },
   {
+    "path": "tools/test_micro_sequence_live_interpreter_v1.py",
+    "sha256": "fb988515cfb5441f29b252879e95281c2d5fe498e4a856cf5248bbd9ba96c281",
+    "size_bytes": 5631
+  },
+  {
     "path": "tools/build_release_asset_manifest.py",
     "sha256": "4b78b040941c5c1fda86950a0cba971a371b1e062131d868168bfa92f5a12335",
     "size_bytes": 16749

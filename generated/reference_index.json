@@ -172,6 +172,32 @@
       "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
       "tools/validate_expansion_081_160_v1.py"
     ],
+    "CON-054": [
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "tools/run_micro_sequence_interpreter_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
+    ],
+    "CON-063": [
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "tools/run_micro_sequence_interpreter_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
+    ],
+    "CON-069": [
+      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
+      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "tools/run_micro_sequence_interpreter_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
+    ],
     "CON-032": [
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -208,12 +234,6 @@
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py"
     ],
-    "CON-054": [
-      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "tools/run_micro_sequence_interpreter_v1.py"
-    ],
     "CON-057": [
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -233,29 +253,12 @@
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py"
     ],
-    "CON-063": [
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
-      "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
-      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "tools/run_micro_sequence_interpreter_v1.py"
-    ],
     "CON-064": [
       "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
-      "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
-      "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-      "tools/run_micro_sequence_interpreter_v1.py"
-    ],
-    "CON-069": [
-      "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
-      "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
@@ -4225,7 +4228,8 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
-      "tools/generate_brain_engine_relationships_v1.py"
+      "tools/generate_brain_engine_relationships_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
     "ENG-ARD-003": [
       "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
@@ -4252,7 +4256,8 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
-      "tools/generate_brain_engine_relationships_v1.py"
+      "tools/generate_brain_engine_relationships_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
     "ENG-CORE-002": [
       "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
@@ -4438,7 +4443,8 @@
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
-      "tools/generate_brain_engine_relationships_v1.py"
+      "tools/generate_brain_engine_relationships_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
     "ENG-RD-001": [
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
@@ -4517,7 +4523,8 @@
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
-      "tools/generate_brain_engine_relationships_v1.py"
+      "tools/generate_brain_engine_relationships_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
     "ENG-SB-006": [
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
@@ -4579,7 +4586,8 @@
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
-      "tools/generate_brain_engine_relationships_v1.py"
+      "tools/generate_brain_engine_relationships_v1.py",
+      "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
     "ENG-URR-003": [
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
