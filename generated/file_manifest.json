@@ -380,6 +380,11 @@
     "size_bytes": 8304
   },
   {
+    "path": "machine/schemas/semantic_clarification.schema.json",
+    "sha256": "04dff5e497fa8d5d37c8ada0ca8c217a456c2965fe806c07f2a04cda79d26005",
+    "size_bytes": 3580
+  },
+  {
     "path": "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
     "sha256": "e7ca110d9ae86aa9bcfd147efa1bb4f2e03737f621f37b53e354d459eeeca79e",
     "size_bytes": 2743
@@ -413,6 +418,11 @@
     "path": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
     "sha256": "e5031d00a3fd642b442f0c6653a08bcb3ff29355e3fea281db483eed49a92cbf",
     "size_bytes": 3307
+  },
+  {
+    "path": "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json",
+    "sha256": "50c7ac0d7e0f7fb8b314d5cd3af244393fce4e5bb5160213f758a7e67634803d",
+    "size_bytes": 1912
   },
   {
     "path": "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
