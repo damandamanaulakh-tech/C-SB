@@ -23,6 +23,19 @@
   ],
   "historical_findings_count": 0,
   "historical_findings": [],
+  "growth_batch_002": {
+    "source_files": 5,
+    "examples_before": 3,
+    "examples_after": 8,
+    "event_memory_ids_added": 60,
+    "pattern_contribution_ids_added": 60,
+    "intent_signature_ids_added": 5,
+    "combination_signature_ids_added": 8,
+    "pattern_candidate_ids_added": 14,
+    "primitive_candidate_ids_added": 4,
+    "persistent_brain_objects_added": 151,
+    "human_source_parameter_count": 3204
+  },
   "path_classification": [
     {
       "path": ".github/workflows/human-source-inspection.yml",
@@ -1726,5 +1739,5 @@
     }
   ],
   "errors": [],
-  "audit_law": "All repo files are classified and audited; raw/history is preserved, active semantics must obey the real-time growing ASI constitution."
+  "audit_law": "All repo files are classified and audited; raw/history is preserved, active semantics must obey the real-time growing ASI constitution and each accepted growth batch must increase persistent Brain state without parameter inflation."
 }
