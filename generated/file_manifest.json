@@ -1,13 +1,13 @@
 [
   {
-    "path": "README.md",
-    "sha256": "2e1a56dfe3b2ae1dc7eb75e683a1c6bcd228a699fb49c640506007d06a587464",
-    "size_bytes": 4769
-  },
-  {
     "path": "CANONICALITY.json",
     "sha256": "3fc27d0a0f07e3eea2308768a42893b6dfcefcf5a48429cfd00ec66f9b9be00a",
     "size_bytes": 7442
+  },
+  {
+    "path": "README.md",
+    "sha256": "2e1a56dfe3b2ae1dc7eb75e683a1c6bcd228a699fb49c640506007d06a587464",
+    "size_bytes": 4769
   },
   {
     "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
@@ -15,9 +15,9 @@
     "size_bytes": 1308
   },
   {
-    "path": "phase2/PHASE_STATUS.json",
-    "sha256": "595d4a756376a30504e90557619d7e9168ac302b87c410e0bf95c0deb27112e2",
-    "size_bytes": 10239
+    "path": "phase2/TASK_QUEUE.md",
+    "sha256": "7c692599fd587ede6c7290ed7df8d4a6c057b1097a21c2a389996d1fc7ffc258",
+    "size_bytes": 9390
   },
   {
     "path": "phase2/README.md",
@@ -25,9 +25,9 @@
     "size_bytes": 5344
   },
   {
-    "path": "phase2/TASK_QUEUE.md",
-    "sha256": "7c692599fd587ede6c7290ed7df8d4a6c057b1097a21c2a389996d1fc7ffc258",
-    "size_bytes": 9390
+    "path": "phase2/PHASE_STATUS.json",
+    "sha256": "595d4a756376a30504e90557619d7e9168ac302b87c410e0bf95c0deb27112e2",
+    "size_bytes": 10239
   },
   {
     "path": "phase1/PHASE1_CLOSURE_PACKET.json",
@@ -35,19 +35,39 @@
     "size_bytes": 2688
   },
   {
-    "path": "tools/validate_king_profile_parameter_discovery_v1.py",
-    "sha256": "6b052a155a46fe32a4cee05abe4aa83b1034cf6477a8893ced9aeb687ddaf285",
-    "size_bytes": 7475
+    "path": "tools/validate_rain_target_layer_action_001.py",
+    "sha256": "7e7b619cc82c4b212a4cfad51208e6106f5f59062752839397430a1414572b81",
+    "size_bytes": 5477
   },
   {
-    "path": "tools/generate_ai_new_64_runtime_routes_v2.py",
-    "sha256": "5b43e98c91ed7e3bf511fd49b167462f1dee567e5d915232027a1f1e3dc6ef9e",
-    "size_bytes": 4970
+    "path": "tools/build_release_asset_merge_plan.py",
+    "sha256": "b5000779ea25e74e2e450ff3413ea6b84eb0766fe7bf591598400e3fff1f61df",
+    "size_bytes": 12035
   },
   {
-    "path": "tools/generate_ai_only_bindings_v1.py",
-    "sha256": "04fa57c6ca4fb8e9dcb42a55e03bbdb1c0e1a59040cda549c0d811ae3860cc06",
-    "size_bytes": 6793
+    "path": "tools/generate_rubric_views.py",
+    "sha256": "35f96771e81c3ab052909f674a17a4129f4b311467570ed4b9eb4f056093b7a6",
+    "size_bytes": 2585
+  },
+  {
+    "path": "tools/materialize_human_native_2560_v1.py",
+    "sha256": "f4402f59753f94d54b0286f58b757be79b3cc885f311d6fa744cbeee526fdf54",
+    "size_bytes": 9358
+  },
+  {
+    "path": "tools/generate_brain_engine_relationships_v1.py",
+    "sha256": "45d180136d7b1996ae5c59d5c6073e0b8e7df3c11537e779da683cd42ab812de",
+    "size_bytes": 11451
+  },
+  {
+    "path": "tools/build_subparameter_candidates.py",
+    "sha256": "17d5e01c92737879f954b8ede1ad7c144078af38c2a254e0fe2b757d946052a6",
+    "size_bytes": 4806
+  },
+  {
+    "path": "tools/validate_human_functional_3204_v1.py",
+    "sha256": "8ae8d31a470b6a324a997f90ab94333aa2ed35b30fdc7d63c091f408c3f3c013",
+    "size_bytes": 4165
   },
   {
     "path": "tools/run_phase2_actor_view_leakage_001.py",
@@ -55,19 +75,24 @@
     "size_bytes": 6533
   },
   {
-    "path": "tools/generate_operational_parameter_ai_asi_ownership_v1.py",
-    "sha256": "01491fbf0cf6d85f33aca299742238f3d3b8e48fb4401d1976ea15f5977bc329",
-    "size_bytes": 2685
+    "path": "tools/run_micro_sequence_interpreter_v1_1.py",
+    "sha256": "1814b3b87f04dbc4eb14d72b7d310f316a21bb19e6ecdfe5e22e4b5230a8f38b",
+    "size_bytes": 13368
   },
   {
-    "path": "tools/assemble_sources.py",
-    "sha256": "a576db22b82c3f77869e54eafcd1f649d24fbb8170384f861d4ad931fed45f4a",
-    "size_bytes": 2249
+    "path": "tools/test_micro_sequence_live_interpreter_v1.py",
+    "sha256": "6e9d7bfe7289daaa84b1e722a203513bbf566f349e1a964c36177b28d44d95de",
+    "size_bytes": 6261
   },
   {
-    "path": "tools/validate_ai_asi_operational_parameter_bindings_v1.py",
-    "sha256": "a4e383632bbfc85578ba06097a6b95b3cefb902765a30bba551fd973b4f26ddc",
-    "size_bytes": 4044
+    "path": "tools/build_release_asset_manifest.py",
+    "sha256": "4b78b040941c5c1fda86950a0cba971a371b1e062131d868168bfa92f5a12335",
+    "size_bytes": 16749
+  },
+  {
+    "path": "tools/run_phase2_closure_scope_inheritance_001.py",
+    "sha256": "8080ba1da0ea243bc437d74ba3511ae233f4ea0414570f4ec6a2e2989240b4a5",
+    "size_bytes": 5709
   },
   {
     "path": "tools/run_phase2_human_wisdom_no_ai_001.py",
@@ -75,14 +100,69 @@
     "size_bytes": 5762
   },
   {
-    "path": "tools/run_phase2_multi_rubric_integration_001.py",
-    "sha256": "957d669247164e009ebf923cdd3c0420b3e23638833572d40c17667e779481d5",
-    "size_bytes": 9035
+    "path": "tools/run_phase2_wisdom_batch_001_rfr.py",
+    "sha256": "b72cecb253a7cc5bdeab48d5181619d5b7c8ee52ca9c5cce88c1c09943a0e235",
+    "size_bytes": 7185
   },
   {
-    "path": "tools/validate_king_character_engine_workbook_review_v1.py",
-    "sha256": "a77509089e85df0ab6593c2c9d38527064d9edc561f90f42981aa71d5bd8387e",
-    "size_bytes": 3980
+    "path": "tools/validate_repo.py",
+    "sha256": "bdedd26daffe70fb914f0b072a2411311f6d7f8ef5ef6d9b957f8b1ad3d47db9",
+    "size_bytes": 11836
+  },
+  {
+    "path": "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py",
+    "sha256": "117caf86fc8456af71dcfbffafaeb43ae60360ff91fd8dda3b8605aac7f66609",
+    "size_bytes": 7344
+  },
+  {
+    "path": "tools/generate_ai_new_64_runtime_routes_v2.py",
+    "sha256": "5b43e98c91ed7e3bf511fd49b167462f1dee567e5d915232027a1f1e3dc6ef9e",
+    "size_bytes": 4970
+  },
+  {
+    "path": "tools/relink_and_index.py",
+    "sha256": "bf64e1ca036a4a9b5cf1b4a8e27a18a809ab091bfb2e3e55dfaefded383ca6c4",
+    "size_bytes": 4918
+  },
+  {
+    "path": "tools/generate_registry_views.py",
+    "sha256": "fe05973a73858a6ddae79f2a6b0ea03e867c6018fff4610003dd2c4c0546e00f",
+    "size_bytes": 4603
+  },
+  {
+    "path": "tools/run_micro_sequence_interpreter_v1.py",
+    "sha256": "240813a2aa104b84a9515db3038a8afcc1d794e7304cdec67cabfd04c1a4da59",
+    "size_bytes": 18125
+  },
+  {
+    "path": "tools/run_phase2_wisdom_ingestion_rfr_v1.py",
+    "sha256": "820214cda1db0242c6a3fdc53d069e569fce1f2ef5a80544a4d47ca337bfd5b7",
+    "size_bytes": 7385
+  },
+  {
+    "path": "tools/generate_operational_subparameters_v1.py",
+    "sha256": "e26fed43976ea8988e37cc343bb450ae56e6d9e8a61e26a59f1aff651b6fe1c5",
+    "size_bytes": 4305
+  },
+  {
+    "path": "tools/generate_human_functional_3204_v1.py",
+    "sha256": "79e132590a21d4215fe5f75a909a3c8ba90dfe9ce3a9b8d4e03e43e04d86dc34",
+    "size_bytes": 5606
+  },
+  {
+    "path": "tools/validate_brain_engine_adoption_v1.py",
+    "sha256": "adfdbb11ff5dddb604bfcad935bb3141bdf0a659056dbcf63e644d660246d133",
+    "size_bytes": 6356
+  },
+  {
+    "path": "tools/run_micro_sequence_interpreter.py",
+    "sha256": "f63ab3cb228970430ef555baa1e83eff1f9d2cc02e2b16bde8a328d85a024764",
+    "size_bytes": 199
+  },
+  {
+    "path": "tools/generate_ai_asi_native_runtime_views_v1.py",
+    "sha256": "4948ff5655b74a4c47a5dedbc7a1a18fd51a6ed0bb3b9086599b9c352d31f9b9",
+    "size_bytes": 4734
   },
   {
     "path": "tools/generate_ai_new_64_structural_decomposition_v1.py",
@@ -95,54 +175,9 @@
     "size_bytes": 6066
   },
   {
-    "path": "tools/run_micro_sequence_interpreter_v1_1.py",
-    "sha256": "1814b3b87f04dbc4eb14d72b7d310f316a21bb19e6ecdfe5e22e4b5230a8f38b",
-    "size_bytes": 13368
-  },
-  {
-    "path": "tools/materialize_human_native_2560_v1.py",
-    "sha256": "f4402f59753f94d54b0286f58b757be79b3cc885f311d6fa744cbeee526fdf54",
-    "size_bytes": 9358
-  },
-  {
-    "path": "tools/validate_expansion_081_160_v1.py",
-    "sha256": "91c066cce7a81d2dd371af42cbc9de956d742a4b2bcdec6444876f613436f8a2",
-    "size_bytes": 2391
-  },
-  {
-    "path": "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
-    "sha256": "abf70aee8fd84dfbe1cb6c94671a4dee2c82a6826fde4fe58cda3a4d620a1991",
-    "size_bytes": 7404
-  },
-  {
-    "path": "tools/build_subparameter_candidates.py",
-    "sha256": "17d5e01c92737879f954b8ede1ad7c144078af38c2a254e0fe2b757d946052a6",
-    "size_bytes": 4806
-  },
-  {
-    "path": "tools/validate_expansion_2561_2592_domain_bindings_v1.py",
-    "sha256": "3582e2857c0d4292de0fd2b0f10f074d6af1cc3bfac11597abf289b61e2ce508",
-    "size_bytes": 3704
-  },
-  {
-    "path": "tools/build_release_asset_manifest.py",
-    "sha256": "4b78b040941c5c1fda86950a0cba971a371b1e062131d868168bfa92f5a12335",
-    "size_bytes": 16749
-  },
-  {
-    "path": "tools/run_phase2_wisdom_ingestion_rfr_v1.py",
-    "sha256": "820214cda1db0242c6a3fdc53d069e569fce1f2ef5a80544a4d47ca337bfd5b7",
-    "size_bytes": 7385
-  },
-  {
-    "path": "tools/generate_registry_views.py",
-    "sha256": "fe05973a73858a6ddae79f2a6b0ea03e867c6018fff4610003dd2c4c0546e00f",
-    "size_bytes": 4603
-  },
-  {
-    "path": "tools/run_phase2_closure_scope_inheritance_001.py",
-    "sha256": "8080ba1da0ea243bc437d74ba3511ae233f4ea0414570f4ec6a2e2989240b4a5",
-    "size_bytes": 5709
+    "path": "tools/generate_ai_only_bindings_v1.py",
+    "sha256": "04fa57c6ca4fb8e9dcb42a55e03bbdb1c0e1a59040cda549c0d811ae3860cc06",
+    "size_bytes": 6793
   },
   {
     "path": "tools/generate_ai_asi_operational_parameter_bindings_v1.py",
@@ -150,74 +185,9 @@
     "size_bytes": 4425
   },
   {
-    "path": "tools/test_micro_sequence_live_intent_v1_2.py",
-    "sha256": "dcbd4ec1810b30ffa125109aa82ccb33cbd628197f21449fa42bd9eb5ed53c54",
-    "size_bytes": 6883
-  },
-  {
-    "path": "tools/run_phase2_ai_asi_rfr_v1.py",
-    "sha256": "f08b903631993b11758e0e73ade0912ebfdf1dd2fba3e5f48921a17413e7929d",
-    "size_bytes": 8714
-  },
-  {
-    "path": "tools/profile_release_assets.py",
-    "sha256": "756204b8889dbb12c71968f7ab8c9119e13752119a69af11b8e0ba866d34e576",
-    "size_bytes": 13810
-  },
-  {
     "path": "tools/validate_micro_sequence_pattern_runtime_v1.py",
     "sha256": "cd4d013e81f13d5046038f4a3447ec75ab6ab95dc06c24502ee0ac98cb4e8e89",
     "size_bytes": 10367
-  },
-  {
-    "path": "tools/validate_semantic_clarification_residual_return_001.py",
-    "sha256": "add0d82092c90059b9470058e2f7dce4b6c659b0778b1ad833c601aece252aac",
-    "size_bytes": 7145
-  },
-  {
-    "path": "tools/generate_ai_asi_native_runtime_views_v1.py",
-    "sha256": "4948ff5655b74a4c47a5dedbc7a1a18fd51a6ed0bb3b9086599b9c352d31f9b9",
-    "size_bytes": 4734
-  },
-  {
-    "path": "tools/generate_engine_asi_node_bindings_v1.py",
-    "sha256": "004b7e59d0a876e96b6f1b810d13b75ae6193ec13e968b8458a84666f0c1fa18",
-    "size_bytes": 4287
-  },
-  {
-    "path": "tools/run_micro_sequence_interpreter_v1_2.py",
-    "sha256": "1913ee68da7b246f98aa069ff8bfb31170c4641318820e0a0b086590d2fa3973",
-    "size_bytes": 21221
-  },
-  {
-    "path": "tools/validate_brain_engine_adoption_v1.py",
-    "sha256": "adfdbb11ff5dddb604bfcad935bb3141bdf0a659056dbcf63e644d660246d133",
-    "size_bytes": 6356
-  },
-  {
-    "path": "tools/run_phase2_wisdom_batch_001_rfr.py",
-    "sha256": "b72cecb253a7cc5bdeab48d5181619d5b7c8ee52ca9c5cce88c1c09943a0e235",
-    "size_bytes": 7185
-  },
-  {
-    "path": "tools/run_micro_sequence_interpreter_v1.py",
-    "sha256": "240813a2aa104b84a9515db3038a8afcc1d794e7304cdec67cabfd04c1a4da59",
-    "size_bytes": 18125
-  },
-  {
-    "path": "tools/inspect_human_source_workbook.py",
-    "sha256": "0d40c97073210633f458a9e4d6ee37356b5764f260bbf8e862f37882e5162afa",
-    "size_bytes": 10881
-  },
-  {
-    "path": "tools/generate_brain_engine_relationships_v1.py",
-    "sha256": "45d180136d7b1996ae5c59d5c6073e0b8e7df3c11537e779da683cd42ab812de",
-    "size_bytes": 11451
-  },
-  {
-    "path": "tools/build_ai_candidate_registry.py",
-    "sha256": "1939a75e270ae683bb8fc8606fcf22e121a669ce7339a29cf3f3cb23139df913",
-    "size_bytes": 3667
   },
   {
     "path": "tools/validate_human_native_2560_runtime_depth_v1.py",
@@ -225,54 +195,29 @@
     "size_bytes": 6915
   },
   {
-    "path": "tools/test_micro_sequence_live_interpreter_v1.py",
-    "sha256": "6e9d7bfe7289daaa84b1e722a203513bbf566f349e1a964c36177b28d44d95de",
-    "size_bytes": 6261
+    "path": "tools/test_micro_sequence_live_intent_v1_2.py",
+    "sha256": "dcbd4ec1810b30ffa125109aa82ccb33cbd628197f21449fa42bd9eb5ed53c54",
+    "size_bytes": 6883
   },
   {
-    "path": "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py",
-    "sha256": "117caf86fc8456af71dcfbffafaeb43ae60360ff91fd8dda3b8605aac7f66609",
-    "size_bytes": 7344
+    "path": "tools/validate_semantic_clarification_residual_return_001.py",
+    "sha256": "add0d82092c90059b9470058e2f7dce4b6c659b0778b1ad833c601aece252aac",
+    "size_bytes": 7145
   },
   {
-    "path": "tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py",
-    "sha256": "45bc7513d63dc1abd2261593fd074565c16c134caf659adf0a17bb090259f10f",
-    "size_bytes": 7179
+    "path": "tools/validate_expansion_081_160_v1.py",
+    "sha256": "91c066cce7a81d2dd371af42cbc9de956d742a4b2bcdec6444876f613436f8a2",
+    "size_bytes": 2391
   },
   {
-    "path": "tools/validate_repo.py",
-    "sha256": "bdedd26daffe70fb914f0b072a2411311f6d7f8ef5ef6d9b957f8b1ad3d47db9",
-    "size_bytes": 11836
+    "path": "tools/validate_ai_asi_operational_parameter_bindings_v1.py",
+    "sha256": "a4e383632bbfc85578ba06097a6b95b3cefb902765a30bba551fd973b4f26ddc",
+    "size_bytes": 4044
   },
   {
-    "path": "tools/summarize_phase2_ai_asi_rfr_v1.py",
-    "sha256": "7b2edda090fabf5cd0fc9d4a6d634dfbddcc0887f7dc4e075c284b3ef48bc3da",
-    "size_bytes": 1728
-  },
-  {
-    "path": "tools/build_release_asset_merge_plan.py",
-    "sha256": "b5000779ea25e74e2e450ff3413ea6b84eb0766fe7bf591598400e3fff1f61df",
-    "size_bytes": 12035
-  },
-  {
-    "path": "tools/relink_and_index.py",
-    "sha256": "bf64e1ca036a4a9b5cf1b4a8e27a18a809ab091bfb2e3e55dfaefded383ca6c4",
-    "size_bytes": 4918
-  },
-  {
-    "path": "tools/validate_ai_asi_container_candidates.py",
-    "sha256": "86baffe61e478e6e540149c75686c1d90094b268fab61c6b7b063f5ad4a61444",
-    "size_bytes": 4498
-  },
-  {
-    "path": "tools/run_phase2_multi_rubric_integration_v1.py",
-    "sha256": "1372ec769d2301ada68f844b70b891213b08b77dc700f84d12a48e87938386d4",
-    "size_bytes": 10807
-  },
-  {
-    "path": "tools/validate_human_functional_3204_v1.py",
-    "sha256": "8ae8d31a470b6a324a997f90ab94333aa2ed35b30fdc7d63c091f408c3f3c013",
-    "size_bytes": 4165
+    "path": "tools/run_phase2_ai_asi_rfr_v1.py",
+    "sha256": "f08b903631993b11758e0e73ade0912ebfdf1dd2fba3e5f48921a17413e7929d",
+    "size_bytes": 8714
   },
   {
     "path": "tools/run_phase2_behavioral_rfr_v1.py",
@@ -280,34 +225,89 @@
     "size_bytes": 10909
   },
   {
-    "path": "tools/generate_human_functional_3204_v1.py",
-    "sha256": "79e132590a21d4215fe5f75a909a3c8ba90dfe9ce3a9b8d4e03e43e04d86dc34",
-    "size_bytes": 5606
+    "path": "tools/validate_expansion_2561_2592_domain_bindings_v1.py",
+    "sha256": "3582e2857c0d4292de0fd2b0f10f074d6af1cc3bfac11597abf289b61e2ce508",
+    "size_bytes": 3704
   },
   {
-    "path": "tools/generate_rubric_views.py",
-    "sha256": "35f96771e81c3ab052909f674a17a4129f4b311467570ed4b9eb4f056093b7a6",
-    "size_bytes": 2585
+    "path": "tools/inspect_human_source_workbook.py",
+    "sha256": "0d40c97073210633f458a9e4d6ee37356b5764f260bbf8e862f37882e5162afa",
+    "size_bytes": 10881
   },
   {
-    "path": "tools/generate_operational_subparameters_v1.py",
-    "sha256": "e26fed43976ea8988e37cc343bb450ae56e6d9e8a61e26a59f1aff651b6fe1c5",
-    "size_bytes": 4305
+    "path": "tools/summarize_phase2_ai_asi_rfr_v1.py",
+    "sha256": "7b2edda090fabf5cd0fc9d4a6d634dfbddcc0887f7dc4e075c284b3ef48bc3da",
+    "size_bytes": 1728
   },
   {
-    "path": "tools/validate_rain_target_layer_action_001.py",
-    "sha256": "7e7b619cc82c4b212a4cfad51208e6106f5f59062752839397430a1414572b81",
-    "size_bytes": 5477
+    "path": "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
+    "sha256": "abf70aee8fd84dfbe1cb6c94671a4dee2c82a6826fde4fe58cda3a4d620a1991",
+    "size_bytes": 7404
   },
   {
-    "path": "tools/run_micro_sequence_interpreter.py",
-    "sha256": "f63ab3cb228970430ef555baa1e83eff1f9d2cc02e2b16bde8a328d85a024764",
-    "size_bytes": 199
+    "path": "tools/validate_ai_asi_container_candidates.py",
+    "sha256": "86baffe61e478e6e540149c75686c1d90094b268fab61c6b7b063f5ad4a61444",
+    "size_bytes": 4498
+  },
+  {
+    "path": "tools/assemble_sources.py",
+    "sha256": "a576db22b82c3f77869e54eafcd1f649d24fbb8170384f861d4ad931fed45f4a",
+    "size_bytes": 2249
+  },
+  {
+    "path": "tools/generate_engine_asi_node_bindings_v1.py",
+    "sha256": "004b7e59d0a876e96b6f1b810d13b75ae6193ec13e968b8458a84666f0c1fa18",
+    "size_bytes": 4287
+  },
+  {
+    "path": "tools/validate_king_profile_parameter_discovery_v1.py",
+    "sha256": "6b052a155a46fe32a4cee05abe4aa83b1034cf6477a8893ced9aeb687ddaf285",
+    "size_bytes": 7475
   },
   {
     "path": "tools/repair_human_native_custody_from_release.py",
     "sha256": "bb45201fca35d82329c3b99d356b12f8c9534f3a59b76e105eb8ec7c608a5249",
     "size_bytes": 10318
+  },
+  {
+    "path": "tools/run_phase2_multi_rubric_integration_001.py",
+    "sha256": "957d669247164e009ebf923cdd3c0420b3e23638833572d40c17667e779481d5",
+    "size_bytes": 9035
+  },
+  {
+    "path": "tools/build_ai_candidate_registry.py",
+    "sha256": "1939a75e270ae683bb8fc8606fcf22e121a669ce7339a29cf3f3cb23139df913",
+    "size_bytes": 3667
+  },
+  {
+    "path": "tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py",
+    "sha256": "45bc7513d63dc1abd2261593fd074565c16c134caf659adf0a17bb090259f10f",
+    "size_bytes": 7179
+  },
+  {
+    "path": "tools/run_phase2_multi_rubric_integration_v1.py",
+    "sha256": "1372ec769d2301ada68f844b70b891213b08b77dc700f84d12a48e87938386d4",
+    "size_bytes": 10807
+  },
+  {
+    "path": "tools/generate_operational_parameter_ai_asi_ownership_v1.py",
+    "sha256": "01491fbf0cf6d85f33aca299742238f3d3b8e48fb4401d1976ea15f5977bc329",
+    "size_bytes": 2685
+  },
+  {
+    "path": "tools/run_micro_sequence_interpreter_v1_2.py",
+    "sha256": "1913ee68da7b246f98aa069ff8bfb31170c4641318820e0a0b086590d2fa3973",
+    "size_bytes": 21221
+  },
+  {
+    "path": "tools/profile_release_assets.py",
+    "sha256": "756204b8889dbb12c71968f7ab8c9119e13752119a69af11b8e0ba866d34e576",
+    "size_bytes": 13810
+  },
+  {
+    "path": "tools/validate_king_character_engine_workbook_review_v1.py",
+    "sha256": "a77509089e85df0ab6593c2c9d38527064d9edc561f90f42981aa71d5bd8387e",
+    "size_bytes": 3980
   },
   {
     "path": "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
@@ -320,6 +320,21 @@
     "size_bytes": 1564
   },
   {
+    "path": "docs/RELEASE_ASSET_INGESTION_REPORT.md",
+    "sha256": "785f699b16782dd1aec487cdbb270e98ab9c8810cbfe82988aff5b34106b1550",
+    "size_bytes": 10899
+  },
+  {
+    "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
+    "sha256": "4d1f350de30fb0260f9e24bf51ad6bf329092d1b5dc04da6d81989e954bcfc5c",
+    "size_bytes": 3865
+  },
+  {
+    "path": "docs/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.md",
+    "sha256": "36b244d713b6869d52b673eb913fdafb4e18d0f939b02d91fff93d22b8e7f30b",
+    "size_bytes": 6364
+  },
+  {
     "path": "docs/LOCKED_DECISIONS.md",
     "sha256": "27e993b383db5c286c7666febbbc96a9c65f2c48528d908c2aa78f3433eb921f",
     "size_bytes": 2459
@@ -330,9 +345,9 @@
     "size_bytes": 23438
   },
   {
-    "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
-    "sha256": "4d1f350de30fb0260f9e24bf51ad6bf329092d1b5dc04da6d81989e954bcfc5c",
-    "size_bytes": 3865
+    "path": "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
+    "sha256": "20cfc76bf934f5f58d9989e07151bc5d8b6100bc68397ea821269fca06083996",
+    "size_bytes": 4999
   },
   {
     "path": "docs/RELEASE_ASSET_CONTENT_PROFILE.md",
@@ -345,44 +360,74 @@
     "size_bytes": 6321
   },
   {
-    "path": "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
-    "sha256": "20cfc76bf934f5f58d9989e07151bc5d8b6100bc68397ea821269fca06083996",
-    "size_bytes": 4999
+    "path": ".github/workflows/relink-validate.yml",
+    "sha256": "844588e023494c0f1f7a94ca8a29437486f2f8befa075ad4272244f7f3af953d",
+    "size_bytes": 6184
   },
   {
-    "path": "docs/RELEASE_ASSET_INGESTION_REPORT.md",
-    "sha256": "785f699b16782dd1aec487cdbb270e98ab9c8810cbfe82988aff5b34106b1550",
-    "size_bytes": 10899
+    "path": ".github/workflows/king-character-workbook-review-rfr.yml",
+    "sha256": "5ec06177459c72fb019eaa1b8bf84434c5bc0be08e99bfea458fc06e5ed0af9c",
+    "size_bytes": 781
   },
   {
-    "path": "docs/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.md",
-    "sha256": "36b244d713b6869d52b673eb913fdafb4e18d0f939b02d91fff93d22b8e7f30b",
-    "size_bytes": 6364
+    "path": ".github/workflows/multi-rubric-integration-rfr.yml",
+    "sha256": "2c667418cf514b9f7bf8c8cfd12e25aa61364ffda7c0c0f8f832512ef1649595",
+    "size_bytes": 1637
   },
   {
-    "path": "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json",
-    "sha256": "50c7ac0d7e0f7fb8b314d5cd3af244393fce4e5bb5160213f758a7e67634803d",
-    "size_bytes": 1912
+    "path": ".github/workflows/release-assets-inventory.yml",
+    "sha256": "4c888d6b25edb306d66a164b6a45dda6befa07f8f88fba1ae40c74b32a07d019",
+    "size_bytes": 5097
   },
   {
-    "path": "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
-    "sha256": "b907f32e36730e4fa7b4e6a9236b46ce677b64fa04872978d66fdcab3b9f946c",
-    "size_bytes": 4627
+    "path": ".github/workflows/repair-human-custody.yml",
+    "sha256": "fd9b13115ed65806780adcc3de4569de1f1cd56c76fb0a2897c39d2289e5b704",
+    "size_bytes": 2790
   },
   {
-    "path": "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
-    "sha256": "cbaaa05a5eda0e2fad67fd0b301c18a686624b0d35ffedf4e247c9587404c776",
-    "size_bytes": 20397
+    "path": ".github/workflows/wisdom-ingestion-rfr.yml",
+    "sha256": "454c34c2b93adcdb98f98968419e456951208cb4580d9ca8ab56b2196dd893d7",
+    "size_bytes": 1237
   },
   {
-    "path": "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
-    "sha256": "e7ca110d9ae86aa9bcfd147efa1bb4f2e03737f621f37b53e354d459eeeca79e",
-    "size_bytes": 2743
+    "path": ".github/workflows/operational-ownership-rfr.yml",
+    "sha256": "859592524a458c5ad1324ea895c52613cccf7281a540720f1d0435afb5f5fa93",
+    "size_bytes": 1833
   },
   {
-    "path": "machine/schemas/semantic_clarification.schema.json",
-    "sha256": "04dff5e497fa8d5d37c8ada0ca8c217a456c2965fe806c07f2a04cda79d26005",
-    "size_bytes": 3580
+    "path": ".github/workflows/human-source-inspection.yml",
+    "sha256": "c2b7fe1bf926d8d51af6d66127e03cb9ec30513edbc019c87bf099d245d8bcf8",
+    "size_bytes": 2455
+  },
+  {
+    "path": "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+    "sha256": "2584f235827c4ae1e55fd3f5c0c38115f8d8a63549c9d7a1b9a38be3ae0be6ae",
+    "size_bytes": 11912
+  },
+  {
+    "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
+    "sha256": "3698787c4cbbdef76cf702e2669a1b6bf021f22850d6892ef1d2d62795376274",
+    "size_bytes": 3343
+  },
+  {
+    "path": "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+    "sha256": "ad2070428cd4a20c22fd8c5c166157c63fdd51e4c5948ff45acd1640f6d46e44",
+    "size_bytes": 8740
+  },
+  {
+    "path": "machine/parameters/SPLIT_OBSERVATION_SCHEMA.json",
+    "sha256": "7a604321a302b042356bbed347c04332a3b8fa86225f252b741ddf914fd28c62",
+    "size_bytes": 2245
+  },
+  {
+    "path": "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
+    "sha256": "ff6b72bc3d06140f72cc9dcb8f8611c04f299c929e8a3b113fb0801330213960",
+    "size_bytes": 4731
+  },
+  {
+    "path": "machine/schemas/micro_sequence_learning.schema.json",
+    "sha256": "87699faa1c52073220a2a86824ae6ec3abe8d6c85c76d9f0377064fe278df5ba",
+    "size_bytes": 8663
   },
   {
     "path": "machine/schemas/intent_hypothesis.schema.json",
@@ -395,14 +440,24 @@
     "size_bytes": 8304
   },
   {
-    "path": "machine/schemas/micro_sequence_learning.schema.json",
-    "sha256": "87699faa1c52073220a2a86824ae6ec3abe8d6c85c76d9f0377064fe278df5ba",
-    "size_bytes": 8663
+    "path": "machine/schemas/semantic_clarification.schema.json",
+    "sha256": "04dff5e497fa8d5d37c8ada0ca8c217a456c2965fe806c07f2a04cda79d26005",
+    "size_bytes": 3580
   },
   {
-    "path": "machine/v2/TYPED_NULL_SEMANTICS.json",
-    "sha256": "fecb18023c4a9c3158ff5a0150ea107980b629fe8be860bf987441b9e8ba1f39",
-    "size_bytes": 1398
+    "path": "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+    "sha256": "e7ca110d9ae86aa9bcfd147efa1bb4f2e03737f621f37b53e354d459eeeca79e",
+    "size_bytes": 2743
+  },
+  {
+    "path": "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
+    "sha256": "cbaaa05a5eda0e2fad67fd0b301c18a686624b0d35ffedf4e247c9587404c776",
+    "size_bytes": 20397
+  },
+  {
+    "path": "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
+    "sha256": "6d17f92f4ed5b9337d89c9594a317f4b68d9e685c9aa41476b8023c81e78d665",
+    "size_bytes": 7934
   },
   {
     "path": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
@@ -410,9 +465,9 @@
     "size_bytes": 6386
   },
   {
-    "path": "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
-    "sha256": "6d17f92f4ed5b9337d89c9594a317f4b68d9e685c9aa41476b8023c81e78d665",
-    "size_bytes": 7934
+    "path": "machine/v2/TYPED_NULL_SEMANTICS.json",
+    "sha256": "fecb18023c4a9c3158ff5a0150ea107980b629fe8be860bf987441b9e8ba1f39",
+    "size_bytes": 1398
   },
   {
     "path": "machine/v2/CORE_INVARIANTS_V2.json",
@@ -425,44 +480,14 @@
     "size_bytes": 3307
   },
   {
-    "path": "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
-    "sha256": "2584f235827c4ae1e55fd3f5c0c38115f8d8a63549c9d7a1b9a38be3ae0be6ae",
-    "size_bytes": 11912
+    "path": "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json",
+    "sha256": "50c7ac0d7e0f7fb8b314d5cd3af244393fce4e5bb5160213f758a7e67634803d",
+    "size_bytes": 1912
   },
   {
-    "path": "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
-    "sha256": "ad2070428cd4a20c22fd8c5c166157c63fdd51e4c5948ff45acd1640f6d46e44",
-    "size_bytes": 8740
-  },
-  {
-    "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
-    "sha256": "3698787c4cbbdef76cf702e2669a1b6bf021f22850d6892ef1d2d62795376274",
-    "size_bytes": 3343
-  },
-  {
-    "path": "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
-    "sha256": "ff6b72bc3d06140f72cc9dcb8f8611c04f299c929e8a3b113fb0801330213960",
-    "size_bytes": 4731
-  },
-  {
-    "path": "machine/parameters/SPLIT_OBSERVATION_SCHEMA.json",
-    "sha256": "7a604321a302b042356bbed347c04332a3b8fa86225f252b741ddf914fd28c62",
-    "size_bytes": 2245
-  },
-  {
-    "path": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
-    "sha256": "a4857a5c0cc4750536112bea7c95cf366529bac20a62cf275dba8a8a21896a04",
-    "size_bytes": 6164
-  },
-  {
-    "path": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
-    "sha256": "ff20d10f0b05f8decb0a47267e02a68779abf49f81ff9afff8a0c8ec6da6cacf",
-    "size_bytes": 7741
-  },
-  {
-    "path": "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
-    "sha256": "efe44cc06e5e66f9e4a571eecd82f1fba74ff549830dd4db426dc4a0ebeba488",
-    "size_bytes": 4985
+    "path": "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
+    "sha256": "b907f32e36730e4fa7b4e6a9236b46ce677b64fa04872978d66fdcab3b9f946c",
+    "size_bytes": 4627
   },
   {
     "path": "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
@@ -475,9 +500,24 @@
     "size_bytes": 4545
   },
   {
-    "path": "machine/runtime/CURRENT_MICRO_SEQUENCE_INTERPRETER.json",
-    "sha256": "a71f5ea6f9866a6336acd4830c25c7bdb50bd71b7c9d9d0b392fc09135a404d4",
-    "size_bytes": 875
+    "path": "machine/vocab/core_vocab.json",
+    "sha256": "662c92faa776ceda55f86f43414fc9280b5141bbf9dfdd86047f4a9b7c0f241a",
+    "size_bytes": 1321
+  },
+  {
+    "path": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+    "sha256": "ff20d10f0b05f8decb0a47267e02a68779abf49f81ff9afff8a0c8ec6da6cacf",
+    "size_bytes": 7741
+  },
+  {
+    "path": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+    "sha256": "a4857a5c0cc4750536112bea7c95cf366529bac20a62cf275dba8a8a21896a04",
+    "size_bytes": 6164
+  },
+  {
+    "path": "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
+    "sha256": "efe44cc06e5e66f9e4a571eecd82f1fba74ff549830dd4db426dc4a0ebeba488",
+    "size_bytes": 4985
   },
   {
     "path": "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
@@ -485,229 +525,19 @@
     "size_bytes": 7982
   },
   {
-    "path": "machine/runtime/INTENT_HYPOTHESIS_SYNTHESIS_RUNTIME_V1.json",
-    "sha256": "c62e197709cbfe8a5cfcc8981ef6fbd8117c8f244775909edade49d864fdb25f",
-    "size_bytes": 5196
-  },
-  {
     "path": "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
     "sha256": "d4da630e1cc3baeb027dd1fc92b15c2c9188ddda6d77fff1c4a0e2288f75dc53",
     "size_bytes": 4992
   },
   {
-    "path": "machine/vocab/core_vocab.json",
-    "sha256": "662c92faa776ceda55f86f43414fc9280b5141bbf9dfdd86047f4a9b7c0f241a",
-    "size_bytes": 1321
+    "path": "machine/runtime/INTENT_HYPOTHESIS_SYNTHESIS_RUNTIME_V1.json",
+    "sha256": "c62e197709cbfe8a5cfcc8981ef6fbd8117c8f244775909edade49d864fdb25f",
+    "size_bytes": 5196
   },
   {
-    "path": "registries/asi/node_brain_template.json",
-    "sha256": "0d99a7e3b1e84b218525bd56ce20c3d5e603681e243c33575cc95bce8dc12992",
-    "size_bytes": 1038
-  },
-  {
-    "path": "registries/asi/asi_node_registry.json",
-    "sha256": "e692d235fe61323a59871854b31369b15f4227724b57f293ec829fdd29961313",
-    "size_bytes": 4589
-  },
-  {
-    "path": "registries/asi/ASI_RUBRIC_V0.json",
-    "sha256": "7b54459a0d4d13789eb67cc1cd153d19a74343a299dffa43a20c0af9e08589cb",
-    "size_bytes": 4673
-  },
-  {
-    "path": "registries/asi/node_brains_v0.json",
-    "sha256": "ac2f0200a0c98c4c5fc931cec928d6255fe61e41e8a3c4ad57aca7ab4bc89ef7",
-    "size_bytes": 15272
-  },
-  {
-    "path": "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
-    "sha256": "6ee595aec87b578c7f306f64db788b54089218ea65895267c71ff4921c31375e",
-    "size_bytes": 8108
-  },
-  {
-    "path": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
-    "sha256": "c94a0731e5ab4e64338a1364f49ef015ea79957d5fef551bd7de3fd142833cc4",
-    "size_bytes": 3261
-  },
-  {
-    "path": "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
-    "sha256": "7227d8282c5f6bea4b97ec49b278ac454adc043d2e03c350fd8cf4db988178f6",
-    "size_bytes": 7642
-  },
-  {
-    "path": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
-    "sha256": "d30fcc9b95833f9a59a1588a40f6be479a533e72cdcf789de82b4edb12bdf3cb",
-    "size_bytes": 5998
-  },
-  {
-    "path": "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
-    "sha256": "39c47cf64426aca24a496fec2ca84659aaf03c4550866405ce858b92096c637c",
-    "size_bytes": 3934
-  },
-  {
-    "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
-    "sha256": "9a3cb16ff648233ecff6d203d79f0a0ffbacceda222975490246e5542ed7561f",
-    "size_bytes": 1886
-  },
-  {
-    "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
-    "sha256": "a34286722e477e1f5a4411e16dc801af7c968f7c17bb8752fb1017ec417a8f7c",
-    "size_bytes": 3926
-  },
-  {
-    "path": "registries/holy_books/NARRATIVE_SOURCE_ADAPTER_SCHEMA.json",
-    "sha256": "62b853b7837fc2f870617cb01af0e129dc039551e57887839b7f7607fa6845aa",
-    "size_bytes": 2792
-  },
-  {
-    "path": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
-    "sha256": "ae21ca9eb79cf07543491673eaca07648f5d8ace5ec86e37dc3243db9b2317b2",
-    "size_bytes": 9643
-  },
-  {
-    "path": "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
-    "sha256": "365d3db8b510d81a9c3d818cb1617648e2517b9fa42596c74a2a271db329aae5",
-    "size_bytes": 3751
-  },
-  {
-    "path": "registries/ai/STATUS.json",
-    "sha256": "38aa4182eb09989ec3d276fa040eb5f1167a1758c99fe22497a4bbd3b9a3b638",
-    "size_bytes": 850
-  },
-  {
-    "path": "registries/ai/AI_RUBRIC_V0.json",
-    "sha256": "2da4542794dc4357de0cdbe4980b8bc20d1ca70e872adec6e4c849ded920ab2d",
-    "size_bytes": 5924
-  },
-  {
-    "path": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
-    "sha256": "36a6aa359cdd15bd07ef01d22759f501c698afe427a0d2d025706a128fe8520b",
-    "size_bytes": 6955
-  },
-  {
-    "path": "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
-    "sha256": "98755caac1cb8d83538662fc5ad9f72fd9f8712b7a32ce2caa6b35223e840ae0",
-    "size_bytes": 13675
-  },
-  {
-    "path": "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
-    "sha256": "b6e59da8645ff5ccbfb8e77bc986798dad5370ad0172dfe8996c3eaf7effa3d5",
-    "size_bytes": 6820
-  },
-  {
-    "path": "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
-    "sha256": "b6bdb9157e3ba5ab0b5e6052bf4b1e921718070524bb891e4bd487e4b71bf872",
-    "size_bytes": 9216
-  },
-  {
-    "path": "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
-    "sha256": "8a5c9aafd300f0cf8d53bc1073039b94be2a6646c2f94cb0faf37bb071dc3e77",
-    "size_bytes": 8188
-  },
-  {
-    "path": "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-    "sha256": "50c57dfe75a6f3d7d8f68e1f87e22a515f11fe4e069239710685769db0bbec47",
-    "size_bytes": 6035
-  },
-  {
-    "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
-    "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
-    "size_bytes": 1711
-  },
-  {
-    "path": "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
-    "sha256": "ebfc39aa34b3007078e5f490d3786377d3d680d72692e67392e0a768aec3044d",
-    "size_bytes": 18230
-  },
-  {
-    "path": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
-    "sha256": "38195d05259d51b2b13f11c68e144eb65aa8e7c1aeb5aa70d2ec9c9529c055f3",
-    "size_bytes": 5649
-  },
-  {
-    "path": "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
-    "sha256": "13bbeab99f539ee69657b6a26e4bd44bbb672f4571f6cc47bb4622310ba1613c",
-    "size_bytes": 3415
-  },
-  {
-    "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
-    "sha256": "d3dd1b500129d9fbbc66b3acdf89400c2ab3a4b7f16de494908070d4c54c7dbf",
-    "size_bytes": 4466
-  },
-  {
-    "path": "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
-    "sha256": "8608cdf5e867724058666f62e5d1b7001e874036099ac60d6255b427bd9277c9",
-    "size_bytes": 3040
-  },
-  {
-    "path": "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
-    "sha256": "c4fba4fcd74c9d8ec61cace12096c0692c8a34db0637d07b8d259d9797b1d38b",
-    "size_bytes": 3666
-  },
-  {
-    "path": "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json",
-    "sha256": "c256a96bd03176ae2e41b55ae958e76a34a0376f8b66af777d1c6441110b1012",
-    "size_bytes": 2280
-  },
-  {
-    "path": "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
-    "sha256": "c18c5e937a4a6dea05f7257b3199a09160d7fe5dc78341759464e55c9919a6cd",
-    "size_bytes": 6475
-  },
-  {
-    "path": "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json",
-    "sha256": "c96189db83498af6c17f3b333da4efb97f53a470df5daa5fae25e492a2506d35",
-    "size_bytes": 5074
-  },
-  {
-    "path": "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json",
-    "sha256": "e680ee1ce8549039d59dd9af263cd4e3e12531192e3952ac1fe97c62594c3ec5",
-    "size_bytes": 3865
-  },
-  {
-    "path": "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
-    "sha256": "19b304c76121603b046c9eff2f851f9f232e11836f9955aa96c8d23d818e10f2",
-    "size_bytes": 4143
-  },
-  {
-    "path": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
-    "sha256": "b12a29c8dfd31e25da39565b50c465e6113323cc58bb6928c292caeff9c3e078",
-    "size_bytes": 7637
-  },
-  {
-    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-02.b64",
-    "sha256": "de1e94cdb862a208e1ff5b6751c7ae63b37686762da0acacf0204f31492e3924",
-    "size_bytes": 12000
-  },
-  {
-    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-03.b64",
-    "sha256": "73c56cb72c817d15f25fa2197e4472fb8951dd867c8b853af49cde66af4e5a06",
-    "size_bytes": 19051
-  },
-  {
-    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-01.b64",
-    "sha256": "7705dd84ca11e61e2b8e545e8c089492ec2e59019f7b202962599f770d1264e3",
-    "size_bytes": 10000
-  },
-  {
-    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-04.b64",
-    "sha256": "d524e86eaa4bb57d2ba61cc3b9e876497855d9350b44e1bb91fc16e2565262be",
-    "size_bytes": 184638
-  },
-  {
-    "path": "phase2/asi/ASI_NODE_BRAINS_V0.md",
-    "sha256": "7e01c656167aeb21ed5b7757e8d2dd5dc546f97edb920ce2576fab2ff63fa4da",
-    "size_bytes": 6545
-  },
-  {
-    "path": "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
-    "sha256": "0352d52ff8af4cd69455e515473b2ff9952697ea19305af232dee4b250482cd0",
-    "size_bytes": 6303
-  },
-  {
-    "path": "phase2/examples/SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md",
-    "sha256": "0abac28f8321ce159581fa4dd7f01216f88cc35225da684c0f82578df5c5db10",
-    "size_bytes": 4497
+    "path": "machine/runtime/CURRENT_MICRO_SEQUENCE_INTERPRETER.json",
+    "sha256": "a71f5ea6f9866a6336acd4830c25c7bdb50bd71b7c9d9d0b392fc09135a404d4",
+    "size_bytes": 875
   },
   {
     "path": "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
@@ -715,19 +545,279 @@
     "size_bytes": 8812
   },
   {
-    "path": "phase2/examples/README.md",
-    "sha256": "7a350f28220692db7c694efcfa622f025cb711d615ecdd2b692b813dd0f83533",
-    "size_bytes": 3044
-  },
-  {
     "path": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
     "sha256": "1c34547071d1798380a84c6aedacca59e1c188b56b9442e1f765098b800a73fe",
     "size_bytes": 3165
   },
   {
-    "path": "phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json",
-    "sha256": "73963831e9e862ff42b386e5d7184a139bd17c91fdf502235c1c141d9cbfb0cc",
-    "size_bytes": 6058
+    "path": "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+    "sha256": "0352d52ff8af4cd69455e515473b2ff9952697ea19305af232dee4b250482cd0",
+    "size_bytes": 6303
+  },
+  {
+    "path": "phase2/examples/README.md",
+    "sha256": "7a350f28220692db7c694efcfa622f025cb711d615ecdd2b692b813dd0f83533",
+    "size_bytes": 3044
+  },
+  {
+    "path": "phase2/examples/SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md",
+    "sha256": "0abac28f8321ce159581fa4dd7f01216f88cc35225da684c0f82578df5c5db10",
+    "size_bytes": 4497
+  },
+  {
+    "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
+    "sha256": "9ecaafc0eb3ed985af62c92b7284e1696f0bc8dee570ff7e8f2c47c6602093eb",
+    "size_bytes": 945
+  },
+  {
+    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+    "sha256": "0134c9f5e927e3cfc696cf1acf668a51c82ed3a6209e34ad26192343f861e509",
+    "size_bytes": 4505
+  },
+  {
+    "path": "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
+    "sha256": "56bb4e1d22e205c2737e4f5bff90500ea8688a440849d6015139defce30cac9f",
+    "size_bytes": 5422
+  },
+  {
+    "path": "phase2/tests/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_TRIGGER_V1.json",
+    "sha256": "1977de19db4ed66a0209a44b7d1aa7a51a8213f6d073d2873081fa1b6541f272",
+    "size_bytes": 855
+  },
+  {
+    "path": "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+    "sha256": "dc74ad266c95324ba84a810604ba8384d45469cd38abca7f823057aace312ecb",
+    "size_bytes": 2627
+  },
+  {
+    "path": "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+    "sha256": "5d7898693b2ef58a4a3e8bee0fca6a22aedb51e0e5d2b1388c7753c6a845c168",
+    "size_bytes": 396
+  },
+  {
+    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+    "sha256": "38c402486294fc74c7d745331b45f0b8b9be559323f1fa55605dd2444b1d59da",
+    "size_bytes": 5172
+  },
+  {
+    "path": "phase2/tests/P2_HUMAN_2560_CUSTODY_PROBE_TRIGGER_V1.json",
+    "sha256": "5a5e5f20820056b924d84f69fd25a95203efa2c5e94d3247d82f8dac0fe25722",
+    "size_bytes": 568
+  },
+  {
+    "path": "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+    "sha256": "3378027cb7d1b3ab9494f48193ca22e0b625e0bb64e3643038cd3e9c64a95659",
+    "size_bytes": 11060
+  },
+  {
+    "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+    "sha256": "559fb00e133aa1967e359f72d01e5f7a188278aac1ea8d3ed79770c8588a81c0",
+    "size_bytes": 3380
+  },
+  {
+    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json",
+    "sha256": "36279dc8709ed92fd300dc2928200462b08bf72bfd48cb1d0445a117842a3c9d",
+    "size_bytes": 707
+  },
+  {
+    "path": "phase2/tests/P2_AI_ASI_RUNTIME_VIEWS_ORPHAN_OVERLAP_TRIGGER_V1.json",
+    "sha256": "2d98037027aa67fb3328b72ca7fa9308c8ab27b9fa874117540b7d6d95dadb73",
+    "size_bytes": 774
+  },
+  {
+    "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
+    "sha256": "ddc1e2be036681c3c0c089674910daede8dfa4640906acd7a024455e6034dc01",
+    "size_bytes": 3410
+  },
+  {
+    "path": "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
+    "sha256": "06ea3e107f815988e6b2873d972aa2cfa0596b370284be8568fc60796c2ab12b",
+    "size_bytes": 3206
+  },
+  {
+    "path": "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
+    "sha256": "b0296b1a46459731e6c4428b0cf2fa8f17f64a9a215172b4809ffb9385d00fe8",
+    "size_bytes": 2986
+  },
+  {
+    "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
+    "sha256": "8b6b118421693a51eed42d9ef92fc05525877c159d4e475ba26c5f98ee1a7e15",
+    "size_bytes": 4648
+  },
+  {
+    "path": "phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json",
+    "sha256": "5297832ab385889e4291b206c89ed34adaea44505c12b1854e93faf60da8f8c5",
+    "size_bytes": 1458
+  },
+  {
+    "path": "phase2/closures/P2_AI_ASI_NATIVE_RUNTIME_VIEWS_CLOSURE_V2.json",
+    "sha256": "fa6160ab62408c6a29a602edb92ee9b03e5e25a321f44882a542af3752c88d89",
+    "size_bytes": 2494
+  },
+  {
+    "path": "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md",
+    "sha256": "a181725d9686765e5b99d353e22fc2c78cda7e4f364402967c89ba07d4f6e803",
+    "size_bytes": 6359
+  },
+  {
+    "path": "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
+    "sha256": "8970b63c8c38d36de9f8d4ae09cf89cc36e6b0a6ce1e366cd45533ff990c78f7",
+    "size_bytes": 1259
+  },
+  {
+    "path": "phase2/rfr/P2_CLOSURE_SCOPE_INHERITANCE_RFR_001.md",
+    "sha256": "f0c43507d1e4c85828c8e8a75b465ccf124e13bd85e6bbd267180bad156268e1",
+    "size_bytes": 730
+  },
+  {
+    "path": "phase2/rfr/P2_EXPANSION_P2561_P2592_DOMAIN_RFR_001.md",
+    "sha256": "8d2e9a59629bf711013ca019ea2e3746f9a3638eeb1a24d1ff1905cdf9c810e6",
+    "size_bytes": 697
+  },
+  {
+    "path": "phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md",
+    "sha256": "3c4b1e05154fceeb2827f8e8fe482519aa599c6dc12debbc292673fd3c8baa61",
+    "size_bytes": 990
+  },
+  {
+    "path": "phase2/rfr/P2_HUMAN_WISDOM_NO_AI_RFR_001.md",
+    "sha256": "3d21ff81f982477a7875a3c7a9e1ec9cf0ce19d80fa96f15fe43282e82c46326",
+    "size_bytes": 756
+  },
+  {
+    "path": "phase2/rfr/P2_WISDOM_BATCH_001_RFR.md",
+    "sha256": "e6509a915f90822755250f531976077de67e295c7f9abe9452e3ebac8349f72a",
+    "size_bytes": 1046
+  },
+  {
+    "path": "phase2/rfr/P2_ACTOR_VIEW_LEAKAGE_RFR_001.md",
+    "sha256": "e90b736de0639eaa1d028215ef35baab6417fd648ee0c8b7451daa2d73cc1589",
+    "size_bytes": 677
+  },
+  {
+    "path": "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
+    "sha256": "6e51a3212086378a4ac4a13af7f24f026461329170f0582efc44d56fb7277847",
+    "size_bytes": 1889
+  },
+  {
+    "path": "phase2/asi/ASI_NODE_BRAINS_V0.md",
+    "sha256": "7e01c656167aeb21ed5b7757e8d2dd5dc546f97edb920ce2576fab2ff63fa4da",
+    "size_bytes": 6545
+  },
+  {
+    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
+    "sha256": "107cc42396946c941425498853d4fa87706a93718679a219bf7cf18ecf0f7177",
+    "size_bytes": 3488
+  },
+  {
+    "path": "phase2/checkpoints/P2_WISDOM_BATCH_001_CHECKPOINT.json",
+    "sha256": "925ee6a79f8d6b14837b1a6269075a313d37884ff72565599d2d626a244b35d9",
+    "size_bytes": 1634
+  },
+  {
+    "path": "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
+    "sha256": "b69cd6237b575dae372f1523a862347819e3686e399bd841e54aeb86757d4c75",
+    "size_bytes": 2040
+  },
+  {
+    "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+    "sha256": "c5c9e2f609ea454461fefabea0dcacde9d790a3756b5fb2c3475c1d43ba9e0bb",
+    "size_bytes": 3629
+  },
+  {
+    "path": "phase2/checkpoints/P2_KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_001.json",
+    "sha256": "45207e7b32eb7f30a8b9b813ec0621c39ce2a1a3561bc90d11b7078cca6ab317",
+    "size_bytes": 1456
+  },
+  {
+    "path": "phase2/checkpoints/P2_SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+    "sha256": "6d269321d7407a2c0659e0f262576aaddb78afc4308808326b691b8b434e17cd",
+    "size_bytes": 1846
+  },
+  {
+    "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_CHECKPOINT_V1.json",
+    "sha256": "bec2f0b089c2b90c1610c441c31618099522b4c8f29e8bfd95d68ae29c4aa764",
+    "size_bytes": 2315
+  },
+  {
+    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_001.json",
+    "sha256": "21ae815e4e3295cedbf841aeee2898e5d3252fa47c8dd94d25e8646d68b2404f",
+    "size_bytes": 1312
+  },
+  {
+    "path": "phase2/checkpoints/P2_CLOSURE_SCOPE_INHERITANCE_CHECKPOINT_001.json",
+    "sha256": "8a8d3506fdb23b95d3ed97b89fe911de653637795a1df3eb71822ea24ba88fae",
+    "size_bytes": 1203
+  },
+  {
+    "path": "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
+    "sha256": "2954652fd050b53176ecc36069dd951d551c43de437e22b7a462b3f5992c46f9",
+    "size_bytes": 1842
+  },
+  {
+    "path": "phase2/checkpoints/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_CHECKPOINT_V1.json",
+    "sha256": "76d274dba0aeeb375778d3688a30fe7cf8cdaa43cd44375a71e624c62f30772e",
+    "size_bytes": 2756
+  },
+  {
+    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_V1.json",
+    "sha256": "d5dabb9fbbe49f04a1f5a3c87672603557ec005c8c456679ef2ccc809b5393e8",
+    "size_bytes": 2161
+  },
+  {
+    "path": "phase2/checkpoints/P2_WISDOM_SOURCE_INGESTION_CHECKPOINT_V1.json",
+    "sha256": "09de770d4e39d1637acf39404165e7217903834a676c7ec4979f3de9619e5182",
+    "size_bytes": 1358
+  },
+  {
+    "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTENT_SYNTHESIS_001.json",
+    "sha256": "7408c87a9f4fc9e2b6a37c3e1df5517ab853474ceaab40018cc467564e9da4e5",
+    "size_bytes": 2448
+  },
+  {
+    "path": "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
+    "sha256": "d12939de65380967bd4223c81f31a02011dc988bb5ec96604e671c790a87eda7",
+    "size_bytes": 1440
+  },
+  {
+    "path": "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
+    "sha256": "389fc70f85d94a7715b3649c9fac3ff20a74c11f0df2f3b78dbcc6631d8e2b49",
+    "size_bytes": 1766
+  },
+  {
+    "path": "phase2/checkpoints/P2_BEHAVIORAL_RFR_CHECKPOINT_V1.json",
+    "sha256": "5805ed1edc08c4302a8c76ee853a165f3c4fc6010c25290daa5e8a32c6ae7a6c",
+    "size_bytes": 1914
+  },
+  {
+    "path": "phase2/checkpoints/P2_HUMAN_WISDOM_NO_AI_CHECKPOINT_001.json",
+    "sha256": "5a59638137049234478cfba268409b9040743e675f6dfd6c46433c68b22d3b6a",
+    "size_bytes": 1467
+  },
+  {
+    "path": "phase2/checkpoints/P2_ACTOR_VIEW_LEAKAGE_CHECKPOINT_001.json",
+    "sha256": "1dcb40aa7b9331d30c94c06f4c89880dfd72b3b9d783269243aaf1cf1cf03712",
+    "size_bytes": 1239
+  },
+  {
+    "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_PATTERN_WIRING_CHECKPOINT_V1.json",
+    "sha256": "4fb2eedb0737493914ed34cb9bb2a37a35db94f093485284bde59a481b8b7726",
+    "size_bytes": 2789
+  },
+  {
+    "path": "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+    "sha256": "80c869a2f2a046c4a50f98fabbd9220853f02d3f4a4ed68090d7087593148006",
+    "size_bytes": 2115
+  },
+  {
+    "path": "phase2/checkpoints/P2_KING_PROFILE_PARAMETER_DISCOVERY_001.json",
+    "sha256": "40289a729ae4de303a1663777bd704d39e6fe730c7ca8f397e5d69aa7da729fc",
+    "size_bytes": 1729
+  },
+  {
+    "path": "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+    "sha256": "20fdd2222db108069146479b881e5a08f6150da35f2146c72e3f486bf9484b02",
+    "size_bytes": 9638
   },
   {
     "path": "phase2/source_reviews/KING_PROFILE_PARAMETER_DISCOVERY_V1.json",
@@ -735,19 +825,9 @@
     "size_bytes": 4317
   },
   {
-    "path": "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
-    "sha256": "2d77725cac977eab28bf75a399359897b2eecac7d627f1e2d150d4f1240b7a20",
-    "size_bytes": 4296
-  },
-  {
-    "path": "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
-    "sha256": "1040ad5f5df0e7ded2516e17c2ae3aaeed207e375c9c213bc365c7fe7df86195",
-    "size_bytes": 5280
-  },
-  {
-    "path": "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
-    "sha256": "0e76e239c40d083b11c896890a66aa07a0a3056651de85f02cac22296822e5b6",
-    "size_bytes": 2142
+    "path": "phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json",
+    "sha256": "73963831e9e862ff42b386e5d7184a139bd17c91fdf502235c1c141d9cbfb0cc",
+    "size_bytes": 6058
   },
   {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
@@ -755,14 +835,24 @@
     "size_bytes": 5794
   },
   {
+    "path": "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+    "sha256": "0e76e239c40d083b11c896890a66aa07a0a3056651de85f02cac22296822e5b6",
+    "size_bytes": 2142
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
     "sha256": "0aeac6a6650807b20e76fe4123093a97432ee83354df8d019b358d2d217ef003",
     "size_bytes": 6618
   },
   {
-    "path": "phase2/wisdom/BG_2_47_2_50_SOURCE_CLAIMS_V1.json",
-    "sha256": "e42e596195acd9101f5e24ba9582ba66a62dd04b5d224a108b14966543f77c77",
-    "size_bytes": 4513
+    "path": "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+    "sha256": "1040ad5f5df0e7ded2516e17c2ae3aaeed207e375c9c213bc365c7fe7df86195",
+    "size_bytes": 5280
+  },
+  {
+    "path": "phase2/wisdom/P2_WISDOM_SOURCE_INGESTION_TRIGGER_V1.json",
+    "sha256": "c30625512ad22c767d0b1b4ca11994bc12205ce7b1508c8096d755376a60b49f",
+    "size_bytes": 437
   },
   {
     "path": "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
@@ -780,344 +870,29 @@
     "size_bytes": 10272
   },
   {
-    "path": "phase2/wisdom/P2_WISDOM_SOURCE_INGESTION_TRIGGER_V1.json",
-    "sha256": "c30625512ad22c767d0b1b4ca11994bc12205ce7b1508c8096d755376a60b49f",
-    "size_bytes": 437
-  },
-  {
     "path": "phase2/wisdom/BG_2_47_2_50_INTERPRETATIONS_V1.json",
     "sha256": "addf8d3a377098b905d02d9d2f099196bca00a71e4e597f333f5711b66616ccf",
     "size_bytes": 4331
   },
   {
-    "path": "phase2/tests/P2_HUMAN_2560_CUSTODY_PROBE_TRIGGER_V1.json",
-    "sha256": "5a5e5f20820056b924d84f69fd25a95203efa2c5e94d3247d82f8dac0fe25722",
-    "size_bytes": 568
+    "path": "phase2/wisdom/BG_2_47_2_50_SOURCE_CLAIMS_V1.json",
+    "sha256": "e42e596195acd9101f5e24ba9582ba66a62dd04b5d224a108b14966543f77c77",
+    "size_bytes": 4513
   },
   {
-    "path": "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
-    "sha256": "56bb4e1d22e205c2737e4f5bff90500ea8688a440849d6015139defce30cac9f",
-    "size_bytes": 5422
-  },
-  {
-    "path": "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
-    "sha256": "06ea3e107f815988e6b2873d972aa2cfa0596b370284be8568fc60796c2ab12b",
-    "size_bytes": 3206
-  },
-  {
-    "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
-    "sha256": "ddc1e2be036681c3c0c089674910daede8dfa4640906acd7a024455e6034dc01",
-    "size_bytes": 3410
-  },
-  {
-    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json",
-    "sha256": "36279dc8709ed92fd300dc2928200462b08bf72bfd48cb1d0445a117842a3c9d",
-    "size_bytes": 707
-  },
-  {
-    "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
-    "sha256": "9ecaafc0eb3ed985af62c92b7284e1696f0bc8dee570ff7e8f2c47c6602093eb",
-    "size_bytes": 945
-  },
-  {
-    "path": "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
-    "sha256": "3378027cb7d1b3ab9494f48193ca22e0b625e0bb64e3643038cd3e9c64a95659",
-    "size_bytes": 11060
-  },
-  {
-    "path": "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
-    "sha256": "5d7898693b2ef58a4a3e8bee0fca6a22aedb51e0e5d2b1388c7753c6a845c168",
-    "size_bytes": 396
-  },
-  {
-    "path": "phase2/tests/P2_AI_ASI_RUNTIME_VIEWS_ORPHAN_OVERLAP_TRIGGER_V1.json",
-    "sha256": "2d98037027aa67fb3328b72ca7fa9308c8ab27b9fa874117540b7d6d95dadb73",
-    "size_bytes": 774
-  },
-  {
-    "path": "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
-    "sha256": "b0296b1a46459731e6c4428b0cf2fa8f17f64a9a215172b4809ffb9385d00fe8",
-    "size_bytes": 2986
-  },
-  {
-    "path": "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
-    "sha256": "dc74ad266c95324ba84a810604ba8384d45469cd38abca7f823057aace312ecb",
-    "size_bytes": 2627
-  },
-  {
-    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
-    "sha256": "38c402486294fc74c7d745331b45f0b8b9be559323f1fa55605dd2444b1d59da",
-    "size_bytes": 5172
-  },
-  {
-    "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
-    "sha256": "0134c9f5e927e3cfc696cf1acf668a51c82ed3a6209e34ad26192343f861e509",
-    "size_bytes": 4505
-  },
-  {
-    "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
-    "sha256": "559fb00e133aa1967e359f72d01e5f7a188278aac1ea8d3ed79770c8588a81c0",
-    "size_bytes": 3380
-  },
-  {
-    "path": "phase2/tests/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_TRIGGER_V1.json",
-    "sha256": "1977de19db4ed66a0209a44b7d1aa7a51a8213f6d073d2873081fa1b6541f272",
-    "size_bytes": 855
-  },
-  {
-    "path": "phase2/rfr/P2_CLOSURE_SCOPE_INHERITANCE_RFR_001.md",
-    "sha256": "f0c43507d1e4c85828c8e8a75b465ccf124e13bd85e6bbd267180bad156268e1",
-    "size_bytes": 730
-  },
-  {
-    "path": "phase2/rfr/P2_WISDOM_BATCH_001_RFR.md",
-    "sha256": "e6509a915f90822755250f531976077de67e295c7f9abe9452e3ebac8349f72a",
-    "size_bytes": 1046
-  },
-  {
-    "path": "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
-    "sha256": "8970b63c8c38d36de9f8d4ae09cf89cc36e6b0a6ce1e366cd45533ff990c78f7",
-    "size_bytes": 1259
-  },
-  {
-    "path": "phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md",
-    "sha256": "3c4b1e05154fceeb2827f8e8fe482519aa599c6dc12debbc292673fd3c8baa61",
-    "size_bytes": 990
-  },
-  {
-    "path": "phase2/rfr/P2_HUMAN_WISDOM_NO_AI_RFR_001.md",
-    "sha256": "3d21ff81f982477a7875a3c7a9e1ec9cf0ce19d80fa96f15fe43282e82c46326",
-    "size_bytes": 756
-  },
-  {
-    "path": "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
-    "sha256": "6e51a3212086378a4ac4a13af7f24f026461329170f0582efc44d56fb7277847",
-    "size_bytes": 1889
-  },
-  {
-    "path": "phase2/rfr/P2_ACTOR_VIEW_LEAKAGE_RFR_001.md",
-    "sha256": "e90b736de0639eaa1d028215ef35baab6417fd648ee0c8b7451daa2d73cc1589",
-    "size_bytes": 677
-  },
-  {
-    "path": "phase2/rfr/P2_EXPANSION_P2561_P2592_DOMAIN_RFR_001.md",
-    "sha256": "8d2e9a59629bf711013ca019ea2e3746f9a3638eeb1a24d1ff1905cdf9c810e6",
-    "size_bytes": 697
-  },
-  {
-    "path": "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md",
-    "sha256": "a181725d9686765e5b99d353e22fc2c78cda7e4f364402967c89ba07d4f6e803",
-    "size_bytes": 6359
-  },
-  {
-    "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
-    "sha256": "8b6b118421693a51eed42d9ef92fc05525877c159d4e475ba26c5f98ee1a7e15",
-    "size_bytes": 4648
-  },
-  {
-    "path": "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
-    "sha256": "20fdd2222db108069146479b881e5a08f6150da35f2146c72e3f486bf9484b02",
-    "size_bytes": 9638
-  },
-  {
-    "path": "phase2/closures/P2_AI_ASI_NATIVE_RUNTIME_VIEWS_CLOSURE_V2.json",
-    "sha256": "fa6160ab62408c6a29a602edb92ee9b03e5e25a321f44882a542af3752c88d89",
-    "size_bytes": 2494
-  },
-  {
-    "path": "phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json",
-    "sha256": "5297832ab385889e4291b206c89ed34adaea44505c12b1854e93faf60da8f8c5",
-    "size_bytes": 1458
-  },
-  {
-    "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
-    "sha256": "c5c9e2f609ea454461fefabea0dcacde9d790a3756b5fb2c3475c1d43ba9e0bb",
-    "size_bytes": 3629
-  },
-  {
-    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_001.json",
-    "sha256": "21ae815e4e3295cedbf841aeee2898e5d3252fa47c8dd94d25e8646d68b2404f",
-    "size_bytes": 1312
-  },
-  {
-    "path": "phase2/checkpoints/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_CHECKPOINT_V1.json",
-    "sha256": "76d274dba0aeeb375778d3688a30fe7cf8cdaa43cd44375a71e624c62f30772e",
-    "size_bytes": 2756
-  },
-  {
-    "path": "phase2/checkpoints/P2_HUMAN_WISDOM_NO_AI_CHECKPOINT_001.json",
-    "sha256": "5a59638137049234478cfba268409b9040743e675f6dfd6c46433c68b22d3b6a",
-    "size_bytes": 1467
-  },
-  {
-    "path": "phase2/checkpoints/P2_KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_001.json",
-    "sha256": "45207e7b32eb7f30a8b9b813ec0621c39ce2a1a3561bc90d11b7078cca6ab317",
-    "size_bytes": 1456
-  },
-  {
-    "path": "phase2/checkpoints/P2_ACTOR_VIEW_LEAKAGE_CHECKPOINT_001.json",
-    "sha256": "1dcb40aa7b9331d30c94c06f4c89880dfd72b3b9d783269243aaf1cf1cf03712",
-    "size_bytes": 1239
-  },
-  {
-    "path": "phase2/checkpoints/P2_KING_PROFILE_PARAMETER_DISCOVERY_001.json",
-    "sha256": "40289a729ae4de303a1663777bd704d39e6fe730c7ca8f397e5d69aa7da729fc",
-    "size_bytes": 1729
-  },
-  {
-    "path": "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
-    "sha256": "d12939de65380967bd4223c81f31a02011dc988bb5ec96604e671c790a87eda7",
-    "size_bytes": 1440
-  },
-  {
-    "path": "phase2/checkpoints/P2_SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
-    "sha256": "6d269321d7407a2c0659e0f262576aaddb78afc4308808326b691b8b434e17cd",
-    "size_bytes": 1846
-  },
-  {
-    "path": "phase2/checkpoints/P2_WISDOM_BATCH_001_CHECKPOINT.json",
-    "sha256": "925ee6a79f8d6b14837b1a6269075a313d37884ff72565599d2d626a244b35d9",
-    "size_bytes": 1634
-  },
-  {
-    "path": "phase2/checkpoints/P2_BEHAVIORAL_RFR_CHECKPOINT_V1.json",
-    "sha256": "5805ed1edc08c4302a8c76ee853a165f3c4fc6010c25290daa5e8a32c6ae7a6c",
-    "size_bytes": 1914
-  },
-  {
-    "path": "phase2/checkpoints/P2_CLOSURE_SCOPE_INHERITANCE_CHECKPOINT_001.json",
-    "sha256": "8a8d3506fdb23b95d3ed97b89fe911de653637795a1df3eb71822ea24ba88fae",
-    "size_bytes": 1203
-  },
-  {
-    "path": "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
-    "sha256": "80c869a2f2a046c4a50f98fabbd9220853f02d3f4a4ed68090d7087593148006",
-    "size_bytes": 2115
-  },
-  {
-    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_V1.json",
-    "sha256": "d5dabb9fbbe49f04a1f5a3c87672603557ec005c8c456679ef2ccc809b5393e8",
-    "size_bytes": 2161
-  },
-  {
-    "path": "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
-    "sha256": "107cc42396946c941425498853d4fa87706a93718679a219bf7cf18ecf0f7177",
-    "size_bytes": 3488
-  },
-  {
-    "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_CHECKPOINT_V1.json",
-    "sha256": "bec2f0b089c2b90c1610c441c31618099522b4c8f29e8bfd95d68ae29c4aa764",
-    "size_bytes": 2315
-  },
-  {
-    "path": "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
-    "sha256": "2954652fd050b53176ecc36069dd951d551c43de437e22b7a462b3f5992c46f9",
-    "size_bytes": 1842
-  },
-  {
-    "path": "phase2/checkpoints/P2_WISDOM_SOURCE_INGESTION_CHECKPOINT_V1.json",
-    "sha256": "09de770d4e39d1637acf39404165e7217903834a676c7ec4979f3de9619e5182",
-    "size_bytes": 1358
-  },
-  {
-    "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_PATTERN_WIRING_CHECKPOINT_V1.json",
-    "sha256": "4fb2eedb0737493914ed34cb9bb2a37a35db94f093485284bde59a481b8b7726",
-    "size_bytes": 2789
-  },
-  {
-    "path": "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
-    "sha256": "b69cd6237b575dae372f1523a862347819e3686e399bd841e54aeb86757d4c75",
-    "size_bytes": 2040
-  },
-  {
-    "path": "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
-    "sha256": "389fc70f85d94a7715b3649c9fac3ff20a74c11f0df2f3b78dbcc6631d8e2b49",
-    "size_bytes": 1766
-  },
-  {
-    "path": ".github/workflows/relink-validate.yml",
-    "sha256": "844588e023494c0f1f7a94ca8a29437486f2f8befa075ad4272244f7f3af953d",
-    "size_bytes": 6184
-  },
-  {
-    "path": ".github/workflows/repair-human-custody.yml",
-    "sha256": "fd9b13115ed65806780adcc3de4569de1f1cd56c76fb0a2897c39d2289e5b704",
-    "size_bytes": 2790
-  },
-  {
-    "path": ".github/workflows/human-source-inspection.yml",
-    "sha256": "c2b7fe1bf926d8d51af6d66127e03cb9ec30513edbc019c87bf099d245d8bcf8",
-    "size_bytes": 2455
-  },
-  {
-    "path": ".github/workflows/release-assets-inventory.yml",
-    "sha256": "4c888d6b25edb306d66a164b6a45dda6befa07f8f88fba1ae40c74b32a07d019",
-    "size_bytes": 5097
-  },
-  {
-    "path": ".github/workflows/operational-ownership-rfr.yml",
-    "sha256": "859592524a458c5ad1324ea895c52613cccf7281a540720f1d0435afb5f5fa93",
-    "size_bytes": 1833
-  },
-  {
-    "path": ".github/workflows/king-character-workbook-review-rfr.yml",
-    "sha256": "5ec06177459c72fb019eaa1b8bf84434c5bc0be08e99bfea458fc06e5ed0af9c",
-    "size_bytes": 781
-  },
-  {
-    "path": ".github/workflows/wisdom-ingestion-rfr.yml",
-    "sha256": "454c34c2b93adcdb98f98968419e456951208cb4580d9ca8ab56b2196dd893d7",
-    "size_bytes": 1237
-  },
-  {
-    "path": ".github/workflows/multi-rubric-integration-rfr.yml",
-    "sha256": "2c667418cf514b9f7bf8c8cfd12e25aa61364ffda7c0c0f8f832512ef1649595",
-    "size_bytes": 1637
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
-    "sha256": "58d1ad3b708032a0835aa87b4dd76efdf4f368d4723c79e3a71740f88538d406",
-    "size_bytes": 1003
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.txt.alias.json",
-    "sha256": "bd8f3d629d7cee36822b19572236f30524c0ba91f42a028c508d6ba065c4491a",
-    "size_bytes": 550
-  },
-  {
-    "path": "raw/visuals/BINARY_ARTIFACT_MANIFEST.json",
-    "sha256": "9d50090b0d0830dddef5f3679d5b37fc0f320c859f1c9efc1ba050f4b1e09991",
-    "size_bytes": 4515
-  },
-  {
-    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json",
-    "sha256": "4fbe08106b2b75397872f8c801470a53e38e2577efaa5813f383575978545bed",
-    "size_bytes": 449
-  },
-  {
-    "path": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-    "sha256": "1937113f5258c76b479a530baa0600e45f58da15770257f2515add7facf574d9",
-    "size_bytes": 11384
-  },
-  {
-    "path": "raw/wisdom/BHAGAVAD_GITA_2_47_2_50_SOURCE_V1.json",
-    "sha256": "e558d79abead48318f996cf98a872d1f2c69218479bdaa54feb027d63e4d3959",
-    "size_bytes": 3251
-  },
-  {
-    "path": "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json",
-    "sha256": "2e455a8f1df17aa11bdb40ff4ca825afdf5be5f620f239ae82418dd693a22858",
-    "size_bytes": 2463
-  },
-  {
-    "path": "raw/session/SESSION_SOURCE_MANIFEST.json",
-    "sha256": "efad6524cc9334a88f6e3bc000b5bf33a49f98d99fc65f18ea81c2c25cf32697",
-    "size_bytes": 2349
+    "path": "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+    "sha256": "2d77725cac977eab28bf75a399359897b2eecac7d627f1e2d150d4f1240b7a20",
+    "size_bytes": 4296
   },
   {
     "path": "raw/sequence/UNIVERSAL_SEQUENCE_FINAL.md",
     "sha256": "dd9c175f6aada74bc374877a94febfbef3fe9a8598d2b16f63f6a9bf99682053",
     "size_bytes": 18623
+  },
+  {
+    "path": "raw/sequence/Pasted_text_original.manifest.json",
+    "sha256": "1d8808326ec42a733aede377323d88fd29a98201c961cb16d51360532f13fd8c",
+    "size_bytes": 599
   },
   {
     "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
@@ -1130,9 +905,49 @@
     "size_bytes": 1240
   },
   {
-    "path": "raw/sequence/Pasted_text_original.manifest.json",
-    "sha256": "1d8808326ec42a733aede377323d88fd29a98201c961cb16d51360532f13fd8c",
-    "size_bytes": 599
+    "path": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+    "sha256": "1937113f5258c76b479a530baa0600e45f58da15770257f2515add7facf574d9",
+    "size_bytes": 11384
+  },
+  {
+    "path": "raw/session/SESSION_SOURCE_MANIFEST.json",
+    "sha256": "efad6524cc9334a88f6e3bc000b5bf33a49f98d99fc65f18ea81c2c25cf32697",
+    "size_bytes": 2349
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.txt.alias.json",
+    "sha256": "bd8f3d629d7cee36822b19572236f30524c0ba91f42a028c508d6ba065c4491a",
+    "size_bytes": 550
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
+    "sha256": "58d1ad3b708032a0835aa87b4dd76efdf4f368d4723c79e3a71740f88538d406",
+    "size_bytes": 1003
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json",
+    "sha256": "4fbe08106b2b75397872f8c801470a53e38e2577efaa5813f383575978545bed",
+    "size_bytes": 449
+  },
+  {
+    "path": "raw/visuals/BINARY_ARTIFACT_MANIFEST.json",
+    "sha256": "9d50090b0d0830dddef5f3679d5b37fc0f320c859f1c9efc1ba050f4b1e09991",
+    "size_bytes": 4515
+  },
+  {
+    "path": "raw/wisdom/BHAGAVAD_GITA_2_47_2_50_SOURCE_V1.json",
+    "sha256": "e558d79abead48318f996cf98a872d1f2c69218479bdaa54feb027d63e4d3959",
+    "size_bytes": 3251
+  },
+  {
+    "path": "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json",
+    "sha256": "2e455a8f1df17aa11bdb40ff4ca825afdf5be5f620f239ae82418dd693a22858",
+    "size_bytes": 2463
+  },
+  {
+    "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
+    "sha256": "6b292eec765c3ee9a41b166d554eb848cf39dd4262e0c29f8a68ded6d342c098",
+    "size_bytes": 914
   },
   {
     "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
@@ -1145,99 +960,14 @@
     "size_bytes": 783
   },
   {
-    "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
-    "sha256": "6b292eec765c3ee9a41b166d554eb848cf39dd4262e0c29f8a68ded6d342c098",
-    "size_bytes": 914
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
+    "sha256": "78f201e5c00eeef6c1a486920db58e4a8169b31fee6ea97a40b91ed8a749cdba",
+    "size_bytes": 16287
   },
   {
-    "path": "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
-    "sha256": "4d2bf79677dfcb0d2a2d71d47081f994164d98d64e47888db0c78b50ae54ff86",
-    "size_bytes": 1163378
-  },
-  {
-    "path": "raw/release-assets/backend-docs/CONTENT_INDEX.json",
-    "sha256": "035b403160f7faa97adf4e6c5b25deb3890a474b55d17aa753d532e2898bd2f5",
-    "size_bytes": 1194077
-  },
-  {
-    "path": "raw/release-assets/backend-docs/MANIFEST.json",
-    "sha256": "6f5053e124ae7837ed566b7b523174febaa9b82e3ff1bbcc700b6608f0e155ec",
-    "size_bytes": 368009
-  },
-  {
-    "path": "raw/release-assets/backend-docs/MERGE_PLAN.json",
-    "sha256": "b1996d71e8c35fbcfe7f1eea6ba5321fb32412e7978d26806cd95e3b558e7e99",
-    "size_bytes": 284741
-  },
-  {
-    "path": "raw/release-assets/backend-docs/README.md",
-    "sha256": "ae73300b05c1d2028c21a3b6f793b4fcd8341819f25511bf736e769d67a1b691",
-    "size_bytes": 2866
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-01.md",
-    "sha256": "6b073af6ee5e89f80205fb3fe1ce177019367edf7e7fa763080db2c8661527a6",
-    "size_bytes": 7665
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-07.md",
-    "sha256": "6720ef98ed1f7c4531d49f0f9d90ff3c6886cbf437031c8280ebfb09f7719d3e",
-    "size_bytes": 1922
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-05.md",
-    "sha256": "49ec1fb83be76830b7edcfb104c9c98111a34426b73265dc53b67fb61736a262",
-    "size_bytes": 8620
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-06.md",
-    "sha256": "934af44862f932c5745c791a2b98caa83712daa09cdc7543e8d1d0148b7d96e9",
-    "size_bytes": 8876
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
-    "sha256": "641e06949741df0648fadadb30c4e4a6daee713463ce52b7ecaf48e62246daa4",
-    "size_bytes": 7859
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
-    "sha256": "18dd2b2f13d00cc1365feda67a1848568920549e8910c140114d18d309ad6ee0",
-    "size_bytes": 9850
-  },
-  {
-    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md",
-    "sha256": "26eb2a948ad02e72554c75838b9df4e15f5c62fb3bea1cd659b33927407f04c4",
-    "size_bytes": 6642
-  },
-  {
-    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-01.svg",
-    "sha256": "08ede7e257b3fd01439480ef47a2017ba67f4bc118cff11180309fd97f89edc1",
-    "size_bytes": 12043
-  },
-  {
-    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-02.svg",
-    "sha256": "3e25eb606ed3e27423a9751919a3b28b584485b0a892464201890bf2cf5165e0",
-    "size_bytes": 11704
-  },
-  {
-    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-03.svg",
-    "sha256": "fb798734088bac54f466c7fea0f46ce5b3bfd918a7f2ff8dc60a34abdcfdddc2",
-    "size_bytes": 12049
-  },
-  {
-    "path": "raw/sequence/Pasted_text_original.parts/part-01.txt",
-    "sha256": "3a2e2dde464a5db2fc9cbde5b9e59311ebcf07668b66ade21733c71f836411fc",
-    "size_bytes": 16703
-  },
-  {
-    "path": "raw/sequence/Pasted_text_original.parts/part-03.txt",
-    "sha256": "f8b396fd5cc9b711c5bcb5f034c060a95910481cebd049c288d873041d071c9c",
-    "size_bytes": 152
-  },
-  {
-    "path": "raw/sequence/Pasted_text_original.parts/part-02.txt",
-    "sha256": "4e1175a33a57c5cddbd830b9d4fb54c28f31b1f640fddd2b73663cf183b6266e",
-    "size_bytes": 18276
+    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-03.md",
+    "sha256": "312f22146c7b5331166cd80bad15bb1c93eec3f1a64c5d431487ccabf197b2d1",
+    "size_bytes": 17457
   },
   {
     "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-01.md",
@@ -1250,14 +980,94 @@
     "size_bytes": 12918
   },
   {
-    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-03.md",
-    "sha256": "312f22146c7b5331166cd80bad15bb1c93eec3f1a64c5d431487ccabf197b2d1",
-    "size_bytes": 17457
+    "path": "raw/sequence/Pasted_text_original.parts/part-03.txt",
+    "sha256": "f8b396fd5cc9b711c5bcb5f034c060a95910481cebd049c288d873041d071c9c",
+    "size_bytes": 152
   },
   {
-    "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
-    "sha256": "78f201e5c00eeef6c1a486920db58e4a8169b31fee6ea97a40b91ed8a749cdba",
-    "size_bytes": 16287
+    "path": "raw/sequence/Pasted_text_original.parts/part-02.txt",
+    "sha256": "4e1175a33a57c5cddbd830b9d4fb54c28f31b1f640fddd2b73663cf183b6266e",
+    "size_bytes": 18276
+  },
+  {
+    "path": "raw/sequence/Pasted_text_original.parts/part-01.txt",
+    "sha256": "3a2e2dde464a5db2fc9cbde5b9e59311ebcf07668b66ade21733c71f836411fc",
+    "size_bytes": 16703
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-05.md",
+    "sha256": "49ec1fb83be76830b7edcfb104c9c98111a34426b73265dc53b67fb61736a262",
+    "size_bytes": 8620
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-06.md",
+    "sha256": "934af44862f932c5745c791a2b98caa83712daa09cdc7543e8d1d0148b7d96e9",
+    "size_bytes": 8876
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md",
+    "sha256": "26eb2a948ad02e72554c75838b9df4e15f5c62fb3bea1cd659b33927407f04c4",
+    "size_bytes": 6642
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+    "sha256": "18dd2b2f13d00cc1365feda67a1848568920549e8910c140114d18d309ad6ee0",
+    "size_bytes": 9850
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-07.md",
+    "sha256": "6720ef98ed1f7c4531d49f0f9d90ff3c6886cbf437031c8280ebfb09f7719d3e",
+    "size_bytes": 1922
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-01.md",
+    "sha256": "6b073af6ee5e89f80205fb3fe1ce177019367edf7e7fa763080db2c8661527a6",
+    "size_bytes": 7665
+  },
+  {
+    "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+    "sha256": "641e06949741df0648fadadb30c4e4a6daee713463ce52b7ecaf48e62246daa4",
+    "size_bytes": 7859
+  },
+  {
+    "path": "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+    "sha256": "4d2bf79677dfcb0d2a2d71d47081f994164d98d64e47888db0c78b50ae54ff86",
+    "size_bytes": 1163378
+  },
+  {
+    "path": "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+    "sha256": "035b403160f7faa97adf4e6c5b25deb3890a474b55d17aa753d532e2898bd2f5",
+    "size_bytes": 1194077
+  },
+  {
+    "path": "raw/release-assets/backend-docs/MERGE_PLAN.json",
+    "sha256": "b1996d71e8c35fbcfe7f1eea6ba5321fb32412e7978d26806cd95e3b558e7e99",
+    "size_bytes": 284741
+  },
+  {
+    "path": "raw/release-assets/backend-docs/README.md",
+    "sha256": "ae73300b05c1d2028c21a3b6f793b4fcd8341819f25511bf736e769d67a1b691",
+    "size_bytes": 2866
+  },
+  {
+    "path": "raw/release-assets/backend-docs/MANIFEST.json",
+    "sha256": "6f5053e124ae7837ed566b7b523174febaa9b82e3ff1bbcc700b6608f0e155ec",
+    "size_bytes": 368009
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-01.svg",
+    "sha256": "08ede7e257b3fd01439480ef47a2017ba67f4bc118cff11180309fd97f89edc1",
+    "size_bytes": 12043
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-03.svg",
+    "sha256": "fb798734088bac54f466c7fea0f46ce5b3bfd918a7f2ff8dc60a34abdcfdddc2",
+    "size_bytes": 12049
+  },
+  {
+    "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-02.svg",
+    "sha256": "3e25eb606ed3e27423a9751919a3b28b584485b0a892464201890bf2cf5165e0",
+    "size_bytes": 11704
   },
   {
     "path": "raw/human/hfr_v1_3204/part-01.tsv.gz.b64",
@@ -1270,18 +1080,18 @@
     "size_bytes": 8596
   },
   {
-    "path": "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
-    "sha256": "41ffe00cb7f74a05f0420f229c0dc26a1cc0c701a8123d84aef515d81ec75dc1",
-    "size_bytes": 8596
-  },
-  {
     "path": "raw/human/hfr_v1_3204/part-03.tsv.gz.b64",
     "sha256": "31bab99d3e2b42c5102d6550327a693ac4edd66521a6a584637bdd3c6bb7bf52",
     "size_bytes": 8596
   },
   {
-    "path": "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
-    "sha256": "4f70c2f0b54f03f88f292bb3ef2d7bdd655841ab336a00a26d7e00a500b59ce3",
+    "path": "raw/human/hfr_v1_3204/part-08.tsv.gz.b64",
+    "sha256": "6c3bfec6917a88c66109d976d7052eb065c43cd77addeb4d64ddc9cceacb4c25",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
+    "sha256": "41ffe00cb7f74a05f0420f229c0dc26a1cc0c701a8123d84aef515d81ec75dc1",
     "size_bytes": 8596
   },
   {
@@ -1290,24 +1100,19 @@
     "size_bytes": 19999
   },
   {
-    "path": "raw/human/hfr_v1_3204/part-08.tsv.gz.b64",
-    "sha256": "6c3bfec6917a88c66109d976d7052eb065c43cd77addeb4d64ddc9cceacb4c25",
+    "path": "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
+    "sha256": "f48c5071414eb4cfa0e3c5179e1a22df41ed93e80793bf3f8ba3abb2f9816e2e",
     "size_bytes": 8596
   },
   {
-    "path": "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
-    "sha256": "f48c5071414eb4cfa0e3c5179e1a22df41ed93e80793bf3f8ba3abb2f9816e2e",
+    "path": "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
+    "sha256": "4f70c2f0b54f03f88f292bb3ef2d7bdd655841ab336a00a26d7e00a500b59ce3",
     "size_bytes": 8596
   },
   {
     "path": "raw/human/hfr_v1_3204/part-06.tsv.gz.b64",
     "sha256": "319abd80e04cc7e1045e2622eb34327510d2c271599655ed05235e71ad09fb8a",
     "size_bytes": 8596
-  },
-  {
-    "path": "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
-    "sha256": "853c52441f6633d2bf44dfddc2390f46fdf911b75a5193da26dbf404b570dc97",
-    "size_bytes": 5125
   },
   {
     "path": "raw/human/task3_human_native_parts/part-01.tsv.gz.b64",
@@ -1320,9 +1125,9 @@
     "size_bytes": 16761
   },
   {
-    "path": "raw/human/task3_human_native_parts/part-04.tsv.gz.b64",
-    "sha256": "7dff1f0549ba2a4a6cee935dc84a476981cb406c8b3f09236c702fc3c3f3a97e",
-    "size_bytes": 15745
+    "path": "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+    "sha256": "853c52441f6633d2bf44dfddc2390f46fdf911b75a5193da26dbf404b570dc97",
+    "size_bytes": 5125
   },
   {
     "path": "raw/human/task3_human_native_parts/part-03.tsv.gz.b64",
@@ -1330,14 +1135,14 @@
     "size_bytes": 16237
   },
   {
-    "path": "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
-    "sha256": "b160648a7790ec0f41a86ee2d68c57cbbdb0ac8c0fe00aa798eb9d630e5cbc4a",
-    "size_bytes": 16553
-  },
-  {
     "path": "raw/human/task3_human_native_parts/part-08.tsv.gz.b64",
     "sha256": "db388187c02d71bc449ab0d7b95dc531e85f311756093ed6a5550d8e51aa85ec",
     "size_bytes": 16889
+  },
+  {
+    "path": "raw/human/task3_human_native_parts/part-04.tsv.gz.b64",
+    "sha256": "7dff1f0549ba2a4a6cee935dc84a476981cb406c8b3f09236c702fc3c3f3a97e",
+    "size_bytes": 15745
   },
   {
     "path": "raw/human/task3_human_native_parts/part-07.tsv.gz.b64",
@@ -1345,8 +1150,208 @@
     "size_bytes": 15809
   },
   {
+    "path": "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
+    "sha256": "b160648a7790ec0f41a86ee2d68c57cbbdb0ac8c0fe00aa798eb9d630e5cbc4a",
+    "size_bytes": 16553
+  },
+  {
     "path": "raw/human/task3_human_native_parts/part-06.tsv.gz.b64",
     "sha256": "8d6acfbf6923923eb3360e30844b9eccf0cb75e847cd7b4810ea7a68d2fa1ec3",
     "size_bytes": 15829
+  },
+  {
+    "path": "registries/holy_books/NARRATIVE_SOURCE_ADAPTER_SCHEMA.json",
+    "sha256": "62b853b7837fc2f870617cb01af0e129dc039551e57887839b7f7607fa6845aa",
+    "size_bytes": 2792
+  },
+  {
+    "path": "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+    "sha256": "c18c5e937a4a6dea05f7257b3199a09160d7fe5dc78341759464e55c9919a6cd",
+    "size_bytes": 6475
+  },
+  {
+    "path": "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json",
+    "sha256": "c96189db83498af6c17f3b333da4efb97f53a470df5daa5fae25e492a2506d35",
+    "size_bytes": 5074
+  },
+  {
+    "path": "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
+    "sha256": "c4fba4fcd74c9d8ec61cace12096c0692c8a34db0637d07b8d259d9797b1d38b",
+    "size_bytes": 3666
+  },
+  {
+    "path": "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json",
+    "sha256": "c256a96bd03176ae2e41b55ae958e76a34a0376f8b66af777d1c6441110b1012",
+    "size_bytes": 2280
+  },
+  {
+    "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
+    "sha256": "d3dd1b500129d9fbbc66b3acdf89400c2ab3a4b7f16de494908070d4c54c7dbf",
+    "size_bytes": 4466
+  },
+  {
+    "path": "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
+    "sha256": "8608cdf5e867724058666f62e5d1b7001e874036099ac60d6255b427bd9277c9",
+    "size_bytes": 3040
+  },
+  {
+    "path": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+    "sha256": "c94a0731e5ab4e64338a1364f49ef015ea79957d5fef551bd7de3fd142833cc4",
+    "size_bytes": 3261
+  },
+  {
+    "path": "registries/asi/asi_node_registry.json",
+    "sha256": "e692d235fe61323a59871854b31369b15f4227724b57f293ec829fdd29961313",
+    "size_bytes": 4589
+  },
+  {
+    "path": "registries/asi/node_brains_v0.json",
+    "sha256": "ac2f0200a0c98c4c5fc931cec928d6255fe61e41e8a3c4ad57aca7ab4bc89ef7",
+    "size_bytes": 15272
+  },
+  {
+    "path": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
+    "sha256": "d30fcc9b95833f9a59a1588a40f6be479a533e72cdcf789de82b4edb12bdf3cb",
+    "size_bytes": 5998
+  },
+  {
+    "path": "registries/asi/node_brain_template.json",
+    "sha256": "0d99a7e3b1e84b218525bd56ce20c3d5e603681e243c33575cc95bce8dc12992",
+    "size_bytes": 1038
+  },
+  {
+    "path": "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
+    "sha256": "6ee595aec87b578c7f306f64db788b54089218ea65895267c71ff4921c31375e",
+    "size_bytes": 8108
+  },
+  {
+    "path": "registries/asi/ASI_RUBRIC_V0.json",
+    "sha256": "7b54459a0d4d13789eb67cc1cd153d19a74343a299dffa43a20c0af9e08589cb",
+    "size_bytes": 4673
+  },
+  {
+    "path": "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+    "sha256": "7227d8282c5f6bea4b97ec49b278ac454adc043d2e03c350fd8cf4db988178f6",
+    "size_bytes": 7642
+  },
+  {
+    "path": "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+    "sha256": "98755caac1cb8d83538662fc5ad9f72fd9f8712b7a32ce2caa6b35223e840ae0",
+    "size_bytes": 13675
+  },
+  {
+    "path": "registries/ai/STATUS.json",
+    "sha256": "38aa4182eb09989ec3d276fa040eb5f1167a1758c99fe22497a4bbd3b9a3b638",
+    "size_bytes": 850
+  },
+  {
+    "path": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+    "sha256": "ae21ca9eb79cf07543491673eaca07648f5d8ace5ec86e37dc3243db9b2317b2",
+    "size_bytes": 9643
+  },
+  {
+    "path": "registries/ai/AI_RUBRIC_V0.json",
+    "sha256": "2da4542794dc4357de0cdbe4980b8bc20d1ca70e872adec6e4c849ded920ab2d",
+    "size_bytes": 5924
+  },
+  {
+    "path": "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
+    "sha256": "365d3db8b510d81a9c3d818cb1617648e2517b9fa42596c74a2a271db329aae5",
+    "size_bytes": 3751
+  },
+  {
+    "path": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+    "sha256": "36a6aa359cdd15bd07ef01d22759f501c698afe427a0d2d025706a128fe8520b",
+    "size_bytes": 6955
+  },
+  {
+    "path": "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+    "sha256": "b6e59da8645ff5ccbfb8e77bc986798dad5370ad0172dfe8996c3eaf7effa3d5",
+    "size_bytes": 6820
+  },
+  {
+    "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
+    "sha256": "9a3cb16ff648233ecff6d203d79f0a0ffbacceda222975490246e5542ed7561f",
+    "size_bytes": 1886
+  },
+  {
+    "path": "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
+    "sha256": "39c47cf64426aca24a496fec2ca84659aaf03c4550866405ce858b92096c637c",
+    "size_bytes": 3934
+  },
+  {
+    "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
+    "sha256": "a34286722e477e1f5a4411e16dc801af7c968f7c17bb8752fb1017ec417a8f7c",
+    "size_bytes": 3926
+  },
+  {
+    "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
+    "sha256": "efaf3bc1ac993e091f6ff2eba491a6ef8417a58a957b13da2c9a05f1d7509859",
+    "size_bytes": 1711
+  },
+  {
+    "path": "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+    "sha256": "13bbeab99f539ee69657b6a26e4bd44bbb672f4571f6cc47bb4622310ba1613c",
+    "size_bytes": 3415
+  },
+  {
+    "path": "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
+    "sha256": "ebfc39aa34b3007078e5f490d3786377d3d680d72692e67392e0a768aec3044d",
+    "size_bytes": 18230
+  },
+  {
+    "path": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+    "sha256": "38195d05259d51b2b13f11c68e144eb65aa8e7c1aeb5aa70d2ec9c9529c055f3",
+    "size_bytes": 5649
+  },
+  {
+    "path": "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+    "sha256": "50c57dfe75a6f3d7d8f68e1f87e22a515f11fe4e069239710685769db0bbec47",
+    "size_bytes": 6035
+  },
+  {
+    "path": "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+    "sha256": "b6bdb9157e3ba5ab0b5e6052bf4b1e921718070524bb891e4bd487e4b71bf872",
+    "size_bytes": 9216
+  },
+  {
+    "path": "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+    "sha256": "8a5c9aafd300f0cf8d53bc1073039b94be2a6646c2f94cb0faf37bb071dc3e77",
+    "size_bytes": 8188
+  },
+  {
+    "path": "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json",
+    "sha256": "e680ee1ce8549039d59dd9af263cd4e3e12531192e3952ac1fe97c62594c3ec5",
+    "size_bytes": 3865
+  },
+  {
+    "path": "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
+    "sha256": "19b304c76121603b046c9eff2f851f9f232e11836f9955aa96c8d23d818e10f2",
+    "size_bytes": 4143
+  },
+  {
+    "path": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+    "sha256": "b12a29c8dfd31e25da39565b50c465e6113323cc58bb6928c292caeff9c3e078",
+    "size_bytes": 7637
+  },
+  {
+    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-01.b64",
+    "sha256": "7705dd84ca11e61e2b8e545e8c089492ec2e59019f7b202962599f770d1264e3",
+    "size_bytes": 10000
+  },
+  {
+    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-03.b64",
+    "sha256": "73c56cb72c817d15f25fa2197e4472fb8951dd867c8b853af49cde66af4e5a06",
+    "size_bytes": 19051
+  },
+  {
+    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-04.b64",
+    "sha256": "d524e86eaa4bb57d2ba61cc3b9e876497855d9350b44e1bb91fc16e2565262be",
+    "size_bytes": 184638
+  },
+  {
+    "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-02.b64",
+    "sha256": "de1e94cdb862a208e1ff5b6751c7ae63b37686762da0acacf0204f31492e3924",
+    "size_bytes": 12000
   }
 ]
