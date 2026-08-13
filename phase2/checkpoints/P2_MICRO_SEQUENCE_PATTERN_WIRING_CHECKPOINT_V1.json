@@ -1,6 +1,6 @@
 {
   "checkpoint_id": "P2-MICRO-SEQUENCE-PATTERN-WIRING-CHECKPOINT-V1",
-  "status": "TESTING",
+  "status": "CLOSED_SUCCESS",
   "scope": "Sentence/event -> local Micro-Sequence -> ultra-micro decomposition -> Pyramid/rubric activation -> small-brain + Engine routing -> interpretation assembly -> prior Sequence comparison -> Pattern Contribution/Candidate -> Rubric Microscope user review -> versioned learning write-back -> future scoped reuse.",
   "outputs": [
     "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
@@ -12,7 +12,8 @@
     "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
     "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
     "tools/validate_micro_sequence_pattern_runtime_v1.py",
-    "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md"
+    "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
+    "generated/tests/P2_MICRO_SEQUENCE_PATTERN_RFR_V1.json"
   ],
   "required_invariants": [
     "every input utterance creates at least one local Micro-Sequence",
@@ -27,6 +28,23 @@
     "rubric changes enter formal adoption/version migration"
   ],
   "synthetic_test_fixture": "P2-MICRO-PATTERN-001",
-  "closure_condition": "Main CI passes the dedicated micro-sequence pattern R-F-R validator and all previously locked repository invariants in the same run.",
-  "phase2_closure": "NOT_REQUESTED"
+  "validation": {
+    "workflow_run_id": 31654968224,
+    "workflow_result": "SUCCESS",
+    "rfr_report": "generated/tests/P2_MICRO_SEQUENCE_PATTERN_RFR_V1.json",
+    "rfr_status": "PASS",
+    "runtime_stage_count": 13,
+    "engine_route_count": 12,
+    "schema_object_count": 9,
+    "pattern_namespace_count": 7,
+    "rubric_microscope_panel_count": 9,
+    "small_brain_overlay_count": 9,
+    "engine_ref_count": 32,
+    "asi_node_ref_count": 16,
+    "errors": 0,
+    "findings": 0
+  },
+  "closure_condition": "Satisfied: main CI passed the dedicated micro-sequence pattern R-F-R validator and all previously locked repository invariants in the same run.",
+  "phase2_closure": "NOT_REQUESTED",
+  "next_sequence": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001: implement the runtime producer that accepts real user text, emits SentenceIntakePacket/MicroUnit/RubricActivation/Interpretation/PatternContribution objects, and serves the Rubric Microscope contract."
 }
