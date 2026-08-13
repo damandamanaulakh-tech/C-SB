@@ -1,0 +1,60 @@
+{
+  "registry_id": "SEMANTIC-CLARIFICATION-CONTROL-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "purpose": "Store user-authorized contextual meaning corrections without mutating raw source, silently rewriting native vocabularies, or universalizing a local interpretation.",
+  "object_schema": "machine/schemas/semantic_clarification.schema.json#/$defs/SemanticClarificationPacket",
+  "scope_levels": [
+    "OCCURRENCE_ONLY",
+    "PERSONAL_SEMANTIC_MEMORY",
+    "RELATIONSHIP_OR_CONTEXT_SEMANTIC_MEMORY",
+    "DOMAIN_SEMANTIC_CANDIDATE",
+    "GENERAL_SEMANTIC_CANDIDATE"
+  ],
+  "stores": {
+    "OCCURRENCE_ONLY": "OCCURRENCE_MEMORY",
+    "PERSONAL_SEMANTIC_MEMORY": "USER_CONTEXT_LEXICON",
+    "RELATIONSHIP_OR_CONTEXT_SEMANTIC_MEMORY": "SCOPED_CONTEXT_LEXICON",
+    "DOMAIN_SEMANTIC_CANDIDATE": "DOMAIN_SEMANTIC_CANDIDATES",
+    "GENERAL_SEMANTIC_CANDIDATE": "GENERAL_SEMANTIC_CANDIDATES"
+  },
+  "writeback_flow": [
+    "machine produces one or more sense candidates",
+    "user accepts/edits contextual sense",
+    "SemanticClarificationPacket is created",
+    "prior source-analysis Sequence remains immutable",
+    "new write-back Sequence records accepted clarification and scope",
+    "affected relations/rubrics/interpretations are recomputed in a new analysis Sequence when needed",
+    "future input may retrieve scoped clarification when scope match passes",
+    "higher-scope promotion requires explicit review/adoption"
+  ],
+  "retrieval_priority": [
+    "exact occurrence clarification",
+    "relationship/context scoped clarification",
+    "personal semantic memory",
+    "domain candidate if approved for use",
+    "general language/default sense candidates"
+  ],
+  "conflict_rule": "If a retrieved semantic clarification conflicts with current source/context evidence, do not force it. Register contradiction/ambiguity, surface both senses, and request review or continue with UNKNOWN where necessary.",
+  "promotion_barriers": [
+    "OCCURRENCE_ONLY cannot auto-promote",
+    "PERSONAL/CONTEXT semantic memory cannot become a universal dictionary definition",
+    "DOMAIN/GENERAL candidates require R-F-R, counter-cases and explicit user/adoption approval",
+    "semantic clarification cannot directly authorize action",
+    "semantic clarification cannot silently change Human native parameter definitions"
+  ],
+  "runtime_owners": {
+    "source_span_and_identity": ["ASI-NODE-00", "ASI-NODE-02"],
+    "meaning_candidate_generation": ["ASI-NODE-20"],
+    "epistemic_and_provenance_check": ["ASI-NODE-07", "ASI-NODE-16"],
+    "user_review_writeback": ["ASI-NODE-12", "ASI-NODE-14"],
+    "cross-scope_promotion_governance": ["ASI-NODE-21"]
+  },
+  "engine_affinity": {
+    "source_lock": ["ENG-CORE-001"],
+    "definition_and_phrase_split": ["ENG-RD-001", "ENG-CORE-002"],
+    "context_relation_analysis": ["ENG-ARD-001"],
+    "prior_semantic_match": ["ENG-CORE-009", "ENG-PAT-001"],
+    "ambiguity_and_reverse_check": ["ENG-URR-002", "ENG-REV-001"],
+    "versioned_writeback": ["ENG-CORE-012", "ENG-EVO-001"]
+  }
+}
