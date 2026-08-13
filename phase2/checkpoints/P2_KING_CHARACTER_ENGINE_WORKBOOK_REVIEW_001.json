@@ -1,0 +1,37 @@
+{
+  "checkpoint_id": "P2-KING-CHARACTER-ENGINE-WORKBOOK-REVIEW-001",
+  "status": "SOURCE_REVIEW_COMPLETE_CANDIDATES_OPEN",
+  "source_sha256": "cb4f21211ec85762fe79e77f31637dbfaf27de3f178240a17b266f46d0ae43b5",
+  "scope": "Structural and R-F-R review of uploaded King Character / artifact reasoning workbook.",
+  "validated_facts": {
+    "sheets": 16,
+    "segments": 10,
+    "containers": 80,
+    "instantiated_evaluation_addresses": 2000,
+    "reused_interrogation_dimensions": 25,
+    "ard_loops": 5,
+    "ard_nodes": 60,
+    "reverse_forward_steps": 100,
+    "character_hypotheses": 100
+  },
+  "canonical_count_effect": {
+    "human_3204": 0,
+    "new_canonical_parameters": 0,
+    "new_canonical_rubrics": 0
+  },
+  "review_required_candidates": [
+    "RC-DOMAIN-RUBRIC-INSTANTIATION-001",
+    "RC-NO-EVIDENCE-NO-RANK-001",
+    "RC-SCORE-CONFIDENCE-SEPARATION-001",
+    "RC-INDEPENDENT-LOOP-001"
+  ],
+  "open_findings": [
+    "P1999/P2000 omitted by source scoring range",
+    "zero-evidence candidates still receive deterministic ranks",
+    "absolute match score is used as confidence band",
+    "five declared independent loops share identical reverse/forward route skeletons",
+    "loop outputs are not machine-linked to MATCH_ENGINE adjustments",
+    "character-weight provenance is unresolved"
+  ],
+  "closure_meaning": "The source review is complete; the four reasoning candidates remain review-required and are not adopted as canonical laws."
+}
