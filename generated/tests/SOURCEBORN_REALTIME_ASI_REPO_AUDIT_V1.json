@@ -3,7 +3,7 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 342,
+  "tracked_files_scanned": 343,
   "classification_counts": {
     "CONTROL_PLANE": 8,
     "ACTIVE_ARCHITECTURE_OR_REGISTRY": 114,
@@ -12,7 +12,7 @@
     "HISTORICAL_CLOSED_PHASE": 1,
     "TEST_OR_CLOSURE_RECORD": 48,
     "RAW_SOURCE_IMMUTABLE": 55,
-    "TOOLING": 57
+    "TOOLING": 58
   },
   "active_identity_violations": [],
   "legacy_reasoning_named_files": [
@@ -1699,6 +1699,11 @@
     },
     {
       "path": "tools/validate_expansion_2561_2592_domain_bindings_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_growth_batch_003_v1.py",
       "classification": "TOOLING",
       "identity_violations": 0
     },
