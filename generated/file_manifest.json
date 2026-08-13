@@ -596,8 +596,8 @@
   },
   {
     "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_CHECKPOINT_V1.json",
-    "sha256": "b0a80bda422b99b15dc558a4f8af1255ea3f16358e9af6ed0f7a3d3f843b1b9e",
-    "size_bytes": 1162
+    "sha256": "bec2f0b089c2b90c1610c441c31618099522b4c8f29e8bfd95d68ae29c4aa764",
+    "size_bytes": 2315
   },
   {
     "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_001.json",
