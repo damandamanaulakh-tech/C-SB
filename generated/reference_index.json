@@ -4103,6 +4103,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-002": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/TASK_QUEUE.md",
@@ -4193,6 +4194,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-ARD-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
@@ -4221,6 +4223,7 @@
     ],
     "ENG-CORE-001": [
       "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4230,6 +4233,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-002": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4239,6 +4243,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-003": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4246,6 +4251,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-004": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4275,6 +4281,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-009": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4284,6 +4291,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-010": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4298,6 +4306,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-012": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -4312,6 +4321,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EVO-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4359,6 +4369,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-META-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -4379,6 +4390,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-ORC-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4399,6 +4411,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-PAT-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4424,12 +4437,14 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-REV-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4507,6 +4522,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SEQ-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4536,6 +4552,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-URR-002": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4565,6 +4582,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-VER-001": [
+      "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",

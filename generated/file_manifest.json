@@ -275,6 +275,11 @@
     "size_bytes": 23438
   },
   {
+    "path": "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
+    "sha256": "20cfc76bf934f5f58d9989e07151bc5d8b6100bc68397ea821269fca06083996",
+    "size_bytes": 4999
+  },
+  {
     "path": "docs/RELEASE_ASSET_CONTENT_PROFILE.md",
     "sha256": "61356042992f31f0bb0ee1392ed52184b9adfd5f1568cc50b07a945a69be030e",
     "size_bytes": 20894
