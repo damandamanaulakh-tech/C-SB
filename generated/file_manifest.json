@@ -6,8 +6,8 @@
   },
   {
     "path": "CANONICALITY.json",
-    "sha256": "56cd39de1275504d5e255873067648c5a07a8cc75cf685497d04a806583a89ae",
-    "size_bytes": 6395
+    "sha256": "3fc27d0a0f07e3eea2308768a42893b6dfcefcf5a48429cfd00ec66f9b9be00a",
+    "size_bytes": 7442
   },
   {
     "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
@@ -16,8 +16,8 @@
   },
   {
     "path": "phase2/PHASE_STATUS.json",
-    "sha256": "d73f0426d6e37fd265533b9afc66935f1678f6a042e4335916839843efa02c4e",
-    "size_bytes": 8448
+    "sha256": "595d4a756376a30504e90557619d7e9168ac302b87c410e0bf95c0deb27112e2",
+    "size_bytes": 10239
   },
   {
     "path": "phase2/README.md",
@@ -823,6 +823,11 @@
     "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_001.json",
     "sha256": "21ae815e4e3295cedbf841aeee2898e5d3252fa47c8dd94d25e8646d68b2404f",
     "size_bytes": 1312
+  },
+  {
+    "path": "phase2/checkpoints/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_CHECKPOINT_V1.json",
+    "sha256": "76d274dba0aeeb375778d3688a30fe7cf8cdaa43cd44375a71e624c62f30772e",
+    "size_bytes": 2756
   },
   {
     "path": "phase2/checkpoints/P2_HUMAN_WISDOM_NO_AI_CHECKPOINT_001.json",
