@@ -1,0 +1,74 @@
+{
+  "overlay_id": "MICRO-SEQUENCE-PATTERN-RESPONSIBILITY-OVERLAY-V1",
+  "status": "PHASE2_ADDITIVE_ACTIVE_CONTROLLED_TESTING",
+  "applies_to_runtime": "SENTENCE-MICRO-SEQUENCE-RUNTIME-V1",
+  "principle": "Small Node Brains receive bounded packets and return bounded results. Whole-case understanding is assembled by orchestration/meta layers; no local brain gains implicit global authority.",
+  "node_overlays": [
+    {
+      "asi_node_id":"ASI-NODE-02",
+      "added_role":"MICRO_STATE_IDENTITY_RELATION_DECOMPOSER",
+      "reads":["SentenceIntakePacket","MicroUnit[]"],
+      "writes":["entity/state/relation micro-units","reference-resolution uncertainty"],
+      "must_not_write":["pattern approval","intent fact without evidence","rubric version"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-06",
+      "added_role":"PYRAMID_RUBRIC_ACTIVATION_COMBINER",
+      "reads":["MicroUnit[]","Human/AI/ASI/Wisdom registries","Sequence rubric dimensions"],
+      "writes":["RubricActivationPacket[]"],
+      "routing_rule":"Coarse-to-fine: Segment -> Container -> Parameter -> Sub-Parameter -> Element only as required by the local contract.",
+      "must_not_write":["global conclusion","user feeling as fact","approval"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-08",
+      "added_role":"ALTERNATIVE_INTERPRETATION_KEEPER",
+      "reads":["candidate Human/intent/emotion interpretations","evidence","Actor Views"],
+      "writes":["InterpretationCandidate[]","alternative interpretations","unresolved conflicts"],
+      "must_not_write":["single forced intent when evidence is ambiguous","action authority"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-12",
+      "added_role":"MICRO_TRACE_PATTERN_MEMORY_WRITEBACK",
+      "reads":["closed micro-Sequences","PatternContributionPacket","RubricEditDecision","LearningWritebackPacket"],
+      "writes":["occurrence trace","versioned pattern evidence","approved write-back refs"],
+      "must_not_write":["silent model-weight update","mutation of closed Sequence","unreviewed pattern promotion"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-15",
+      "added_role":"REPETITION_AND_PATTERN_CANDIDATE_FORMATION",
+      "reads":["current micro-Sequence","prior closed Sequence summaries","typed differences/relations/orders","counter-evidence"],
+      "writes":["PatternContributionPacket","PatternCandidate"],
+      "candidate_rule":"A single sentence can contribute to a pattern but does not automatically create an approved reusable pattern.",
+      "must_not_write":["APPROVED_RUBRIC","direct action authority"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-16",
+      "added_role":"PATTERN_RFR_FALSIFIER",
+      "reads":["PatternCandidate","supporting cases","counter-cases","alternative interpretations"],
+      "writes":["RFR finding","proof debt","scope reduction","rejection recommendation"],
+      "must_not_write":["user approval"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-17",
+      "added_role":"MULTI_SMALL_BRAIN_ASSEMBLER",
+      "reads":["bounded local return packets"],
+      "writes":["InterpretationAssemblyPacket"],
+      "must_not_do":["replace local provenance with one opaque conclusion"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-20",
+      "added_role":"MICRO_MECHANISM_ENGINE_ROUTER",
+      "reads":["RubricActivationPacket[]","Sequence roles","Engine registry","resource state"],
+      "writes":["bounded Engine request contracts"],
+      "must_not_do":["assume LLM runtime","assign execution authority to a reasoning Engine"]
+    },
+    {
+      "asi_node_id":"ASI-NODE-21",
+      "added_role":"RUBRIC_REVIEW_AND_PROMOTION_GOVERNOR",
+      "reads":["ReviewableRubricView","RubricEditDecision","PatternCandidate","RFR result"],
+      "writes":["promotion decision","version/namespace target","LearningWritebackPacket request"],
+      "authority_rule":"Machine may propose. Authorized user/editor approves or edits user-scoped patterns. General/universal rubric changes remain separate versioned candidates and must satisfy the configured adoption/R-F-R contract.",
+      "must_not_do":["silently promote candidate to universal rubric","erase original machine proposal"]
+    }
+  ]
+}
