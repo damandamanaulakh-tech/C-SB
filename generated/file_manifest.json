@@ -850,6 +850,11 @@
     "size_bytes": 6058
   },
   {
+    "path": "phase2/source_reviews/ARD_3X_GROWING_ASI_RECLASSIFICATION_V1.json",
+    "sha256": "b36b49df3a3438f6907c5f427d3bf0d9602831b4c72acb94321d92c94b7ef0fd",
+    "size_bytes": 6063
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
     "sha256": "84c9735ee274d5f5105d298353646b3c05365ed172be7bc3189c3df74651fade",
     "size_bytes": 5794
