@@ -175,6 +175,11 @@
     "size_bytes": 6915
   },
   {
+    "path": "tools/validate_semantic_clarification_residual_return_001.py",
+    "sha256": "add0d82092c90059b9470058e2f7dce4b6c659b0778b1ad833c601aece252aac",
+    "size_bytes": 7145
+  },
+  {
     "path": "tools/validate_expansion_081_160_v1.py",
     "sha256": "91c066cce7a81d2dd371af42cbc9de956d742a4b2bcdec6444876f613436f8a2",
     "size_bytes": 2391
