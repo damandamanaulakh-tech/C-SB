@@ -426,8 +426,8 @@
   },
   {
     "path": "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
-    "sha256": "18b403aeafc4620b763fc18ce7bd902fd47c8935a2c900f7ac530af805e571ad",
-    "size_bytes": 4279
+    "sha256": "d4da630e1cc3baeb027dd1fc92b15c2c9188ddda6d77fff1c4a0e2288f75dc53",
+    "size_bytes": 4992
   },
   {
     "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
