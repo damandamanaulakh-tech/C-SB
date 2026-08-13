@@ -1,0 +1,32 @@
+{
+  "checkpoint_id": "P2-MICRO-SEQUENCE-PATTERN-WIRING-CHECKPOINT-V1",
+  "status": "TESTING",
+  "scope": "Sentence/event -> local Micro-Sequence -> ultra-micro decomposition -> Pyramid/rubric activation -> small-brain + Engine routing -> interpretation assembly -> prior Sequence comparison -> Pattern Contribution/Candidate -> Rubric Microscope user review -> versioned learning write-back -> future scoped reuse.",
+  "outputs": [
+    "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
+    "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
+    "machine/schemas/micro_sequence_learning.schema.json",
+    "machine/schemas/sourceborn.bundle.schema.json",
+    "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
+    "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
+    "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
+    "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
+    "tools/validate_micro_sequence_pattern_runtime_v1.py",
+    "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md"
+  ],
+  "required_invariants": [
+    "every input utterance creates at least one local Micro-Sequence",
+    "observation is not interpretation",
+    "interpretation is not intent fact",
+    "Pattern Candidate is not approved rubric",
+    "Pattern Engine cannot auto-promote a rubric",
+    "user edit creates a versioned review/write-back object rather than overwriting source or closed Sequence",
+    "Engine output is not execution authority",
+    "RGL executable recursion cannot become an unbounded in-place loop",
+    "META is meta-governance, not a default replacement for small-brain local analysis",
+    "rubric changes enter formal adoption/version migration"
+  ],
+  "synthetic_test_fixture": "P2-MICRO-PATTERN-001",
+  "closure_condition": "Main CI passes the dedicated micro-sequence pattern R-F-R validator and all previously locked repository invariants in the same run.",
+  "phase2_closure": "NOT_REQUESTED"
+}
