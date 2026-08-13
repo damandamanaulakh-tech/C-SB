@@ -4210,7 +4210,7 @@
 ## Micro Sequence Runtime Stages
 
 - **MS-00** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
-- **MS-01** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-01** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`, `machine/runtime/SOURCE_SOVEREIGNTY_INTAKE_V1.json`
 - **MS-02** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
 - **MS-03** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
 - **MS-04** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`

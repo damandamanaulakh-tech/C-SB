@@ -13,6 +13,13 @@ RAW INPUT
   ↓
 LOCAL SEQUENCE / POINT ZERO
   ↓
+SOURCE SOVEREIGNTY INTAKE
+  ├─ exact-source/provenance lock
+  ├─ source truth ≠ automatic world truth
+  ├─ Pattern / Intent / Category / Definition / Key Note candidates
+  ├─ epistemic/evidence tags
+  └─ OPEN / child Sequence instead of invented closure
+  ↓
 clause / phrase / entity / action / state
   ↓
 relation / order / expectation / difference / Actor View
@@ -41,6 +48,8 @@ versioned write-back Sequence
   ↓
 future scoped reuse
 ```
+
+Source Sovereignty is an intake/governance contract inside Point Zero. It does not create a second execution grammar; Universal Sequence remains the execution grammar.
 
 ## The pattern rule
 
@@ -81,14 +90,15 @@ Engine output is evidence/output, not execution authority.
 The intended application UI exposes the structured representation behind an answer without exposing private hidden chain-of-thought. It shows explicit Sourceborn records:
 
 1. source + local Sequence,
-2. micro split,
-3. Pyramid rubric path and IDs,
-4. small-brain/Engine trace,
-5. Human interpretation candidates,
-6. prior Sequences/repetition,
-7. Pattern Candidate,
-8. user decision,
-9. write-back/version.
+2. Source Sovereignty intake / epistemic extraction packet,
+3. micro split,
+4. Pyramid rubric path and IDs,
+5. small-brain/Engine trace,
+6. Human interpretation candidates,
+7. prior Sequences/repetition,
+8. Pattern Candidate,
+9. user decision,
+10. write-back/version.
 
 The authorized editor can change interpretation, feeling, emotion, intent attribution, motive attribution, meaning, boundary, rule/principle, pattern name, applicability, and approval scope.
 
@@ -126,6 +136,7 @@ It does not imply model-weight self-update.
 
 ## Primary machine artifacts
 
+- `machine/runtime/SOURCE_SOVEREIGNTY_INTAKE_V1.json`
 - `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
 - `machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json`
 - `machine/schemas/micro_sequence_learning.schema.json`

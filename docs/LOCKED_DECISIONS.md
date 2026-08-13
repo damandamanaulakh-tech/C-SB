@@ -20,6 +20,11 @@
 - **SEQ-LOCK-018** — Human native 10/80/2560 hierarchy remains intact; mappings are additive.
 - **SEQ-LOCK-019** — AI capability map is REVIEW ONLY until explicit user approval.
 - **SEQ-LOCK-020** — Closure applies to the declared execution contract; the described phenomenon may continue.
+- **SEQ-LOCK-021** — Raw source is immutable source truth: authoritative for what was expressed and its provenance, not automatic objective truth about the world.
+- **SEQ-LOCK-022** — Source Sovereignty / Purity extraction is an intake-governance contract inside Point Zero; it never replaces Universal Sequence as execution grammar.
+- **SEQ-LOCK-023** — Deep generation is permitted in Interpretation Space; promotion to reusable knowledge remains evidence-, falsifier-, R-F-R-, scope-, and human-review-gated.
+- **SEQ-LOCK-024** — Inferred emotion, intent, causality, social generalization, historical purpose, philosophical stance, or project lexicon remains candidate/review material unless separately evidenced and approved.
+- **SEQ-LOCK-025** — A derivative summary, polished rewrite, taxonomy, or compiled framework must retain parent-source lineage and cannot count as independent corroboration of that parent.
 
 ## Precedence
 
@@ -46,4 +51,6 @@ EXPLICIT DEFINITION > INFERRED DEFINITION
 GAP > INVENTED FILL
 CONTRADICTION > SILENT AVERAGING
 UNKNOWN > FALSE COMPLETENESS
+SOURCE TRUTH > DERIVATIVE INTERPRETATION
+INDEPENDENT EVIDENCE > DERIVATIVE REPETITION
 ```

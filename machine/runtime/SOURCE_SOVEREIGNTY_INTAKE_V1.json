@@ -1,0 +1,126 @@
+{
+  "contract_id": "SOURCE-SOVEREIGNTY-INTAKE-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "purpose": "Protect raw source and authorship at Point Zero, extract reviewable candidates without turning interpretation into fact, and hand a provenance-complete intake packet to the Universal Sequence.",
+  "position": "Immediately after raw input capture / Point Zero and before semantic decomposition. This contract does not replace the Universal Sequence.",
+  "core_rules": [
+    "RAW_SOURCE_IS_IMMUTABLE_PROVENANCE",
+    "SOURCE_TRUTH_IS_NOT_AUTOMATICALLY_WORLD_TRUTH",
+    "NORMALIZATION_IS_DERIVATIVE_AND_MUST_REFERENCE_RAW_SOURCE",
+    "OBSERVATION_CLAIM_INFERENCE_SYNTHETIC_AND_OPEN_MUST_REMAIN_DISTINCT",
+    "DEEP_GENERATION_IS_ALLOWED_BUT_PROMOTION_IS_CONSERVATIVE",
+    "UNKNOWN_MAY_OPEN_A_NEW_SEQUENCE_AND_MAY_REMAIN_OPEN",
+    "DERIVATIVE_SUMMARY_IS_NOT_AN_INDEPENDENT_SOURCE",
+    "NO_INFERRED_EMOTION_INTENT_CAUSALITY_OR_UNIVERSAL_RULE_BECOMES_FACT_WITHOUT_EVIDENCE_AND_REVIEW"
+  ],
+  "source_truth_definition": {
+    "means": "The preserved record is authoritative about what the source expressed, including wording, authorship, provenance, and supplied context.",
+    "does_not_mean": "Every proposition inside the source is objectively true about external reality."
+  },
+  "intake_packet": {
+    "required": [
+      "source_id",
+      "exact_raw_source",
+      "source_actor_or_origin",
+      "capture_context",
+      "provenance_refs",
+      "epistemic_items"
+    ],
+    "reviewable_extraction": [
+      "pattern_candidate",
+      "intent_candidate",
+      "category_candidate",
+      "definition_candidate",
+      "key_note_candidate"
+    ],
+    "each_candidate_must_store": [
+      "candidate_id",
+      "source_span_or_claim_refs",
+      "status",
+      "confidence_or_unknown",
+      "alternatives",
+      "contradictions",
+      "user_review_status"
+    ]
+  },
+  "epistemic_statuses": [
+    "SOURCE_ASSERTED",
+    "OBSERVED_FROM_SOURCE",
+    "INFERRED",
+    "SYNTHETIC",
+    "UNVERIFIED",
+    "OPEN",
+    "CONTRADICTED",
+    "USER_AUTHORED_INTERPRETATION",
+    "REVIEWED",
+    "APPROVED"
+  ],
+  "purity_filter_scope": {
+    "rule": "When extracting ideology, pattern, intent, category, definition, or key note, project logistics may be excluded from that extraction view but must remain preserved in provenance.",
+    "never_delete": [
+      "budget",
+      "timeline",
+      "structural_mapping",
+      "project_status",
+      "source_wording",
+      "authorship",
+      "evidence",
+      "contradictions"
+    ]
+  },
+  "generation_promotion_boundary": {
+    "generation": "May fork multiple hypotheses, mechanisms, meanings, emotions, intents, pattern candidates, and unresolved branches.",
+    "promotion_requires": [
+      "source/evidence linkage",
+      "epistemic status",
+      "counterexample or falsifier review",
+      "scope and exceptions",
+      "R-F-R / verification where required",
+      "authorized human approval for reusable pattern/rubric promotion"
+    ],
+    "automatic_promotion": false
+  },
+  "derivative_lineage_rule": {
+    "rule": "A summary, polished rewrite, definition, taxonomy, or compiled archive derived from another source must reference that parent source and cannot be counted as independent corroboration.",
+    "minimum_fields": [
+      "parent_source_ids",
+      "derivation_type",
+      "transformer_actor",
+      "transform_timestamp_or_version",
+      "preserved_raw_source_ref"
+    ]
+  },
+  "forbidden_promotions": [
+    "RAW_SOURCE_TO_OBJECTIVE_WORLD_TRUTH",
+    "INFERRED_EMOTION_TO_ACTOR_FACT",
+    "INFERRED_INTENT_TO_ACTOR_FACT",
+    "TEMPORAL_ORDER_TO_CAUSALITY",
+    "SINGLE_CASE_TO_UNIVERSAL_RULE",
+    "PROJECT_LEXICON_TO_UNIVERSAL_LANGUAGE_FACT",
+    "PHILOSOPHICAL_STANCE_TO_RUNTIME_TECHNICAL_FACT",
+    "DERIVATIVE_SUMMARY_TO_INDEPENDENT_EVIDENCE"
+  ],
+  "sequence_handoff": {
+    "output": "SourceSovereigntyIntakePacket",
+    "next": "SENTENCE-MICRO-SEQUENCE-RUNTIME-V1/MS-01",
+    "open_behavior": "If source, identity, evidence, or meaning is unresolved, preserve OPEN and optionally declare a child Sequence; do not fabricate closure."
+  },
+  "rubric_emphasis": [
+    "R06_PROVENANCE",
+    "R07_EPISTEMIC",
+    "R22_EVIDENCE_TEST",
+    "R36_VERIFICATION",
+    "R38_TRACE",
+    "R43_OBSERVER_WRITER"
+  ],
+  "adopted_extraction_order": [
+    "RAW_SOURCE",
+    "PATTERN_CANDIDATE",
+    "INTENT_CANDIDATE",
+    "CATEGORY_CANDIDATE",
+    "DEFINITION_CANDIDATE",
+    "KEY_NOTE_CANDIDATE",
+    "EPISTEMIC_TAG_AND_EVIDENCE",
+    "UNIVERSAL_SEQUENCE_HANDOFF"
+  ]
+}
