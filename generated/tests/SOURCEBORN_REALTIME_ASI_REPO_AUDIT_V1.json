@@ -3,16 +3,16 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 345,
+  "tracked_files_scanned": 350,
   "classification_counts": {
-    "CONTROL_PLANE": 8,
-    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 114,
-    "GENERATED_REBUILDABLE": 55,
+    "CONTROL_PLANE": 9,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 115,
+    "GENERATED_REBUILDABLE": 56,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
     "TEST_OR_CLOSURE_RECORD": 49,
     "RAW_SOURCE_IMMUTABLE": 55,
-    "TOOLING": 59
+    "TOOLING": 61
   },
   "active_identity_violations": [],
   "legacy_reasoning_named_files": [
@@ -24,6 +24,11 @@
   "historical_findings_count": 0,
   "historical_findings": [],
   "path_classification": [
+    {
+      "path": ".github/workflows/event-semantic-intent-v1-4.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
     {
       "path": ".github/workflows/human-source-inspection.yml",
       "classification": "CONTROL_PLANE",
@@ -350,6 +355,11 @@
       "identity_violations": 0
     },
     {
+      "path": "generated/tests/P2_EVENT_INTENT_GROWTH_V1_3.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
       "path": "generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json",
       "classification": "GENERATED_REBUILDABLE",
       "identity_violations": 0
@@ -491,6 +501,11 @@
     },
     {
       "path": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/EVENT_SEMANTIC_INTENT_RULES_V1.json",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },
@@ -1595,6 +1610,11 @@
       "identity_violations": 0
     },
     {
+      "path": "tools/run_micro_sequence_interpreter_v1_4.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
       "path": "tools/run_phase2_actor_view_leakage_001.py",
       "classification": "TOOLING",
       "identity_violations": 0
@@ -1666,6 +1686,11 @@
     },
     {
       "path": "tools/test_event_intent_growth_v1_3.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/test_event_semantic_intent_v1_4.py",
       "classification": "TOOLING",
       "identity_violations": 0
     },
