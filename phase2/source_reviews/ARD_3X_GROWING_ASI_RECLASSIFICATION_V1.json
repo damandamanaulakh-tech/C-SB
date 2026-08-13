@@ -1,0 +1,82 @@
+{
+  "review_id": "P2-ARD-3X-GROWING-ASI-RECLASSIFICATION-V1",
+  "status": "SOURCE_REVIEW_COMPLETE_CANONICAL_ADOPTION_NOT_IMPLIED",
+  "source_class": "EXTERNAL_MODEL_RESEARCH_AND_HISTORICAL_ENGINE_VARIANTS",
+  "system_identity_guard": "ARD variants are research specimens/internal mechanism sources. They do not define Sourceborn, which is a real-time growing ASI prototype.",
+  "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+  "source_files": [
+    {"name":"ARD_3.0_Review.xlsx.extracted.txt","sha256":"fcff080739da8ce6818d2e2936ca4a9268dc031496e8bda3b36a803a0973b362"},
+    {"name":"ARD_3.0_to_3.2_Claude_Response.md","sha256":"c98a63b1cf99f2b65910bf413ca18d7b86d1eaecfd0ec9b08672a7b10ec1f22e"},
+    {"name":"ARD_3.1_Filter_Integration.md","sha256":"e0b59b9bcc4e3edcfdcaf963d766bbec352f122f1149fb01c7ca8e43f6f48a46"},
+    {"name":"ARD_3.1_Final_Combined_Grok_GPT.md","sha256":"ee1bdab830458f6e18206dbcad683078a4b08c0a96b2527a30e3bf6e2ceb9c9f"},
+    {"name":"ARD_3.1_LEAN.md","sha256":"0ef0b4f815db9c92d4d4055b9f760ea180c95f3f1bbd67c71bdb09aa42f23f79"},
+    {"name":"ARD_3.1_LEAN_plus_Grok_Audit.md","sha256":"7c7f6b19a0893f58680b59e46d07a82dcd59e8174f697eb03017b5204b339afd"},
+    {"name":"ARD_3.1_Live_Run_Owl_Wave_Column_3.md","sha256":"e269b0df92b191a0608f2dcb2d5ecb21a14df4f5d75347d32c92e277a0a22820"},
+    {"name":"ARD_3.1_Locked_Spec.md","sha256":"7660d9227d5ec50e81e52ac17561eecf81a7731db3a2e16e71484f46aaa63ea7"},
+    {"name":"ARD_3.1_Parameter_Expansion.md","sha256":"211321e3d47f0a43144dbb96cd52216cb303fe5b1d49fff419eaaa9d3dadfda1"},
+    {"name":"ARD_3.1_Penetration_Engine_Grok_v1.md","sha256":"d1e8ad3211b85bd0355d38fb34627f40727efd206775a9fc9812dcb178098ee1"},
+    {"name":"ARD_3.1_Run_Owl_Wave_Decode.md","sha256":"da89a9540c4a7f7a2a98d38a94f7db1aa135b0307ca4b917ad1066a6298c977f"},
+    {"name":"ARD_3.1_Tablet_Decode_30_Angles.md","sha256":"84e283a54e5a5f74c5928bbee3aaaf0af337c18efeaf3d8a985e0ee891bda548"},
+    {"name":"ARD_3.3_Final_Cleanup_Grok.md","sha256":"0194bb477efc3b745850b87285be68b6095eecbba95039dc3c695aba5566ea99"},
+    {"name":"ARD_All_Versions_3.1_to_4.md","sha256":"c976d469617bca658dfae9a79e6ac9ea2d4365548d500899ebdb20c402f6e0b6"},
+    {"name":"ARD_Direction_Lock_and_Reference_Request.md","sha256":"e60da4882900663e23ac8597a596a5902548a8b342c5e076bb1b83ce4cf56935"},
+    {"name":"ARD_Doubt_Engine_Pass_Decode30.md","sha256":"b389d9ae5fb63a152542f9b88b3947006998d500b6d1c0dd7df62872bcc425c5"},
+    {"name":"ARD_Full_Flush_Report.md","sha256":"68ea5fe62da614d90629e5d12f241ee21609d4735847b2c5b52557cf66aa7f42"},
+    {"name":"ARD_Master_Summary_Table.md","sha256":"60678407ceed5ba870ceca7f752d1f0066ef651cb0cf569e94811e521b247d52"},
+    {"name":"ARD_New_vs_Old_Responses.md","sha256":"c0069d880415ac4b5e268960c7d6916d725f7400cdcd52290c03fcb3fccc296d"},
+    {"name":"ARD_Parameter_Mapping_Comparison.md","sha256":"b6665f4f06bc045308898f92cc0607782e57857e4a68d4309ee1ed73cfee2b00"}
+  ],
+  "preserved_conflicts": [
+    {
+      "conflict_id": "ARD-C-001",
+      "topic": "HALT_AUTHORITY",
+      "side_a": "ARD 3.1 locked/direction files state that the human halts and reject automatic termination.",
+      "side_b": "ARD 3.3 cleanup and some summary files promote a Termination Governor / auto-halt.",
+      "sourceborn_disposition": "DO_NOT_AVERAGE. Preserve both as historical variants. Sourceborn Sequence closure remains contract-scoped; overall Growing Phase does not auto-halt because one local analysis has diminishing returns."
+    },
+    {
+      "conflict_id": "ARD-C-002",
+      "topic": "OWL_GATE_CANONICALITY",
+      "side_a": "Some summaries recommend/use an Owl Gate.",
+      "side_b": "LEAN+ audit identifies Owl Gate (3 lenses) as synthetic leakage invented by a prior model.",
+      "sourceborn_disposition": "NOT_CANONICAL. Retain only as a source-labelled synthetic/historical construct unless independently re-derived and adopted."
+    },
+    {
+      "conflict_id": "ARD-C-003",
+      "topic": "TABLET_DECODES",
+      "side_a": "Owl/Wave/tablet files generate many symbolic/cognitive readings, most explicitly tagged SYNTHETIC.",
+      "side_b": "Doubt pass rejects at least one elegant reading on its own falsifier and preserves only a smaller residue.",
+      "sourceborn_disposition": "Treat decodes as event/intent hypotheses and candidate Brain states, never as source fact. The artifact-producing Event is the reconstruction target."
+    },
+    {
+      "conflict_id": "ARD-C-004",
+      "topic": "ENGINE_IDENTITY",
+      "side_a": "ARD documents repeatedly call themselves reasoning/penetration/decision engines.",
+      "side_b": "Sourceborn current direction is a persistent real-time growing ASI prototype.",
+      "sourceborn_disposition": "ARD functions may be reverse-engineered as bounded Engines/Node-Brain mechanisms. ARD engine identity does not become Sourceborn system identity."
+    }
+  ],
+  "usable_internal_mechanism_sources": [
+    "POINT_ZERO_SOURCE_LOCK",
+    "RAW_PLUS_STRIPPED_SOURCE_PRESERVATION",
+    "DOUBT_OR_REVERSE_ATTACK",
+    "REALITY_ANCHOR_AND_FALSIFIER",
+    "WITNESS_OR_SELF_AUDIT",
+    "SYNTHETIC_TAGGING_AND_LEAKAGE_GUARD",
+    "CONTRADICTION_PRESERVATION",
+    "UNKNOWN_OR_NON_RESOLUTION",
+    "TRAJECTORY_OR_DRIFT_TRACKING",
+    "ASSUMPTION_SURFACING",
+    "PARALLEL_ALTERNATIVE_GENERATION"
+  ],
+  "not_adopted_as_system_laws": [
+    "ARD_IS_SOURCEBORN",
+    "ONE_FIXED_ARD_FLOW_FOR_ALL_EVENTS",
+    "AUTO_HALT_AS_UNIVERSAL_SOURCEBORN_RULE",
+    "OWL_GATE_AS_CANONICAL_NODE",
+    "SYMBOLIC_TABLET_HYPOTHESIS_AS_HISTORICAL_FACT",
+    "REASONING_OUTPUT_QUALITY_AS_PRIMARY_GROWTH_METRIC"
+  ],
+  "growth_use": "Each ARD run/example can contribute activated IDs, relations, contradictions, falsifiers, intent hypotheses, pattern contributions and candidate mechanisms. It strengthens the Brain only through explicit versioned write-back; it is not an output template.",
+  "raw_ingestion_note": "This review records names/hashes and semantic findings. The uploaded source file bytes are not silently rewritten or declared canonical by this review."
+}
