@@ -18,8 +18,18 @@
     }
   ],
   "source_payload": {
-    "path": "raw/human/hfr_v1_3204/HUMAN_FUNCTIONAL_REGISTRY_V1_3204.tsv.gz.b64",
-    "format": "base64(gzip(UTF-8 TSV))",
+    "parts": [
+      "raw/human/hfr_v1_3204/part-01.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-03.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-05.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-06.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
+      "raw/human/hfr_v1_3204/part-08.tsv.gz.b64"
+    ],
+    "transport_rule": "Concatenate all eight base64 fragments in ordinal order, then base64-decode once and gzip-decompress once.",
+    "format": "fragmented base64(gzip(UTF-8 TSV))",
     "tsv_sha256": "afa1fb26da066ec363a8c7e5d126843b6cc77babec5e9a73e0ad9a4292b9a8ca",
     "gzip_sha256": "6914d211d4405523cb5c56bd42a22544b6c31144c368c360ba2d730aa0bcdb22",
     "rows": 3204,

@@ -8,12 +8,23 @@ OUT_DIR = ROOT / "generated/registry_views"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
-payload_path = ROOT / manifest["source_payload"]["path"]
-encoded = "".join(payload_path.read_text(encoding="utf-8").split())
-gz_bytes = base64.b64decode(encoded)
+parts = manifest["source_payload"].get("parts", [])
+if len(parts) != 8:
+    raise SystemExit(f"HFR3204 requires exactly 8 ordered transport fragments, got {len(parts)}")
+encoded = "".join(
+    "".join((ROOT / part).read_text(encoding="utf-8").split())
+    for part in parts
+)
+try:
+    gz_bytes = base64.b64decode(encoded, validate=True)
+except Exception as exc:
+    raise SystemExit(f"HFR3204 base64 transport decode failed: {exc}")
 if hashlib.sha256(gz_bytes).hexdigest() != manifest["source_payload"]["gzip_sha256"]:
     raise SystemExit("HFR3204 gzip SHA mismatch")
-tsv_bytes = gzip.decompress(gz_bytes)
+try:
+    tsv_bytes = gzip.decompress(gz_bytes)
+except Exception as exc:
+    raise SystemExit(f"HFR3204 gzip decompress failed: {exc}")
 if hashlib.sha256(tsv_bytes).hexdigest() != manifest["source_payload"]["tsv_sha256"]:
     raise SystemExit("HFR3204 TSV SHA mismatch")
 
@@ -105,7 +116,8 @@ summary = {
     "grown_containers": sum(1 for x in reconciliation if x["delta"] > 0),
     "unchanged_containers": sum(1 for x in reconciliation if x["delta"] == 0),
     "contracted_source_version_containers": [x for x in reconciliation if x["delta"] < 0],
-    "scaffolds_counted_as_parameters": False
+    "scaffolds_counted_as_parameters": False,
+    "transport_parts": parts
 }
 
 (OUT_DIR / "human_functional_3204_registry_v1.json").write_text(
