@@ -265,6 +265,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py"
     ],
@@ -287,6 +288,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
       "tools/test_micro_sequence_live_interpreter_v1.py"
@@ -355,6 +357,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py"
     ],
@@ -368,6 +371,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
       "tools/test_micro_sequence_live_interpreter_v1.py"
@@ -382,6 +386,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py"
     ],
@@ -398,6 +403,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
@@ -412,6 +418,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
       "tools/validate_human_native_2560_runtime_depth_v1.py"
     ],
@@ -471,7 +478,8 @@
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-068": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
@@ -482,7 +490,8 @@
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-070": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
@@ -503,14 +512,16 @@
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-076": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-077": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
@@ -520,7 +531,8 @@
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-087": [
       "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
@@ -763,7 +775,8 @@
     "CON-036": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-037": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
@@ -775,7 +788,8 @@
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-041": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
@@ -794,7 +808,8 @@
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-044": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
@@ -867,7 +882,8 @@
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-059": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
@@ -902,12 +918,14 @@
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-073": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
-      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
+      "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
     ],
     "CON-074": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
@@ -933,6 +951,7 @@
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
       "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json"
     ],
     "CON-162": [
@@ -12128,6 +12147,150 @@
       "generated/registry_views/human_functional_3204_registry_v1.json"
     ]
   },
+  "human_functional_parameter_candidates": {
+    "HFP-KP-001": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-002": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-003": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-004": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-005": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-006": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-007": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-008": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-009": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-010": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-011": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-012": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-013": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-014": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-015": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-016": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-017": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "HFP-KP-018": [
+      "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json"
+    ]
+  },
+  "king_profile_reasoning_candidates": {
+    "RC-KP-001": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-002": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-003": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-004": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-005": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-006": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-007": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-008": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-009": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-010": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-011": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "RC-KP-012": [
+      "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json"
+    ]
+  },
+  "egypt_domain_parameter_candidates": {
+    "EG-KP-001": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-002": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-003": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-004": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-005": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-006": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-007": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-008": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-009": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-010": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-011": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-012": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-013": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-014": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-015": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ],
+    "EG-KP-016": [
+      "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json"
+    ]
+  },
   "human_combinations": {
     "H-COMB-01": [
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
@@ -15322,6 +15485,7 @@
     "REVIEW-001": [
       "phase2/checkpoints/P2_KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_001.json",
       "phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json",
+      "phase2/source_reviews/KING_PROFILE_PARAMETER_DISCOVERY_V1.json",
       "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json"
     ]
   },

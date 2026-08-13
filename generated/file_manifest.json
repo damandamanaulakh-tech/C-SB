@@ -121,8 +121,8 @@
   },
   {
     "path": "tools/relink_and_index.py",
-    "sha256": "71af7495b862c71541f26a9f38a89fd47417781dfed07c24eab00fc0cea0bc44",
-    "size_bytes": 4665
+    "sha256": "dc5a5632de381896adc2aba1b7c3e45a0a1d1fc87c94f023cd97137f524100ca",
+    "size_bytes": 4889
   },
   {
     "path": "tools/generate_registry_views.py",
@@ -250,6 +250,11 @@
     "size_bytes": 4287
   },
   {
+    "path": "tools/validate_king_profile_parameter_discovery_v1.py",
+    "sha256": "6b052a155a46fe32a4cee05abe4aa83b1034cf6477a8893ced9aeb687ddaf285",
+    "size_bytes": 7475
+  },
+  {
     "path": "tools/repair_human_native_custody_from_release.py",
     "sha256": "bb45201fca35d82329c3b99d356b12f8c9534f3a59b76e105eb8ec7c608a5249",
     "size_bytes": 10318
@@ -341,8 +346,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "e58075b92ea798ca0d5813ff6c086f1b306dee796c04add07df94dafbca7dddd",
-    "size_bytes": 5897
+    "sha256": "913f4ec8423cd6cf638ebe38f064bdda7380ec492c3558f40d9b340a4b712ae7",
+    "size_bytes": 6042
   },
   {
     "path": ".github/workflows/king-character-workbook-review-rfr.yml",
@@ -775,6 +780,11 @@
     "size_bytes": 9638
   },
   {
+    "path": "phase2/source_reviews/KING_PROFILE_PARAMETER_DISCOVERY_V1.json",
+    "sha256": "5ddae0424c4edd3a8e5d00db3e0bb3a7f151b52639b28cdac30a52c3d9ac8c3a",
+    "size_bytes": 4317
+  },
+  {
     "path": "phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json",
     "sha256": "73963831e9e862ff42b386e5d7184a139bd17c91fdf502235c1c141d9cbfb0cc",
     "size_bytes": 6058
@@ -1120,6 +1130,11 @@
     "size_bytes": 6475
   },
   {
+    "path": "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json",
+    "sha256": "c96189db83498af6c17f3b333da4efb97f53a470df5daa5fae25e492a2506d35",
+    "size_bytes": 5074
+  },
+  {
     "path": "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
     "sha256": "c4fba4fcd74c9d8ec61cace12096c0692c8a34db0637d07b8d259d9797b1d38b",
     "size_bytes": 3666
@@ -1240,6 +1255,11 @@
     "size_bytes": 3415
   },
   {
+    "path": "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
+    "sha256": "ebfc39aa34b3007078e5f490d3786377d3d680d72692e67392e0a768aec3044d",
+    "size_bytes": 18230
+  },
+  {
     "path": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
     "sha256": "38195d05259d51b2b13f11c68e144eb65aa8e7c1aeb5aa70d2ec9c9529c055f3",
     "size_bytes": 5649
@@ -1258,6 +1278,11 @@
     "path": "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
     "sha256": "8a5c9aafd300f0cf8d53bc1073039b94be2a6646c2f94cb0faf37bb071dc3e77",
     "size_bytes": 8188
+  },
+  {
+    "path": "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json",
+    "sha256": "e680ee1ce8549039d59dd9af263cd4e3e12531192e3952ac1fe97c62594c3ec5",
+    "size_bytes": 3865
   },
   {
     "path": "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",

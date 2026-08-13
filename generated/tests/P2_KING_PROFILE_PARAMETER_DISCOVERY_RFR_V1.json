@@ -1,0 +1,637 @@
+{
+  "test_id": "P2-KING-PROFILE-PARAMETER-DISCOVERY-RFR-V1",
+  "status": "PASS",
+  "errors": [],
+  "findings": [],
+  "checks": {
+    "profile_count": 18,
+    "candidate_counts": {
+      "human_functional": 18,
+      "asi_reasoning": 12,
+      "domain_egypt": 16,
+      "total": 46
+    },
+    "human_baseline_count": 3204,
+    "human_exact_name_collisions": 0,
+    "human_possible_name_overlaps": 0,
+    "registry_separation_enforced": true,
+    "candidate_creation_changes_active_3204": false,
+    "prior_review_corrected_without_erasing_structural_findings": true,
+    "new_parameter_requires_review": true
+  },
+  "human_3204_novelty_probe": [
+    {
+      "candidate_id": "HFP-KP-001",
+      "candidate_name": "Delegated / Proxy Agency",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2723",
+          "name": "Delegated-agency sensing",
+          "similarity": 0.6957
+        },
+        {
+          "parameter_id": "SB-HFR-P2611",
+          "name": "Sense of agency",
+          "similarity": 0.5946
+        },
+        {
+          "parameter_id": "SB-HFR-P2928",
+          "name": "Deliberate practice",
+          "similarity": 0.5854
+        },
+        {
+          "parameter_id": "SB-HFR-P3182",
+          "name": "Delegation",
+          "similarity": 0.5625
+        },
+        {
+          "parameter_id": "SB-HFR-P2690",
+          "name": "Efference-based agency",
+          "similarity": 0.5455
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-002",
+      "candidate_name": "Shared / Distributed Authority",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2941",
+          "name": "Spacing/distributed practice",
+          "similarity": 0.6429
+        },
+        {
+          "parameter_id": "SB-HFR-P2836",
+          "name": "Obedience to authority",
+          "similarity": 0.56
+        },
+        {
+          "parameter_id": "SB-HFR-P3179",
+          "name": "Distributed cognition (team)",
+          "similarity": 0.5556
+        },
+        {
+          "parameter_id": "SB-HFR-P0381",
+          "name": "Figure-ground (auditory)",
+          "similarity": 0.52
+        },
+        {
+          "parameter_id": "SB-HFR-P1466",
+          "name": "Reward-history integration",
+          "similarity": 0.5185
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-003",
+      "candidate_name": "Status-Capability Asynchrony",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P0750",
+          "name": "Bimanual synchrony",
+          "similarity": 0.5652
+        },
+        {
+          "parameter_id": "SB-HFR-P0666",
+          "name": "Catchability estimation",
+          "similarity": 0.549
+        },
+        {
+          "parameter_id": "SB-HFR-P3035",
+          "name": "Availability cascade",
+          "similarity": 0.5417
+        },
+        {
+          "parameter_id": "SB-HFR-P0641",
+          "name": "Reachability sensing",
+          "similarity": 0.5417
+        },
+        {
+          "parameter_id": "SB-HFR-P0644",
+          "name": "Passability (gap) detection",
+          "similarity": 0.5283
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-004",
+      "candidate_name": "Public-Private Identity Divergence",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2051",
+          "name": "Predictive inference",
+          "similarity": 0.5556
+        },
+        {
+          "parameter_id": "SB-HFR-P2763",
+          "name": "Cooperative-intent inference",
+          "similarity": 0.5484
+        },
+        {
+          "parameter_id": "SB-HFR-P1590",
+          "name": "Proactive interference",
+          "similarity": 0.5357
+        },
+        {
+          "parameter_id": "SB-HFR-P2728",
+          "name": "Intention inference",
+          "similarity": 0.5283
+        },
+        {
+          "parameter_id": "SB-HFR-P2762",
+          "name": "Threat-intent inference",
+          "similarity": 0.5263
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-005",
+      "candidate_name": "Hidden Agency Expression",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2752",
+          "name": "Hidden-agenda inference",
+          "similarity": 0.6809
+        },
+        {
+          "parameter_id": "SB-HFR-P2724",
+          "name": "Agency-restoration",
+          "similarity": 0.619
+        },
+        {
+          "parameter_id": "SB-HFR-P2639",
+          "name": "Identity exploration",
+          "similarity": 0.5909
+        },
+        {
+          "parameter_id": "SB-HFR-P2419",
+          "name": "Defensive aggression",
+          "similarity": 0.5909
+        },
+        {
+          "parameter_id": "SB-HFR-P0844",
+          "name": "Sequence compression",
+          "similarity": 0.5909
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-006",
+      "candidate_name": "Intergenerational Self-Extension",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P3152",
+          "name": "Intergenerational transfer",
+          "similarity": 0.7241
+        },
+        {
+          "parameter_id": "SB-HFR-P2325",
+          "name": "Situation selection",
+          "similarity": 0.6275
+        },
+        {
+          "parameter_id": "SB-HFR-P1079",
+          "name": "Attentional-overload detection",
+          "similarity": 0.6129
+        },
+        {
+          "parameter_id": "SB-HFR-P2500",
+          "name": "Intention revision",
+          "similarity": 0.6
+        },
+        {
+          "parameter_id": "SB-HFR-P2616",
+          "name": "Narrative-self construction",
+          "similarity": 0.5763
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-007",
+      "candidate_name": "Succession Security Motive",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2545",
+          "name": "Consistency motive",
+          "similarity": 0.5909
+        },
+        {
+          "parameter_id": "SB-HFR-P2542",
+          "name": "Reciprocity motive",
+          "similarity": 0.5909
+        },
+        {
+          "parameter_id": "SB-HFR-P1427",
+          "name": "Occasion setting",
+          "similarity": 0.5714
+        },
+        {
+          "parameter_id": "SB-HFR-P1882",
+          "name": "Decision-quality monitoring",
+          "similarity": 0.566
+        },
+        {
+          "parameter_id": "SB-HFR-P0298",
+          "name": "Exploration/curiosity drive",
+          "similarity": 0.566
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-008",
+      "candidate_name": "Posthumous Identity Persistence Motive",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2555",
+          "name": "Identity-protection motive",
+          "similarity": 0.6562
+        },
+        {
+          "parameter_id": "SB-HFR-P2545",
+          "name": "Consistency motive",
+          "similarity": 0.5714
+        },
+        {
+          "parameter_id": "SB-HFR-P0796",
+          "name": "Selection persistence",
+          "similarity": 0.5424
+        },
+        {
+          "parameter_id": "SB-HFR-P2546",
+          "name": "Curiosity/understanding motive",
+          "similarity": 0.5294
+        },
+        {
+          "parameter_id": "SB-HFR-P2550",
+          "name": "Dominance motive",
+          "similarity": 0.5185
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-009",
+      "candidate_name": "External Identity Anchoring",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2615",
+          "name": "Personal-identity continuity",
+          "similarity": 0.6545
+        },
+        {
+          "parameter_id": "SB-HFR-P3166",
+          "name": "External-memory offloading",
+          "similarity": 0.6038
+        },
+        {
+          "parameter_id": "SB-HFR-P1181",
+          "name": "Context-dependent switching",
+          "similarity": 0.5926
+        },
+        {
+          "parameter_id": "SB-HFR-P2879",
+          "name": "Moral-identity",
+          "similarity": 0.5854
+        },
+        {
+          "parameter_id": "SB-HFR-P0703",
+          "name": "Serial-order encoding",
+          "similarity": 0.5833
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-010",
+      "candidate_name": "Ritual Efficacy Belief",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2451",
+          "name": "Self-efficacy",
+          "similarity": 0.5714
+        },
+        {
+          "parameter_id": "SB-HFR-P2719",
+          "name": "Self-efficacy for control",
+          "similarity": 0.5106
+        },
+        {
+          "parameter_id": "SB-HFR-P2603",
+          "name": "Perceptual-rivalry resolution",
+          "similarity": 0.5098
+        },
+        {
+          "parameter_id": "SB-HFR-P2962",
+          "name": "Skill-decay resistance",
+          "similarity": 0.5
+        },
+        {
+          "parameter_id": "SB-HFR-P2297",
+          "name": "Arousal identification",
+          "similarity": 0.5
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-011",
+      "candidate_name": "Restoration / Order-Recovery Motive",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P0837",
+          "name": "Perturbation recovery",
+          "similarity": 0.6296
+        },
+        {
+          "parameter_id": "SB-HFR-P1051",
+          "name": "Resumption-lag recovery",
+          "similarity": 0.6071
+        },
+        {
+          "parameter_id": "SB-HFR-P3061",
+          "name": "Emotional recovery",
+          "similarity": 0.5882
+        },
+        {
+          "parameter_id": "SB-HFR-P0097",
+          "name": "Restoration/repair",
+          "similarity": 0.5882
+        },
+        {
+          "parameter_id": "SB-HFR-P2513",
+          "name": "Intention decay over time",
+          "similarity": 0.5862
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-012",
+      "candidate_name": "Long-Horizon Self-Continuity",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P1835",
+          "name": "Long-horizon planning",
+          "similarity": 0.6939
+        },
+        {
+          "parameter_id": "SB-HFR-P1239",
+          "name": "Multi-session continuity",
+          "similarity": 0.6154
+        },
+        {
+          "parameter_id": "SB-HFR-P2615",
+          "name": "Personal-identity continuity",
+          "similarity": 0.5714
+        },
+        {
+          "parameter_id": "SB-HFR-P2634",
+          "name": "Self-continuity over time",
+          "similarity": 0.566
+        },
+        {
+          "parameter_id": "SB-HFR-P1836",
+          "name": "Short-horizon planning",
+          "similarity": 0.56
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-013",
+      "candidate_name": "Institutional Self-Extension",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2325",
+          "name": "Situation selection",
+          "similarity": 0.7234
+        },
+        {
+          "parameter_id": "SB-HFR-P3193",
+          "name": "Institutional-rule following",
+          "similarity": 0.6071
+        },
+        {
+          "parameter_id": "SB-HFR-P0800",
+          "name": "Initiation-failure detection",
+          "similarity": 0.6071
+        },
+        {
+          "parameter_id": "SB-HFR-P0790",
+          "name": "Volitional (self-paced) initiation",
+          "similarity": 0.6
+        },
+        {
+          "parameter_id": "SB-HFR-P1079",
+          "name": "Attentional-overload detection",
+          "similarity": 0.5862
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-014",
+      "candidate_name": "Negotiated Parity Orientation",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2467",
+          "name": "Mastery orientation",
+          "similarity": 0.7083
+        },
+        {
+          "parameter_id": "SB-HFR-P3139",
+          "name": "Guided participation",
+          "similarity": 0.6122
+        },
+        {
+          "parameter_id": "SB-HFR-P1588",
+          "name": "Motivated forgetting",
+          "similarity": 0.6122
+        },
+        {
+          "parameter_id": "SB-HFR-P0540",
+          "name": "Head/eye orienting",
+          "similarity": 0.5957
+        },
+        {
+          "parameter_id": "SB-HFR-P3116",
+          "name": "Deliberate-practice continuation",
+          "similarity": 0.5902
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-015",
+      "candidate_name": "Prestige-Model Adoption Susceptibility",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P3158",
+          "name": "Misinformation susceptibility",
+          "similarity": 0.6567
+        },
+        {
+          "parameter_id": "SB-HFR-P1313",
+          "name": "Misinformation susceptibility",
+          "similarity": 0.6567
+        },
+        {
+          "parameter_id": "SB-HFR-P0358",
+          "name": "Visual illusions susceptibility",
+          "similarity": 0.6087
+        },
+        {
+          "parameter_id": "SB-HFR-P2363",
+          "name": "Regulation-flexibility",
+          "similarity": 0.6
+        },
+        {
+          "parameter_id": "SB-HFR-P2788",
+          "name": "Compassion-fatigue susceptibility",
+          "similarity": 0.5915
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-016",
+      "candidate_name": "Golden-Age Loss Narrative Attraction",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P2727",
+          "name": "Knowledge-state tracking",
+          "similarity": 0.5667
+        },
+        {
+          "parameter_id": "SB-HFR-P2616",
+          "name": "Narrative-self construction",
+          "similarity": 0.5397
+        },
+        {
+          "parameter_id": "SB-HFR-P2955",
+          "name": "Learning-rate adaptation",
+          "similarity": 0.5333
+        },
+        {
+          "parameter_id": "SB-HFR-P1477",
+          "name": "Learning-rate adaptation",
+          "similarity": 0.5333
+        },
+        {
+          "parameter_id": "SB-HFR-P0744",
+          "name": "Online correction",
+          "similarity": 0.5283
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-017",
+      "candidate_name": "Collective-Capacity Underestimation Bias",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P0676",
+          "name": "Action-cost estimation",
+          "similarity": 0.5484
+        },
+        {
+          "parameter_id": "SB-HFR-P0666",
+          "name": "Catchability estimation",
+          "similarity": 0.5397
+        },
+        {
+          "parameter_id": "SB-HFR-P0645",
+          "name": "Climbability estimation",
+          "similarity": 0.5397
+        },
+        {
+          "parameter_id": "SB-HFR-P0609",
+          "name": "Cognitive-map formation",
+          "similarity": 0.5397
+        },
+        {
+          "parameter_id": "SB-HFR-P2840",
+          "name": "Reciprocity (indirect/reputation)",
+          "similarity": 0.5352
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "HFP-KP-018",
+      "candidate_name": "Contextual Role-State Switching",
+      "exact_name_collision": false,
+      "exact_matches": [],
+      "nearest_by_name": [
+        {
+          "parameter_id": "SB-HFR-P1181",
+          "name": "Context-dependent switching",
+          "similarity": 0.6897
+        },
+        {
+          "parameter_id": "SB-HFR-P0015",
+          "name": "Energy substrate switching",
+          "similarity": 0.6667
+        },
+        {
+          "parameter_id": "SB-HFR-P1184",
+          "name": "Cognitive-load-tolerant switching",
+          "similarity": 0.625
+        },
+        {
+          "parameter_id": "SB-HFR-P0990",
+          "name": "Contextual cueing",
+          "similarity": 0.625
+        },
+        {
+          "parameter_id": "SB-HFR-P1288",
+          "name": "Contextual binding",
+          "similarity": 0.6122
+        }
+      ],
+      "novelty_probe_status": "NO_EXACT_NAME_COLLISION_SEMANTIC_REVIEW_REQUIRED"
+    }
+  ],
+  "note": "This automated probe detects exact-name collisions and name-neighborhood similarity only. Semantic novelty remains a review/R-F-R question; PASS does not adopt any candidate."
+}
