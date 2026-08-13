@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/event_intent.schema.json",
+  "title": "Sourceborn Event and Typed Intent Records",
+  "$defs": {
+    "EventIntent": {
+      "type": "object",
+      "required": ["intent_id", "event_id", "intent_type", "epistemic_status"],
+      "properties": {
+        "intent_id": {"type": "string"},
+        "event_id": {"type": "string"},
+        "intent_type": {
+          "enum": [
+            "AGENT_INTENT",
+            "INSTITUTIONAL_INTENT",
+            "REPRESENTED_FUTURE_INTENT",
+            "FUNCTIONAL_DIRECTION",
+            "NATURAL_DYNAMICS_DIRECTION",
+            "DERIVED_INTENT_HYPOTHESIS",
+            "UNKNOWN",
+            "NOT_YET_DECODED"
+          ]
+        },
+        "stated_intent": {},
+        "inferred_intent": {},
+        "stated_motive": {},
+        "operating_motive_hypothesis": {},
+        "goal": {},
+        "target": {},
+        "method": {},
+        "conditions": {"type": "array"},
+        "typed_order_refs": {"type": "array", "items": {"type": "string"}},
+        "actor_view_refs": {"type": "array", "items": {"type": "string"}},
+        "supporting_evidence_refs": {"type": "array", "items": {"type": "string"}},
+        "contradicting_evidence_refs": {"type": "array", "items": {"type": "string"}},
+        "alternative_intent_ids": {"type": "array", "items": {"type": "string"}},
+        "falsifiers": {"type": "array"},
+        "proof_debt": {"type": "array"},
+        "epistemic_status": {"type": "string"},
+        "review_status": {"type": "string"},
+        "source_refs": {"type": "array"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"intent_type": {"const": "NATURAL_DYNAMICS_DIRECTION"}}},
+          "then": {
+            "description": "Natural-dynamics direction records causal/functional direction only and must not be interpreted as conscious agency without a separate agent source."
+          }
+        }
+      ]
+    },
+    "EventRecord": {
+      "type": "object",
+      "required": ["event_id", "event_type", "sequence_id", "intent", "epistemic_status"],
+      "properties": {
+        "event_id": {"type": "string"},
+        "event_type": {"type": "string"},
+        "sequence_id": {"type": "string"},
+        "source_refs": {"type": "array"},
+        "actor_ids": {"type": "array", "items": {"type": "string"}},
+        "object_ids": {"type": "array", "items": {"type": "string"}},
+        "prior_state_refs": {"type": "array"},
+        "resulting_state_refs": {"type": "array"},
+        "relation_ids": {"type": "array", "items": {"type": "string"}},
+        "order_types": {"type": "array", "items": {"type": "string"}},
+        "intent": {"$ref": "#/$defs/EventIntent"},
+        "candidate_brain_state_ids": {"type": "array", "items": {"type": "string"}},
+        "combination_ids": {"type": "array", "items": {"type": "string"}},
+        "pattern_contribution_ids": {"type": "array", "items": {"type": "string"}},
+        "memory_write_refs": {"type": "array"},
+        "epistemic_status": {"type": "string"}
+      }
+    }
+  }
+}
