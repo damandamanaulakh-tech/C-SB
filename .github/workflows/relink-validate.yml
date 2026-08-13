@@ -109,6 +109,8 @@ jobs:
         run: python tools/run_phase2_closure_scope_inheritance_001.py
       - name: Run Human Wisdom no-AI R-F-R 001
         run: python tools/run_phase2_human_wisdom_no_ai_001.py
+      - name: Validate growth batch 003 Point-Zero persistent count
+        run: python tools/validate_growth_batch_003_v1.py
       - name: Validate real-time growing ASI identity across repo
         run: python tools/validate_sourceborn_realtime_asi_v1.py
       - name: Validate locked invariants
