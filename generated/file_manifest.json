@@ -301,8 +301,8 @@
   },
   {
     "path": "docs/LOCKED_DECISIONS.md",
-    "sha256": "27e993b383db5c286c7666febbbc96a9c65f2c48528d908c2aa78f3433eb921f",
-    "size_bytes": 2459
+    "sha256": "e271ffb87971762587c44f2c80bd434999b5fb73becd8c2bad1f8b5c5c691455",
+    "size_bytes": 3474
   },
   {
     "path": "docs/RELEASE_ASSET_MERGE_PLAN.md",
@@ -311,13 +311,18 @@
   },
   {
     "path": "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
-    "sha256": "20cfc76bf934f5f58d9989e07151bc5d8b6100bc68397ea821269fca06083996",
-    "size_bytes": 4999
+    "sha256": "a20b4c4ba388d7bef6281d62b8e237779b2716a714c39bb2b55d0e475a044ff9",
+    "size_bytes": 5565
   },
   {
     "path": "docs/RELEASE_ASSET_CONTENT_PROFILE.md",
     "sha256": "61356042992f31f0bb0ee1392ed52184b9adfd5f1568cc50b07a945a69be030e",
     "size_bytes": 20894
+  },
+  {
+    "path": "docs/SOURCE_SOVEREIGNTY_INTAKE_V1.md",
+    "sha256": "e089c596b8ab5b74923e43f234ef6f1e10aca3def112eb6690f10791bfefc981",
+    "size_bytes": 4454
   },
   {
     "path": "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
@@ -478,6 +483,11 @@
     "path": "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
     "sha256": "af8d3da5f1e811c907c4293a83ba8d8f5941cd4950417f3f7e3dea0d0025d46d",
     "size_bytes": 7982
+  },
+  {
+    "path": "machine/runtime/SOURCE_SOVEREIGNTY_INTAKE_V1.json",
+    "sha256": "c4081820a00d8efca963b97199d440b48caf712beaf76a6c10673f31b52ee701",
+    "size_bytes": 4545
   },
   {
     "path": "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
