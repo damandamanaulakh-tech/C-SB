@@ -1609,6 +1609,7 @@
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+      "tools/apply_realtime_asi_semantic_migration_v1.py",
       "tools/inspect_human_source_workbook.py",
       "tools/repair_human_native_custody_from_release.py",
       "tools/validate_human_native_2560_runtime_depth_v1.py"
@@ -2535,6 +2536,7 @@
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
       "phase2/examples/README.md",
       "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+      "tools/apply_realtime_asi_semantic_migration_v1.py",
       "tools/generate_human_functional_3204_v1.py",
       "tools/validate_human_functional_3204_v1.py"
     ],

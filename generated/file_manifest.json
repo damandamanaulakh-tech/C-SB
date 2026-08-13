@@ -150,6 +150,11 @@
     "size_bytes": 5606
   },
   {
+    "path": "tools/apply_realtime_asi_semantic_migration_v1.py",
+    "sha256": "641832ae0157e27aa490d724d2e5fec5fed7b749394e3ea2f4f1aae1efd87d64",
+    "size_bytes": 18568
+  },
+  {
     "path": "tools/validate_brain_engine_adoption_v1.py",
     "sha256": "adfdbb11ff5dddb604bfcad935bb3141bdf0a659056dbcf63e644d660246d133",
     "size_bytes": 6356
