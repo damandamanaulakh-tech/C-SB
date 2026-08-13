@@ -31,6 +31,12 @@ PATTERNS = {
     "operational_element_codes": re.compile(r"\bE0[1-8]\b"),
     "governance_control_ids": re.compile(r"\bGOV-\d{3}\b"),
     "rubric_registry_ids": re.compile(r"\b(?:AI-RUBRIC-V\d+|ASI-RUBRIC-V\d+|WISDOM-REGISTRY-V\d+)\b"),
+    "micro_sequence_runtime_stages": re.compile(r"\bMS-\d{2}\b"),
+    "rubric_microscope_panels": re.compile(r"\bRM-\d{2}\b"),
+    "micro_pattern_test_sequences": re.compile(r"\bSYN-MICRO-S\d+\b"),
+    "pattern_candidate_ids": re.compile(r"\b(?:PATTERN-CANDIDATE|PAT-CAND|P-CAND)-[A-Z0-9-]+\b"),
+    "rubric_review_ids": re.compile(r"\b(?:REVIEW|RUBRIC-REVIEW)-[A-Z0-9-]+\b"),
+    "learning_writeback_ids": re.compile(r"\b(?:WRITEBACK|LEARN-WB)-[A-Z0-9-]+\b"),
 }
 
 TEXT_EXTS = {".md", ".txt", ".json", ".yaml", ".yml", ".svg", ".py"}
