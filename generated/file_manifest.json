@@ -660,6 +660,11 @@
     "size_bytes": 4466
   },
   {
+    "path": "registries/sourceborn/GROWTH_BATCH_002_DERIVED_OBJECTS_V1.json",
+    "sha256": "6dfb8334bab21421da44d7da66975db83eecdc26fb2c8ea7a544cb8ed56ef7e3",
+    "size_bytes": 12213
+  },
+  {
     "path": "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
     "sha256": "8608cdf5e867724058666f62e5d1b7001e874036099ac60d6255b427bd9277c9",
     "size_bytes": 3040
