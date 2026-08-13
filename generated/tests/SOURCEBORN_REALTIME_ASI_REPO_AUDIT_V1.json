@@ -3,14 +3,14 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 343,
+  "tracked_files_scanned": 344,
   "classification_counts": {
     "CONTROL_PLANE": 8,
     "ACTIVE_ARCHITECTURE_OR_REGISTRY": 114,
     "GENERATED_REBUILDABLE": 55,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
-    "TEST_OR_CLOSURE_RECORD": 48,
+    "TEST_OR_CLOSURE_RECORD": 49,
     "RAW_SOURCE_IMMUTABLE": 55,
     "TOOLING": 58
   },
@@ -819,6 +819,11 @@
     },
     {
       "path": "phase2/rfr/P2_EXPANSION_P2561_P2592_DOMAIN_RFR_001.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_GROWTH_BATCH_003_TRIGGER.json",
       "classification": "TEST_OR_CLOSURE_RECORD",
       "identity_violations": 0
     },

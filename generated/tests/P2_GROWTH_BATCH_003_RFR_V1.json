@@ -1,0 +1,20 @@
+{
+  "report_id": "P2-GROWTH-BATCH-003-RFR-V1",
+  "status": "PASS",
+  "source_id": "SRC-GROW-003-001",
+  "source_event_units": 9,
+  "persistent_growth": {
+    "event_memory_ids": 9,
+    "pattern_contribution_ids": 9,
+    "relation_ids": 10,
+    "path_ids": 4,
+    "intent_signature_ids": 3,
+    "combination_signature_ids": 5,
+    "pattern_candidate_ids": 6,
+    "primitive_candidate_ids": 4,
+    "total_persistent_brain_objects_added": 50
+  },
+  "human_source_parameter_count": 3204,
+  "parameter_inflation": 0,
+  "errors": []
+}

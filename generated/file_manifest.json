@@ -381,8 +381,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "720012d5a60226a5ac633d7e836d6a300883d799bb6be7d586c8b2a2aa278399",
-    "size_bytes": 6976
+    "sha256": "e224facc3bf073910843f4de3a899f6b5b06914377a7d63e1981f64247bcc0fa",
+    "size_bytes": 7102
   },
   {
     "path": ".github/workflows/king-character-workbook-review-rfr.yml",
@@ -698,6 +698,11 @@
     "path": "phase2/rfr/P2_CLOSURE_SCOPE_INHERITANCE_RFR_001.md",
     "sha256": "f0c43507d1e4c85828c8e8a75b465ccf124e13bd85e6bbd267180bad156268e1",
     "size_bytes": 730
+  },
+  {
+    "path": "phase2/rfr/P2_GROWTH_BATCH_003_TRIGGER.json",
+    "sha256": "6f0d15a5696c18f38d6a18c241f288bed786a83f8c5cab6054830dbc74a3749c",
+    "size_bytes": 384
   },
   {
     "path": "phase2/rfr/P2_EXPANSION_P2561_P2592_DOMAIN_RFR_001.md",
