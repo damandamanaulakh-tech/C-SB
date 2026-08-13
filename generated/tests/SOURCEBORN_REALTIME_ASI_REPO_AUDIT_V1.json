@@ -3,14 +3,14 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 336,
+  "tracked_files_scanned": 338,
   "classification_counts": {
     "CONTROL_PLANE": 8,
     "ACTIVE_ARCHITECTURE_OR_REGISTRY": 110,
-    "GENERATED_REBUILDABLE": 54,
+    "GENERATED_REBUILDABLE": 55,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
-    "TEST_OR_CLOSURE_RECORD": 47,
+    "TEST_OR_CLOSURE_RECORD": 48,
     "RAW_SOURCE_IMMUTABLE": 55,
     "TOOLING": 57
   },
@@ -420,6 +420,11 @@
       "identity_violations": 0
     },
     {
+      "path": "generated/tests/SOURCEBORN_REALTIME_ASI_REPO_AUDIT_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
       "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
@@ -691,6 +696,11 @@
     },
     {
       "path": "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_REALTIME_ASI_REPO_SEMANTIC_MIGRATION_CHECKPOINT_V1.json",
       "classification": "TEST_OR_CLOSURE_RECORD",
       "identity_violations": 0
     },
