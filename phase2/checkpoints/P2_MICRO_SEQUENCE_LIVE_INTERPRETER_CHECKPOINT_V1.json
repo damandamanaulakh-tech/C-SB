@@ -1,0 +1,19 @@
+{
+  "checkpoint_id": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-CHECKPOINT-V1",
+  "status": "TESTING",
+  "sequence_id": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001",
+  "declared_end": "A real text input can be converted into typed Sourceborn Micro-Sequence objects, candidate rubric/Container activations, bounded Engine routes, reviewable Pattern Candidate state and a separate versioned write-back after explicit user review.",
+  "implementation": "tools/run_micro_sequence_interpreter_v1.py",
+  "test": "tools/test_micro_sequence_live_interpreter_v1.py",
+  "required_guards": [
+    "no LLM/API dependency",
+    "no invented atomic Human parameter IDs",
+    "intent attribution remains USER_ATTRIBUTED/INFERRED unless directly observed",
+    "Pattern Candidate has no direct action authority",
+    "Pattern Candidate does not auto-promote",
+    "all Engine IDs come from approved Engine registry",
+    "explicit review creates a new write-back Sequence rather than reopening original analysis Sequence"
+  ],
+  "closure_condition": "Dedicated live-interpreter test passes and the same main CI run passes all prior locked invariants.",
+  "phase2_closure": "NOT_REQUESTED"
+}
