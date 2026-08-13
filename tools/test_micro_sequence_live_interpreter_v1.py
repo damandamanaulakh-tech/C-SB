@@ -3,7 +3,7 @@ from pathlib import Path
 import json, subprocess, sys, tempfile
 
 ROOT=Path(__file__).resolve().parents[1]
-SCRIPT=ROOT/'tools/run_micro_sequence_interpreter_v1.py'
+SCRIPT=ROOT/'tools/run_micro_sequence_interpreter_v1_1.py'
 GEN=ROOT/'generated/tests'
 GEN.mkdir(parents=True,exist_ok=True)
 
@@ -25,8 +25,10 @@ with tempfile.TemporaryDirectory() as td:
         data=json.loads(out.read_text(encoding='utf-8'))
 
     if data:
+        if data.get('interpreter_version')!='P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.1': errors.append('test is not running V1.1')
         if data.get('sequence_id')!=seq: errors.append('sequence ID mismatch')
         if not data.get('micro_units'): errors.append('no MicroUnits produced')
+        if 'INCOMPLETE_DISCLOSURE' not in data.get('features',[]): errors.append('past-tense incomplete disclosure not detected')
         pc=data.get('pattern_candidate')
         if not pc: errors.append('repeated structural case did not produce Pattern Candidate')
         else:
@@ -35,16 +37,18 @@ with tempfile.TemporaryDirectory() as td:
             if pc.get('approval_status')!='NOT_REVIEWED': errors.append('Pattern Candidate auto-promoted before review')
         rv=data.get('reviewable_rubric_view',{})
         if rv.get('source_proposal_immutable') is not True: errors.append('machine proposal not immutable in review view')
-        if 'R42' not in {a.get('rubric_path',[None])[0] for a in data.get('rubric_activations',[])}: errors.append('Pattern/Generalization rubric R42 not activated')
-        if 'R48' not in {a.get('rubric_path',[None])[0] for a in data.get('rubric_activations',[])}: errors.append('Gap rubric R48 not activated for incomplete disclosure')
+        rubrics={a.get('rubric_path',[None])[0] for a in data.get('rubric_activations',[])}
+        if 'R42' not in rubrics: errors.append('Pattern/Generalization rubric R42 not activated')
+        if 'R48' not in rubrics: errors.append('Gap rubric R48 not activated for incomplete disclosure')
+        if 'R50' not in rubrics: errors.append('Proof-Debt rubric R50 not activated for incomplete disclosure')
         human={a.get('rubric_path',[])[-1] for a in data.get('human_container_activations',[]) if a.get('rubric_path')}
-        for cid in ['CON-054','CON-063','CON-069']:
+        for cid in ['CON-032','CON-054','CON-063','CON-069','CON-075']:
             if cid not in human: errors.append('expected candidate Human container not activated:'+cid)
         engines={eid for r in data.get('engine_routes',[]) for eid in r.get('engine_ids',[])}
         for eid in ['ENG-CORE-001','ENG-SB-005','ENG-ARD-001','ENG-PAT-001','ENG-URR-002']:
             if eid not in engines: errors.append('expected Engine route absent:'+eid)
         if any('SB-ASI-P' in json.dumps(a) for a in data.get('human_container_activations',[])):
-            errors.append('V1 interpreter invented/claimed atomic Human parameter IDs')
+            errors.append('V1.1 interpreter invented/claimed atomic Human parameter IDs')
 
         decision={
             'decision_id':'SYN-DECISION-001',
@@ -76,9 +80,12 @@ with tempfile.TemporaryDirectory() as td:
 report={
     'report_id':'P2-MICRO-SEQUENCE-LIVE-INTERPRETER-TEST-V1',
     'status':'PASS' if not errors else 'FAIL',
+    'tested_interpreter':'P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.1',
+    'superseded_failed_interpreter':'P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1',
     'fixture_sequence_id':seq,
     'checks':{
         'micro_units_produced':bool(data.get('micro_units')) if data else False,
+        'inflected_incomplete_disclosure_detected':'INCOMPLETE_DISCLOSURE' in data.get('features',[]) if data else False,
         'pattern_candidate_produced':bool(data.get('pattern_candidate')) if data else False,
         'intent_user_attributed':(data.get('pattern_candidate') or {}).get('intent_status')=='USER_ATTRIBUTED' if data else False,
         'pattern_no_action_authority':(data.get('pattern_candidate') or {}).get('direct_action_authority') is False if data else False,
