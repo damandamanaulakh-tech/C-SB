@@ -1,0 +1,23 @@
+{
+  "overlay_id": "EVENT-INTENT-FIRST-CLASS-RECORDS-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "base_schema": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+  "purpose": "Add Event and Intent as explicit first-class records without rewriting the existing V2 lock-candidate schema in place.",
+  "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+  "records": {
+    "EVENT_RECORD": {
+      "fields": ["event_id", "event_type", "sequence_id", "parent_event_id", "child_event_ids", "source_refs", "source_span_refs", "actor_ids", "object_ids", "prior_state_refs", "resulting_state_refs", "relation_ids", "order_types", "parameter_refs", "rubric_refs", "container_refs", "intent_candidate_ids", "intent_id", "candidate_brain_state_ids", "combination_ids", "pattern_contribution_ids", "memory_write_refs", "observer_or_view_refs", "epistemic_status", "event_status"],
+      "invariants": ["EVERY_EVENT_HAS_EXACTLY_ONE_PRIMARY_INTENT_RECORD_REF", "UNKNOWN_INTENT_IS_VALID", "SOURCE_EVENT_AND_REPRESENTED_EVENT_REMAIN_DISTINCT", "EVENT_RECORD_DOES_NOT_PROVE_WORLD_TRUTH_BEYOND_ITS_SOURCE_STATUS"]
+    },
+    "INTENT_RECORD": {
+      "fields": ["intent_id", "event_id", "intent_type", "stated_intent", "inferred_intent", "stated_motive", "operating_motive_hypothesis", "goal", "target", "method", "conditions", "typed_order_refs", "actor_view_refs", "supporting_evidence_refs", "contradicting_evidence_refs", "alternative_intent_ids", "falsifiers", "proof_debt", "epistemic_status", "review_status", "source_refs"],
+      "invariants": ["INTENT != MOTIVE", "STATED_INTENT != INFERRED_INTENT", "INTENT_HYPOTHESIS != INTENT_FACT", "NATURAL_DYNAMICS_DIRECTION != CONSCIOUS_AGENCY", "NEW_WORDING != NEW_INTENT_SIGNATURE"]
+    },
+    "EVENT_GROWTH_CONTRIBUTION": {
+      "schema": "machine/schemas/event_growth_ledger.schema.json",
+      "purpose": "Track occurrence, activation, candidate-support, validated-support and canonical count layers separately."
+    }
+  },
+  "runtime_bindings": ["machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json", "machine/runtime/EVENT_GROWTH_LEDGER_RUNTIME_V1.json", "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json", "machine/runtime/INTENT_HYPOTHESIS_SYNTHESIS_RUNTIME_V1.json"],
+  "promotion_rule": "This overlay remains additive until the V2 first-class schema is explicitly re-locked. Historical closed Sequence records are not rewritten."
+}

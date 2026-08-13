@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/event_growth_ledger.schema.json",
+  "title": "Sourceborn Event Growth Ledger Contribution",
+  "type": "object",
+  "required": [
+    "growth_contribution_id",
+    "sequence_id",
+    "event_ids",
+    "counts",
+    "existing_id_activation_refs",
+    "intent_signature_refs",
+    "pattern_refs",
+    "approval_state"
+  ],
+  "properties": {
+    "growth_contribution_id": {"type": "string"},
+    "sequence_id": {"type": "string"},
+    "event_ids": {"type": "array", "items": {"type": "string"}},
+    "counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "existing_id_activation_refs": {"type": "object"},
+    "intent_signature_refs": {"type": "array", "items": {"type": "string"}},
+    "pattern_refs": {"type": "array", "items": {"type": "string"}},
+    "candidate_support_deltas": {"type": "array"},
+    "validated_support_deltas": {"type": "array"},
+    "canonical_additions": {"type": "array"},
+    "contradiction_refs": {"type": "array"},
+    "proof_debt": {"type": "array"},
+    "approval_state": {"type": "string"},
+    "writeback_status": {"type": "string"},
+    "provenance_refs": {"type": "array"}
+  }
+}

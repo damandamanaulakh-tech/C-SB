@@ -1,11 +1,12 @@
 {
-  "pointer_id":"CURRENT-MICRO-SEQUENCE-INTERPRETER",
-  "status":"PHASE2_ACTIVE_CONTROLLED_TESTING",
-  "current_script":"tools/run_micro_sequence_interpreter.py",
-  "current_version_script":"tools/run_micro_sequence_interpreter_v1_2.py",
-  "current_version":"P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.2",
-  "supersedes":"P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.1",
-  "reason":"V1.2 adds live compositional intent hypothesis generation from relevant parameters plus relation/order structure, including when explicit intent words are absent.",
-  "compatibility":"V1.1 structural output is preserved and extended additively with intent_signals, intent_hypotheses and intent_contribution.",
-  "epistemic_guard":"Generated intent remains HYPOTHESIZED unless directly evidenced or user-attributed. More parameters increase candidate resolution, not confidence by themselves."
+  "pointer_id": "CURRENT-MICRO-SEQUENCE-INTERPRETER",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "current_script": "tools/run_micro_sequence_interpreter.py",
+  "current_version_script": "tools/run_micro_sequence_interpreter_v1_3.py",
+  "current_version": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.3",
+  "supersedes": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.2",
+  "reason": "V1.3 makes Event/Intent first-class runtime output, adds tiered growth counts for every example/event, and adds conservative atomic Human parameter auto-activation candidates.",
+  "compatibility": "V1.2 structural and live-intent output is preserved and extended additively with event_records, event_intent_records, auto_parameter_activation_candidates and event_growth_ledger.",
+  "epistemic_guard": "Every Event receives an Intent record, but UNKNOWN remains valid. Natural dynamics are not conscious agency. Auto parameter matches are candidate activations; occurrence/candidate counts may grow automatically while validated/canonical support remains review-gated.",
+  "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT"
 }
