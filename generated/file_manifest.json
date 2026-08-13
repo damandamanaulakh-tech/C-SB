@@ -285,6 +285,11 @@
     "size_bytes": 13810
   },
   {
+    "path": "tools/validate_king_character_engine_workbook_review_v1.py",
+    "sha256": "a77509089e85df0ab6593c2c9d38527064d9edc561f90f42981aa71d5bd8387e",
+    "size_bytes": 3980
+  },
+  {
     "path": "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
     "sha256": "cfa2a213e2fe99dbe1e80e6087a4682ee84b715e8f53042b2de05eddb9f4e21a",
     "size_bytes": 67396
@@ -338,6 +343,11 @@
     "path": ".github/workflows/relink-validate.yml",
     "sha256": "e58075b92ea798ca0d5813ff6c086f1b306dee796c04add07df94dafbca7dddd",
     "size_bytes": 5897
+  },
+  {
+    "path": ".github/workflows/king-character-workbook-review-rfr.yml",
+    "sha256": "5ec06177459c72fb019eaa1b8bf84434c5bc0be08e99bfea458fc06e5ed0af9c",
+    "size_bytes": 781
   },
   {
     "path": ".github/workflows/multi-rubric-integration-rfr.yml",
@@ -678,6 +688,11 @@
     "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
     "sha256": "c5c9e2f609ea454461fefabea0dcacde9d790a3756b5fb2c3475c1d43ba9e0bb",
     "size_bytes": 3629
+  },
+  {
+    "path": "phase2/checkpoints/P2_KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_001.json",
+    "sha256": "45207e7b32eb7f30a8b9b813ec0621c39ce2a1a3561bc90d11b7078cca6ab317",
+    "size_bytes": 1456
   },
   {
     "path": "phase2/checkpoints/P2_SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
