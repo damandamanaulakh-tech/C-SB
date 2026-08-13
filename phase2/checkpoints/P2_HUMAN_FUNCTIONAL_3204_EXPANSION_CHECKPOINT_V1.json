@@ -1,0 +1,62 @@
+{
+  "checkpoint_id": "P2-HUMAN-FUNCTIONAL-3204-EXPANSION-V1",
+  "checkpoint_type": "SOURCE_SUCCESSOR_EXPANSION_CHECKPOINT",
+  "status": "CLOSED_SUCCESS_FOR_SOURCE_EXPANSION",
+  "phase2_status": "ACTIVE",
+  "legacy_registry": {
+    "range": "SB-ASI-P0001..SB-ASI-P2560",
+    "count": 2560,
+    "immutable": true
+  },
+  "expanded_registry": {
+    "registry_id": "HUMAN-FUNCTIONAL-REGISTRY-V1-3204",
+    "range": "SB-HFR-P0001..SB-HFR-P3204",
+    "count": 3204,
+    "net_change": 644,
+    "segments": 10,
+    "containers": 80
+  },
+  "source_documents": [
+    {
+      "name": "ASI_Claude_Parameters.docx",
+      "title": "Human Functional Registry v1.0",
+      "sha256": "8a9b4f601267027cb068edc0f5a7b9ab476c41b26758137c6aff73e4d176f719",
+      "role": "PRIMARY_FULL_ENUMERATION"
+    },
+    {
+      "name": "ASI_GPT_Parameters.docx",
+      "title": "Human Functional Registry v0.2 Corrected & Verified Edition",
+      "sha256": "0e8410f5c37e738b23dbda4eaa03a22df31e3e289b84a83afc9f5fa66c811da0",
+      "role": "LEGACY_COUNT_CONTAINER_CROSSCHECK"
+    }
+  ],
+  "rfr": {
+    "report": "generated/tests/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_RFR_V1.json",
+    "status": "PASS",
+    "ci_run": 31658987656
+  },
+  "closed_scope": [
+    "Fully enumerated Human Functional Registry v1.0 source extracted into deterministic machine-readable custody.",
+    "SB-HFR-P0001..SB-HFR-P3204 materialized and indexed.",
+    "Effective Human-derived functional source count raised from 2,560 to 3,204; net change +644.",
+    "Legacy SB-ASI-P0001..SB-ASI-P2560 identities preserved without deletion or rename.",
+    "All 80 container names preserved across source versions.",
+    "Source-version count divergence recorded instead of silently merged.",
+    "40 filters, 12 states, 7 evidence levels, 20 failure classes and 30 operating-chain steps excluded from the parameter count.",
+    "Generation, relinking and R-F-R integrated into repository CI."
+  ],
+  "explicit_findings": [
+    "CON-042 Core Reasoning is 48 parameters in the legacy 2,560 source and 42 named parameters in Human Functional Registry v1.0. The successor source does not delete the six legacy rows; atomic reconciliation remains open."
+  ],
+  "unresolved": [
+    "Atomic legacy SB-ASI-P to successor SB-HFR-P identity reconciliation.",
+    "CON-042 48-to-42 source-version reconciliation.",
+    "Runtime-owner classification of all 3,204 Human-derived parameters.",
+    "Final completeness of the HUMAN_PHYSICAL ontology, including body, appearance, ageing, longevity/life-extension and physical capacity."
+  ],
+  "runtime_owner_law": "SOURCE LOCATION != RUNTIME OWNERSHIP",
+  "next_sequence_ids": [
+    "P2-HUMAN-3204-RUNTIME-OWNER-RECLASSIFICATION-01",
+    "P2-HUMAN-2560-3204-ATOMIC-RECONCILIATION-01"
+  ]
+}

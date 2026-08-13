@@ -43,7 +43,7 @@
       },
       {
         "id": "P2-HUMAN",
-        "status": "NATIVE_2560_CUSTODY_AND_RUNTIME_DEPTH_VALIDATED_RFR_OPEN",
+        "status": "LEGACY_2560_PRESERVED_FUNCTIONAL_SUCCESSOR_3204_MATERIALIZED_RFR_OPEN",
         "outputs": [
           "raw/human/task3_human_native_parts/part-01.tsv.gz.b64",
           "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
@@ -59,27 +59,51 @@
           "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
           "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
           "tools/validate_human_native_2560_runtime_depth_v1.py",
-          "generated/tests/P2_HUMAN_2560_RUNTIME_DEPTH_RFR_V1.json"
+          "generated/tests/P2_HUMAN_2560_RUNTIME_DEPTH_RFR_V1.json",
+          "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+          "raw/human/hfr_v1_3204/part-01.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-03.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-05.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-06.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
+          "raw/human/hfr_v1_3204/part-08.tsv.gz.b64",
+          "generated/registry_views/human_functional_3204_registry_v1.json",
+          "generated/registry_views/human_functional_3204_summary_v1.json",
+          "generated/tests/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_RFR_V1.json",
+          "phase2/checkpoints/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_CHECKPOINT_V1.json"
         ],
         "metrics": {
-          "parameter_rows": 2560,
-          "first_parameter_id": "SB-ASI-P0001",
-          "last_parameter_id": "SB-ASI-P2560",
+          "legacy_parameter_rows": 2560,
+          "legacy_first_parameter_id": "SB-ASI-P0001",
+          "legacy_last_parameter_id": "SB-ASI-P2560",
+          "expanded_functional_parameter_rows": 3204,
+          "expanded_first_parameter_id": "SB-HFR-P0001",
+          "expanded_last_parameter_id": "SB-HFR-P3204",
+          "net_count_change": 644,
           "containers": 80,
           "segments": 10,
-          "source_columns": 13,
-          "approved_by_user_coverage": 2560,
-          "user_evident_coverage": 2560,
-          "canonical_brain_base_coverage": 2560,
-          "custody_parts": 8,
-          "rows_per_part": 320,
-          "runtime_depth_container_ranges": 80,
-          "runtime_depth_segment_ranges": 10,
-          "runtime_depth_parameter_coverage": 2560,
-          "runtime_depth_layer_laws_validated": true,
-          "runtime_depth_ci_run": 31655797976
+          "expanded_segment_counts": [320, 320, 320, 320, 320, 322, 320, 322, 320, 320],
+          "grown_containers": 77,
+          "unchanged_containers": 2,
+          "contracted_source_version_containers": 1,
+          "legacy_ids_preserved": true,
+          "runtime_owner_reclassification": "OPEN",
+          "atomic_legacy_successor_reconciliation": "OPEN",
+          "source_location_not_runtime_ownership": true
         },
-        "next": "Generate additive per-parameter Sequence/ASI-node/rubric bindings over the exact materialized Human registry using the validated Segment/Container runtime-depth placement, then run orphan/overlap/R-F-R tests and issue the Human Adoption Closure Packet when clean."
+        "invariants": [
+          "SB-ASI-P0001..SB-ASI-P2560 remains immutable legacy provenance",
+          "SB-HFR-P0001..SB-HFR-P3204 is the fully enumerated successor source namespace",
+          "effective Human-derived functional source count is 3,204, not 5,764",
+          "source-version contraction does not delete legacy rows",
+          "CON-042 Core Reasoning legacy 48 -> v1 42 remains an explicit reconciliation finding",
+          "40 filters, 12 states, 7 evidence levels, 20 failure classes and 30 operating-chain steps remain scaffolds and are not counted as parameters",
+          "SOURCE LOCATION != RUNTIME OWNERSHIP",
+          "3,204 Human-derived source parameters are not automatically HUMAN_PHYSICAL"
+        ],
+        "next": "Run P2-HUMAN-3204-RUNTIME-OWNER-RECLASSIFICATION-01 over SB-HFR-P0001..P3204 using HUMAN_PHYSICAL / BRAIN_COGNITIVE / AFFECT_RELATIONAL / SEQUENCE_RUNTIME / MIXED / UNKNOWN; separately reconcile legacy SB-ASI-P identities without deletion or guessed aliases, then run orphan/overlap/R-F-R."
       },
       {
         "id": "P2-AI",
@@ -159,7 +183,7 @@
       {
         "id": "P2-GENERATOR",
         "status": "ACTIVE_AUTOGENERATION_V2_EXTENDED",
-        "next": "Workflow assembles canonical sources, materializes/validates Human custody and exact 2,560 runtime depth, builds registry views, generates V2 rubric cross-references, relinks Micro-Sequence runtime IDs, validates live interpreter behavior plus micro-pattern and locked invariants, then commits generated outputs."
+        "next": "Workflow assembles canonical sources; materializes and validates legacy Human 2,560 plus expanded Human functional 3,204; builds registry views; generates V2 rubric cross-references; relinks Micro-Sequence runtime and SB-HFR IDs; validates live interpreter behavior plus micro-pattern and locked invariants; then commits generated outputs."
       }
     ]
   }

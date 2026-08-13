@@ -30,11 +30,23 @@
     },
     "workstreams": {
       "P2_HUMAN": {
-        "mode": "ADOPTION_AND_MAPPING",
-        "native_shape": "10 Segments -> 80 canonical Human Containers -> 2,560 canonical Human parameters",
-        "source_status": "AVAILABLE_IN_UPLOADED_APPROVED_MERGED_AND_COMBINED_CORPUS",
-        "repo_materialization_status": "FULL_2560_ROW_NATIVE_REGISTRY_NOT_YET_TEXT_MATERIALIZED_IN_REPO",
-        "rule": "Do not invent or rename Human IDs; source workbook is now available for exact extraction."
+        "mode": "SOURCE_SUCCESSOR_ADOPTION_PLUS_RUNTIME_OWNER_RECLASSIFICATION",
+        "legacy_native_shape": "10 Segments -> 80 Containers -> 2,560 legacy approved source parameters",
+        "expanded_functional_shape": "10 Segments -> 80 Containers -> 3,204 fully enumerated Human-derived functional source parameters",
+        "legacy_registry_ids": "SB-ASI-P0001..SB-ASI-P2560",
+        "expanded_registry_ids": "SB-HFR-P0001..SB-HFR-P3204",
+        "legacy_status": "PRESERVED_IMMUTABLE",
+        "expanded_status": "MATERIALIZED_RFR_PASS",
+        "net_count_change": 644,
+        "expanded_registry": "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+        "generated_registry": "generated/registry_views/human_functional_3204_registry_v1.json",
+        "generated_summary": "generated/registry_views/human_functional_3204_summary_v1.json",
+        "rfr_report": "generated/tests/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_RFR_V1.json",
+        "container_version_divergence": "CON-042 Core Reasoning is 48 in the legacy 2,560 source and 42 in the v1.0 3,204 successor source; legacy rows are not deleted.",
+        "atomic_reconciliation_status": "OPEN",
+        "runtime_owner_reclassification_status": "OPEN",
+        "runtime_owner_rule": "SOURCE LOCATION != RUNTIME OWNERSHIP",
+        "rule": "Never delete or rename legacy Human IDs. The v1 successor raises the effective Human-derived functional source count to 3,204 but does not imply every source row is HUMAN_PHYSICAL."
       },
       "P2_AI": {
         "mode": "SOURCE_ADOPTION_PLUS_NATIVE_CONSTRUCTION",
