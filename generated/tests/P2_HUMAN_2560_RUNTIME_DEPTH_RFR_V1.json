@@ -1,0 +1,18 @@
+{
+  "report_id": "P2-HUMAN-2560-RUNTIME-DEPTH-RFR-V1",
+  "status": "PASS",
+  "mapping_id": "HUMAN-NATIVE-2560-RUNTIME-PLACEMENT-V1",
+  "checks": {
+    "canonical_layer_parameter": true,
+    "container_ranges": 80,
+    "segment_ranges": 10,
+    "mapped_parameter_total": 2560,
+    "final_parameter_number": 2560,
+    "approved_source_container_count": 80,
+    "generated_exact_parameter_ids_checked": 2560,
+    "required_layer_laws_present": true,
+    "illustrative_bundle_non_universal": true
+  },
+  "errors": [],
+  "findings": []
+}
