@@ -1,0 +1,58 @@
+{
+  "registry_id": "SOURCEBORN-DOMAIN-PACK-REASONING-CANDIDATES-V0",
+  "status": "REVIEW_REQUIRED_CANDIDATES",
+  "authority": "NO_DIRECT_EXECUTION_AUTHORITY",
+  "source_review_ref": "P2-KING-CHARACTER-ENGINE-WORKBOOK-REVIEW-001",
+  "candidates": [
+    {
+      "candidate_id": "RC-DOMAIN-RUBRIC-INSTANTIATION-001",
+      "name": "DOMAIN CONTAINER × EVALUATION DIMENSION = RUNTIME ADDRESS",
+      "candidate_type": "REPRESENTATION_AND_SCALING_CANDIDATE",
+      "status": "REVIEW_REQUIRED",
+      "canonical": false,
+      "direct_action_authority": false,
+      "definition": "A domain container may be interrogated by reusable universal evaluation dimensions to create case/runtime addresses without declaring each instantiated address a new native primitive.",
+      "hard_separations": [
+        "INSTANTIATED_ADDRESS != NATIVE_PARAMETER",
+        "DOMAIN_CONTAINER != RUBRIC",
+        "RUBRIC_APPLICATION != ONTOLOGY_EXPANSION"
+      ],
+      "supporting_source_facts": ["80 domain containers", "25 repeated interrogation dimensions", "2000 instantiated rows"],
+      "application_guard": "Only instantiate combinations that are semantically meaningful; do not generate meaningless Cartesian products."
+    },
+    {
+      "candidate_id": "RC-NO-EVIDENCE-NO-RANK-001",
+      "name": "NO VALIDATED EVIDENCE => NO LEADING RANK",
+      "candidate_type": "EPISTEMIC_GOVERNANCE_CANDIDATE",
+      "status": "REVIEW_REQUIRED",
+      "canonical": false,
+      "direct_action_authority": false,
+      "definition": "When candidates are tied because no validated evidence has been entered, deterministic row order must not be presented as a leading hypothesis.",
+      "hard_separations": ["ROW_ORDER != EVIDENCE", "TIE_BREAK != SUPPORT", "UNASSESSED != LOW_CONFIDENCE_MATCH"],
+      "application_guard": "Ranking may resume only after declared minimum evidence/coverage gates are satisfied."
+    },
+    {
+      "candidate_id": "RC-SCORE-CONFIDENCE-SEPARATION-001",
+      "name": "MATCH DIRECTION / MAGNITUDE != EPISTEMIC CONFIDENCE",
+      "candidate_type": "SCORING_EPISTEMIC_CANDIDATE",
+      "status": "REVIEW_REQUIRED",
+      "canonical": false,
+      "direct_action_authority": false,
+      "definition": "A positive or negative fit score describes relation to a hypothesis; confidence describes evidence quality and proof status. Absolute score magnitude cannot substitute for confidence.",
+      "hard_separations": ["NEGATIVE_MATCH != LOW_CONFIDENCE", "HIGH_ABSOLUTE_SCORE != HIGH_EPISTEMIC_CONFIDENCE", "CONTRADICTION_STRENGTH != BELIEF_CERTAINTY"],
+      "application_guard": "Store sign/magnitude, evidence coverage, provenance and confidence separately."
+    },
+    {
+      "candidate_id": "RC-INDEPENDENT-LOOP-001",
+      "name": "INDEPENDENT LOOP != DUPLICATED ROUTE TEMPLATE",
+      "candidate_type": "MULTI_PATH_REASONING_CANDIDATE",
+      "status": "REVIEW_REQUIRED",
+      "canonical": false,
+      "direct_action_authority": false,
+      "definition": "Multiple reasoning loops count as independent only when their evidence contracts, assumptions, path dependencies or falsifiers are sufficiently independent; changing only the question over the same route is not enough.",
+      "hard_separations": ["LOOP_COUNT != INDEPENDENCE", "DIFFERENT_PROMPT != DIFFERENT_EVIDENCE_PATH", "REPEATED_ROUTE != CORROBORATION"],
+      "application_guard": "Measure source independence, path overlap and shared assumptions before treating multiple loop agreement as corroboration."
+    }
+  ],
+  "promotion_rule": "Repeated cross-domain support plus R-F-R plus explicit review is required before any candidate becomes a native/canonical reasoning parameter or rubric."
+}
