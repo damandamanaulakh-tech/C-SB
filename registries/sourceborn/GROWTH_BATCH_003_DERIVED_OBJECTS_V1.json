@@ -1,0 +1,78 @@
+{
+  "registry_id": "SOURCEBORN-GROWTH-BATCH-003-DERIVED-OBJECTS-V1",
+  "status": "PERSISTED_GROWTH_OBJECTS_WITH_REVIEW_GATED_PRIMITIVE_CANDIDATES",
+  "source_custody_ref": "phase2/sources/GROWTH_BATCH_003_SOURCE_CUSTODY.json",
+  "source_id": "SRC-GROW-003-001",
+  "event_ids": [
+    "P2-GROW-003-E001","P2-GROW-003-E002","P2-GROW-003-E003","P2-GROW-003-E004","P2-GROW-003-E005","P2-GROW-003-E006","P2-GROW-003-E007","P2-GROW-003-E008","P2-GROW-003-E009"
+  ],
+  "event_intent_default": "DERIVED_INTENT_HYPOTHESIS_OR_UNKNOWN",
+  "event_memory_ids": [
+    "MEM-GROW-003-001","MEM-GROW-003-002","MEM-GROW-003-003","MEM-GROW-003-004","MEM-GROW-003-005","MEM-GROW-003-006","MEM-GROW-003-007","MEM-GROW-003-008","MEM-GROW-003-009"
+  ],
+  "event_memory_mapping": "one Event Memory ID per Event ID in numeric order",
+  "pattern_contribution_ids": [
+    "PCONTR-GROW-003-001","PCONTR-GROW-003-002","PCONTR-GROW-003-003","PCONTR-GROW-003-004","PCONTR-GROW-003-005","PCONTR-GROW-003-006","PCONTR-GROW-003-007","PCONTR-GROW-003-008","PCONTR-GROW-003-009"
+  ],
+  "pattern_contribution_mapping": "one Pattern Contribution ID per Event ID in numeric order",
+  "relation_ids": [
+    {"relation_id":"REL-GROW-003-001","source":"CURRENT_ACTION_OR_THEORY","relation":"REQUIRES_TRACEABILITY_TO","target":"POINT_ZERO","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-002","source":"THEORY_COMPLETENESS","relation":"DEPENDS_ON","target":"POINT_ZERO_GROUNDING","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-003","source":"FAILURE_OR_DEVIATION","relation":"ACTIVATES","target":"TRACEBACK_TO_POINT_ZERO","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-004","source":"POINT_ZERO","relation":"PRECEDES","target":"FIRST_DERIVATION_OR_POINT_ONE","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-005","source":"FIRST_DERIVATION_OR_POINT_ONE","relation":"MAY_BRANCH_TO","target":"MULTIPLE_SUBSEQUENCES","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-006","source":"SUBSEQUENCE","relation":"MAY_DECLARE","target":"LOCAL_POINT_ZERO","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-007","source":"REPRESENTATION_LABEL_OR_NUMBER","relation":"DISTINCT_FROM","target":"LATER_PROPERTY_OR_ANGLE_INTERPRETATION","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-008","source":"REVERSE_ENGINEERING_DEPTH","relation":"MAY_INCREASE","target":"MODEL_RESOLUTION_OR_BIG_PICTURE_REFINEMENT","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-009","source":"BIG_PICTURE_MODEL","relation":"DECOMPOSES_INTO","target":"FURTHER_SEQUENCES","status":"PERSISTENT_RELATION"},
+    {"relation_id":"REL-GROW-003-010","source":"FOLLOWER_LABEL","relation":"SOURCE_DEFINES_BY","target":"FAILURE_TO_REACH_POINT_ZERO","epistemic_status":"SOURCE_DEFINED_PERSONAL_THEORY_NOT_UNIVERSAL_FACT","status":"PERSISTENT_SOURCE_RELATION"}
+  ],
+  "path_ids": [
+    {"path_id":"PATH-GROW-003-001","path":["CURRENT_WORK","POINT_ZERO_TRACE","ASSUMPTION_RECHECK","REFINED_MODEL"],"status":"PERSISTENT_PATH_SIGNATURE"},
+    {"path_id":"PATH-GROW-003-002","path":["POINT_ZERO","POINT_ONE","BRANCH_SET","SUBSEQUENCE","LOCAL_POINT_ZERO","RECURSE"],"status":"PERSISTENT_PATH_SIGNATURE"},
+    {"path_id":"PATH-GROW-003-003","path":["BIG_PICTURE_TARGET","REVERSE_ENGINEERING","REFINEMENT","DECOMPOSITION","FURTHER_SEQUENCE"],"status":"PERSISTENT_PATH_SIGNATURE"},
+    {"path_id":"PATH-GROW-003-004","path":["REPRESENTATION_OR_NAME","LATER_PROPERTY_INTERPRETATION","ORDER_CHECK"],"status":"PERSISTENT_PATH_SIGNATURE"}
+  ],
+  "intent_signatures": [
+    {"intent_signature_id":"INTSIG-GROW-003-001","label":"RECOVER_THE_ORIGIN_POINT_BEFORE_ACCEPTING_A_CURRENT_MODEL_OR_ACTION","source_refs":["SRC-GROW-003-001"],"epistemic_status":"DERIVED_INTENT_HYPOTHESIS"},
+    {"intent_signature_id":"INTSIG-GROW-003-002","label":"BUILD_A_RECURSIVE_SEQUENCE_MODEL_THAT_CAN_MOVE_FROM_POINT_ZERO_TO_BRANCHES_AND_BACK_TO_LOCAL_ORIGINS","source_refs":["SRC-GROW-003-001"],"epistemic_status":"DERIVED_INTENT_HYPOTHESIS"},
+    {"intent_signature_id":"INTSIG-GROW-003-003","label":"USE_REVERSE_ENGINEERING_TO_REFINE_A_BIGGER_PICTURE_BEFORE_DECOMPOSING_IT_INTO_FURTHER_SEQUENCES","source_refs":["SRC-GROW-003-001"],"epistemic_status":"DERIVED_INTENT_HYPOTHESIS"}
+  ],
+  "combination_signatures": [
+    {"combination_id":"COMB-GROW-003-001","label":"CURRENT_KNOWLEDGE + POINT_ZERO_TRACE + FAILURE_AUDIT","status":"PERSISTENT_COMBINATION_SIGNATURE"},
+    {"combination_id":"COMB-GROW-003-002","label":"POINT_ZERO + POINT_ONE + BRANCHING + RECURSIVE_SUBSEQUENCE","status":"PERSISTENT_COMBINATION_SIGNATURE"},
+    {"combination_id":"COMB-GROW-003-003","label":"REVERSE_ENGINEERING + BIG_PICTURE_REFINEMENT + SUBSEQUENCE_DECOMPOSITION","status":"PERSISTENT_COMBINATION_SIGNATURE"},
+    {"combination_id":"COMB-GROW-003-004","label":"REPRESENTATION_ORIGIN + LATER_PROPERTY_INTERPRETATION + ORDER_GUARD","status":"PERSISTENT_COMBINATION_SIGNATURE"},
+    {"combination_id":"COMB-GROW-003-005","label":"SOURCE_DEFINED_FOLLOWER_FRAME + POINT_ZERO_ACCESS + EPISTEMIC_GUARD","status":"PERSISTENT_COMBINATION_SIGNATURE"}
+  ],
+  "pattern_candidates": [
+    {"pattern_candidate_id":"PC-GROW-003-001","label":"POINT_ZERO_DRIFT","definition":"A system continues operating while losing traceability to the origin condition/source that justified its current structure.","status":"PATTERN_CANDIDATE","canonical":false},
+    {"pattern_candidate_id":"PC-GROW-003-002","label":"FAILURE_AS_ORIGIN_RECHECK_TRIGGER","definition":"Observed failure or deviation should trigger re-examination of the relevant Point Zero rather than only local correction.","status":"PATTERN_CANDIDATE","canonical":false},
+    {"pattern_candidate_id":"PC-GROW-003-003","label":"RECURSIVE_LOCAL_POINT_ZERO","definition":"A Sub-Sequence may require its own scoped Point Zero while remaining linked to the parent Sequence origin.","status":"PATTERN_CANDIDATE","canonical":false},
+    {"pattern_candidate_id":"PC-GROW-003-004","label":"REPRESENTATION_PROPERTY_ORDER_SEPARATION","definition":"The existence/order of a representation label can be distinct from properties or explanatory dimensions attached to it later.","status":"PATTERN_CANDIDATE","canonical":false},
+    {"pattern_candidate_id":"PC-GROW-003-005","label":"REVERSE_ENGINEERING_RESOLUTION_GAIN","definition":"Repeated reverse tracing can increase model resolution when it exposes earlier assumptions, dependencies or omitted causes.","status":"PATTERN_CANDIDATE","canonical":false},
+    {"pattern_candidate_id":"PC-GROW-003-006","label":"BIG_PICTURE_TO_SUBSEQUENCE_DECOMPOSITION","definition":"A refined higher-level model can be decomposed into smaller Sequences after its origin/end relations are understood.","status":"PATTERN_CANDIDATE","canonical":false}
+  ],
+  "primitive_candidates": [
+    {"candidate_id":"RC-GROW-005","name":"POINT_ZERO_TRACEBACK_GATE","definition":"Before accepting a model, plan, theory or correction as sufficiently grounded, require a trace to the relevant scoped Point Zero or explicit UNKNOWN when that origin cannot yet be recovered.","source_refs":["SRC-GROW-003-001"],"status":"REVIEW_REQUIRED","canonical":false,"direct_action_authority":false},
+    {"candidate_id":"RC-GROW-006","name":"ORIGIN_DISTANCE_MEASURE","definition":"Measure the number and type of derivation, dependency or interpretation layers between a current object/claim/action and its relevant Point Zero, without treating greater distance as automatically worse.","source_refs":["SRC-GROW-003-001"],"status":"REVIEW_REQUIRED","canonical":false,"direct_action_authority":false},
+    {"candidate_id":"RC-GROW-007","name":"RECURSIVE_LOCAL_POINT_ZERO","definition":"Allow a Sub-Sequence to declare a local Point Zero while preserving a typed reference to the parent Sequence Point Zero and preventing the local origin from overwriting the global one.","source_refs":["SRC-GROW-003-001"],"status":"REVIEW_REQUIRED","canonical":false,"direct_action_authority":false},
+    {"candidate_id":"RC-GROW-008","name":"REPRESENTATION_PROPERTY_ORDER_GUARD","definition":"Keep the origin/order of a representation or label separate from properties, dimensions or explanatory structures attached to it later; do not infer that the later property caused the original label without evidence.","source_refs":["SRC-GROW-003-001"],"status":"REVIEW_REQUIRED","canonical":false,"direct_action_authority":false}
+  ],
+  "count_delta": {
+    "source_files_added": 1,
+    "example_wrappers_added": 1,
+    "event_memory_ids_added": 9,
+    "pattern_contribution_ids_added": 9,
+    "relation_ids_added": 10,
+    "path_ids_added": 4,
+    "intent_signature_ids_added": 3,
+    "combination_signature_ids_added": 5,
+    "pattern_candidate_ids_added": 6,
+    "primitive_candidate_ids_added": 4,
+    "persistent_brain_objects_added": 50,
+    "human_derived_source_parameters_before": 3204,
+    "human_derived_source_parameters_after": 3204
+  },
+  "growth_law": "The Brain count increases through durable Event memory, relations, paths, combinations, intent signatures, Pattern Contributions, Pattern Candidates and review-gated primitive candidates. The Human source parameter count is not inflated merely to force growth."
+}
