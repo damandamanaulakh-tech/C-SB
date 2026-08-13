@@ -1,0 +1,57 @@
+{
+  "fixture_id": "P2-MICRO-PATTERN-001",
+  "status": "SYNTHETIC_STRUCTURAL_TEST_NOT_PERSONAL_FACT",
+  "declared_end": "Test whether repeated structurally similar events can form a reviewable pattern candidate without asserting hidden intent as fact or auto-promoting a rubric.",
+  "actors": ["ACTOR-A","ACTOR-B","ACTOR-C"],
+  "resource": "TRANSPORT_HELP",
+  "occurrences": [
+    {"sequence_id":"SYN-MICRO-S1","observed":["ACTOR-A requests transport help from ACTOR-B","destination/context disclosure before commitment is incomplete"],"inferred":[]},
+    {"sequence_id":"SYN-MICRO-S2","observed":["ACTOR-A requests transport help from ACTOR-B","additional ACTOR-C remains with ACTOR-B without a clearly recorded prior agreement"],"inferred":[]},
+    {"sequence_id":"SYN-MICRO-S3","observed":["ACTOR-A requests transport help from ACTOR-B","full plan is disclosed after ACTOR-B is already engaged"],"inferred":[]},
+    {"sequence_id":"SYN-MICRO-S4","observed":["ACTOR-A requests transport help from ACTOR-B","advance context remains incomplete"],"inferred":[]},
+    {"sequence_id":"SYN-MICRO-S5","observed":["ACTOR-A obtains transport/help","ACTOR-B receives additional context after commitment"],"inferred":[]}
+  ],
+  "expected_micro_dimensions": [
+    "REQUEST",
+    "RESOURCE_USE",
+    "INFORMATION_STATE",
+    "TEMPORAL_ORDER_DISCLOSURE_VS_COMMITMENT",
+    "EXPECTATION_DIFFERENCE",
+    "RELATIONSHIP_CONTEXT",
+    "REPETITION",
+    "ACTOR_VIEW",
+    "INTENT_EPISTEMIC_STATUS"
+  ],
+  "expected_pattern_contribution": {
+    "relation_signature": "A requests/uses B resource -> B commits -> additional/full context appears later",
+    "repetition_evidence_count": 5,
+    "candidate_creation_justified": true
+  },
+  "required_alternative_interpretations": [
+    "poor communication",
+    "assumed familiarity",
+    "convenience-driven behavior",
+    "instrumental use of relationship",
+    "deliberate withholding",
+    "unknown/other"
+  ],
+  "required_intent_status_before_user_review": "INFERRED_OR_UNKNOWN",
+  "forbidden_pre_review_outputs": [
+    "ACTOR-A intent is an observed fact",
+    "ACTOR-A is globally classified by one trait",
+    "candidate is automatically an approved Human rubric",
+    "candidate directly authorizes cutting contact or any other action"
+  ],
+  "review_simulation": {
+    "machine_candidate_name": "REPEATED_PARTIAL_DISCLOSURE_BEFORE_RESOURCE_COMMITMENT",
+    "user_edit_example": {
+      "interpretation": "I experience the repeated pattern as instrumental use of the relationship.",
+      "feeling": "used / disrespected / loss of trust",
+      "boundary": "I do not want to keep accepting requests under incomplete context.",
+      "intent_attribution_status": "USER_ATTRIBUTED",
+      "approval_scope": "RELATIONSHIP_SPECIFIC_PATTERN"
+    },
+    "expected_writeback": "NEW_VERSIONED_RELATIONSHIP_PATTERN",
+    "must_not_modify": ["SYN-MICRO-S1","SYN-MICRO-S2","SYN-MICRO-S3","SYN-MICRO-S4","SYN-MICRO-S5","machine original candidate proposal"]
+  }
+}
