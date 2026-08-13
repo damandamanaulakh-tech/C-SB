@@ -8,6 +8,7 @@ GEN.mkdir(parents=True,exist_ok=True)
 
 paths={
     'runtime':ROOT/'machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json',
+    'routing':ROOT/'machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json',
     'schema':ROOT/'machine/schemas/micro_sequence_learning.schema.json',
     'pattern':ROOT/'registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json',
     'ui':ROOT/'machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json',
@@ -33,7 +34,7 @@ if errors:
     (GEN/'P2_MICRO_SEQUENCE_PATTERN_RFR_V1.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps(report,indent=2)); sys.exit(1)
 
-runtime=obj['runtime']; schema=obj['schema']; pattern=obj['pattern']; ui=obj['ui']; overlay=obj['overlay']; fixture=obj['fixture']
+runtime=obj['runtime']; routing=obj['routing']; schema=obj['schema']; pattern=obj['pattern']; ui=obj['ui']; overlay=obj['overlay']; fixture=obj['fixture']
 engine_ids={r[0] for r in obj['engines'].get('records',[]) if isinstance(r,list) and r}
 node_ids={r.get('asi_node_id') for r in obj['nodes'].get('nodes',[]) if isinstance(r,dict)}
 
@@ -53,10 +54,23 @@ referenced_engines=[]; referenced_nodes=[]
 for s in stages:
     referenced_engines += s.get('engine_ids',[])
     referenced_nodes += s.get('asi_node_ids',[])
+routing_engine_refs=[]
+for route in routing.get('routes',[]):
+    routing_engine_refs += route.get('engine_ids',[])
+referenced_engines += routing_engine_refs
 missing_engines=sorted(set(referenced_engines)-engine_ids)
 missing_nodes=sorted(set(referenced_nodes)-node_ids)
 if missing_engines: errors.append('unknown engine refs:'+','.join(missing_engines))
 if missing_nodes: errors.append('unknown ASI node refs:'+','.join(missing_nodes))
+
+route_ids=[r.get('route_id') for r in routing.get('routes',[])]
+expected_route_ids=[f'MER-{i:02d}' for i in range(1,13)]
+if route_ids!=expected_route_ids:
+    errors.append(f'engine routing IDs mismatch expected={expected_route_ids} actual={route_ids}')
+routing_laws=' '.join(routing.get('routing_laws',[]))
+for law_text in ['Engine result is evidence/output, not execution authority','META is invoked for meta-governance/conflict/priority','RGL recursion cannot become an unbounded in-place loop','Pattern Engines create Pattern Contributions/Candidates, never automatic approved rubrics']:
+    if law_text not in routing_laws:
+        errors.append('missing engine-routing law:'+law_text)
 
 # Schema objects required for machine execution/review/writeback.
 required_defs={'SentenceIntakePacket','MicroUnit','RubricActivationPacket','InterpretationCandidate','PatternContributionPacket','PatternCandidate','ReviewableRubricView','RubricEditDecision','LearningWritebackPacket'}
@@ -118,8 +132,6 @@ if 'formal registry adoption/version migration' not in prom.get('RUBRIC_CHANGE_C
     errors.append('rubric-change candidate bypasses formal adoption/version migration')
 
 # Engine routing is derived from structured activation, not authority inversion.
-if 'reasoning Engine' not in overlay.get('principle',''):
-    findings.append('overlay principle does not itself mention reasoning Engine authority; runtime stage guard is used instead')
 node20=next((x for x in overlay.get('node_overlays',[]) if x.get('asi_node_id')=='ASI-NODE-20'),{})
 if 'assign execution authority to a reasoning Engine' not in ' '.join(node20.get('must_not_do',[])):
     errors.append('Node-20 missing Engine-authority guard')
@@ -133,6 +145,7 @@ report={
   },
   'pass1':{
     'runtime_stage_count':len(stages),
+    'engine_route_count':len(route_ids),
     'schema_object_count':len(required_defs),
     'pattern_namespace_count':len(namespaces),
     'ui_panel_count':len(panel_ids),
@@ -156,6 +169,8 @@ report={
       'NO_AUTOMATIC_PATTERN_PROMOTION':runtime.get('pattern_formation_rule',{}).get('automatic_promotion') is False,
       'USER_EDIT_VERSIONED':review.get('expected_writeback')=='NEW_VERSIONED_RELATIONSHIP_PATTERN',
       'ENGINE_NOT_AUTHORITY':'ENGINE_OUTPUT != EXECUTION_AUTHORITY' in non_eq,
+      'RGL_NOT_IN_PLACE_LOOP':'RGL recursion cannot become an unbounded in-place loop' in routing_laws,
+      'META_NOT_DEFAULT_LOCAL_ANALYSIS':'META is invoked for meta-governance/conflict/priority' in routing_laws,
       'CLOSED_SEQUENCES_NOT_REOPENED':'Closed supporting Sequences never reopen' in immut
     }
   },
