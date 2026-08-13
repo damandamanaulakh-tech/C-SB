@@ -1,0 +1,95 @@
+{
+  "runtime_id": "EVENT-GROWTH-LEDGER-RUNTIME-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+  "purpose": "Make every processed example/event leave a traceable growth contribution against existing IDs, live intent signatures, patterns and memory without confusing occurrence counts with validated truth or canonical promotion.",
+  "count_layers": [
+    {
+      "layer": "OCCURRENCE",
+      "automatic": true,
+      "meaning": "Raw event/example was processed and preserved with provenance. This count can grow without semantic approval."
+    },
+    {
+      "layer": "ACTIVATION",
+      "automatic": true,
+      "meaning": "Existing Container/Rubric/Parameter IDs were activated as runtime candidates. Activation frequency is not truth or importance."
+    },
+    {
+      "layer": "CANDIDATE_SUPPORT",
+      "automatic": true,
+      "meaning": "A live intent/pattern signature received another candidate contribution. Contradictions and alternatives remain attached."
+    },
+    {
+      "layer": "VALIDATED_SUPPORT",
+      "automatic": false,
+      "meaning": "Support only increases after required review/evidence contract accepts the contribution for its scope."
+    },
+    {
+      "layer": "CANONICAL",
+      "automatic": false,
+      "meaning": "New approved IDs/patterns/rubrics require explicit review and applicable R-F-R/promotion gates."
+    }
+  ],
+  "hard_separations": [
+    "EXAMPLE_COUNT != PARAMETER_COUNT",
+    "ACTIVATION_COUNT != VALIDATED_SUPPORT",
+    "CANDIDATE_SUPPORT != FACT",
+    "NEW_INTENT_WORDING != NEW_INTENT_SIGNATURE",
+    "LIVE_INTENT_CANDIDATE != APPROVED_INTENT",
+    "PARAMETER_MATCH_CANDIDATE != APPROVED_ATOMIC_PARAMETER_HIT",
+    "CONTAINER_HIT != PARAMETER_HIT",
+    "NEW_COMBINATION != NEW_PRIMITIVE",
+    "EVENT_INTENT_SLOT != CONSCIOUS_AGENCY",
+    "CANONICAL_ADDITION_DEFAULTS_TO_ZERO"
+  ],
+  "required_output_counts": [
+    "source_event_count",
+    "represented_event_count",
+    "existing_container_ids_activated",
+    "existing_rubric_ids_activated",
+    "explicit_atomic_parameter_ids_activated",
+    "auto_atomic_parameter_candidates",
+    "intent_signals",
+    "live_intents_generated",
+    "prior_intent_signatures_matched",
+    "new_live_intent_signatures",
+    "pattern_contributions",
+    "pattern_candidates",
+    "review_required_parameter_candidates_activated",
+    "validated_support_delta",
+    "canonical_parameter_additions",
+    "canonical_pattern_additions"
+  ],
+  "atomic_parameter_activation": {
+    "explicit_parameter_signal": "APPROVED_OR_REVIEW_REQUIRED_SIGNAL_AS_SUPPLIED",
+    "auto_exact_name_match": "CANDIDATE_ACTIVATION",
+    "auto_token_overlap_match": "REVIEW_REQUIRED_CANDIDATE_ONLY",
+    "auto_token_overlap_can_feed_live_intent": false,
+    "max_auto_candidates": 24,
+    "rule": "Only exact-name auto matches may feed live intent in V1.3. Fuzzy/token-overlap candidates are displayed for review but do not alter intent generation."
+  },
+  "growth_write_policy": {
+    "raw_occurrence_trace": "APPENDABLE_WITH_PROVENANCE",
+    "candidate_activation_trace": "APPENDABLE_AS_CANDIDATE",
+    "validated_support": "REQUIRES_REVIEW_ACCEPTANCE",
+    "canonical_change": "REQUIRES_EXPLICIT_PROMOTION",
+    "closed_prior_sequence_mutation": false
+  },
+  "event_intent_policy": {
+    "every_event_requires_intent_record": true,
+    "unknown_allowed": true,
+    "natural_event_guard": "Use NATURAL_DYNAMICS_DIRECTION or UNKNOWN; never fabricate conscious agency.",
+    "represented_case_guard": "Intent generated from event structure is DERIVED_INTENT_HYPOTHESIS unless directly evidenced or user-attributed."
+  },
+  "display_order": [
+    "EXISTING_BASE",
+    "EXISTING_ID_ACTIVATIONS",
+    "EVENT_CHAIN",
+    "LIVE_INTENTS",
+    "PATTERN_CONTRIBUTION",
+    "GROWTH_COUNTS",
+    "APPROVAL_STATE"
+  ],
+  "reference_contract": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json"
+}
