@@ -485,6 +485,11 @@
     "size_bytes": 4992
   },
   {
+    "path": "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+    "sha256": "d671a0a469df3f5dc184480c5facaa783f7c43f79b8c586a0334dc2f8322da35",
+    "size_bytes": 8812
+  },
+  {
     "path": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
     "sha256": "2656bb5d9238b76a6aef5d496ec75d7c8b1061ccf0d456237c9bbd17c41bc3b0",
     "size_bytes": 2250
