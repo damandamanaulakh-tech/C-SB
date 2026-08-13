@@ -1,0 +1,36 @@
+{
+  "checkpoint_id": "P2-SEMANTIC-CLARIFICATION-RESIDUAL-RETURN-001",
+  "status": "CLOSED_SUCCESS_CONTROLLED_TESTING",
+  "sequence_id": "SEQ-SEM-RESIDUAL-001",
+  "scope": "User-authorized semantic clarification of residual 'left', dimension-scoped 'nothing', and candidate decomposition of the user value label 'good person'; plus Human memory-significance/valence candidate and care/responsibility recurrence law.",
+  "outputs": [
+    "machine/schemas/semantic_clarification.schema.json",
+    "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json",
+    "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
+    "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+    "tools/validate_semantic_clarification_residual_return_001.py",
+    "generated/tests/P2_SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_RFR_001.json"
+  ],
+  "validated_rules": [
+    "raw source remains immutable",
+    "left is residual-outcome typed in this user-defined context and does not imply departure/death",
+    "nothing is dimension-scoped and does not erase non-material returns",
+    "memory significance/value is represented separately from valence",
+    "good-person decomposition remains a user value-label candidate rather than universal moral law",
+    "pattern/rubric candidates have no direct action authority",
+    "continuing responsibility recurs via closed Sequence -> Seed -> new Sequence rather than reopening/in-place loop"
+  ],
+  "human_rubric_change_candidate": {
+    "id": "HRC-MEMORY-SIGNIFICANCE-VALENCE-001",
+    "status": "REVIEW_REQUIRED_NOT_ADOPTED_AS_UNIVERSAL_HUMAN_RULE"
+  },
+  "validation": {
+    "workflow_run_id": 31656764335,
+    "result": "SUCCESS",
+    "semantic_rfr": "PASS",
+    "all_prior_locked_invariants_same_run": "PASS",
+    "errors": 0,
+    "findings": 0
+  },
+  "phase2_closure": "NOT_REQUESTED"
+}
