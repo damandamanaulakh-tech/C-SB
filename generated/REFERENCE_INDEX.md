@@ -1020,6 +1020,7 @@
 
 - **RM-01** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
 - **RM-02** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-02A** → `machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json`
 - **RM-03** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
 - **RM-04** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
 - **RM-05** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
@@ -1050,3 +1051,21 @@ _No IDs currently present._
 ## Learning Writeback Ids
 
 _No IDs currently present._
+
+## Semantic Clarification Ids
+
+- **SC-GOOD-001** → `phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json`, `tools/validate_semantic_clarification_residual_return_001.py`
+- **SC-LEFT-001** → `phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json`, `tools/validate_semantic_clarification_residual_return_001.py`
+- **SC-NOTHING-001** → `phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json`, `tools/validate_semantic_clarification_residual_return_001.py`
+
+## Dimensional Return Ids
+
+- **RET-DIM-001** → `phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json`
+
+## Human Rubric Change Candidate Ids
+
+- **HRC-MEMORY-SIGNIFICANCE-VALENCE-001** → `phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json`
+
+## Semantic Correction Test Sequences
+
+- **SEQ-SEM-RESIDUAL-001** → `phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json`

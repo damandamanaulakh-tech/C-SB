@@ -5499,6 +5499,9 @@
     ]
   },
   "rubric_microscope_panels": {
+    "RM-02A": [
+      "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json"
+    ],
     "RM-01": [
       "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json"
     ],
@@ -5559,5 +5562,34 @@
     ]
   },
   "rubric_review_ids": {},
-  "learning_writeback_ids": {}
+  "learning_writeback_ids": {},
+  "semantic_clarification_ids": {
+    "SC-GOOD-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+      "tools/validate_semantic_clarification_residual_return_001.py"
+    ],
+    "SC-LEFT-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+      "tools/validate_semantic_clarification_residual_return_001.py"
+    ],
+    "SC-NOTHING-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+      "tools/validate_semantic_clarification_residual_return_001.py"
+    ]
+  },
+  "dimensional_return_ids": {
+    "RET-DIM-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ]
+  },
+  "human_rubric_change_candidate_ids": {
+    "HRC-MEMORY-SIGNIFICANCE-VALENCE-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ]
+  },
+  "semantic_correction_test_sequences": {
+    "SEQ-SEM-RESIDUAL-001": [
+      "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
+    ]
+  }
 }
