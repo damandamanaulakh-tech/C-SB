@@ -1,0 +1,86 @@
+{
+  "contract_id": "SOURCEBORN-EVENT-INTENT-GROWTH-CONTRACT-V1",
+  "status": "PHASE2_LOCKED_DIRECTION",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+  "event_rule": {
+    "every_happening_is_event": true,
+    "every_event_requires_intent_record": true,
+    "intent_record_may_be_unknown": true,
+    "unknown_is_preferred_over_fabrication": true
+  },
+  "intent_types": [
+    "AGENT_INTENT",
+    "INSTITUTIONAL_INTENT",
+    "REPRESENTED_FUTURE_INTENT",
+    "FUNCTIONAL_DIRECTION",
+    "NATURAL_DYNAMICS_DIRECTION",
+    "DERIVED_INTENT_HYPOTHESIS",
+    "UNKNOWN",
+    "NOT_YET_DECODED"
+  ],
+  "hard_separations": [
+    "INTENT != MOTIVE",
+    "STATED_INTENT != INFERRED_INTENT",
+    "STATED_MOTIVE != OPERATING_MOTIVE",
+    "INTENT_HYPOTHESIS != INTENT_FACT",
+    "NATURAL_DYNAMICS_DIRECTION != CONSCIOUS_AGENCY",
+    "EVENT != PROMPT",
+    "EXAMPLE != OUTPUT_TEMPLATE",
+    "PARAMETER_ACTIVATION != NEW_PARAMETER",
+    "COMBINATION != NEW_PRIMITIVE",
+    "PATTERN_CANDIDATE != APPROVED_PATTERN",
+    "KING_HYPOTHESIS != HISTORICAL_IDENTITY"
+  ],
+  "growing_phase_pipeline": [
+    "EVENT_SOURCE_LOCK",
+    "EVENT_OBJECT_CREATE",
+    "INTENT_RECORD_OPEN",
+    "EXISTING_ID_ACTIVATION",
+    "RELATIONSHIP_AND_TYPED_ORDER_DISCOVERY",
+    "ACTOR_VIEW_AND_STATE_RECONSTRUCTION",
+    "INTENT_AND_MOTIVE_HYPOTHESIS_FORMATION",
+    "PARALLEL_BRAIN_STATE_COMBINATION_WHEN_REQUIRED",
+    "REVERSE_FORWARD_REVERSE",
+    "EVIDENCE_CONTRADICTION_FALSIFIER_UNKNOWN",
+    "PATTERN_CONTRIBUTION",
+    "REVIEW",
+    "VERSIONED_WRITEBACK",
+    "FUTURE_ACTIVATION_CHANGE"
+  ],
+  "growth_outputs": [
+    "NEW_RELATION",
+    "NEW_PATH",
+    "NEW_COMBINATION",
+    "NEW_MEMORY",
+    "NEW_ACTOR_VIEW",
+    "NEW_INTENT_SIGNATURE_CANDIDATE",
+    "NEW_PATTERN_CONTRIBUTION",
+    "NEW_PATTERN_CANDIDATE",
+    "NEW_DOMAIN_BRAIN_STATE_HYPOTHESIS",
+    "NEW_PARAMETER_CANDIDATE",
+    "NEW_RUBRIC_OR_OPERATION_CANDIDATE",
+    "NEW_APPROVED_ID_ONLY_AFTER_REQUIRED_REVIEW_AND_RFR"
+  ],
+  "new_id_gate": {
+    "default": "NO_NEW_ID",
+    "requires": [
+      "existing_ids_and_combinations_cannot_represent_without_distortion",
+      "new_construct_is_reusable_beyond_single_event_or_has_explicit_domain_registry_reason",
+      "provenance_is_preserved",
+      "contradictions_and_counter_cases_are_preserved",
+      "required_review_is_complete",
+      "RFR_is_complete_for_target_authority_scope"
+    ]
+  },
+  "king_tablet_rule": {
+    "target": "RECONSTRUCT_THE_EVENT_AND_INTENT_THAT_PRODUCED_THE_SURVIVING_ARTIFACT",
+    "candidate_kings": "PARALLEL_TESTABLE_ACTOR_BRAIN_STATE_HYPOTHESES",
+    "candidate_count_is_not_historical_entity_count": true,
+    "required_questions": ["WHO", "WHEN", "WHY", "HOW", "WHO_ORDERED", "WHO_PERFORMED", "FOR_WHOM", "EXPECTED_FUTURE"],
+    "promotion_requires_evidence": true
+  },
+  "node_brain_rule": "ASI Node Brains are persistent bounded runtime intelligence/service states with memory/contracts; they are not prompts or answer-generation steps.",
+  "maturation_target": "Accumulated primitives + relations + intent structures + patterns + memories allow a future Event to activate a novel combination not explicitly supplied in prior examples.",
+  "reference": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md"
+}
