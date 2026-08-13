@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import runpy
-
-CURRENT = Path(__file__).resolve().with_name('run_micro_sequence_interpreter_v1_3.py')
+CURRENT = Path(__file__).resolve().with_name('run_micro_sequence_interpreter_v1_4.py')
 runpy.run_path(str(CURRENT), run_name='__main__')

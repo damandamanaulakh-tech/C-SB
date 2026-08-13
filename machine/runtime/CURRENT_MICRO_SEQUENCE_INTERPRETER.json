@@ -2,11 +2,11 @@
   "pointer_id": "CURRENT-MICRO-SEQUENCE-INTERPRETER",
   "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
   "current_script": "tools/run_micro_sequence_interpreter.py",
-  "current_version_script": "tools/run_micro_sequence_interpreter_v1_3.py",
-  "current_version": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.3",
-  "supersedes": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.2",
-  "reason": "V1.3 makes Event/Intent first-class runtime output, adds tiered growth counts for every example/event, and adds conservative atomic Human parameter auto-activation candidates.",
-  "compatibility": "V1.2 structural and live-intent output is preserved and extended additively with event_records, event_intent_records, auto_parameter_activation_candidates and event_growth_ledger.",
-  "epistemic_guard": "Every Event receives an Intent record, but UNKNOWN remains valid. Natural dynamics are not conscious agency. Auto parameter matches are candidate activations; occurrence/candidate counts may grow automatically while validated/canonical support remains review-gated.",
+  "current_version_script": "tools/run_micro_sequence_interpreter_v1_4.py",
+  "current_version": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.4",
+  "supersedes": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.3",
+  "reason": "V1.4 broadens live intent formation through reusable semantic Event rules while retaining V1.3 first-class Event/Intent records and tiered growth ledger.",
+  "compatibility": "V1.3 output is preserved and extended with semantic_intent_rule_hits and broader live intent signatures.",
+  "epistemic_guard": "Semantic rule hits are review-required inference signals. More relevant semantic structure expands candidate intent space, not confidence or historical truth.",
   "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT"
 }
