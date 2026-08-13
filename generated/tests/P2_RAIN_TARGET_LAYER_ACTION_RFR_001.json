@@ -1,0 +1,20 @@
+{
+  "report_id": "P2-RAIN-TARGET-LAYER-ACTION-RFR-001",
+  "status": "PASS",
+  "checks": {
+    "active_source_count": 3204,
+    "source_declared_container_hits": 30,
+    "explicit_unique_container_refs": 28,
+    "source_internal_count_delta": 2,
+    "count_mismatch_preserved_open": true,
+    "action_mode_additional_regions": 12,
+    "target_layers": 5,
+    "reasoning_operation_candidates": 2,
+    "canonical_additions": 0,
+    "atomic_ids_invented": false
+  },
+  "errors": [],
+  "findings": [
+    "Source example declares 30/80 strong container hits but explicitly names 28 unique CON-* refs; unresolved delta=2 preserved without invented IDs."
+  ]
+}

@@ -20,6 +20,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
@@ -30,6 +31,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
@@ -40,6 +42,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
@@ -61,6 +64,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
@@ -76,6 +80,7 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
@@ -86,6 +91,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -99,6 +105,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
@@ -112,6 +119,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -216,6 +224,8 @@
     ],
     "CON-032": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -241,11 +251,13 @@
     "CON-047": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
       "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
       "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
@@ -259,6 +271,8 @@
     "CON-052": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
@@ -268,6 +282,8 @@
     "CON-054": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
@@ -311,8 +327,10 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -326,9 +344,11 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
@@ -341,7 +361,9 @@
     "CON-069": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -354,6 +376,8 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -365,7 +389,9 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -451,6 +477,8 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -468,7 +496,9 @@
     "CON-072": [
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -486,6 +516,8 @@
       "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -553,6 +585,8 @@
     ],
     "CON-009": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -577,6 +611,8 @@
     ],
     "CON-013": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -594,12 +630,16 @@
     ],
     "CON-016": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "CON-017": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -608,6 +648,8 @@
     ],
     "CON-018": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -620,6 +662,8 @@
     ],
     "CON-020": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -638,6 +682,8 @@
     ],
     "CON-023": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -684,11 +730,15 @@
     ],
     "CON-030": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "CON-031": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -739,6 +789,8 @@
     "CON-043": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -754,13 +806,17 @@
     ],
     "CON-045": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
     ],
     "CON-046": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
@@ -768,7 +824,9 @@
     ],
     "CON-048": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -792,6 +850,8 @@
     ],
     "CON-053": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -803,6 +863,8 @@
     ],
     "CON-056": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
       "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json"
@@ -820,7 +882,9 @@
     ],
     "CON-062": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -15248,7 +15312,11 @@
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json"
     ]
   },
-  "rubric_review_ids": {},
+  "rubric_review_ids": {
+    "REVIEW-REQUIRED": [
+      "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md"
+    ]
+  },
   "learning_writeback_ids": {},
   "semantic_clarification_ids": {
     "SC-GOOD-001": [

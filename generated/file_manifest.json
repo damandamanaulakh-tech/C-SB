@@ -35,6 +35,11 @@
     "size_bytes": 2688
   },
   {
+    "path": "tools/validate_rain_target_layer_action_001.py",
+    "sha256": "7e7b619cc82c4b212a4cfad51208e6106f5f59062752839397430a1414572b81",
+    "size_bytes": 5477
+  },
+  {
     "path": "tools/build_release_asset_merge_plan.py",
     "sha256": "b5000779ea25e74e2e450ff3413ea6b84eb0766fe7bf591598400e3fff1f61df",
     "size_bytes": 12035
@@ -326,8 +331,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "ab99746ab7bb92d378618102137588f22ed2a1a63b898d60278e9dfd7e832ba1",
-    "size_bytes": 5764
+    "sha256": "e58075b92ea798ca0d5813ff6c086f1b306dee796c04add07df94dafbca7dddd",
+    "size_bytes": 5897
   },
   {
     "path": ".github/workflows/multi-rubric-integration-rfr.yml",
@@ -491,13 +496,18 @@
   },
   {
     "path": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
-    "sha256": "2656bb5d9238b76a6aef5d496ec75d7c8b1061ccf0d456237c9bbd17c41bc3b0",
-    "size_bytes": 2250
+    "sha256": "1c34547071d1798380a84c6aedacca59e1c188b56b9442e1f765098b800a73fe",
+    "size_bytes": 3165
+  },
+  {
+    "path": "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+    "sha256": "0352d52ff8af4cd69455e515473b2ff9952697ea19305af232dee4b250482cd0",
+    "size_bytes": 6303
   },
   {
     "path": "phase2/examples/README.md",
-    "sha256": "f08d63c9a17f7d10bc4821b1bb8ccf099e2f072e3cef2edca9a281ebbafe7bf0",
-    "size_bytes": 2382
+    "sha256": "7a350f28220692db7c694efcfa622f025cb711d615ecdd2b692b813dd0f83533",
+    "size_bytes": 3044
   },
   {
     "path": "phase2/examples/SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md",
@@ -568,6 +578,11 @@
     "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
     "sha256": "ddc1e2be036681c3c0c089674910daede8dfa4640906acd7a024455e6034dc01",
     "size_bytes": 3410
+  },
+  {
+    "path": "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
+    "sha256": "06ea3e107f815988e6b2873d972aa2cfa0596b370284be8568fc60796c2ab12b",
+    "size_bytes": 3206
   },
   {
     "path": "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
@@ -1078,6 +1093,11 @@
     "path": "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
     "sha256": "c18c5e937a4a6dea05f7257b3199a09160d7fe5dc78341759464e55c9919a6cd",
     "size_bytes": 6475
+  },
+  {
+    "path": "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json",
+    "sha256": "c256a96bd03176ae2e41b55ae958e76a34a0376f8b66af777d1c6441110b1012",
+    "size_bytes": 2280
   },
   {
     "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
