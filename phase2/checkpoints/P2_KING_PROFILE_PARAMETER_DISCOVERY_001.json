@@ -1,0 +1,24 @@
+{
+  "checkpoint_id":"P2-KING-PROFILE-PARAMETER-DISCOVERY-001",
+  "status":"CLOSED_SUCCESS_DISCOVERY_PASS_1_CANDIDATES_REMAIN_OPEN",
+  "scope":"First controlled new-parameter mining pass over the 18-King profile pack, reverse/forward workbook, worldwide-civilization new-meaning specimen and historical process trace.",
+  "source_review_ref":"P2-KING-PROFILE-PARAMETER-DISCOVERY-001",
+  "validated_commit":"440b68b443b31bdf6a7fdbb025e98abe43cd8f3b",
+  "validation_workflow_run":31677012619,
+  "validation_result":"SUCCESS",
+  "candidate_counts":{"human_functional":18,"asi_reasoning":12,"domain_egypt":16,"total":46},
+  "human_3204_probe":{"baseline_count":3204,"exact_name_collisions":0,"automatic_adoptions":0,"semantic_diff_still_required":true},
+  "closed_here":[
+    "The previous 2000-row factorization finding no longer blocks genuine new-parameter discovery from King/profile residuals.",
+    "Candidate routing is separated into Human-functional, ASI-reasoning and Egypt-domain registries.",
+    "Every Human candidate now has activation, measurable dimensions, negative boundary and falsifier.",
+    "The full existing 3204 name bank is checked in CI before any future adoption."
+  ],
+  "not_closed":[
+    "No Human candidate is adopted into the 3204 bank.",
+    "Exact-name noncollision does not establish semantic novelty.",
+    "Near-neighbor semantic comparison and cross-case support remain required.",
+    "Future data may add, merge, split, reject or strengthen candidates."
+  ],
+  "next":"P2-KING-PROFILE-SEMANTIC-DIFF-002: compare each Human candidate against nearest existing 3204 parameters by definition/function, merge duplicates, retain irreducible residuals, then run cross-profile/cross-domain R-F-R."
+}
