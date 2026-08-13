@@ -14,7 +14,9 @@ REQUIRED = {
     "phase_status": "phase2/PHASE_STATUS.json",
     "example_registry": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
     "locked_decisions": "docs/LOCKED_DECISIONS.md",
-    "ard_review": "phase2/source_reviews/ARD_3X_GROWING_ASI_RECLASSIFICATION_V1.json"
+    "ard_review": "phase2/source_reviews/ARD_3X_GROWING_ASI_RECLASSIFICATION_V1.json",
+    "growth_batch_002_custody": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json",
+    "growth_batch_002_registry": "registries/sourceborn/GROWTH_BATCH_002_DERIVED_OBJECTS_V1.json"
 }
 
 TEXT_EXT = {".md", ".json", ".py", ".txt", ".yml", ".yaml", ".csv", ".tsv", ".svg"}
@@ -72,6 +74,13 @@ if not required_sep.issubset(set(contract.get("hard_separations", []))):
     errors.append("required hard separations missing from Event/Intent contract")
 if contract.get("new_id_gate", {}).get("default") != "NO_NEW_ID":
     errors.append("new-ID default must be NO_NEW_ID")
+monotonic = contract.get("growth_count_monotonicity", {})
+if monotonic.get("accepted_batch_requires_persistent_count_increase") is not True:
+    errors.append("growth contract does not require persistent count increase")
+if monotonic.get("parameter_inflation_forbidden") is not True:
+    errors.append("growth contract must forbid parameter inflation")
+if monotonic.get("example_count_alone_is_not_sufficient") is not True:
+    errors.append("growth contract incorrectly allows example-count-only growth")
 
 schema = json.loads((ROOT / REQUIRED["event_schema"]).read_text(encoding="utf-8"))
 intent_def = schema.get("$defs", {}).get("EventIntent", {})
@@ -102,6 +111,52 @@ if examples.get("example_semantics", {}).get("default_role") != "BRAIN_GROWTH_EV
     errors.append("Example registry missing Brain-growth Event semantics")
 if not examples.get("example_semantics", {}).get("activate_existing_ids_first"):
     errors.append("Example registry must activate existing IDs first")
+
+# Growth batch 002 count integrity.
+custody = json.loads((ROOT / REQUIRED["growth_batch_002_custody"]).read_text(encoding="utf-8"))
+growth = json.loads((ROOT / REQUIRED["growth_batch_002_registry"]).read_text(encoding="utf-8"))
+if custody.get("source_event_units_total") != 60:
+    errors.append("growth batch 002 source event total must be 60")
+if sum(x.get("source_event_units", 0) for x in custody.get("source_files", [])) != 60:
+    errors.append("growth batch 002 source-unit sum mismatch")
+if len(custody.get("source_files", [])) != 5:
+    errors.append("growth batch 002 must preserve five source fingerprints")
+if len(growth.get("event_ids", [])) != 60 or len(set(growth.get("event_ids", []))) != 60:
+    errors.append("growth batch 002 must enumerate 60 unique Event IDs")
+if len(growth.get("pattern_contribution_ids", [])) != 60 or len(set(growth.get("pattern_contribution_ids", []))) != 60:
+    errors.append("growth batch 002 must enumerate 60 unique Pattern Contribution IDs")
+if len(growth.get("intent_signatures", [])) != 5:
+    errors.append("growth batch 002 intent signature count mismatch")
+if len(growth.get("combination_signatures", [])) != 8:
+    errors.append("growth batch 002 combination signature count mismatch")
+if len(growth.get("pattern_candidates", [])) != 14:
+    errors.append("growth batch 002 Pattern Candidate count mismatch")
+if len(growth.get("primitive_candidates", [])) != 4:
+    errors.append("growth batch 002 primitive candidate count mismatch")
+delta = growth.get("count_delta", {})
+expected_persistent = (
+    delta.get("event_memory_ids_added", 0)
+    + delta.get("pattern_contribution_ids_added", 0)
+    + delta.get("intent_signature_ids_added", 0)
+    + delta.get("combination_signature_ids_added", 0)
+    + delta.get("pattern_candidate_ids_added", 0)
+    + delta.get("primitive_candidate_ids_added", 0)
+)
+if expected_persistent != 151 or delta.get("persistent_brain_objects_added") != 151:
+    errors.append("growth batch 002 persistent object delta must equal 151")
+if delta.get("persistent_brain_objects_added", 0) <= 0:
+    errors.append("growth batch 002 failed monotonic persistent growth")
+if delta.get("human_derived_source_parameter_count_before") != 3204 or delta.get("human_derived_source_parameter_count_after") != 3204:
+    errors.append("growth batch 002 must not mutate the 3,204 Human-derived source count")
+if any(x.get("canonical") is not False for x in growth.get("primitive_candidates", [])):
+    errors.append("growth batch 002 primitive candidates must remain non-canonical before R-F-R promotion")
+example_counts = examples.get("counts", {})
+if example_counts.get("examples_before_growth_batch_002") != 3 or example_counts.get("examples_after_growth_batch_002") != 8:
+    errors.append("Example registry 3 -> 8 count delta mismatch")
+if len(examples.get("examples", [])) != 8:
+    errors.append("Example registry must enumerate eight examples after batch 002")
+if example_counts.get("persistent_brain_objects_added_growth_batch_002") != 151:
+    errors.append("Example registry persistent growth count mismatch")
 
 locks = (ROOT / REQUIRED["locked_decisions"]).read_text(encoding="utf-8")
 for lock in ["SEQ-LOCK-021", "SEQ-LOCK-022", "SEQ-LOCK-024", "SEQ-LOCK-025", "SEQ-LOCK-027", "SEQ-LOCK-028", "SEQ-LOCK-029", "SEQ-LOCK-030"]:
@@ -147,7 +202,6 @@ for rel in tracked:
             for m in rx.finditer(text):
                 line = text.count("\n", 0, m.start()) + 1
                 line_text = text.splitlines()[line-1] if line-1 < len(text.splitlines()) else ""
-                # Negated/non-equivalence statements are the constitution, not violations.
                 low = line_text.lower()
                 if "!=" in line_text or " not " in f" {low} " or "not defined as" in low:
                     continue
@@ -162,7 +216,6 @@ for rel in tracked:
 if violations:
     errors.extend([f"active identity violation {v['rule']} in {v['path']}:{v['line']}" for v in violations])
 
-# Every active Phase-2 example Markdown must carry the Brain-growth semantics marker after migration.
 for p in sorted((ROOT / "phase2/examples").glob("*.md")):
     txt = p.read_text(encoding="utf-8")
     if "SOURCEBORN-REALTIME-ASI-V1:START" not in txt or "Brain-growth" not in txt:
@@ -179,12 +232,25 @@ report = {
     "legacy_reasoning_named_files": legacy_reasoning_named_files,
     "historical_findings_count": len(findings),
     "historical_findings": findings,
+    "growth_batch_002": {
+        "source_files": 5,
+        "examples_before": 3,
+        "examples_after": 8,
+        "event_memory_ids_added": 60,
+        "pattern_contribution_ids_added": 60,
+        "intent_signature_ids_added": 5,
+        "combination_signature_ids_added": 8,
+        "pattern_candidate_ids_added": 14,
+        "primitive_candidate_ids_added": 4,
+        "persistent_brain_objects_added": 151,
+        "human_source_parameter_count": 3204
+    },
     "path_classification": path_records,
     "errors": errors,
-    "audit_law": "All repo files are classified and audited; raw/history is preserved, active semantics must obey the real-time growing ASI constitution."
+    "audit_law": "All repo files are classified and audited; raw/history is preserved, active semantics must obey the real-time growing ASI constitution and each accepted growth batch must increase persistent Brain state without parameter inflation."
 }
 OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(report["status"], "files", len(tracked), "classes", json.dumps(class_counts, sort_keys=True), "active_violations", len(violations), "errors", len(errors))
+print(report["status"], "files", len(tracked), "classes", json.dumps(class_counts, sort_keys=True), "growth+", report["growth_batch_002"]["persistent_brain_objects_added"], "active_violations", len(violations), "errors", len(errors))
 if errors:
     for e in errors[:40]:
         print("ERROR", e)
