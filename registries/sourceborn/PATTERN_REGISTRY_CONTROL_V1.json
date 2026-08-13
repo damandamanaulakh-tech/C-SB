@@ -1,0 +1,71 @@
+{
+  "registry_id": "SOURCEBORN-PATTERN-REGISTRY-CONTROL-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "purpose": "Control how repeated micro-Sequence evidence becomes a reusable pattern without collapsing observation, interpretation, user meaning and universal rubric truth.",
+  "pattern_namespaces": [
+    {"namespace":"OCCURRENCE_MEMORY","authority":"runtime trace","meaning":"one closed event/utterance representation; not a reusable pattern"},
+    {"namespace":"PATTERN_CANDIDATES","authority":"machine proposal","meaning":"source-linked candidate awaiting review; no direct action authority"},
+    {"namespace":"PERSONAL_PATTERNS","authority":"authorized user/editor","meaning":"user-approved interpretation/pattern applicable to that user's own future reasoning scope"},
+    {"namespace":"RELATIONSHIP_PATTERNS","authority":"authorized user/editor","meaning":"pattern scoped to a named relationship/entity context; not globally generalized"},
+    {"namespace":"DOMAIN_PATTERNS","authority":"configured domain approver + R-F-R","meaning":"pattern reusable inside bounded domain"},
+    {"namespace":"GENERAL_PATTERN_CANDIDATES","authority":"meta-governed review","meaning":"cross-case candidate, not universal law"},
+    {"namespace":"RUBRIC_CHANGE_CANDIDATES","authority":"rubric adoption workflow","meaning":"proposal to change formal Human/AI/ASI/Wisdom/Sequence rubric; source rubrics remain unchanged until versioned adoption"}
+  ],
+  "lifecycle": [
+    "OCCURRENCE_RECORDED",
+    "PATTERN_CONTRIBUTION_STORED",
+    "CANDIDATE_CREATED_IF_JUSTIFIED",
+    "RFR_ATTACKED",
+    "USER_OR_AUTHORIZED_REVIEW",
+    "APPROVED_SCOPED_OR_REJECTED",
+    "VERSIONED_WRITEBACK_SEQUENCE",
+    "FUTURE_ACTIVATION_WITH_SCOPE_CHECK",
+    "NEW_EVIDENCE_MAY_SUPPORT_CONTRADICT_OR_SUPERSEDE"
+  ],
+  "candidate_creation": {
+    "automatic_allowed": true,
+    "minimum_rule": "Candidate formation requires a meaningful typed relation/difference pattern across evidence, or an explicit user request. Repetition count is evidence, not a universal fixed threshold.",
+    "required_fields": ["supporting_sequence_ids","contradicting_sequence_ids","relation_signature","context_bounds","alternative_interpretations","intent_status","confidence","review_status"],
+    "intent_guard": "Observed behavior may support an intent hypothesis. Intent is OBSERVED only when the evidence itself establishes the intent; otherwise use INFERRED, USER_ATTRIBUTED or UNKNOWN."
+  },
+  "review_actions": [
+    "APPROVE_AS_IS",
+    "EDIT_AND_APPROVE",
+    "REJECT",
+    "KEEP_OCCURRENCE_ONLY",
+    "NEEDS_MORE_EVIDENCE",
+    "CREATE_NEW_PATTERN_CANDIDATE",
+    "PROPOSE_RUBRIC_CHANGE"
+  ],
+  "editable_semantic_fields": [
+    "interpretation",
+    "feeling",
+    "emotion",
+    "meaning",
+    "intent_attribution",
+    "motive_attribution",
+    "boundary",
+    "rule_or_principle",
+    "pattern_name",
+    "applies_when",
+    "does_not_apply_when",
+    "approval_scope"
+  ],
+  "immutability_rules": [
+    "Raw source sentence/event is immutable after source lock.",
+    "Machine interpretation proposal is immutable as provenance after review is opened.",
+    "User edit does not overwrite the machine proposal; it creates a new review decision object.",
+    "Closed supporting Sequences never reopen.",
+    "Approved pattern revision creates a new version linked to the prior version.",
+    "Counter-evidence is added; it is not deleted to preserve a preferred pattern."
+  ],
+  "promotion_rules": {
+    "PERSONAL_PATTERN":"May be approved directly by authorized user/editor after provenance is visible.",
+    "RELATIONSHIP_SPECIFIC_PATTERN":"May be approved directly by authorized user/editor with entity/scope boundary.",
+    "DOMAIN_PATTERN":"Requires domain review contract and R-F-R status.",
+    "GENERAL_PATTERN_CANDIDATE":"May be retained and reused only as candidate/inference until adopted under a higher contract.",
+    "RUBRIC_CHANGE_CANDIDATE":"Must pass the formal registry adoption/version migration path; no in-place modification of approved native IDs/definitions."
+  },
+  "activation_rule": "Future input may activate an approved scoped pattern only if its applicability/context/actor/view conditions match. Candidate patterns may be shown as hypotheses but cannot silently drive execution thresholds.",
+  "learning_rule": "Learning is structured write-back: new evidence/relation/memory/pattern/version changes future execution. It does not imply model-weight self-update."
+}
