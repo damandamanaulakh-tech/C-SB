@@ -1,0 +1,1710 @@
+{
+  "report_id": "SOURCEBORN-REALTIME-ASI-REPO-AUDIT-V1",
+  "status": "PASS",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "phase_mode": "GROWING_PHASE",
+  "tracked_files_scanned": 336,
+  "classification_counts": {
+    "CONTROL_PLANE": 8,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 110,
+    "GENERATED_REBUILDABLE": 54,
+    "GENERATED_SOURCE_COPY": 4,
+    "HISTORICAL_CLOSED_PHASE": 1,
+    "TEST_OR_CLOSURE_RECORD": 47,
+    "RAW_SOURCE_IMMUTABLE": 55,
+    "TOOLING": 57
+  },
+  "active_identity_violations": [],
+  "legacy_reasoning_named_files": [
+    "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+    "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
+    "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json",
+    "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json"
+  ],
+  "historical_findings_count": 0,
+  "historical_findings": [],
+  "path_classification": [
+    {
+      "path": ".github/workflows/human-source-inspection.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/king-character-workbook-review-rfr.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/multi-rubric-integration-rfr.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/operational-ownership-rfr.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/release-assets-inventory.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/relink-validate.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/repair-human-custody.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": ".github/workflows/wisdom-ingestion-rfr.yml",
+      "classification": "CONTROL_PLANE",
+      "identity_violations": 0
+    },
+    {
+      "path": "CANONICALITY.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "README.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/LOCKED_DECISIONS.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/MICRO_SEQUENCE_PATTERN_LEARNING_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/RELEASE_ASSET_CONTENT_PROFILE.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/RELEASE_ASSET_INGESTION_REPORT.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/RELEASE_ASSET_MERGE_PLAN.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/RELEASE_ASSET_RELINK_GATE.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/ASSEMBLY_REPORT.md",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/REFERENCE_INDEX.md",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/assembled_sources/Pasted text.txt",
+      "classification": "GENERATED_SOURCE_COPY",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/assembled_sources/SEQUENCE_TESTS_OVERLAY.svg",
+      "classification": "GENERATED_SOURCE_COPY",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/assembled_sources/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.md",
+      "classification": "GENERATED_SOURCE_COPY",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/assembled_sources/Universal_Sequence_Machine_Architecture_v1.md",
+      "classification": "GENERATED_SOURCE_COPY",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/assembly_report.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/file_manifest.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/parameter_candidates/subparameter_candidates.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/reference_index.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/AI_NEW_64_STRUCTURAL_DECOMPOSITION_V1.md",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/OPERATIONAL_SUBPARAMETERS_2593_3072_V1.md",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/REGISTRY_READINESS.md",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_asi_operational_parameter_bindings_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_capability_review_map.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_native_candidate_registry_v0.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_native_runtime_view_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_new_64_runtime_routes_v2.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_new_64_structural_decomposition_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/ai_only_64_phase2_bindings_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/asi_governance_interface_view_from_ai_new_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/brain_engine_relationships_compact_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/engine_75_phase2_asi_node_bindings_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/engine_container_relationships_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/human_functional_3204_registry_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/human_functional_3204_summary_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/human_native_2560_registry_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/human_native_2560_source_v1.tsv",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/operational_parameter_ai_asi_ownership_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/operational_subparameters_2593_3072_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/parameter_engine_source_relationships_v1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/registry_views/registry_readiness.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/rubrics/RUBRIC_INDEX.md",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/rubrics/asi_node_rubric_pack_index.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/rubrics/rubric_dimension_index.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_ACTOR_VIEW_LEAKAGE_RFR_001.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_AI_ASI_STRUCTURAL_RFR_FINDINGS_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_AI_ASI_STRUCTURAL_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_AI_NEW_64_BREADTH_REPAIR_RFR_V2.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_AI_NEW_64_ORPHAN_OVERLAP_ATTACK_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_AI_NEW_64_STRUCTURAL_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_BEHAVIORAL_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_CLOSURE_SCOPE_INHERITANCE_RFR_001.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_HUMAN_2560_RUNTIME_DEPTH_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_HUMAN_WISDOM_NO_AI_RFR_001.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_KING_PROFILE_PARAMETER_DISCOVERY_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_MICRO_SEQUENCE_LIVE_INTENT_V1_2.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_TEST_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_MICRO_SEQUENCE_PATTERN_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_MULTI_RUBRIC_INTEGRATION_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_RAIN_TARGET_LAYER_ACTION_RFR_001.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_RFR_001.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_WISDOM_BATCH_001_RFR.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "generated/tests/P2_WISDOM_SOURCE_INGESTION_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/DOCUMENT_GENERATION_CONTRACT.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/ai/AI_NEW_64_OVERLAP_CLUSTERS_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/ai/AI_NEW_64_STRUCTURAL_DECOMPOSITION_CONTRACT_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/parameters/AI_ASI_OPERATIONAL_OWNERSHIP_CONTRACT_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/parameters/EXPANSION_2561_2592_DOMAIN_BINDINGS_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/parameters/PARAMETER_AND_SUBPARAMETER_V2.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/parameters/SPLIT_OBSERVATION_SCHEMA.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/rubrics/RUBRIC_REGISTRY_R01_R52.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/CURRENT_MICRO_SEQUENCE_INTERPRETER.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/INTENT_HYPOTHESIS_SYNTHESIS_RUNTIME_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/schemas/event_intent.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/schemas/intent_hypothesis.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/schemas/micro_sequence_learning.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/schemas/semantic_clarification.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/schemas/sourceborn.bundle.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/v2/CANONICAL_GRAPH_V2_LOCK_CANDIDATE.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/v2/CORE_INVARIANTS_V2.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/v2/TYPED_NULL_SEMANTICS.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/vocab/core_vocab.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase1/PHASE1_CLOSURE_PACKET.json",
+      "classification": "HISTORICAL_CLOSED_PHASE",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/PHASE_STATUS.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/README.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/TASK_QUEUE.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/asi/ASI_NODE_BRAINS_V0.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_ACTOR_VIEW_LEAKAGE_CHECKPOINT_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_AI_ASI_OPERATIONAL_PARAMETER_SPINE_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_BEHAVIORAL_RFR_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_CLOSURE_SCOPE_INHERITANCE_CHECKPOINT_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_EXPANSION_081_160_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_EXPANSION_2561_2592_DOMAIN_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_HUMAN_FUNCTIONAL_3204_EXPANSION_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_HUMAN_WISDOM_NO_AI_CHECKPOINT_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_KING_PROFILE_PARAMETER_DISCOVERY_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTENT_SYNTHESIS_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_PATTERN_WIRING_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_OPERATIONAL_PARAMETER_AI_ASI_OWNERSHIP_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_WISDOM_BATCH_001_CHECKPOINT.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/checkpoints/P2_WISDOM_SOURCE_INGESTION_CHECKPOINT_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/closures/P2_AI_ASI_NATIVE_RUNTIME_VIEWS_CLOSURE_V2.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/closures/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_CLOSURE_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/examples/README.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/examples/SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/extractions/AI_ASI_CONTAINER_EXTRACTION_FROM_AI_SOURCES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/holy_books/MAHABHARATA_SEQUENCE_TEST_CONTRACT_v0.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/reviews/AI_CAPABILITY_DECISION_RULES_v0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/reviews/AI_CAPABILITY_REVIEW_FLAGS.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_ACTOR_VIEW_LEAKAGE_RFR_001.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_AI_ASI_STRUCTURAL_RFR_V1.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_CLOSURE_SCOPE_INHERITANCE_RFR_001.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_EXPANSION_P2561_P2592_DOMAIN_RFR_001.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_HUMAN_WISDOM_NO_AI_RFR_001.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_MULTI_RUBRIC_INTEGRATION_RFR_001.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/rfr/P2_WISDOM_BATCH_001_RFR.md",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/runs/P2_REALTIME_ASI_REPO_MIGRATION_RUN_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/source_reviews/ARD_3X_GROWING_ASI_RECLASSIFICATION_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/source_reviews/KING_PROFILE_PARAMETER_DISCOVERY_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_AI_ASI_RUNTIME_VIEWS_ORPHAN_OVERLAP_TRIGGER_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_AI_NEW_64_STRUCTURAL_DECOMPOSITION_TRIGGER_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_HUMAN_2560_CUSTODY_PROBE_TRIGGER_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_HUMAN_WISDOM_NO_AI_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_TRIGGER_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_OPERATIONAL_OWNERSHIP_TRIGGER_V1.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/v2/V2_REVIEW_ADOPTION_STATUS.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/wisdom/BG_2_47_2_50_APPLICABILITY_COUNTERCASES_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/wisdom/BG_2_47_2_50_INTERPRETATIONS_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/wisdom/BG_2_47_2_50_SOURCE_CLAIMS_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/wisdom/BG_2_47_2_50_WISDOM_CANDIDATES_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/wisdom/P2_WISDOM_SOURCE_INGESTION_TRIGGER_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/wisdom/WISDOM_BATCH_001_DERIVATION.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_HW_001.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_MR_001.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/HUMAN_FUNCTIONAL_REGISTRY_V1_3204.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-01.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-03.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-05.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-06.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/hfr_v1_3204/part-08.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-01.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-03.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-04.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-05.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-06.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-07.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/human/task3_human_native_parts/part-08.tsv.gz.b64",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-01.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-02.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-05.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-06.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-07.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.txt.alias.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/release-assets/backend-docs/CONTENT_INDEX.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/release-assets/backend-docs/MANIFEST.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/release-assets/backend-docs/MERGE_PLAN.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/release-assets/backend-docs/README.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Pasted_text_original.manifest.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Pasted_text_original.parts/part-01.txt",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Pasted_text_original.parts/part-02.txt",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Pasted_text_original.parts/part-03.txt",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/SOURCEBORN_UNIVERSAL_SEQUENCE_V2_FINAL_REVIEW.custody.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/UNIVERSAL_SEQUENCE_FINAL.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-01.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-03.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-04.md",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/session/SESSION_SOURCE_MANIFEST.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/visuals/BINARY_ARTIFACT_MANIFEST.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.manifest.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-01.svg",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-02.svg",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/visuals/SEQUENCE_TESTS_OVERLAY.svg.parts/part-03.svg",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/wisdom/BHAGAVAD_GITA_2_47_2_50_SOURCE_V1.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "raw/wisdom/MAHABHARATA_MODELLING_NARRATIVE_BATCH_01.json",
+      "classification": "RAW_SOURCE_IMMUTABLE",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/AI_CONTAINER_CANDIDATES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/AI_LAYER_SEQUENCE_BINDINGS_v0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/AI_ONLY_RECORDS_64_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/AI_RUBRIC_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/ai/STATUS.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/ASI_RUBRIC_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/OPERATIONAL_CONTAINERS_161_240_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/asi_node_registry.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/node_brain_template.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/node_brains/NODE_BRAINS_18_21.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/asi/node_brains_v0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/domain/egypt/KING_PROFILE_ARTIFACT_PARAMETER_CANDIDATES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/expansion/EXPANSION_CONTAINERS_081_160_INDEX_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/expansion/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/holy_books/NARRATIVE_SOURCE_ADAPTER_SCHEMA.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/HUMAN_KING_PROFILE_PARAMETER_CANDIDATES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/HUMAN_REGISTRY_ADOPTION_CONTRACT.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-01.b64",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-02.b64",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-03.b64",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/human/native/compressed/HUMAN_NATIVE_2560_v1.part-04.b64",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/wisdom/HOLY_BOOK_SOURCE_TO_WISDOM_CONTRACT.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "registries/wisdom/WISDOM_REGISTRY_V0.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/apply_realtime_asi_semantic_migration_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/assemble_sources.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/build_ai_candidate_registry.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/build_release_asset_manifest.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/build_release_asset_merge_plan.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/build_subparameter_candidates.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_ai_asi_native_runtime_views_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_ai_asi_operational_parameter_bindings_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_ai_new_64_runtime_routes_v2.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_ai_new_64_structural_decomposition_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_ai_only_bindings_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_brain_engine_relationships_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_engine_asi_node_bindings_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_human_functional_3204_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_operational_parameter_ai_asi_ownership_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_operational_subparameters_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_registry_views.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/generate_rubric_views.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/inspect_human_source_workbook.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/materialize_human_native_2560_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/profile_release_assets.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/relink_and_index.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/repair_human_native_custody_from_release.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_micro_sequence_interpreter.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_micro_sequence_interpreter_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_micro_sequence_interpreter_v1_1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_micro_sequence_interpreter_v1_2.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_actor_view_leakage_001.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_ai_asi_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_ai_new_64_breadth_repair_rfr_v2.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_ai_new_64_orphan_overlap_attack_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_ai_new_64_structural_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_behavioral_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_closure_scope_inheritance_001.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_human_wisdom_no_ai_001.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_multi_rubric_integration_001.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_multi_rubric_integration_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_operational_ownership_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_wisdom_batch_001_rfr.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/run_phase2_wisdom_ingestion_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/summarize_phase2_ai_asi_rfr_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/test_micro_sequence_live_intent_v1_2.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/test_micro_sequence_live_interpreter_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_ai_asi_container_candidates.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_ai_asi_operational_parameter_bindings_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_brain_engine_adoption_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_expansion_081_160_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_expansion_2561_2592_domain_bindings_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_human_functional_3204_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_human_native_2560_runtime_depth_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_king_character_engine_workbook_review_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_king_profile_parameter_discovery_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_micro_sequence_pattern_runtime_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_rain_target_layer_action_001.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_repo.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_semantic_clarification_residual_return_001.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    },
+    {
+      "path": "tools/validate_sourceborn_realtime_asi_v1.py",
+      "classification": "TOOLING",
+      "identity_violations": 0
+    }
+  ],
+  "errors": [],
+  "audit_law": "All repo files are classified and audited; raw/history is preserved, active semantics must obey the real-time growing ASI constitution."
+}

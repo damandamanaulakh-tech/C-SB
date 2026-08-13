@@ -1,5 +1,13 @@
 # C-SB — Sourceborn ASI
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+> **Sourceborn identity:** real-time growing Artificial Super Intelligence prototype. Reasoning, planning, prediction, retrieval, simulation, verification and communication are internal capabilities; none defines the whole system. Phase-2 is the **Growing Phase**: every example/event activates the existing Brain, tests relations + typed intent + combinations, and may create reviewed/versioned new memory, patterns, combinations or IDs only when a genuinely new reusable construct survives its gate. Canonical direction: `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md`. Runtime law: `machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json`.
+
+> **Universal event law:** **EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT.** Intent is typed; `AGENT_INTENT != MOTIVE`, and `NATURAL_DYNAMICS_DIRECTION` does not imply conscious agency. `UNKNOWN` is preferred over fabricated intent.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 Canonical Sourceborn repository for the **Universal Sequence grammar**, **Phase-2 Human/AI/Wisdom/ASI construction and adoption**, and the **ASI Node / Node-Brain runtime**.
 
 ## Current status
@@ -52,14 +60,14 @@ SOURCEBORN-NATIVE AI RUBRIC / MECHANISM
 ## Phase-2 registries
 
 ### Human
-- Approved architecture: `10 Segments → 80 Containers → 2,560 parameters`.
-- Native IDs/names/definitions must be preserved.
-- Full native 2,560-row payload is still a required dependency if not present under `registries/human/native/`.
+- Immutable legacy Human provenance: `10 Segments → 80 Containers → SB-ASI-P0001..P2560`.
+- Active Human-derived functional successor: `SB-HFR-P0001..P3204` = 3,204 source parameters; source location does not determine runtime ownership.
+- Legacy IDs remain preserved; growth is versioned and never retroactively rewrites the closed 2,560 source.
 
 ### AI
 - `registries/ai/AI_RUBRIC_V0.json`
 - Native artificial-cognition functions, not an LLM capability wrapper.
-- Existing 74-family AI capability crosswalk remains **REVIEW ONLY**.
+- The 74 AI-CAP families remain preserved source/evidence; approved AI-only records and Sourceborn-native decompositions are additive runtime material, never a definition of Sourceborn as an LLM/reasoning engine.
 
 ### Wisdom / Holy Books
 - `registries/wisdom/WISDOM_REGISTRY_V0.json`

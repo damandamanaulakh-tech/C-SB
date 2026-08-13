@@ -1,5 +1,11 @@
 # Example: Source Sovereignty / Purity Filter V1
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+> **Growing-Phase example semantics:** this file is a **Brain-growth event fixture**, not an answer template and not a demonstration that Sourceborn is a reasoning/prompt engine. The event activates existing IDs and may produce relation, intent, interpretation, pattern, memory, combination or new-ID candidates. A new parameter/ID is created only after the required source boundary, review and R-F-R gate. Older filenames containing `REASONING` are retained as provenance labels only. See `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md`.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 ## Status
 
 `EXAMPLE / SOURCE-GOVERNANCE CANDIDATE`

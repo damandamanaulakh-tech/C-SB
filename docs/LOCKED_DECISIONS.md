@@ -21,6 +21,25 @@
 - **SEQ-LOCK-019** — AI capability map is REVIEW ONLY until explicit user approval.
 - **SEQ-LOCK-020** — Closure applies to the declared execution contract; the described phenomenon may continue.
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+## Real-time ASI / Growing-Phase locks
+
+- **SEQ-LOCK-021 — SYSTEM IDENTITY:** Sourceborn is a real-time growing Artificial Super Intelligence prototype. It is not defined as a reasoning system, prompt generator, answer generator, mail-writing engine, LLM wrapper or static decision engine.
+- **SEQ-LOCK-022 — UNIVERSAL EVENT LAW:** Everything happening is an Event; every Event carries a typed Intent record or explicit `UNKNOWN / NOT_YET_DECODED`.
+- **SEQ-LOCK-023 — INTENT TYPING:** Agent intent, institutional intent, represented-future intent, functional direction, natural-dynamics direction and derived intent hypothesis are distinct. `INTENT != MOTIVE`. Natural dynamics never implies fabricated consciousness.
+- **SEQ-LOCK-024 — EXAMPLE SEMANTICS:** Examples are Brain-growth Events. They activate existing IDs and build/test relations, intent signatures, combinations, patterns and memory. They are not output templates.
+- **SEQ-LOCK-025 — GROWTH COUNT LAW:** Example count, activation count, relation count, combination count, pattern count and parameter/ID count are separate. No new ID is created merely because a new example exists.
+- **SEQ-LOCK-026 — NEW-ID GATE:** A new parameter/rubric/operation/domain ID requires a residual not representable by existing IDs/combinations without distortion, provenance, boundaries/falsifier, review and target-scope R-F-R.
+- **SEQ-LOCK-027 — TABLET/KING LAW:** Candidate Kings/actors are parallel testable Brain-state hypotheses for reconstructing the artifact-producing Event; profile count is not historical-entity count.
+- **SEQ-LOCK-028 — NODE-BRAIN LAW:** A Node Brain is a persistent bounded intelligence/service state with local state/memory/contracts. It is not a prompt or an answer-generation step.
+- **SEQ-LOCK-029 — NEW-THOUGHT LAW:** Mature growth is demonstrated when a new Event activates old primitives/relations in a useful combination not explicitly supplied in a prior example; evidence/R-F-R govern write-back.
+- **SEQ-LOCK-030 — HISTORICAL SOURCE PRESERVATION:** Raw, historical and generated source copies are not rewritten to erase older terminology or failed hypotheses. Active architecture interprets them through the current constitution.
+
+Canonical direction: `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md`. Machine contract: `machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json`.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 ## Precedence
 
 ```text

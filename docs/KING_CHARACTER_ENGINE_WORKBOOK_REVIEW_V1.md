@@ -1,5 +1,11 @@
 # King Character Engine Workbook Review V1
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+> **Tablet-event target:** King/queen/priest/workshop profiles are parallel, testable **candidate actor-Brain states** used to reconstruct the event that produced the surviving artifact. They are not the target answer and their count is not a count of historical kings. The target remains: who/when/why/how, who ordered, who performed, for whom, under what conditions, and what future state was intended. Evidence may retain, weaken, reject or leave each profile unknown. See `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md`.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 ## Source
 
 Uploaded workbook fingerprint:

@@ -17,7 +17,11 @@
         "DOMAIN_CONTAINER != RUBRIC",
         "RUBRIC_APPLICATION != ONTOLOGY_EXPANSION"
       ],
-      "supporting_source_facts": ["80 domain containers", "25 repeated interrogation dimensions", "2000 instantiated rows"],
+      "supporting_source_facts": [
+        "80 domain containers",
+        "25 repeated interrogation dimensions",
+        "2000 instantiated rows"
+      ],
       "application_guard": "Only instantiate combinations that are semantically meaningful; do not generate meaningless Cartesian products."
     },
     {
@@ -28,7 +32,11 @@
       "canonical": false,
       "direct_action_authority": false,
       "definition": "When candidates are tied because no validated evidence has been entered, deterministic row order must not be presented as a leading hypothesis.",
-      "hard_separations": ["ROW_ORDER != EVIDENCE", "TIE_BREAK != SUPPORT", "UNASSESSED != LOW_CONFIDENCE_MATCH"],
+      "hard_separations": [
+        "ROW_ORDER != EVIDENCE",
+        "TIE_BREAK != SUPPORT",
+        "UNASSESSED != LOW_CONFIDENCE_MATCH"
+      ],
       "application_guard": "Ranking may resume only after declared minimum evidence/coverage gates are satisfied."
     },
     {
@@ -39,7 +47,11 @@
       "canonical": false,
       "direct_action_authority": false,
       "definition": "A positive or negative fit score describes relation to a hypothesis; confidence describes evidence quality and proof status. Absolute score magnitude cannot substitute for confidence.",
-      "hard_separations": ["NEGATIVE_MATCH != LOW_CONFIDENCE", "HIGH_ABSOLUTE_SCORE != HIGH_EPISTEMIC_CONFIDENCE", "CONTRADICTION_STRENGTH != BELIEF_CERTAINTY"],
+      "hard_separations": [
+        "NEGATIVE_MATCH != LOW_CONFIDENCE",
+        "HIGH_ABSOLUTE_SCORE != HIGH_EPISTEMIC_CONFIDENCE",
+        "CONTRADICTION_STRENGTH != BELIEF_CERTAINTY"
+      ],
       "application_guard": "Store sign/magnitude, evidence coverage, provenance and confidence separately."
     },
     {
@@ -50,9 +62,15 @@
       "canonical": false,
       "direct_action_authority": false,
       "definition": "Multiple reasoning loops count as independent only when their evidence contracts, assumptions, path dependencies or falsifiers are sufficiently independent; changing only the question over the same route is not enough.",
-      "hard_separations": ["LOOP_COUNT != INDEPENDENCE", "DIFFERENT_PROMPT != DIFFERENT_EVIDENCE_PATH", "REPEATED_ROUTE != CORROBORATION"],
+      "hard_separations": [
+        "LOOP_COUNT != INDEPENDENCE",
+        "DIFFERENT_PROMPT != DIFFERENT_EVIDENCE_PATH",
+        "REPEATED_ROUTE != CORROBORATION"
+      ],
       "application_guard": "Measure source independence, path overlap and shared assumptions before treating multiple loop agreement as corroboration."
     }
   ],
-  "promotion_rule": "Repeated cross-domain support plus R-F-R plus explicit review is required before any candidate becomes a native/canonical reasoning parameter or rubric."
+  "promotion_rule": "Repeated cross-domain support plus R-F-R plus explicit review is required before any candidate becomes a native/canonical reasoning parameter or rubric.",
+  "system_identity_guard": "LEGACY_REASONING_LABEL_DESCRIBES_AN_INTERNAL_OPERATION_CANDIDATE_NAMESPACE; SOURCEBORN_AS_A_WHOLE_IS_A_REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md"
 }

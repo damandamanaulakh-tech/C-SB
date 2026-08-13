@@ -1,5 +1,11 @@
 # Sourceborn Micro-Sequence Pattern Learning V1
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+> This runtime is one growth mechanism inside the **real-time growing Sourceborn ASI prototype**, not the definition of Sourceborn as a reasoning system. Every local Micro-Sequence is an Event contribution to the persistent Brain. Its most important durable output may be a new relation, typed intent hypothesis, combination, contradiction, memory or pattern contribution rather than a prose answer. See `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md` and `machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json`.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 Status: Phase-2 active controlled testing.
 
 ## Core rule

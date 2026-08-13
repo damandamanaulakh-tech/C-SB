@@ -1,10 +1,16 @@
-# Example: Father / Door Reasoning Over Active 3,204 Registry V1
+# Example: Father / Door Brain-Growth Event Over Active 3,204 Registry V1
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+> **Growing-Phase example semantics:** this file is a **Brain-growth event fixture**, not an answer template and not a demonstration that Sourceborn is a reasoning/prompt engine. The event activates existing IDs and may produce relation, intent, interpretation, pattern, memory, combination or new-ID candidates. A new parameter/ID is created only after the required source boundary, review and R-F-R gate. Older filenames containing `REASONING` are retained as provenance labels only. See `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md`.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
 
 ## Example input
 
 > A father checks the front door five times every night. Their house was robbed once years ago. The lock has since been replaced and he knows he already checked it, but he goes back again because he says he wants his family safe. His family gets irritated.
 
-This is a fictional reasoning fixture.
+This is a fictional Brain-growth Event fixture. The legacy filename is retained for provenance.
 
 ## Active source-bank rule
 
@@ -232,7 +238,7 @@ Status: `CANDIDATE_ONLY`.
                     ↓ ASI
 
 ╔══════════════════════════════════════════════╗
-║ GENERATED DURING REASONING                   ║
+║ GENERATED DURING EVENT RECONSTRUCTION        ║
 ╠══════════════════════════════════════════════╣
 ║ Runtime relations                         10 ║
 ║ Interpretation candidates                  7 ║

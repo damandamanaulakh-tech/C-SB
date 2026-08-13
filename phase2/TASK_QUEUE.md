@@ -1,5 +1,28 @@
 # Phase-2 Active Task Queue
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+## P2-RT-ASI — Growing Phase direction
+
+Status: `ACTIVE / HIGHEST SEMANTIC PRECEDENCE`.
+
+```text
+REAL EVENT / EXAMPLE
+→ existing Brain activation
+→ typed intent + motive separation
+→ relation / order / Actor View reconstruction
+→ parallel Brain-state combinations when useful
+→ reverse ↔ forward ↔ reverse
+→ evidence / contradiction / unknown
+→ pattern contribution
+→ reviewed versioned write-back
+→ stronger Brain for the next Event
+```
+
+Phase-2 task workstreams below build the substrate for this growth loop. They are not separate product goals and do not redefine Sourceborn as a reasoning or decision engine. Direct-Engine gaps, parameter gaps and contradictory source records remain visible rather than being filled to make the prototype look complete.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 Phase-1 Universal Sequence baseline is closed. Phase-2 remains active.
 
 ```text

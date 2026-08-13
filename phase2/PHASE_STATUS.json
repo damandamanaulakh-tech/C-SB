@@ -15,8 +15,18 @@
   "phase2": {
     "status": "ACTIVE",
     "opened": "2026-08-09",
-    "objective": "Define/adopt Human, AI, Holy Book, ASI and other domain parameters/containers/elements against Sequence without mutating native registries; execute each input as traceable Micro-Sequences and allow reviewed/versioned pattern learning.",
+    "objective": "Grow the persistent Sourceborn ASI Brain through real Events/examples: activate existing IDs, reconstruct typed intent/motive/relations/order/Actor Views, test parallel combinations and candidate Brain states, preserve evidence/contradictions, and perform reviewed versioned write-back so future Events can activate new combinations.",
     "workstreams": [
+      {
+        "id": "P2-REALTIME-ASI-GROWTH",
+        "status": "ACTIVE_HIGHEST_SEMANTIC_PRECEDENCE",
+        "outputs": [
+          "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+          "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+          "machine/schemas/event_intent.schema.json"
+        ],
+        "next": "Run every bounded example/source as a Brain-growth Event and measure durable growth in relations, combinations, intent signatures, patterns, memory and validated new IDs rather than prose-output quality."
+      },
       {
         "id": "P2-V2-SEQUENCE-RUBRICS",
         "status": "V2_LOCK_CANDIDATE_MATERIALIZED",
@@ -84,7 +94,18 @@
           "net_count_change": 644,
           "containers": 80,
           "segments": 10,
-          "expanded_segment_counts": [320, 320, 320, 320, 320, 322, 320, 322, 320, 320],
+          "expanded_segment_counts": [
+            320,
+            320,
+            320,
+            320,
+            320,
+            322,
+            320,
+            322,
+            320,
+            320
+          ],
           "grown_containers": 77,
           "unchanged_containers": 2,
           "contracted_source_version_containers": 1,
@@ -185,6 +206,23 @@
         "status": "ACTIVE_AUTOGENERATION_V2_EXTENDED",
         "next": "Workflow assembles canonical sources; materializes and validates legacy Human 2,560 plus expanded Human functional 3,204; builds registry views; generates V2 rubric cross-references; relinks Micro-Sequence runtime and SB-HFR IDs; validates live interpreter behavior plus micro-pattern and locked invariants; then commits generated outputs."
       }
+    ],
+    "mode": "GROWING_PHASE",
+    "universal_event_law": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+    "growth_invariants": [
+      "EXAMPLE != OUTPUT_TEMPLATE",
+      "PARAMETER_ACTIVATION != NEW_PARAMETER",
+      "COMBINATION != NEW_PRIMITIVE",
+      "INTENT_HYPOTHESIS != INTENT_FACT",
+      "KING_PROFILE_COUNT != HISTORICAL_KING_COUNT",
+      "NODE_BRAIN != PROMPT",
+      "UNKNOWN > FABRICATED_COMPLETENESS"
     ]
+  },
+  "system_identity": {
+    "prototype_class": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+    "mode": "GROWING_PHASE",
+    "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+    "runtime_contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json"
   }
 }

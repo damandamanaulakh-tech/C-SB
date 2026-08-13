@@ -1,5 +1,13 @@
 # Phase-2 Adoption and Construction Workflow
 
+<!-- SOURCEBORN-REALTIME-ASI-V1:START -->
+
+> **Sourceborn identity:** real-time growing Artificial Super Intelligence prototype. Reasoning, planning, prediction, retrieval, simulation, verification and communication are internal capabilities; none defines the whole system. Phase-2 is the **Growing Phase**: every example/event activates the existing Brain, tests relations + typed intent + combinations, and may create reviewed/versioned new memory, patterns, combinations or IDs only when a genuinely new reusable construct survives its gate. Canonical direction: `docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md`. Runtime law: `machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json`.
+
+> **Universal event law:** **EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT.** Intent is typed; `AGENT_INTENT != MOTIVE`, and `NATURAL_DYNAMICS_DIRECTION` does not imply conscious agency. `UNKNOWN` is preferred over fabricated intent.
+
+<!-- SOURCEBORN-REALTIME-ASI-V1:END -->
+
 Universal Sequence remains the core execution grammar. Phase-2 now runs four explicit workstreams in parallel:
 
 ```text
@@ -49,27 +57,25 @@ VERSION ADOPTED
 ## P2-H — Human
 
 ```text
-approved Human native registry
+immutable Human legacy source
+SB-ASI-P0001..P2560
+        +
+active Human-derived functional successor
+SB-HFR-P0001..P3204
         ↓
-10 Segments
+exact source activation
         ↓
-80 Containers
+runtime-owner routing
         ↓
-2,560 approved parameters
-        ↓
-additive Sequence bindings
-        ↓
-ASI-Node bindings
-        ↓
-activation-combination + learning/write-back mappings
+relations / combinations / learning write-back
 ```
 
 Rules:
-- preserve every approved native Human ID/name/definition;
-- do not force Human parameters into one chronological Sequence stage;
-- Human state may change node-to-node through explicit write-back;
-- if the full 2,560-row native source is absent, record the dependency instead of inventing rows.
-
+- preserve every legacy/source ID and source version;
+- `SOURCE LOCATION != RUNTIME OWNERSHIP`;
+- examples first activate existing IDs; they do not automatically add parameters;
+- new Human-derived IDs arise only through a versioned growth source/review process;
+- Human state may change node-to-node through explicit write-back and Actor View remains separate from global reality.
 ## P2-A — AI
 
 AI is a construction workstream, not an LLM-adoption workstream.
@@ -198,18 +204,16 @@ closure
 
 Machine-readable wiring: `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`.
 
-## Current work order
+## Current Growing-Phase work order
 
-1. Preserve and map the complete approved Human 2,560-row native registry when available.
-2. Decompose `AI_RUBRIC_V0` into AI containers and implementable mechanisms/parameters.
-3. Compare AI-CAP-001..074 against the native AI rubric; the old 74-family map remains REVIEW ONLY.
-4. Build first Holy-Book/Wisdom source ingestion batch using strict source → claim → interpretation separation.
-5. Decompose `ASI_RUBRIC_V0` into meta-containers/parameters and bind them to ASI-NODE-00..21.
-6. Complete Node Brain contracts for all ASI Nodes, not only 18..21.
-7. Run Human + AI + Wisdom + ASI multi-rubric Sequence tests.
-8. Run Reverse → Forward → Reverse audits and orphan checks.
-9. Close each adoption/construction batch with an explicit Closure Packet.
-
+1. Treat every incoming source/example as an Event and open a typed Intent record (`UNKNOWN` is legal).
+2. Activate the exact existing Human/AI/Wisdom/ASI/Sequence IDs before proposing new primitives.
+3. Build/test relations, typed order, Actor Views, motives/intents, candidate Brain states and combinations.
+4. Use the King/tablet domain as an artifact-event reconstruction test: profiles are candidate Brain states, not the target identity.
+5. Persist Pattern Contributions, contradictions, evidence and reviewed write-backs so the next Event starts from a stronger Brain.
+6. Promote a new ID only when the residual cannot be represented by existing IDs/combinations without distortion and the target-scope review/R-F-R passes.
+7. Continue AI/ASI mechanism, Engine and Node-Brain binding as substrate for the real-time prototype; do not make any LLM or reasoning subsystem the system identity.
+8. Close each bounded Sequence without closing the overall Growing Phase.
 ## Adoption invariant
 
 ```text

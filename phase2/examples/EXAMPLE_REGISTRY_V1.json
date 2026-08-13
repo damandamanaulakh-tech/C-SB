@@ -22,7 +22,10 @@
     "Reasoning operation candidate != canonical parameter",
     "Declared count != enumerated identity set when source evidence disagrees; preserve both and keep reconciliation open",
     "Exact SB-HFR atomic IDs require exact registry lookup",
-    "Closed source records are not mutated by later approval"
+    "Closed source records are not mutated by later approval",
+    "Every fixture represents at least one Event with a typed Intent record or UNKNOWN",
+    "Example count != parameter count",
+    "Example output prose != primary growth metric"
   ],
   "examples": [
     {
@@ -37,12 +40,13 @@
         "Halt/open is allowed instead of fabricated completion",
         "Logistical suppression is view-local and non-destructive",
         "Philosophical claims about AI are source-linked stances, not runtime technical facts"
-      ]
+      ],
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE"
     },
     {
       "example_id": "EX-FATHER-DOOR-3204-001",
       "path": "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
-      "type": "MULTI_DOMAIN_REASONING_FIXTURE",
+      "type": "MULTI_DOMAIN_BRAIN_GROWTH_EVENT_FIXTURE",
       "active_source_count": 3204,
       "approx_container_hits": 17,
       "generated_runtime_relations": 10,
@@ -51,13 +55,14 @@
       "generated_rule_candidates": 1,
       "canonical_additions": 0,
       "atomic_parameter_ids_asserted": false,
-      "reason": "Exact atomic successor IDs are not inferred from container titles."
+      "reason": "Exact atomic successor IDs are not inferred from container titles.",
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE"
     },
     {
       "example_id": "EX-RAIN-TARGET-LAYER-ACTION-001",
       "path": "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "fixture": "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
-      "type": "ACTION_TARGET_LAYER_AND_END_MEANS_REASONING_FIXTURE",
+      "type": "ACTION_TARGET_LAYER_AND_END_MEANS_BRAIN_GROWTH_FIXTURE",
       "active_source_count": 3204,
       "source_declared_container_hits": 30,
       "explicit_unique_container_refs": 28,
@@ -68,7 +73,26 @@
         "RC-INSTRUMENTAL-TRIGGER-END-001"
       ],
       "canonical_additions": 0,
-      "atomic_parameter_ids_asserted": false
+      "atomic_parameter_ids_asserted": false,
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE"
     }
-  ]
+  ],
+  "system_identity_guard": "Examples are Brain-growth Events inside the real-time Sourceborn ASI prototype; they are not output templates and do not define Sourceborn as a reasoning engine.",
+  "example_semantics": {
+    "default_role": "BRAIN_GROWTH_EVENT_FIXTURE",
+    "activate_existing_ids_first": true,
+    "possible_growth_outputs": [
+      "RELATION",
+      "PATH",
+      "COMBINATION",
+      "INTENT_HYPOTHESIS",
+      "ACTOR_VIEW",
+      "MEMORY",
+      "PATTERN_CONTRIBUTION",
+      "PATTERN_CANDIDATE",
+      "NEW_ID_CANDIDATE"
+    ],
+    "new_id_requires_gate": true,
+    "contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json"
+  }
 }

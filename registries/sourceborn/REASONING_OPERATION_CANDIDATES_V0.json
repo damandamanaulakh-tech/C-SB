@@ -25,7 +25,9 @@
         "BELIEF_CHANGE != BEHAVIOR_CHANGE"
       ],
       "application_guard": "Do not infer that a user wants deception merely because a perception or belief layer is mentioned. Preserve the requested wording, actor view, alternatives and evidence status.",
-      "supporting_examples": ["P2-RAIN-TARGET-LAYER-ACTION-001"]
+      "supporting_examples": [
+        "P2-RAIN-TARGET-LAYER-ACTION-001"
+      ]
     },
     {
       "candidate_id": "RC-INSTRUMENTAL-TRIGGER-END-001",
@@ -41,8 +43,12 @@
         "MEANS != END"
       ],
       "application_guard": "Do not replace the user's stated end with an inferred end. Represent alternative end hypotheses and keep unresolved motive open.",
-      "supporting_examples": ["P2-RAIN-TARGET-LAYER-ACTION-001"]
+      "supporting_examples": [
+        "P2-RAIN-TARGET-LAYER-ACTION-001"
+      ]
     }
   ],
-  "promotion_rule": "Repeated cross-domain support plus R-F-R plus explicit review is required before any candidate can become a native/canonical reasoning parameter or rubric."
+  "promotion_rule": "Repeated cross-domain support plus R-F-R plus explicit review is required before any candidate can become a native/canonical reasoning parameter or rubric.",
+  "system_identity_guard": "LEGACY_REASONING_LABEL_DESCRIBES_AN_INTERNAL_OPERATION_CANDIDATE_NAMESPACE; SOURCEBORN_AS_A_WHOLE_IS_A_REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md"
 }

@@ -103,5 +103,47 @@
       "services": "machine/v2/CROSS_CUTTING_SERVICES_SVC01_SVC18.json",
       "adoption_rule": "V2 may supersede the Phase-1 canonical execution grammar only through an explicit V2 adoption/closure packet; no historical instance is rewritten."
     }
+  },
+  "system_identity": {
+    "canonical_name": "Sourceborn ASI",
+    "prototype_class": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+    "phase_mode": "GROWING_PHASE",
+    "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+    "runtime_contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+    "reasoning_is_internal_capability_not_system_identity": true,
+    "not_identity": [
+      "LLM_WRAPPER",
+      "PROMPT_GENERATOR",
+      "ANSWER_GENERATOR",
+      "MAIL_WRITING_ENGINE",
+      "STATIC_DECISION_ENGINE",
+      "REASONING_SYSTEM_AS_WHOLE_IDENTITY"
+    ]
+  },
+  "universal_event_law": {
+    "motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+    "every_event_requires_typed_intent_record": true,
+    "unknown_allowed": true,
+    "natural_dynamics_does_not_imply_conscious_agency": true,
+    "intent_not_motive": true
+  },
+  "growing_phase": {
+    "examples_are_brain_growth_events": true,
+    "existing_ids_activate_before_new_id_proposal": true,
+    "growth_channels": [
+      "relations",
+      "paths",
+      "combinations",
+      "intent_signatures",
+      "actor_views",
+      "memories",
+      "pattern_contributions",
+      "pattern_candidates",
+      "domain_brain_state_hypotheses",
+      "reviewed_new_ids"
+    ],
+    "example_count_is_not_parameter_count": true,
+    "new_id_gate_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+    "maturation_target": "NOVEL_COMBINATION_FROM_PRIOR_PRIMITIVES_ON_A_NEW_EVENT"
   }
 }
