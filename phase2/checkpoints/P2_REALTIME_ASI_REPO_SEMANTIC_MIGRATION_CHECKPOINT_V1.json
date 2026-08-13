@@ -1,0 +1,57 @@
+{
+  "checkpoint_id": "P2-REALTIME-ASI-REPO-SEMANTIC-MIGRATION-V1",
+  "checkpoint_type": "REPOSITORY_WIDE_SEMANTIC_MIGRATION_CHECKPOINT",
+  "status": "CLOSED_SUCCESS",
+  "phase": "PHASE_2_GROWING_PHASE",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+  "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+  "runtime_contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+  "event_schema_ref": "machine/schemas/event_intent.schema.json",
+  "ard_source_review_ref": "phase2/source_reviews/ARD_3X_GROWING_ASI_RECLASSIFICATION_V1.json",
+  "repo_audit_ref": "generated/tests/SOURCEBORN_REALTIME_ASI_REPO_AUDIT_V1.json",
+  "ci": {
+    "workflow_run_id": 31682762802,
+    "result": "SUCCESS",
+    "migration_step": "SUCCESS",
+    "realtime_asi_repo_gate": "SUCCESS",
+    "legacy_locked_invariant_gate": "SUCCESS",
+    "generated_migration_commit": "56b05e8c292d155ca25ed6aa45d70a0a9c93d895"
+  },
+  "repo_audit": {
+    "tracked_files_scanned": 336,
+    "active_architecture_or_registry": 110,
+    "control_plane": 8,
+    "tooling": 57,
+    "raw_source_immutable": 55,
+    "test_or_closure_record": 47,
+    "generated_rebuildable": 54,
+    "generated_source_copy": 4,
+    "historical_closed_phase": 1,
+    "active_identity_violations": 0
+  },
+  "closed_scope": [
+    "Sourceborn whole-system identity corrected from reasoning/answer-engine framing to real-time growing ASI prototype",
+    "Phase-2 marked as Growing Phase with highest semantic precedence workstream",
+    "Every Event now requires a typed Intent record or explicit UNKNOWN/NOT_YET_DECODED",
+    "Intent and motive separation locked",
+    "Natural dynamics direction separated from conscious agency",
+    "Examples reclassified as Brain-growth Event fixtures rather than output templates",
+    "Existing-ID activation separated from new-parameter creation",
+    "New-ID gate locked to residual + provenance + boundary/falsifier + review + R-F-R",
+    "King/actor profiles reclassified as parallel candidate Brain states for artifact-event reconstruction",
+    "Node Brain identity locked as persistent bounded intelligence/service state, not prompt",
+    "Novel-combination/new-thought maturation target locked",
+    "ARD 3.x corpus reclassified as research/mechanism source with contradictions preserved",
+    "All tracked repo files classified/audited; raw/history preserved rather than mass rewritten"
+  ],
+  "legacy_names_preserved": [
+    "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
+    "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
+    "registries/sourceborn/KING_PROFILE_REASONING_PARAMETER_CANDIDATES_V0.json",
+    "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json"
+  ],
+  "legacy_name_rule": "REASONING in an old filename/registry namespace describes an internal operation or provenance label only; it does not define Sourceborn system identity.",
+  "next_sequence": "P2-GROWTH-METRICS-AND-NOVEL-COMBINATION-RUNTIME-01",
+  "next_goal": "Measure what each Event adds to the persistent Brain—activation, relation, intent signature, combination, pattern, memory, candidate ID—and prove a later Event can form a useful novel combination without a matching prior example."
+}
