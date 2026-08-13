@@ -7,6 +7,7 @@
   },
   "pass1": {
     "runtime_stage_count": 13,
+    "engine_route_count": 12,
     "schema_object_count": 9,
     "pattern_namespace_count": 7,
     "ui_panel_count": 9,
@@ -26,8 +27,11 @@
       "ENG-EVO-001",
       "ENG-MEM-001",
       "ENG-META-001",
+      "ENG-META-002",
       "ENG-ORC-001",
       "ENG-PAT-001",
+      "ENG-RD-001",
+      "ENG-REV-001",
       "ENG-RGL-001",
       "ENG-RGL-002",
       "ENG-SB-002",
@@ -39,11 +43,13 @@
       "ENG-SB-009",
       "ENG-SEQ-001",
       "ENG-URR-002",
+      "ENG-URR-006",
       "ENG-VER-001",
+      "ENG-VER-002",
       "ENG-WLD-005",
       "ENG-WLD-006"
     ],
-    "engine_ref_count": 27,
+    "engine_ref_count": 32,
     "asi_node_refs": [
       "ASI-NODE-00",
       "ASI-NODE-01",
@@ -75,11 +81,11 @@
       "NO_AUTOMATIC_PATTERN_PROMOTION": true,
       "USER_EDIT_VERSIONED": true,
       "ENGINE_NOT_AUTHORITY": true,
+      "RGL_NOT_IN_PLACE_LOOP": true,
+      "META_NOT_DEFAULT_LOCAL_ANALYSIS": true,
       "CLOSED_SEQUENCES_NOT_REOPENED": true
     }
   },
   "errors": [],
-  "findings": [
-    "overlay principle does not itself mention reasoning Engine authority; runtime stage guard is used instead"
-  ]
+  "findings": []
 }
