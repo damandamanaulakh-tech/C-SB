@@ -1,0 +1,85 @@
+{
+  "fixture_id": "P2-RAIN-TARGET-LAYER-ACTION-001",
+  "status": "USER_EXAMPLE_REVIEW_TEST",
+  "active_source_registry": {
+    "registry_id": "HUMAN-FUNCTIONAL-REGISTRY-V1-3204",
+    "count": 3204
+  },
+  "source": {
+    "text": "when i want to take my kids out, if it start raining i have no need to go; there is no rain, but how i make sure its rain to kids",
+    "immutable": true,
+    "source_type": "USER_PROVIDED_EXAMPLE"
+  },
+  "source_assertions": [
+    "actor wants to take kids out",
+    "rain is stated as a condition under which there is no need to go",
+    "current reality is stated as no rain",
+    "actor asks how to make it rain to the kids"
+  ],
+  "inference_boundaries": [
+    "the request does not by itself prove that the actor wants to deceive the children",
+    "rain being a condition does not by itself prove the terminal goal is no outing",
+    "world-state change, signal change, perception change, belief change and behavior change must remain distinct",
+    "co-occurrence is not causality without evidence"
+  ],
+  "declared_container_hit_count_from_source_example": 30,
+  "enumerated_container_refs": [
+    "CON-009", "CON-013", "CON-016",
+    "CON-017", "CON-018", "CON-020", "CON-023",
+    "CON-030", "CON-031", "CON-032",
+    "CON-043", "CON-045", "CON-046", "CON-047", "CON-048",
+    "CON-052", "CON-053", "CON-054", "CON-056",
+    "CON-062", "CON-063", "CON-064",
+    "CON-068", "CON-069", "CON-071", "CON-072",
+    "CON-075", "CON-077"
+  ],
+  "enumerated_unique_container_hit_count": 28,
+  "container_count_reconciliation": {
+    "status": "SOURCE_INTERNAL_COUNT_MISMATCH_OPEN",
+    "declared": 30,
+    "enumerated": 28,
+    "delta": 2,
+    "rule": "Do not invent two missing container IDs. Preserve the source-declared count and the explicit enumeration separately until clarified."
+  },
+  "action_mode_additional_regions": [
+    "CON-013", "CON-018", "CON-023", "CON-030", "CON-031", "CON-046",
+    "CON-048", "CON-053", "CON-056", "CON-069", "CON-072", "CON-077"
+  ],
+  "action_mode_additional_region_count": 12,
+  "sequence_objects": {
+    "original_plan": "TAKE_KIDS_OUT",
+    "conditional_trigger": "RAIN",
+    "trigger_result": "NO_NEED_TO_GO",
+    "current_world_state": "NO_RAIN",
+    "requested_change_phrase": "MAKE_IT_RAIN_TO_KIDS"
+  },
+  "target_layer_split": [
+    "WORLD_STATE",
+    "SIGNAL_STATE",
+    "PERCEPTION_STATE",
+    "BELIEF_STATE",
+    "BEHAVIOR_STATE"
+  ],
+  "candidate_operations": [
+    {
+      "candidate_id": "RC-TARGET-LAYER-001",
+      "name": "CHANGE TARGET LAYER",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "candidate_id": "RC-INSTRUMENTAL-TRIGGER-END-001",
+      "name": "INSTRUMENTAL TRIGGER != TERMINAL GOAL",
+      "status": "REVIEW_REQUIRED"
+    }
+  ],
+  "runtime_laws": [
+    "QUESTION_ABOUT_REALITY != REQUEST_TO_ACHIEVE_OUTCOME",
+    "WORLD_CHANGE != SIGNAL_CHANGE != PERCEPTION_CHANGE != BELIEF_CHANGE != BEHAVIOR_CHANGE",
+    "TRIGGER != TERMINAL_GOAL",
+    "REQUESTED_ACTION_REQUIRES_PLAN_TOOL_ALTERNATIVE_EXECUTION_EFFECT_VERIFICATION_ROUTING",
+    "RUNTIME_RELATION != PARAMETER",
+    "CANDIDATE_OPERATION != CANONICAL_PARAMETER"
+  ],
+  "canonical_additions": 0,
+  "exact_atomic_parameter_ids_asserted": false
+}

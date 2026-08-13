@@ -1,0 +1,48 @@
+{
+  "registry_id": "SOURCEBORN-REASONING-OPERATION-CANDIDATES-V0",
+  "status": "REVIEW_REQUIRED_CANDIDATES",
+  "authority": "NO_DIRECT_EXECUTION_AUTHORITY",
+  "candidates": [
+    {
+      "candidate_id": "RC-TARGET-LAYER-001",
+      "name": "CHANGE TARGET LAYER",
+      "candidate_type": "REASONING_OPERATION_CANDIDATE",
+      "status": "REVIEW_REQUIRED",
+      "canonical": false,
+      "direct_action_authority": false,
+      "definition": "Before planning a requested change, distinguish which layer is intended to change: world state, signal state, observer perception, observer belief, or observer behavior.",
+      "target_layers": [
+        "WORLD_STATE",
+        "SIGNAL_STATE",
+        "PERCEPTION_STATE",
+        "BELIEF_STATE",
+        "BEHAVIOR_STATE"
+      ],
+      "hard_separations": [
+        "WORLD_CHANGE != SIGNAL_CHANGE",
+        "SIGNAL_CHANGE != PERCEPTION_CHANGE",
+        "PERCEPTION_CHANGE != BELIEF_CHANGE",
+        "BELIEF_CHANGE != BEHAVIOR_CHANGE"
+      ],
+      "application_guard": "Do not infer that a user wants deception merely because a perception or belief layer is mentioned. Preserve the requested wording, actor view, alternatives and evidence status.",
+      "supporting_examples": ["P2-RAIN-TARGET-LAYER-ACTION-001"]
+    },
+    {
+      "candidate_id": "RC-INSTRUMENTAL-TRIGGER-END-001",
+      "name": "INSTRUMENTAL TRIGGER != TERMINAL GOAL",
+      "candidate_type": "REASONING_OPERATION_CANDIDATE",
+      "status": "REVIEW_REQUIRED",
+      "canonical": false,
+      "direct_action_authority": false,
+      "definition": "When a condition or trigger appears to enable, block, justify or redirect an outcome, test whether that trigger is only one means/path rather than the declared terminal end.",
+      "hard_separations": [
+        "TRIGGER != THRESHOLD",
+        "TRIGGER != TERMINAL_GOAL",
+        "MEANS != END"
+      ],
+      "application_guard": "Do not replace the user's stated end with an inferred end. Represent alternative end hypotheses and keep unresolved motive open.",
+      "supporting_examples": ["P2-RAIN-TARGET-LAYER-ACTION-001"]
+    }
+  ],
+  "promotion_rule": "Repeated cross-domain support plus R-F-R plus explicit review is required before any candidate can become a native/canonical reasoning parameter or rubric."
+}

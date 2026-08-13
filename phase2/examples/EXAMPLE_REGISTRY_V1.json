@@ -19,6 +19,8 @@
     "Interpretation candidate != fact",
     "Pattern candidate != approved pattern",
     "Rubric candidate != canonical rubric",
+    "Reasoning operation candidate != canonical parameter",
+    "Declared count != enumerated identity set when source evidence disagrees; preserve both and keep reconciliation open",
     "Exact SB-HFR atomic IDs require exact registry lookup",
     "Closed source records are not mutated by later approval"
   ],
@@ -50,6 +52,23 @@
       "canonical_additions": 0,
       "atomic_parameter_ids_asserted": false,
       "reason": "Exact atomic successor IDs are not inferred from container titles."
+    },
+    {
+      "example_id": "EX-RAIN-TARGET-LAYER-ACTION-001",
+      "path": "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "fixture": "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
+      "type": "ACTION_TARGET_LAYER_AND_END_MEANS_REASONING_FIXTURE",
+      "active_source_count": 3204,
+      "source_declared_container_hits": 30,
+      "explicit_unique_container_refs": 28,
+      "container_count_reconciliation": "SOURCE_INTERNAL_COUNT_MISMATCH_OPEN",
+      "action_mode_additional_regions": 12,
+      "reasoning_operation_candidates": [
+        "RC-TARGET-LAYER-001",
+        "RC-INSTRUMENTAL-TRIGGER-END-001"
+      ],
+      "canonical_additions": 0,
+      "atomic_parameter_ids_asserted": false
     }
   ]
 }

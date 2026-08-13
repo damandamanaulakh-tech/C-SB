@@ -33,7 +33,7 @@ RUNTIME-OWNER ROUTING
     ↓
 RUBRICS / RELATIONS / ASI NODES / ENGINES
     ↓
-INTERPRETATION + PATTERN CANDIDATES
+INTERPRETATION + PATTERN / REASONING-OPERATION CANDIDATES
     ↓
 DOUBT / VERIFICATION / R-F-R
     ↓
@@ -51,13 +51,17 @@ Example counts must keep these categories separate:
 - Interpretation candidates are not parameters.
 - Pattern candidates are not approved patterns.
 - Rubric/rule candidates are not canonical rubrics.
+- Reasoning-operation candidates are not canonical parameters.
 - User approval does not mutate a closed source record; it creates a versioned write-back/new Sequence.
 
 Container-level activation may be shown when source evidence supports the container. Exact `SB-HFR-Pxxxx` atomic IDs may only be asserted after exact registry lookup; never infer an atomic parameter meaning from a container title alone.
+
+If a source declares an aggregate count that disagrees with the explicitly enumerated IDs, preserve both values and open a reconciliation finding. Do not invent missing IDs to make the arithmetic fit.
 
 ## Current examples
 
 1. `SOURCE_SOVEREIGNTY_PURITY_FILTER_EXAMPLE_V1.md` — places the Purity Filter as a source-governance/extraction filter after Point Zero, not as a new Brain or replacement for Universal Sequence.
 2. `FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md` — converts the prior 2,560 demonstration to the active 3,204 source-bank model and explicitly separates source activations from ASI-generated relations, interpretations, patterns, and rule candidates.
+3. `RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md` — tests an action request where current world state, requested observer state and terminal outcome may differ. It creates review-required candidates for `CHANGE TARGET LAYER` and `INSTRUMENTAL TRIGGER != TERMINAL GOAL`, and preserves a source-internal `30 declared vs 28 enumerated` container-count mismatch without fabrication.
 
 Machine-readable registration: `EXAMPLE_REGISTRY_V1.json`.
