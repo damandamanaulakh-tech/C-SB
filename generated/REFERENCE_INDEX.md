@@ -843,3 +843,51 @@
 - **AI-RUBRIC-V0** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `registries/ai/AI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **ASI-RUBRIC-V0** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `registries/asi/ASI_RUBRIC_V0.json`, `registries/asi/asi_node_registry.json`
 - **WISDOM-REGISTRY-V0** → `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`, `registries/asi/asi_node_registry.json`, `registries/wisdom/WISDOM_REGISTRY_V0.json`
+
+## Micro Sequence Runtime Stages
+
+- **MS-00** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-01** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-02** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-03** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-04** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-05** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-06** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-07** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-08** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-09** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-10** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-11** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+- **MS-12** → `machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json`
+
+## Rubric Microscope Panels
+
+- **RM-01** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-02** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-03** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-04** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-05** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-06** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-07** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-08** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+- **RM-09** → `machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json`
+
+## Micro Pattern Test Sequences
+
+- **SYN-MICRO-S1** → `phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json`
+- **SYN-MICRO-S2** → `phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json`
+- **SYN-MICRO-S3** → `phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json`
+- **SYN-MICRO-S4** → `phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json`
+- **SYN-MICRO-S5** → `phase2/tests/MICRO_SEQUENCE_PATTERN_FIXTURE_001.json`
+
+## Pattern Candidate Ids
+
+_No IDs currently present._
+
+## Rubric Review Ids
+
+_No IDs currently present._
+
+## Learning Writeback Ids
+
+_No IDs currently present._
