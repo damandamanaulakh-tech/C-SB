@@ -10,6 +10,7 @@ PATTERNS = {
     "segments": re.compile(r"\bSEG-\d{2}\b"),
     "containers": re.compile(r"\bCON-\d{3}\b"),
     "sourceborn_parameters": re.compile(r"\bSB-ASI-P\d{4}\b"),
+    "human_functional_v1_parameters": re.compile(r"\bSB-HFR-P\d{4}\b"),
     "human_combinations": re.compile(r"\bH-COMB-\d{2}\b"),
     "legacy_ai_capabilities": re.compile(r"\bAI-CAP-\d{3}\b"),
     "approved_ai_only_records": re.compile(r"\bAI-NEW-\d{3}\b"),
@@ -32,13 +33,13 @@ PATTERNS = {
     "governance_control_ids": re.compile(r"\bGOV-\d{3}\b"),
     "rubric_registry_ids": re.compile(r"\b(?:AI-RUBRIC-V\d+|ASI-RUBRIC-V\d+|WISDOM-REGISTRY-V\d+)\b"),
     "micro_sequence_runtime_stages": re.compile(r"\bMS-\d{2}\b"),
-    "rubric_microscope_panels": re.compile(r"\bRM-\d{2}[A-Z]?\b"),
+    "rubric_microscope_panels": re.compile(r"\bRM-\d{2}\b"),
     "micro_pattern_test_sequences": re.compile(r"\bSYN-MICRO-S\d+\b"),
     "pattern_candidate_ids": re.compile(r"\b(?:PATTERN-CANDIDATE|PAT-CAND|P-CAND)-[A-Z0-9-]+\b"),
     "rubric_review_ids": re.compile(r"\b(?:REVIEW|RUBRIC-REVIEW)-[A-Z0-9-]+\b"),
     "learning_writeback_ids": re.compile(r"\b(?:WRITEBACK|LEARN-WB)-[A-Z0-9-]+\b"),
     "semantic_clarification_ids": re.compile(r"\bSC-[A-Z0-9-]+\b"),
-    "dimensional_return_ids": re.compile(r"\bRET-DIM-[A-Z0-9-]+\b"),
+    "dimensional_return_ids": re.compile(r"\bDR-[A-Z0-9-]+\b"),
     "human_rubric_change_candidate_ids": re.compile(r"\bHRC-[A-Z0-9-]+\b"),
     "semantic_correction_test_sequences": re.compile(r"\bSEQ-SEM-[A-Z0-9-]+\b"),
 }
@@ -65,6 +66,16 @@ for p in ROOT.rglob("*"):
     for kind, rx in PATTERNS.items():
         for ident in sorted(set(rx.findall(text))):
             refs[kind].setdefault(ident, []).append(rel)
+
+# The expanded 3,204 Human functional registry is generated from a locked compressed source.
+# Index its IDs explicitly without recursively indexing all generated artifacts.
+hfr_generated = ROOT / "generated/registry_views/human_functional_3204_registry_v1.json"
+if hfr_generated.exists():
+    text = hfr_generated.read_text(encoding="utf-8")
+    rel = str(hfr_generated.relative_to(ROOT))
+    kind = "human_functional_v1_parameters"
+    for ident in sorted(set(PATTERNS[kind].findall(text))):
+        refs[kind].setdefault(ident, []).append(rel)
 
 for kind in refs:
     for ident in refs[kind]:

@@ -33,6 +33,10 @@ jobs:
         run: python tools/generate_registry_views.py
       - name: Materialize and verify Human native 2560 custody
         run: python tools/materialize_human_native_2560_v1.py
+      - name: Materialize expanded Human functional registry 3204
+        run: python tools/generate_human_functional_3204_v1.py
+      - name: Validate Human functional expansion 2560 to 3204
+        run: python tools/validate_human_functional_3204_v1.py
       - name: Validate exact Human 2560 runtime depth placement
         run: python tools/validate_human_native_2560_runtime_depth_v1.py
       - name: Build AI native candidate review registry

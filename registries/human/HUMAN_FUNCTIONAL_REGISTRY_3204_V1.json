@@ -1,0 +1,70 @@
+{
+  "registry_id": "HUMAN-FUNCTIONAL-REGISTRY-V1-3204",
+  "status": "PHASE2_EXPANDED_SOURCE_ADOPTED_FOR_RFR",
+  "source_documents": [
+    {
+      "name": "ASI_Claude_Parameters.docx",
+      "title": "Human Functional Registry v1.0",
+      "sha256": "8a9b4f601267027cb068edc0f5a7b9ab476c41b26758137c6aff73e4d176f719",
+      "role": "PRIMARY_FULL_ENUMERATION",
+      "declared_named_parameters": 3204
+    },
+    {
+      "name": "ASI_GPT_Parameters.docx",
+      "title": "Human Functional Registry v0.2 Corrected & Verified Edition",
+      "sha256": "0e8410f5c37e738b23dbda4eaa03a22df31e3e289b84a83afc9f5fa66c811da0",
+      "role": "LEGACY_COUNT_CONTAINER_CROSSCHECK",
+      "declared_named_parameters": 2560
+    }
+  ],
+  "source_payload": {
+    "path": "raw/human/hfr_v1_3204/HUMAN_FUNCTIONAL_REGISTRY_V1_3204.tsv.gz.b64",
+    "format": "base64(gzip(UTF-8 TSV))",
+    "tsv_sha256": "afa1fb26da066ec363a8c7e5d126843b6cc77babec5e9a73e0ad9a4292b9a8ca",
+    "gzip_sha256": "6914d211d4405523cb5c56bd42a22544b6c31144c368c360ba2d730aa0bcdb22",
+    "rows": 3204,
+    "first_id": "SB-HFR-P0001",
+    "last_id": "SB-HFR-P3204"
+  },
+  "shape": {
+    "segments": 10,
+    "containers": 80,
+    "named_parameters": 3204,
+    "segment_parameter_counts": [320, 320, 320, 320, 320, 322, 320, 322, 320, 320]
+  },
+  "legacy_baseline": {
+    "registry_ids": "SB-ASI-P0001..SB-ASI-P2560",
+    "count": 2560,
+    "container_index": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
+    "immutable": true,
+    "net_count_change_to_v1": 644
+  },
+  "identity_policy": {
+    "new_namespace": "SB-HFR-P0001..SB-HFR-P3204",
+    "reason": "The v1.0 document is a complete successor enumeration. Count-level comparison cannot prove atomic one-to-one identity with every legacy SB-ASI-P row.",
+    "legacy_rows_deleted": false,
+    "legacy_rows_renamed": false,
+    "atomic_aliasing_status": "OPEN_RECONCILIATION"
+  },
+  "container_version_divergence": {
+    "grown_containers": 77,
+    "unchanged_containers": ["CON-028", "CON-046"],
+    "contracted_containers": [
+      {"container_id": "CON-042", "name": "Core Reasoning", "legacy_count": 48, "v1_count": 42, "delta": -6}
+    ],
+    "rule": "Source-version contraction is recorded; it does not delete any legacy parameter."
+  },
+  "scaffolds_not_counted_as_parameters": {
+    "universal_filters": 40,
+    "operating_states": 12,
+    "evidence_levels": 7,
+    "failure_distortion_classes": 20,
+    "operating_chain_steps": 30
+  },
+  "runtime_owner_policy": {
+    "rule": "SOURCE LOCATION != RUNTIME OWNERSHIP",
+    "status": "PENDING_P2_HUMAN_3204_RUNTIME_OWNER_RECLASSIFICATION",
+    "candidate_owners": ["HUMAN_PHYSICAL", "BRAIN_COGNITIVE", "AFFECT_RELATIONAL", "SEQUENCE_RUNTIME", "MIXED", "UNKNOWN"]
+  },
+  "adoption_meaning": "The effective Human-derived functional source registry count is raised from 2,560 to 3,204. This does not assert that all 3,204 are HUMAN_PHYSICAL runtime parameters."
+}
