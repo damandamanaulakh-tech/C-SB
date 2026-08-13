@@ -193,6 +193,15 @@
         "source_ref":{},
         "epistemic_status":{"type":"string"}
       }
-    }
+    },
+    "SentenceIntakePacket":{"$ref":"micro_sequence_learning.schema.json#/$defs/SentenceIntakePacket"},
+    "MicroUnit":{"$ref":"micro_sequence_learning.schema.json#/$defs/MicroUnit"},
+    "RubricActivationPacket":{"$ref":"micro_sequence_learning.schema.json#/$defs/RubricActivationPacket"},
+    "InterpretationCandidate":{"$ref":"micro_sequence_learning.schema.json#/$defs/InterpretationCandidate"},
+    "PatternContributionPacket":{"$ref":"micro_sequence_learning.schema.json#/$defs/PatternContributionPacket"},
+    "PatternCandidate":{"$ref":"micro_sequence_learning.schema.json#/$defs/PatternCandidate"},
+    "ReviewableRubricView":{"$ref":"micro_sequence_learning.schema.json#/$defs/ReviewableRubricView"},
+    "RubricEditDecision":{"$ref":"micro_sequence_learning.schema.json#/$defs/RubricEditDecision"},
+    "LearningWritebackPacket":{"$ref":"micro_sequence_learning.schema.json#/$defs/LearningWritebackPacket"}
   }
 }
