@@ -1,0 +1,27 @@
+name: Event semantic intent V1.4 controlled growth test
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - build/event-intent-growth-ledger-v1
+    paths:
+      - 'machine/runtime/EVENT_SEMANTIC_INTENT_RULES_V1.json'
+      - 'tools/run_micro_sequence_interpreter_v1_4.py'
+      - 'tools/test_event_semantic_intent_v1_4.py'
+      - 'phase2/tests/P2_EVENT_INTENT_GROWTH_EXAMPLES_V1.json'
+      - '.github/workflows/event-semantic-intent-v1-4.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  event-semantic-intent-v1-4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run all ten Event semantic intent growth cases
+        run: python tools/test_event_semantic_intent_v1_4.py
