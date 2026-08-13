@@ -25,8 +25,20 @@
     "Closed source records are not mutated by later approval",
     "Every fixture represents at least one Event with a typed Intent record or UNKNOWN",
     "Example count != parameter count",
-    "Example output prose != primary growth metric"
+    "Example output prose != primary growth metric",
+    "Every accepted growth batch must increase at least one persistent Brain-object count",
+    "Native parameter counts must not be inflated merely to force monotonic growth"
   ],
+  "counts": {
+    "examples_before_growth_batch_002": 3,
+    "examples_added_growth_batch_002": 5,
+    "examples_after_growth_batch_002": 8,
+    "source_event_units_added_growth_batch_002": 60,
+    "persistent_brain_objects_added_growth_batch_002": 151,
+    "primitive_candidate_ids_added_growth_batch_002": 4,
+    "human_derived_source_parameters_before": 3204,
+    "human_derived_source_parameters_after": 3204
+  },
   "examples": [
     {
       "example_id": "EX-SOURCE-SOVEREIGNTY-PURITY-001",
@@ -75,6 +87,53 @@
       "canonical_additions": 0,
       "atomic_parameter_ids_asserted": false,
       "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE"
+    },
+    {
+      "example_id": "EX-GROWTH-ARCHIVE-002-001",
+      "source_id": "SRC-GROW-002-001",
+      "source_name": "08_Weekend_Plans_Archive_Raw_Thought_Extract_ASIDE.md",
+      "type": "ARCHIVE_BOUNDARY_AND_RECOVERY_GROWTH_FIXTURE",
+      "source_event_units": 5,
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE",
+      "custody_ref": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json"
+    },
+    {
+      "example_id": "EX-GROWTH-PRIVATE-PHILOSOPHY-002-002",
+      "source_id": "SRC-GROW-002-002",
+      "source_name": "Chat_Full_Raw_Thought_Extraction_Complete.docx.extracted.txt",
+      "type": "PRIVATE_PERSONAL_AND_PHILOSOPHICAL_GROWTH_FIXTURE",
+      "source_event_units": 8,
+      "privacy_class": "HIGH_SENSITIVITY_PRIVATE",
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE",
+      "custody_ref": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json"
+    },
+    {
+      "example_id": "EX-GROWTH-GOVERNANCE-CLAIMS-002-003",
+      "source_id": "SRC-GROW-002-003",
+      "source_name": "govt_article.md",
+      "type": "GOVERNANCE_SOURCE_CLAIM_GROWTH_FIXTURE",
+      "source_event_units": 19,
+      "truth_guard": "USER_AUTHORED_POLITICAL_ASSERTIONS_REMAIN_SOURCE_CLAIMS_UNLESS_VERIFIED",
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE",
+      "custody_ref": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json"
+    },
+    {
+      "example_id": "EX-GROWTH-PHILOSOPHY-002-004",
+      "source_id": "SRC-GROW-002-004",
+      "source_name": "Philosophy_Document_Complete.docx.extracted.txt",
+      "type": "PHILOSOPHICAL_RAW_THOUGHT_GROWTH_FIXTURE",
+      "source_event_units": 18,
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE",
+      "custody_ref": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json"
+    },
+    {
+      "example_id": "EX-GROWTH-DEYE-002-005",
+      "source_id": "SRC-GROW-002-005",
+      "source_name": "Raw_Thoughts_D_Eye_5Percent_Mindset.md",
+      "type": "FRAME_AUTHENTICITY_AND_GROWTH_GROWTH_FIXTURE",
+      "source_event_units": 10,
+      "growth_role": "BRAIN_GROWTH_EVENT_FIXTURE",
+      "custody_ref": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json"
     }
   ],
   "system_identity_guard": "Examples are Brain-growth Events inside the real-time Sourceborn ASI prototype; they are not output templates and do not define Sourceborn as a reasoning engine.",
@@ -93,6 +152,8 @@
       "NEW_ID_CANDIDATE"
     ],
     "new_id_requires_gate": true,
-    "contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json"
+    "count_monotonicity": "AT_LEAST_ONE_PERSISTENT_BRAIN_OBJECT_CLASS_MUST_INCREASE_PER_ACCEPTED_GROWTH_BATCH",
+    "contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+    "growth_batch_002_registry_ref": "registries/sourceborn/GROWTH_BATCH_002_DERIVED_OBJECTS_V1.json"
   }
 }
