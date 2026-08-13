@@ -1,0 +1,9 @@
+{
+  "run_id": "P2-GROWTH-BATCH-003-RFR-TRIGGER",
+  "status": "REQUESTED",
+  "source_ref": "phase2/sources/GROWTH_BATCH_003_SOURCE_CUSTODY.json",
+  "growth_ref": "registries/sourceborn/GROWTH_BATCH_003_DERIVED_OBJECTS_V1.json",
+  "validator": "tools/validate_growth_batch_003_v1.py",
+  "expected_persistent_brain_object_delta": 50,
+  "human_source_parameter_count_must_remain": 3204
+}
