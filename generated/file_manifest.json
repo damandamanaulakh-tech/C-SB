@@ -65,9 +65,14 @@
     "size_bytes": 6533
   },
   {
+    "path": "tools/run_micro_sequence_interpreter_v1_1.py",
+    "sha256": "1814b3b87f04dbc4eb14d72b7d310f316a21bb19e6ecdfe5e22e4b5230a8f38b",
+    "size_bytes": 13368
+  },
+  {
     "path": "tools/test_micro_sequence_live_interpreter_v1.py",
-    "sha256": "fb988515cfb5441f29b252879e95281c2d5fe498e4a856cf5248bbd9ba96c281",
-    "size_bytes": 5631
+    "sha256": "6e9d7bfe7289daaa84b1e722a203513bbf566f349e1a964c36177b28d44d95de",
+    "size_bytes": 6261
   },
   {
     "path": "tools/build_release_asset_manifest.py",
@@ -296,8 +301,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "38b8f805e80058dce8ab7148f67eca1436f7e323031c1c5d4ef00a30c05c962a",
-    "size_bytes": 5092
+    "sha256": "8b633c26586c42f56f3d3ee3f3c7654005598440353129de3ee9852ac3256888",
+    "size_bytes": 5221
   },
   {
     "path": ".github/workflows/multi-rubric-integration-rfr.yml",
@@ -588,6 +593,11 @@
     "path": "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
     "sha256": "c5c9e2f609ea454461fefabea0dcacde9d790a3756b5fb2c3475c1d43ba9e0bb",
     "size_bytes": 3629
+  },
+  {
+    "path": "phase2/checkpoints/P2_MICRO_SEQUENCE_LIVE_INTERPRETER_CHECKPOINT_V1.json",
+    "sha256": "b0a80bda422b99b15dc558a4f8af1255ea3f16358e9af6ed0f7a3d3f843b1b9e",
+    "size_bytes": 1162
   },
   {
     "path": "phase2/checkpoints/P2_MULTI_RUBRIC_INTEGRATION_CHECKPOINT_001.json",

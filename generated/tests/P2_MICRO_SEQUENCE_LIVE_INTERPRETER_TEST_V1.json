@@ -1,0 +1,17 @@
+{
+  "report_id": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-TEST-V1",
+  "status": "PASS",
+  "tested_interpreter": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.1",
+  "superseded_failed_interpreter": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1",
+  "fixture_sequence_id": "SYN-LIVE-MICRO-001",
+  "checks": {
+    "micro_units_produced": true,
+    "inflected_incomplete_disclosure_detected": true,
+    "pattern_candidate_produced": true,
+    "intent_user_attributed": true,
+    "pattern_no_action_authority": true,
+    "review_view_present": true,
+    "explicit_review_creates_separate_writeback": true
+  },
+  "errors": []
+}
