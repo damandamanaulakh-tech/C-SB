@@ -341,8 +341,8 @@
   },
   {
     "path": "machine/schemas/sourceborn.bundle.schema.json",
-    "sha256": "d2653984d4ac568baf3e0d84501f4e0e4a0e3984e697ed28378fd4bc567f1f98",
-    "size_bytes": 7385
+    "sha256": "17299208779da401c0077cc11c344b1b906d2c0bcd32ae7ecd19cb58a3c56368",
+    "size_bytes": 8304
   },
   {
     "path": "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
