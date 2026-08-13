@@ -1,0 +1,202 @@
+{
+  "fixture_id": "P2-SEMANTIC-CLARIFICATION-RESIDUAL-RETURN-001",
+  "status": "USER_CLARIFIED_REVIEW_TEST",
+  "sequence_id": "SEQ-SEM-RESIDUAL-001",
+  "source": {
+    "source_type": "USER_UTTERANCE",
+    "raw_source_fragments": [
+      "A good person left ... with memories of their beloved and responsibility keep them safe and alive",
+      "got nothing"
+    ],
+    "source_immutable": true,
+    "note": "Ellipsis and grammar are preserved as supplied. This fixture tests semantic clarification, not source rewriting."
+  },
+  "semantic_clarifications": [
+    {
+      "clarification_id": "SC-LEFT-001",
+      "sequence_id": "SEQ-SEM-RESIDUAL-001",
+      "source_text": "left",
+      "source_span_ref": "source.raw_source_fragments[0]",
+      "machine_sense_candidates": [
+        "departure/movement away",
+        "ceased to be present",
+        "remaining/residual outcome"
+      ],
+      "rejected_senses": [
+        "departed",
+        "died",
+        "walked away"
+      ],
+      "user_authorized_contextual_sense": "what ultimately remains with the person after their effort, care, time and responsibility; the residual outcome they retain",
+      "semantic_relation_type": "RESIDUAL_OUTCOME_RETAINED_BY_ACTOR",
+      "dimension_scope": ["RESULT", "MEMORY", "CONTINUING_RESPONSIBILITY"],
+      "applies_when": "the phrase is used to ask or describe what remains/what the person retains after contribution",
+      "does_not_apply_when": "the context explicitly describes physical departure, death or spatial leaving",
+      "scope": "THIS_USER_DEFINED_CONTEXT_AND_FUTURE_MATCHES_REQUIRING_REVIEW",
+      "epistemic_status": "USER_DEFINED_CONTEXT",
+      "affected_micro_unit_ids": [],
+      "affected_relation_ids": ["REL-RESIDUAL-001"],
+      "affected_rubric_refs": ["R08", "R30", "R31", "R33", "R39"],
+      "affected_human_container_refs": ["CON-033", "CON-038", "CON-040", "CON-064", "CON-071", "CON-072"],
+      "downstream_recompute_required": true,
+      "recompute_targets": ["ENTITY_OUTCOME", "RESULT_SET", "RETURN_DIMENSIONS", "PATTERN_CANDIDATES"],
+      "source_remains_immutable": true,
+      "universalization_allowed": false,
+      "provenance_refs": ["USER_CLARIFICATION_CURRENT_SEQUENCE"]
+    },
+    {
+      "clarification_id": "SC-NOTHING-001",
+      "sequence_id": "SEQ-SEM-RESIDUAL-001",
+      "source_text": "got nothing",
+      "source_span_ref": "source.raw_source_fragments[1]",
+      "machine_sense_candidates": [
+        "zero return in every dimension",
+        "zero/low tangible or material return",
+        "no return the speaker counts as materially comparable"
+      ],
+      "rejected_senses": [
+        "zero emotional return",
+        "zero experiential return",
+        "zero memory value by definition"
+      ],
+      "user_authorized_contextual_sense": "zero or low tangible/material return while emotional, experiential and memory return may remain",
+      "semantic_relation_type": "DIMENSION_SCOPED_ZERO_RETURN",
+      "dimension_scope": ["MATERIAL_RETURN"],
+      "applies_when": "nothing refers to lack of tangible/material personal return in this described pattern",
+      "does_not_apply_when": "the source explicitly states absence across all return dimensions",
+      "scope": "THIS_USER_DEFINED_CONTEXT_AND_FUTURE_MATCHES_REQUIRING_REVIEW",
+      "epistemic_status": "USER_DEFINED_CONTEXT",
+      "affected_micro_unit_ids": [],
+      "affected_relation_ids": ["REL-RETURN-001"],
+      "affected_rubric_refs": ["R04", "R30", "R31", "R33", "R39"],
+      "affected_human_container_refs": ["CON-047", "CON-057", "CON-064", "CON-071", "CON-072"],
+      "downstream_recompute_required": true,
+      "recompute_targets": ["RETURN_DIMENSIONS", "RESULT_SET", "VALUE_INTERPRETATION"],
+      "source_remains_immutable": true,
+      "universalization_allowed": false,
+      "provenance_refs": ["USER_CLARIFICATION_CURRENT_SEQUENCE"]
+    },
+    {
+      "clarification_id": "SC-GOOD-001",
+      "sequence_id": "SEQ-SEM-RESIDUAL-001",
+      "source_text": "good person",
+      "source_span_ref": "source.raw_source_fragments[0]",
+      "machine_sense_candidates": ["moral approval label", "behavioral value label", "social evaluation"],
+      "rejected_senses": ["a person who receives nothing is automatically good", "self-sacrifice alone proves goodness"],
+      "user_authorized_contextual_sense": {
+        "label": "good",
+        "candidate_dimensions": ["care", "responsibility", "continuity", "protection", "giving", "low demand for equivalent personal return", "emotional attachment", "duty"]
+      },
+      "semantic_relation_type": "USER_VALUE_LABEL_WITH_CANDIDATE_DIMENSIONS",
+      "dimension_scope": ["VALUE", "RESPONSIBILITY", "RELATIONSHIP_BEHAVIOR"],
+      "applies_when": "interpreting the user's value label in this described relationship/care pattern",
+      "does_not_apply_when": "used as a universal moral definition without additional cases and counter-cases",
+      "scope": "USER_VALUE_LABEL_CANDIDATE",
+      "epistemic_status": "USER_CLARIFIED",
+      "affected_micro_unit_ids": [],
+      "affected_relation_ids": [],
+      "affected_rubric_refs": ["R10", "R11", "R13", "R14", "R24", "R42"],
+      "affected_human_container_refs": ["CON-062", "CON-063", "CON-064", "CON-068", "CON-070", "CON-071", "CON-072"],
+      "downstream_recompute_required": true,
+      "recompute_targets": ["VALUE_INTERPRETATION", "PATTERN_CANDIDATES"],
+      "source_remains_immutable": true,
+      "universalization_allowed": false,
+      "provenance_refs": ["USER_CLARIFICATION_CURRENT_SEQUENCE"]
+    }
+  ],
+  "dimensional_return": {
+    "return_id": "RET-DIM-001",
+    "sequence_id": "SEQ-SEM-RESIDUAL-001",
+    "dimensions": {
+      "material": {"state":"LOW_OR_ZERO_IN_USER_CONTEXT", "epistemic_status":"USER_CLARIFIED"},
+      "practical": {"state":"UNKNOWN"},
+      "emotional": {"state":"PRESENT_CANDIDATE", "examples":["emotional memories"]},
+      "relational": {"state":"POSSIBLE", "examples":["attachment/connection"]},
+      "experiential": {"state":"PRESENT_CANDIDATE", "examples":["shared moments/experiences"]},
+      "identity": {"state":"POSSIBLE"},
+      "meaning": {"state":"POSSIBLE"},
+      "memory": {"state":"PRESENT_USER_CLARIFIED", "examples":["good memories", "bad memories", "mixed memories", "moments"]}
+    },
+    "total_return_unknown": true,
+    "zero_in_one_dimension_does_not_imply_zero_total": true,
+    "epistemic_status": "MIXED_USER_CLARIFIED_AND_CANDIDATE"
+  },
+  "human_rubric_change_candidate": {
+    "candidate_id": "HRC-MEMORY-SIGNIFICANCE-VALENCE-001",
+    "statement": "For Human memory analysis, emotional significance/value should be evaluated separately from positive/negative valence; negative or painful memory is not equivalent to insignificant or worthless memory.",
+    "status": "REVIEW_REQUIRED",
+    "scope": "GENERAL_HUMAN_RUBRIC_CHANGE_CANDIDATE",
+    "supporting_sequence_ids": ["SEQ-SEM-RESIDUAL-001"],
+    "supporting_human_container_refs": ["CON-033", "CON-038", "CON-040", "CON-057", "CON-058", "CON-064", "CON-066", "CON-071", "CON-072", "CON-075"],
+    "supporting_rubric_refs": ["R04", "R07", "R33", "R39", "R42"],
+    "counterexample_refs": [],
+    "applies_when": "evaluating significance, retained value or behavioral influence of a Human memory",
+    "does_not_apply_when": "a task is specifically measuring valence only rather than significance/value",
+    "direct_action_authority": false,
+    "approval_authority": "USER_REVIEW_REQUIRED_BEFORE_GENERAL_ADOPTION",
+    "epistemic_status": "USER_PROPOSED_GENERALIZATION"
+  },
+  "pattern_candidates": [
+    {
+      "pattern_candidate_id": "PAT-CAND-NON-MATERIAL-RETURN-001",
+      "name": "NON_MATERIAL_RETURN",
+      "statement": "Effort/care may produce little or no equivalent tangible personal return while memories, moments or other non-material returns remain.",
+      "status": "REVIEW_REQUIRED",
+      "direct_action_authority": false
+    },
+    {
+      "pattern_candidate_id": "PAT-CAND-EMOTIONAL-ACCUMULATION-001",
+      "name": "EMOTIONAL_MEMORY_ACCUMULATION",
+      "statement": "Shared experience may accumulate into emotionally significant memory whose importance is not reducible to positive/negative valence.",
+      "status": "REVIEW_REQUIRED",
+      "direct_action_authority": false
+    },
+    {
+      "pattern_candidate_id": "PAT-CAND-RESPONSIBILITY-PERSISTENCE-001",
+      "name": "RESPONSIBILITY_PERSISTENCE",
+      "statement": "Responsibility/care may persist beyond one completed action and seed later actions toward the same relationship objective.",
+      "status": "REVIEW_REQUIRED",
+      "direct_action_authority": false
+    }
+  ],
+  "combined_pattern_candidate": {
+    "pattern_candidate_id": "PAT-CAND-CARE-RESIDUE-DUTY-001",
+    "name": "CARE_CONTRIBUTION_EMOTIONAL_RESIDUE_CONTINUING_DUTY",
+    "statement": "A caring actor may continuously invest effort and responsibility in loved ones without equivalent tangible return; emotionally significant memories and moments may remain while responsibility persists into later actions.",
+    "status": "REVIEW_REQUIRED",
+    "scope": "USER_CLARIFIED_PATTERN_CANDIDATE_NOT_UNIVERSAL",
+    "direct_action_authority": false,
+    "alternative_interpretations_required": true,
+    "counter_cases_required_before_generalization": true
+  },
+  "sequence_recurrence_model": {
+    "invalid_model": "one open in-place loop: care -> responsibility -> action -> memory -> renewed responsibility -> action",
+    "sourceborn_model": [
+      "Sequence S_n: care/responsibility activates bounded action",
+      "S_n closes with result/memory/meaning records",
+      "closure may create/preserve RESPONSIBILITY_SEED",
+      "future trigger + threshold activates Sequence S_n+1",
+      "S_n remains immutable and closed"
+    ],
+    "seed": {
+      "seed_type": "PERSISTENT_RELATIONAL_RESPONSIBILITY",
+      "status": "CANDIDATE",
+      "possible_future_carrier": "same or successor responsible actor",
+      "activation_requires": ["future need/event/condition", "scope-valid responsibility", "threshold evaluation"]
+    }
+  },
+  "candidate_human_container_activation": [
+    "CON-007", "CON-033", "CON-038", "CON-040", "CON-047", "CON-057", "CON-058", "CON-062", "CON-063", "CON-064", "CON-066", "CON-068", "CON-070", "CON-071", "CON-072", "CON-075"
+  ],
+  "candidate_universal_rubrics": ["R04", "R07", "R08", "R09", "R10", "R11", "R13", "R14", "R30", "R31", "R33", "R35", "R39", "R42", "R47", "R50"],
+  "required_invariants": [
+    "raw source remains immutable",
+    "left is not interpreted as departure/death in this user-defined context",
+    "entity departure/death is not inferred from the token left",
+    "nothing is dimension-scoped and does not erase non-material return dimensions",
+    "memory significance is represented separately from valence",
+    "good-person decomposition remains a user value-label candidate, not a universal moral law",
+    "pattern candidates cannot become approved rubrics without review",
+    "continuing responsibility recurs through Seed -> new Sequence, not in-place loop or reopening"
+  ]
+}
