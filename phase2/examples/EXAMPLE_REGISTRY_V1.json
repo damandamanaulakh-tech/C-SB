@@ -152,8 +152,6 @@
       "NEW_ID_CANDIDATE"
     ],
     "new_id_requires_gate": true,
-    "count_monotonicity": "AT_LEAST_ONE_PERSISTENT_BRAIN_OBJECT_CLASS_MUST_INCREASE_PER_ACCEPTED_GROWTH_BATCH",
-    "contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
-    "growth_batch_002_registry_ref": "registries/sourceborn/GROWTH_BATCH_002_DERIVED_OBJECTS_V1.json"
+    "contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json"
   }
 }

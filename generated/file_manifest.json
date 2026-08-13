@@ -501,8 +501,8 @@
   },
   {
     "path": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
-    "sha256": "6bbc697de791c98ea5891a5b01001497083b3625ab51ea37dd4579cce117d733",
-    "size_bytes": 3315
+    "sha256": "cc16c794f5d1a789d30ebf0a21f820aea0c1b5194ef09d801644fae6ab6fee25",
+    "size_bytes": 4094
   },
   {
     "path": "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
@@ -751,8 +751,8 @@
   },
   {
     "path": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
-    "sha256": "d5370a132d36ce181a097e5d945202586e0d1e9c1413330b1787ac1b7dc4f30d",
-    "size_bytes": 4172
+    "sha256": "868125accb54520517ed726b70d1dd541904e23ffe8521d0348f0e50880d6506",
+    "size_bytes": 6871
   },
   {
     "path": "phase2/source_reviews/ARD_3X_GROWING_ASI_RECLASSIFICATION_V1.json",
