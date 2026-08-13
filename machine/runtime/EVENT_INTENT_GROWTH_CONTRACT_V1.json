@@ -62,6 +62,26 @@
     "NEW_RUBRIC_OR_OPERATION_CANDIDATE",
     "NEW_APPROVED_ID_ONLY_AFTER_REQUIRED_REVIEW_AND_RFR"
   ],
+  "growth_count_monotonicity": {
+    "accepted_batch_requires_persistent_count_increase": true,
+    "allowed_persistent_growth_classes": [
+      "EVENT_MEMORY_ID",
+      "RELATION_ID",
+      "PATH_ID",
+      "COMBINATION_SIGNATURE_ID",
+      "ACTOR_VIEW_ID",
+      "INTENT_SIGNATURE_ID",
+      "PATTERN_CONTRIBUTION_ID",
+      "PATTERN_CANDIDATE_ID",
+      "CANDIDATE_PRIMITIVE_ID",
+      "APPROVED_PRIMITIVE_ID"
+    ],
+    "acceptance_expression": "SUM(PERSISTENT_GROWTH_OBJECTS_AFTER) > SUM(PERSISTENT_GROWTH_OBJECTS_BEFORE)",
+    "parameter_inflation_forbidden": true,
+    "example_count_alone_is_not_sufficient": true,
+    "source_file_count_alone_is_not_sufficient": true,
+    "current_batch_reference": "registries/sourceborn/GROWTH_BATCH_002_DERIVED_OBJECTS_V1.json"
+  },
   "new_id_gate": {
     "default": "NO_NEW_ID",
     "requires": [
