@@ -43,7 +43,7 @@
       },
       {
         "id": "P2-HUMAN",
-        "status": "NATIVE_2560_CUSTODY_MATERIALIZED_EXACT_RFR_OPEN",
+        "status": "NATIVE_2560_CUSTODY_AND_RUNTIME_DEPTH_VALIDATED_RFR_OPEN",
         "outputs": [
           "raw/human/task3_human_native_parts/part-01.tsv.gz.b64",
           "raw/human/task3_human_native_parts/part-02.tsv.gz.b64",
@@ -55,7 +55,11 @@
           "raw/human/task3_human_native_parts/part-08.tsv.gz.b64",
           "generated/registry_views/human_native_2560_source_v1.tsv",
           "generated/registry_views/human_native_2560_registry_v1.json",
-          "generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json"
+          "generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json",
+          "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
+          "docs/HUMAN_2560_RUNTIME_DEPTH_V1.md",
+          "tools/validate_human_native_2560_runtime_depth_v1.py",
+          "generated/tests/P2_HUMAN_2560_RUNTIME_DEPTH_RFR_V1.json"
         ],
         "metrics": {
           "parameter_rows": 2560,
@@ -68,9 +72,14 @@
           "user_evident_coverage": 2560,
           "canonical_brain_base_coverage": 2560,
           "custody_parts": 8,
-          "rows_per_part": 320
+          "rows_per_part": 320,
+          "runtime_depth_container_ranges": 80,
+          "runtime_depth_segment_ranges": 10,
+          "runtime_depth_parameter_coverage": 2560,
+          "runtime_depth_layer_laws_validated": true,
+          "runtime_depth_ci_run": 31655797976
         },
-        "next": "Generate additive Sequence/ASI-node/rubric bindings over the exact materialized Human registry, run orphan/overlap/R-F-R tests and issue the Human Adoption Closure Packet when clean."
+        "next": "Generate additive per-parameter Sequence/ASI-node/rubric bindings over the exact materialized Human registry using the validated Segment/Container runtime-depth placement, then run orphan/overlap/R-F-R tests and issue the Human Adoption Closure Packet when clean."
       },
       {
         "id": "P2-AI",
@@ -150,7 +159,7 @@
       {
         "id": "P2-GENERATOR",
         "status": "ACTIVE_AUTOGENERATION_V2_EXTENDED",
-        "next": "Workflow assembles canonical sources, materializes/validates Human custody, builds registry views, generates V2 rubric cross-references, relinks Micro-Sequence runtime IDs, validates live interpreter behavior plus micro-pattern and locked invariants, then commits generated outputs."
+        "next": "Workflow assembles canonical sources, materializes/validates Human custody and exact 2,560 runtime depth, builds registry views, generates V2 rubric cross-references, relinks Micro-Sequence runtime IDs, validates live interpreter behavior plus micro-pattern and locked invariants, then commits generated outputs."
       }
     ]
   }
