@@ -1,0 +1,42 @@
+{
+  "routing_id": "MICRO-SEQUENCE-ENGINE-ROUTING-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "source_engine_registry": "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
+  "principle": "The structured Sequence/rubric problem selects bounded Engines. Engines do not decide their own authority and do not replace the Universal Sequence runtime.",
+  "selection_inputs": [
+    "declared_end",
+    "micro_unit_types",
+    "rubric_activation_ids",
+    "parameter/sub-parameter/element refs",
+    "relation/order types",
+    "epistemic state",
+    "repetition/pattern state",
+    "contradiction/proof debt",
+    "dependency/threshold/barrier state",
+    "requested output contract"
+  ],
+  "routes": [
+    {"route_id":"MER-01","when":["source intake or exact text lock"],"engine_ids":["ENG-CORE-001"],"purpose":"Point Zero source custody"},
+    {"route_id":"MER-02","when":["sentence/phrase contains mixed signal, noise, clauses, negation or qualifiers"],"engine_ids":["ENG-CORE-002","ENG-RD-001"],"purpose":"bounded signal/definition decomposition"},
+    {"route_id":"MER-03","when":["question/ask has ambiguous real target or scope"],"engine_ids":["ENG-CORE-003"],"purpose":"extract declared-end candidate without turning it into hidden intent fact"},
+    {"route_id":"MER-04","when":["coarse rubric match requires deeper Pyramid address"],"engine_ids":["ENG-SB-002","ENG-SB-003","ENG-SB-004","ENG-SB-005"],"purpose":"Segment -> Container -> Parameter -> Sub-Parameter/Element evaluation"},
+    {"route_id":"MER-05","when":["state/relation/causal/dependency structure requires reasoning"],"engine_ids":["ENG-ARD-001"],"purpose":"bounded analytical reasoning over explicit objects/relations"},
+    {"route_id":"MER-06","when":["same/different structure must be compared with examples or prior cases"],"engine_ids":["ENG-CORE-004","ENG-PAT-001","ENG-CORE-009","ENG-SEQ-001"],"purpose":"example-first match, Pyramid memory and Sequence-to-Sequence comparison"},
+    {"route_id":"MER-07","when":["pattern remains vague, recursive, cross-case or requires deeper reverse/forward exploration"],"engine_ids":["ENG-RGL-001","ENG-RGL-002"],"purpose":"controlled recursive expansion; each new investigation/retry remains a separate Sequence contract when it executes work"},
+    {"route_id":"MER-08","when":["multiple local interpretations/results must be combined without losing provenance"],"engine_ids":["ENG-CORE-010","ENG-ORC-001"],"purpose":"merge bounded return packets; preserve contradictions and source refs"},
+    {"route_id":"MER-09","when":["truth/proof/uncertainty/contradiction must be attacked"],"engine_ids":["ENG-URR-002","ENG-VER-001","ENG-REV-001"],"purpose":"verification, reverse check and proof-debt generation"},
+    {"route_id":"MER-10","when":["cross-domain priority, governance, permission or conflicting interpretations require arbitration"],"engine_ids":["ENG-META-001","ENG-META-002"],"purpose":"meta-governance/arbitration; Meta does not erase lower-level local results"},
+    {"route_id":"MER-11","when":["approved review changes future pattern/rubric behavior"],"engine_ids":["ENG-CORE-012","ENG-EVO-001"],"purpose":"versioned evolution/write-back trace"},
+    {"route_id":"MER-12","when":["response must be checked against accumulated evidence and suitability before presentation"],"engine_ids":["ENG-URR-006","ENG-VER-002"],"purpose":"appropriate output gate; output mapping cannot rewrite source truth"}
+  ],
+  "routing_laws": [
+    "One micro-Sequence may activate multiple Engines in parallel or in dependency order.",
+    "An Engine request must name its input contract, requested result, scope and return acceptance condition.",
+    "Engine result is evidence/output, not execution authority.",
+    "META is invoked for meta-governance/conflict/priority, not as a default substitute for local analysis.",
+    "RGL recursion cannot become an unbounded in-place loop; executable investigation/repair/retest work receives its own Sequence/Sub-Sequence contract.",
+    "ARD may infer; inferred intent/motive remains epistemically typed and reviewable.",
+    "Pattern Engines create Pattern Contributions/Candidates, never automatic approved rubrics.",
+    "User-approved edit flows through versioned learning write-back before future reuse."
+  ]
+}
