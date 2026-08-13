@@ -1,0 +1,43 @@
+{
+  "overlay_id": "RUBRIC-MICROSCOPE-SEMANTIC-CLARIFICATION-OVERLAY-V1",
+  "base_contract": "machine/ui/RUBRIC_MICROSCOPE_CONTRACT_V1.json",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "purpose": "Expose word/phrase sense corrections separately from interpretation, emotion, intent and pattern edits so contextual meaning can be corrected without rewriting the raw source or silently universalizing the correction.",
+  "panel_extension": {
+    "panel_id": "RM-02A",
+    "name": "SEMANTIC_CLARIFICATION",
+    "shows": [
+      "exact source token/phrase",
+      "default/machine sense candidates",
+      "user-authorized contextual sense",
+      "rejected senses",
+      "dimension scope",
+      "applies_when",
+      "does_not_apply_when",
+      "epistemic status",
+      "downstream relations/rubrics requiring recomputation",
+      "provenance"
+    ],
+    "editable": [
+      "contextual sense",
+      "rejected senses",
+      "dimension scope",
+      "applies_when",
+      "does_not_apply_when"
+    ],
+    "guards": [
+      "raw source text remains immutable",
+      "a contextual word-sense correction is not a universal dictionary rewrite",
+      "semantic clarification is not automatically a Human rubric change",
+      "downstream interpretation/relation state is recomputed after an accepted clarification",
+      "intent/motive remains separately epistemically typed"
+    ]
+  },
+  "writeback_rule": "Accepted semantic clarification creates a new write-back Sequence referencing the prior analysis Sequence. It may update scoped semantic/context memory, but may not reopen or mutate the closed source-analysis Sequence.",
+  "example_shape": {
+    "source": "left",
+    "machine_senses": ["departure", "remaining/residual state"],
+    "user_contextual_sense": "what remains with the person after effort/care/responsibility",
+    "rejected_in_this_context": ["departed", "died", "walked away"]
+  }
+}
