@@ -400,6 +400,11 @@
     "size_bytes": 4985
   },
   {
+    "path": "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
+    "sha256": "af8d3da5f1e811c907c4293a83ba8d8f5941cd4950417f3f7e3dea0d0025d46d",
+    "size_bytes": 7982
+  },
+  {
     "path": "phase2/tests/P2_AI_NEW_64_BREADTH_REPAIR_TRIGGER_V2.json",
     "sha256": "9ecaafc0eb3ed985af62c92b7284e1696f0bc8dee570ff7e8f2c47c6602093eb",
     "size_bytes": 945

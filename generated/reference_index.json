@@ -3691,6 +3691,7 @@
     "ASI-NODE-00": [
       "README.md",
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/README.md",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_MULTI_RUBRIC_WIRING_CHECKPOINT_V0.json",
@@ -3725,6 +3726,7 @@
     ],
     "ASI-NODE-20": [
       "README.md",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "phase2/README.md",
@@ -3737,6 +3739,7 @@
     ],
     "ASI-NODE-21": [
       "README.md",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -3755,6 +3758,7 @@
       "tools/run_phase2_behavioral_rfr_v1.py"
     ],
     "ASI-NODE-06": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -3772,6 +3776,7 @@
     ],
     "ASI-NODE-01": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
@@ -3782,6 +3787,7 @@
     ],
     "ASI-NODE-02": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
@@ -3793,6 +3799,7 @@
     ],
     "ASI-NODE-03": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -3828,6 +3835,7 @@
     ],
     "ASI-NODE-07": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -3843,6 +3851,7 @@
     ],
     "ASI-NODE-08": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -3879,6 +3888,7 @@
     ],
     "ASI-NODE-11": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -3895,6 +3905,7 @@
     ],
     "ASI-NODE-12": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
@@ -3907,6 +3918,7 @@
     ],
     "ASI-NODE-13": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
@@ -3918,6 +3930,7 @@
     ],
     "ASI-NODE-14": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
@@ -3930,6 +3943,7 @@
     ],
     "ASI-NODE-15": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
@@ -3939,6 +3953,7 @@
     ],
     "ASI-NODE-16": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-03.md",
@@ -3951,6 +3966,7 @@
     ],
     "ASI-NODE-17": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "machine/wiring/BRAIN_ENGINE_OPERATIONAL_SPINE_V1.json",
       "machine/wiring/MULTI_RUBRIC_WIRING_V0.json",
       "machine/wiring/OPERATIONAL_ELEMENT_AI_ASI_OWNERSHIP_V1.json",
@@ -4069,6 +4085,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-002": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
@@ -4078,6 +4095,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-003": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
@@ -4087,6 +4105,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-SB-004": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
@@ -4143,6 +4162,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-WLD-006": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/TASK_QUEUE.md",
       "phase2/checkpoints/P2_AI_ASI_BRAIN_ENGINE_BINDING_CHECKPOINT_V1.json",
       "phase2/checkpoints/P2_AI_ASI_STRUCTURAL_RFR_CHECKPOINT_V1.json",
@@ -4152,6 +4172,7 @@
       "tools/validate_brain_engine_adoption_v1.py"
     ],
     "ENG-ARD-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "phase2/rfr/P2_BEHAVIORAL_RFR_V1.md",
       "phase2/tests/P2_BEHAVIORAL_RFR_CASES_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -4178,6 +4199,7 @@
     ],
     "ENG-CORE-001": [
       "docs/HUMAN_SOURCE_WORKBOOK_INSPECTION.md",
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4185,6 +4207,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-002": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4192,11 +4215,13 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-003": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-004": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4224,6 +4249,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-009": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4231,6 +4257,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-010": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4243,6 +4270,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-012": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
@@ -4255,6 +4283,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EVO-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4293,12 +4322,14 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-MEM-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-META-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
@@ -4316,6 +4347,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-ORC-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4334,6 +4366,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-PAT-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4361,6 +4394,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4368,6 +4402,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-002": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
@@ -4403,16 +4438,19 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SB-005": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SB-006": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SB-007": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4424,11 +4462,13 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SB-009": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-SEQ-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4456,6 +4496,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-URR-002": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4482,6 +4523,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-VER-001": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
@@ -4514,6 +4556,7 @@
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-WLD-005": [
+      "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
