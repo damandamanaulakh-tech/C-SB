@@ -1,0 +1,76 @@
+{
+  "ui_contract_id": "RUBRIC-MICROSCOPE-CONTRACT-V1",
+  "status": "PHASE2_BACKEND_UI_CONTRACT_DEFINED",
+  "purpose": "Define what the Sourceborn tool must show and allow the user to edit when an input sentence/question is decomposed and interpreted.",
+  "entry_rule": "Every user ask may open a reviewable micro-Sequence view. The normal answer may remain concise, but the structured reasoning objects must be inspectable without exposing hidden chain-of-thought; the UI shows explicit machine records, evidence, rubric activations, typed inferences and trace objects only.",
+  "panels": [
+    {
+      "panel_id":"RM-01",
+      "name":"SOURCE_AND_SEQUENCE",
+      "shows":["raw sentence/input","sequence_id","declared_end","scope","time/context","source lock","closure status"]
+    },
+    {
+      "panel_id":"RM-02",
+      "name":"MICRO_SPLIT",
+      "shows":["clauses","phrases","entities","actions/events/omissions","states","relations","order","negation","modality","expectation/difference"],
+      "interaction":["expand/collapse levels","select source span","flag wrong split","request deeper split"]
+    },
+    {
+      "panel_id":"RM-03",
+      "name":"PYRAMID_RUBRIC_PATH",
+      "shows":["Segment IDs","Container IDs","Parameter IDs","Sub-Parameter IDs","Element IDs","Universal Sequence rubric IDs","activation evidence","activation confidence"],
+      "interaction":["inspect definition","mark activation wrong","add candidate activation","drill deeper"]
+    },
+    {
+      "panel_id":"RM-04",
+      "name":"SMALL_BRAIN_AND_ENGINE_TRACE",
+      "shows":["ASI Node IDs","Node-Brain local result summaries","Engine IDs","Engine request/return contract","unknowns","proof debt"],
+      "guard":"Show explicit trace records and bounded local result summaries; do not expose private hidden chain-of-thought." 
+    },
+    {
+      "panel_id":"RM-05",
+      "name":"HUMAN_INTERPRETATION",
+      "shows":["emotion candidates","feeling candidates","intent candidates","motive candidates","expectations","values","boundary candidates","alternative interpretations","epistemic status"],
+      "editable":["emotion","feeling","intent attribution","motive attribution","meaning","boundary","personal interpretation"]
+    },
+    {
+      "panel_id":"RM-06",
+      "name":"PRIOR_SEQUENCES_AND_REPETITION",
+      "shows":["matched prior sequence IDs","similarity/difference dimensions","repetition count","supporting cases","contradicting cases","context differences","pattern contributions"]
+    },
+    {
+      "panel_id":"RM-07",
+      "name":"PATTERN_CANDIDATE",
+      "shows":["candidate pattern name","machine description","relation signature","supporting sequence IDs","alternative explanations","intent status","confidence","scope","counter-evidence"],
+      "editable":["pattern name","interpretation","applies_when","does_not_apply_when","rule/principle","boundary"]
+    },
+    {
+      "panel_id":"RM-08",
+      "name":"USER_DECISION",
+      "actions":["APPROVE_AS_IS","EDIT_AND_APPROVE","REJECT","KEEP_OCCURRENCE_ONLY","NEEDS_MORE_EVIDENCE","CREATE_NEW_PATTERN_CANDIDATE","PROPOSE_RUBRIC_CHANGE"],
+      "approval_scopes":["OCCURRENCE_ONLY","PERSONAL_PATTERN","RELATIONSHIP_SPECIFIC_PATTERN","DOMAIN_PATTERN","GENERAL_PATTERN_CANDIDATE","RUBRIC_CHANGE_CANDIDATE"]
+    },
+    {
+      "panel_id":"RM-09",
+      "name":"WRITEBACK_AND_VERSION",
+      "shows":["writeback_sequence_id","target registry","new version ID","superseded version","source review ID","provenance refs","future activation scope"]
+    }
+  ],
+  "default_progressive_disclosure": [
+    "ANSWER",
+    "WHY_THIS_ANSWER_SUMMARY",
+    "ACTIVATED_RUBRICS",
+    "PRIOR_PATTERN_MATCHES",
+    "EDIT_MY_INTERPRETATION",
+    "FULL_MICRO_SEQUENCE_TRACE"
+  ],
+  "edit_semantics": {
+    "wrong_split":"Creates decomposition correction; raw sentence remains unchanged.",
+    "wrong_parameter":"Creates activation correction and review trace; native parameter definition remains unchanged.",
+    "emotion_change":"Stores user-attributed emotional meaning for the configured scope; does not assert universal Human truth.",
+    "intent_change":"Stores explicit user attribution unless supported by direct evidence; does not silently become observed intent.",
+    "pattern_change":"Creates new candidate/version with provenance.",
+    "rubric_change":"Creates RUBRIC_CHANGE_CANDIDATE and enters formal adoption workflow."
+  },
+  "performance_rule": "Correctness and traceability precede speed during Phase-2. The runtime may progressively reveal/defer deeper levels, but must not skip required Sequence, provenance, barrier, review or closure laws merely to answer faster."
+}
