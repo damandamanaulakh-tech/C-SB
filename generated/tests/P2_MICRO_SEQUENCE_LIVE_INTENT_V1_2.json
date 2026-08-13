@@ -1,0 +1,15 @@
+{
+  "report_id": "P2-MICRO-SEQUENCE-LIVE-INTENT-V1-2",
+  "status": "PASS",
+  "tested_interpreter": "P2-MICRO-SEQUENCE-LIVE-INTERPRETER-001/V1.2",
+  "fixture_has_explicit_intent_language": false,
+  "checks": {
+    "stable_entrypoint_points_to_v1_2": true,
+    "new_intent_without_intent_words": true,
+    "new_intent_contribution": "NEW_INTENT_CANDIDATE_SIGNAL",
+    "prior_signature_reuse": "SUPPORT_PRIOR_INTENT",
+    "parameter_plug_changes_intent_space": true,
+    "no_action_authority": true
+  },
+  "errors": []
+}
