@@ -500,6 +500,11 @@
     "size_bytes": 875
   },
   {
+    "path": "machine/runtime/EVENT_GROWTH_LEDGER_RUNTIME_V1.json",
+    "sha256": "2c387104ed4d2c17d1b791d77f700e408ed36e3aaa83aebce45f13880c74d73b",
+    "size_bytes": 3998
+  },
+  {
     "path": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
     "sha256": "6bbc697de791c98ea5891a5b01001497083b3625ab51ea37dd4579cce117d733",
     "size_bytes": 3315
