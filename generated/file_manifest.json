@@ -236,8 +236,8 @@
   },
   {
     "path": "tools/relink_and_index.py",
-    "sha256": "528c99f752666327925e083997c59603fe8b842c4fa3135cb9fb173a91544090",
-    "size_bytes": 4055
+    "sha256": "71af7495b862c71541f26a9f38a89fd47417781dfed07c24eab00fc0cea0bc44",
+    "size_bytes": 4665
   },
   {
     "path": "tools/validate_ai_asi_container_candidates.py",
@@ -250,9 +250,19 @@
     "size_bytes": 10807
   },
   {
+    "path": "tools/validate_human_functional_3204_v1.py",
+    "sha256": "8ae8d31a470b6a324a997f90ab94333aa2ed35b30fdc7d63c091f408c3f3c013",
+    "size_bytes": 4165
+  },
+  {
     "path": "tools/run_phase2_behavioral_rfr_v1.py",
     "sha256": "d58ec7c88bcadfcbaf00f3ccdf6f00ce1d45a55c53e1b6b15b9a1ab736b85999",
     "size_bytes": 10909
+  },
+  {
+    "path": "tools/generate_human_functional_3204_v1.py",
+    "sha256": "79e132590a21d4215fe5f75a909a3c8ba90dfe9ce3a9b8d4e03e43e04d86dc34",
+    "size_bytes": 5606
   },
   {
     "path": "tools/generate_rubric_views.py",
@@ -558,6 +568,11 @@
     "path": "registries/human/HUMAN_CONTAINER_INDEX_80_APPROVED_V1.json",
     "sha256": "38195d05259d51b2b13f11c68e144eb65aa8e7c1aeb5aa70d2ec9c9529c055f3",
     "size_bytes": 5649
+  },
+  {
+    "path": "registries/human/HUMAN_FUNCTIONAL_REGISTRY_3204_V1.json",
+    "sha256": "13bbeab99f539ee69657b6a26e4bd44bbb672f4571f6cc47bb4622310ba1613c",
+    "size_bytes": 3415
   },
   {
     "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
@@ -891,8 +906,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "da9f2eb72d8595e9aa67bf83f567fc6b77d42d8b7ba1e8e3d56282053f623af4",
-    "size_bytes": 5509
+    "sha256": "ab99746ab7bb92d378618102137588f22ed2a1a63b898d60278e9dfd7e832ba1",
+    "size_bytes": 5764
   },
   {
     "path": ".github/workflows/repair-human-custody.yml",
@@ -1108,6 +1123,51 @@
     "path": "raw/sequence/Universal_Sequence_Machine_Architecture_v1.parts/part-02.md",
     "sha256": "78f201e5c00eeef6c1a486920db58e4a8169b31fee6ea97a40b91ed8a749cdba",
     "size_bytes": 16287
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-01.tsv.gz.b64",
+    "sha256": "9cf88df0ac03186d4ccde8b825d7b4d0aecc473af9fe2e2e02476adea2f0a12b",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-05.tsv.gz.b64",
+    "sha256": "69aabaf176c69248ab80fc45ed7766131c08d0c81cfb84ec5c3480713ea7ef41",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
+    "sha256": "41ffe00cb7f74a05f0420f229c0dc26a1cc0c701a8123d84aef515d81ec75dc1",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-03.tsv.gz.b64",
+    "sha256": "31bab99d3e2b42c5102d6550327a693ac4edd66521a6a584637bdd3c6bb7bf52",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
+    "sha256": "4f70c2f0b54f03f88f292bb3ef2d7bdd655841ab336a00a26d7e00a500b59ce3",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/HUMAN_FUNCTIONAL_REGISTRY_V1_3204.tsv.gz.b64",
+    "sha256": "253de0b241857451f2d3a013d217b1f1ca960beef4a26d7a12ed3815cf01fb5e",
+    "size_bytes": 19999
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-08.tsv.gz.b64",
+    "sha256": "6c3bfec6917a88c66109d976d7052eb065c43cd77addeb4d64ddc9cceacb4c25",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
+    "sha256": "f48c5071414eb4cfa0e3c5179e1a22df41ed93e80793bf3f8ba3abb2f9816e2e",
+    "size_bytes": 8596
+  },
+  {
+    "path": "raw/human/hfr_v1_3204/part-06.tsv.gz.b64",
+    "sha256": "319abd80e04cc7e1045e2622eb34327510d2c271599655ed05235e71ad09fb8a",
+    "size_bytes": 8596
   },
   {
     "path": "raw/human/task3_human_native_parts/SOURCE_MANIFEST.json",

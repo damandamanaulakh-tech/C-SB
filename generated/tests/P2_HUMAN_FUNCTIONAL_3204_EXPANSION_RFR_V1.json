@@ -1,0 +1,21 @@
+{
+  "report_id": "P2-HUMAN-FUNCTIONAL-3204-EXPANSION-RFR-V1",
+  "status": "PASS",
+  "checks": {
+    "expanded_parameter_count": 3204,
+    "legacy_parameter_count": 2560,
+    "net_count_change": 644,
+    "segments": 10,
+    "containers": 80,
+    "grown_containers": 77,
+    "unchanged_containers": 2,
+    "contracted_source_version_containers": 1,
+    "legacy_ids_preserved": true,
+    "runtime_owner_not_forced": true,
+    "scaffolds_excluded_from_parameter_count": true
+  },
+  "errors": [],
+  "findings": [
+    "CON-042 Core Reasoning is 48 in the legacy 2,560 container index but 42 in the v1.0 3,204 source; no legacy row is deleted. Atomic reconciliation remains open."
+  ]
+}

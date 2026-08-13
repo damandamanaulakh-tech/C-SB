@@ -1,0 +1,764 @@
+{
+  "registry_id": "HUMAN-FUNCTIONAL-REGISTRY-V1-3204",
+  "parameter_count": 3204,
+  "legacy_count": 2560,
+  "net_count_change": 644,
+  "segments": {
+    "SEG-01": 320,
+    "SEG-02": 320,
+    "SEG-03": 320,
+    "SEG-04": 320,
+    "SEG-05": 320,
+    "SEG-06": 322,
+    "SEG-07": 320,
+    "SEG-08": 322,
+    "SEG-09": 320,
+    "SEG-10": 320
+  },
+  "containers": [
+    {
+      "container_id": "CON-001",
+      "container_name": "Homeostasis and Allostasis",
+      "segment_id": "SEG-01",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-002",
+      "container_name": "Arousal and Wakefulness",
+      "segment_id": "SEG-01",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-003",
+      "container_name": "Sleep and Circadian Regulation",
+      "segment_id": "SEG-01",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-004",
+      "container_name": "Interoception and Internal Body Mapping",
+      "segment_id": "SEG-01",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-005",
+      "container_name": "Autonomic and Hormonal Regulation",
+      "segment_id": "SEG-01",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-006",
+      "container_name": "Pain and Protective Signalling",
+      "segment_id": "SEG-01",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-007",
+      "container_name": "Energy, Fatigue and Resource Budgeting",
+      "segment_id": "SEG-01",
+      "legacy_count": 24,
+      "v1_count": 40,
+      "delta": 16,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-008",
+      "container_name": "Basic Biological Drives",
+      "segment_id": "SEG-01",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-009",
+      "container_name": "Visual Perception",
+      "segment_id": "SEG-02",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-010",
+      "container_name": "Auditory Perception",
+      "segment_id": "SEG-02",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-011",
+      "container_name": "Somatosensory Perception",
+      "segment_id": "SEG-02",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-012",
+      "container_name": "Smell, Taste and Chemical Sensing",
+      "segment_id": "SEG-02",
+      "legacy_count": 24,
+      "v1_count": 40,
+      "delta": 16,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-013",
+      "container_name": "Multisensory Integration",
+      "segment_id": "SEG-02",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-014",
+      "container_name": "Salience and Orienting",
+      "segment_id": "SEG-02",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-015",
+      "container_name": "Body Schema, Body Image and Ownership",
+      "segment_id": "SEG-02",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-016",
+      "container_name": "Spatial, Temporal and Environmental Mapping",
+      "segment_id": "SEG-02",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-017",
+      "container_name": "Action Readiness and Affordance Detection",
+      "segment_id": "SEG-03",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-018",
+      "container_name": "Motor Planning and Sequencing",
+      "segment_id": "SEG-03",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-019",
+      "container_name": "Motor Execution and Control",
+      "segment_id": "SEG-03",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-020",
+      "container_name": "Action Selection and Initiation",
+      "segment_id": "SEG-03",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-021",
+      "container_name": "Coordination, Balance and Posture",
+      "segment_id": "SEG-03",
+      "legacy_count": 24,
+      "v1_count": 40,
+      "delta": 16,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-022",
+      "container_name": "Procedural Skill and Automatization",
+      "segment_id": "SEG-03",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-023",
+      "container_name": "Imitation, Gesture and Tool Manipulation",
+      "segment_id": "SEG-03",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-024",
+      "container_name": "Sensorimotor Feedback and Error Correction",
+      "segment_id": "SEG-03",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-025",
+      "container_name": "Selective Attention",
+      "segment_id": "SEG-04",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-026",
+      "container_name": "Sustained Attention and Vigilance",
+      "segment_id": "SEG-04",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-027",
+      "container_name": "Divided Attention and Attention Switching",
+      "segment_id": "SEG-04",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-028",
+      "container_name": "Working Memory",
+      "segment_id": "SEG-04",
+      "legacy_count": 40,
+      "v1_count": 40,
+      "delta": 0,
+      "version_relation": "UNCHANGED"
+    },
+    {
+      "container_id": "CON-029",
+      "container_name": "Inhibitory Control and Self-Control",
+      "segment_id": "SEG-04",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-030",
+      "container_name": "Cognitive Flexibility",
+      "segment_id": "SEG-04",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-031",
+      "container_name": "Executive Sequencing and Task Management",
+      "segment_id": "SEG-04",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-032",
+      "container_name": "Conflict, Error and Performance Monitoring",
+      "segment_id": "SEG-04",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-033",
+      "container_name": "Episodic Memory",
+      "segment_id": "SEG-05",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-034",
+      "container_name": "Semantic Memory and General Knowledge",
+      "segment_id": "SEG-05",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-035",
+      "container_name": "Procedural and Habit Memory",
+      "segment_id": "SEG-05",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-036",
+      "container_name": "Associative Learning and Conditioning",
+      "segment_id": "SEG-05",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-037",
+      "container_name": "Reinforcement and Reward Learning",
+      "segment_id": "SEG-05",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-038",
+      "container_name": "Emotional and Threat Memory",
+      "segment_id": "SEG-05",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-039",
+      "container_name": "Prospective Memory",
+      "segment_id": "SEG-05",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-040",
+      "container_name": "Encoding, Consolidation, Retrieval, Reconsolidation and Forgetting",
+      "segment_id": "SEG-05",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-041",
+      "container_name": "Concept Formation and Abstraction",
+      "segment_id": "SEG-06",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-042",
+      "container_name": "Core Reasoning",
+      "segment_id": "SEG-06",
+      "legacy_count": 48,
+      "v1_count": 42,
+      "delta": -6,
+      "version_relation": "CONTRACTED_SOURCE_VERSION"
+    },
+    {
+      "container_id": "CON-043",
+      "container_name": "Causal, Counterfactual and Predictive Reasoning",
+      "segment_id": "SEG-06",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-044",
+      "container_name": "Uncertainty, Probability and Confidence",
+      "segment_id": "SEG-06",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-045",
+      "container_name": "Problem Framing and Decomposition",
+      "segment_id": "SEG-06",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-046",
+      "container_name": "Planning, Strategy and Future Simulation",
+      "segment_id": "SEG-06",
+      "legacy_count": 40,
+      "v1_count": 40,
+      "delta": 0,
+      "version_relation": "UNCHANGED"
+    },
+    {
+      "container_id": "CON-047",
+      "container_name": "Decision, Judgment and Trade-off Intelligence",
+      "segment_id": "SEG-06",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-048",
+      "container_name": "Creativity, Imagination and Invention",
+      "segment_id": "SEG-06",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-049",
+      "container_name": "Speech and Language-Signal Recognition",
+      "segment_id": "SEG-07",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-050",
+      "container_name": "Lexical and Semantic Access",
+      "segment_id": "SEG-07",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-051",
+      "container_name": "Syntax and Grammar",
+      "segment_id": "SEG-07",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-052",
+      "container_name": "Comprehension and Discourse Integration",
+      "segment_id": "SEG-07",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-053",
+      "container_name": "Language Production and Articulation",
+      "segment_id": "SEG-07",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-054",
+      "container_name": "Pragmatics and Implied Meaning",
+      "segment_id": "SEG-07",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-055",
+      "container_name": "Prosody, Gesture and Non-Verbal Communication",
+      "segment_id": "SEG-07",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-056",
+      "container_name": "Narrative, Reading, Writing and Audience Adaptation",
+      "segment_id": "SEG-07",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-057",
+      "container_name": "Emotion Generation and Affective State",
+      "segment_id": "SEG-08",
+      "legacy_count": 40,
+      "v1_count": 42,
+      "delta": 2,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-058",
+      "container_name": "Emotion Recognition and Labelling",
+      "segment_id": "SEG-08",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-059",
+      "container_name": "Emotion Regulation and Coping",
+      "segment_id": "SEG-08",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-060",
+      "container_name": "Positive Valence and Reward",
+      "segment_id": "SEG-08",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-061",
+      "container_name": "Negative Valence, Threat and Loss",
+      "segment_id": "SEG-08",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-062",
+      "container_name": "Motivation, Effort and Persistence",
+      "segment_id": "SEG-08",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-063",
+      "container_name": "Intent Formation and Commitment",
+      "segment_id": "SEG-08",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-064",
+      "container_name": "Motive, Needs, Values and Priority Structure",
+      "segment_id": "SEG-08",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-065",
+      "container_name": "Conscious Awareness and Global Access",
+      "segment_id": "SEG-09",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-066",
+      "container_name": "Self-Model, Identity and Narrative Self",
+      "segment_id": "SEG-09",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-067",
+      "container_name": "Personality and Temperament",
+      "segment_id": "SEG-09",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-068",
+      "container_name": "Agency, Ownership and Responsibility",
+      "segment_id": "SEG-09",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-069",
+      "container_name": "Theory of Mind and Social Prediction",
+      "segment_id": "SEG-09",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-070",
+      "container_name": "Empathy, Compassion and Emotional Sharing",
+      "segment_id": "SEG-09",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-071",
+      "container_name": "Attachment, Belonging, Status and Group Behaviour",
+      "segment_id": "SEG-09",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-072",
+      "container_name": "Morality, Norms, Culture and Meaning",
+      "segment_id": "SEG-09",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-073",
+      "container_name": "Development and Maturation",
+      "segment_id": "SEG-10",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-074",
+      "container_name": "Plasticity, Skill Acquisition and Learning-to-Learn",
+      "segment_id": "SEG-10",
+      "legacy_count": 36,
+      "v1_count": 40,
+      "delta": 4,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-075",
+      "container_name": "Metacognition and Self-Monitoring",
+      "segment_id": "SEG-10",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-076",
+      "container_name": "Heuristics, Biases and Cognitive Distortion",
+      "segment_id": "SEG-10",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-077",
+      "container_name": "Resilience, Failure Detection and Repair",
+      "segment_id": "SEG-10",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-078",
+      "container_name": "Expertise and Domain Adaptation",
+      "segment_id": "SEG-10",
+      "legacy_count": 28,
+      "v1_count": 40,
+      "delta": 12,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-079",
+      "container_name": "Social Learning, Teaching and Cultural Transmission",
+      "segment_id": "SEG-10",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    },
+    {
+      "container_id": "CON-080",
+      "container_name": "External Cognition, Institutions and Collective Intelligence",
+      "segment_id": "SEG-10",
+      "legacy_count": 32,
+      "v1_count": 40,
+      "delta": 8,
+      "version_relation": "GROWN"
+    }
+  ],
+  "grown_containers": 77,
+  "unchanged_containers": 2,
+  "contracted_source_version_containers": [
+    {
+      "container_id": "CON-042",
+      "container_name": "Core Reasoning",
+      "segment_id": "SEG-06",
+      "legacy_count": 48,
+      "v1_count": 42,
+      "delta": -6,
+      "version_relation": "CONTRACTED_SOURCE_VERSION"
+    }
+  ],
+  "scaffolds_counted_as_parameters": false,
+  "transport_parts": [
+    "raw/human/hfr_v1_3204/part-01.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-02.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-03.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-04.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-05.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-06.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-07.tsv.gz.b64",
+    "raw/human/hfr_v1_3204/part-08.tsv.gz.b64"
+  ]
+}
