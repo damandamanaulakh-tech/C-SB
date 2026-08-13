@@ -1,0 +1,64 @@
+{
+  "runtime_id": "SENTENCE-MICRO-SEQUENCE-RUNTIME-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "purpose": "Make every sentence, question, observation, action description, response and correction enter Sourceborn as a traceable local Sequence, decompose it to bounded machine objects, activate existing rubrics/parameters, route bounded Engines and Node Brains, contribute to pattern memory, and expose interpretations/rubric activations for user review before any learned pattern is promoted.",
+  "core_rule": "EVERY_INPUT_UTTERANCE_CREATES_AT_LEAST_ONE_LOCAL_MICRO_SEQUENCE",
+  "pattern_rule": "Every local micro-Sequence produces a PATTERN_CONTRIBUTION. It may activate, support, contradict or weaken an existing pattern. A new reusable Pattern Candidate is created only when evidence or an explicit user instruction justifies candidate formation.",
+  "non_equivalences": [
+    "OBSERVATION != INTERPRETATION",
+    "INTERPRETATION != INTENT_FACT",
+    "REPETITION != CAUSATION",
+    "PATTERN_CONTRIBUTION != PATTERN_CANDIDATE",
+    "PATTERN_CANDIDATE != APPROVED_RUBRIC",
+    "USER_FEELING != GLOBAL_REALITY",
+    "AI_INFERENCE != ACTOR_KNOWLEDGE",
+    "ENGINE_OUTPUT != EXECUTION_AUTHORITY",
+    "CLOSED_ANALYSIS_SEQUENCE != CLOSED_EXTERNAL_PHENOMENON"
+  ],
+  "resolution_ladder": [
+    {"level":"L0","name":"RAW_UTTERANCE","stores":"exact input plus source/time/context reference"},
+    {"level":"L1","name":"CLAUSE_AND_PHRASE","stores":"bounded clauses, phrases, negation, modality, qualifiers"},
+    {"level":"L2","name":"ENTITY_AND_REFERENCE","stores":"entities, pronouns, ownership, role, reference resolution status"},
+    {"level":"L3","name":"ACTION_EVENT","stores":"actions, events, requests, omissions, transfers, commitments"},
+    {"level":"L4","name":"STATE_PROPERTY_VALUE","stores":"before/after states, properties, values, availability"},
+    {"level":"L5","name":"RELATION_ORDER","stores":"typed relations and TEMPORAL/CAUSAL/DEPENDENCY/LOGICAL/CONTROL/REPRESENTATION order"},
+    {"level":"L6","name":"EPISTEMIC_VIEW","stores":"known, believed, inferred, unknown, hidden, confidence, source"},
+    {"level":"L7","name":"HUMAN_CANDIDATES","stores":"emotion, feeling, motive, intent, expectation and value candidates; candidates are not facts"},
+    {"level":"L8","name":"DIFFERENCE_EXPECTATION","stores":"expected vs observed, promise vs result, repeated difference, boundary/constraint difference"},
+    {"level":"L9","name":"RUBRIC_PARAMETER_BINDING","stores":"Segment/Container/Parameter/Sub-Parameter/Element/Rubric IDs and activation evidence"},
+    {"level":"L10","name":"SEQUENCE_ROLE","stores":"driver/controller/performer/carrier/trigger/threshold/dependency/result/closure roles"},
+    {"level":"L11","name":"ENGINE_NODE_ROUTE","stores":"bounded Engine and ASI Node requests with input/output contracts"},
+    {"level":"L12","name":"PATTERN_CONTRIBUTION","stores":"support/contradict/weaken/new-candidate contribution against prior closed Sequences"},
+    {"level":"L13","name":"USER_REVIEW_WRITEBACK","stores":"edits, interpretation, feeling, boundary, approval scope and versioned write-back Sequence"}
+  ],
+  "execution_stages": [
+    {"stage":"MS-00","name":"POINT_ZERO_AND_SOURCE_LOCK","engine_ids":["ENG-CORE-001","ENG-SB-009"],"asi_node_ids":["ASI-NODE-00"],"output":"SentenceIntakePacket"},
+    {"stage":"MS-01","name":"SIGNAL_AND_CLAUSE_SPLIT","engine_ids":["ENG-CORE-002"],"asi_node_ids":["ASI-NODE-02"],"output":"MicroUnit[]"},
+    {"stage":"MS-02","name":"QUESTION_INTENT_AND_SCOPE","engine_ids":["ENG-CORE-003"],"asi_node_ids":["ASI-NODE-00","ASI-NODE-03"],"output":"DeclaredEndScopePacket"},
+    {"stage":"MS-03","name":"PYRAMID_ADDRESSING","engine_ids":["ENG-SB-002","ENG-SB-003","ENG-SB-004","ENG-SB-005"],"asi_node_ids":["ASI-NODE-06","ASI-NODE-20"],"output":"RubricActivationPacket[]"},
+    {"stage":"MS-04","name":"RELATION_STATE_AND_VIEW","engine_ids":["ENG-ARD-001","ENG-SB-007"],"asi_node_ids":["ASI-NODE-01","ASI-NODE-02","ASI-NODE-07"],"output":"StateRelationViewPacket"},
+    {"stage":"MS-05","name":"HUMAN_AFFECT_INTENT_HYPOTHESES","engine_ids":["ENG-SB-006","ENG-WLD-005","ENG-WLD-006"],"asi_node_ids":["ASI-NODE-06","ASI-NODE-08"],"output":"InterpretationCandidate[]","guard":"Intent/emotion labels remain candidate/inferred unless directly evidenced or user-attributed."},
+    {"stage":"MS-06","name":"MEMORY_AND_PRIOR_CASE_RETRIEVAL","engine_ids":["ENG-CORE-009","ENG-MEM-001","ENG-SEQ-001"],"asi_node_ids":["ASI-NODE-12","ASI-NODE-13"],"output":"PriorSequenceMatch[]"},
+    {"stage":"MS-07","name":"REPETITION_DIFFERENCE_PATTERN_ATTACK","engine_ids":["ENG-CORE-004","ENG-PAT-001","ENG-RGL-001","ENG-RGL-002"],"asi_node_ids":["ASI-NODE-15","ASI-NODE-16"],"output":"PatternContributionPacket"},
+    {"stage":"MS-08","name":"MULTI_NODE_ASSEMBLY","engine_ids":["ENG-CORE-010","ENG-ORC-001"],"asi_node_ids":["ASI-NODE-06","ASI-NODE-17"],"output":"InterpretationAssemblyPacket"},
+    {"stage":"MS-09","name":"META_ARBITRATION_AND_EPISTEMIC_BOUNDARY","engine_ids":["ENG-META-001","ENG-URR-002","ENG-VER-001"],"asi_node_ids":["ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"],"output":"ReviewableRubricView"},
+    {"stage":"MS-10","name":"USER_RUBRIC_REVIEW","engine_ids":[],"asi_node_ids":["ASI-NODE-21"],"output":"RubricEditDecision","controller":"USER_OR_EXPLICIT_AUTHORIZED_RUBRIC_EDITOR"},
+    {"stage":"MS-11","name":"VERSIONED_LEARNING_WRITEBACK","engine_ids":["ENG-CORE-012","ENG-EVO-001"],"asi_node_ids":["ASI-NODE-12","ASI-NODE-14","ASI-NODE-21"],"output":"LearningWritebackPacket","guard":"Never mutate a closed prior Sequence. Create a new write-back Sequence referencing prior evidence and the review decision."},
+    {"stage":"MS-12","name":"FUTURE_REUSE","engine_ids":["ENG-CORE-009","ENG-PAT-001","ENG-SEQ-001"],"asi_node_ids":["ASI-NODE-12","ASI-NODE-15","ASI-NODE-20"],"output":"VersionedPatternActivation"}
+  ],
+  "small_brain_rule": {
+    "principle": "Each Node Brain stores and evaluates only its bounded local contract; the whole sentence is assembled through typed packets rather than copied into every node.",
+    "required_local_fields": ["sequence_id","micro_unit_ids","input_contract","rubric_refs","evidence_refs","local_state","local_result","unknowns","return_packet"],
+    "forbidden": ["unbounded whole-case authority","silent promotion of inference to fact","silent global rubric rewrite","hidden actor-view update"]
+  },
+  "pyramid_addressing_rule": "Route from coarse Segment/Container meaning toward Parameter/Sub-Parameter/Element resolution only as required by the declared end, ambiguity, contradiction, threshold or user drill-down. Do not activate all parameters by default.",
+  "pattern_formation_rule": {
+    "required_inputs": ["current_micro_sequence","prior_closed_sequence_refs","typed similarities_or_differences","context_scope","epistemic_status"],
+    "candidate_triggers": ["repeated_structure","strong_counterfactual_dependency","explicit_user_pattern_request","meaningful_cross_case_relation"],
+    "candidate_must_store": ["supporting_sequence_ids","contradicting_sequence_ids","alternative_interpretations","context_bounds","intent_status","confidence","user_review_status"],
+    "automatic_promotion": false
+  },
+  "user_edit_rule": "The UI/runtime must expose the activated rubric path and allow the authorized user to edit interpretation, feeling/emotion attribution, meaning, boundary/rule, pattern name, applicability and approval scope. The original machine proposal remains immutable as provenance; the edit creates a versioned review/write-back object.",
+  "approval_scopes": ["OCCURRENCE_ONLY","PERSONAL_PATTERN","RELATIONSHIP_SPECIFIC_PATTERN","DOMAIN_PATTERN","GENERAL_PATTERN_CANDIDATE","RUBRIC_CHANGE_CANDIDATE"],
+  "closure_rule": "Sentence analysis may close once its local representation/review contract is terminal. Open pattern review or learning write-back must remain a separate required or optional Sub-Sequence according to the parent contract."
+}
