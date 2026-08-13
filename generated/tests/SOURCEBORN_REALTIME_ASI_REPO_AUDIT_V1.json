@@ -3,10 +3,10 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 338,
+  "tracked_files_scanned": 339,
   "classification_counts": {
     "CONTROL_PLANE": 8,
-    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 110,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 111,
     "GENERATED_REBUILDABLE": 55,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
@@ -846,6 +846,11 @@
     },
     {
       "path": "phase2/sources/BRAIN_ENGINE_LIBRARY_ADOPTION_V1.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/sources/GROWTH_BATCH_002_SOURCE_CUSTODY.json",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },
