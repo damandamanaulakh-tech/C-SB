@@ -4252,6 +4252,7 @@
 
 ## Rubric Review Ids
 
+- **REVIEW-001** → `phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json`, `registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json`
 - **REVIEW-REQUIRED** → `phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md`
 
 ## Learning Writeback Ids

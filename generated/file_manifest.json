@@ -755,6 +755,11 @@
     "size_bytes": 9638
   },
   {
+    "path": "phase2/source_reviews/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.json",
+    "sha256": "73963831e9e862ff42b386e5d7184a139bd17c91fdf502235c1c141d9cbfb0cc",
+    "size_bytes": 6058
+  },
+  {
     "path": "phase2/reviews/AI_CAPABILITY_REVIEW_02_FULL.md",
     "sha256": "84c9735ee274d5f5105d298353646b3c05365ed172be7bc3189c3df74651fade",
     "size_bytes": 5794
@@ -1093,6 +1098,11 @@
     "path": "registries/sourceborn/EXPANSION_PARAMETERS_2561_2592_APPROVED_V1.json",
     "sha256": "c18c5e937a4a6dea05f7257b3199a09160d7fe5dc78341759464e55c9919a6cd",
     "size_bytes": 6475
+  },
+  {
+    "path": "registries/sourceborn/DOMAIN_PACK_REASONING_CANDIDATES_V0.json",
+    "sha256": "c4fba4fcd74c9d8ec61cace12096c0692c8a34db0637d07b8d259d9797b1d38b",
+    "size_bytes": 3666
   },
   {
     "path": "registries/sourceborn/REASONING_OPERATION_CANDIDATES_V0.json",
