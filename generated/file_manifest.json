@@ -316,8 +316,8 @@
   },
   {
     "path": ".github/workflows/relink-validate.yml",
-    "sha256": "5c78bcd237cc7866fbd48b4fa324ca6afb7e7f541770e717b48f0248df0b7e97",
-    "size_bytes": 5358
+    "sha256": "da9f2eb72d8595e9aa67bf83f567fc6b77d42d8b7ba1e8e3d56282053f623af4",
+    "size_bytes": 5509
   },
   {
     "path": ".github/workflows/multi-rubric-integration-rfr.yml",
@@ -998,6 +998,11 @@
     "path": "registries/sourceborn/PATTERN_REGISTRY_CONTROL_V1.json",
     "sha256": "d3dd1b500129d9fbbc66b3acdf89400c2ab3a4b7f16de494908070d4c54c7dbf",
     "size_bytes": 4466
+  },
+  {
+    "path": "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
+    "sha256": "8608cdf5e867724058666f62e5d1b7001e874036099ac60d6255b427bd9277c9",
+    "size_bytes": 3040
   },
   {
     "path": "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",

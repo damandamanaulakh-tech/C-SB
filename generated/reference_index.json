@@ -4346,6 +4346,7 @@
       "registries/asi/ASI_CONTAINER_CANDIDATES_FROM_AI_SOURCES_V0.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/validate_repo.py"
     ],
     "ASI-NODE-18": [
@@ -4383,6 +4384,7 @@
       "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
       "tools/validate_micro_sequence_pattern_runtime_v1.py"
@@ -4405,6 +4407,7 @@
       "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
       "registries/asi/node_brains/NODE_BRAINS_18_21.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "registries/wisdom/WISDOM_OBJECTS_BG_2_47_2_50_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
@@ -4444,6 +4447,7 @@
       "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
       "registries/asi/node_brains_v0.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
       "tools/validate_micro_sequence_pattern_runtime_v1.py"
@@ -4481,6 +4485,7 @@
       "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
       "registries/asi/node_brains_v0.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
       "tools/validate_micro_sequence_pattern_runtime_v1.py"
@@ -4512,6 +4517,7 @@
       "registries/asi/node_brains/MICRO_SEQUENCE_PATTERN_RESPONSIBILITY_OVERLAY_V1.json",
       "registries/asi/node_brains_v0.json",
       "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/run_micro_sequence_interpreter_v1.py",
       "tools/run_micro_sequence_interpreter_v1_1.py",
       "tools/validate_micro_sequence_pattern_runtime_v1.py"
@@ -4595,7 +4601,8 @@
       "registries/ai/AI_ONLY_GOVERNANCE_BINDING_PATCH_V1.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json",
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json"
     ],
     "ASI-NODE-09": [
       "machine/rubrics/RUBRIC_PACK_ASI_NODE_BINDINGS_v0.json",
@@ -4658,7 +4665,8 @@
       "registries/ai/AI_NEW_64_MINIMAL_PRIMARY_ROUTE_PATCH_V2.json",
       "registries/asi/asi_node_registry.json",
       "registries/asi/node_brains_v0.json",
-      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json"
+      "registries/expansion/EXPANSION_103_120_AI_ASI_CLASSIFICATION_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json"
     ]
   },
   "node_brains": {
@@ -4867,6 +4875,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py",
       "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
@@ -4895,6 +4904,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py",
       "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
@@ -4906,6 +4916,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-003": [
@@ -4954,6 +4965,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-CORE-010": [
@@ -4978,6 +4990,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EVAL-001": [
@@ -4992,6 +5005,7 @@
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-EXP-001": [
@@ -5082,6 +5096,7 @@
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py",
       "tools/test_micro_sequence_live_interpreter_v1.py"
     ],
@@ -5091,6 +5106,7 @@
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RD-002": [
@@ -5108,6 +5124,7 @@
       "machine/runtime/MICRO_SEQUENCE_ENGINE_ROUTING_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py"
     ],
     "ENG-RGL-001": [
@@ -5225,6 +5242,7 @@
       "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
       "registries/asi/ENGINE_LIBRARY_75_APPROVED_V1.json",
       "registries/asi/ENGINE_SEGMENT_BINDINGS_75_APPROVED_V1.json",
+      "registries/sourceborn/SEMANTIC_CLARIFICATION_CONTROL_V1.json",
       "tools/generate_brain_engine_relationships_v1.py",
       "tools/test_micro_sequence_live_interpreter_v1.py"
     ],

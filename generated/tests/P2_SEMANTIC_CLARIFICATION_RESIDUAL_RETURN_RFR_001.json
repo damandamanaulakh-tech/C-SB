@@ -1,0 +1,16 @@
+{
+  "report_id": "P2-SEMANTIC-CLARIFICATION-RESIDUAL-RETURN-RFR-001",
+  "status": "PASS",
+  "checks": {
+    "source_immutable": true,
+    "semantic_clarification_count": 3,
+    "human_container_refs_checked": 16,
+    "rubric_refs_checked": 16,
+    "pattern_candidates": 3,
+    "memory_significance_separate_from_valence": true,
+    "return_is_dimensional": true,
+    "recurrence_uses_seed_new_sequence": true
+  },
+  "errors": [],
+  "findings": []
+}
