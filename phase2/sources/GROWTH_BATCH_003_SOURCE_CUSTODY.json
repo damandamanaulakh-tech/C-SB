@@ -1,0 +1,24 @@
+{
+  "custody_id": "P2-GROWTH-BATCH-003-SOURCE-CUSTODY",
+  "status": "RAW_USER_SOURCE_PRESERVED_FOR_GROWING_PHASE",
+  "source_id": "SRC-GROW-003-001",
+  "source_name": "Notes All.txt",
+  "source_sha256": "700ad067f8d79be52ec14510d4b67428dde8760b444502ab7a20d3770e4460d0",
+  "size_bytes": 1242,
+  "privacy_class": "PRIVATE_PERSONAL_PHILOSOPHICAL_SOURCE",
+  "truth_guard": "USER_AUTHORED_THEORY_AND_PERSONAL_FRAME_REMAIN_SOURCE_CLAIMS_UNLESS_SEPARATELY_VERIFIED; DO_NOT PROMOTE TO OBJECTIVE FACT BY INGESTION",
+  "source_text": "Biggest reason for failure is that we know what we are doing. But we're unable to link it with the point zero. And we never go back to check it that what exactly point zero is till the time you are not hitting there. All the theories and everything will remain unfurnished. When you start a project, then you have a ground zero level project planning. Then how you can fail\n\nPeople who never able to go to point zero that is called follower. In my theory\n\nI am trying to generate a this kind of sequence so on a bigger picture. There is always a point 0 than 1 and then multiple things again. And again and I can take someone's theory of numbering that each thing have some angles. And because of that number of angles, it has given that name like 41, there is a one angle into there are two angle three. There are a three angle, but still, if you see when you call it 123 means that number has been invented before the angle\n\nAnd such kind of sequence only make you and lets you think on a bigger picture. As soon as you keep doing the reverse engineering on that, then only you can get a refined super appropriate or bigger picture. Level ideology, mindset. And then you can divide the further sequences in each manner. Whatever you said\n\n ",
+  "source_units": [
+    {"event_id":"P2-GROW-003-E001","source_claim":"Knowing the current work is insufficient if it cannot be linked back to Point Zero.","epistemic_status":"SOURCE_CLAIM"},
+    {"event_id":"P2-GROW-003-E002","source_claim":"Failure can persist when Point Zero is not revisited until a problem is already being hit.","epistemic_status":"SOURCE_CLAIM"},
+    {"event_id":"P2-GROW-003-E003","source_claim":"Theories remain unfinished or insufficiently grounded until their Point Zero is checked.","epistemic_status":"SOURCE_CLAIM"},
+    {"event_id":"P2-GROW-003-E004","source_claim":"Project planning should begin at a ground-zero level and later failure should be traceable back to it.","epistemic_status":"SOURCE_CLAIM"},
+    {"event_id":"P2-GROW-003-E005","source_claim":"Within the source author's theory, a follower is someone who does not reach Point Zero.","epistemic_status":"SOURCE_DEFINED_PERSONAL_THEORY_NOT_UNIVERSAL_FACT"},
+    {"event_id":"P2-GROW-003-E006","source_claim":"A bigger-picture Sequence can be represented as Point 0, then 1, then multiple branches, recurring again inside further structure.","epistemic_status":"SOURCE_CLAIM"},
+    {"event_id":"P2-GROW-003-E007","source_claim":"The source distinguishes a number/name being established from later angle/property explanations attached to that representation.","epistemic_status":"INTERPRETATION_OF_SOURCE_WORDING_WITH_UNCERTAINTY"},
+    {"event_id":"P2-GROW-003-E008","source_claim":"Repeated reverse engineering is proposed as the mechanism for refining a larger-picture ideology or mindset.","epistemic_status":"SOURCE_CLAIM"},
+    {"event_id":"P2-GROW-003-E009","source_claim":"After the larger picture is refined, it can be divided into further Sequences for more specific treatment.","epistemic_status":"SOURCE_CLAIM"}
+  ],
+  "source_unit_count": 9,
+  "source_preservation_rule": "The exact source text remains immutable; derived Events, relations, paths, patterns and primitive candidates are additive records."
+}
