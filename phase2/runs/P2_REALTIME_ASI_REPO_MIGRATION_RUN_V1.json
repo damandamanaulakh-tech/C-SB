@@ -1,0 +1,16 @@
+{
+  "run_id": "P2-REALTIME-ASI-REPO-MIGRATION-RUN-V1",
+  "status": "REQUESTED",
+  "purpose": "Execute the repository-wide Sourceborn real-time growing ASI semantic migration, regenerate indexes, and audit every tracked file classification against the new constitution.",
+  "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+  "contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+  "required_gate": "tools/validate_sourceborn_realtime_asi_v1.py",
+  "expected_semantics": [
+    "SOURCEBORN = REAL_TIME_GROWING_ASI_PROTOTYPE",
+    "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+    "EXAMPLE != OUTPUT_TEMPLATE",
+    "PARAMETER_ACTIVATION != NEW_PARAMETER",
+    "KING_HYPOTHESIS != HISTORICAL_IDENTITY",
+    "NODE_BRAIN != PROMPT"
+  ]
+}
