@@ -305,6 +305,11 @@
     "size_bytes": 3865
   },
   {
+    "path": "docs/KING_CHARACTER_ENGINE_WORKBOOK_REVIEW_V1.md",
+    "sha256": "36b244d713b6869d52b673eb913fdafb4e18d0f939b02d91fff93d22b8e7f30b",
+    "size_bytes": 6364
+  },
+  {
     "path": "docs/LOCKED_DECISIONS.md",
     "sha256": "27e993b383db5c286c7666febbbc96a9c65f2c48528d908c2aa78f3433eb921f",
     "size_bytes": 2459
