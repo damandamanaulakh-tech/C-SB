@@ -485,6 +485,11 @@
     "size_bytes": 4992
   },
   {
+    "path": "phase2/examples/EXAMPLE_REGISTRY_V1.json",
+    "sha256": "2656bb5d9238b76a6aef5d496ec75d7c8b1061ccf0d456237c9bbd17c41bc3b0",
+    "size_bytes": 2250
+  },
+  {
     "path": "phase2/examples/README.md",
     "sha256": "f08d63c9a17f7d10bc4821b1bb8ccf099e2f072e3cef2edca9a281ebbafe7bf0",
     "size_bytes": 2382
