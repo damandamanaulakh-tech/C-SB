@@ -3,11 +3,11 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 344,
+  "tracked_files_scanned": 346,
   "classification_counts": {
     "CONTROL_PLANE": 8,
-    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 114,
-    "GENERATED_REBUILDABLE": 55,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 115,
+    "GENERATED_REBUILDABLE": 56,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
     "TEST_OR_CLOSURE_RECORD": 49,
@@ -358,6 +358,11 @@
       "identity_violations": 0
     },
     {
+      "path": "generated/tests/P2_GROWTH_BATCH_003_RFR_V1.json",
+      "classification": "GENERATED_REBUILDABLE",
+      "identity_violations": 0
+    },
+    {
       "path": "generated/tests/P2_HUMAN_2560_CUSTODY_PROBE_V1.json",
       "classification": "GENERATED_REBUILDABLE",
       "identity_violations": 0
@@ -489,6 +494,11 @@
     },
     {
       "path": "machine/runtime/CURRENT_MICRO_SEQUENCE_INTERPRETER.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/runtime/EVENT_INTENT_FIRST_CLASS_OVERLAY_V1.json",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },
