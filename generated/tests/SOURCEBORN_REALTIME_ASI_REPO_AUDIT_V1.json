@@ -3,14 +3,14 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 346,
+  "tracked_files_scanned": 347,
   "classification_counts": {
     "CONTROL_PLANE": 8,
     "ACTIVE_ARCHITECTURE_OR_REGISTRY": 115,
     "GENERATED_REBUILDABLE": 56,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
-    "TEST_OR_CLOSURE_RECORD": 49,
+    "TEST_OR_CLOSURE_RECORD": 50,
     "RAW_SOURCE_IMMUTABLE": 55,
     "TOOLING": 58
   },
@@ -919,6 +919,11 @@
     },
     {
       "path": "phase2/tests/P2_CLOSURE_SCOPE_INHERITANCE_FIXTURE_001.json",
+      "classification": "TEST_OR_CLOSURE_RECORD",
+      "identity_violations": 0
+    },
+    {
+      "path": "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "classification": "TEST_OR_CLOSURE_RECORD",
       "identity_violations": 0
     },

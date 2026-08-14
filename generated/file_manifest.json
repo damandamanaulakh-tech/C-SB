@@ -915,6 +915,11 @@
     "size_bytes": 4505
   },
   {
+    "path": "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
+    "sha256": "2ab64daba6407dc50d416987a8cba2aeb1fff5065def289462349104b4b78377",
+    "size_bytes": 7484
+  },
+  {
     "path": "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
     "sha256": "559fb00e133aa1967e359f72d01e5f7a188278aac1ea8d3ed79770c8588a81c0",
     "size_bytes": 3380

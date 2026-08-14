@@ -330,6 +330,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
@@ -370,6 +371,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/tests/P2_ACTOR_VIEW_LEAKAGE_FIXTURE_001.json",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/human/HUMAN_CONTAINER_SOURCE_SLICE_AV_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -401,6 +403,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "phase2/tests/SEMANTIC_CLARIFICATION_RESIDUAL_RETURN_001.json",
@@ -606,6 +609,7 @@
     "CON-009": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -632,6 +636,7 @@
     "CON-013": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -651,6 +656,7 @@
     "CON-016": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -669,6 +675,7 @@
     "CON-018": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -703,6 +710,7 @@
     "CON-023": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
@@ -758,6 +766,7 @@
     "CON-031": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.parts/part-04.md",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
@@ -812,6 +821,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/FATHER_DOOR_3204_REASONING_EXAMPLE_V1.md",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/CONTENT_INDEX.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -838,6 +848,7 @@
     "CON-046": [
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/P2_MULTI_RUBRIC_INTEGRATION_FIXTURE_V1.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
@@ -849,6 +860,7 @@
       "machine/parameters/HUMAN_NATIVE_2560_RUNTIME_PLACEMENT_V1.json",
       "phase2/examples/RAIN_TARGET_LAYER_ACTION_EXAMPLE_V1.md",
       "phase2/reviews/AI_CAPABILITY_MAP_REVIEW_01.md",
+      "phase2/tests/P2_EVENT_INTENT_FIRST_CLASS_FIXTURE_001.json",
       "phase2/tests/RAIN_TARGET_LAYER_ACTION_FIXTURE_001.json",
       "raw/release-assets/backend-docs/HUMAN_SOURCE_INSPECTION.json",
       "raw/rubrics/AI_CAPABILITY_TO_SOURCEBORN_CONTAINERS_REVIEW.md",
