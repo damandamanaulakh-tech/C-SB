@@ -1,0 +1,50 @@
+{
+  "fixture_id": "P2-EVENT-INTENT-FIRST-CLASS-FIXTURE-001",
+  "status": "CONTROLLED_TEST_FIXTURE",
+  "purpose": "Prove the growing-phase distinction between Event, Actor View, typed Intent, existing-ID activation, pattern contribution and review-gated growth without inflating the 3,204 Human-derived source registry.",
+  "contracts": ["docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md","machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json","machine/runtime/EVENT_INTENT_FIRST_CLASS_OVERLAY_V1.json","machine/schemas/event_intent.schema.json","machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json"],
+  "cases": [
+    {
+      "case_id": "RAIN-KIDS-PIPE-001",
+      "raw_source": "There is no natural rain. Father stands outside with a water pipe and sprays water upward. The kids are inside and think it is raining outside.",
+      "declared_reconstruction_target": "Represent the linked physical, perceptual and intentional Events without collapsing world state, signal state, Actor View, belief and behavior.",
+      "events": [
+        {"event_id":"EV-RAIN-001","event_type":"ENVIRONMENT_STATE","summary":"No natural rain is occurring.","intent_type":"NATURAL_DYNAMICS_DIRECTION","intent_summary":"No conscious intent is asserted; the physical weather state is simply the Point Zero environmental condition.","epistemic_status":"SOURCE_STATED"},
+        {"event_id":"EV-RAIN-002","event_type":"AGENT_ACTION","summary":"Father directs pipe water upward outside the home.","intent_type":"AGENT_INTENT","intent_summary":"Create rain-like observable conditions for the children so the rain-condition used for the outing decision appears satisfied.","epistemic_status":"USER_CLARIFIED"},
+        {"event_id":"EV-RAIN-003","event_type":"PHYSICAL_TRANSITION","summary":"Pipe water falls downward through gravity and local spray dynamics.","intent_type":"NATURAL_DYNAMICS_DIRECTION","intent_summary":"Physical direction/causal transition only; no consciousness is attributed.","epistemic_status":"DERIVED_FROM_SOURCE_DESCRIPTION"},
+        {"event_id":"EV-RAIN-004","event_type":"OBSERVATION","summary":"Children observe falling water from inside the home with incomplete access to its source.","intent_type":"UNKNOWN","intent_summary":"Observer intent is not required to explain the observation itself and is left unknown unless separately evidenced.","epistemic_status":"DERIVED_FROM_SOURCE_DESCRIPTION"},
+        {"event_id":"EV-RAIN-005","event_type":"ACTOR_VIEW_UPDATE","summary":"Children classify the observed falling water as rain.","intent_type":"FUNCTIONAL_DIRECTION","intent_summary":"The perceptual/classification process resolves ambiguous visible signals into the event class rain; this is not a claim that the weather actually changed.","epistemic_status":"USER_CLARIFIED"},
+        {"event_id":"EV-RAIN-006","event_type":"BEHAVIORAL_CONDITION_UPDATE","summary":"The perceived rain condition can influence whether the outing proceeds.","intent_type":"DERIVED_INTENT_HYPOTHESIS","intent_summary":"Preserve the no-outing outcome by creating an observer-level substitute for the absent natural trigger.","epistemic_status":"HYPOTHESIZED_REVIEW_REQUIRED"}
+      ],
+      "existing_regions_expected": ["CON-009 Visual Perception","CON-013 Multisensory Integration","CON-016 Spatial, Temporal and Environmental Mapping","CON-018 Motor Planning and Sequencing","CON-023 Imitation, Gesture and Tool Manipulation","CON-031 Executive Sequencing and Task Management","CON-043 Causal, Counterfactual and Predictive Reasoning","CON-046 Planning, Strategy and Future Simulation","CON-048 Creativity, Imagination and Invention","CON-063 Intent Formation and Commitment","CON-069 Theory of Mind and Social Prediction","CON-075 Metacognition and Self-Monitoring"],
+      "candidate_patterns": [
+        {"label":"PERCEPTUAL_EQUIVALENT_EVENT_SUBSTITUTION","definition":"Different source Events can produce sufficiently similar observable signals for an observer to instantiate the same perceived event class and act on it.","status":"PATTERN_CANDIDATE"},
+        {"label":"WORLD_SIGNAL_VIEW_BEHAVIOR_SEPARATION","definition":"World state, generated signal, observer perception/belief and resulting behavior are separate layers and must not be collapsed.","status":"PATTERN_CANDIDATE"}
+      ],
+      "primitive_additions": 0
+    },
+    {
+      "case_id": "EGYPTIAN-TABLET-KING-001",
+      "raw_source": "A surviving Egyptian tablet/artifact is the event object to reconstruct. Multiple King brain-state profiles are generated to test who caused it to be written, when, why, how, for whom and with what expected future effect.",
+      "declared_reconstruction_target": "Reconstruct the artifact-producing Event and its intent space rather than treating generated King profiles as the final subject.",
+      "event_model": {
+        "primary_event": "SURVIVING_ARTIFACT_EXISTS",
+        "unknown_prior_events": ["WHO_ORDERED_OR_AUTHORIZED","WHO_DESIGNED_OR_COMPOSED","WHO_PERFORMED_OR_INSCRIBED","WHEN_PRODUCTION_OCCURRED","WHY_THE_ARTIFACT_WAS_CREATED","FOR_WHOM_OR_WHAT_AUDIENCE","EXPECTED_FUTURE_EFFECT"],
+        "candidate_brain_state_rule": "Generate multiple actor-brain/intent configurations, reverse-reconstruct predicted causes, forward-simulate predicted traces, compare against surviving evidence, and retain alternatives/unknowns.",
+        "identity_guard": "Generated King profile count is not historical King count and a profile is not a historical identity fact."
+      },
+      "intent_search_questions": ["WHO","WHEN","WHY","HOW","FOR_WHOM","WHO_PERFORMED","EXPECTED_FUTURE"],
+      "growth_outputs": ["intent signature candidates","actor-brain state candidates","relation/path candidates","evidence and contradiction links","pattern contributions"],
+      "primitive_additions": 0
+    }
+  ],
+  "expected_count_laws": {
+    "human_derived_source_parameter_count_before": 3204,
+    "human_derived_source_parameter_count_after": 3204,
+    "event_records_added": 7,
+    "intent_records_added": 7,
+    "pattern_candidates_added_for_review": 2,
+    "approved_new_parameters": 0
+  },
+  "pass_conditions": ["Every represented Event has a typed Intent record or explicit UNKNOWN.","Natural dynamics never fabricate conscious agency.","The rain case separates natural weather, generated signal, observer view and behavior.","The tablet case treats King profiles as search hypotheses around the artifact-producing Event.","Existing-ID activation and persistent growth can increase without changing the 3,204 source-parameter count.","No candidate pattern or intent is promoted automatically."]
+}
