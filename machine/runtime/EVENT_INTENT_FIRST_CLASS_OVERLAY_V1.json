@@ -1,0 +1,99 @@
+{
+  "overlay_id": "SOURCEBORN-EVENT-INTENT-FIRST-CLASS-OVERLAY-V1",
+  "status": "PHASE2_ACTIVE_CONTROLLED_TESTING",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "constitution_ref": "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+  "growth_contract_ref": "machine/runtime/EVENT_INTENT_GROWTH_CONTRACT_V1.json",
+  "event_intent_schema_ref": "machine/schemas/event_intent.schema.json",
+  "first_class_schema_ref": "machine/v2/FIRST_CLASS_RECORD_SCHEMAS.json",
+  "micro_sequence_runtime_ref": "machine/runtime/SENTENCE_MICRO_SEQUENCE_RUNTIME_V1.json",
+  "live_intent_runtime_ref": "machine/runtime/INTENT_HYPOTHESIS_SYNTHESIS_RUNTIME_V1.json",
+  "universal_law": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+  "runtime_rule": {
+    "every_ingested_happening_creates_event_record": true,
+    "every_event_record_requires_intent_record": true,
+    "unknown_intent_is_valid": true,
+    "natural_event_intent_must_not_fabricate_agency": true,
+    "example_is_growth_event_not_output_template": true
+  },
+  "pipeline": [
+    {
+      "order": 0,
+      "name": "SOURCE_AND_POINT_ZERO",
+      "input": "raw source/example/current event",
+      "output": ["source_ref", "sequence_instance_id"]
+    },
+    {
+      "order": 1,
+      "name": "EVENT_OBJECT_CREATE",
+      "output": ["EVENT_RECORD"],
+      "required": ["event_id", "sequence_instance_id", "event_type", "source_ids", "epistemic_status"]
+    },
+    {
+      "order": 2,
+      "name": "EXISTING_ID_ACTIVATION",
+      "output": ["parameter_refs", "rubric_activation_ids", "relation_ids", "node_brain_refs", "engine_refs"],
+      "rule": "Prefer existing approved IDs. Do not create a new primitive merely because a new example exists."
+    },
+    {
+      "order": 3,
+      "name": "INTENT_RECORD_OPEN",
+      "output": ["INTENT_RECORD"],
+      "rule": "Intent may start UNKNOWN/NOT_YET_DECODED and be refined as evidence, relations, actor views and parameters activate."
+    },
+    {
+      "order": 4,
+      "name": "LIVE_INTENT_SYNTHESIS",
+      "input": ["activated parameters", "rubrics", "relations", "typed order", "Actor View", "prior intent signatures"],
+      "output": ["new or prior intent signatures", "alternatives", "falsifiers", "proof debt"],
+      "rule": "More relevant parameters may increase intent resolution; parameter count alone never justifies intent or confidence."
+    },
+    {
+      "order": 5,
+      "name": "PATTERN_CONTRIBUTION",
+      "output": ["support", "contradict", "weaken", "new candidate"],
+      "rule": "Every Event contributes to pattern memory without automatic pattern promotion."
+    },
+    {
+      "order": 6,
+      "name": "RFR_AND_USER_REVIEW",
+      "output": ["review status", "versioned decision", "preserved alternatives", "unknowns"]
+    },
+    {
+      "order": 7,
+      "name": "PERSISTENT_GROWTH_WRITEBACK",
+      "output": ["event memory", "relation", "path", "combination", "intent signature", "pattern contribution", "pattern candidate", "candidate primitive when justified"]
+    }
+  ],
+  "growth_ledger_fields": [
+    "example_count",
+    "event_count",
+    "existing_parameter_activation_count",
+    "existing_container_activation_count",
+    "rubric_activation_count",
+    "relation_count",
+    "path_count",
+    "combination_signature_count",
+    "existing_intent_signature_match_count",
+    "new_live_intent_candidate_count",
+    "pattern_contribution_count",
+    "pattern_candidate_count",
+    "candidate_primitive_count",
+    "approved_primitive_count"
+  ],
+  "count_laws": [
+    "CONTAINER_HIT_COUNT != PARAMETER_HIT_COUNT",
+    "ADDRESS_ACTIVATION_COUNT != UNIQUE_PARAMETER_COUNT",
+    "EXAMPLE_COUNT != PARAMETER_COUNT",
+    "NEW_INTENT_WORDING != NEW_INTENT_STRUCTURE",
+    "NEW_LIVE_INTENT_CANDIDATE != NEW_PARAMETER",
+    "PERSISTENT_BRAIN_GROWTH_MAY_OCCUR_WITH_ZERO_PARAMETER_COUNT_CHANGE"
+  ],
+  "new_thought_test": {
+    "pass_condition": "A new Event activates existing primitives, relations and memories into a useful intent/pattern combination not explicitly supplied as a prior example, while preserving epistemic status and falsifiers.",
+    "does_not_require": ["new parameter", "matching old sentence", "fixed King character", "prompt template"],
+    "promotion_guard": "Any new reusable primitive remains candidate until recurrence/behavioral distinction, evidence, falsifier, R-F-R and explicit review requirements are satisfied."
+  },
+  "tablet_rule": "The Egyptian tablet/artifact is the reconstruction Event. King profiles are parallel candidate actor-brain states used to generate and test who/when/why/how/for-whom/expected-future intent paths; profile count is not historical entity count.",
+  "rain_rule": "Natural rain, pipe-generated falling water, children's perceived rain and resulting behavior are distinct linked Events. The father's agent intent, children's Actor View and physical water dynamics must not be collapsed into one event or one truth state."
+}
