@@ -8,6 +8,14 @@
     "SEQUENCE_INSTANCE": {
       "fields": ["sequence_instance_id","sequence_template_id","template_version","mode","sequence_name","declared_end_or_target","observation_window","scope","closure_scope","resolution_level","causal_horizon","epistemic_floor","followed_object_ids","controller_ids","performer_ids","carrier_ids","parent_or_requesting_sequence_id","relation_type","opened_at","current_status","gap_ids","contradiction_ids","proof_debt_ids","closure_packet_id"]
     },
+    "EVENT_RECORD": {
+      "semantic_contract": "Everything happening is represented as an Event. Event identity is separate from interpretation, actor-view, intent hypothesis and outcome. Every Event must reference at least one typed Intent record or an explicit UNKNOWN/NOT_YET_DECODED Intent record.",
+      "fields": ["event_id","sequence_instance_id","event_type","source_ids","parent_event_ids","child_event_ids","actor_ids","object_ids","observer_or_view_ids","prior_state_ids","action_or_change_ids","resulting_state_ids","relation_ids","order_types","parameter_refs","rubric_activation_ids","node_brain_refs","engine_refs","intent_ids","evidence_ids","contradiction_ids","proof_debt_ids","pattern_contribution_ids","memory_ids","epistemic_status","record_version","status"]
+    },
+    "INTENT_RECORD": {
+      "semantic_contract": "Typed Event intent representation. Intent is not motive, action, actor knowledge or fact merely because it is generated. Natural-dynamics direction must not imply conscious agency.",
+      "fields": ["intent_id","event_id","sequence_instance_id","intent_type","owner_or_actor_id","stated_intent_claim_ids","inferred_intent_claim_ids","stated_motive_claim_ids","operating_motive_hypothesis_ids","goal_atoms","target_atoms","method_atoms","condition_atoms","order_atoms","modifier_atoms","constraint_atoms","state_atoms","supporting_parameter_refs","supporting_rubric_refs","supporting_relation_ids","supporting_sequence_ids","supporting_evidence_ids","contradicting_evidence_ids","alternative_intent_ids","falsifiers","proof_debt_ids","novelty_status","epistemic_status","confidence","review_status","approval_scope","direct_action_authority","record_version","status"]
+    },
     "NODE_TEMPLATE": {
       "fields": ["node_template_id","version","exact_name","semantic_contract","allowed_node_types","default_rubric_pack_ids","completion_contract","status"]
     },
