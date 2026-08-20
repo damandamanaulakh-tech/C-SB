@@ -1,0 +1,37 @@
+{
+  "checkpoint_id": "P2-BATCH1-FOUNDATION-CHECKPOINT-V1",
+  "sequence_id": "P2-SELF-SUSTAINING-RUNTIME-BATCH1-FOUNDATION-01",
+  "status": "VALIDATION_PENDING",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "scope": "Batch-1 constitution, execution flow, invariant contract, Event/Intent/Node-Brain/Memory/Combination schemas and dedicated CI validation gate.",
+  "foundation_files": [
+    "docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md",
+    "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md",
+    "machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json",
+    "machine/schemas/event_record.schema.json",
+    "machine/schemas/event_intent.schema.json",
+    "machine/schemas/node_brain.schema.json",
+    "machine/schemas/memory_object.schema.json",
+    "machine/schemas/combination_record.schema.json"
+  ],
+  "validator": "tools/validate_batch1_foundation_v1.py",
+  "expected_report": "generated/tests/P2_BATCH1_FOUNDATION_RFR_V1.json",
+  "ci_workflow": ".github/workflows/relink-validate.yml",
+  "hard_requirements": [
+    "all eight foundation files exist",
+    "all JSON contracts parse",
+    "schema IDs are unique",
+    "all local external schema refs resolve",
+    "Event and Intent type contracts remain consistent",
+    "Node Brain is persistent bounded runtime state, not prompt identity",
+    "Memory types remain consistent between invariants and schema",
+    "Combination outputs include synthetic meaning, Event/Intent hypotheses, actor-brain variants, Sequence variants, evidence predictions, pattern/node/primitive/relation/path candidates",
+    "accepted growth requires persistent Brain-object count increase without native parameter inflation",
+    "nine primary loops and four maintenance loops remain explicit",
+    "self-sustaining runtime does not imply unrestricted external authority"
+  ],
+  "known_next_link_finding": "sourceborn.bundle.schema.json does not yet export NodeBrain, MemoryObject or CombinationRecord; this is intentionally reserved for the explicit link pass after Batch-1 validation.",
+  "next_sequence_after_pass": "BATCH1_SCHEMA_BUNDLE_AND_RUNTIME_LINKING",
+  "closure_condition": "Dedicated Batch-1 validator passes in the full relink/validate CI chain together with all prior Sourceborn invariants.",
+  "acceptance_condition": "Generated P2_BATCH1_FOUNDATION_RFR_V1.json reports PASS with zero hard errors; known next-link finding may remain open."
+}
