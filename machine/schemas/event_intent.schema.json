@@ -1,15 +1,152 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://sourceborn.local/schema/event_intent.schema.json",
-  "title": "Sourceborn Event and Typed Intent Records",
+  "title": "Sourceborn Event and Typed Intent Records V2",
+  "description": "Typed intent contract for the real-time growing Sourceborn ASI prototype. Intent is mandatory for every Event, but may remain UNKNOWN/NOT_YET_DECODED. Intent is structurally separate from motive, wording, confidence, source fact and action authority.",
   "$defs": {
+    "ActorRoleRef": {
+      "type": "object",
+      "required": ["role", "actor_ref", "epistemic_status"],
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": [
+            "SUBJECT",
+            "REQUESTER",
+            "CONTROLLER",
+            "AUTHOR",
+            "DESIGNER",
+            "PERFORMER",
+            "CARRIER",
+            "BENEFICIARY",
+            "AUDIENCE",
+            "OBSERVER",
+            "WRITER",
+            "UNKNOWN"
+          ]
+        },
+        "actor_ref": {"type": ["string", "null"]},
+        "view_ref": {"type": ["string", "null"]},
+        "state_ref": {"type": ["string", "null"]},
+        "epistemic_status": {
+          "type": "string",
+          "enum": ["OBSERVED", "SOURCE_STATED", "INFERRED", "SYNTHETIC", "UNKNOWN"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "FutureStateRef": {
+      "type": "object",
+      "required": ["future_state_id", "description", "epistemic_status"],
+      "properties": {
+        "future_state_id": {"type": "string"},
+        "description": {"type": "string"},
+        "target_entity_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "time_horizon": {},
+        "success_conditions": {"type": "array"},
+        "failure_conditions": {"type": "array"},
+        "evidence_prediction_ids": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": ["SOURCE_STATED", "INFERRED", "SYNTHETIC", "UNKNOWN"]
+        },
+        "origin_distance": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "IntentNoveltyFingerprint": {
+      "type": "object",
+      "description": "Structural dimensions used to distinguish a materially new Intent from paraphrase.",
+      "properties": {
+        "target_signature": {},
+        "desired_state_change_signature": {},
+        "priority_signature": {},
+        "action_tendency_signature": {},
+        "constraint_handling_signature": {},
+        "relationship_treatment_signature": {},
+        "time_horizon_signature": {},
+        "expected_consequence_signature": {},
+        "controller_performer_signature": {}
+      },
+      "additionalProperties": true
+    },
+    "IntentMatch": {
+      "type": "object",
+      "required": ["existing_intent_id", "match_type"],
+      "properties": {
+        "existing_intent_id": {"type": "string"},
+        "match_type": {
+          "type": "string",
+          "enum": [
+            "EXACT_STRUCTURE",
+            "PARAPHRASE",
+            "SPECIALIZATION",
+            "GENERALIZATION",
+            "PARTIAL_OVERLAP",
+            "CONTRADICTORY",
+            "MATERIALLY_NEW"
+          ]
+        },
+        "matching_dimensions": {"type": "array", "items": {"type": "string"}},
+        "different_dimensions": {"type": "array", "items": {"type": "string"}},
+        "similarity_score": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "review_notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "IntentLineageStep": {
+      "type": "object",
+      "required": ["step_type", "object_ref"],
+      "properties": {
+        "step_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE",
+            "EVENT",
+            "POINT_ZERO",
+            "SEQUENCE",
+            "ACTOR_STATE",
+            "PARAMETER_ACTIVATION",
+            "RELATION_GRAPH",
+            "COMBINATION",
+            "FUTURE_STATE",
+            "EVIDENCE",
+            "FALSIFIER",
+            "WRITEBACK",
+            "VERSION"
+          ]
+        },
+        "object_ref": {"type": "string"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
     "EventIntent": {
       "type": "object",
-      "required": ["intent_id", "event_id", "intent_type", "epistemic_status"],
+      "required": [
+        "intent_id",
+        "event_id",
+        "intent_type",
+        "intent_status",
+        "epistemic_status",
+        "maturity",
+        "source_refs",
+        "lineage"
+      ],
       "properties": {
-        "intent_id": {"type": "string"},
-        "event_id": {"type": "string"},
+        "intent_id": {"type": "string", "minLength": 1},
+        "event_id": {"type": "string", "minLength": 1},
+        "sequence_id": {"type": ["string", "null"]},
+        "point_zero_ref": {"type": ["string", "null"]},
+        "version": {"type": "string", "default": "1.0.0"},
         "intent_type": {
+          "type": "string",
           "enum": [
             "AGENT_INTENT",
             "INSTITUTIONAL_INTENT",
@@ -21,35 +158,198 @@
             "NOT_YET_DECODED"
           ]
         },
+        "intent_status": {
+          "type": "string",
+          "enum": [
+            "SOURCE_STATED",
+            "INFERRED_OPEN",
+            "NEW_SYNTHETIC",
+            "SYNTHETIC_RETAINED",
+            "SYNTHETIC_WEAKENED",
+            "SYNTHETIC_REJECTED",
+            "MATCHED_EXISTING_INTENT",
+            "REVIEW_REQUIRED",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "UNKNOWN"
+          ]
+        },
+        "actor_roles": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/ActorRoleRef"}
+        },
+        "actor_view_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "actor_state_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
         "stated_intent": {},
         "inferred_intent": {},
+        "intent_summary": {"type": ["string", "null"]},
         "stated_motive": {},
         "operating_motive_hypothesis": {},
         "goal": {},
         "target": {},
-        "method": {},
-        "conditions": {"type": "array"},
-        "typed_order_refs": {"type": "array", "items": {"type": "string"}},
-        "actor_view_refs": {"type": "array", "items": {"type": "string"}},
-        "supporting_evidence_refs": {"type": "array", "items": {"type": "string"}},
-        "contradicting_evidence_refs": {"type": "array", "items": {"type": "string"}},
-        "alternative_intent_ids": {"type": "array", "items": {"type": "string"}},
+        "desired_state_change": {},
+        "current_state_difference": {},
+        "method_or_action_tendency": {},
+        "trigger_or_context": {},
+        "priority": {},
+        "constraints": {"type": "array"},
+        "pressures": {"type": "array"},
+        "resources_or_capabilities": {"type": "array"},
+        "relationship_history_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "time_horizon": {},
+        "expected_consequence": {},
+        "future_state_candidates": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/FutureStateRef"}
+        },
+        "typed_order_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "parameter_activation_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "relation_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "combination_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "novelty_fingerprint": {"$ref": "#/$defs/IntentNoveltyFingerprint"},
+        "existing_intent_matches": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/IntentMatch"}
+        },
+        "alternative_intent_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "counter_intent_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "supporting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "contradicting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "evidence_prediction_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "falsifier_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
         "falsifiers": {"type": "array"},
+        "counter_cases": {"type": "array"},
+        "origin_distance": {"type": "integer", "minimum": 0},
         "proof_debt": {"type": "array"},
-        "epistemic_status": {"type": "string"},
-        "review_status": {"type": "string"},
-        "source_refs": {"type": "array"}
+        "maturity": {
+          "type": "string",
+          "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "OBSERVED_SOURCE_INTENT_STATEMENT",
+            "SOURCE_STATED",
+            "INFERRED",
+            "DERIVED_INTENT_HYPOTHESIS",
+            "NEW_SYNTHETIC",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "REJECTED",
+            "UNKNOWN"
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "enum": ["NOT_REQUIRED", "OPEN", "REVIEW_REQUIRED", "APPROVED", "REJECTED", "SUPERSEDED"]
+        },
+        "direct_action_authority": {"type": "boolean", "default": false},
+        "source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "memory_write_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "pattern_contribution_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "lineage": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/IntentLineageStep"},
+          "minItems": 1
+        },
+        "created_at": {"type": ["string", "null"], "format": "date-time"},
+        "updated_at": {"type": ["string", "null"], "format": "date-time"}
       },
       "allOf": [
         {
-          "if": {"properties": {"intent_type": {"const": "NATURAL_DYNAMICS_DIRECTION"}}},
+          "if": {
+            "properties": {"intent_type": {"const": "NATURAL_DYNAMICS_DIRECTION"}},
+            "required": ["intent_type"]
+          },
           "then": {
-            "description": "Natural-dynamics direction records causal/functional direction only and must not be interpreted as conscious agency without a separate agent source."
+            "description": "Natural-dynamics direction records causal/functional direction only and must not be interpreted as conscious agency without separate actor evidence.",
+            "properties": {
+              "direct_action_authority": {"const": false}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"intent_status": {"const": "NEW_SYNTHETIC"}},
+            "required": ["intent_status"]
+          },
+          "then": {
+            "properties": {
+              "direct_action_authority": {"const": false},
+              "maturity": {"enum": ["M0", "M1", "M2", "M3"]}
+            }
           }
         }
-      ]
+      ],
+      "additionalProperties": true
     },
     "EventRecord": {
+      "description": "Backward-compatible lightweight Event shape retained for current sourceborn.bundle.schema.json. Full new Event validation is defined by event_record.schema.json.",
       "type": "object",
       "required": ["event_id", "event_type", "sequence_id", "intent", "epistemic_status"],
       "properties": {
@@ -57,7 +357,9 @@
         "event_type": {"type": "string"},
         "sequence_id": {"type": "string"},
         "source_refs": {"type": "array"},
+        "point_zero_ref": {"type": ["string", "null"]},
         "actor_ids": {"type": "array", "items": {"type": "string"}},
+        "actor_roles": {"type": "array", "items": {"$ref": "#/$defs/ActorRoleRef"}},
         "object_ids": {"type": "array", "items": {"type": "string"}},
         "prior_state_refs": {"type": "array"},
         "resulting_state_refs": {"type": "array"},
@@ -68,8 +370,10 @@
         "combination_ids": {"type": "array", "items": {"type": "string"}},
         "pattern_contribution_ids": {"type": "array", "items": {"type": "string"}},
         "memory_write_refs": {"type": "array"},
+        "maturity": {"type": ["string", "null"]},
         "epistemic_status": {"type": "string"}
-      }
+      },
+      "additionalProperties": true
     }
   }
 }
