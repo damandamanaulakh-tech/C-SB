@@ -3,10 +3,10 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 348,
+  "tracked_files_scanned": 349,
   "classification_counts": {
     "CONTROL_PLANE": 8,
-    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 117,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 118,
     "GENERATED_REBUILDABLE": 56,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
@@ -534,6 +534,11 @@
     },
     {
       "path": "machine/schemas/event_intent.schema.json",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "machine/schemas/event_record.schema.json",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },

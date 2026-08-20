@@ -435,6 +435,11 @@
     "size_bytes": 8663
   },
   {
+    "path": "machine/schemas/event_record.schema.json",
+    "sha256": "0bd6524a1544bcb91c7196d58bea5cb40f22944f276dfcdf32d0dd833d0ff540",
+    "size_bytes": 13307
+  },
+  {
     "path": "machine/schemas/event_intent.schema.json",
     "sha256": "e53b80eae00cec99fb4a01cc06cf694ae1aec829a7869fc2a25fc65215ec1361",
     "size_bytes": 3107
