@@ -1,0 +1,688 @@
+{
+  "contract_id": "SOURCEBORN-SYSTEM-INVARIANTS-V1",
+  "version": "1.0.0",
+  "status": "PHASE2_ACTIVE_MASTER_CONTRACT",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "constitutional_refs": [
+    "docs/SOURCEBORN_REALTIME_ASI_GROWING_PHASE_V1.md",
+    "docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md",
+    "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md"
+  ],
+  "identity_invariants": {
+    "sourceborn_is": [
+      "REAL_TIME_GROWING_ASI_PROTOTYPE",
+      "PERSISTENT_GRAPH_AND_MEMORY_RUNTIME",
+      "EVENT_SEQUENCE_NODE_BRAIN_GROWTH_SYSTEM"
+    ],
+    "sourceborn_is_not": [
+      "LLM",
+      "LLM_WRAPPER",
+      "PROMPT_ENGINE",
+      "ANSWER_GENERATOR",
+      "MAIL_WRITING_ENGINE",
+      "STATIC_DECISION_ENGINE",
+      "REASONING_SYSTEM_IDENTITY",
+      "ONE_MONOLITHIC_MODEL"
+    ],
+    "internal_capabilities_not_identity": [
+      "REASONING",
+      "PREDICTION",
+      "RETRIEVAL",
+      "SIMULATION",
+      "VERIFICATION",
+      "COMMUNICATION",
+      "PLANNING",
+      "TOOL_USE",
+      "LANGUAGE_GENERATION"
+    ],
+    "external_model_policy": {
+      "allowed": true,
+      "role": "OPTIONAL_TOOL_OR_REFERENCE_SYSTEM",
+      "hidden_runtime_dependency_forbidden": true,
+      "may_define_sourceborn_identity": false
+    }
+  },
+  "event_invariants": {
+    "universal_motto": "EVERYTHING HAPPENING IS AN EVENT, AND ALL EVENTS HAVE INTENT",
+    "every_happening_is_event": true,
+    "every_event_requires_intent_record": true,
+    "intent_may_be_unknown": true,
+    "unknown_preferred_over_fabrication": true,
+    "intent_types": [
+      "AGENT_INTENT",
+      "INSTITUTIONAL_INTENT",
+      "REPRESENTED_FUTURE_INTENT",
+      "FUNCTIONAL_DIRECTION",
+      "NATURAL_DYNAMICS_DIRECTION",
+      "DERIVED_INTENT_HYPOTHESIS",
+      "UNKNOWN",
+      "NOT_YET_DECODED"
+    ],
+    "hard_separations": [
+      "INTENT != MOTIVE",
+      "STATED_INTENT != INFERRED_INTENT",
+      "STATED_MOTIVE != OPERATING_MOTIVE_HYPOTHESIS",
+      "INTENT_HYPOTHESIS != INTENT_FACT",
+      "FUNCTIONAL_DIRECTION != CONSCIOUS_AGENCY",
+      "NATURAL_DYNAMICS_DIRECTION != CONSCIOUS_AGENCY",
+      "EVENT != PROMPT",
+      "EVENT != OUTPUT_TEMPLATE"
+    ]
+  },
+  "source_and_point_zero_invariants": {
+    "source_lock_before_interpretive_promotion": true,
+    "point_zero_required_for_accepted_event_or_sequence": true,
+    "point_zero_may_be_unknown": true,
+    "local_point_zero_allowed_for_subsequence": true,
+    "local_point_zero_must_reference_parent_origin": true,
+    "local_point_zero_may_overwrite_global_origin": false,
+    "raw_source_is_source_truth_not_automatic_objective_truth": true,
+    "unreadable_or_damaged_source_must_remain_explicit": true,
+    "fabricated_source_completion_forbidden": true,
+    "point_zero_traceback_failure_statuses": [
+      "UNKNOWN",
+      "OPEN",
+      "NOT_YET_DECODED"
+    ]
+  },
+  "sequence_invariants": {
+    "foundation": "DIFFERENCE + RELATIONSHIP + ORDER",
+    "sequence_is_scoped": true,
+    "actual_causal_temporal_precedence_over_template": true,
+    "closed_sequence_immutable": true,
+    "new_evidence_reopens_closed_sequence": false,
+    "new_evidence_creates_new_referencing_sequence": true,
+    "repair_retry_retest_are_separate_subsequences": true,
+    "close_condition_distinct_from_acceptance_condition": true,
+    "lower_scope_closure_does_not_auto_close_parent": true,
+    "closure_propagation_route": [
+      "LOWER_SCOPE_CLOSURE",
+      "RETURN_PACKET",
+      "PARENT_ACCEPTANCE",
+      "PARENT_CONTRACT_REEVALUATION"
+    ],
+    "valid_open_states": [
+      "OPEN",
+      "SUSPENDED",
+      "WAITING_FOR_TRIGGER",
+      "WAITING_FOR_THRESHOLD",
+      "WAITING_FOR_DEPENDENCY",
+      "WAITING_FOR_RETURN"
+    ],
+    "valid_terminal_states": [
+      "CLOSED_SUCCESS",
+      "CLOSED_FAILURE",
+      "CLOSED_PARTIAL",
+      "CLOSED_UNKNOWN",
+      "CLOSED_UNAVAILABLE",
+      "NOT_APPLICABLE",
+      "ABORTED"
+    ],
+    "valid_order_types": [
+      "TEMPORAL",
+      "CAUSAL",
+      "DEPENDENCY",
+      "LOGICAL",
+      "CONSTRUCTION",
+      "DISCOVERY",
+      "CONTROL",
+      "REPRESENTATION",
+      "DECISION",
+      "EXECUTION",
+      "LEARNING",
+      "REPAIR",
+      "REFERENCE",
+      "MATHEMATICAL_SUCCESSION"
+    ]
+  },
+  "trigger_threshold_barrier_invariants": {
+    "trigger_distinct_from_threshold": true,
+    "every_executable_edge_requires_threshold": true,
+    "trigger_definition": "PERMITS_OR_REQUIRES_EVALUATION",
+    "threshold_definition": "PERMITS_EDGE_TO_FIRE",
+    "barrier_crossing_with_open_required_dependency_forbidden": true,
+    "barrier_crossing_with_unaccepted_required_return_forbidden": true,
+    "permission_sequence_closed_success_implies_permission_granted": false,
+    "threshold_types": [
+      "VALUE",
+      "RANGE",
+      "TIME",
+      "EVENT",
+      "COUNT_OR_QUORUM",
+      "CONFIDENCE_OR_PROOF",
+      "STATE",
+      "ABSENCE",
+      "PROMISE_MATCH",
+      "PRIORITY_CONFLICT",
+      "COMPOSITE_AND_OR_UNLESS",
+      "ALWAYS"
+    ]
+  },
+  "actor_role_invariants": {
+    "roles": [
+      "SUBJECT",
+      "REQUESTER",
+      "CONTROLLER",
+      "AUTHOR",
+      "DESIGNER",
+      "PERFORMER",
+      "CARRIER",
+      "BENEFICIARY",
+      "AUDIENCE",
+      "OBSERVER",
+      "WRITER",
+      "UNKNOWN"
+    ],
+    "named_subject_equals_requester_by_default": false,
+    "requester_equals_controller_by_default": false,
+    "controller_equals_performer_by_default": false,
+    "author_equals_performer_by_default": false,
+    "single_actor_may_hold_multiple_roles_when_evidenced": true,
+    "unknown_role_is_valid": true
+  },
+  "actor_view_invariants": {
+    "global_reality_distinct_from_actor_view": true,
+    "actor_knowledge_distinct_from_actor_belief": true,
+    "actor_belief_distinct_from_actor_inference": true,
+    "hidden_system_knowledge_auto_injected_into_actor_view": false,
+    "actor_view_update_requires_legal_information_transfer": true,
+    "closed_success_information_transfer_updates_actor_without_return_acceptance": false,
+    "view_state_channels": [
+      "KNOWN",
+      "BELIEVED",
+      "INFERRED",
+      "UNKNOWN",
+      "FALSE_BELIEFS",
+      "HIDDEN_FROM_ACTOR"
+    ]
+  },
+  "same_actor_state_invariants": {
+    "personality_is_single_static_profile": false,
+    "same_actor_same_event_may_yield_different_intent": true,
+    "active_state_inputs": [
+      "STABLE_TRAITS",
+      "BIOLOGICAL_STATE",
+      "EMOTION",
+      "MEMORY",
+      "RELATIONSHIP_HISTORY",
+      "KNOWLEDGE",
+      "PRESSURE",
+      "STATUS",
+      "RESOURCES",
+      "CURRENT_SEQUENCE",
+      "TIME_HORIZON",
+      "ACTOR_VIEW"
+    ],
+    "synthetic_actor_brain_count_equals_historical_actor_count": false
+  },
+  "node_brain_invariants": {
+    "node_brain_is_prompt": false,
+    "node_brain_is_ephemeral_reasoning_step_only": false,
+    "node_brain_is_persistent_bounded_runtime_state": true,
+    "node_brain_required_capabilities": [
+      "IDENTITY",
+      "POINT_ZERO_REFERENCE",
+      "EVENT_SEQUENCE_REFERENCES",
+      "LOCAL_WORKING_STATE",
+      "LOCAL_MEMORY_REFERENCES",
+      "PARAMETER_RUBRIC_BINDINGS",
+      "ACTOR_VIEW_REFERENCES",
+      "INTENT_REFERENCES",
+      "RELATION_DEPENDENCY_REFERENCES",
+      "EVIDENCE_CONTRADICTION_REFERENCES",
+      "THRESHOLD_PERMISSION_STATE",
+      "MATURITY",
+      "PROOF_DEBT",
+      "RECHECK_CONDITION",
+      "WRITEBACK_SCOPE"
+    ],
+    "accepted_node_reusable_by_future_events": true,
+    "node_local_memory_may_replace_authoritative_source": false,
+    "node_memory_unbounded_growth_required": false
+  },
+  "memory_invariants": {
+    "memory_is_single_text_blob": false,
+    "memory_types": [
+      "RAW_MEMORY",
+      "EVENT_MEMORY",
+      "INTENT_MEMORY",
+      "RELATION_MEMORY",
+      "PATH_MEMORY",
+      "PATTERN_MEMORY",
+      "EVIDENCE_MEMORY",
+      "CONTRADICTION_MEMORY",
+      "ACTOR_STATE_MEMORY",
+      "SEQUENCE_MEMORY",
+      "NODE_LOCAL_MEMORY",
+      "GLOBAL_MEMORY_INDEX"
+    ],
+    "memory_write_requires_provenance": true,
+    "memory_write_requires_status": true,
+    "memory_write_requires_parent_or_context_link": true,
+    "contradictory_memory_may_be_deleted_for_model_cleanliness": false,
+    "global_index_should_reference_not_flatten_authoritative_objects": true,
+    "repetition_alone_equals_truth": false,
+    "repetition_alone_equals_independent_evidence": false,
+    "repeated_activation_may_increase_retrieval_priority": true
+  },
+  "combination_invariants": {
+    "combination_is_new_primitive": false,
+    "new_wording_is_new_intent": false,
+    "synthetic_meaning_is_fact": false,
+    "pattern_candidate_is_approved_pattern": false,
+    "combination_inputs": [
+      "SOURCE_FEATURES",
+      "PARAMETERS",
+      "CONTAINERS",
+      "RUBRICS",
+      "RELATIONS",
+      "PATHS",
+      "ACTOR_ROLES",
+      "ACTOR_STATES",
+      "ACTOR_VIEWS",
+      "INTENTS",
+      "PATTERNS",
+      "MEMORIES",
+      "EVIDENCE",
+      "FUTURE_STATE_TARGETS"
+    ],
+    "combination_output_types": [
+      "SYNTHETIC_MEANING",
+      "EVENT_HYPOTHESIS",
+      "INTENT_HYPOTHESIS",
+      "ACTOR_BRAIN_VARIANT",
+      "SEQUENCE_VARIANT",
+      "EVIDENCE_PREDICTION",
+      "PATTERN_CANDIDATE",
+      "PRIMITIVE_CANDIDATE"
+    ],
+    "cartesian_product_without_budget_forbidden": true,
+    "combination_passes": [
+      "ADJACENCY",
+      "PATTERN_SUPPORTED",
+      "CONTRADICTION",
+      "COUNTERFACTUAL",
+      "CROSS_DOMAIN",
+      "NOVELTY"
+    ]
+  },
+  "intent_novelty_invariants": {
+    "intent_generated_from_active_semantic_conditions": true,
+    "parameters_contain_final_intent": false,
+    "material_novelty_dimensions": [
+      "TARGET",
+      "DESIRED_STATE_CHANGE",
+      "PRIORITY",
+      "ACTION_TENDENCY",
+      "CONSTRAINT_HANDLING",
+      "RELATIONSHIP_TREATMENT",
+      "TIME_HORIZON",
+      "EXPECTED_CONSEQUENCE",
+      "CONTROLLER_PERFORMER_STRUCTURE"
+    ],
+    "paraphrase_creates_new_persistent_intent_id": false
+  },
+  "future_state_invariants": {
+    "future_state_reconstruction_is_hypothesis_generation": true,
+    "future_state_reconstruction_is_proof": false,
+    "future_state_candidate_requires_evidence_prediction": true,
+    "future_state_candidate_requires_origin_distance_when_inferred": true,
+    "future_state_candidate_requires_falsifier_or_counter_case": true
+  },
+  "origin_distance_invariants": {
+    "distance_is_visible": true,
+    "distance_is_automatic_falsity": false,
+    "greater_distance_normally_increases_proof_debt": true,
+    "repeated_internal_reuse_may_reduce_source_distance": false,
+    "baseline_levels": {
+      "D0": "DIRECT_SOURCE_OBSERVATION",
+      "D1": "RELATION_AMONG_SOURCE_FEATURES",
+      "D2": "FUNCTIONAL_INTERPRETATION",
+      "D3": "ACTOR_OR_INTENT_HYPOTHESIS",
+      "D4": "EVENT_RECONSTRUCTION",
+      "D5": "SPECIFIC_IDENTITY_OR_MOTIVE_CLAIM"
+    }
+  },
+  "synthetic_invariants": {
+    "synthetic_generation_allowed": true,
+    "synthetic_generation_required_for_exploration": true,
+    "synthetic_status_must_remain_explicit": true,
+    "synthetic_statuses": [
+      "NEW_SYNTHETIC",
+      "SYNTHETIC_OPEN",
+      "SYNTHETIC_WEAKENED",
+      "SYNTHETIC_RETAINED",
+      "SYNTHETIC_REJECTED",
+      "REVIEW_REQUIRED",
+      "EVIDENCE_SUPPORTED_CANDIDATE",
+      "APPROVED"
+    ],
+    "damage_unknown_may_be_silently_completed": false,
+    "rejected_synthetic_may_contribute_memory": true
+  },
+  "rfr_invariants": {
+    "reverse_forward_reverse_required_for_high_value_hypothesis": true,
+    "internal_coherence_is_sufficient_for_maturity": false,
+    "repeating_identical_route_counts_as_independent_corroboration": false,
+    "possible_results": [
+      "RETAIN",
+      "WEAKEN",
+      "REJECT",
+      "UNKNOWN",
+      "NEEDS_EVIDENCE",
+      "NEEDS_SUBSEQUENCE"
+    ]
+  },
+  "maturity_invariants": {
+    "maturity_is_epistemic_confidence": false,
+    "maturity_is_match_score": false,
+    "maturity_levels": {
+      "M0": "SYNTHETIC_SEED",
+      "M1": "STRUCTURALLY_GROUNDED_SYNTHETIC",
+      "M2": "DOMAIN_PLAUSIBLE_HYPOTHESIS",
+      "M3": "OBJECT_OR_EVENT_LINKED_EVIDENCE_HYPOTHESIS",
+      "M4": "SOURCE_TEXT_OR_MECHANISM_ANCHORED",
+      "M5": "MATURE_INTERPRETATION_OR_REPEATEDLY_VALIDATED_PATTERN_WITHIN_SCOPE"
+    },
+    "maturity_may_decrease": true,
+    "new_contradiction_may_downgrade_maturity": true
+  },
+  "new_node_invariants": {
+    "new_sentence_requires_new_node": false,
+    "new_example_requires_new_node": false,
+    "search_existing_nodes_before_candidate_creation": true,
+    "candidate_required_if_existing_representation_causes_distortion": true,
+    "candidate_node_requires": [
+      "SOURCE_OR_PROVENANCE",
+      "POINT_ZERO_OR_CONTEXT_ORIGIN",
+      "PARENT_OR_RELATION_PACKET",
+      "BOUNDARY",
+      "FALSIFIER",
+      "RFR_RESULT",
+      "MATURITY",
+      "REUSABILITY_TEST",
+      "REVIEW_OR_GOVERNANCE_WHEN_REQUIRED"
+    ],
+    "candidate_states": [
+      "CANDIDATE_OPEN",
+      "CANDIDATE_TESTING",
+      "CANDIDATE_WEAKENED",
+      "CANDIDATE_REJECTED",
+      "CANDIDATE_RETAINED",
+      "APPROVED_NODE"
+    ],
+    "rejected_candidate_deleted_from_audit": false,
+    "approved_node_requires_memory_initialization": true,
+    "approved_node_requires_auto_link": true
+  },
+  "auto_link_invariants": {
+    "all_persistent_objects_are_link_eligible": true,
+    "auto_link_is_identity_merge": false,
+    "similarity_is_identity": false,
+    "link_generation_requires_rule_and_provenance": true,
+    "link_test_dimensions": [
+      "SOURCE",
+      "POINT_ZERO",
+      "EVENT_FAMILY",
+      "ACTOR",
+      "ACTOR_ROLE",
+      "PARAMETER_CONTAINER_ACTIVATION",
+      "RELATION_SIGNATURE",
+      "PATH_SIGNATURE",
+      "INTENT_STRUCTURE",
+      "CONTRADICTION_FAMILY",
+      "EVIDENCE_FAMILY",
+      "FUTURE_STATE",
+      "PATTERN_FAMILY",
+      "SEQUENCE_FAMILY",
+      "TEMPORAL_CAUSAL_DEPENDENCY_ADJACENCY"
+    ]
+  },
+  "growth_invariants": {
+    "accepted_growth_batch_requires_persistent_count_increase": true,
+    "source_or_example_count_alone_is_growth": false,
+    "parameter_inflation_to_force_growth_forbidden": true,
+    "persistent_growth_classes": [
+      "EVENT_MEMORY_ID",
+      "INTENT_MEMORY_ID",
+      "RELATION_ID",
+      "PATH_ID",
+      "ACTOR_VIEW_ID",
+      "ACTOR_STATE_ID",
+      "COMBINATION_SIGNATURE_ID",
+      "PATTERN_CONTRIBUTION_ID",
+      "PATTERN_CANDIDATE_ID",
+      "EVIDENCE_PREDICTION_ID",
+      "FALSIFIER_ID",
+      "SEQUENCE_MEMORY_ID",
+      "NODE_BRAIN_ID",
+      "SEED_ID",
+      "CANDIDATE_PRIMITIVE_ID",
+      "APPROVED_PRIMITIVE_ID"
+    ],
+    "acceptance_expression": "SUM(PERSISTENT_BRAIN_OBJECTS_AFTER) > SUM(PERSISTENT_BRAIN_OBJECTS_BEFORE)",
+    "new_primitive_default": "NO_NEW_PRIMITIVE",
+    "new_primitive_requires": [
+      "EXISTING_IDS_AND_COMBINATIONS_CANNOT_REPRESENT_WITHOUT_DISTORTION",
+      "REUSABLE_BEYOND_SINGLE_EVENT_OR_EXPLICIT_DOMAIN_REGISTRY_REASON",
+      "PROVENANCE_PRESERVED",
+      "BOUNDARY_DEFINED",
+      "COUNTER_CASE_OR_FALSIFIER_PRESENT",
+      "REVIEW_COMPLETE",
+      "RFR_COMPLETE_FOR_AUTHORITY_SCOPE"
+    ]
+  },
+  "autonomy_invariants": {
+    "operating_modes": [
+      "MANUAL",
+      "SEMI_AUTOMATIC",
+      "AUTO_GROW",
+      "SELF_SUSTAINING_SCHEDULED_RUNTIME"
+    ],
+    "self_sustaining_means_unrestricted_external_authority": false,
+    "automatically_allowed_within_configured_scope": [
+      "EVENT_DECOMPOSITION",
+      "EXISTING_ID_ACTIVATION",
+      "MEMORY_RETRIEVAL",
+      "RELATION_DISCOVERY",
+      "BOUNDED_COMBINATION_GENERATION",
+      "LIVE_INTENT_CANDIDATE_GENERATION",
+      "FUTURE_STATE_HYPOTHESIS_GENERATION",
+      "EVIDENCE_PREDICTION",
+      "RFR_EXECUTION",
+      "CONTRADICTION_DETECTION",
+      "MATURITY_RECOMPUTATION",
+      "BOUNDED_MEMORY_WRITE",
+      "RELATION_LINK_WRITE",
+      "PATTERN_CONTRIBUTION_WRITE",
+      "CANDIDATE_NODE_CREATION",
+      "CANDIDATE_PRIMITIVE_CREATION",
+      "SEED_CREATION",
+      "LEGAL_RECHECK_SCHEDULING"
+    ],
+    "requires_authority_or_governance_when_applicable": [
+      "EXTERNAL_ACTION",
+      "PERMISSION_OVERRIDE",
+      "NATIVE_REGISTRY_PROMOTION",
+      "HIGH_IMPACT_CLOSURE",
+      "SAFETY_EXCEPTION",
+      "GLOBAL_GOVERNANCE_CHANGE"
+    ]
+  },
+  "loop_invariants": {
+    "primary_loops": [
+      "L1_RETRIEVAL",
+      "L2_COMBINATION",
+      "L3_INTENT",
+      "L4_EVIDENCE",
+      "L5_RFR",
+      "L6_CONTRADICTION",
+      "L7_MEMORY_REINFORCEMENT",
+      "L8_NODE_GROWTH",
+      "L9_NEXT_SEQUENCE"
+    ],
+    "background_loops": [
+      "B1_RECHECK",
+      "B2_ORPHAN_LINK",
+      "B3_MATURITY_UPGRADE",
+      "B4_SCHEDULER_AUTO_SUSTAIN"
+    ],
+    "fixed_iterations_per_event": false,
+    "each_iteration_requires_continuation_condition": true,
+    "each_loop_requires_budget": true,
+    "identical_loop_without_new_information_may_count_as_new_evidence": false,
+    "infinite_recursion_allowed": false,
+    "loop_stop_reasons": [
+      "DECLARED_END_REACHED",
+      "NO_NEW_INFORMATION",
+      "RELEVANCE_FLOOR_REACHED",
+      "CANDIDATE_BUDGET_REACHED",
+      "COMPUTE_BUDGET_REACHED",
+      "ORIGIN_DISTANCE_LIMIT_REACHED",
+      "INSUFFICIENT_EVIDENCE",
+      "CONTRADICTION_REQUIRES_EXTERNAL_SOURCE",
+      "WAITING_FOR_TRIGGER",
+      "WAITING_FOR_THRESHOLD",
+      "WAITING_FOR_DEPENDENCY",
+      "WAITING_FOR_RETURN",
+      "AUTHORITY_BARRIER",
+      "REVIEW_REQUIRED",
+      "CLOSED"
+    ]
+  },
+  "parameter_header_integration_invariants": {
+    "new_header_or_parameter_may_remain_orphan": false,
+    "minimum_metadata": [
+      "ID",
+      "NAME",
+      "TYPE",
+      "SOURCE_PROVENANCE",
+      "POINT_ZERO_OR_ORIGIN",
+      "PARENT_CONTAINER_HEADER",
+      "SEQUENCE_ROLES",
+      "RELATION_LINKS",
+      "READ_CHANNELS",
+      "WRITE_CHANNELS",
+      "MEMORY_EFFECTS",
+      "NODE_BINDINGS",
+      "MATURITY",
+      "EPISTEMIC_STATUS",
+      "REVIEW_STATUS",
+      "VERSION"
+    ]
+  },
+  "wisdom_invariants": {
+    "source_equals_wisdom": false,
+    "source_claim_equals_interpretation": false,
+    "interpretation_equals_source_fact": false,
+    "wisdom_equals_law": false,
+    "wisdom_direct_action_authority": false,
+    "required_pipeline": [
+      "SOURCE_TEXT",
+      "SOURCE_CLAIM",
+      "INTERPRETATION",
+      "COUNTER_CASE_APPLICABILITY",
+      "WISDOM_OBJECT",
+      "OPTIONAL_LAW_OR_GUIDANCE_CANDIDATE"
+    ]
+  },
+  "ai_asi_invariants": {
+    "ai_capability_equals_asi_authority": false,
+    "ai_primary_roles": [
+      "DETECT",
+      "REPRESENT",
+      "INFER",
+      "PREDICT",
+      "GENERATE",
+      "PLAN",
+      "BOUNDED_EXECUTION",
+      "VERIFY"
+    ],
+    "asi_primary_roles": [
+      "TRUTH_PROVENANCE_GOVERNANCE",
+      "PRIORITY",
+      "PERMISSION",
+      "CONTRADICTION_GOVERNANCE",
+      "LEARNING_WRITEBACK_SCOPE",
+      "LONG_HORIZON_ARBITRATION",
+      "GLOBAL_CLOSURE",
+      "META_GOVERNANCE"
+    ],
+    "shared_parameter_may_have_ai_and_asi_responsibility": true,
+    "shared_responsibility_duplicates_source_parameter_identity": false
+  },
+  "failure_invariants": {
+    "failure_is_information": true,
+    "failure_always_means_latest_action_wrong": false,
+    "failure_possible_origins": [
+      "LOCAL_ACTION_ERROR",
+      "WRONG_DEPENDENCY",
+      "MISSING_EVIDENCE",
+      "WRONG_THRESHOLD",
+      "BROKEN_RELATION",
+      "INVALID_ASSUMPTION",
+      "POINT_ZERO_DRIFT",
+      "INCORRECT_ACTOR_MODEL",
+      "FALSE_INTENT_HYPOTHESIS",
+      "INADEQUATE_PRIMITIVE_SET",
+      "INCOMPLETE_SEQUENCE_SCOPE"
+    ]
+  },
+  "no_silent_merge_invariants": {
+    "contradiction_may_be_averaged_into_one_answer": false,
+    "alternatives_may_be_silently_merged": false,
+    "unknown_is_valid": true,
+    "unresolved_is_valid": true,
+    "competing_actor_states_must_remain_distinct_until_merge_condition": true,
+    "competing_intents_must_remain_distinct_until_merge_condition": true
+  },
+  "audit_invariants": {
+    "persistent_object_requires_lineage": true,
+    "lineage_chain": [
+      "SOURCE",
+      "EVENT",
+      "POINT_ZERO",
+      "SEQUENCE",
+      "GENERATING_NODE_OR_ENGINE",
+      "INPUT_OBJECTS",
+      "TRANSFORMATION_OR_COMPARISON_RULE",
+      "EVIDENCE_OR_FALSIFIER_STATE",
+      "WRITEBACK_DECISION",
+      "CURRENT_VERSION"
+    ],
+    "object_without_lineage_may_be_promoted_to_authoritative_state": false
+  },
+  "implementation_precedence": [
+    "RAW_SOURCE_OR_AUTHORITATIVE_SOURCE_RECORD",
+    "APPROVED_NATIVE_REGISTRY",
+    "LOCKED_CONSTITUTION_OR_INVARIANT",
+    "APPROVED_ID_NAME_DEFINITION",
+    "SOURCE_BOUND_MAPPING",
+    "SEQUENCE_NODE_BINDING",
+    "GENERATED_VIEW",
+    "EXAMPLE_TEST_FIXTURE",
+    "INFERENCE"
+  ],
+  "batch1_required_files": [
+    "docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md",
+    "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md",
+    "machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json",
+    "machine/schemas/event_record.schema.json",
+    "machine/schemas/event_intent.schema.json",
+    "machine/schemas/node_brain.schema.json",
+    "machine/schemas/memory_object.schema.json",
+    "machine/schemas/combination_record.schema.json"
+  ],
+  "future_validation_policy": {
+    "missing_required_foundation_file": "HARD_FAIL",
+    "identity_violation_in_active_architecture": "HARD_FAIL",
+    "source_provenance_missing_for_authoritative_write": "HARD_FAIL",
+    "synthetic_fact_boundary_violation": "HARD_FAIL",
+    "closed_sequence_reopened": "HARD_FAIL",
+    "unaccepted_required_return_bypassed": "HARD_FAIL",
+    "accepted_growth_batch_without_count_increase": "HARD_FAIL",
+    "candidate_without_review": "FINDING_OR_FAIL_BY_AUTHORITY_SCOPE",
+    "orphan_link_candidate": "FINDING",
+    "maturity_recheck_due": "FINDING"
+  }
+}
