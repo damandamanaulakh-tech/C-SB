@@ -1,7 +1,7 @@
 {
   "checkpoint_id": "P2-BATCH1-FOUNDATION-CHECKPOINT-V1",
   "sequence_id": "P2-SELF-SUSTAINING-RUNTIME-BATCH1-FOUNDATION-01",
-  "status": "VALIDATION_PENDING",
+  "status": "DEDICATED_RFR_TRIGGERED",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "scope": "Batch-1 constitution, execution flow, invariant contract, Event/Intent/Node-Brain/Memory/Combination schemas and dedicated CI validation gate.",
   "foundation_files": [
@@ -16,7 +16,11 @@
   ],
   "validator": "tools/validate_batch1_foundation_v1.py",
   "expected_report": "generated/tests/P2_BATCH1_FOUNDATION_RFR_V1.json",
-  "ci_workflow": ".github/workflows/relink-validate.yml",
+  "ci_workflows": [
+    ".github/workflows/batch1-foundation-rfr.yml",
+    ".github/workflows/relink-validate.yml"
+  ],
+  "validation_trigger": "BATCH1-RFR-TRIGGER-002",
   "hard_requirements": [
     "all eight foundation files exist",
     "all JSON contracts parse",
@@ -32,6 +36,6 @@
   ],
   "known_next_link_finding": "sourceborn.bundle.schema.json does not yet export NodeBrain, MemoryObject or CombinationRecord; this is intentionally reserved for the explicit link pass after Batch-1 validation.",
   "next_sequence_after_pass": "BATCH1_SCHEMA_BUNDLE_AND_RUNTIME_LINKING",
-  "closure_condition": "Dedicated Batch-1 validator passes in the full relink/validate CI chain together with all prior Sourceborn invariants.",
-  "acceptance_condition": "Generated P2_BATCH1_FOUNDATION_RFR_V1.json reports PASS with zero hard errors; known next-link finding may remain open."
+  "closure_condition": "Dedicated Batch-1 R-F-R reports PASS and the full relink/validate chain remains compatible with all prior Sourceborn invariants.",
+  "acceptance_condition": "generated/tests/P2_BATCH1_FOUNDATION_RFR_V1.json reports PASS with zero hard errors; known next-link finding may remain open."
 }
