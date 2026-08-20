@@ -1,0 +1,509 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/node_brain.schema.json",
+  "title": "Sourceborn Persistent Node Brain Schema V1",
+  "description": "Persistent bounded runtime intelligence/service state attached to an ASI service Node or accepted domain Node. A Node Brain is not a prompt and not a single reasoning step; it owns bounded local state, memory references, activation context, permissions, evidence, contradictions, candidate outputs, recheck rules and write-back scope.",
+  "$defs": {
+    "NodeLink": {
+      "type": "object",
+      "required": ["link_id", "relation_type", "target_ref", "status"],
+      "properties": {
+        "link_id": {"type": "string"},
+        "relation_type": {
+          "type": "string",
+          "enum": [
+            "PARENT_OF",
+            "CHILD_OF",
+            "DEPENDS_ON",
+            "SUPPORTS",
+            "CONTRADICTS",
+            "SIMILAR_TO",
+            "DIFFERENT_FROM",
+            "BEFORE",
+            "AFTER",
+            "PRODUCED_BY",
+            "PRODUCES",
+            "PART_OF",
+            "CONTAINS",
+            "ACTOR_OF",
+            "ACTED_ON",
+            "FUTURE_OF",
+            "RESULT_OF",
+            "REPAIRED_BY",
+            "RETESTED_BY",
+            "REFERENCES",
+            "MEMORY_OF",
+            "PATTERN_INSTANCE_OF",
+            "COUNTEREXAMPLE_TO",
+            "OTHER"
+          ]
+        },
+        "target_ref": {"type": "string"},
+        "target_type": {"type": ["string", "null"]},
+        "generator": {"type": ["string", "null"]},
+        "rule_ref": {"type": ["string", "null"]},
+        "supporting_source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "relevance_or_confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "epistemic_status": {"type": ["string", "null"]},
+        "status": {
+          "type": "string",
+          "enum": ["CANDIDATE", "ACTIVE", "WEAKENED", "REJECTED", "SUPERSEDED"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "NodeMemoryRef": {
+      "type": "object",
+      "required": ["memory_id", "memory_type", "memory_role"],
+      "properties": {
+        "memory_id": {"type": "string"},
+        "memory_type": {
+          "type": "string",
+          "enum": [
+            "RAW_MEMORY",
+            "EVENT_MEMORY",
+            "INTENT_MEMORY",
+            "RELATION_MEMORY",
+            "PATH_MEMORY",
+            "PATTERN_MEMORY",
+            "EVIDENCE_MEMORY",
+            "CONTRADICTION_MEMORY",
+            "ACTOR_STATE_MEMORY",
+            "SEQUENCE_MEMORY",
+            "NODE_LOCAL_MEMORY",
+            "GLOBAL_MEMORY_INDEX"
+          ]
+        },
+        "memory_role": {
+          "type": "string",
+          "enum": [
+            "HOT_WORKING",
+            "LOCAL_LONG_TERM",
+            "GLOBAL_REFERENCE",
+            "FAILED_PRIOR_ROUTE",
+            "REINFORCED_ROUTE",
+            "CONTRADICTION",
+            "EVIDENCE",
+            "PATTERN",
+            "ACTOR_STATE",
+            "OTHER"
+          ]
+        },
+        "relevance": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "last_retrieved_at": {"type": ["string", "null"], "format": "date-time"},
+        "retrieval_count": {"type": "integer", "minimum": 0},
+        "source_independence_group": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "ThresholdState": {
+      "type": "object",
+      "required": ["threshold_id", "threshold_type", "status"],
+      "properties": {
+        "threshold_id": {"type": "string"},
+        "threshold_type": {
+          "type": "string",
+          "enum": [
+            "VALUE",
+            "RANGE",
+            "TIME",
+            "EVENT",
+            "COUNT_OR_QUORUM",
+            "CONFIDENCE_OR_PROOF",
+            "STATE",
+            "ABSENCE",
+            "PROMISE_MATCH",
+            "PRIORITY_CONFLICT",
+            "COMPOSITE_AND_OR_UNLESS",
+            "ALWAYS"
+          ]
+        },
+        "condition": {},
+        "status": {
+          "type": "string",
+          "enum": ["NOT_EVALUATED", "FALSE", "TRUE", "BLOCKED", "UNKNOWN"]
+        },
+        "last_evaluated_at": {"type": ["string", "null"], "format": "date-time"},
+        "evaluator_ref": {"type": ["string", "null"]},
+        "required_return_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": true
+    },
+    "PermissionState": {
+      "type": "object",
+      "required": ["permission_id", "scope", "status"],
+      "properties": {
+        "permission_id": {"type": "string"},
+        "scope": {"type": ["string", "object"]},
+        "status": {
+          "type": "string",
+          "enum": ["UNKNOWN", "NOT_REQUIRED", "REQUESTED", "GRANTED", "DENIED", "EXPIRED", "REVOKED"]
+        },
+        "controller_ref": {"type": ["string", "null"]},
+        "source_sequence_id": {"type": ["string", "null"]},
+        "accepted_return_ref": {"type": ["string", "null"]},
+        "expires_at": {"type": ["string", "null"], "format": "date-time"}
+      },
+      "additionalProperties": true
+    },
+    "DependencyState": {
+      "type": "object",
+      "required": ["dependency_id", "dependency_type", "status"],
+      "properties": {
+        "dependency_id": {"type": "string"},
+        "dependency_type": {
+          "type": "string",
+          "enum": [
+            "DATA",
+            "SOURCE",
+            "SEQUENCE",
+            "SUBSEQUENCE_RETURN",
+            "ACTOR",
+            "RESOURCE",
+            "PERMISSION",
+            "EVIDENCE",
+            "TIME",
+            "STATE",
+            "OTHER"
+          ]
+        },
+        "target_ref": {"type": ["string", "null"]},
+        "required": {"type": "boolean"},
+        "status": {
+          "type": "string",
+          "enum": ["OPEN", "AVAILABLE", "UNAVAILABLE", "WAITING", "SATISFIED", "FAILED", "UNKNOWN"]
+        },
+        "barrier_effect": {"type": "boolean"},
+        "recheck_condition": {}
+      },
+      "additionalProperties": true
+    },
+    "WorkingSet": {
+      "type": "object",
+      "properties": {
+        "event_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "sequence_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "point_zero_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "actor_view_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "actor_state_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "intent_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "parameter_activation_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "rubric_activation_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "relation_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "path_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "evidence_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "contradiction_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "pattern_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "combination_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "unresolved_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": true
+    },
+    "CandidateOutput": {
+      "type": "object",
+      "required": ["candidate_id", "candidate_type", "status", "maturity"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "candidate_type": {
+          "type": "string",
+          "enum": [
+            "SYNTHETIC_MEANING",
+            "EVENT_HYPOTHESIS",
+            "INTENT_HYPOTHESIS",
+            "ACTOR_BRAIN_VARIANT",
+            "SEQUENCE_VARIANT",
+            "EVIDENCE_PREDICTION",
+            "PATTERN_CANDIDATE",
+            "NODE_CANDIDATE",
+            "PRIMITIVE_CANDIDATE",
+            "LINK_CANDIDATE"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "NEW_SYNTHETIC",
+            "OPEN",
+            "TESTING",
+            "RETAINED",
+            "WEAKENED",
+            "REJECTED",
+            "REVIEW_REQUIRED",
+            "APPROVED"
+          ]
+        },
+        "maturity": {"type": "string", "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]},
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "proof_debt": {"type": "array"},
+        "source_refs": {"type": "array", "items": {"type": "string"}},
+        "falsifier_refs": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "RecheckRule": {
+      "type": "object",
+      "required": ["recheck_id", "trigger_type", "enabled"],
+      "properties": {
+        "recheck_id": {"type": "string"},
+        "trigger_type": {
+          "type": "string",
+          "enum": [
+            "NEW_SOURCE",
+            "NEW_EVIDENCE",
+            "NEW_CONTRADICTION",
+            "TIME",
+            "SEED_ACTIVATION",
+            "DEPENDENCY_RESOLVED",
+            "MATURITY_REVIEW",
+            "ORPHAN_RELINK",
+            "MANUAL_REVIEW",
+            "OTHER"
+          ]
+        },
+        "condition": {},
+        "enabled": {"type": "boolean"},
+        "last_checked_at": {"type": ["string", "null"], "format": "date-time"},
+        "next_eligible_at": {"type": ["string", "null"], "format": "date-time"},
+        "max_attempts": {"type": ["integer", "null"], "minimum": 1},
+        "attempt_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "WritebackScope": {
+      "type": "object",
+      "required": ["allowed_classes"],
+      "properties": {
+        "allowed_classes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "TRACE_ONLY",
+              "EVENT_MEMORY",
+              "RELATION_PATH_MEMORY",
+              "INTENT_ACTOR_STATE_MEMORY",
+              "PATTERN_CONTRIBUTION",
+              "PATTERN_CANDIDATE",
+              "CANDIDATE_NODE",
+              "CANDIDATE_PRIMITIVE",
+              "APPROVED_ID"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "requires_review_classes": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "forbidden_classes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": true
+    },
+    "NodeBrain": {
+      "type": "object",
+      "required": [
+        "node_brain_id",
+        "version",
+        "node_id",
+        "node_type",
+        "lifecycle_status",
+        "working_set",
+        "memory_refs",
+        "writeback_scope",
+        "maturity",
+        "epistemic_status",
+        "lineage"
+      ],
+      "properties": {
+        "node_brain_id": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "node_id": {"type": "string", "minLength": 1},
+        "node_type": {
+          "type": "string",
+          "enum": [
+            "ASI_SERVICE_NODE_BRAIN",
+            "DOMAIN_NODE_BRAIN",
+            "ACTOR_STATE_NODE_BRAIN",
+            "EVENT_NODE_BRAIN",
+            "PATTERN_NODE_BRAIN",
+            "MEMORY_NODE_BRAIN",
+            "CANDIDATE_NODE_BRAIN",
+            "OTHER"
+          ]
+        },
+        "service_role": {"type": ["string", "null"]},
+        "lifecycle_status": {
+          "type": "string",
+          "enum": [
+            "CANDIDATE_OPEN",
+            "CANDIDATE_TESTING",
+            "CANDIDATE_WEAKENED",
+            "CANDIDATE_REJECTED",
+            "CANDIDATE_RETAINED",
+            "ACTIVE",
+            "SUSPENDED",
+            "RETIRED",
+            "SUPERSEDED"
+          ]
+        },
+        "point_zero_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "active_event_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "active_sequence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "parent_node_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "child_node_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "links": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/NodeLink"}
+        },
+        "working_set": {"$ref": "#/$defs/WorkingSet"},
+        "local_state": {},
+        "memory_refs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/NodeMemoryRef"}
+        },
+        "parameter_binding_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "rubric_binding_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "engine_binding_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "capability_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "dependency_states": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/DependencyState"}
+        },
+        "threshold_states": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/ThresholdState"}
+        },
+        "permission_states": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/PermissionState"}
+        },
+        "candidate_outputs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/CandidateOutput"}
+        },
+        "accepted_return_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "pending_return_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "contradiction_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "falsifier_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "proof_debt": {"type": "array"},
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "maturity": {
+          "type": "string",
+          "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "DEFINED_SERVICE_STATE",
+            "SOURCE_BOUND",
+            "INFERRED",
+            "SYNTHETIC",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "REJECTED",
+            "UNKNOWN"
+          ]
+        },
+        "recheck_rules": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/RecheckRule"}
+        },
+        "writeback_scope": {"$ref": "#/$defs/WritebackScope"},
+        "runtime_counters": {
+          "type": "object",
+          "properties": {
+            "activation_count": {"type": "integer", "minimum": 0},
+            "retrieval_count": {"type": "integer", "minimum": 0},
+            "combination_count": {"type": "integer", "minimum": 0},
+            "rfr_count": {"type": "integer", "minimum": 0},
+            "memory_write_count": {"type": "integer", "minimum": 0},
+            "rejected_candidate_count": {"type": "integer", "minimum": 0},
+            "accepted_candidate_count": {"type": "integer", "minimum": 0}
+          },
+          "additionalProperties": true
+        },
+        "lineage": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["step_type", "object_ref"],
+            "properties": {
+              "step_type": {"type": "string"},
+              "object_ref": {"type": "string"},
+              "notes": {"type": ["string", "null"]}
+            },
+            "additionalProperties": true
+          },
+          "minItems": 1
+        },
+        "created_at": {"type": ["string", "null"], "format": "date-time"},
+        "updated_at": {"type": ["string", "null"], "format": "date-time"},
+        "last_activated_at": {"type": ["string", "null"], "format": "date-time"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "$ref": "#/$defs/NodeBrain"
+}
