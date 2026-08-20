@@ -1,0 +1,51 @@
+name: Batch-1 Sourceborn Foundation R-F-R
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md'
+      - 'docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md'
+      - 'machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json'
+      - 'machine/schemas/event_record.schema.json'
+      - 'machine/schemas/event_intent.schema.json'
+      - 'machine/schemas/node_brain.schema.json'
+      - 'machine/schemas/memory_object.schema.json'
+      - 'machine/schemas/combination_record.schema.json'
+      - 'tools/validate_batch1_foundation_v1.py'
+      - 'phase2/checkpoints/P2_BATCH1_FOUNDATION_CHECKPOINT_V1.json'
+
+permissions:
+  contents: write
+
+jobs:
+  batch1-foundation-rfr:
+    if: ${{ !contains(github.event.head_commit.message || '', '[generated-batch1]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate Batch-1 foundation
+        run: python tools/validate_batch1_foundation_v1.py
+
+      - name: Show Batch-1 report
+        run: cat generated/tests/P2_BATCH1_FOUNDATION_RFR_V1.json
+
+      - name: Commit Batch-1 R-F-R report
+        shell: bash
+        run: |
+          git config user.name "sourceborn-batch1-bot"
+          git config user.email "sourceborn-batch1-bot@users.noreply.github.com"
+          git add generated/tests/P2_BATCH1_FOUNDATION_RFR_V1.json
+          if git diff --cached --quiet; then
+            echo "Batch-1 report unchanged"
+          else
+            git commit -m "[generated-batch1] validate Sourceborn Batch-1 foundation"
+            git push
+          fi
