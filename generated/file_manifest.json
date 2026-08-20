@@ -390,6 +390,11 @@
     "size_bytes": 6977
   },
   {
+    "path": "machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json",
+    "sha256": "6ad79b17771da87547e17452647dccfa61e020651edcf12c6537b40347a89a7d",
+    "size_bytes": 21375
+  },
+  {
     "path": "machine/ui/RUBRIC_MICROSCOPE_SEMANTIC_CLARIFICATION_OVERLAY_V1.json",
     "sha256": "50c7ac0d7e0f7fb8b314d5cd3af244393fce4e5bb5160213f758a7e67634803d",
     "size_bytes": 1912
