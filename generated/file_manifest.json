@@ -430,6 +430,11 @@
     "size_bytes": 11905
   },
   {
+    "path": "machine/schemas/node_brain.schema.json",
+    "sha256": "b5bead6a58f734bf3e0ab8050a2e7c19a082500f300bc2cea5b114c2355d97de",
+    "size_bytes": 16800
+  },
+  {
     "path": "machine/schemas/micro_sequence_learning.schema.json",
     "sha256": "87699faa1c52073220a2a86824ae6ec3abe8d6c85c76d9f0377064fe278df5ba",
     "size_bytes": 8663
