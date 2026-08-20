@@ -445,6 +445,11 @@
     "size_bytes": 13307
   },
   {
+    "path": "machine/schemas/memory_object.schema.json",
+    "sha256": "0735a256e82ea76a04bd16e46a523ea3210f95560f7a09810c07773737ee4fc2",
+    "size_bytes": 14150
+  },
+  {
     "path": "machine/schemas/event_intent.schema.json",
     "sha256": "464cda2420ed2e065de3bfb46fe489e4187728b7003d6b8d6b7f7b17677cf960",
     "size_bytes": 12662
