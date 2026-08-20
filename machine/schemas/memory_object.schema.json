@@ -1,0 +1,455 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/memory_object.schema.json",
+  "title": "Sourceborn Persistent Memory Object Schema V1",
+  "description": "Canonical persistent memory object for Sourceborn. Memory is typed, source-linked, versioned and graph-linked. Retrieval frequency or repetition may strengthen relevance but must not silently strengthen epistemic truth or source independence.",
+  "$defs": {
+    "MemoryLink": {
+      "type": "object",
+      "required": ["link_id", "relation_type", "target_ref", "status"],
+      "properties": {
+        "link_id": {"type": "string", "minLength": 1},
+        "relation_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE_OF",
+            "MEMORY_OF",
+            "DERIVED_FROM",
+            "SUPPORTS",
+            "CONTRADICTS",
+            "SIMILAR_TO",
+            "SPECIALIZES",
+            "GENERALIZES",
+            "INSTANCE_OF",
+            "COUNTEREXAMPLE_TO",
+            "PRECEDES",
+            "FOLLOWS",
+            "DEPENDS_ON",
+            "PRODUCED_BY",
+            "RESULT_OF",
+            "FUTURE_OF",
+            "REPAIRED_BY",
+            "RETESTED_BY",
+            "SUPERSEDES",
+            "COMPRESSED_FROM",
+            "INDEXES",
+            "OTHER"
+          ]
+        },
+        "target_ref": {"type": "string", "minLength": 1},
+        "target_type": {"type": ["string", "null"]},
+        "link_generator": {"type": ["string", "null"]},
+        "rule_ref": {"type": ["string", "null"]},
+        "supporting_source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "relevance": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "epistemic_status": {"type": ["string", "null"]},
+        "status": {
+          "type": "string",
+          "enum": ["CANDIDATE", "ACTIVE", "WEAKENED", "REJECTED", "SUPERSEDED"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "RetrievalKey": {
+      "type": "object",
+      "required": ["key_type", "value"],
+      "properties": {
+        "key_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE",
+            "POINT_ZERO",
+            "EVENT_TYPE",
+            "SEQUENCE_TYPE",
+            "ACTOR",
+            "ACTOR_ROLE",
+            "ACTOR_STATE",
+            "INTENT",
+            "TARGET",
+            "FUTURE_STATE",
+            "PARAMETER",
+            "CONTAINER",
+            "RUBRIC",
+            "NODE",
+            "ENGINE",
+            "RELATION",
+            "PATH",
+            "PATTERN",
+            "CONTRADICTION",
+            "EVIDENCE",
+            "DOMAIN",
+            "TIME",
+            "CUSTOM"
+          ]
+        },
+        "value": {},
+        "weight": {"type": "number", "minimum": 0},
+        "source_ref": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "ReinforcementState": {
+      "type": "object",
+      "description": "Tracks retrieval/use frequency separately from epistemic support.",
+      "properties": {
+        "retrieval_count": {"type": "integer", "minimum": 0},
+        "activation_count": {"type": "integer", "minimum": 0},
+        "successful_reuse_count": {"type": "integer", "minimum": 0},
+        "failed_reuse_count": {"type": "integer", "minimum": 0},
+        "independent_support_count": {"type": "integer", "minimum": 0},
+        "independent_contradiction_count": {"type": "integer", "minimum": 0},
+        "last_retrieved_at": {"type": ["string", "null"], "format": "date-time"},
+        "last_reinforced_at": {"type": ["string", "null"], "format": "date-time"},
+        "retrieval_priority": {"type": ["number", "null"], "minimum": 0},
+        "epistemic_support_score": {"type": ["number", "null"], "minimum": 0},
+        "frequency_is_truth": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "CompressionState": {
+      "type": "object",
+      "properties": {
+        "is_compressed": {"type": "boolean"},
+        "compression_method": {"type": ["string", "null"]},
+        "source_memory_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "lossless_for_required_fields": {"type": "boolean"},
+        "authoritative_source_retained": {"type": "boolean"},
+        "expansion_route": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "RetentionPolicy": {
+      "type": "object",
+      "properties": {
+        "retention_class": {
+          "type": "string",
+          "enum": [
+            "IMMUTABLE_SOURCE_REFERENCE",
+            "PERMANENT",
+            "LONG_TERM",
+            "NODE_LOCAL",
+            "SEQUENCE_LIFETIME",
+            "WORKING_ONLY",
+            "ARCHIVAL",
+            "REVIEW_REQUIRED"
+          ]
+        },
+        "may_compress": {"type": "boolean"},
+        "may_archive": {"type": "boolean"},
+        "may_delete": {"type": "boolean"},
+        "delete_requires_review": {"type": "boolean"},
+        "preserve_contradictions": {"type": "boolean"},
+        "preserve_source_lineage": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "MemoryPayload": {
+      "type": "object",
+      "description": "Typed payload container. Authoritative source data should normally be referenced rather than duplicated unless custody requires exact preserved content.",
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "content": {},
+        "source_content_ref": {"type": ["string", "null"]},
+        "structured_fields": {"type": "object"},
+        "unknowns": {"type": "array"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "MemoryLineageStep": {
+      "type": "object",
+      "required": ["step_type", "object_ref"],
+      "properties": {
+        "step_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE",
+            "POINT_ZERO",
+            "EVENT",
+            "SEQUENCE",
+            "NODE_BRAIN",
+            "INTENT",
+            "RELATION",
+            "PATH",
+            "COMBINATION",
+            "EVIDENCE",
+            "FALSIFIER",
+            "PATTERN",
+            "WRITEBACK_DECISION",
+            "VERSION"
+          ]
+        },
+        "object_ref": {"type": "string"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "MemoryObject": {
+      "type": "object",
+      "required": [
+        "memory_id",
+        "version",
+        "memory_type",
+        "memory_status",
+        "owner_scope",
+        "payload",
+        "source_refs",
+        "retrieval_keys",
+        "retention_policy",
+        "epistemic_status",
+        "maturity",
+        "lineage"
+      ],
+      "properties": {
+        "memory_id": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "memory_type": {
+          "type": "string",
+          "enum": [
+            "RAW_MEMORY",
+            "EVENT_MEMORY",
+            "INTENT_MEMORY",
+            "RELATION_MEMORY",
+            "PATH_MEMORY",
+            "PATTERN_MEMORY",
+            "EVIDENCE_MEMORY",
+            "CONTRADICTION_MEMORY",
+            "ACTOR_STATE_MEMORY",
+            "SEQUENCE_MEMORY",
+            "NODE_LOCAL_MEMORY",
+            "GLOBAL_MEMORY_INDEX"
+          ]
+        },
+        "memory_status": {
+          "type": "string",
+          "enum": [
+            "ACTIVE",
+            "CANDIDATE",
+            "SYNTHETIC",
+            "WEAKENED",
+            "REJECTED",
+            "ARCHIVED",
+            "SUPERSEDED",
+            "REVIEW_REQUIRED"
+          ]
+        },
+        "owner_scope": {
+          "type": "object",
+          "required": ["scope_type"],
+          "properties": {
+            "scope_type": {
+              "type": "string",
+              "enum": ["NODE", "SEQUENCE", "ACTOR", "DOMAIN", "GLOBAL", "SOURCE", "OTHER"]
+            },
+            "owner_ref": {"type": ["string", "null"]},
+            "node_brain_ref": {"type": ["string", "null"]},
+            "sequence_ref": {"type": ["string", "null"]}
+          },
+          "additionalProperties": true
+        },
+        "point_zero_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "event_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "sequence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "actor_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "intent_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "parameter_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "container_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "rubric_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "node_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "engine_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "payload": {"$ref": "#/$defs/MemoryPayload"},
+        "source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_independence_group_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "retrieval_keys": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/RetrievalKey"},
+          "minItems": 1
+        },
+        "links": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/MemoryLink"}
+        },
+        "supporting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "contradicting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "falsifier_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "pattern_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "combination_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "seed_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "reinforcement": {"$ref": "#/$defs/ReinforcementState"},
+        "compression": {"$ref": "#/$defs/CompressionState"},
+        "retention_policy": {"$ref": "#/$defs/RetentionPolicy"},
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "proof_debt": {"type": "array"},
+        "maturity": {
+          "type": "string",
+          "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "DIRECT_SOURCE",
+            "OBSERVED",
+            "SOURCE_STATED",
+            "INFERRED",
+            "NEW_SYNTHETIC",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "REJECTED",
+            "UNKNOWN"
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "enum": ["NOT_REQUIRED", "OPEN", "REVIEW_REQUIRED", "APPROVED", "REJECTED", "SUPERSEDED"]
+        },
+        "write_authority": {
+          "type": "object",
+          "properties": {
+            "created_under_execution_id": {"type": ["string", "null"]},
+            "writer_ref": {"type": ["string", "null"]},
+            "authority_scope_ref": {"type": ["string", "null"]},
+            "automatic_write_allowed": {"type": "boolean"}
+          },
+          "additionalProperties": true
+        },
+        "recheck": {
+          "type": "object",
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "trigger_type": {"type": ["string", "null"]},
+            "condition": {},
+            "next_eligible_at": {"type": ["string", "null"], "format": "date-time"}
+          },
+          "additionalProperties": true
+        },
+        "lineage": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/MemoryLineageStep"},
+          "minItems": 1
+        },
+        "supersedes_memory_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "superseded_by_memory_id": {"type": ["string", "null"]},
+        "created_at": {"type": ["string", "null"], "format": "date-time"},
+        "updated_at": {"type": ["string", "null"], "format": "date-time"},
+        "last_accessed_at": {"type": ["string", "null"], "format": "date-time"}
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"memory_type": {"const": "CONTRADICTION_MEMORY"}},
+            "required": ["memory_type"]
+          },
+          "then": {
+            "properties": {
+              "retention_policy": {
+                "properties": {
+                  "preserve_contradictions": {"const": true}
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"memory_status": {"const": "SYNTHETIC"}},
+            "required": ["memory_status"]
+          },
+          "then": {
+            "properties": {
+              "epistemic_status": {
+                "enum": ["INFERRED", "NEW_SYNTHETIC", "UNKNOWN"]
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": true
+    }
+  },
+  "$ref": "#/$defs/MemoryObject"
+}
