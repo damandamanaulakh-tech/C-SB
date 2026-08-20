@@ -3,10 +3,10 @@
   "status": "PASS",
   "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
   "phase_mode": "GROWING_PHASE",
-  "tracked_files_scanned": 346,
+  "tracked_files_scanned": 347,
   "classification_counts": {
     "CONTROL_PLANE": 8,
-    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 115,
+    "ACTIVE_ARCHITECTURE_OR_REGISTRY": 116,
     "GENERATED_REBUILDABLE": 56,
     "GENERATED_SOURCE_COPY": 4,
     "HISTORICAL_CLOSED_PHASE": 1,
@@ -134,6 +134,11 @@
     },
     {
       "path": "docs/SEQUENCE_RESEARCH_LEDGER.md",
+      "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
+      "identity_violations": 0
+    },
+    {
+      "path": "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md",
       "classification": "ACTIVE_ARCHITECTURE_OR_REGISTRY",
       "identity_violations": 0
     },
