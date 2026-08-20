@@ -441,8 +441,8 @@
   },
   {
     "path": "machine/schemas/event_intent.schema.json",
-    "sha256": "e53b80eae00cec99fb4a01cc06cf694ae1aec829a7869fc2a25fc65215ec1361",
-    "size_bytes": 3107
+    "sha256": "464cda2420ed2e065de3bfb46fe489e4187728b7003d6b8d6b7f7b17677cf960",
+    "size_bytes": 12662
   },
   {
     "path": "machine/v2/TYPED_NULL_SEMANTICS.json",
