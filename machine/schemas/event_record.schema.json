@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/event_record.schema.json",
+  "title": "Sourceborn Event Record Schema V1",
+  "description": "Canonical runtime shape for an Event inside the real-time growing Sourceborn ASI prototype. Every Event is source-linked, Point-Zero-linked, Sequence-linked, and carries a typed Intent record or explicit UNKNOWN intent.",
+  "$defs": {
+    "SourceRef": {
+      "type": "object",
+      "required": ["source_id", "source_type"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "USER_INPUT",
+            "FILE",
+            "IMAGE",
+            "ARTIFACT",
+            "DATABASE_RECORD",
+            "TOOL_RESULT",
+            "EXTERNAL_EVENT",
+            "MEMORY_RECHECK",
+            "SEED_ACTIVATION",
+            "RAW_SOURCE",
+            "GENERATED_TEST_FIXTURE",
+            "OTHER"
+          ]
+        },
+        "locator": {"type": ["string", "null"]},
+        "fingerprint_sha256": {"type": ["string", "null"], "pattern": "^[A-Fa-f0-9]{64}$"},
+        "fragment_ref": {"type": ["string", "null"]},
+        "custody_status": {
+          "type": "string",
+          "enum": ["LOCKED", "REFERENCED", "PARTIAL", "UNAVAILABLE", "UNKNOWN"]
+        },
+        "source_truth_status": {
+          "type": "string",
+          "enum": [
+            "DIRECT_SOURCE_CONTENT",
+            "SOURCE_CLAIM",
+            "SOURCE_OBSERVATION",
+            "GENERATED_FIXTURE",
+            "UNKNOWN"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "PointZeroRef": {
+      "type": "object",
+      "required": ["point_zero_id", "scope", "status"],
+      "properties": {
+        "point_zero_id": {"type": "string", "minLength": 1},
+        "scope": {"type": ["string", "object"]},
+        "status": {
+          "type": "string",
+          "enum": ["LOCKED", "DECLARED", "LOCAL", "UNKNOWN", "OPEN", "NOT_YET_DECODED"]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "parent_point_zero_id": {"type": ["string", "null"]},
+        "origin_distance_base": {"type": "integer", "minimum": 0},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "Observation": {
+      "type": "object",
+      "required": ["observation_id", "observation_type", "value", "epistemic_status"],
+      "properties": {
+        "observation_id": {"type": "string", "minLength": 1},
+        "observation_type": {
+          "type": "string",
+          "enum": [
+            "DIRECT_VISUAL",
+            "DIRECT_TEXTUAL",
+            "DIRECT_MEASUREMENT",
+            "SOURCE_STATED",
+            "STRUCTURAL",
+            "RELATIONAL",
+            "DAMAGE_OR_UNKNOWN",
+            "OTHER"
+          ]
+        },
+        "value": {},
+        "source_ref": {"type": ["string", "null"]},
+        "location_or_span": {},
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "OBSERVED",
+            "SOURCE_STATED",
+            "INFERRED",
+            "SYNTHETIC",
+            "UNKNOWN"
+          ]
+        },
+        "damage_or_uncertainty": {"type": ["string", "null"]},
+        "origin_distance": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "ActorRoleAssignment": {
+      "type": "object",
+      "required": ["role", "actor_ref", "epistemic_status"],
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": [
+            "SUBJECT",
+            "REQUESTER",
+            "CONTROLLER",
+            "AUTHOR",
+            "DESIGNER",
+            "PERFORMER",
+            "CARRIER",
+            "BENEFICIARY",
+            "AUDIENCE",
+            "OBSERVER",
+            "WRITER",
+            "UNKNOWN"
+          ]
+        },
+        "actor_ref": {"type": ["string", "null"]},
+        "actor_type": {
+          "type": ["string", "null"],
+          "enum": [
+            "HUMAN",
+            "GROUP",
+            "INSTITUTION",
+            "AI_SYSTEM",
+            "ASI_SERVICE",
+            "NATURAL_SYSTEM",
+            "UNKNOWN",
+            null
+          ]
+        },
+        "view_ref": {"type": ["string", "null"]},
+        "state_ref": {"type": ["string", "null"]},
+        "supporting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": ["OBSERVED", "SOURCE_STATED", "INFERRED", "SYNTHETIC", "UNKNOWN"]
+        },
+        "origin_distance": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "StateRef": {
+      "type": "object",
+      "required": ["state_id", "state_role"],
+      "properties": {
+        "state_id": {"type": "string", "minLength": 1},
+        "state_role": {
+          "type": "string",
+          "enum": ["PRIOR_STATE", "CURRENT_STATE", "RESULTING_STATE", "EXPECTED_FUTURE_STATE", "COUNTERFACTUAL_STATE"]
+        },
+        "entity_ref": {"type": ["string", "null"]},
+        "state_payload": {},
+        "source_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "epistemic_status": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "ActivationRef": {
+      "type": "object",
+      "required": ["activation_id", "object_id", "object_type", "activation_reason"],
+      "properties": {
+        "activation_id": {"type": "string"},
+        "object_id": {"type": "string"},
+        "object_type": {
+          "type": "string",
+          "enum": [
+            "HUMAN_PARAMETER",
+            "HUMAN_CONTAINER",
+            "AI_FUNCTION",
+            "AI_PARAMETER",
+            "WISDOM_OBJECT",
+            "ASI_GOVERNANCE",
+            "UNIVERSAL_RUBRIC",
+            "ASI_NODE",
+            "ENGINE",
+            "NODE_BRAIN",
+            "MEMORY",
+            "PATTERN",
+            "INTENT",
+            "RELATION",
+            "PATH",
+            "OTHER"
+          ]
+        },
+        "activation_reason": {"type": "string"},
+        "matched_features": {"type": "array"},
+        "activation_strength": {"type": ["number", "null"], "minimum": 0},
+        "primary_or_secondary": {
+          "type": "string",
+          "enum": ["PRIMARY", "SECONDARY", "CONTEXT_ONLY"]
+        },
+        "source_distance": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "LineageStep": {
+      "type": "object",
+      "required": ["step_type", "object_ref"],
+      "properties": {
+        "step_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE",
+            "EVENT",
+            "POINT_ZERO",
+            "SEQUENCE",
+            "NODE_OR_ENGINE",
+            "INPUT_OBJECT",
+            "TRANSFORMATION_RULE",
+            "EVIDENCE_OR_FALSIFIER",
+            "WRITEBACK_DECISION",
+            "VERSION"
+          ]
+        },
+        "object_ref": {"type": "string"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "EventRecord": {
+      "type": "object",
+      "required": [
+        "event_id",
+        "version",
+        "event_type",
+        "event_status",
+        "source_refs",
+        "point_zero",
+        "sequence_id",
+        "intent",
+        "epistemic_status",
+        "maturity",
+        "lineage"
+      ],
+      "properties": {
+        "event_id": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "event_type": {"type": "string", "minLength": 1},
+        "event_status": {
+          "type": "string",
+          "enum": [
+            "OBSERVED",
+            "DECLARED",
+            "INFERRED",
+            "SYNTHETIC_OPEN",
+            "SYNTHETIC_RETAINED",
+            "SYNTHETIC_WEAKENED",
+            "SYNTHETIC_REJECTED",
+            "OPEN",
+            "CLOSED",
+            "UNKNOWN"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/SourceRef"},
+          "minItems": 1
+        },
+        "point_zero": {"$ref": "#/$defs/PointZeroRef"},
+        "sequence_id": {"type": "string", "minLength": 1},
+        "subsequence_contract_id": {"type": ["string", "null"]},
+        "parent_event_id": {"type": ["string", "null"]},
+        "child_event_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "observations": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/Observation"}
+        },
+        "actor_roles": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/ActorRoleAssignment"}
+        },
+        "object_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "state_refs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/StateRef"}
+        },
+        "relation_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "order_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "TEMPORAL",
+              "CAUSAL",
+              "DEPENDENCY",
+              "LOGICAL",
+              "CONSTRUCTION",
+              "DISCOVERY",
+              "CONTROL",
+              "REPRESENTATION",
+              "DECISION",
+              "EXECUTION",
+              "LEARNING",
+              "REPAIR",
+              "REFERENCE",
+              "MATHEMATICAL_SUCCESSION"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "intent": {"$ref": "event_intent.schema.json#/$defs/EventIntent"},
+        "activation_refs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/ActivationRef"}
+        },
+        "node_brain_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "candidate_brain_state_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "combination_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "evidence_prediction_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "supporting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "contradicting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "falsifier_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "pattern_contribution_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "pattern_candidate_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "memory_write_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "seed_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "proof_debt": {"type": "array"},
+        "maturity": {
+          "type": "string",
+          "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "OBSERVED",
+            "SOURCE_STATED",
+            "INFERRED",
+            "DERIVED_HYPOTHESIS",
+            "NEW_SYNTHETIC",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "REJECTED",
+            "UNKNOWN"
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "enum": ["NOT_REQUIRED", "OPEN", "REVIEW_REQUIRED", "APPROVED", "REJECTED", "SUPERSEDED"]
+        },
+        "lineage": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/LineageStep"},
+          "minItems": 1
+        },
+        "created_at": {"type": ["string", "null"], "format": "date-time"},
+        "updated_at": {"type": ["string", "null"], "format": "date-time"},
+        "created_by": {"type": ["string", "null"]},
+        "last_updated_by": {"type": ["string", "null"]}
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "event_status": {
+                "enum": ["SYNTHETIC_OPEN", "SYNTHETIC_RETAINED", "SYNTHETIC_WEAKENED", "SYNTHETIC_REJECTED"]
+              }
+            },
+            "required": ["event_status"]
+          },
+          "then": {
+            "properties": {
+              "epistemic_status": {
+                "enum": ["DERIVED_HYPOTHESIS", "NEW_SYNTHETIC", "REJECTED", "UNKNOWN"]
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": true
+    }
+  },
+  "$ref": "#/$defs/EventRecord"
+}
