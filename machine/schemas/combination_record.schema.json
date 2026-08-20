@@ -1,0 +1,542 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourceborn.local/schema/combination_record.schema.json",
+  "title": "Sourceborn Combination Record Schema V1",
+  "description": "Persistent or candidate combination generated from existing Sourceborn primitives, relations, actor states, memories, patterns and evidence constraints. A Combination is not automatically a new primitive, fact, intent or approved pattern.",
+  "$defs": {
+    "ComponentRef": {
+      "type": "object",
+      "required": ["component_id", "component_type", "component_role"],
+      "properties": {
+        "component_id": {"type": "string", "minLength": 1},
+        "component_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE_FEATURE",
+            "OBSERVATION",
+            "EVENT",
+            "POINT_ZERO",
+            "HUMAN_PARAMETER",
+            "HUMAN_CONTAINER",
+            "AI_FUNCTION",
+            "AI_PARAMETER",
+            "WISDOM_OBJECT",
+            "ASI_GOVERNANCE",
+            "UNIVERSAL_RUBRIC",
+            "RELATION",
+            "PATH",
+            "ACTOR_ROLE",
+            "ACTOR_STATE",
+            "ACTOR_VIEW",
+            "INTENT",
+            "PATTERN",
+            "MEMORY",
+            "EVIDENCE",
+            "CONTRADICTION",
+            "FUTURE_STATE",
+            "NODE_BRAIN",
+            "ENGINE",
+            "SEED",
+            "OTHER"
+          ]
+        },
+        "component_role": {
+          "type": "string",
+          "enum": [
+            "ANCHOR",
+            "INPUT",
+            "CONSTRAINT",
+            "CONTEXT",
+            "ALTERNATIVE",
+            "COUNTERFACTUAL_CHANGE",
+            "SUPPORT",
+            "CONTRADICTION",
+            "TARGET",
+            "FUTURE_STATE",
+            "MEMORY_PRIOR",
+            "PATTERN_PRIOR",
+            "OTHER"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "relevance": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "epistemic_status": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "CombinationConstraint": {
+      "type": "object",
+      "required": ["constraint_type", "condition"],
+      "properties": {
+        "constraint_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE_PROVENANCE",
+            "POINT_ZERO",
+            "RELATION_REQUIRED",
+            "ORDER_REQUIRED",
+            "ACTOR_ROLE_BOUNDARY",
+            "IDENTITY_BOUNDARY",
+            "EVIDENCE_MINIMUM",
+            "CONTRADICTION",
+            "PERMISSION",
+            "ORIGIN_DISTANCE",
+            "MATURITY",
+            "COMPUTE_BUDGET",
+            "CANDIDATE_BUDGET",
+            "CROSS_DOMAIN_LIMIT",
+            "OTHER"
+          ]
+        },
+        "condition": {},
+        "hard_or_soft": {
+          "type": "string",
+          "enum": ["HARD", "SOFT"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["NOT_EVALUATED", "PASS", "FAIL", "UNKNOWN", "WAIVED_BY_AUTHORITY"]
+        },
+        "rule_ref": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "CombinationPass": {
+      "type": "object",
+      "required": ["pass_id", "pass_type", "iteration", "status"],
+      "properties": {
+        "pass_id": {"type": "string"},
+        "pass_type": {
+          "type": "string",
+          "enum": [
+            "ADJACENCY",
+            "PATTERN_SUPPORTED",
+            "CONTRADICTION",
+            "COUNTERFACTUAL",
+            "CROSS_DOMAIN",
+            "NOVELTY"
+          ]
+        },
+        "iteration": {"type": "integer", "minimum": 1},
+        "input_component_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "new_information_entered": {"type": "boolean"},
+        "generator_ref": {"type": ["string", "null"]},
+        "rule_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "objects_created": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "status": {
+          "type": "string",
+          "enum": ["RUNNING", "COMPLETE", "PARTIAL", "BLOCKED", "FAILED", "STOPPED"]
+        },
+        "stop_reason": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "NoveltyAssessment": {
+      "type": "object",
+      "required": ["novelty_status", "comparison_scope"],
+      "properties": {
+        "novelty_status": {
+          "type": "string",
+          "enum": [
+            "EXISTING_EXACT",
+            "EXISTING_PARAPHRASE",
+            "EXISTING_SPECIALIZATION",
+            "EXISTING_GENERALIZATION",
+            "NEW_COMBINATION_EXISTING_PRIMITIVES",
+            "POSSIBLE_NEW_PATTERN",
+            "POSSIBLE_NEW_PRIMITIVE",
+            "UNKNOWN"
+          ]
+        },
+        "comparison_scope": {
+          "type": "string",
+          "enum": ["LOCAL_NODE", "SEQUENCE", "DOMAIN", "GLOBAL_MEMORY", "NATIVE_REGISTRIES"]
+        },
+        "nearest_existing_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "matching_dimensions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "novel_dimensions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "novelty_score": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "requires_new_primitive_review": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "CombinationOutput": {
+      "type": "object",
+      "required": ["output_id", "output_type", "status", "epistemic_status"],
+      "properties": {
+        "output_id": {"type": "string", "minLength": 1},
+        "output_type": {
+          "type": "string",
+          "enum": [
+            "SYNTHETIC_MEANING",
+            "EVENT_HYPOTHESIS",
+            "INTENT_HYPOTHESIS",
+            "ACTOR_BRAIN_VARIANT",
+            "SEQUENCE_VARIANT",
+            "EVIDENCE_PREDICTION",
+            "PATTERN_CANDIDATE",
+            "NODE_CANDIDATE",
+            "PRIMITIVE_CANDIDATE",
+            "RELATION_CANDIDATE",
+            "PATH_CANDIDATE"
+          ]
+        },
+        "summary": {"type": ["string", "null"]},
+        "payload": {},
+        "status": {
+          "type": "string",
+          "enum": [
+            "NEW_SYNTHETIC",
+            "OPEN",
+            "TESTING",
+            "RETAINED",
+            "WEAKENED",
+            "REJECTED",
+            "REVIEW_REQUIRED",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED"
+          ]
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "INFERRED",
+            "DERIVED_HYPOTHESIS",
+            "NEW_SYNTHETIC",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "REJECTED",
+            "UNKNOWN"
+          ]
+        },
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "maturity": {"type": "string", "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]},
+        "proof_debt": {"type": "array"},
+        "supporting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "contradicting_evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "falsifier_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "memory_write_ref": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "CombinationBudget": {
+      "type": "object",
+      "required": ["max_candidates", "max_depth"],
+      "properties": {
+        "max_candidates": {"type": "integer", "minimum": 1},
+        "max_candidates_per_pass": {"type": ["integer", "null"], "minimum": 1},
+        "max_depth": {"type": "integer", "minimum": 1},
+        "max_origin_distance": {"type": ["integer", "null"], "minimum": 0},
+        "max_cross_domain_edges": {"type": ["integer", "null"], "minimum": 0},
+        "max_counterfactuals": {"type": ["integer", "null"], "minimum": 0},
+        "minimum_relevance": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "novelty_threshold": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "compute_budget_ref": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "CombinationLineageStep": {
+      "type": "object",
+      "required": ["step_type", "object_ref"],
+      "properties": {
+        "step_type": {
+          "type": "string",
+          "enum": [
+            "SOURCE",
+            "EVENT",
+            "POINT_ZERO",
+            "SEQUENCE",
+            "NODE_BRAIN",
+            "INPUT_COMPONENT",
+            "COMBINATION_PASS",
+            "TRANSFORMATION_RULE",
+            "EVIDENCE",
+            "FALSIFIER",
+            "NOVELTY_CHECK",
+            "WRITEBACK",
+            "VERSION"
+          ]
+        },
+        "object_ref": {"type": "string"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "CombinationRecord": {
+      "type": "object",
+      "required": [
+        "combination_id",
+        "version",
+        "combination_type",
+        "status",
+        "event_refs",
+        "sequence_ref",
+        "components",
+        "passes",
+        "constraints",
+        "budget",
+        "novelty",
+        "outputs",
+        "epistemic_status",
+        "maturity",
+        "lineage"
+      ],
+      "properties": {
+        "combination_id": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "combination_type": {
+          "type": "string",
+          "enum": [
+            "ADJACENCY_COMBINATION",
+            "PATTERN_SUPPORTED_COMBINATION",
+            "CONTRADICTION_COMBINATION",
+            "COUNTERFACTUAL_COMBINATION",
+            "CROSS_DOMAIN_COMBINATION",
+            "NOVELTY_COMBINATION",
+            "MIXED_COMBINATION"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "CANDIDATE",
+            "RUNNING",
+            "PARTIAL",
+            "BLOCKED",
+            "RETAINED",
+            "WEAKENED",
+            "REJECTED",
+            "REVIEW_REQUIRED",
+            "APPROVED"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "point_zero_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "event_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "sequence_ref": {"type": "string", "minLength": 1},
+        "node_brain_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "components": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/ComponentRef"},
+          "minItems": 2
+        },
+        "component_signature": {"type": ["string", "null"]},
+        "passes": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/CombinationPass"},
+          "minItems": 1
+        },
+        "constraints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/CombinationConstraint"}
+        },
+        "budget": {"$ref": "#/$defs/CombinationBudget"},
+        "relation_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "path_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "actor_role_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "actor_state_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "actor_view_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "intent_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "future_state_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "pattern_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "memory_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "contradiction_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "novelty": {"$ref": "#/$defs/NoveltyAssessment"},
+        "outputs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/CombinationOutput"},
+          "minItems": 1
+        },
+        "evidence_prediction_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "rfr_run_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "falsifier_refs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "origin_distance": {"type": "integer", "minimum": 0},
+        "proof_debt": {"type": "array"},
+        "maturity": {
+          "type": "string",
+          "enum": ["M0", "M1", "M2", "M3", "M4", "M5"]
+        },
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "INFERRED",
+            "DERIVED_HYPOTHESIS",
+            "NEW_SYNTHETIC",
+            "EVIDENCE_SUPPORTED_CANDIDATE",
+            "APPROVED",
+            "REJECTED",
+            "UNKNOWN"
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "enum": ["NOT_REQUIRED", "OPEN", "REVIEW_REQUIRED", "APPROVED", "REJECTED", "SUPERSEDED"]
+        },
+        "writeback_class": {
+          "type": "string",
+          "enum": [
+            "WB0_NO_WRITE",
+            "WB1_TRACE_ONLY",
+            "WB2_EVENT_MEMORY",
+            "WB3_RELATION_PATH_MEMORY",
+            "WB4_INTENT_ACTOR_STATE_MEMORY",
+            "WB5_PATTERN_CONTRIBUTION",
+            "WB6_PATTERN_CANDIDATE",
+            "WB7_CANDIDATE_NODE",
+            "WB8_CANDIDATE_PRIMITIVE",
+            "WB9_APPROVED_ID_OR_PATTERN"
+          ]
+        },
+        "lineage": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/CombinationLineageStep"},
+          "minItems": 1
+        },
+        "created_at": {"type": ["string", "null"], "format": "date-time"},
+        "updated_at": {"type": ["string", "null"], "format": "date-time"},
+        "created_by": {"type": ["string", "null"]}
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "novelty": {
+                "properties": {
+                  "novelty_status": {"const": "POSSIBLE_NEW_PRIMITIVE"}
+                },
+                "required": ["novelty_status"]
+              }
+            },
+            "required": ["novelty"]
+          },
+          "then": {
+            "properties": {
+              "review_status": {
+                "enum": ["OPEN", "REVIEW_REQUIRED", "APPROVED", "REJECTED", "SUPERSEDED"]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"epistemic_status": {"const": "NEW_SYNTHETIC"}},
+            "required": ["epistemic_status"]
+          },
+          "then": {
+            "properties": {
+              "maturity": {"enum": ["M0", "M1", "M2", "M3"]}
+            }
+          }
+        }
+      ],
+      "additionalProperties": true
+    }
+  },
+  "$ref": "#/$defs/CombinationRecord"
+}
