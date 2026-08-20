@@ -20,7 +20,7 @@
     ".github/workflows/batch1-foundation-rfr.yml",
     ".github/workflows/relink-validate.yml"
   ],
-  "validation_trigger": "BATCH1-RFR-TRIGGER-002",
+  "validation_trigger": "BATCH1-RFR-TRIGGER-003",
   "hard_requirements": [
     "all eight foundation files exist",
     "all JSON contracts parse",
