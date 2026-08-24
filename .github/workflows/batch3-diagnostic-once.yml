@@ -1,0 +1,52 @@
+name: Batch-3 Native Runtime Diagnostic Once
+
+on:
+  push:
+    paths:
+      - 'phase2/runs/P2_BATCH3_DIAGNOSTIC_TRIGGER_V1.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sourceborn-batch3-diagnostic-once
+  cancel-in-progress: false
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run persisted diagnostic wrapper
+        run: python tools/run_batch3_diagnostic_ci.py
+      - name: Commit diagnostic and native report if produced
+        shell: bash
+        run: |
+          git config user.name "sourceborn-batch3-diagnostic-bot"
+          git config user.email "sourceborn-batch3-diagnostic-bot@users.noreply.github.com"
+          git add generated/tests/P2_BATCH3_DIAGNOSTIC_V1.json
+          if [ -f generated/tests/P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json ]; then
+            git add generated/tests/P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json
+          fi
+          if git diff --cached --quiet; then
+            echo "No diagnostic changes"
+          else
+            git commit -m "[diagnostic-batch3] persist native runtime diagnostic"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Fail job if diagnostic failed
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('generated/tests/P2_BATCH3_DIAGNOSTIC_V1.json')
+          d=json.loads(p.read_text())
+          raise SystemExit(0 if d.get('status')=='PASS' else 1)
+          PY
