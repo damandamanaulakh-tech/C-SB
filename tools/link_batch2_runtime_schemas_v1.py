@@ -44,12 +44,32 @@ def ensure_files() -> None:
             raise SystemExit(f"{name} has no $defs")
 
 
+def require_def(filename: str, def_name: str) -> None:
+    doc = load_json(REQUIRED_SCHEMA_FILES[filename])
+    if def_name not in doc.get("$defs", {}):
+        raise SystemExit(f"{filename} missing required $defs/{def_name}")
+
+
 def array_of_strings() -> dict:
     return {"type": "array", "items": {"type": "string"}, "uniqueItems": True}
 
 
 def main() -> None:
     ensure_files()
+
+    # Validate every external definition this linker will export before touching
+    # the bundle. This turns spelling drift into a hard build failure.
+    required_defs = {
+        "event_record.schema.json": ["EventRecord", "PointZeroRef", "ActorRoleAssignment"],
+        "event_intent.schema.json": ["EventIntent", "EventRecord"],
+        "node_brain.schema.json": ["NodeBrain", "NodeLink"],
+        "memory_object.schema.json": ["MemoryObject", "MemoryLink", "RetrievalKey"],
+        "combination_record.schema.json": ["CombinationRecord", "ComponentRef", "CombinationOutput"],
+    }
+    for filename, names in required_defs.items():
+        for name in names:
+            require_def(filename, name)
+
     bundle = load_json(BUNDLE_PATH)
     defs = bundle.setdefault("$defs", {})
 
@@ -67,8 +87,8 @@ def main() -> None:
     defs["PointZeroRef"] = {
         "$ref": "event_record.schema.json#/$defs/PointZeroRef"
     }
-    defs["ActorRoleSet"] = {
-        "$ref": "event_record.schema.json#/$defs/ActorRoleSet"
+    defs["ActorRoleAssignment"] = {
+        "$ref": "event_record.schema.json#/$defs/ActorRoleAssignment"
     }
     defs["NodeBrain"] = {
         "$ref": "node_brain.schema.json#/$defs/NodeBrain"
@@ -89,7 +109,7 @@ def main() -> None:
         "$ref": "combination_record.schema.json#/$defs/CombinationRecord"
     }
     defs["CombinationComponent"] = {
-        "$ref": "combination_record.schema.json#/$defs/CombinationComponent"
+        "$ref": "combination_record.schema.json#/$defs/ComponentRef"
     }
     defs["CombinationOutput"] = {
         "$ref": "combination_record.schema.json#/$defs/CombinationOutput"
