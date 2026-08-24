@@ -10,6 +10,15 @@
 
 Canonical Sourceborn repository for the **Universal Sequence grammar**, **Phase-2 Human/AI/Wisdom/ASI construction and adoption**, and the **ASI Node / Node-Brain runtime**.
 
+## Continuing in Codex
+
+Start with:
+
+1. `CODEX_START_HERE.md`
+2. `phase2/CODEX_HANDOFF_CURRENT_STATE.json`
+
+These files capture the current Batch-1/2/3 build state, the self-sustaining runtime architecture, the validation boundary, and the exact Batch-4 sequence to continue without relying on chat history.
+
 ## Current status
 
 ```text
@@ -48,14 +57,15 @@ SOURCEBORN-NATIVE AI RUBRIC / MECHANISM
 
 ## Read first
 
-1. `CANONICALITY.json`
-2. `raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json`
-3. `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json`
-4. `phase2/README.md`
-5. `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`
-6. `registries/asi/asi_node_registry.json`
-7. `docs/LOCKED_DECISIONS.md`
-8. `docs/SEQUENCE_RESEARCH_LEDGER.md`
+1. `CODEX_START_HERE.md`
+2. `CANONICALITY.json`
+3. `raw/sequence/Universal_Sequence_Machine_Architecture_v1.manifest.json`
+4. `raw/phase2/SOURCEBORN_ASI_PHASE2_ADOPTION_CONFIG.manifest.json`
+5. `phase2/README.md`
+6. `machine/wiring/MULTI_RUBRIC_WIRING_V0.json`
+7. `registries/asi/asi_node_registry.json`
+8. `docs/LOCKED_DECISIONS.md`
+9. `docs/SEQUENCE_RESEARCH_LEDGER.md`
 
 ## Phase-2 registries
 
@@ -99,6 +109,8 @@ Node Brain contracts for the new nodes:
 - `machine/vocab/` — order types, drivers, thresholds, controller types, relation types and statuses.
 - `machine/wiring/` — cross-domain/rubric wiring maps.
 - `machine/rubrics/` — orthogonal machine rubric dimensions.
+- `machine/runtime/` — Growing-Phase runtime contracts and executable native engines.
+- `registries/sourceborn/` — Node-Brain, memory-channel, auto-link and combination runtime bindings.
 - `registries/human/` — Human native-registry adoption contract and data when supplied.
 - `registries/ai/` — Sourceborn-native AI rubric construction.
 - `registries/wisdom/` — Wisdom and source-custody architecture.
