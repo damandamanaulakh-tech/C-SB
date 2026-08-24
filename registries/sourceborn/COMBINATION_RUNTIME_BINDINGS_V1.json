@@ -1,0 +1,145 @@
+{
+  "registry_id": "SOURCEBORN-COMBINATION-RUNTIME-BINDINGS-V1",
+  "version": "1.0.0",
+  "status": "PHASE2_ACTIVE_COMBINATION_BINDING_REGISTRY",
+  "schema_ref": "machine/schemas/combination_record.schema.json#/$defs/CombinationRecord",
+  "runtime_stage": "RT-07",
+  "combination_law": [
+    "Combination generation reuses existing primitives, relations, states, patterns and memories before proposing new primitives.",
+    "Combination != new primitive.",
+    "New wording != new intent.",
+    "Synthetic output remains NEW_SYNTHETIC or candidate until evidence/maturity gates promote it.",
+    "Combination generation is bounded; unrestricted Cartesian products are forbidden.",
+    "A combination should have a reason to exist: adjacency, pattern support, contradiction, counterfactual, cross-domain interaction or measured novelty."
+  ],
+  "modes": [
+    {
+      "mode_id":"C1",
+      "name":"ADJACENCY_COMBINATION",
+      "trigger":"two_or_more_objects_are_directly_connected_by_source_position_sequence_relation_or_runtime_activation",
+      "primary_nodes":["ASI-NODE-02","ASI-NODE-06","ASI-NODE-20"],
+      "read_memory":["EVENT_MEMORY","RELATION_MEMORY","PATH_MEMORY","NODE_LOCAL_MEMORY"],
+      "allowed_components":["SIGN_OR_SYMBOL","PARAMETER","CONTAINER","RUBRIC","RELATION","ACTOR_ROLE","ACTIVE_STATE","EVENT","INTENT","PATTERN","SEQUENCE_NODE","MEMORY_REF"],
+      "candidate_outputs":["SYNTHETIC_MEANING","EVENT_HYPOTHESIS","INTENT_HYPOTHESIS","RELATION_CANDIDATE","PATH_CANDIDATE"],
+      "next_nodes":["ASI-NODE-07","ASI-NODE-08","ASI-NODE-16"],
+      "persistence":"COMBINATION_SIGNATURE_MAY_PERSIST;MEANING_REMAINS_SYNTHETIC_UNTIL_MATURED"
+    },
+    {
+      "mode_id":"C2",
+      "name":"PATTERN_SUPPORTED_COMBINATION",
+      "trigger":"existing_pattern_or_multiple_pattern_contributions_predict_a_reusable_structure",
+      "primary_nodes":["ASI-NODE-06","ASI-NODE-13","ASI-NODE-15","ASI-NODE-20"],
+      "read_memory":["PATTERN_MEMORY","EVENT_MEMORY","INTENT_MEMORY","RELATION_MEMORY","GLOBAL_MEMORY_INDEX"],
+      "allowed_components":["PATTERN","PATTERN_CONTRIBUTION","EVENT","INTENT","ACTOR_STATE","RELATION","PARAMETER","DOMAIN"],
+      "candidate_outputs":["SYNTHETIC_MEANING","EVENT_HYPOTHESIS","INTENT_HYPOTHESIS","PATTERN_CANDIDATE","SEQUENCE_VARIANT"],
+      "next_nodes":["ASI-NODE-07","ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"],
+      "persistence":"PATTERN_CONTRIBUTION_MAY_AUTO_PERSIST;PATTERN_PROMOTION_REVIEW_AND_RFR_GATED"
+    },
+    {
+      "mode_id":"C3",
+      "name":"CONTRADICTION_COMBINATION",
+      "trigger":"two_or_more_materially_incompatible_claims_paths_intents_or_states_are_active",
+      "primary_nodes":["ASI-NODE-06","ASI-NODE-08","ASI-NODE-16","ASI-NODE-21"],
+      "read_memory":["CONTRADICTION_MEMORY","EVIDENCE_MEMORY","EVENT_MEMORY","INTENT_MEMORY","PATTERN_MEMORY"],
+      "allowed_components":["CONTRADICTION","CLAIM","INTENT","ACTOR_STATE","PATH","EVIDENCE","PATTERN","UNKNOWN"],
+      "candidate_outputs":["COUNTER_SEQUENCE","EVENT_HYPOTHESIS","INTENT_HYPOTHESIS","FALSIFIER_CANDIDATE","PATTERN_CANDIDATE"],
+      "next_nodes":["ASI-NODE-07","ASI-NODE-11","ASI-NODE-16"],
+      "persistence":"CONTRADICTION_AND_FAILED_BRANCH_MEMORY_SHOULD_PERSIST_WHEN_USEFUL"
+    },
+    {
+      "mode_id":"C4",
+      "name":"COUNTERFACTUAL_COMBINATION",
+      "trigger":"one_material_condition_actor_state_relation_or_dependency_is_changed_while_other_case_structure_is_held_stable",
+      "primary_nodes":["ASI-NODE-08","ASI-NODE-10","ASI-NODE-16","ASI-NODE-20"],
+      "read_memory":["EVENT_MEMORY","ACTOR_STATE_MEMORY","RELATION_MEMORY","PATH_MEMORY","PATTERN_MEMORY"],
+      "allowed_components":["EVENT","ACTOR_STATE","INTENT","RELATION","DEPENDENCY","THRESHOLD","FUTURE_STATE","ENTITY_OUTCOME"],
+      "candidate_outputs":["COUNTERFACTUAL_EVENT","ACTOR_BRAIN_VARIANT","INTENT_HYPOTHESIS","SEQUENCE_VARIANT","EVIDENCE_PREDICTION"],
+      "next_nodes":["ASI-NODE-07","ASI-NODE-10","ASI-NODE-11","ASI-NODE-16"],
+      "persistence":"COUNTERFACTUAL_SIGNATURE_MAY_PERSIST_AS_TEST_STRUCTURE;NOT_WORLD_FACT"
+    },
+    {
+      "mode_id":"C5",
+      "name":"CROSS_DOMAIN_COMBINATION",
+      "trigger":"the_same_event_requires_two_or_more_native_domains_or_rubric_families",
+      "primary_nodes":["ASI-NODE-06","ASI-NODE-19","ASI-NODE-20","ASI-NODE-21"],
+      "read_memory":["EVENT_MEMORY","INTENT_MEMORY","PATTERN_MEMORY","EVIDENCE_MEMORY","NODE_LOCAL_MEMORY","GLOBAL_MEMORY_INDEX"],
+      "allowed_components":["HUMAN_PARAMETER","AI_FUNCTION","WISDOM_OBJECT","ASI_GOVERNANCE","UNIVERSAL_RUBRIC","ENGINE","NODE_BRAIN"],
+      "candidate_outputs":["SYNTHETIC_MEANING","EVENT_HYPOTHESIS","INTENT_HYPOTHESIS","SEQUENCE_VARIANT","PATTERN_CANDIDATE","NODE_CANDIDATE"],
+      "next_nodes":["ASI-NODE-07","ASI-NODE-11","ASI-NODE-16","ASI-NODE-21"],
+      "persistence":"DOMAIN_NATIVE_IDENTITIES_REMAIN_SEPARATE;CROSS_DOMAIN_LINKS_ARE_ADDITIVE"
+    },
+    {
+      "mode_id":"C6",
+      "name":"NOVELTY_COMBINATION",
+      "trigger":"existing_primitives_can_form_a_material_structure_not_previously_instantiated_and_the_structure_changes_prediction_intent_path_or_explanation",
+      "primary_nodes":["ASI-NODE-06","ASI-NODE-13","ASI-NODE-15","ASI-NODE-20"],
+      "read_memory":["GLOBAL_MEMORY_INDEX","PATTERN_MEMORY","RELATION_MEMORY","PATH_MEMORY","INTENT_MEMORY","ACTOR_STATE_MEMORY"],
+      "allowed_components":["ANY_EXISTING_APPROVED_OR_PERSISTENT_PRIMITIVE_WITH_SOURCE_LINEAGE"],
+      "candidate_outputs":["SYNTHETIC_MEANING","EVENT_HYPOTHESIS","INTENT_HYPOTHESIS","ACTOR_BRAIN_VARIANT","SEQUENCE_VARIANT","PATTERN_CANDIDATE","NODE_CANDIDATE","PRIMITIVE_CANDIDATE","RELATION_CANDIDATE","PATH_CANDIDATE"],
+      "next_nodes":["ASI-NODE-07","ASI-NODE-11","ASI-NODE-15","ASI-NODE-16","ASI-NODE-21"],
+      "persistence":"NOVEL_COMBINATION_SIGNATURE_MAY_PERSIST;PRIMITIVE_PROMOTION_REQUIRES_IRREDUCIBILITY_REUSE_PROVENANCE_COUNTERCASE_RFR_AND_REVIEW"
+    }
+  ],
+  "component_families": [
+    {"family":"SOURCE_OBSERVATION","examples":["visible_sign","text_fragment","image_region","direct_measurement","source_claim"]},
+    {"family":"HUMAN","examples":["parameter","container","active_state","actor_view","motive_hypothesis","intent"]},
+    {"family":"AI","examples":["mechanism","representation","prediction","simulation","retrieval","verification"]},
+    {"family":"WISDOM","examples":["source_claim","interpretation","wisdom_object","applicability","counter_case"]},
+    {"family":"ASI","examples":["permission","priority","governance","closure_scope","contradiction_policy","uncertainty_policy"]},
+    {"family":"SEQUENCE","examples":["node","edge","trigger","threshold","dependency","Sub-Sequence","return","seed"]},
+    {"family":"MEMORY","examples":["event_memory","intent_memory","relation_memory","path_memory","pattern_memory","contradiction_memory","actor_state_memory"]},
+    {"family":"PATTERN","examples":["pattern_contribution","pattern_candidate","approved_pattern","exception","counterexample"]}
+  ],
+  "generation_pipeline": [
+    "collect_active_components_from_current_event_and_authorized_memory",
+    "deduplicate_by_identity_and_shared_source_lineage",
+    "select_combination_modes_supported_by_current_case",
+    "apply_mode_specific_candidate_pair_or_group_generation",
+    "reject_combinations_with_no_material_effect_on_meaning_path_intent_prediction_or_falsifier",
+    "compute_existing_combination_similarity",
+    "assign_EXISTING_VARIANT_or_NEW_COMBINATION_CANDIDATE",
+    "generate_candidate_outputs_with_NEW_SYNTHETIC_or_hypothesis_status",
+    "route_to_live_intent_future_state_evidence_and_RFR_stages",
+    "persist_combination_signature_only_after_writeback_rule",
+    "consider_node_or_primitive_candidate_only_after_irreducibility_test"
+  ],
+  "anti_explosion_controls": {
+    "cartesian_product_forbidden": true,
+    "minimum_generation_reason_required": true,
+    "deduplicate_before_RFR": true,
+    "shared_source_variants_clustered": true,
+    "bounded_by_runtime_budget": true,
+    "priority_factors":[
+      "direct_event_relevance",
+      "difference_from_existing_combination",
+      "potential_to_change_prediction",
+      "potential_to_explain_contradiction",
+      "potential_to_create_distinct_live_intent",
+      "potential_to expose new evidence test",
+      "cross_domain_reuse_value"
+    ]
+  },
+  "output_routing": [
+    {"output_type":"SYNTHETIC_MEANING","required_next_stages":["RT-08","RT-09","RT-10","RT-11","RT-12","RT-13"]},
+    {"output_type":"EVENT_HYPOTHESIS","required_next_stages":["RT-08","RT-09","RT-10","RT-11","RT-12"]},
+    {"output_type":"INTENT_HYPOTHESIS","required_next_stages":["RT-09","RT-10","RT-11","RT-12","RT-13"]},
+    {"output_type":"ACTOR_BRAIN_VARIANT","required_next_stages":["RT-08","RT-09","RT-10","RT-12"]},
+    {"output_type":"SEQUENCE_VARIANT","required_next_stages":["RT-10","RT-11","RT-12"]},
+    {"output_type":"EVIDENCE_PREDICTION","required_next_stages":["RT-10","RT-11","RT-12"]},
+    {"output_type":"PATTERN_CANDIDATE","required_next_stages":["RT-12","RT-13","RT-14","RT-17"]},
+    {"output_type":"NODE_CANDIDATE","required_next_stages":["RT-12","RT-13","RT-17"]},
+    {"output_type":"PRIMITIVE_CANDIDATE","required_next_stages":["RT-12","RT-13","RT-17"]},
+    {"output_type":"RELATION_CANDIDATE","required_next_stages":["RT-12","RT-14","RT-16"]},
+    {"output_type":"PATH_CANDIDATE","required_next_stages":["RT-11","RT-12","RT-14","RT-16"]}
+  ],
+  "novelty_dimensions_for_intent": [
+    "TARGET",
+    "DESIRED_STATE_CHANGE",
+    "PRIORITY",
+    "ACTION_TENDENCY",
+    "CONSTRAINT_HANDLING",
+    "RELATIONSHIP_TREATMENT",
+    "TIME_HORIZON",
+    "EXPECTED_CONSEQUENCE"
+  ]
+}
