@@ -1,0 +1,44 @@
+name: Batch-2 Sourceborn Runtime Linking R-F-R
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'machine/runtime/SELF_SUSTAINING_RUNTIME_LINK_CONTRACT_V1.json'
+      - 'machine/schemas/event_record.schema.json'
+      - 'machine/schemas/event_intent.schema.json'
+      - 'machine/schemas/node_brain.schema.json'
+      - 'machine/schemas/memory_object.schema.json'
+      - 'machine/schemas/combination_record.schema.json'
+      - 'registries/asi/asi_node_registry.json'
+      - 'registries/sourceborn/NODE_BRAIN_RUNTIME_BINDINGS_V1.json'
+      - 'registries/sourceborn/MEMORY_CHANNEL_REGISTRY_V1.json'
+      - 'registries/sourceborn/AUTO_LINK_RELATION_REGISTRY_V1.json'
+      - 'registries/sourceborn/COMBINATION_RUNTIME_BINDINGS_V1.json'
+      - 'tools/link_batch2_runtime_schemas_v1.py'
+      - 'tools/validate_batch2_runtime_linking_v1.py'
+      - 'phase2/checkpoints/P2_BATCH2_RUNTIME_LINKING_CHECKPOINT_V1.json'
+
+permissions:
+  contents: read
+
+jobs:
+  batch2-runtime-linking-rfr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Link Batch-2 schemas in workspace
+        run: python tools/link_batch2_runtime_schemas_v1.py
+      - name: Validate Batch-2 runtime linking
+        run: python tools/validate_batch2_runtime_linking_v1.py
+      - name: Show Batch-2 R-F-R report
+        run: cat generated/tests/P2_BATCH2_RUNTIME_LINKING_RFR_V1.json
+      - name: Verify linker idempotency
+        shell: bash
+        run: |
+          cp machine/schemas/sourceborn.bundle.schema.json /tmp/sourceborn.bundle.once.json
+          python tools/link_batch2_runtime_schemas_v1.py
+          cmp /tmp/sourceborn.bundle.once.json machine/schemas/sourceborn.bundle.schema.json
