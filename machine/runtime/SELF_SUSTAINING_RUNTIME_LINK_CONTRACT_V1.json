@@ -1,0 +1,270 @@
+{
+  "contract_id": "SOURCEBORN-SELF-SUSTAINING-RUNTIME-LINK-V1",
+  "version": "1.0.0",
+  "status": "PHASE2_ACTIVE_RUNTIME_LINK_CONTRACT",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "constitutional_refs": [
+    "docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md",
+    "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md",
+    "machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json"
+  ],
+  "schema_refs": {
+    "event": "machine/schemas/event_record.schema.json#/$defs/EventRecord",
+    "intent": "machine/schemas/event_intent.schema.json#/$defs/EventIntent",
+    "node_brain": "machine/schemas/node_brain.schema.json#/$defs/NodeBrain",
+    "memory": "machine/schemas/memory_object.schema.json#/$defs/MemoryObject",
+    "combination": "machine/schemas/combination_record.schema.json#/$defs/CombinationRecord",
+    "sequence_bundle": "machine/schemas/sourceborn.bundle.schema.json"
+  },
+  "service_registry_ref": "registries/asi/asi_node_registry.json",
+  "runtime_law": "No stage owns the whole Sequence. The case graph determines invocation order. The stages below are service contracts and may repeat, branch, suspend or remain unused according to the Event and Sequence state.",
+  "stages": [
+    {
+      "stage_id": "RT-01",
+      "name": "SOURCE_AND_POINT_ZERO_LOCK",
+      "purpose": "Create or validate source custody, define the scoped origin, preserve immutable observation and prevent synthetic completion before a source boundary exists.",
+      "primary_nodes": ["ASI-NODE-00", "ASI-NODE-01", "ASI-NODE-21"],
+      "reads": ["RAW_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["RAW_MEMORY", "EVENT_MEMORY"],
+      "inputs": ["raw_source", "source_metadata", "user_or_system_scope"],
+      "outputs": ["source_lock_id", "point_zero_ref", "scope_lock", "source_epistemic_boundary"],
+      "hard_guards": ["NO_INVENTION_BEFORE_SOURCE_LOCK", "SOURCE_TRUTH_NE_WORLD_TRUTH", "POINT_ZERO_SCOPE_REQUIRED"]
+    },
+    {
+      "stage_id": "RT-02",
+      "name": "EVENT_DECOMPOSITION",
+      "purpose": "Split the accepted source into bounded Event units while preserving nested Event and Sub-Sequence relationships.",
+      "primary_nodes": ["ASI-NODE-02", "ASI-NODE-06", "ASI-NODE-20"],
+      "reads": ["RAW_MEMORY", "EVENT_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["EVENT_MEMORY", "RELATION_MEMORY"],
+      "input_schema": "event_record.schema.json",
+      "outputs": ["event_records", "nested_event_links", "candidate_local_point_zero_refs"],
+      "hard_guards": ["EVERY_EVENT_REQUIRES_INTENT_FIELD", "UNKNOWN_PREFERRED_OVER_FABRICATION"]
+    },
+    {
+      "stage_id": "RT-03",
+      "name": "EXISTING_BRAIN_ACTIVATION",
+      "purpose": "Activate existing Human, AI, Wisdom, ASI, Sequence, Engine and learned-memory structures before proposing new primitives.",
+      "primary_nodes": ["ASI-NODE-02", "ASI-NODE-06", "ASI-NODE-20", "ASI-NODE-21"],
+      "reads": ["EVENT_MEMORY", "RELATION_MEMORY", "PATTERN_MEMORY", "NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["NODE_LOCAL_MEMORY"],
+      "outputs": ["parameter_activations", "rubric_activations", "node_brain_activations", "engine_candidates", "existing_pattern_hits"],
+      "hard_guards": ["ACTIVATION_NE_NEW_PARAMETER", "RETRIEVAL_NE_TRUTH"]
+    },
+    {
+      "stage_id": "RT-04",
+      "name": "RELATION_AND_ORDER_GRAPH",
+      "purpose": "Create typed relationships and order edges among Event, actor, state, parameter, evidence and Sequence objects.",
+      "primary_nodes": ["ASI-NODE-01", "ASI-NODE-02", "ASI-NODE-09"],
+      "reads": ["EVENT_MEMORY", "RELATION_MEMORY", "PATH_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["RELATION_MEMORY", "PATH_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["relation_candidates", "order_edges", "dependency_edges", "path_candidates"],
+      "hard_guards": ["LINK_NE_MERGE", "PATH_TRUTH_REQUIRES_EDGE_EVIDENCE"]
+    },
+    {
+      "stage_id": "RT-05",
+      "name": "ACTOR_ROLE_AND_VIEW_RECONSTRUCTION",
+      "purpose": "Separate subject, requester, controller, author, performer, carrier, beneficiary and audience, then construct actor-specific View States without leaking global knowledge.",
+      "primary_nodes": ["ASI-NODE-02", "ASI-NODE-03", "ASI-NODE-06", "ASI-NODE-21"],
+      "reads": ["EVENT_MEMORY", "ACTOR_STATE_MEMORY", "RELATION_MEMORY", "EVIDENCE_MEMORY"],
+      "writes": ["ACTOR_STATE_MEMORY", "RELATION_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["actor_role_records", "actor_view_refs", "controller_performer_separation"],
+      "hard_guards": ["GLOBAL_KNOWLEDGE_NE_ACTOR_KNOWLEDGE", "SUBJECT_NE_REQUESTER_NE_CONTROLLER_NE_PERFORMER"]
+    },
+    {
+      "stage_id": "RT-06",
+      "name": "ACTIVE_STATE_RECONSTRUCTION",
+      "purpose": "Construct the active state of an actor, institution, system or artifact context from current state plus relevant history without converting a transient state into a permanent identity.",
+      "primary_nodes": ["ASI-NODE-02", "ASI-NODE-10", "ASI-NODE-20"],
+      "reads": ["ACTOR_STATE_MEMORY", "EVENT_MEMORY", "PATTERN_MEMORY", "SEQUENCE_MEMORY"],
+      "writes": ["ACTOR_STATE_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["active_state_ids", "state_deltas", "state_uncertainties"],
+      "hard_guards": ["ACTIVE_STATE_NE_STATIC_PERSONALITY", "STATE_HYPOTHESIS_REMAINS_HYPOTHESIS"]
+    },
+    {
+      "stage_id": "RT-07",
+      "name": "COMBINATION_GENERATION",
+      "purpose": "Generate bounded combinations from activated signs/symbols, parameters, relations, roles, states, patterns and memories using adjacency, pattern-supported, contradiction, counterfactual, cross-domain and novelty modes.",
+      "primary_nodes": ["ASI-NODE-06", "ASI-NODE-08", "ASI-NODE-13", "ASI-NODE-20"],
+      "reads": ["EVENT_MEMORY", "RELATION_MEMORY", "PATH_MEMORY", "PATTERN_MEMORY", "ACTOR_STATE_MEMORY", "NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["NODE_LOCAL_MEMORY"],
+      "input_schema": "combination_record.schema.json",
+      "outputs": ["combination_candidates", "synthetic_meanings", "event_hypotheses", "actor_brain_variants", "sequence_variants"],
+      "hard_guards": ["COMBINATION_NE_NEW_PRIMITIVE", "CARTESIAN_EXPLOSION_FORBIDDEN", "SYNTHETIC_LABEL_REQUIRED"]
+    },
+    {
+      "stage_id": "RT-08",
+      "name": "LIVE_INTENT_GENERATION",
+      "purpose": "Generate multiple material intent candidates from actor, desired state change, target, context, constraints, history, time horizon and expected consequence.",
+      "primary_nodes": ["ASI-NODE-03", "ASI-NODE-06", "ASI-NODE-08", "ASI-NODE-20", "ASI-NODE-21"],
+      "reads": ["INTENT_MEMORY", "ACTOR_STATE_MEMORY", "RELATION_MEMORY", "PATTERN_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["NODE_LOCAL_MEMORY"],
+      "input_schema": "event_intent.schema.json",
+      "outputs": ["intent_candidates", "intent_novelty_comparisons", "alternative_intent_ids"],
+      "hard_guards": ["NEW_WORDING_NE_NEW_INTENT", "INTENT_NE_MOTIVE", "INTENT_HYPOTHESIS_NE_FACT"]
+    },
+    {
+      "stage_id": "RT-09",
+      "name": "FUTURE_STATE_RECONSTRUCTION",
+      "purpose": "Infer candidate intended future differences and reverse them toward possible actors, controllers, commissioning Events and production paths.",
+      "primary_nodes": ["ASI-NODE-01", "ASI-NODE-08", "ASI-NODE-10", "ASI-NODE-15", "ASI-NODE-20"],
+      "reads": ["INTENT_MEMORY", "EVENT_MEMORY", "PATH_MEMORY", "PATTERN_MEMORY"],
+      "writes": ["PATH_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["future_state_hypotheses", "reverse_actor_paths", "expected_entity_outcomes"],
+      "hard_guards": ["FUTURE_STATE_HYPOTHESIS_REQUIRES_PROOF_DEBT", "RESULT_NE_INTENDED_FUTURE_WITHOUT_EVIDENCE"]
+    },
+    {
+      "stage_id": "RT-10",
+      "name": "EVIDENCE_PREDICTION",
+      "purpose": "For every serious hypothesis, predict supporting, contradicting and absence evidence that should exist if the hypothesis is true.",
+      "primary_nodes": ["ASI-NODE-07", "ASI-NODE-10", "ASI-NODE-11", "ASI-NODE-16"],
+      "reads": ["EVIDENCE_MEMORY", "CONTRADICTION_MEMORY", "EVENT_MEMORY", "PATTERN_MEMORY"],
+      "writes": ["EVIDENCE_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["evidence_prediction_ids", "absence_tests", "counter_evidence_targets"],
+      "hard_guards": ["PREDICTED_EVIDENCE_NE_OBSERVED_EVIDENCE"]
+    },
+    {
+      "stage_id": "RT-11",
+      "name": "REVERSE_FORWARD_REVERSE",
+      "purpose": "Perform reverse reconstruction, forward legal-path simulation and reverse audit against the declared end/scope.",
+      "primary_nodes": ["ASI-NODE-01", "ASI-NODE-05", "ASI-NODE-09", "ASI-NODE-10", "ASI-NODE-11", "ASI-NODE-16"],
+      "reads": ["EVENT_MEMORY", "RELATION_MEMORY", "PATH_MEMORY", "EVIDENCE_MEMORY", "CONTRADICTION_MEMORY", "SEQUENCE_MEMORY"],
+      "writes": ["PATH_MEMORY", "EVIDENCE_MEMORY", "CONTRADICTION_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["reverse_trace", "forward_trace", "reverse_audit", "unresolved_dependencies"],
+      "hard_guards": ["REPEATED_ROUTE_NE_CORROBORATION", "RETRY_REQUIRES_NEW_SUBSEQUENCE_WHEN_CONTRACT_REQUIRES"]
+    },
+    {
+      "stage_id": "RT-12",
+      "name": "FALSIFIER_AND_CONTRADICTION_ATTACK",
+      "purpose": "Attempt to break retained hypotheses and preserve incompatible alternatives without silent averaging.",
+      "primary_nodes": ["ASI-NODE-08", "ASI-NODE-11", "ASI-NODE-16", "ASI-NODE-21"],
+      "reads": ["CONTRADICTION_MEMORY", "EVIDENCE_MEMORY", "PATTERN_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["CONTRADICTION_MEMORY", "EVIDENCE_MEMORY", "NODE_LOCAL_MEMORY"],
+      "outputs": ["falsifier_results", "contradiction_ids", "counter_sequence_ids", "survivor_set"],
+      "hard_guards": ["CONTRADICTION_MUST_REMAIN_VISIBLE", "FAILED_HYPOTHESIS_MAY_WRITE_NEGATIVE_MEMORY"]
+    },
+    {
+      "stage_id": "RT-13",
+      "name": "MATURITY_UPDATE",
+      "purpose": "Update maturity by evidence lineage, falsifier survival, source distance, counter-cases and external/independent support; never by fluent wording or raw score alone.",
+      "primary_nodes": ["ASI-NODE-07", "ASI-NODE-11", "ASI-NODE-16", "ASI-NODE-21"],
+      "reads": ["EVIDENCE_MEMORY", "CONTRADICTION_MEMORY", "PATTERN_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["NODE_LOCAL_MEMORY"],
+      "outputs": ["maturity_level", "proof_debt", "promotion_eligibility"],
+      "hard_guards": ["MATCH_SCORE_NE_EPISTEMIC_CONFIDENCE", "M0_TO_M5_REQUIRES_EVIDENCE_NOT_WORDING"]
+    },
+    {
+      "stage_id": "RT-14",
+      "name": "WRITEBACK_DECISION",
+      "purpose": "Decide what may persist: event memory, relation, path, intent, evidence, contradiction, actor state, pattern contribution, pattern candidate, Node candidate or primitive candidate.",
+      "primary_nodes": ["ASI-NODE-11", "ASI-NODE-12", "ASI-NODE-15", "ASI-NODE-21"],
+      "reads": ["NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["EVENT_MEMORY", "INTENT_MEMORY", "RELATION_MEMORY", "PATH_MEMORY", "PATTERN_MEMORY", "EVIDENCE_MEMORY", "CONTRADICTION_MEMORY", "ACTOR_STATE_MEMORY", "SEQUENCE_MEMORY", "NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["writeback_packet", "persistent_object_ids", "rejected_writeback_items"],
+      "hard_guards": ["SYNTHETIC_NE_FACT", "PATTERN_CANDIDATE_NE_APPROVED_PATTERN", "PARAMETER_INFLATION_FORBIDDEN"]
+    },
+    {
+      "stage_id": "RT-15",
+      "name": "MEMORY_INDEX_AND_REINFORCEMENT",
+      "purpose": "Index accepted memory by source, Point Zero, Event, actor, role, intent, relation, pattern, Sequence and contradiction while keeping repetition distinct from truth.",
+      "primary_nodes": ["ASI-NODE-12", "ASI-NODE-13", "ASI-NODE-15"],
+      "reads": ["EVENT_MEMORY", "INTENT_MEMORY", "RELATION_MEMORY", "PATH_MEMORY", "PATTERN_MEMORY", "EVIDENCE_MEMORY", "CONTRADICTION_MEMORY", "ACTOR_STATE_MEMORY", "SEQUENCE_MEMORY", "NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "writes": ["NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["index_entries", "reinforcement_updates", "retrieval_keys"],
+      "hard_guards": ["REPETITION_NE_INDEPENDENT_EVIDENCE", "FREQUENCY_NE_TRUTH"]
+    },
+    {
+      "stage_id": "RT-16",
+      "name": "AUTO_LINK",
+      "purpose": "Generate candidate links for shared source, Point Zero, Event family, actor, role, relation, path, intent, future state, contradiction, evidence, pattern and Sequence families.",
+      "primary_nodes": ["ASI-NODE-02", "ASI-NODE-12", "ASI-NODE-13", "ASI-NODE-17"],
+      "reads": ["GLOBAL_MEMORY_INDEX", "RELATION_MEMORY", "PATH_MEMORY", "PATTERN_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["RELATION_MEMORY", "PATH_MEMORY", "NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["candidate_links", "accepted_links", "rejected_links"],
+      "hard_guards": ["LINK_NE_MERGE", "SIMILAR_NE_IDENTICAL", "CLOSED_SOURCE_IMMUTABLE"]
+    },
+    {
+      "stage_id": "RT-17",
+      "name": "NEW_NODE_AND_PRIMITIVE_GATE",
+      "purpose": "Promote only irreducible, reusable, source-bound constructs that existing Nodes/IDs/combinations cannot represent without distortion.",
+      "primary_nodes": ["ASI-NODE-07", "ASI-NODE-11", "ASI-NODE-12", "ASI-NODE-15", "ASI-NODE-16", "ASI-NODE-21"],
+      "reads": ["GLOBAL_MEMORY_INDEX", "PATTERN_MEMORY", "CONTRADICTION_MEMORY", "EVIDENCE_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["node_candidates", "primitive_candidates", "promotion_decisions"],
+      "hard_guards": ["EXISTING_REPRESENTATION_SEARCH_REQUIRED", "RFR_REQUIRED", "COUNTER_CASE_REQUIRED", "PROVENANCE_REQUIRED"]
+    },
+    {
+      "stage_id": "RT-18",
+      "name": "SEQUENCE_CLOSURE_RETURN_AND_SEED",
+      "purpose": "Close only the declared scope, preserve unresolved higher-scope reality, return accepted results to parents, and create future Seeds without reopening closed Sequences.",
+      "primary_nodes": ["ASI-NODE-00", "ASI-NODE-11", "ASI-NODE-14", "ASI-NODE-17", "ASI-NODE-21"],
+      "reads": ["SEQUENCE_MEMORY", "EVENT_MEMORY", "EVIDENCE_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["SEQUENCE_MEMORY", "EVENT_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["closure_packet", "accepted_returns", "seed_ids", "recheck_conditions"],
+      "hard_guards": ["CLOSED_SEQUENCE_IMMUTABLE", "LOWER_SCOPE_CLOSURE_NE_PARENT_CLOSURE", "SEED_NE_OPEN_SEQUENCE"]
+    },
+    {
+      "stage_id": "RT-19",
+      "name": "GROWTH_LEDGER_UPDATE",
+      "purpose": "Record durable Brain growth by object class while preventing forced inflation of native parameter counts.",
+      "primary_nodes": ["ASI-NODE-12", "ASI-NODE-15", "ASI-NODE-17", "ASI-NODE-21"],
+      "reads": ["GLOBAL_MEMORY_INDEX", "SEQUENCE_MEMORY"],
+      "writes": ["GLOBAL_MEMORY_INDEX", "SEQUENCE_MEMORY"],
+      "outputs": ["growth_delta", "growth_batch_status"],
+      "hard_guards": ["ACCEPTED_BATCH_REQUIRES_PERSISTENT_COUNT_INCREASE", "PARAMETER_INFLATION_FORBIDDEN"]
+    },
+    {
+      "stage_id": "RT-20",
+      "name": "RECHECK_AND_MATURITY_SCHEDULING",
+      "purpose": "Schedule future reevaluation only when a legal trigger or new evidence condition exists.",
+      "primary_nodes": ["ASI-NODE-04", "ASI-NODE-12", "ASI-NODE-14", "ASI-NODE-17"],
+      "reads": ["GLOBAL_MEMORY_INDEX", "CONTRADICTION_MEMORY", "EVIDENCE_MEMORY", "SEQUENCE_MEMORY"],
+      "writes": ["SEQUENCE_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["recheck_jobs", "maturity_upgrade_jobs", "orphan_link_jobs"],
+      "hard_guards": ["NO_BUSY_LOOP_WITHOUT_TRIGGER", "RECHECK_DOES_NOT_REOPEN_CLOSED_SEQUENCE"]
+    },
+    {
+      "stage_id": "RT-21",
+      "name": "ORPHAN_AND_LINK_MAINTENANCE",
+      "purpose": "Find persistent objects with broken or weak graph attachment and attempt legal relinking without inventing missing provenance.",
+      "primary_nodes": ["ASI-NODE-02", "ASI-NODE-12", "ASI-NODE-13", "ASI-NODE-17"],
+      "reads": ["GLOBAL_MEMORY_INDEX", "RELATION_MEMORY", "PATH_MEMORY"],
+      "writes": ["RELATION_MEMORY", "PATH_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["orphan_findings", "relinked_objects", "open_link_gaps"],
+      "hard_guards": ["NO_INVENTED_PROVENANCE", "GAP_PREFERRED_OVER_FORCE_FIT"]
+    },
+    {
+      "stage_id": "RT-22",
+      "name": "AUTO_SUSTAIN_CONTROLLER",
+      "purpose": "Coordinate legal recurring maintenance, queued Seeds, rechecks and new authorized inputs without granting unrestricted external authority.",
+      "primary_nodes": ["ASI-NODE-04", "ASI-NODE-05", "ASI-NODE-17", "ASI-NODE-21"],
+      "reads": ["GLOBAL_MEMORY_INDEX", "SEQUENCE_MEMORY", "NODE_LOCAL_MEMORY"],
+      "writes": ["SEQUENCE_MEMORY", "NODE_LOCAL_MEMORY", "GLOBAL_MEMORY_INDEX"],
+      "outputs": ["scheduled_sequence_starts", "suspended_jobs", "human_handoff_requests"],
+      "hard_guards": ["SELF_SUSTAINING_NE_UNRESTRICTED_EXTERNAL_AUTHORITY", "AUTHORIZATION_REQUIRED_FOR_EXTERNAL_ACTION", "BARRIER_BYPASS_FORBIDDEN"]
+    }
+  ],
+  "primary_loops": [
+    {"loop_id":"L1","name":"RETRIEVAL_LOOP","entry_stages":["RT-03","RT-15"],"stop_when":"relevant_memory_set_stable_or_budget_exhausted"},
+    {"loop_id":"L2","name":"COMBINATION_LOOP","entry_stages":["RT-07"],"stop_when":"novel_nonduplicate_candidates_stable_or_threshold_reached"},
+    {"loop_id":"L3","name":"INTENT_LOOP","entry_stages":["RT-08","RT-09"],"stop_when":"material_intent_forks_stable_or_all_open_unknown"},
+    {"loop_id":"L4","name":"EVIDENCE_LOOP","entry_stages":["RT-10","RT-13"],"stop_when":"evidence_requests_satisfied_or_open_gap_declared"},
+    {"loop_id":"L5","name":"RFR_LOOP","entry_stages":["RT-11","RT-12"],"stop_when":"no_new_material_path_difference_or_falsifier_result_terminal"},
+    {"loop_id":"L6","name":"CONTRADICTION_LOOP","entry_stages":["RT-12"],"stop_when":"contradiction_classified_retained_or_escalated"},
+    {"loop_id":"L7","name":"MEMORY_REINFORCEMENT_LOOP","entry_stages":["RT-14","RT-15"],"stop_when":"writeback_and_index_complete"},
+    {"loop_id":"L8","name":"NODE_GROWTH_LOOP","entry_stages":["RT-17","RT-19"],"stop_when":"candidate_promoted_rejected_or_left_open"},
+    {"loop_id":"L9","name":"NEXT_SEQUENCE_LOOP","entry_stages":["RT-18","RT-20"],"stop_when":"seed_registered_and_waiting_or_no_seed"}
+  ],
+  "maintenance_loops": [
+    {"loop_id":"B1","name":"RECHECK_LOOP","entry_stages":["RT-20"]},
+    {"loop_id":"B2","name":"ORPHAN_LINK_LOOP","entry_stages":["RT-21"]},
+    {"loop_id":"B3","name":"MATURITY_UPGRADE_LOOP","entry_stages":["RT-13","RT-20"]},
+    {"loop_id":"B4","name":"SCHEDULER_AUTO_SUSTAIN_LOOP","entry_stages":["RT-22"]}
+  ],
+  "loop_count": {"primary":9,"maintenance":4,"total_classes":13},
+  "autonomy_boundary": {
+    "internal_autonomy_allowed": ["retrieval", "combination_generation", "intent_hypothesis_generation", "evidence_prediction", "RFR", "memory_indexing", "candidate_linking", "candidate_recheck", "growth_accounting"],
+    "external_action_requires": ["authority_check", "permission_check", "barrier_clearance", "required_returns_accepted"],
+    "never_implied": ["unrestricted_tool_execution", "unrestricted_network_action", "unrestricted_personal_data_use", "unreviewed_canonical_promotion"]
+  }
+}
