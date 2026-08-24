@@ -29,6 +29,8 @@ jobs:
           python-version: '3.12'
       - name: Apply real-time growing ASI semantic migration
         run: python tools/apply_realtime_asi_semantic_migration_v1.py
+      - name: Link Batch-2 self-sustaining runtime schemas
+        run: python tools/link_batch2_runtime_schemas_v1.py
       - name: Assemble canonical long sources
         run: python tools/assemble_sources.py
       - name: Build machine-readable registry views
@@ -113,6 +115,8 @@ jobs:
         run: python tools/validate_growth_batch_003_v1.py
       - name: Validate Batch-1 self-sustaining runtime foundation
         run: python tools/validate_batch1_foundation_v1.py
+      - name: Validate Batch-2 runtime and schema linking
+        run: python tools/validate_batch2_runtime_linking_v1.py
       - name: Validate real-time growing ASI identity across repo
         run: python tools/validate_sourceborn_realtime_asi_v1.py
       - name: Validate locked invariants
