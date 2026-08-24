@@ -1,0 +1,9 @@
+{
+  "run_id": "P2-BATCH3-DIAGNOSTIC-TRIGGER-V1",
+  "purpose": "Run only the Batch-3 native runtime integration fixture and persist stdout/stderr/exit status so runtime defects can be separated from unrelated full-repo workflow failures.",
+  "test": "tools/test_batch3_native_runtime_v1_1.py",
+  "diagnostic_runner": "tools/run_batch3_diagnostic_ci.py",
+  "expected_diagnostic": "generated/tests/P2_BATCH3_DIAGNOSTIC_V1.json",
+  "expected_native_report": "generated/tests/P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json",
+  "status": "TRIGGERED"
+}
