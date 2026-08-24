@@ -1,0 +1,26 @@
+{
+  "architecture": "sourceborn-llm-brain-walkthrough-v1",
+  "diagram_alignment": "LLM BRAIN WALKTHROUGH / 14 numbered stages",
+  "stages": [
+    {"id":1,"slug":"user-input","owner":"sourceborn","purpose":"Accept prompt, files/docs metadata, images metadata, tool results, and history."},
+    {"id":2,"slug":"preprocessing","owner":"sourceborn","purpose":"Normalize text and assemble bounded runtime input."},
+    {"id":3,"slug":"tokenization","owner":"sourceborn-boundary","purpose":"Create Sourceborn lexical trace tokens; real model tokenizer remains provider-owned."},
+    {"id":4,"slug":"embeddings-position","owner":"model-adapter","purpose":"Record positions and embedding handoff without inventing vectors."},
+    {"id":5,"slug":"context-window","owner":"sourceborn","purpose":"Assemble active input plus C-SB repository context."},
+    {"id":6,"slug":"llm-brain","owner":"model-internal","purpose":"Represent learned-weights/transformer compute as an opaque model boundary."},
+    {"id":7,"slug":"attention-flow","owner":"model-internal","purpose":"Represent attention as opaque unless provider telemetry exists."},
+    {"id":8,"slug":"next-token-prediction","owner":"model-internal","purpose":"Represent logits/probability prediction as opaque unless provider telemetry exists."},
+    {"id":9,"slug":"decoding","owner":"model-adapter","purpose":"Accept provider/model output and record decoding boundary without invented settings."},
+    {"id":10,"slug":"loop","owner":"sourceborn","purpose":"Route proof, repair, tool/RAG, or public-output continuation."},
+    {"id":11,"slug":"output","owner":"sourceborn","purpose":"Package public-safe structured output."},
+    {"id":12,"slug":"optional-tool-rag","owner":"sourceborn","purpose":"Expose bounded retrieval/tool sources and returned evidence to context."},
+    {"id":13,"slug":"memory-session-update","owner":"sourceborn","purpose":"Track session continuity without claiming persistent memory by default."},
+    {"id":14,"slug":"feedback-training","owner":"sourceborn-boundary","purpose":"Capture feedback metadata; never claim live model-weight training."}
+  ],
+  "side_panels": {
+    "what_goes_in": ["prompt","files-docs","images","tool-results","history"],
+    "what_comes_out": ["answers","plans-ideas","code","charts-tables","tool-actions","audio-image"]
+  },
+  "core_concepts": ["parameters","tokens","context-window","embeddings","attention","layers","logits","decoding","rag","tools"],
+  "training_lifecycle": ["data-collection","pretraining","fine-tuning","alignment","evaluation","deployment"]
+}

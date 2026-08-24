@@ -1,0 +1,26 @@
+{
+  "scope": "C-SB current canonical repository",
+  "excluded": ["Grok-ASS"],
+  "stage_05_context_window": [
+    "CANONICALITY.json",
+    "phase2/PHASE_STATUS.json",
+    "generated/registry_views/registry_readiness.json"
+  ],
+  "stage_12_optional_tool_rag": {
+    "canonical_registries": ["registries/", "machine/"],
+    "raw_sources": ["raw/"],
+    "tools": ["tools/"],
+    "assembled_sources": ["generated/assembled_sources/"],
+    "generated_registry_views": ["generated/registry_views/"],
+    "generated_rubrics": ["generated/rubrics/"],
+    "generated_tests": ["generated/tests/"]
+  },
+  "stage_13_memory_session_update": {
+    "persistent_by_default": false,
+    "runtime": "per-request trace only"
+  },
+  "stage_14_feedback_training": {
+    "modifies_model_weights": false,
+    "note": "Feedback may become future evaluation/training data only through an explicit external process."
+  }
+}

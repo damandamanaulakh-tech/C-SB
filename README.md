@@ -106,6 +106,25 @@ Node Brain contracts for the new nodes:
 - `tools/relink_and_index.py` — scans repository IDs and generates cross-reference documents.
 - `tools/validate_repo.py` — checks locked invariants that can be checked statically.
 
+## Runtime — recovered URR orchestrator
+
+The Codex URR prototype has been recovered into the current repository and wired to read canonical Phase/registry status without mutating the canonical registries.
+
+```bash
+npm ci
+npm run check
+npm start
+```
+
+Runtime endpoints:
+
+- `GET /api/health` — service health plus bounded repository/Phase status.
+- `POST /api/ask` — raw-source lock, fragment/claim ledger, URR checks, proof-debt routing and public output.
+
+Production mode fails closed unless `SOURCEBORN_API_KEY` is configured. Call `/api/ask` with `Authorization: Bearer <key>` (or `X-API-Key`). The server also applies a 1 MB body limit, JSON validation, safer error responses and an in-memory request rate limit. `render.yaml` keeps automatic deployment disabled until the service secret is configured.
+
+The original Codex prototype README is preserved at `docs/CODEX_ORCHESTRATOR_RECOVERY.md`.
+
 ## Source preservation
 
 `raw/` preserves source text artifacts and research outputs. Historical files are not deleted when superseded; canonical precedence is recorded in `CANONICALITY.json`.

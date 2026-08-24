@@ -1,0 +1,17 @@
+{
+  "name": "sourceborn-urr-orchestrator",
+  "version": "1.2.0",
+  "description": "Sourceborn URR orchestrator with a transparent 14-stage LLM brain boundary, repository context, traceability, and public-safe output.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "node --check brain/pipeline.js && node --check src/orchestrator.js && node --check src/repository-context.js && node --check src/server.js && node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
