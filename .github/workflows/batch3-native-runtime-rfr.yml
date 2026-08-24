@@ -1,0 +1,42 @@
+name: Batch-3 Sourceborn Native Runtime R-F-R
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'machine/runtime/engines/**'
+      - 'machine/__init__.py'
+      - 'machine/runtime/__init__.py'
+      - 'tools/test_batch3_native_runtime_v1_1.py'
+      - 'phase2/checkpoints/P2_BATCH3_NATIVE_RUNTIME_CHECKPOINT_V1.json'
+
+permissions:
+  contents: read
+
+jobs:
+  batch3-native-runtime-rfr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Link Batch-2 schemas locally
+        run: python tools/link_batch2_runtime_schemas_v1.py
+      - name: Validate Batch-2 runtime links before Batch-3
+        run: python tools/validate_batch2_runtime_linking_v1.py
+      - name: Compile Sourceborn Batch-3 engine package
+        run: python -m compileall -q machine/runtime/engines
+      - name: Run Batch-3 native runtime V1.1 R-F-R fixture
+        run: python tools/test_batch3_native_runtime_v1_1.py
+      - name: Show Batch-3 report
+        if: always()
+        run: |
+          if [ -f generated/tests/P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json ]; then
+            cat generated/tests/P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json
+          else
+            echo 'Batch-3 report was not produced.'
+            exit 1
+          fi
