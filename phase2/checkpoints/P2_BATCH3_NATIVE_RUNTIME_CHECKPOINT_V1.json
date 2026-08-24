@@ -1,0 +1,78 @@
+{
+  "checkpoint_id": "P2-BATCH3-NATIVE-RUNTIME-CHECKPOINT-V1",
+  "sequence_id": "P2-SELF-SUSTAINING-RUNTIME-BATCH3-NATIVE-ENGINES-01",
+  "status": "VALIDATION_PENDING",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "scope": "Executable stdlib-only Sourceborn native runtime from source lock through maturity, stopping before persistent writeback/new-node promotion.",
+  "engine_files": [
+    "machine/runtime/engines/runtime_core.py",
+    "machine/runtime/engines/source_lock_engine.py",
+    "machine/runtime/engines/event_decomposition_engine.py",
+    "machine/runtime/engines/parameter_activation_engine.py",
+    "machine/runtime/engines/relation_graph_engine.py",
+    "machine/runtime/engines/actor_role_engine.py",
+    "machine/runtime/engines/actor_state_engine.py",
+    "machine/runtime/engines/combination_engine.py",
+    "machine/runtime/engines/live_intent_engine.py",
+    "machine/runtime/engines/future_state_reconstruction_engine.py",
+    "machine/runtime/engines/evidence_prediction_engine.py",
+    "machine/runtime/engines/rfr_engine.py",
+    "machine/runtime/engines/falsifier_engine.py",
+    "machine/runtime/engines/maturity_engine.py",
+    "machine/runtime/engines/native_runtime_pipeline.py"
+  ],
+  "package_files": [
+    "machine/__init__.py",
+    "machine/runtime/__init__.py",
+    "machine/runtime/engines/__init__.py"
+  ],
+  "tests": {
+    "superseded_preflight": "tools/test_batch3_native_runtime_v1.py",
+    "active_test": "tools/test_batch3_native_runtime_v1_1.py",
+    "expected_report": "generated/tests/P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json",
+    "dedicated_workflow": ".github/workflows/batch3-native-runtime-rfr.yml",
+    "full_workflow": ".github/workflows/relink-validate.yml"
+  },
+  "hard_invariants": [
+    "No LLM or provider dependency is required by the native runtime engines.",
+    "Source and Point Zero are locked before interpretation.",
+    "Event decomposition preserves exact source spans and starts with UNKNOWN or NOT_YET_DECODED Intent.",
+    "Parameter activation may only reference indexed existing IDs; residual does not create a new parameter.",
+    "Actor roles remain separate operational dimensions.",
+    "Multiple actor-state hypotheses do not split actor identity.",
+    "Relation linking does not merge identity and temporal order does not imply causality.",
+    "Combination generation uses bounded approved modes and never performs an unrestricted Cartesian product.",
+    "New wording does not count as a new Intent when structural Intent dimensions are equivalent.",
+    "Future-state reconstruction remains hypothesis-tagged unless directly source-stated or observed.",
+    "Synthetic hypotheses receive evidence predictions before promotion.",
+    "R-F-R stores structured checks, not private chain-of-thought.",
+    "Low score alone is not a falsifier.",
+    "Untested synthetic candidates cannot mature to M5.",
+    "Batch-3 performs zero persistent Brain writeback; that boundary belongs to Batch-4."
+  ],
+  "runtime_chain": [
+    "SOURCE_LOCK",
+    "EVENT_DECOMPOSITION",
+    "EXISTING_REGISTRY_ACTIVATION",
+    "ACTOR_ROLE_SEPARATION",
+    "ACTOR_STATE_BRANCHING",
+    "RELATION_GRAPH",
+    "BOUNDED_COMBINATION",
+    "LIVE_INTENT",
+    "FUTURE_STATE_RECONSTRUCTION",
+    "EVIDENCE_PREDICTION",
+    "REVERSE_FORWARD_REVERSE",
+    "FALSIFIER",
+    "MATURITY"
+  ],
+  "known_boundary": {
+    "persistent_memory_writeback": "NOT_IMPLEMENTED_IN_BATCH3",
+    "auto_link_commit": "NOT_IMPLEMENTED_IN_BATCH3",
+    "new_node_promotion": "NOT_IMPLEMENTED_IN_BATCH3",
+    "new_primitive_promotion": "NOT_IMPLEMENTED_IN_BATCH3",
+    "scheduler": "NOT_IMPLEMENTED_IN_BATCH3"
+  },
+  "next_sequence_after_pass": "P2-SELF-SUSTAINING-RUNTIME-BATCH4-MEMORY-AUTOLINK-NODE-GROWTH-01",
+  "closure_condition": "Active Batch-3 V1.1 integration fixture passes after Batch-2 link validation and full repo regression remains compatible.",
+  "acceptance_condition": "P2_BATCH3_NATIVE_RUNTIME_RFR_V1_1.json reports PASS with no hard errors and persistent_write_count remains zero."
+}
