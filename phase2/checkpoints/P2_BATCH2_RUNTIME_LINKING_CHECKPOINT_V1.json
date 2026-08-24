@@ -1,0 +1,49 @@
+{
+  "checkpoint_id": "P2-BATCH2-RUNTIME-LINKING-CHECKPOINT-V1",
+  "sequence_id": "P2-SELF-SUSTAINING-RUNTIME-BATCH2-LINKING-01",
+  "status": "VALIDATION_PENDING",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "scope": "Link Batch-1 Event/Intent/Node-Brain/Memory/Combination foundations into the existing 22-node Sourceborn service network, memory channels, combination routing, auto-link graph, schema bundle and CI validation path.",
+  "source_foundation": "P2-BATCH1-FOUNDATION-CHECKPOINT-V1",
+  "runtime_files": [
+    "machine/runtime/SELF_SUSTAINING_RUNTIME_LINK_CONTRACT_V1.json",
+    "registries/sourceborn/NODE_BRAIN_RUNTIME_BINDINGS_V1.json",
+    "registries/sourceborn/MEMORY_CHANNEL_REGISTRY_V1.json",
+    "registries/sourceborn/AUTO_LINK_RELATION_REGISTRY_V1.json",
+    "registries/sourceborn/COMBINATION_RUNTIME_BINDINGS_V1.json"
+  ],
+  "linker": "tools/link_batch2_runtime_schemas_v1.py",
+  "validator": "tools/validate_batch2_runtime_linking_v1.py",
+  "expected_report": "generated/tests/P2_BATCH2_RUNTIME_LINKING_RFR_V1.json",
+  "fast_ci_workflow": ".github/workflows/batch2-runtime-linking-rfr.yml",
+  "full_ci_workflow": ".github/workflows/relink-validate.yml",
+  "hard_requirements": [
+    "22 runtime stages RT-01..RT-22 are present and reference only existing ASI service Nodes",
+    "all 22 ASI-NODE-00..21 have exactly one persistent Node-Brain runtime binding",
+    "all 12 MemoryObject memory types have exactly one memory-channel contract",
+    "all runtime and Node-Brain memory read/write references resolve to valid memory types",
+    "six bounded Combination modes C1..C6 align with the CombinationRecord schema",
+    "all CombinationOutput types have explicit downstream runtime routing",
+    "auto-link graph preserves Link != Merge and SAME_AS cannot be auto-generated",
+    "extended runtime relation types use stable MemoryLink OTHER plus extended_relation_type rather than breaking the stable enum",
+    "schema bundle exports active standalone EventRecord, EventIntent, NodeBrain, MemoryObject, MemoryLink, RetrievalKey, CombinationRecord and CombinationOutput definitions",
+    "legacy EventRecord remains available through LegacyEventRecordV1",
+    "Sequence and case-graph Node receive only additive runtime link fields",
+    "nine primary loops and four maintenance loops remain explicit",
+    "self-sustaining internal maintenance does not imply unrestricted external authority",
+    "native Human/AI/Wisdom/ASI definitions and parameter counts are not overwritten by runtime linking"
+  ],
+  "counts_expected": {
+    "runtime_stages": 22,
+    "asi_service_nodes": 22,
+    "node_brain_bindings": 22,
+    "memory_channels": 12,
+    "combination_modes": 6,
+    "primary_loops": 9,
+    "maintenance_loops": 4,
+    "total_loop_classes": 13
+  },
+  "closure_condition": "Both the dedicated Batch-2 R-F-R workflow and full relink/validate workflow pass after running the idempotent bundle linker; generated Batch-2 report reports PASS with zero hard errors.",
+  "acceptance_condition": "Schema/runtime linking is reproducible and idempotent; no native domain definition, source record, parameter identity or authority boundary is changed.",
+  "next_sequence_after_pass": "P2-SELF-SUSTAINING-RUNTIME-BATCH3-ENGINE-IMPLEMENTATION-01"
+}
