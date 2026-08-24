@@ -1,6 +1,6 @@
 {
   "registry_id": "SOURCEBORN-AUTO-LINK-RELATION-REGISTRY-V1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "PHASE2_ACTIVE_AUTO_LINK_REGISTRY",
   "runtime_stage": "RT-16",
   "memory_schema_ref": "machine/schemas/memory_object.schema.json#/$defs/MemoryLink",
@@ -12,6 +12,16 @@
     "Closed source and closed Sequence objects are never mutated by linking; links are additive external graph records.",
     "UNKNOWN or GAP is preferred over forced linking."
   ],
+  "memory_link_encoding": {
+    "rule": "When relation_type exists in MemoryLink.relation_type enum, store it directly. Richer graph-only relation types are stored with MemoryLink.relation_type=OTHER plus extended_relation_type=<runtime relation>. MemoryLink allows additional properties, so no stable schema enum expansion is required.",
+    "direct_memory_link_types": [
+      "SOURCE_OF","MEMORY_OF","DERIVED_FROM","SUPPORTS","CONTRADICTS","SIMILAR_TO","SPECIALIZES","GENERALIZES","INSTANCE_OF","COUNTEREXAMPLE_TO","PRECEDES","FOLLOWS","DEPENDS_ON","PRODUCED_BY","RESULT_OF","FUTURE_OF","REPAIRED_BY","RETESTED_BY","SUPERSEDES","COMPRESSED_FROM","INDEXES"
+    ],
+    "extended_relation_encoding": {
+      "relation_type": "OTHER",
+      "additional_property": "extended_relation_type"
+    }
+  },
   "relation_types": [
     {"relation_type":"SOURCE_OF","category":"PROVENANCE","auto_candidate":true,"active_threshold":"exact_source_ref_or_verified_lineage","requires":["source_ref"],"forbids":["name_similarity_only"]},
     {"relation_type":"DERIVED_FROM","category":"PROVENANCE","auto_candidate":true,"active_threshold":"explicit_lineage_step_and_source_ref","requires":["lineage"],"forbids":["unlogged_transform"]},
@@ -62,6 +72,7 @@
     "evaluate_relation_specific_requirements",
     "assign_CANDIDATE_or_ACTIVE_status",
     "reject_forbidden_identity_or_causality_shortcuts",
+    "encode_extended_runtime_relation_when_not_in_stable_MemoryLink_enum",
     "write_relation_memory",
     "index_link_in_global_memory_index",
     "schedule_recheck_for_open_candidate_links",
