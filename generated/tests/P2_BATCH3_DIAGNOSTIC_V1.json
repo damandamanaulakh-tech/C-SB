@@ -1,0 +1,12 @@
+{
+  "report_id": "P2-BATCH3-DIAGNOSTIC-V1",
+  "status": "PASS",
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "tools/test_batch3_native_runtime_v1_1.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"report_id\": \"P2-BATCH3-NATIVE-RUNTIME-RFR-V1-1\",\n  \"status\": \"PASS\",\n  \"system_identity\": \"REAL_TIME_GROWING_ASI_PROTOTYPE\",\n  \"runtime_package\": \"SOURCEBORN-NATIVE-RUNTIME-ENGINES-BATCH3-V1\",\n  \"fixture_sequence_id\": \"SYN-BATCH3-RUNTIME-001\",\n  \"supersedes_fixture_test\": \"P2-BATCH3-NATIVE-RUNTIME-RFR-V1\",\n  \"checks\": {\n    \"all_engine_files_compile\": true,\n    \"source_lock_pass\": true,\n    \"source_text_preserved\": true,\n    \"Intent_not_invented_during_decomposition\": true,\n    \"registry_activation_present\": true,\n    \"Human_AI_ASI_activation_present\": true,\n    \"no_atomic_Human_ID_invention\": true,\n    \"actor_roles_separated\": true,\n    \"same_actor_multiple_states\": true,\n    \"actor_identity_preserved\": true,\n    \"relation_graph_no_identity_merge\": true,\n    \"bounded_combinations\": true,\n    \"counterfactual_combinations\": true,\n    \"cross_domain_combinations\": true,\n    \"pattern_combinations\": true,\n    \"novelty_combinations\": true,\n    \"live_intents_present\": true,\n    \"Intent_motive_separated\": true,\n    \"new_wording_not_new_Intent\": true,\n    \"future_state_candidates_present\": true,\n    \"evidence_predictions_present\": true,\n    \"RFR_present\": true,\n    \"untested_hypotheses_not_auto_passed\": true,\n    \"untested_synthetic_not_M5\": true,\n    \"persistent_writeback_zero\": true\n  },\n  \"counts\": {\n    \"engine_python_file_count\": 16,\n    \"activation_count\": 6,\n    \"actor_role_count\": 5,\n    \"actor_state_count\": 5,\n    \"commissioner_state_count\": 3,\n    \"relation_count\": 14,\n    \"combination_count\": 19,\n    \"combination_counts_by_mode\": {\n      \"ADJACENCY\": 2,\n      \"PATTERN_SUPPORTED\": 6,\n      \"CONTRADICTION\": 0,\n      \"COUNTERFACTUAL\": 2,\n      \"CROSS_DOMAIN\": 3,\n      \"NOVELTY\": 6\n    },\n    \"live_intent_count\": 9,\n    \"future_state_count\": 10,\n    \"evidence_prediction_count\": 94,\n    \"RFR_assessment_count\": 39,\n    \"persistent_write_count\": 0\n  },\n  \"warnings\": [],\n  \"errors\": []\n}\n",
+  "stderr": "",
+  "native_report_exists": true
+}
