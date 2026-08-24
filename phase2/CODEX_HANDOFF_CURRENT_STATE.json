@@ -1,0 +1,119 @@
+{
+  "handoff_id": "C-SB-CODEX-HANDOFF-2026-08-24",
+  "repository": "damandamanaulakh-tech/C-SB",
+  "branch": "main",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "phase": "GROWING_PHASE",
+  "semantic_precedence": [
+    "SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1",
+    "SOURCEBORN_SYSTEM_INVARIANTS",
+    "UNIVERSAL_SEQUENCE_LOCKS",
+    "NATIVE_HUMAN_AI_WISDOM_ASI_SOURCE_REGISTRIES",
+    "RUNTIME_BINDINGS",
+    "EXAMPLES_TESTS_GENERATED_VIEWS"
+  ],
+  "completed_build_layers": {
+    "batch1_foundation": {
+      "status": "BUILT",
+      "files": [
+        "docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md",
+        "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md",
+        "machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json",
+        "machine/schemas/event_record.schema.json",
+        "machine/schemas/event_intent.schema.json",
+        "machine/schemas/node_brain.schema.json",
+        "machine/schemas/memory_object.schema.json",
+        "machine/schemas/combination_record.schema.json",
+        "tools/validate_batch1_foundation_v1.py"
+      ]
+    },
+    "batch2_linking": {
+      "status": "BUILT_VALIDATION_REPORT_PENDING_WHERE_NOT_COMMITTED",
+      "files": [
+        "machine/runtime/SELF_SUSTAINING_RUNTIME_LINK_CONTRACT_V1.json",
+        "registries/sourceborn/NODE_BRAIN_RUNTIME_BINDINGS_V1.json",
+        "registries/sourceborn/MEMORY_CHANNEL_REGISTRY_V1.json",
+        "registries/sourceborn/AUTO_LINK_RELATION_REGISTRY_V1.json",
+        "registries/sourceborn/COMBINATION_RUNTIME_BINDINGS_V1.json",
+        "tools/link_batch2_runtime_schemas_v1.py",
+        "tools/validate_batch2_runtime_linking_v1.py"
+      ]
+    },
+    "batch3_native_runtime": {
+      "status": "BUILT_VALIDATION_PENDING",
+      "files": [
+        "machine/runtime/engines/runtime_core.py",
+        "machine/runtime/engines/source_lock_engine.py",
+        "machine/runtime/engines/event_decomposition_engine.py",
+        "machine/runtime/engines/parameter_activation_engine.py",
+        "machine/runtime/engines/relation_graph_engine.py",
+        "machine/runtime/engines/actor_role_engine.py",
+        "machine/runtime/engines/actor_state_engine.py",
+        "machine/runtime/engines/combination_engine.py",
+        "machine/runtime/engines/live_intent_engine.py",
+        "machine/runtime/engines/future_state_reconstruction_engine.py",
+        "machine/runtime/engines/evidence_prediction_engine.py",
+        "machine/runtime/engines/rfr_engine.py",
+        "machine/runtime/engines/falsifier_engine.py",
+        "machine/runtime/engines/maturity_engine.py",
+        "machine/runtime/engines/native_runtime_pipeline.py",
+        "tools/test_batch3_native_runtime_v1_1.py"
+      ],
+      "hard_boundary": "ZERO_PERSISTENT_WRITEBACK_IN_BATCH3"
+    }
+  },
+  "next_sequence": {
+    "sequence_id": "P2-SELF-SUSTAINING-RUNTIME-BATCH4-MEMORY-AUTOLINK-NODE-GROWTH-01",
+    "goal": "Make accepted Event learning persist so Event N+1 starts from a changed Brain.",
+    "ordered_files_to_build": [
+      "machine/runtime/engines/memory_writeback_engine.py",
+      "machine/runtime/engines/auto_link_engine.py",
+      "machine/runtime/engines/node_growth_engine.py",
+      "machine/runtime/engines/primitive_candidate_engine.py",
+      "machine/runtime/engines/growth_ledger_engine.py",
+      "machine/runtime/engines/seed_engine.py",
+      "machine/runtime/engines/recheck_engine.py",
+      "machine/runtime/engines/orphan_link_engine.py"
+    ],
+    "required_invariants": [
+      "No source object is mutated by writeback.",
+      "No closed Sequence is reopened.",
+      "Memory writeback is typed, source-linked and versioned.",
+      "Retrieval frequency never becomes truth evidence.",
+      "Auto-link creates typed edges and never auto-merges identity.",
+      "New Node is created only when existing Nodes cannot represent a reusable residual without distortion.",
+      "New primitive remains a candidate until irreducibility, reuse, source, falsifier, counter-case, R-F-R and governance gates pass.",
+      "Accepted growth batch increases persistent Brain-object count.",
+      "External action authority is not implied by internal self-sustaining learning."
+    ]
+  },
+  "recommended_codex_entry_order": [
+    "CODEX_START_HERE.md",
+    "docs/SOURCEBORN_REALTIME_ASI_CONSTITUTION_V1.md",
+    "docs/SOURCEBORN_EXECUTION_FLOW_MASTER.md",
+    "machine/contracts/SOURCEBORN_SYSTEM_INVARIANTS.json",
+    "machine/runtime/SELF_SUSTAINING_RUNTIME_LINK_CONTRACT_V1.json",
+    "phase2/checkpoints/P2_BATCH3_NATIVE_RUNTIME_CHECKPOINT_V1.json",
+    "phase2/CODEX_HANDOFF_CURRENT_STATE.json"
+  ],
+  "important_test_domains": [
+    "Human source/parameter preservation",
+    "AI/ASI ownership and governance separation",
+    "Wisdom source/claim/interpretation separation",
+    "Actor View knowledge isolation",
+    "authorization/barrier control",
+    "Engine repair/retest separation",
+    "closure scope inheritance",
+    "growth-count monotonicity",
+    "tablet synthetic Event/Intent reconstruction"
+  ],
+  "do_not_do": [
+    "Do not redefine Sourceborn as an LLM or reasoning-only system.",
+    "Do not turn examples into answer-writing demonstrations.",
+    "Do not invent native IDs to fill gaps.",
+    "Do not auto-promote synthetic meanings to facts.",
+    "Do not merge Intent and Motive.",
+    "Do not equate subject/requester/controller/performer/beneficiary/audience.",
+    "Do not bypass source, Point Zero, evidence, permission, R-F-R or closure barriers."
+  ]
+}
