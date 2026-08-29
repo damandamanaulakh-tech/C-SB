@@ -1,0 +1,46 @@
+[ LAYER 1: THE SYSTEM ]
+
+[ HUMAN ]                                HUMAN MEMORY 
+                                      (The Master Concept)
+                                              ⬇
+[ COMPUTER ]                            COMPUTER MEMORY 
+                                    (The Hardware System)
+
+
+                                  [ LAYER 2: THE PROCESSES ]
+                          (How information universally moves through the system)
+
+[ HUMAN ]          ENCODING  ---------------->  STORAGE  ---------------->  RETRIEVAL
+                 Meaning-based            Virtually limitless           Reconstructive recall
+            (Associative networks)       (Neural connections)       (Prone to bias / errors)
+                                                                    (Gradual decay, fading, or interference)
+                                              ⬇
+[ COMPUTER ]       ENCODING  ---------------->  STORAGE  ---------------->  RETRIEVAL
+                Location-based              Fixed capacity              Flawless, exact replication
+             (Exact address slots)       (Hardware gigabytes)           (Total corruption or file loss)
+
+
+                                 [ LAYER 3: THE TEMPORAL STAGES ]
+                           (Where information lives over time, left to right)
+
+[ HUMAN ]      SENSORY MEMORY  --------->  SHORT-TERM / WORKING  --------->  LONG-TERM MEMORY
+            (Millisecond filter)           (Active processing)             (Permanent archive)
+                                              ⬇
+[ COMPUTER ]   INPUT BUFFERS   --------->      RAM / CACHE       --------->  HARD DRIVE / SSD
+           (Raw I/O data stream)        (Active processing in CPU)         (Permanent file storage)
+           *New matched equivalent*      *New matched equivalent*          *New matched equivalent*
+
+
+                                 [ LAYER 4: THE LTM SUBSYSTEMS ]
+                               (How Long-Term Memory is categorized)
+
+[ HUMAN ]                DECLARATIVE (EXPLICIT)                NON-DECLARATIVE (IMPLICIT)
+                         - Requires conscious thought          - Unconscious / Automatic
+                         - Facts, events, concepts             - Skills, habits, priming
+
+                                              ⬇
+
+[ COMPUTER ]             USER DATA (FILES / DATABASES)         SYSTEM FILES (OS / FIRMWARE)
+                         - Requires explicit save command      - Automatic background execution
+                         - Documents, images, saved data       - Executable code, system protocols
+                         *New matched equivalent*              *New matched equivalent*
