@@ -1,0 +1,41 @@
+{
+  "checkpoint_id": "P2-MEMORY-PYRAMID-ALIGNMENT-CHECKPOINT-V1",
+  "status": "ALIGNMENT_BUILT_IMPLEMENTATION_NEXT",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "source_ref": "raw/sourceborn/MEMORY_PYRAMID_USER_SOURCE_V1.txt",
+  "alignment_spec_ref": "docs/SOURCEBORN_MEMORY_PYRAMID_ALIGNMENT_V1.md",
+  "machine_contract_ref": "machine/runtime/MEMORY_PYRAMID_ALIGNMENT_CONTRACT_V1.json",
+  "existing_memory_registry_ref": "registries/sourceborn/MEMORY_CHANNEL_REGISTRY_V1.json",
+  "decision": "Use the user-provided four-layer Memory Pyramid as an additive lifecycle overlay on Sourceborn typed memory and the Segment/Container/Parameter graph.",
+  "layers": {
+    "system": "SOURCEBORN_MEMORY_BRAIN",
+    "process": ["ENCODING", "STORAGE", "RETRIEVAL", "REACTIVATION"],
+    "temporal": ["TRANSIENT_INPUT", "ACTIVE_WORKING", "PERSISTENT_LONG_TERM"],
+    "long_term_modes": ["EXPLICIT_KNOWLEDGE", "PROCEDURAL_RUNTIME", "MIXED", "INDEX_ONLY"]
+  },
+  "preserved_existing_memory_types": 12,
+  "seg_con_parameter_integration": "Event encoding activates Segment/Container/Parameter structures into Node-Brain working memory; accepted results are stored as typed persistent memory and retrieved into later Events.",
+  "batch4_revised_order": [
+    "memory_encoding_engine.py",
+    "memory_retrieval_engine.py",
+    "memory_writeback_engine.py",
+    "auto_link_engine.py",
+    "growth_ledger_engine.py",
+    "node_growth_engine.py",
+    "primitive_candidate_engine.py",
+    "seed_engine.py",
+    "recheck_engine.py",
+    "orphan_link_engine.py"
+  ],
+  "hard_invariants": [
+    "Memory Pyramid temporal stages are not new primitive memory types.",
+    "Working memory does not automatically persist.",
+    "Persistent memory does not automatically become truth.",
+    "Retrieval frequency does not strengthen independent evidence.",
+    "Closed Sequences remain immutable during memory reactivation.",
+    "Procedural learning does not silently mutate executable code.",
+    "Pattern learning does not automatically create a new Human parameter.",
+    "Source lineage remains attached through encoding, storage and retrieval."
+  ],
+  "next_sequence": "BUILD_SEG_CON_PARAMETER_GRAPH_WITH_MEMORY_LIFECYCLE_AND_BATCH4_WRITEBACK"
+}
