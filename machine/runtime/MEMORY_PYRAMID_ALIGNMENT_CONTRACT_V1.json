@@ -1,0 +1,225 @@
+{
+  "contract_id": "SOURCEBORN-MEMORY-PYRAMID-ALIGNMENT-CONTRACT-V1",
+  "version": "1.0.0",
+  "status": "PHASE2_ACTIVE_ALIGNMENT_CONTRACT",
+  "system_identity": "REAL_TIME_GROWING_ASI_PROTOTYPE",
+  "source_ref": "raw/sourceborn/MEMORY_PYRAMID_USER_SOURCE_V1.txt",
+  "alignment_spec_ref": "docs/SOURCEBORN_MEMORY_PYRAMID_ALIGNMENT_V1.md",
+  "existing_memory_registry_ref": "registries/sourceborn/MEMORY_CHANNEL_REGISTRY_V1.json",
+  "memory_schema_ref": "machine/schemas/memory_object.schema.json#/$defs/MemoryObject",
+  "alignment_law": [
+    "The Memory Pyramid is a cross-cutting lifecycle overlay, not a replacement for Sourceborn typed memory classes.",
+    "Memory type, process phase, temporal stage and memory mode are orthogonal dimensions.",
+    "Encoding does not imply truth promotion.",
+    "Working memory does not imply persistent memory.",
+    "Persistence does not imply canonical truth.",
+    "Retrieval frequency does not imply epistemic support.",
+    "Procedural runtime memory does not authorize uncontrolled executable-code mutation.",
+    "Pattern learning does not automatically create a new primitive parameter.",
+    "Retrieval into a new Event does not reopen a closed Sequence."
+  ],
+  "sourceborn_memory_types_preserved": [
+    "RAW_MEMORY",
+    "EVENT_MEMORY",
+    "INTENT_MEMORY",
+    "RELATION_MEMORY",
+    "PATH_MEMORY",
+    "PATTERN_MEMORY",
+    "EVIDENCE_MEMORY",
+    "CONTRADICTION_MEMORY",
+    "ACTOR_STATE_MEMORY",
+    "SEQUENCE_MEMORY",
+    "NODE_LOCAL_MEMORY",
+    "GLOBAL_MEMORY_INDEX"
+  ],
+  "process_phases": [
+    {
+      "phase_id": "MP-P1",
+      "name": "ENCODING",
+      "meaning": "Convert a locked source/Event into structured source-linked runtime objects without promoting them to truth.",
+      "primary_runtime_steps": [
+        "SOURCE_LOCK",
+        "POINT_ZERO",
+        "EVENT_DECOMPOSITION",
+        "OBSERVATION_EXTRACTION",
+        "SEGMENT_CONTAINER_PARAMETER_ACTIVATION",
+        "RELATION_GRAPH",
+        "ACTOR_ROLE_STATE_BINDING",
+        "MEMORY_ENCODING_PACKET"
+      ]
+    },
+    {
+      "phase_id": "MP-P2",
+      "name": "STORAGE",
+      "meaning": "Persist an authorized typed and versioned memory object with lineage, retention, links and index metadata.",
+      "primary_runtime_steps": [
+        "WRITE_AUTHORITY_CHECK",
+        "MEMORY_TYPE_ASSIGNMENT",
+        "OWNER_SCOPE_ASSIGNMENT",
+        "RETENTION_POLICY",
+        "MEMORY_ID_VERSION",
+        "PERSISTENT_WRITE",
+        "AUTO_LINK",
+        "GLOBAL_INDEX",
+        "GROWTH_LEDGER"
+      ]
+    },
+    {
+      "phase_id": "MP-P3",
+      "name": "RETRIEVAL",
+      "meaning": "Retrieve typed memory references into a current working set using scope, provenance and relevance controls.",
+      "primary_runtime_steps": [
+        "DERIVE_CURRENT_QUERY",
+        "SEARCH_GLOBAL_MEMORY_INDEX",
+        "SCOPE_PERMISSION_FILTER",
+        "SOURCE_LINEAGE_DEDUPLICATION",
+        "RELEVANCE_RANKING",
+        "RETURN_TYPED_MEMORY_REFS",
+        "NODE_BRAIN_REACTIVATION"
+      ]
+    },
+    {
+      "phase_id": "MP-P4",
+      "name": "REACTIVATION",
+      "meaning": "Use retrieved memory inside a new Event/Sequence working state without reopening the historical Sequence that produced the memory.",
+      "primary_runtime_steps": [
+        "LOAD_TO_WORKING_MEMORY",
+        "ACTIVATE_RELEVANT_NODE_BRAINS",
+        "RETEST_RELEVANCE",
+        "GENERATE_NEW_COMBINATIONS_OR_EVIDENCE_TESTS"
+      ]
+    }
+  ],
+  "temporal_stages": [
+    {
+      "stage_id": "MP-T0",
+      "name": "TRANSIENT_INPUT",
+      "analogical_source_roles": ["SENSORY_MEMORY", "INPUT_BUFFER"],
+      "sourceborn_role": "Pre-persistence inbound source/Event material awaiting source lock and decomposition.",
+      "persistent": false
+    },
+    {
+      "stage_id": "MP-T1",
+      "name": "ACTIVE_WORKING",
+      "analogical_source_roles": ["SHORT_TERM_WORKING_MEMORY", "RAM_CACHE"],
+      "sourceborn_role": "Current Event, Sequence and Node-Brain working sets including retrieved memories and candidate combinations.",
+      "persistent": false,
+      "may_generate_persistence_candidates": true
+    },
+    {
+      "stage_id": "MP-T2",
+      "name": "PERSISTENT_LONG_TERM",
+      "analogical_source_roles": ["LONG_TERM_MEMORY", "PERSISTENT_STORAGE"],
+      "sourceborn_role": "Versioned typed MemoryObject records plus graph/index references that survive execution closure under retention policy.",
+      "persistent": true
+    }
+  ],
+  "memory_modes": [
+    {
+      "mode": "EXPLICIT_KNOWLEDGE",
+      "meaning": "Inspectable source-linked records about Events, claims, states, Intents, relations, evidence, contradictions and history.",
+      "typical_memory_types": [
+        "RAW_MEMORY",
+        "EVENT_MEMORY",
+        "INTENT_MEMORY",
+        "RELATION_MEMORY",
+        "EVIDENCE_MEMORY",
+        "CONTRADICTION_MEMORY",
+        "ACTOR_STATE_MEMORY"
+      ]
+    },
+    {
+      "mode": "PROCEDURAL_RUNTIME",
+      "meaning": "Reusable execution/routing/path/pattern structures that influence future runtime without becoming factual claims or uncontrolled code mutations.",
+      "typical_memory_types": [
+        "PATH_MEMORY",
+        "PATTERN_MEMORY",
+        "NODE_LOCAL_MEMORY"
+      ]
+    },
+    {
+      "mode": "MIXED",
+      "meaning": "Memory containing both explicit execution history and reusable runtime structure.",
+      "typical_memory_types": [
+        "PATH_MEMORY",
+        "PATTERN_MEMORY",
+        "SEQUENCE_MEMORY",
+        "NODE_LOCAL_MEMORY"
+      ]
+    },
+    {
+      "mode": "INDEX_ONLY",
+      "meaning": "Retrieval metadata pointing to authoritative memory payloads without becoming a duplicate evidence source.",
+      "typical_memory_types": ["GLOBAL_MEMORY_INDEX"]
+    }
+  ],
+  "recommended_lifecycle_metadata": {
+    "process_phase": ["ENCODING", "STORAGE", "RETRIEVAL", "REACTIVATION"],
+    "temporal_stage": ["TRANSIENT_INPUT", "ACTIVE_WORKING", "PERSISTENT_LONG_TERM"],
+    "memory_mode": ["EXPLICIT_KNOWLEDGE", "PROCEDURAL_RUNTIME", "MIXED", "INDEX_ONLY"],
+    "persistence_transition": [
+      "TRANSIENT_ONLY",
+      "CANDIDATE_FOR_WRITE",
+      "PERSISTED",
+      "VERSIONED",
+      "ARCHIVED"
+    ]
+  },
+  "seg_con_parameter_alignment": {
+    "source_hierarchy": ["HUMAN", "SEGMENT", "CONTAINER", "PARAMETER"],
+    "runtime_alignment": [
+      "EVENT",
+      "ENCODING",
+      "PARAMETER_ACTIVATION",
+      "ACTIVE_PARAMETER_CONSTELLATION",
+      "NODE_BRAIN_ACTIVE_WORKING_MEMORY",
+      "COMBINATION_INTENT_EVIDENCE_RFR",
+      "STORAGE",
+      "PERSISTENT_TYPED_MEMORY",
+      "GLOBAL_MEMORY_INDEX",
+      "RETRIEVAL",
+      "NEXT_EVENT_REACTIVATION"
+    ],
+    "law": "Segment/Container/Parameter defines source and activation structure; the Memory Pyramid defines lifecycle, temporal location and persistence mode."
+  },
+  "batch4_engine_plan_aligned": [
+    "memory_encoding_engine.py",
+    "memory_retrieval_engine.py",
+    "memory_writeback_engine.py",
+    "auto_link_engine.py",
+    "growth_ledger_engine.py",
+    "node_growth_engine.py",
+    "primitive_candidate_engine.py",
+    "seed_engine.py",
+    "recheck_engine.py",
+    "orphan_link_engine.py"
+  ],
+  "graph_edge_candidates": [
+    "ENCODED_FROM",
+    "ENTERED_WORKING_MEMORY",
+    "PROMOTED_TO_PERSISTENT_MEMORY",
+    "STORED_AS",
+    "RETRIEVED_FROM",
+    "REACTIVATED_IN",
+    "PROCEDURALIZED_FROM",
+    "EXPLICITLY_RECORDED_AS",
+    "INDEXED_BY",
+    "WORKING_COPY_OF",
+    "PERSISTENT_VERSION_OF"
+  ],
+  "validation_rules": [
+    "Existing 12 memory types remain unchanged by this contract.",
+    "Encoding, Storage and Retrieval must remain distinguishable runtime phases.",
+    "T0, T1 and T2 are temporal stages and may not be counted as new memory types.",
+    "Explicit, Procedural, Mixed and Index-only are memory-mode overlays and not epistemic truth classes.",
+    "No T1 candidate may become T2 without a writeback decision.",
+    "No T2 persistence may imply truth promotion by itself.",
+    "Retrieval counters remain separate from independent support counters.",
+    "Closed Sequence references remain immutable during reactivation.",
+    "Node-local persistence does not grant global truth authority.",
+    "All persistence transitions retain source lineage and write authority.",
+    "Pattern/procedural learning cannot silently mutate executable code.",
+    "Pattern/procedural learning cannot automatically create a new primitive parameter."
+  ],
+  "next_implementation_target": "BATCH4_MEMORY_ENCODING_RETRIEVAL_WRITEBACK_AUTOLINK_GROWTH"
+}
